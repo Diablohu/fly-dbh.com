@@ -46,10 +46,9 @@ const Item = memo(({ video: { name, thumbnail, link, release } }) => {
     const time = new Date(release);
     return (
         <div className={`${classNameModule}-item`}>
-            <span
-                className="thumbnail"
-                style={{ backgroundImage: `url(${thumbnail})` }}
-            />
+            <span className="thumbnail">
+                <img src={thumbnail} alt={name} loading="lazy" />
+            </span>
             <span className="links">
                 <a
                     href={link.bilibili}

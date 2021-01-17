@@ -30,7 +30,7 @@
         "axios": "^0.21.1",
         "bind-event": "^1.1.2",
         "classnames": "^2.2.6",
-        "koot": "^0.14.11"
+        "koot": "^0.14.12"
     },
     "devDependencies": {
         "@babel/plugin-proposal-nullish-coalescing-operator": "^7.12.1",
@@ -38,15 +38,16 @@
         "autoprefixer": "^9.8.6",
         "babel-eslint": "^10.1.0",
         "cssnano": "^4.1.10",
-        "eslint": "^7.6.0",
-        "eslint-config-koot": "^1.7.1",
-        "husky": "^4.2.5",
+        "eslint": "^7.18.0",
+        "eslint-config-koot": "^3.1.1",
+        "husky": "^4.3.8",
         "lint-staged": "^10.2.11",
         "normalize.css": "^8.0.1",
         "prettier": "^2.0.5",
-        "prettier-eslint": "^11.0.0",
+        "prettier-eslint": "^12.0.0",
         "pretty-ms": "^7.0.1",
         "redux-logger": "^3.0.6",
+        "simple-git": "^2.31.0",
         "svg-url-loader": "^6.0.0",
         "url-loader": "^4.1.0"
     },
@@ -68,6 +69,6 @@
         ]
     },
     "koot": {
-        "version": "0.14.11"
+        "version": "0.14.12"
     }
 }
