@@ -29,6 +29,16 @@
     <script type="text/javascript"><%- content('critical.js') %></script>
     <%- inject.svgIconPack %>
     <%- inject.scripts %>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C48ZDR3K8S"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-C48ZDR3K8S');
+    </script>
 </body>
 
 </html>
