@@ -21,6 +21,7 @@
         "build": "koot-build",
         "dev": "koot-dev",
         "analyze": "koot-analyze",
+        "push": "node ./scripts/push.js",
         "eslint": "eslint \"src/**/*.+(js|jsx)\"",
         "check-types": "tsc --noEmit",
         "up": "yarn upgrade-interactive --latest"
@@ -32,6 +33,7 @@
         "koot": "^0.14.11"
     },
     "devDependencies": {
+        "@babel/plugin-proposal-nullish-coalescing-operator": "^7.12.1",
         "@types/classnames": "^2.2.10",
         "autoprefixer": "^9.8.6",
         "babel-eslint": "^10.1.0",
@@ -43,26 +45,13 @@
         "normalize.css": "^8.0.1",
         "prettier": "^2.0.5",
         "prettier-eslint": "^11.0.0",
+        "pretty-ms": "^7.0.1",
         "redux-logger": "^3.0.6",
         "svg-url-loader": "^6.0.0",
         "url-loader": "^4.1.0"
     },
     "bugs": {
         "url": "https://github.com/cmux/koot/issues"
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "lint-staged"
-        }
-    },
-    "lint-staged": {
-        "*.{js,jsx,cjs,mjs,ts,tsx}": [
-            "eslint --fix",
-            "prettier --write"
-        ],
-        "*.{json,md,css,less,sass,scss}": [
-            "prettier --write"
-        ]
     },
     "koot": {
         "version": "0.14.11"

@@ -25,10 +25,20 @@ textarea {
 
 // global styles --------------------------------------------------------------
 
+:root {
+    --root-content-color: @color-base;
+    --root-background-color: @color-background;
+    // @media-query-dark-theme: ~'(prefers-color-scheme: dark)';
+    // @media @media-query-dark-theme {
+    //     & {
+    //         @rules();
+    //     }
+    // }
+}
 html,
 body {
-    height: 100%;
-    height: -webkit-fill-available;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
 }
 html {
     font-family: Roboto, 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue',
@@ -41,9 +51,13 @@ html {
 
     box-sizing: border-box;
     color: @color-base;
+    color: var(--root-content-color);
+    background: @color-background;
+    background: var(--root-background-color);
     font-size: @root-font-size;
     text-decoration-skip-ink: auto;
     text-underline-position: under;
+    height: -webkit-fill-available;
 }
 body {
     font-size: @base-font-size;
@@ -65,4 +79,9 @@ body {
     cursor: default;
     pointer-events: none;
     opacity: 0.5;
+}
+
+// general elements -----------------------------------------------------------
+a {
+    .styles-link();
 }

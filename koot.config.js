@@ -19,7 +19,7 @@ module.exports = {
     templateInject: './src/index.inject.js',
     i18n: [
         ['zh', './src/locales/zh.js'],
-        ['en', './src/locales/en.js'],
+        // ['en', './src/locales/en.js'],
     ],
 
     /**************************************************************************
@@ -36,14 +36,12 @@ module.exports = {
      * 客户端设置 & 生命周期
      *************************************************************************/
     icon: './src/assets/app-icon.png',
-    webApp: {
-        themeColor: '#0092f5',
-    },
+    webApp: true,
 
     /**************************************************************************
      * 服务器端设置 & 生命周期
      *************************************************************************/
-    port: 8081,
+    port: 8090,
     proxyRequestOrigin: {
         protocol: 'https',
     },
@@ -100,12 +98,14 @@ module.exports = {
         },
     }),
     staticCopyFrom: path.resolve(__dirname, './src/assets/public'),
+    webpackBefore: require('./scripts/koot/webpack-before'),
 
     /**************************************************************************
      * 开发环境 & 开发设置
      *************************************************************************/
     aliases: {
         '@src': path.resolve('./src'),
+        '@api': path.resolve('./src/api'),
         '@assets': path.resolve('./src/assets'),
         '@components': path.resolve('./src/components'),
         '@constants': path.resolve('./src/constants'),
@@ -115,6 +115,7 @@ module.exports = {
         '@store': path.resolve('./src/store'),
         '@views': path.resolve('./src/views'),
         '~vars.less': path.resolve('./src/constants/less/_all.less'),
+        '@data': path.resolve('./data'),
         '@types': path.resolve('./types'),
     },
     defines: {
@@ -125,7 +126,7 @@ module.exports = {
             )
         ).replace(/\n/g, ''),
     },
-    devPort: 3088,
+    devPort: 3090,
 
     /**************************************************************************
      * 更多选项请查阅[文档](https://koot.js.org/#/config)

@@ -38,6 +38,12 @@
     }
 }
 
+.transition(...) {
+    transition-property: @arguments;
+    // transition-duration: 200ms;
+    // transition-timing-function: ease-out;
+}
+
 .input-placeholder(@styles) {
     &::-webkit-input-placeholder {
         /* Chrome/Opera/Safari */
@@ -73,4 +79,71 @@
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto;
+}
+
+.hero-patterns(@ellipseAt: bottom) {
+    @color-pattern-1: mix(#fff, @theme-bluegrey-50);
+    @color-pattern-2: mix(#fff, @theme-bluegrey-100);
+    @color-pattern-3: mix(#fff, @theme-bluegrey-200);
+    position: relative;
+    &::before,
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    &::before {
+        z-index: -2;
+        background: radial-gradient(
+            ellipse at @ellipseAt,
+            @color-pattern-1 25%,
+            @color-pattern-3 100%
+        );
+    }
+    &::after {
+        z-index: -1;
+        opacity: 0.05;
+        background: linear-gradient(
+                135deg,
+                #708090 21px,
+                #d9ecff 22px,
+                #d9ecff 24px,
+                transparent 24px,
+                transparent 67px,
+                #d9ecff 67px,
+                #d9ecff 69px,
+                transparent 69px
+            ),
+            linear-gradient(
+                    225deg,
+                    #708090 21px,
+                    #d9ecff 22px,
+                    #d9ecff 24px,
+                    transparent 24px,
+                    transparent 67px,
+                    #d9ecff 67px,
+                    #d9ecff 69px,
+                    transparent 69px
+                )
+                0 64px;
+        background-color: #708090;
+        background-size: 64px 128px;
+    }
+}
+
+// General ====================================================================
+.styles-link() {
+    .transition(color);
+    color: @color-accent;
+
+    .styles-hover() {
+        color: @color-accent-darker;
+    }
+    .styles-active() {
+        color: @color-link-active;
+    }
+    .is-hover(.styles-hover() ; .styles-active() ;);
 }

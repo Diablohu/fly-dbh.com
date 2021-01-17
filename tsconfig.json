@@ -19,6 +19,8 @@
         "paths": {
             "@src": ["./src"],
             "@src/*": ["./src/*"],
+            "@api": ["./src/api"],
+            "@api/*": ["./src/api/*"],
             "@assets": ["./src/assets"],
             "@assets/*": ["./src/assets/*"],
             "@components": ["./src/components"],
@@ -34,9 +36,11 @@
             "~Assets": ["./src/assets"],
             "~Assets/*": ["./src/assets/*"],
             "~/*": ["./src/*"],
+            "@data": ["./data"],
+            "@data/*": ["./data/*"],
             "@types": ["./types"],
             "@types/*": ["./types/*"]
         }
     },
-    "include": ["src", "types/**/*.ts"]
+    "include": ["src", "data", "types/**/*.ts"]
 }

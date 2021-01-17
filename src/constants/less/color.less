@@ -1,7 +1,15 @@
 @color-base: @theme-bluegrey-900;
+@color-background: #fff;
 
-@color-nav-background: @theme-lightblue-700;
-@color-home-cover-background: @theme-lightblue-700;
+@theme-accent: @theme-teal-400;
+
+@color-accent: @theme-accent;
+@color-accent-lighter: lighten(@color-accent, 15%);
+@color-accent-darker: darken(@color-accent, 15%);
+@color-link-active: darken(desaturate(@color-accent, 75%), 0%);
+
+@color-bilibili: #07a3d7;
+@color-youtube: #f00;
 
 // Color Theme: Blue Grey
 @theme-bluegrey-50: hsl(204, 15%, 94%); // #edf0f1

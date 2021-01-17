@@ -1,0 +1,163 @@
+@import '~vars.less';
+
+.component {
+    @gutter: 40px;
+
+    position: relative;
+    padding: @gutter 0;
+    margin: 0 auto;
+
+    & > .list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+        grid-gap: @gutter;
+        margin-top: @gutter;
+    }
+}
+
+.component-item {
+    position: relative;
+    cursor: default;
+    z-index: 10;
+    transition: none 150ms ease-out;
+
+    &::after {
+        @offset: -10px;
+        content: '';
+        position: absolute;
+        top: @offset;
+        bottom: @offset;
+        left: @offset;
+        right: @offset;
+        background: #fff;
+        z-index: -1;
+        border: 1px solid @color-accent;
+        border-radius: 7px;
+        box-shadow: 0 25px 20px -20px fade(#000, 25%);
+        opacity: 0;
+        transition: inherit;
+        transition-property: opacity;
+    }
+
+    & > .thumbnail {
+        position: relative;
+        width: 100%;
+        padding-bottom: percentage(9 / 16);
+        height: 0;
+        display: block;
+        background: no-repeat 50% 50%;
+        background-size: cover;
+        border-radius: 5px 5px 0 0;
+        border: 1px solid @color-accent;
+        border-bottom: 0;
+        // filter: grayscale(0.75);
+        transition: inherit;
+        transition-property: filter;
+    }
+    & > .links {
+        @height: 50px;
+        display: block;
+        margin-top: 0;
+        text-align: left;
+        border-radius: 0 0 5px 5px;
+        border: 1px solid @color-accent;
+        border-top: 0;
+        height: 50px;
+        overflow: hidden;
+        transition: inherit;
+        & > a {
+            @icon-size: 30px;
+            color: transparent !important;
+            display: inline-block;
+            width: 50%;
+            height: @height;
+            position: relative;
+            vertical-align: top;
+            overflow: hidden;
+            user-select: none;
+            transition: inherit;
+            transition-property: background-color;
+            &::after {
+                content: '';
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                box-shadow: inset 0 5px 10px fade(#000, 25%);
+            }
+            svg {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                width: @icon-size;
+                height: @icon-size;
+                margin-top: (0 - @icon-size / 2);
+                margin-left: (0 - @icon-size / 2);
+                fill: @color-accent;
+                display: block;
+                fill: #fff;
+                transition: inherit;
+                transition-property: transform;
+            }
+            &.bilibili {
+                background: lighten(desaturate(@color-bilibili, 50%), 15%);
+            }
+            &.youtube {
+                background: lighten(desaturate(@color-youtube, 50%), 15%);
+            }
+            .styles-hover() {
+                svg {
+                    transform: scale(1.2);
+                }
+            }
+            .is-hover(.styles-hover());
+        }
+    }
+    & > .infos {
+        width: 100%;
+        display: flex;
+        margin-top: 12px;
+        flex-flow: row nowrap;
+        padding: 0 8px 0 4px;
+        & > .name,
+        & > .date {
+            display: block;
+        }
+        & > .name {
+            flex: 1;
+            color: @color-accent;
+            font-size: 20px;
+            line-height: 1.2;
+        }
+        & > .date {
+            flex: 0;
+            font-size: 14px;
+            line-height: 1.2;
+            font-style: italic;
+            white-space: nowrap;
+            margin-top: 4px;
+            margin-left: 1em;
+        }
+    }
+
+    .styles-hover() {
+        & > .thumbnail {
+            filter: none;
+        }
+        & > .links {
+            & > a {
+                &.bilibili {
+                    background: @color-bilibili;
+                }
+                &.youtube {
+                    background: @color-youtube;
+                }
+            }
+        }
+        &::after {
+            opacity: 1;
+        }
+    }
+    .is-hover(.styles-hover());
+}

@@ -1,37 +1,124 @@
 @import '~vars.less';
 
 .component {
+    @banner-width: 33.3333vw;
+    @banner-height: 75vh;
+
     position: relative;
-    border-top: @nav-height solid transparent;
 
-    & > main {
-        border-top: @main-gutter-top solid transparent;
-        border-bottom: @main-gutter-bottom solid transparent;
+    & > .banner {
+        position: relative;
+        background: url(@assets/banner.jpg) no-repeat 50% 50%;
+        background-size: cover;
+        width: 100%;
+        height: @banner-height;
+        max-height: 800px;
 
-        a {
-            display: inline-block;
-            color: @color-nav-background;
-            text-decoration: none;
-            line-height: 1em;
-            .icon {
-                @size: 16px;
-                width: @size;
-                height: @size;
-                vertical-align: bottom;
+        &::before,
+        &::after,
+        & > .wrapper {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            flex: none;
+        }
+        &::after {
+            z-index: 10;
+            background: fade(#000, 15%);
+        }
+        // 点阵
+        &::before {
+            z-index: 100;
+            background-image: radial-gradient(
+                fade(#000, 10%) 66.6667%,
+                transparent 66.6667%
+            );
+            background-size: 4px 4px;
+            // pointer-events: none;
+        }
+
+        & > .wrapper {
+            z-index: 200;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: space-around;
+            align-items: center;
+            padding: 0 30px;
+            &::before,
+            &::after {
+                content: '';
+                flex: 1;
             }
-            &:hover {
-                color: #000;
-            }
-            &:active {
-                color: hsl(0, 0%, 65%);
+        }
+        .logo {
+            flex: 1;
+            color: transparent;
+            background: url(@assets/sim-pilot-plate.svg) no-repeat 50% 50%;
+            background-size: contain;
+            margin: 0;
+            padding: 0;
+            min-height: 200px;
+            user-select: none;
+        }
+        .subscribe {
+            flex: none;
+            padding-top: 5vh;
+            & > a {
+                @size: 40px;
+                display: inline-block;
+                line-height: @size;
+                border-radius: 10px;
+                padding-left: (@size + 20px);
+                padding-right: 20px;
+                color: #fff;
+                position: relative;
+                text-decoration: none;
+                margin: 0 10px;
+                transition: transform 200ms ease-out;
+                &>.icon {
+                    content: '';
+                    position: absolute;
+                    display: block;
+                    top: 7px;
+                    left: 10px;
+                    bottom: 7px;
+                    height: (@size - 7px - 7px);
+                    width: @size;
+                    background: no-repeat 50% 50%;
+                    background-size: contain;
+                    fill: #fff;
+                }
+                &.youtube {
+                    background: @color-youtube;
+                }
+                &.bilibili {
+                    background: @color-bilibili;
+                }
+                .styles-hover() {
+                    color: #fff;
+                    transform: scale(1.1);
+                }
+                .styles-active() {
+                    color: #fff;
+                    transform: scale(0.95);
+                }
+                .is-hover(.styles-hover(); .styles-active(););
             }
         }
     }
 
-    &.is-home {
-        border-top-color: @color-home-cover-background;
-        & > main {
-            border-top-width: 0;
-        }
+    & > .list{
+        .hero-patterns();
+    }
+
+    & > .infos{
+        cursor: default;
+        padding: 26px 0;
+        font-size: 14px;
+        line-height: 1.5;
+        text-align: center;
     }
 }
