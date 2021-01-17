@@ -53,6 +53,8 @@
         // filter: grayscale(0.75);
         transition: inherit;
         transition-property: filter;
+        overflow: hidden;
+        background: @color-accent;
         & > img {
             display: block;
             position: absolute;
@@ -74,6 +76,7 @@
         height: 50px;
         overflow: hidden;
         transition: inherit;
+        background: @color-accent;
         & > a {
             @icon-size: 30px;
             color: transparent !important;
