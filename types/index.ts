@@ -39,7 +39,8 @@ export interface VideoItem {
     des: {
         [localeId: string]: string;
     };
-    thumbnail: string;
+    thumbnail?: string;
+    thumbnailOriginal?: string;
     link: {
         youtube: string;
         bilibili: string;

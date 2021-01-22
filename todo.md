@@ -1,0 +1,2 @@
+-   default video source
+-   pwa: shrink banner height
