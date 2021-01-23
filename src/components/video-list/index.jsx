@@ -23,15 +23,18 @@ class VideoList extends PureComponent {
     };
 
     render(): ReactNode {
+        const now = Date.now();
         return (
             <div className={this.props.className}>
                 <div className="header">
                     <h2>最新视频</h2>
                 </div>
                 <div className="list">
-                    {this.props.list.map((item) => (
-                        <Item video={item} key={item.release} />
-                    ))}
+                    {this.props.list
+                        .filter(({ release }) => now > release)
+                        .map((item) => (
+                            <Item video={item} key={item.release} />
+                        ))}
                 </div>
             </div>
         );
