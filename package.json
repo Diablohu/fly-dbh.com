@@ -10,6 +10,7 @@
         "axios": "^0.21.1",
         "bind-event": "^1.1.2",
         "classnames": "^2.2.6",
+        "query-string": "^6.13.8",
         "chalk": "^4.1.0",
         "classlist-polyfill": "^1.2.0",
         "cli-spinners": "^2.4.0",
