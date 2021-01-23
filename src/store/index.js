@@ -1,6 +1,7 @@
 import { createStore } from 'koot';
 
 import videos from './reducers/videos';
+import app from './reducers/app';
 
 /**
  * @type {Object|Function} 项目使用的 reducer，接受以下格式/形式
@@ -9,6 +10,7 @@ import videos from './reducers/videos';
  * - 类型是 _Object_ 的 reducer 对照表
  */
 const appReducer = {
+    app,
     videos,
 };
 

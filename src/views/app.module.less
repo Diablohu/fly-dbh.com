@@ -12,6 +12,7 @@
         background-size: cover;
         width: 100%;
         height: @banner-height;
+        min-height: 340px;
         max-height: 800px;
 
         &::before,
@@ -107,6 +108,10 @@
                 }
                 .is-hover(.styles-hover(); .styles-active(););
             }
+        }
+
+        &.mod-pwa{
+            height: (@banner-height * 2 / 3);
         }
     }
 
