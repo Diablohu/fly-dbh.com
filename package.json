@@ -56,6 +56,20 @@
     "bugs": {
         "url": "https://github.com/cmux/koot/issues"
     },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "lint-staged": {
+        "*.{js,jsx,cjs,mjs,ts,tsx}": [
+            "eslint --fix",
+            "prettier --write"
+        ],
+        "*.{json,md,css,less,sass,scss}": [
+            "prettier --write"
+        ]
+    },
     "koot": {
         "version": "0.14.12"
     }
