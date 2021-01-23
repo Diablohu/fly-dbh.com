@@ -48,6 +48,7 @@
         "pretty-ms": "^7.0.1",
         "redux-logger": "^3.0.6",
         "simple-git": "^2.31.0",
+        "string-replace-async": "^2.0.0",
         "svg-url-loader": "^6.0.0",
         "url-loader": "^4.1.0"
     },

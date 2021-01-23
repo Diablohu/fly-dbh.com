@@ -121,6 +121,7 @@ module.exports = {
         '@views': path.resolve('./src/views'),
         '~vars.less': path.resolve('./src/constants/less/_all.less'),
         '@data': path.resolve('./data'),
+        '~data': path.resolve('./.data'),
         '@types': path.resolve('./types'),
     },
     defines: {

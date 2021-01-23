@@ -12,7 +12,7 @@ module.exports = async ({ dist, apiServer }) => {
     const msg = log('', `Processing assets`, false);
     const waiting = spinner(msg + '...');
 
-    await spawn(`node ${path.resolve(__dirname, '../building/banner.js')}`);
+    await spawn(`node ${path.resolve(__dirname, '../building/videos.js')}`);
 
     waiting.stop();
     spinner(msg).succeed();

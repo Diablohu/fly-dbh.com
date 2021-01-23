@@ -15,7 +15,7 @@ export const getVideoList = (): ThunkAction<
     Action<string>
 > => async (dispatch) => {
     if (__SERVER__) {
-        const list: VideoItem[] = require('@data/videos').default;
+        const list: VideoItem[] = require('~data/videos').default;
         return dispatch({
             type: UPDATE_VIDEO_LIST,
             payload: list.map(({ name, des, ...o }) => ({

@@ -38,9 +38,11 @@
             "~/*": ["./src/*"],
             "@data": ["./data"],
             "@data/*": ["./data/*"],
+            "~data": ["./.data"],
+            "~data/*": ["./.data/*"],
             "@types": ["./types"],
             "@types/*": ["./types/*"]
         }
     },
-    "include": ["src", "data", "types/**/*.ts"]
+    "include": ["src", "data", "types/**/*.ts", ".data/**/*.ts"]
 }

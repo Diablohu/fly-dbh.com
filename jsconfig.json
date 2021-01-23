@@ -30,6 +30,8 @@
             "~/*": ["./src/*"],
             "@data": ["./data"],
             "@data/*": ["./data/*"],
+            "~data": ["./.data"],
+            "~data/*": ["./.data/*"],
             "@types": ["./types"],
             "@types/*": ["./types/*"]
         }

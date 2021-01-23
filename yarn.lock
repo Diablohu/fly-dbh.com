@@ -8405,6 +8405,11 @@ optionator@^0.9.1:
     type-check "^0.4.0"
     word-wrap "^1.2.3"
 
+options-defaults@^2.0.28:
+  version "2.0.28"
+  resolved "https://registry.yarnpkg.com/options-defaults/-/options-defaults-2.0.28.tgz#bebf6e9d5404e3063b36844553d7e184a3a9993e"
+  integrity sha512-iRTojxvRxrtq4kBCJrGDwYZ5R6NP5Oxy8ktlPiZBkJpvun9AZFXLG+BVyS/eEEk9zQbnAE49j9GBtuogHx5sCg==
+
 ora@^4.0.4:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/ora/-/ora-4.1.1.tgz#566cc0348a15c36f5f0e979612842e02ba9dddbc"
@@ -10890,6 +10895,11 @@ string-natural-compare@^3.0.1:
   resolved "https://registry.yarnpkg.com/string-natural-compare/-/string-natural-compare-3.0.1.tgz#7a42d58474454963759e8e8b7ae63d71c1e7fdf4"
   integrity sha512-n3sPwynL1nwKi3WJ6AIsClwBMa0zTi54fn2oLU6ndfTSIO05xaznjSf15PcBZU6FNWbmN5Q6cxT4V5hGvB4taw==
 
+string-replace-async@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/string-replace-async/-/string-replace-async-2.0.0.tgz#c3224e89d1216d6116e6e229cf74223cd84a733b"
+  integrity sha512-AHMupZscUiDh07F1QziX7PLoB1DQ/pzu19vc8Xa8LwZcgnOXaw7yCgBuSYrxVEfaM2d8scc3Gtp+i+QJZV+spw==
+
 string-width@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-1.0.2.tgz#118bdf5b8cdc51a2a7e70d211e07e2b0b9b107d3"
@@ -11414,6 +11424,13 @@ tryer@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/tryer/-/tryer-1.0.1.tgz#f2c85406800b9b0f74c9f7465b81eaad241252f8"
   integrity sha512-c3zayb8/kWWpycWYg87P71E1S1ZL6b6IJxfb5fvsUgsf0S2MVGaDhDXXjDMpdCpfWXqptc+4mXwmiy1ypXqRAA==
+
+ts-import@^2.0.28:
+  version "2.0.28"
+  resolved "https://registry.yarnpkg.com/ts-import/-/ts-import-2.0.28.tgz#f8458c55c7c5ca1fa32d08b0798358dcd868d445"
+  integrity sha512-HUqZ1YvYTfBZ5u79EnZh1PEycHDZUsfWiH9bMzkAJsIaffA8FZg+Tq0dBNpSDZCcTOKUoNL1Bg4vM320H4ZXsw==
+  dependencies:
+    options-defaults "^2.0.28"
 
 tsconfig-paths@^3.9.0:
   version "3.9.0"
