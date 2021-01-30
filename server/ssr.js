@@ -306,6 +306,7 @@ const videos = [{
     youtube: 'https://youtu.be/Q9ygEejv0lw',
     bilibili: 'https://www.bilibili.com/video/BV1JA411p75z'
   },
+  tag: ['device'],
   release: 1611462600000
 }, {
   name: {
@@ -319,6 +320,7 @@ const videos = [{
     youtube: 'https://youtu.be/sMlw3HfhPoA',
     bilibili: 'https://www.bilibili.com/video/BV1CU4y1x7Hm'
   },
+  tag: ['mod'],
   release: 1610249416000
 }, {
   name: {
@@ -332,6 +334,7 @@ const videos = [{
     youtube: 'https://youtu.be/lXeULVaPRLM',
     bilibili: 'https://www.bilibili.com/video/BV12f4y1e7Nt'
   },
+  tag: ['landing'],
   release: 1609210057000
 }, {
   name: {
@@ -345,6 +348,7 @@ const videos = [{
     youtube: 'https://youtu.be/wSOc5o-xCeQ',
     bilibili: 'https://www.bilibili.com/video/BV1YZ4y1g7sR'
   },
+  tag: ['tour'],
   release: 1607229007000
 }, {
   name: {
@@ -358,6 +362,7 @@ const videos = [{
     youtube: 'https://youtu.be/9JJhlXSBsbo',
     bilibili: 'https://www.bilibili.com/video/BV1Ey4y1S7V6'
   },
+  tag: ['clip', 'landing'],
   release: 1606188616000
 }, {
   name: {
@@ -371,6 +376,7 @@ const videos = [{
     youtube: 'https://youtu.be/StOJ9HkXccY',
     bilibili: 'https://www.bilibili.com/video/BV1gD4y1X7Ng'
   },
+  tag: ['landing'],
   release: 1605497402000
 }, {
   name: {
@@ -384,6 +390,7 @@ const videos = [{
     youtube: 'https://youtu.be/QElg8lr15tU',
     bilibili: 'https://www.bilibili.com/video/BV1ir4y1w7aj'
   },
+  tag: ['mod'],
   release: 1604808000000
 }, {
   name: {
@@ -397,6 +404,7 @@ const videos = [{
     youtube: 'https://youtu.be/6qPRsCuPMUE',
     bilibili: 'https://www.bilibili.com/video/BV1KD4y1R7UT'
   },
+  tag: ['landing'],
   release: 1604201460000
 }, {
   name: {
@@ -410,6 +418,7 @@ const videos = [{
     youtube: 'https://youtu.be/YxrXO9g-JLc',
     bilibili: 'https://www.bilibili.com/video/BV1tz4y1C78e'
   },
+  tag: ['landing', 'airport'],
   release: 1603596631000
 }, {
   name: {
@@ -423,6 +432,7 @@ const videos = [{
     youtube: 'https://youtu.be/XT9FdreY9ZQ',
     bilibili: 'https://www.bilibili.com/video/BV1x54y1R7nX'
   },
+  tag: ['device', 'tour'],
   release: 1603078204000
 }, {
   name: {
@@ -436,6 +446,7 @@ const videos = [{
     youtube: 'https://youtu.be/rndn4CINMQc',
     bilibili: 'https://www.bilibili.com/video/BV1m54y117rt'
   },
+  tag: ['tour'],
   release: 1602127832000
 }, {
   name: {
@@ -449,6 +460,7 @@ const videos = [{
     youtube: 'https://youtu.be/vNcbK0hF8mg',
     bilibili: 'https://www.bilibili.com/video/BV13p4y1Y7wS'
   },
+  tag: ['tour'],
   release: 1601546435000
 }, {
   name: {
@@ -462,6 +474,7 @@ const videos = [{
     youtube: 'https://youtu.be/F-jVs38ab8Y',
     bilibili: 'https://www.bilibili.com/video/BV1kK4y1874X'
   },
+  tag: ['landing'],
   release: 1601092856000
 }, {
   name: {
@@ -475,6 +488,7 @@ const videos = [{
     youtube: 'https://youtu.be/3Efm9u7TAyg',
     bilibili: 'https://www.bilibili.com/video/BV1yD4y1o7jE'
   },
+  tag: ['tour', 'landing'],
   release: 1600659015000
 }, {
   name: {
@@ -488,15 +502,16 @@ const videos = [{
     youtube: 'https://youtu.be/eO0Prwjklkg',
     bilibili: 'https://www.bilibili.com/video/BV17a4y1j7Qq'
   },
+  tag: ['training'],
   release: 1600056009000
 }];
 /* harmony default export */ __webpack_exports__["default"] = (videos);
 
 /***/ }),
 
-/***/ "./logs/tmp/config/full.293e27fcf0e3470d738d4127b8bfd345.js":
+/***/ "./logs/tmp/config/full.8bf1f53c4cb1990446b4015828bd296e.js":
 /*!******************************************************************!*\
-  !*** ./logs/tmp/config/full.293e27fcf0e3470d738d4127b8bfd345.js ***!
+  !*** ./logs/tmp/config/full.8bf1f53c4cb1990446b4015828bd296e.js ***!
   \******************************************************************/
 /*! exports provided: name, type, template, router, redux, client, server */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -517,7 +532,7 @@ const template = "./src/index.ejs";
 const router = __webpack_require__(/*! ../../../src/routes */ "./src/routes/index.js").default;
 const redux = {
   "store": __webpack_require__(/*! ../../../src/store */ "./src/store/index.js").default,
-  "syncCookie": true
+  "syncCookie": "all"
 };
 const client = {};
 const server =  true ? {
@@ -4102,7 +4117,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var history_lib_createMemoryHistory__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(history_lib_createMemoryHistory__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var react_router_redux__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-router-redux */ "react-router-redux");
 /* harmony import */ var react_router_redux__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_router_redux__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _KOOT_PROJECT_CONFIG_FULL_PATHNAME___WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! __KOOT_PROJECT_CONFIG_FULL_PATHNAME__ */ "./logs/tmp/config/full.293e27fcf0e3470d738d4127b8bfd345.js");
+/* harmony import */ var _KOOT_PROJECT_CONFIG_FULL_PATHNAME___WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! __KOOT_PROJECT_CONFIG_FULL_PATHNAME__ */ "./logs/tmp/config/full.8bf1f53c4cb1990446b4015828bd296e.js");
 /* harmony import */ var _libs_ssr_context__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../libs/ssr/context */ "./node_modules/koot/libs/ssr/context.js");
 /* harmony import */ var _libs_ssr_context__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_libs_ssr_context__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var _root_isomorphic__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./root-isomorphic */ "./node_modules/koot/ReactApp/server/root-isomorphic.jsx");
@@ -6056,7 +6071,7 @@ const getChunkmap = (localeId, getFullResult = false, ignoreCache = false) => {
     if (typeof global.chunkmap === 'object') chunkmap = global.chunkmap;
 
     try {
-      chunkmap = JSON.parse("{\".zh\":{\".public\":\"public/\",\".out\":\"public/\",\".entrypoints\":{\"critical\":[\"public/includes/extract.2.82d28a14afee3b26f442.css\",\"public/includes/entry.82d28a14afee3b26f442.js\"],\"client\":[\"public/includes/chunk.35c5e0398017159a34f9.js\",\"public/includes/chunk.be115a8227f281651d07.js\",\"public/includes/entry.3b46ae67fe24802bb652.js\"],\"__KOOT__CLIENT__RUN__FIRST__\":[\"public/includes/entry.1cd54f0d51dc9349b6b4.js\"]},\".files\":{\"__KOOT__CLIENT__RUN__FIRST__.js\":\"public/includes/entry.1cd54f0d51dc9349b6b4.js\",\"client.js\":\"public/includes/entry.3b46ae67fe24802bb652.js\",\"critical.css\":\"public/includes/extract.2.82d28a14afee3b26f442.css\",\"critical.js\":\"public/includes/entry.82d28a14afee3b26f442.js\",\"libs.js\":\"public/includes/chunk.35c5e0398017159a34f9.js\",\"vendors~client.js\":\"public/includes/chunk.be115a8227f281651d07.js\",\"__KOOT__EXTRACT__CSS__.css\":\"public/includes/extract.all.5d2f36ec5091395800d4fd2785bf716d.small.css\"},\"service-worker\":[\"public/service-worker.zh.js\"],\".htmlMetaTags__\":\"<link rel=\\\"shortcut icon\\\" href=\\\"/includes/webapp.54e31f7b/favicon.ico\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"16x16\\\" href=\\\"/includes/webapp.54e31f7b/favicon-16x16.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"32x32\\\" href=\\\"/includes/webapp.54e31f7b/favicon-32x32.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"48x48\\\" href=\\\"/includes/webapp.54e31f7b/favicon-48x48.png\\\"><link rel=\\\"manifest\\\" href=\\\"/includes/webapp.54e31f7b/manifest.json\\\"><meta name=\\\"mobile-web-app-capable\\\" content=\\\"yes\\\"><meta name=\\\"theme-color\\\" content=\\\"#fbfbfb\\\"><meta name=\\\"application-name\\\" content=\\\"飞行员大波胡\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"57x57\\\" href=\\\"/includes/webapp.54e31f7b/apple-touch-icon-57x57.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"60x60\\\" href=\\\"/includes/webapp.54e31f7b/apple-touch-icon-60x60.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"72x72\\\" href=\\\"/includes/webapp.54e31f7b/apple-touch-icon-72x72.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"76x76\\\" href=\\\"/includes/webapp.54e31f7b/apple-touch-icon-76x76.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"114x114\\\" href=\\\"/includes/webapp.54e31f7b/apple-touch-icon-114x114.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"120x120\\\" href=\\\"/includes/webapp.54e31f7b/apple-touch-icon-120x120.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"144x144\\\" href=\\\"/includes/webapp.54e31f7b/apple-touch-icon-144x144.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"152x152\\\" href=\\\"/includes/webapp.54e31f7b/apple-touch-icon-152x152.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"167x167\\\" href=\\\"/includes/webapp.54e31f7b/apple-touch-icon-167x167.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"180x180\\\" href=\\\"/includes/webapp.54e31f7b/apple-touch-icon-180x180.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"1024x1024\\\" href=\\\"/includes/webapp.54e31f7b/apple-touch-icon-1024x1024.png\\\"><meta name=\\\"apple-mobile-web-app-capable\\\" content=\\\"yes\\\"><meta name=\\\"apple-mobile-web-app-status-bar-style\\\" content=\\\"black-translucent\\\"><meta name=\\\"apple-mobile-web-app-title\\\" content=\\\"飞行大波胡\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"    href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-640x1136.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"    href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-750x1334.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"    href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-828x1792.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\"    href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-1125x2436.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\"    href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-1242x2208.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\"    href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-1242x2688.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"   href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-1536x2048.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"   href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-1668x2224.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"   href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-1668x2388.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"  href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-2048x2732.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"  href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-1620x2160.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\"   href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-1136x640.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\"   href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-1334x750.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\"   href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-1792x828.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\"   href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-2436x1125.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\"   href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-2208x1242.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\"   href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-2688x1242.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\"  href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-2048x1536.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\"  href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-2224x1668.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\"  href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-2388x1668.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-2732x2048.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\"  href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-2160x1620.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"228x228\\\" href=\\\"/includes/webapp.54e31f7b/coast-228x228.png\\\"><meta name=\\\"msapplication-TileColor\\\" content=\\\"#212121\\\"><meta name=\\\"msapplication-TileImage\\\" content=\\\"/includes/webapp.54e31f7b/mstile-144x144.png\\\"><meta name=\\\"msapplication-config\\\" content=\\\"/includes/webapp.54e31f7b/browserconfig.xml\\\"><link rel=\\\"yandex-tableau-widget\\\" href=\\\"/includes/webapp.54e31f7b/yandex-browser-manifest.json\\\">\"}}");
+      chunkmap = JSON.parse("{\".zh\":{\".public\":\"public/\",\".out\":\"public/\",\".entrypoints\":{\"critical\":[\"public/includes/extract.2.1b2ed35958bd42e6985c.css\",\"public/includes/entry.1b2ed35958bd42e6985c.js\"],\"client\":[\"public/includes/chunk.60b789e91d81e34d35f6.js\",\"public/includes/chunk.feb08d22887410a7eb8f.js\",\"public/includes/entry.051ccdda2f8229fa502c.js\"],\"__KOOT__CLIENT__RUN__FIRST__\":[\"public/includes/entry.ca153a9a3d10496e7b52.js\"]},\".files\":{\"__KOOT__CLIENT__RUN__FIRST__.js\":\"public/includes/entry.ca153a9a3d10496e7b52.js\",\"client.js\":\"public/includes/entry.051ccdda2f8229fa502c.js\",\"critical.css\":\"public/includes/extract.2.1b2ed35958bd42e6985c.css\",\"critical.js\":\"public/includes/entry.1b2ed35958bd42e6985c.js\",\"libs.js\":\"public/includes/chunk.60b789e91d81e34d35f6.js\",\"vendors~client.js\":\"public/includes/chunk.feb08d22887410a7eb8f.js\",\"__KOOT__EXTRACT__CSS__.css\":\"public/includes/extract.all.5d2f36ec5091395800d4fd2785bf716d.small.css\"},\"service-worker\":[\"public/service-worker.zh.js\"],\".htmlMetaTags__\":\"<link rel=\\\"shortcut icon\\\" href=\\\"/includes/webapp.54e31f7b/favicon.ico\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"16x16\\\" href=\\\"/includes/webapp.54e31f7b/favicon-16x16.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"32x32\\\" href=\\\"/includes/webapp.54e31f7b/favicon-32x32.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"48x48\\\" href=\\\"/includes/webapp.54e31f7b/favicon-48x48.png\\\"><link rel=\\\"manifest\\\" href=\\\"/includes/webapp.54e31f7b/manifest.json\\\"><meta name=\\\"mobile-web-app-capable\\\" content=\\\"yes\\\"><meta name=\\\"theme-color\\\" content=\\\"#fbfbfb\\\"><meta name=\\\"application-name\\\" content=\\\"飞行员大波胡\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"57x57\\\" href=\\\"/includes/webapp.54e31f7b/apple-touch-icon-57x57.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"60x60\\\" href=\\\"/includes/webapp.54e31f7b/apple-touch-icon-60x60.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"72x72\\\" href=\\\"/includes/webapp.54e31f7b/apple-touch-icon-72x72.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"76x76\\\" href=\\\"/includes/webapp.54e31f7b/apple-touch-icon-76x76.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"114x114\\\" href=\\\"/includes/webapp.54e31f7b/apple-touch-icon-114x114.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"120x120\\\" href=\\\"/includes/webapp.54e31f7b/apple-touch-icon-120x120.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"144x144\\\" href=\\\"/includes/webapp.54e31f7b/apple-touch-icon-144x144.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"152x152\\\" href=\\\"/includes/webapp.54e31f7b/apple-touch-icon-152x152.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"167x167\\\" href=\\\"/includes/webapp.54e31f7b/apple-touch-icon-167x167.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"180x180\\\" href=\\\"/includes/webapp.54e31f7b/apple-touch-icon-180x180.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"1024x1024\\\" href=\\\"/includes/webapp.54e31f7b/apple-touch-icon-1024x1024.png\\\"><meta name=\\\"apple-mobile-web-app-capable\\\" content=\\\"yes\\\"><meta name=\\\"apple-mobile-web-app-status-bar-style\\\" content=\\\"black-translucent\\\"><meta name=\\\"apple-mobile-web-app-title\\\" content=\\\"飞行大波胡\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"    href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-640x1136.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"    href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-750x1334.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"    href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-828x1792.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\"    href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-1125x2436.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\"    href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-1242x2208.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\"    href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-1242x2688.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"   href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-1536x2048.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"   href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-1668x2224.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"   href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-1668x2388.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"  href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-2048x2732.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"  href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-1620x2160.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\"   href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-1136x640.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\"   href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-1334x750.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\"   href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-1792x828.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\"   href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-2436x1125.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\"   href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-2208x1242.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\"   href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-2688x1242.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\"  href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-2048x1536.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\"  href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-2224x1668.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\"  href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-2388x1668.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-2732x2048.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\"  href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-2160x1620.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"228x228\\\" href=\\\"/includes/webapp.54e31f7b/coast-228x228.png\\\"><meta name=\\\"msapplication-TileColor\\\" content=\\\"#212121\\\"><meta name=\\\"msapplication-TileImage\\\" content=\\\"/includes/webapp.54e31f7b/mstile-144x144.png\\\"><meta name=\\\"msapplication-config\\\" content=\\\"/includes/webapp.54e31f7b/browserconfig.xml\\\"><link rel=\\\"yandex-tableau-widget\\\" href=\\\"/includes/webapp.54e31f7b/yandex-browser-manifest.json\\\">\"}}");
     } catch (e) {
       chunkmap = false;
     }
@@ -12983,6 +12998,60 @@ const wrapper = 'dd3414';const css = '.dd3414{display:inline-block;width:16px;he
 
 /***/ }),
 
+/***/ "./src/components/tag/index.module.less":
+/*!**********************************************!*\
+  !*** ./src/components/tag/index.module.less ***!
+  \**********************************************/
+/*! exports provided: wrapper, css, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "wrapper", function() { return wrapper; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "css", function() { return css; });
+const wrapper = 'a0a74f';const css = '.a0a74f{position:relative;display:inline-block;font-size:14px;line-height:1.1em;padding:4px 8px;color:#000;border:1px solid rgba(0,0,0,.35);border-radius:1em;cursor:default}.a0a74f.is-on{color:#fff;background:rgba(0,0,0,.35)}.a0a74f[data-tag=clip]{background:hsla(0,0%,82%,.35);border-color:rgba(130,145,160,.35)}.a0a74f[data-tag=clip].is-on{background-color:rgba(130,145,160,.8);border-color:rgba(130,145,160,.8)}.a0a74f[data-tag=training]{background:rgba(240,134,128,.35);border-color:rgba(240,13,1,.35)}.a0a74f[data-tag=training].is-on{background-color:rgba(240,13,1,.8);border-color:rgba(240,13,1,.8)}.a0a74f[data-tag=landing]{background:rgba(17,213,184,.35);border-color:rgba(0,103,87,.35)}.a0a74f[data-tag=landing].is-on{background-color:rgba(0,103,87,.8);border-color:rgba(0,103,87,.8)}.a0a74f[data-tag=airport]{background:rgba(234,205,179,.35);border-color:rgba(228,139,57,.35)}.a0a74f[data-tag=airport].is-on{background-color:rgba(228,139,57,.8);border-color:rgba(228,139,57,.8)}.a0a74f[data-tag=device]{background:rgba(197,189,250,.35);border-color:rgba(82,57,255,.35)}.a0a74f[data-tag=device].is-on{background-color:rgba(82,57,255,.8);border-color:rgba(82,57,255,.8)}.a0a74f[data-tag=mod]{background:rgba(216,216,115,.35);border-color:rgba(179,179,24,.35)}.a0a74f[data-tag=mod].is-on{background-color:rgba(179,179,24,.8);border-color:rgba(179,179,24,.8)}.a0a74f[data-tag=tour]{background:rgba(68,168,240,.35);border-color:rgba(0,105,180,.35)}.a0a74f[data-tag=tour].is-on{background-color:rgba(0,105,180,.8);border-color:rgba(0,105,180,.8)}';/* harmony default export */ __webpack_exports__["default"] = ({wrapper,css});
+
+/***/ }),
+
+/***/ "./src/components/tag/index.tsx":
+/*!**************************************!*\
+  !*** ./src/components/tag/index.tsx ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var koot__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! koot */ "./node_modules/koot/index.js");
+/* harmony import */ var _constants_video_tags__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @constants/video-tags */ "./src/constants/video-tags.ts");
+/* harmony import */ var _index_module_less__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./index.module.less */ "./src/components/tag/index.module.less");
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+
+
+
+ // ============================================================================
+
+// Functional Component =======================================================
+const Tag = Object(koot__WEBPACK_IMPORTED_MODULE_1__["extend"])({
+  styles: _index_module_less__WEBPACK_IMPORTED_MODULE_3__["default"]
+})( /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_0__["memo"])(({
+  className,
+  tag,
+  label,
+  ...props
+}) => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", _extends({
+    className: className,
+    "data-tag": tag
+  }, props), label !== null && label !== void 0 ? label : _constants_video_tags__WEBPACK_IMPORTED_MODULE_2__["names"][tag]);
+}));
+/* harmony default export */ __webpack_exports__["default"] = (Tag);
+
+/***/ }),
+
 /***/ "./src/components/video-list/index.jsx":
 /*!*********************************************!*\
   !*** ./src/components/video-list/index.jsx ***!
@@ -12997,10 +13066,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var koot__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! koot */ "./node_modules/koot/index.js");
 /* harmony import */ var _api_videos__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @api/videos */ "./src/api/videos.ts");
 /* harmony import */ var _components_icon__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @components/icon */ "./src/components/icon/index.jsx");
-/* harmony import */ var _index_module_less__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./index.module.less */ "./src/components/video-list/index.module.less");
+/* harmony import */ var _components_tag__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @components/tag */ "./src/components/tag/index.tsx");
+/* harmony import */ var _constants_video_sources__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @constants/video-sources */ "./src/constants/video-sources.ts");
+/* harmony import */ var _index_module_less__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./index.module.less */ "./src/components/video-list/index.module.less");
 var _dec, _class, _temp;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
 
 
 
@@ -13017,7 +13090,7 @@ let VideoList = (_dec = Object(koot__WEBPACK_IMPORTED_MODULE_1__["extend"])({
     };
   },
   data: (state, renderProps, dispatch) => dispatch(Object(_api_videos__WEBPACK_IMPORTED_MODULE_2__["getVideoList"])()),
-  styles: _index_module_less__WEBPACK_IMPORTED_MODULE_4__["default"]
+  styles: _index_module_less__WEBPACK_IMPORTED_MODULE_6__["default"]
 }), _dec(_class = (_temp = class VideoList extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"] {
   constructor(...args) {
     super(...args);
@@ -13029,16 +13102,15 @@ let VideoList = (_dec = Object(koot__WEBPACK_IMPORTED_MODULE_1__["extend"])({
     const now = Date.now();
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: this.props.className
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "header"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "\u6700\u65B0\u89C6\u9891")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "list"
     }, this.props.list.filter(({
       release
-    }) => now > release).map(item => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Item, {
+    }) => now > release).filter(({
+      tag
+    }) => !this.props.tag || tag.includes(this.props.tag)).map(item => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Item, {
       video: item,
-      key: item.release
-    }))));
+      key: item.release,
+      source: this.props.source
+    })));
   }
 
 }, _temp)) || _class);
@@ -13049,43 +13121,54 @@ const Item = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_0__["memo"])(({
     name,
     thumbnail,
     link,
-    release
-  }
+    release,
+    tag
+  },
+  source
 }) => {
   const time = new Date(release);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: `${_index_module_less__WEBPACK_IMPORTED_MODULE_4__["wrapper"]}-item`
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  const C = source ? 'a' : 'div';
+  const P = {
+    className: `${_index_module_less__WEBPACK_IMPORTED_MODULE_6__["wrapper"]}-item`
+  };
+
+  if (C === 'a') {
+    P.className += ' mod-has-source';
+    P.href = link[source];
+    P.target = '_blank';
+    P.rel = 'noreferrer';
+  }
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(C, P, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "thumbnail"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: thumbnail,
     alt: name,
     loading: "lazy"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  })), !source && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "links"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: link.bilibili,
+  }, _constants_video_sources__WEBPACK_IMPORTED_MODULE_5__["default"].map(source => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: link[source],
     target: "_blank",
     rel: "noreferrer",
-    className: "bilibili"
+    className: source,
+    key: source
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_icon__WEBPACK_IMPORTED_MODULE_3__["default"], {
     className: "icon",
-    icon: "bilibili"
-  }), "\u54D4\u54E9\u54D4\u54E9"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: link.youtube,
-    target: "_blank",
-    rel: "noreferrer",
-    className: "youtube"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_icon__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    className: "icon",
-    icon: "youtube"
-  }), "YouTube")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    icon: source
+  }), _constants_video_sources__WEBPACK_IMPORTED_MODULE_5__["names"][source]))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "infos"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
-    className: "name"
-  }, name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, Array.isArray(tag) && tag.length && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "tags"
+  }, tag.map(t => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_tag__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    className: "tag",
+    tag: t,
+    key: t
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "date"
-  }, time.getFullYear(), " / ", time.getMonth() + 1, " /", ' ', time.getDate())));
+  }, time.getFullYear(), " / ", time.getMonth() + 1, " /", ' ', time.getDate()), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+    className: "name"
+  }, name)));
 });
 
 /***/ }),
@@ -13101,7 +13184,7 @@ const Item = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_0__["memo"])(({
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "wrapper", function() { return wrapper; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "css", function() { return css; });
-const wrapper = 'f32f89';const css = '.f32f89{position:relative;padding:40px 0;margin:0 auto}.f32f89>.list{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));grid-gap:40px;margin-top:40px}.f32f89-item{position:relative;cursor:default;z-index:10;transition:none .15s ease-out}.f32f89-item:after{content:"";position:absolute;top:-10px;bottom:-10px;left:-10px;right:-10px;background:#fff;z-index:-1;border:1px solid #26a69a;border-radius:7px;box-shadow:0 25px 20px -20px rgba(0,0,0,.25);opacity:0;transition:inherit;transition-property:opacity}.f32f89-item>.thumbnail{position:relative;width:100%;padding-bottom:56.25%;height:0;display:block;background:no-repeat 50% 50%;background-size:cover;border-radius:5px 5px 0 0;border:1px solid #26a69a;border-bottom:0;transition:inherit;transition-property:-webkit-filter;transition-property:filter;transition-property:filter,-webkit-filter;overflow:hidden;background:#26a69a}.f32f89-item>.thumbnail>img{display:block;position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover}.f32f89-item>.links{display:block;margin-top:0;text-align:left;border-radius:0 0 5px 5px;border:1px solid #26a69a;border-top:0;background:#26a69a}.f32f89-item>.links,.f32f89-item>.links>a{height:50px;overflow:hidden;transition:inherit}.f32f89-item>.links>a{color:transparent !important;display:inline-block;width:50%;position:relative;vertical-align:top;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;transition-property:background-color}.f32f89-item>.links>a:after{content:"";position:absolute;top:0;bottom:0;left:0;right:0;box-shadow:inset 0 5px 10px rgba(0,0,0,.25)}.f32f89-item>.links>a svg{position:absolute;top:50%;left:50%;width:30px;height:30px;margin-top:-15px;margin-left:-15px;fill:#26a69a;display:block;fill:#fff;transition:inherit;transition-property:-webkit-transform;transition-property:transform;transition-property:transform,-webkit-transform}.f32f89-item>.links>a.bilibili{background:#67acc3}.f32f89-item>.links>a.youtube{background:#d27979}html.is-hover .f32f89-item>.links>a:hover svg{-webkit-transform:scale(1.2);transform:scale(1.2)}.f32f89-item>.infos{width:100%;display:-webkit-flex;display:flex;margin-top:12px;-webkit-flex-flow:row nowrap;flex-flow:row nowrap;padding:0 8px 0 4px}.f32f89-item>.infos>.date,.f32f89-item>.infos>.name{display:block}.f32f89-item>.infos>.name{-webkit-flex:1;flex:1;color:#26a69a;font-size:20px;line-height:1.2}.f32f89-item>.infos>.date{-webkit-flex:0;flex:0;font-size:14px;line-height:1.2;font-style:italic;white-space:nowrap;margin-top:4px;margin-left:1em}html.is-hover .f32f89-item:hover>.thumbnail{-webkit-filter:none;filter:none}html.is-hover .f32f89-item:hover>.links>a.bilibili{background:#07a3d7}html.is-hover .f32f89-item:hover>.links>a.youtube{background:red}html.is-hover .f32f89-item:hover:after{opacity:1}';/* harmony default export */ __webpack_exports__["default"] = ({wrapper,css});
+const wrapper = 'aaae60';const css = '.aaae60{position:relative;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));grid-gap:40px}.aaae60-item{position:relative;cursor:default;z-index:10;transition:none .15s ease-out}.aaae60-item:after{content:"";position:absolute;top:-10px;bottom:-15px;left:-10px;right:-10px;background:#fff;z-index:-1;border:1px solid #26a69a;border-radius:7px;box-shadow:0 25px 20px -20px rgba(0,0,0,.25);opacity:0;transition:inherit;transition-property:opacity}.aaae60-item>.thumbnail{position:relative;width:100%;padding-bottom:56.25%;height:0;display:block;background:no-repeat 50% 50%;background-size:cover;border-radius:5px 5px 0 0;border:solid #26a69a;border-width:1px 1px 0;transition:inherit;transition-property:-webkit-filter;transition-property:filter;transition-property:filter,-webkit-filter;overflow:hidden;background:#26a69a}.aaae60-item>.thumbnail>img{display:block;position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover}.aaae60-item>.links{display:block;margin-top:0;text-align:left;border-radius:0 0 5px 5px;border:1px solid #26a69a;border-top:0;background:#26a69a}.aaae60-item>.links,.aaae60-item>.links>a{height:50px;overflow:hidden;transition:inherit}.aaae60-item>.links>a{color:transparent !important;display:inline-block;width:50%;position:relative;vertical-align:top;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;transition-property:background-color}.aaae60-item>.links>a:after{content:"";position:absolute;top:0;bottom:0;left:0;right:0;box-shadow:inset 0 5px 10px rgba(0,0,0,.25)}.aaae60-item>.links>a svg{position:absolute;top:50%;left:50%;width:30px;height:30px;margin-top:-15px;margin-left:-15px;fill:#26a69a;display:block;fill:#fff;transition:inherit;transition-property:-webkit-transform;transition-property:transform;transition-property:transform,-webkit-transform}.aaae60-item>.links>a.bilibili{background:#67acc3}.aaae60-item>.links>a.youtube{background:#d27979}html.is-hover .aaae60-item>.links>a:hover svg{-webkit-transform:scale(1.2);transform:scale(1.2)}html.is-hover .aaae60-item>.links>a:focus{outline:0}html.is-hover .aaae60-item>.links>a:focus:not(:active) svg{-webkit-transform:scale(1.2);transform:scale(1.2)}.aaae60-item>.infos{width:100%;display:-webkit-flex;display:flex;margin-top:12px;-webkit-flex-flow:row wrap;flex-flow:row wrap;padding:0 8px 0 4px}.aaae60-item>.infos>.date,.aaae60-item>.infos>.name,.aaae60-item>.infos>.tags{display:block}.aaae60-item>.infos>.tags{-webkit-flex:1;flex:1;margin-bottom:.5em}.aaae60-item>.infos>.tags .tag{margin-right:.5em}.aaae60-item>.infos>.name{-webkit-flex:1 0 100%;flex:1 0 100%;color:#26a69a;font-size:20px;line-height:1.2}.aaae60-item>.infos>.date{-webkit-flex:0;flex:0;font-size:14px;line-height:1.2;font-style:italic;white-space:nowrap;margin-top:4px;margin-left:1em}html.is-hover .aaae60-item:hover>.thumbnail{-webkit-filter:none;filter:none}html.is-hover .aaae60-item:hover>.links>a.bilibili{background:#07a3d7}html.is-hover .aaae60-item:hover>.links>a.youtube{background:red}html.is-hover .aaae60-item:hover:after{opacity:1}html.is-hover .aaae60-item:focus{outline:0}html.is-hover .aaae60-item:focus:not(:active)>.thumbnail{-webkit-filter:none;filter:none}html.is-hover .aaae60-item:focus:not(:active)>.links>a.bilibili{background:#07a3d7}html.is-hover .aaae60-item:focus:not(:active)>.links>a.youtube{background:red}html.is-hover .aaae60-item:focus:not(:active):after{opacity:1}.aaae60-item.mod-has-source{cursor:pointer;text-decoration:none;transition-property:-webkit-transform;transition-property:transform;transition-property:transform,-webkit-transform}.aaae60-item.mod-has-source:active,html.is-hover .aaae60-item.mod-has-source:hover:active{-webkit-transform:scale(.95);transform:scale(.95)}.aaae60-item.mod-has-source>.thumbnail{border-radius:5px;border-bottom-width:1px}';/* harmony default export */ __webpack_exports__["default"] = ({wrapper,css});
 
 /***/ }),
 
@@ -13134,6 +13217,63 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PWA", function() { return PWA; });
 const NORMAL = 'normal';
 const PWA = 'pwa';
+
+/***/ }),
+
+/***/ "./src/constants/cookie-name.ts":
+/*!**************************************!*\
+  !*** ./src/constants/cookie-name.ts ***!
+  \**************************************/
+/*! exports provided: VIDEO_SOURCE */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VIDEO_SOURCE", function() { return VIDEO_SOURCE; });
+const VIDEO_SOURCE = 'VIDEO_SOURCE';
+
+/***/ }),
+
+/***/ "./src/constants/video-sources.ts":
+/*!****************************************!*\
+  !*** ./src/constants/video-sources.ts ***!
+  \****************************************/
+/*! exports provided: default, names */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "names", function() { return names; });
+const sources = ['bilibili', 'youtube'];
+/* harmony default export */ __webpack_exports__["default"] = (sources);
+const names = {
+  bilibili: '哔哩哔哩',
+  youtube: 'YouTube'
+};
+
+/***/ }),
+
+/***/ "./src/constants/video-tags.ts":
+/*!*************************************!*\
+  !*** ./src/constants/video-tags.ts ***!
+  \*************************************/
+/*! exports provided: default, names */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "names", function() { return names; });
+const tags = ['clip', 'training', 'landing', 'airport', 'device', 'mod', 'tour'];
+/* harmony default export */ __webpack_exports__["default"] = (tags);
+const names = {
+  clip: '片段',
+  training: '训练',
+  landing: '降落',
+  airport: '机场',
+  device: '设备',
+  mod: 'MOD/插件',
+  tour: '云游'
+};
 
 /***/ }),
 
@@ -13377,12 +13517,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var query_string__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(query_string__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! classnames */ "classnames");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _components_video_list__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @components/video-list */ "./src/components/video-list/index.jsx");
-/* harmony import */ var _components_icon__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @components/icon */ "./src/components/icon/index.jsx");
-/* harmony import */ var _components_center__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @components/center */ "./src/components/center/index.tsx");
-/* harmony import */ var _api_app__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @api/app */ "./src/api/app.ts");
-/* harmony import */ var _constants_app_mode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @constants/app-mode */ "./src/constants/app-mode.ts");
-/* harmony import */ var _app_module_less__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./app.module.less */ "./src/views/app.module.less");
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! js-cookie */ "js-cookie");
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(js_cookie__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _components_video_list__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @components/video-list */ "./src/components/video-list/index.jsx");
+/* harmony import */ var _components_icon__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @components/icon */ "./src/components/icon/index.jsx");
+/* harmony import */ var _components_center__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @components/center */ "./src/components/center/index.tsx");
+/* harmony import */ var _components_tag__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @components/tag */ "./src/components/tag/index.tsx");
+/* harmony import */ var _api_app__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @api/app */ "./src/api/app.ts");
+/* harmony import */ var _constants_app_mode__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @constants/app-mode */ "./src/constants/app-mode.ts");
+/* harmony import */ var _constants_video_sources__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @constants/video-sources */ "./src/constants/video-sources.ts");
+/* harmony import */ var _constants_video_tags__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @constants/video-tags */ "./src/constants/video-tags.ts");
+/* harmony import */ var _constants_cookie_name__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @constants/cookie-name */ "./src/constants/cookie-name.ts");
+/* harmony import */ var _app_module_less__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./app.module.less */ "./src/views/app.module.less");
+
+
+
+
+
 
 
 
@@ -13395,34 +13546,43 @@ __webpack_require__.r(__webpack_exports__);
  // ============================================================================
 
 const App = Object(koot__WEBPACK_IMPORTED_MODULE_1__["extend"])({
-  connect: state => ({
-    appMode: state.app.mode
-  }),
+  connect: true,
   pageinfo: {
     title: '飞行员大波胡 | Sim-Pilot Diablohu',
     description: '【飞行员大波胡 | Sim-Pilot Diablohu】系列视频'
   },
-  styles: _app_module_less__WEBPACK_IMPORTED_MODULE_9__["default"]
-})(({
-  className,
-  dispatch,
-  appMode
-}) => {
-  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
-    switch (query_string__WEBPACK_IMPORTED_MODULE_2___default.a.parse(window.location.search).utm_source) {
+  data: (state, renderProps, dispatch) => {
+    if (false) {}
+
+    switch (query_string__WEBPACK_IMPORTED_MODULE_2___default.a.parse(state.routing.locationBeforeTransitions.search).utm_source) {
       case 'web_app_manifest':
-        return dispatch(Object(_api_app__WEBPACK_IMPORTED_MODULE_7__["setAppMode"])(_constants_app_mode__WEBPACK_IMPORTED_MODULE_8__["PWA"]));
+        return dispatch(Object(_api_app__WEBPACK_IMPORTED_MODULE_9__["setAppMode"])(_constants_app_mode__WEBPACK_IMPORTED_MODULE_10__["PWA"]));
 
       default:
-        dispatch(Object(_api_app__WEBPACK_IMPORTED_MODULE_7__["setAppMode"])(_constants_app_mode__WEBPACK_IMPORTED_MODULE_8__["NORMAL"]));
-    } // eslint-disable-next-line react-hooks/exhaustive-deps
-
-  }, []);
+        dispatch(Object(_api_app__WEBPACK_IMPORTED_MODULE_9__["setAppMode"])(_constants_app_mode__WEBPACK_IMPORTED_MODULE_10__["NORMAL"]));
+    }
+  },
+  styles: _app_module_less__WEBPACK_IMPORTED_MODULE_14__["default"]
+})(({
+  className,
+  dispatch
+}) => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.StrictMode, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: className
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(['banner', {
-      'mod-pwa': appMode === _constants_app_mode__WEBPACK_IMPORTED_MODULE_8__["PWA"]
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Banner, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(List, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Footer, null)));
+});
+/* harmony default export */ __webpack_exports__["default"] = (App); // ============================================================================
+
+const Banner = Object(koot__WEBPACK_IMPORTED_MODULE_1__["extend"])({
+  connect: state => ({
+    appMode: state.app.mode
+  })
+})( /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_0__["memo"])(({
+  appMode
+}) => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: classnames__WEBPACK_IMPORTED_MODULE_3___default()([`${_app_module_less__WEBPACK_IMPORTED_MODULE_14__["wrapper"]}-banner`, {
+      'mod-pwa': appMode === _constants_app_mode__WEBPACK_IMPORTED_MODULE_10__["PWA"]
     }])
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "wrapper"
@@ -13435,7 +13595,7 @@ const App = Object(koot__WEBPACK_IMPORTED_MODULE_1__["extend"])({
     target: "_blank",
     rel: "noreferrer",
     className: "bilibili"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_icon__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_icon__WEBPACK_IMPORTED_MODULE_6__["default"], {
     className: "icon",
     icon: "bilibili"
   }), "\u5173\u6CE8"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -13443,13 +13603,102 @@ const App = Object(koot__WEBPACK_IMPORTED_MODULE_1__["extend"])({
     target: "_blank",
     rel: "noreferrer",
     className: "youtube"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_icon__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_icon__WEBPACK_IMPORTED_MODULE_6__["default"], {
     className: "icon",
     icon: "youtube"
-  }), "\u8BA2\u9605")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "list"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_center__WEBPACK_IMPORTED_MODULE_6__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_video_list__WEBPACK_IMPORTED_MODULE_4__["default"], null))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_center__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    className: "infos"
+  }), "\u8BA2\u9605"))));
+}));
+const List = Object(koot__WEBPACK_IMPORTED_MODULE_1__["extend"])({
+  connect: state => {
+    var _state$server, _state$server$cookie;
+
+    return {
+      defaultSource: (_state$server = state.server) === null || _state$server === void 0 ? void 0 : (_state$server$cookie = _state$server.cookie) === null || _state$server$cookie === void 0 ? void 0 : _state$server$cookie[_constants_cookie_name__WEBPACK_IMPORTED_MODULE_13__["VIDEO_SOURCE"]]
+    };
+  }
+})( /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_0__["memo"])(({
+  defaultSource
+}) => {
+  const HeaderRef = Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])(null);
+  const [source, setSource] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(defaultSource);
+  const [tag, setTag] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])('');
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
+    if (!HeaderRef || !HeaderRef.current) return;
+    if (List.observer) return;
+    List.observer = new IntersectionObserver(([e]) => e.target.classList.toggle('is-sticky', e.intersectionRatio < 1), {
+      threshold: [1]
+    });
+    List.observer.observe(HeaderRef.current);
+  }, []);
+
+  function selectSource(evt) {
+    evt.preventDefault();
+    const targetSource = evt.currentTarget.getAttribute('data-source');
+    const newSource = targetSource === source ? undefined : targetSource;
+    setSource(newSource);
+    if (newSource) js_cookie__WEBPACK_IMPORTED_MODULE_4___default.a.set(_constants_cookie_name__WEBPACK_IMPORTED_MODULE_13__["VIDEO_SOURCE"], newSource, {
+      expires: 365
+    });else js_cookie__WEBPACK_IMPORTED_MODULE_4___default.a.remove(_constants_cookie_name__WEBPACK_IMPORTED_MODULE_13__["VIDEO_SOURCE"]);
+  }
+
+  function selectTag(evt) {
+    evt.preventDefault();
+    const targetTag = evt.currentTarget.getAttribute('data-tag');
+    setTag(targetTag === tag ? undefined : targetTag);
+  }
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: `${_app_module_less__WEBPACK_IMPORTED_MODULE_14__["wrapper"]}-list`
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "header",
+    ref: HeaderRef
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_center__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    className: "wrapper"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "title"
+  }, "\u6700\u65B0\u89C6\u9891"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sources"
+  }, "\u89C6\u9891\u6E90", _constants_video_sources__WEBPACK_IMPORTED_MODULE_11__["default"].map(thisSource => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    key: thisSource,
+    "data-source": thisSource,
+    onClick: selectSource,
+    className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(['btn-source', {
+      'is-on': thisSource === source
+    }])
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_icon__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    className: "icon",
+    icon: thisSource
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "tags"
+  }, List.tags.map(({
+    label,
+    value
+  }) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_tag__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    key: value,
+    onClick: selectTag,
+    className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(['tag', {
+      'is-on': value === tag
+    }]),
+    tag: value,
+    label: label
+  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_center__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    className: "list-wrapper"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_video_list__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    className: "list",
+    source: source,
+    tag: tag
+  })));
+}));
+List.tags = [{
+  label: '全部',
+  value: ''
+}].concat(_constants_video_tags__WEBPACK_IMPORTED_MODULE_12__["default"].map(tag => ({
+  label: _constants_video_tags__WEBPACK_IMPORTED_MODULE_12__["names"][tag],
+  value: tag
+})));
+const Footer = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_0__["memo"])(() => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_center__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    className: `${_app_module_less__WEBPACK_IMPORTED_MODULE_14__["wrapper"]}-footer`
   }, "\xA9 2021", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://diablohu.com/",
     target: "_blank",
@@ -13462,9 +13711,8 @@ const App = Object(koot__WEBPACK_IMPORTED_MODULE_1__["extend"])({
     href: "https://twitter.com/Diablohu/",
     target: "_blank",
     rel: "noreferrer"
-  }, "@diablohu (twitter)"))));
+  }, "@diablohu (twitter)"));
 });
-/* harmony default export */ __webpack_exports__["default"] = (App);
 
 /***/ }),
 
@@ -13482,7 +13730,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var D_Projects_diablohu_sp_diablohu_com_src_assets_banner_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/assets/banner.jpg */ "./src/assets/banner.jpg");
 /* harmony import */ var D_Projects_diablohu_sp_diablohu_com_src_assets_sim_pilot_plate_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./src/assets/sim-pilot-plate.svg */ "./src/assets/sim-pilot-plate.svg");
 /* harmony import */ var D_Projects_diablohu_sp_diablohu_com_src_assets_sim_pilot_plate_svg__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(D_Projects_diablohu_sp_diablohu_com_src_assets_sim_pilot_plate_svg__WEBPACK_IMPORTED_MODULE_1__);
-const wrapper = 'ee2038';const css = '.ee2038,.ee2038>.banner{position:relative}.ee2038>.banner{background:url("' + D_Projects_diablohu_sp_diablohu_com_src_assets_banner_jpg__WEBPACK_IMPORTED_MODULE_0__["default"] + '") no-repeat 50% 50%;background-size:cover;width:100%;height:75vh;min-height:340px;max-height:800px}.ee2038>.banner:after,.ee2038>.banner:before,.ee2038>.banner>.wrapper{content:"";position:absolute;top:0;bottom:0;left:0;right:0;-webkit-flex:none;flex:none}.ee2038>.banner:after{z-index:10;background:rgba(0,0,0,.15)}.ee2038>.banner:before{z-index:100;background-image:radial-gradient(rgba(0,0,0,.1) 66.6667%,transparent 0);background-size:4px 4px}.ee2038>.banner>.wrapper{z-index:200;display:-webkit-flex;display:flex;-webkit-flex-flow:column nowrap;flex-flow:column nowrap;-webkit-justify-content:space-around;justify-content:space-around;-webkit-align-items:center;align-items:center;padding:0 30px}.ee2038>.banner>.wrapper:after,.ee2038>.banner>.wrapper:before{content:"";-webkit-flex:1;flex:1}.ee2038>.banner .logo{-webkit-flex:1;flex:1;color:transparent;background:url("' + D_Projects_diablohu_sp_diablohu_com_src_assets_sim_pilot_plate_svg__WEBPACK_IMPORTED_MODULE_1___default.a + '") no-repeat 50% 50%;background-size:contain;margin:0;padding:0;min-height:200px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.ee2038>.banner .subscribe{-webkit-flex:none;flex:none;padding-top:5vh}.ee2038>.banner .subscribe>a{display:inline-block;line-height:40px;border-radius:10px;padding-left:60px;padding-right:20px;color:#fff;position:relative;text-decoration:none;margin:0 10px;transition:-webkit-transform .2s ease-out;transition:transform .2s ease-out;transition:transform .2s ease-out,-webkit-transform .2s ease-out}.ee2038>.banner .subscribe>a>.icon{content:"";position:absolute;display:block;top:7px;left:10px;bottom:7px;height:26px;width:40px;background:no-repeat 50% 50%;background-size:contain;fill:#fff}.ee2038>.banner .subscribe>a.youtube{background:red}.ee2038>.banner .subscribe>a.bilibili{background:#07a3d7}html.is-hover .ee2038>.banner .subscribe>a:hover{color:#fff;-webkit-transform:scale(1.1);transform:scale(1.1)}.ee2038>.banner .subscribe>a:active,html.is-hover .ee2038>.banner .subscribe>a:hover:active{color:#fff;-webkit-transform:scale(.95);transform:scale(.95)}.ee2038>.banner.mod-pwa{height:50vh}.ee2038>.list{position:relative;padding-bottom:20px}.ee2038>.list:after,.ee2038>.list:before{content:"";position:absolute;top:0;bottom:0;left:0;right:0}.ee2038>.list:before{z-index:-2;background:radial-gradient(ellipse at bottom,#f6f8f8 25%,#d7dee2 100%)}.ee2038>.list:after{z-index:-1;opacity:.05;background:linear-gradient(135deg,#708090 21px,#d9ecff 22px,#d9ecff 24px,transparent 0,transparent 67px,#d9ecff 0,#d9ecff 69px,transparent 0),linear-gradient(225deg,#708090 21px,#d9ecff 22px,#d9ecff 24px,transparent 0,transparent 67px,#d9ecff 0,#d9ecff 69px,transparent 0) 0 64px;background-color:#708090;background-size:64px 128px}.ee2038>.infos{cursor:default;padding:26px 0;font-size:14px;line-height:1.5;text-align:center}';/* harmony default export */ __webpack_exports__["default"] = ({wrapper,css});
+const wrapper = 'a88a4b';const css = '.a88a4b,.a88a4b-banner{position:relative}.a88a4b-banner{background:url("' + D_Projects_diablohu_sp_diablohu_com_src_assets_banner_jpg__WEBPACK_IMPORTED_MODULE_0__["default"] + '") no-repeat 50% 50%;background-size:cover;width:100%;height:75vh;min-height:340px;max-height:800px}.a88a4b-banner:after,.a88a4b-banner:before,.a88a4b-banner>.wrapper{content:"";position:absolute;top:0;bottom:0;left:0;right:0;-webkit-flex:none;flex:none}.a88a4b-banner:after{z-index:10;background:rgba(0,0,0,.15)}.a88a4b-banner:before{z-index:100;background-image:radial-gradient(rgba(0,0,0,.1) 66.6667%,transparent 0);background-size:4px 4px}.a88a4b-banner>.wrapper{z-index:200;display:-webkit-flex;display:flex;-webkit-flex-flow:column nowrap;flex-flow:column nowrap;-webkit-justify-content:space-around;justify-content:space-around;-webkit-align-items:center;align-items:center;padding:0 30px}.a88a4b-banner>.wrapper:after,.a88a4b-banner>.wrapper:before{content:"";-webkit-flex:1;flex:1}.a88a4b-banner .logo{-webkit-flex:1;flex:1;color:transparent;background:url("' + D_Projects_diablohu_sp_diablohu_com_src_assets_sim_pilot_plate_svg__WEBPACK_IMPORTED_MODULE_1___default.a + '") no-repeat 50% 50%;background-size:contain;margin:0;padding:0;min-height:200px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.a88a4b-banner .subscribe{-webkit-flex:none;flex:none;padding-top:5vh}.a88a4b-banner .subscribe>a{display:inline-block;line-height:40px;border-radius:10px;padding-left:60px;padding-right:20px;color:#fff;position:relative;text-decoration:none;margin:0 10px;transition:-webkit-transform .2s ease-out;transition:transform .2s ease-out;transition:transform .2s ease-out,-webkit-transform .2s ease-out}.a88a4b-banner .subscribe>a>.icon{content:"";position:absolute;display:block;top:7px;left:10px;bottom:7px;height:26px;width:40px;background:no-repeat 50% 50%;background-size:contain;fill:#fff}.a88a4b-banner .subscribe>a.youtube{background:red}.a88a4b-banner .subscribe>a.bilibili{background:#07a3d7}html.is-hover .a88a4b-banner .subscribe>a:hover{color:#fff;-webkit-transform:scale(1.1);transform:scale(1.1)}html.is-hover .a88a4b-banner .subscribe>a:focus{outline:0}html.is-hover .a88a4b-banner .subscribe>a:focus:not(:active){color:#fff;-webkit-transform:scale(1.1);transform:scale(1.1)}.a88a4b-banner .subscribe>a:active,html.is-hover .a88a4b-banner .subscribe>a:hover:active{color:#fff;-webkit-transform:scale(.95);transform:scale(.95)}.a88a4b-banner.mod-pwa{height:50vh}.a88a4b-list{position:relative;padding:20px 0 60px}.a88a4b-list:after,.a88a4b-list:before{content:"";position:absolute;top:0;bottom:0;left:0;right:0}.a88a4b-list:before{z-index:-2;background:radial-gradient(ellipse at bottom,#f6f8f8 25%,#d7dee2 100%)}.a88a4b-list:after{z-index:-1;opacity:.05;background:linear-gradient(135deg,#708090 21px,#d9ecff 22px,#d9ecff 24px,transparent 0,transparent 67px,#d9ecff 0,#d9ecff 69px,transparent 0),linear-gradient(225deg,#708090 21px,#d9ecff 22px,#d9ecff 24px,transparent 0,transparent 67px,#d9ecff 0,#d9ecff 69px,transparent 0) 0 64px;background-color:#708090;background-size:64px 128px}.a88a4b-list>.header{position:-webkit-sticky;position:sticky;top:-1px;z-index:50;padding:20px 0 24px;border-bottom:1px solid transparent;transition:none .2s ease-out;transition-property:border-bottom-color,background-color,box-shadow}.a88a4b-list>.header>.wrapper{display:-webkit-flex;display:flex;-webkit-flex-flow:row wrap;flex-flow:row wrap;-webkit-justify-content:space-around;justify-content:space-around;-webkit-align-items:center;align-items:center}.a88a4b-list>.header.is-sticky{border-bottom-color:rgba(0,0,0,.15);background:hsla(0,0%,100%,.65);-webkit-backdrop-filter:blur(20px) saturate(180%);backdrop-filter:blur(20px) saturate(180%);box-shadow:0 0 10px rgba(0,0,0,.1)}.a88a4b-list>.header .title{-webkit-flex:1;flex:1;margin:0}.a88a4b-list>.header .sources{white-space:nowrap;text-align:right;display:-webkit-flex;display:flex;-webkit-flex-flow:row nowrap;flex-flow:row nowrap;-webkit-align-items:center;align-items:center;font-size:14px;color:#78909b;cursor:default}.a88a4b-list>.header .sources .btn-source{display:inline-block;border:0;padding:0;margin:0 0 0 .75em;background:none;color:inherit;cursor:pointer;transition:-webkit-transform .2s ease-out;transition:transform .2s ease-out;transition:transform .2s ease-out,-webkit-transform .2s ease-out}html.is-hover .a88a4b-list>.header .sources .btn-source:hover{-webkit-transform:scale(1.2);transform:scale(1.2)}html.is-hover .a88a4b-list>.header .sources .btn-source:focus{outline:0}html.is-hover .a88a4b-list>.header .sources .btn-source:focus:not(:active){-webkit-transform:scale(1.2);transform:scale(1.2)}.a88a4b-list>.header .sources .btn-source:active,html.is-hover .a88a4b-list>.header .sources .btn-source:hover:active{-webkit-transform:scale(.95);transform:scale(.95)}.a88a4b-list>.header .sources .btn-source .icon{width:24px;height:24px;color:inherit;fill:currentColor}.a88a4b-list>.header .sources .btn-source.is-on[data-source=bilibili]{color:#07a3d7}.a88a4b-list>.header .sources .btn-source.is-on[data-source=youtube]{color:red}.a88a4b-list>.header .tags{-webkit-flex:1 0 100%;flex:1 0 100%;margin-top:.75em}.a88a4b-list>.header .tags .tag{margin:.75em .75em 0 0;cursor:pointer}.a88a4b-list>.header .tags .tag.is-on{cursor:default}.a88a4b-list>.header .tags .tag.is-on:after{content:"";position:absolute;border:6px solid transparent;left:50%;top:50%;margin-left:-6px;border-bottom-color:inherit;margin-top:.5em}.a88a4b-list>.list-wrapper{border-top:15px solid transparent}.a88a4b-footer{cursor:default;padding:26px 0;font-size:14px;line-height:1.5;text-align:center}';/* harmony default export */ __webpack_exports__["default"] = ({wrapper,css});
 
 /***/ }),
 
@@ -13583,6 +13831,17 @@ module.exports = require("invariant");
 /***/ (function(module, exports) {
 
 module.exports = require("is-url");
+
+/***/ }),
+
+/***/ "js-cookie":
+/*!****************************!*\
+  !*** external "js-cookie" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("js-cookie");
 
 /***/ }),
 
