@@ -20,18 +20,19 @@ const App = extend({
         title: '飞行员大波胡 | Sim-Pilot Diablohu',
         description: '【飞行员大波胡 | Sim-Pilot Diablohu】系列视频',
     },
-    styles,
-})(({ className, dispatch, appMode }) => {
-    useEffect(() => {
-        switch (qs.parse(window.location.search).utm_source) {
+    data: (state, renderProps, dispatch) => {
+        if (__CLIENT__) return;
+        switch (
+            qs.parse(state.routing.locationBeforeTransitions.search).utm_source
+        ) {
             case 'web_app_manifest':
                 return dispatch(setAppMode(PWA));
             default:
                 dispatch(setAppMode(NORMAL));
         }
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, []);
-
+    },
+    styles,
+})(({ className, dispatch }) => {
     return (
         <React.StrictMode>
             <div className={className}>
