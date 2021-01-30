@@ -32,7 +32,7 @@ export interface RouteComponentProps {
 }
 
 // ============================================================================
-export type Tag =
+export type VideoTag =
     | 'clip'
     | 'training'
     | 'landing'
@@ -53,6 +53,6 @@ export interface VideoItem {
     link: {
         [type in VideoSource]: string;
     };
-    tag: Array<Tag>;
+    tag: Array<VideoTag>;
     release: number;
 }

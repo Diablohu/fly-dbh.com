@@ -44,7 +44,7 @@
         background-size: cover;
         border-radius: 5px 5px 0 0;
         border: 1px solid @color-accent;
-        border-bottom: 0;
+        border-bottom-width: 0;
         // filter: grayscale(0.75);
         transition: inherit;
         transition-property: filter;
@@ -125,14 +125,22 @@
         width: 100%;
         display: flex;
         margin-top: 12px;
-        flex-flow: row nowrap;
+        flex-flow: row wrap;
         padding: 0 8px 0 4px;
+        & > .tags,
         & > .name,
         & > .date {
             display: block;
         }
-        & > .name {
+        & > .tags {
             flex: 1;
+            margin-bottom: 0.5em;
+            .tag {
+                margin-right: 0.5em;
+            }
+        }
+        & > .name {
+            flex: 1 0 100%;
             color: @color-accent;
             font-size: 20px;
             line-height: 1.2;
@@ -178,6 +186,7 @@
         .is-active(.styles-active());
         & > .thumbnail {
             border-radius: 5px;
+            border-bottom-width: 1px;
         }
     }
 }

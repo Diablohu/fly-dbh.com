@@ -1,0 +1,39 @@
+@import '~vars.less';
+
+.component {
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.1em;
+    padding: 4px 8px;
+    color: #000;
+    border: 1px solid fade(#000, 35%);
+    border-radius: 1em;
+    cursor: default;
+    &.is-on {
+        color: #fff;
+        background: fade(#000, 35%);
+    }
+
+    .tag(@type) {
+        @color: 'color-tag-@{type}';
+        &[data-tag='@{type}'] {
+            // color: @@color;
+            @border-color: fade(saturate(darken(@@color, 25%), 5%), 80%);
+            background: fade(desaturate(@@color, 15%), 35%);
+            border-color: fade(@border-color, 35%);
+            &.is-on {
+                background-color: @border-color;
+                border-color: @border-color;
+            }
+        }
+    }
+
+    .tag('clip');
+    .tag('training');
+    .tag('landing');
+    .tag('airport');
+    .tag('device');
+    .tag('mod');
+    .tag('tour');
+}

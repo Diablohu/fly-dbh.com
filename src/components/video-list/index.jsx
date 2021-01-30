@@ -3,6 +3,7 @@ import { extend } from 'koot';
 
 import { getVideoList } from '@api/videos';
 import Icon from '@components/icon';
+import Tag from '@components/tag';
 
 import sources, { names as sourceNames } from '@constants/video-sources';
 
@@ -30,6 +31,10 @@ class VideoList extends PureComponent {
             <div className={this.props.className}>
                 {this.props.list
                     .filter(({ release }) => now > release)
+                    .filter(
+                        ({ tag }) =>
+                            !this.props.tag || tag.includes(this.props.tag)
+                    )
                     .map((item) => (
                         <Item
                             video={item}
@@ -46,49 +51,58 @@ export default VideoList;
 
 // ============================================================================
 
-const Item = memo(({ video: { name, thumbnail, link, release }, source }) => {
-    const time = new Date(release);
+const Item = memo(
+    ({ video: { name, thumbnail, link, release, tag }, source }) => {
+        const time = new Date(release);
 
-    const C = source ? 'a' : 'div';
-    const P = {
-        className: `${classNameModule}-item`,
-    };
+        const C = source ? 'a' : 'div';
+        const P = {
+            className: `${classNameModule}-item`,
+        };
 
-    if (C === 'a') {
-        P.className += ' mod-has-source';
-        P.href = link[source];
-        P.target = '_blank';
-        P.rel = 'noreferrer';
+        if (C === 'a') {
+            P.className += ' mod-has-source';
+            P.href = link[source];
+            P.target = '_blank';
+            P.rel = 'noreferrer';
+        }
+
+        return (
+            <C {...P}>
+                <span className="thumbnail">
+                    <img src={thumbnail} alt={name} loading="lazy" />
+                </span>
+                {!source && (
+                    <span className="links">
+                        {sources.map((source) => (
+                            <a
+                                href={link[source]}
+                                target="_blank"
+                                rel="noreferrer"
+                                className={source}
+                                key={source}
+                            >
+                                <Icon className="icon" icon={source} />
+                                {sourceNames[source]}
+                            </a>
+                        ))}
+                    </span>
+                )}
+                <span className="infos">
+                    {Array.isArray(tag) && tag.length && (
+                        <span className="tags">
+                            {tag.map((t) => (
+                                <Tag className="tag" tag={t} key={t} />
+                            ))}
+                        </span>
+                    )}
+                    <span className="date">
+                        {time.getFullYear()} / {time.getMonth() + 1} /{' '}
+                        {time.getDate()}
+                    </span>
+                    <strong className="name">{name}</strong>
+                </span>
+            </C>
+        );
     }
-
-    return (
-        <C {...P}>
-            <span className="thumbnail">
-                <img src={thumbnail} alt={name} loading="lazy" />
-            </span>
-            {!source && (
-                <span className="links">
-                    {sources.map((source) => (
-                        <a
-                            href={link[source]}
-                            target="_blank"
-                            rel="noreferrer"
-                            className={source}
-                            key={source}
-                        >
-                            <Icon className="icon" icon={source} />
-                            {sourceNames[source]}
-                        </a>
-                    ))}
-                </span>
-            )}
-            <span className="infos">
-                <strong className="name">{name}</strong>
-                <span className="date">
-                    {time.getFullYear()} / {time.getMonth() + 1} /{' '}
-                    {time.getDate()}
-                </span>
-            </span>
-        </C>
-    );
-});
+);

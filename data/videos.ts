@@ -149,7 +149,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/YxrXO9g-JLc',
             bilibili: 'https://www.bilibili.com/video/BV1tz4y1C78e',
         },
-        tag: ['landing'],
+        tag: ['landing', 'airport'],
         release: 1603596631000,
     },
 
