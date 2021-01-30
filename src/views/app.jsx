@@ -1,4 +1,4 @@
-import React, { memo, useState, useCallback } from 'react';
+import React, { memo, useState } from 'react';
 import { extend } from 'koot';
 import qs from 'query-string';
 import classNames from 'classnames';
