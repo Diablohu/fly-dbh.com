@@ -3,10 +3,40 @@
         @rules();
     }
 }
-
 .is-hover( @rulesHover ; @rulesActive ) {
     html.is-hover &:hover {
         @rulesHover();
+    }
+    &:active,
+    html.is-hover &:hover:active {
+        @rulesActive();
+    }
+}
+
+.is-hover-with-focus( @rules ) {
+    html.is-hover & {
+        &:hover {
+            @rules();
+        }
+        &:focus {
+            outline: 0;
+        }
+        &:focus:not(:active) {
+            @rules();
+        }
+    }
+}
+.is-hover-with-focus( @rulesHover ; @rulesActive ) {
+    html.is-hover & {
+        &:hover {
+            @rulesHover();
+        }
+        &:focus {
+            outline: 0;
+        }
+        &:focus:not(:active) {
+            @rulesHover();
+        }
     }
     &:active,
     html.is-hover &:hover:active {
@@ -145,5 +175,5 @@
     .styles-active() {
         color: @color-link-active;
     }
-    .is-hover(.styles-hover() ; .styles-active() ;);
+    .is-hover(.styles-hover() , .styles-active() );
 }

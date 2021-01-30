@@ -105,7 +105,7 @@
                 color: #fff;
                 transform: scale(0.95);
             }
-            .is-hover(.styles-hover(), .styles-active());
+            .is-hover-with-focus(.styles-hover(), .styles-active());
         }
     }
 
@@ -117,8 +117,60 @@
 .component-list {
     .hero-patterns();
     padding: 40px 0 60px 0;
-    & > .wrapper > .list {
-        border-top: 40px solid transparent;
+    & > .wrapper {
+        & > .header {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            align-items: center;
+            .title {
+                flex: 1;
+                margin: 0;
+            }
+            .sources {
+                white-space: nowrap;
+                text-align: right;
+                display: flex;
+                flex-flow: row nowrap;
+                align-items: center;
+                font-size: 14px;
+                color: @theme-bluegrey-400;
+                cursor: default;
+                .btn-source {
+                    display: inline-block;
+                    border: 0;
+                    padding: 0;
+                    margin: 0 0 0 0.75em;
+                    background: none;
+                    color: inherit;
+                    cursor: pointer;
+                    transition: transform 200ms ease-out;
+                    .styles-hover() {
+                        transform: scale(1.2);
+                    }
+                    .styles-active() {
+                        transform: scale(0.95);
+                    }
+                    .is-hover-with-focus(.styles-hover(),.styles-active());
+                    .icon {
+                        @size: 24px;
+                        width: @size;
+                        height: @size;
+                        color: inherit;
+                        fill: currentColor;
+                    }
+                    &.is-on[data-source='bilibili'] {
+                        color: @color-bilibili;
+                    }
+                    &.is-on[data-source='youtube'] {
+                        color: @color-youtube;
+                    }
+                }
+            }
+        }
+        & > .list {
+            border-top: 40px solid transparent;
+        }
     }
 }
 

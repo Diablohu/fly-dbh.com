@@ -118,7 +118,7 @@
                     transform: scale(1.2);
                 }
             }
-            .is-hover(.styles-hover());
+            .is-hover-with-focus(.styles-hover());
         }
     }
     & > .infos {
@@ -166,5 +166,18 @@
             opacity: 1;
         }
     }
-    .is-hover(.styles-hover());
+    .is-hover-with-focus(.styles-hover());
+
+    &.mod-has-source {
+        cursor: pointer;
+        text-decoration: none;
+        .transition(transform);
+        .styles-active() {
+            transform: scale(0.95);
+        }
+        .is-active(.styles-active());
+        & > .thumbnail {
+            border-radius: 5px;
+        }
+    }
 }

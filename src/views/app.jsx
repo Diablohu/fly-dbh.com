@@ -1,4 +1,4 @@
-import React, { memo, useEffect } from 'react';
+import React, { memo, useState, useCallback } from 'react';
 import { extend } from 'koot';
 import qs from 'query-string';
 import classNames from 'classnames';
@@ -9,6 +9,7 @@ import Center from '@components/center';
 
 import { setAppMode } from '@api/app';
 import { PWA, NORMAL } from '@constants/app-mode';
+import videoSources from '@constants/video-sources';
 
 import styles, { wrapper as classNameModule } from './app.module.less';
 
@@ -91,13 +92,39 @@ const Banner = extend({
 );
 
 const List = memo(() => {
+    const [source, setSource] = useState(undefined);
+
+    function selectSource(evt) {
+        evt.preventDefault();
+        const targetSource = evt.currentTarget.getAttribute('data-source');
+        setSource(targetSource === source ? undefined : targetSource);
+    }
+
     return (
         <div className={`${classNameModule}-list`}>
             <Center className="wrapper">
                 <div className="header">
-                    <h2>最新视频</h2>
+                    <h2 className="title">最新视频</h2>
+                    <div className="sources">
+                        首选视频源
+                        {videoSources.map((thisSource) => (
+                            <button
+                                key={thisSource}
+                                data-source={thisSource}
+                                onClick={selectSource}
+                                className={classNames([
+                                    'btn-source',
+                                    {
+                                        'is-on': thisSource === source,
+                                    },
+                                ])}
+                            >
+                                <Icon className="icon" icon={thisSource} />
+                            </button>
+                        ))}
+                    </div>
                 </div>
-                <VideoList className="list" />
+                <VideoList className="list" source={source} />
             </Center>
         </div>
     );

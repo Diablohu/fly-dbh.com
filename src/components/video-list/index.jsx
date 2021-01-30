@@ -4,6 +4,8 @@ import { extend } from 'koot';
 import { getVideoList } from '@api/videos';
 import Icon from '@components/icon';
 
+import sources, { names as sourceNames } from '@constants/video-sources';
+
 import styles, { wrapper as classNameModule } from './index.module.less';
 
 // Component Class ============================================================
@@ -22,14 +24,18 @@ class VideoList extends PureComponent {
         sort: 'desc',
     };
 
-    render(): ReactNode {
+    render() {
         const now = Date.now();
         return (
             <div className={this.props.className}>
                 {this.props.list
                     .filter(({ release }) => now > release)
                     .map((item) => (
-                        <Item video={item} key={item.release} />
+                        <Item
+                            video={item}
+                            key={item.release}
+                            source={this.props.source}
+                        />
                     ))}
             </div>
         );
@@ -40,33 +46,42 @@ export default VideoList;
 
 // ============================================================================
 
-const Item = memo(({ video: { name, thumbnail, link, release, source } }) => {
+const Item = memo(({ video: { name, thumbnail, link, release }, source }) => {
     const time = new Date(release);
+
+    const C = source ? 'a' : 'div';
+    const P = {
+        className: `${classNameModule}-item`,
+    };
+
+    if (C === 'a') {
+        P.className += ' mod-has-source';
+        P.href = link[source];
+        P.target = '_blank';
+        P.rel = 'noreferrer';
+    }
+
     return (
-        <div className={`${classNameModule}-item`}>
+        <C {...P}>
             <span className="thumbnail">
                 <img src={thumbnail} alt={name} loading="lazy" />
             </span>
-            <span className="links">
-                <a
-                    href={link.bilibili}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="bilibili"
-                >
-                    <Icon className="icon" icon="bilibili" />
-                    哔哩哔哩
-                </a>
-                <a
-                    href={link.youtube}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="youtube"
-                >
-                    <Icon className="icon" icon="youtube" />
-                    YouTube
-                </a>
-            </span>
+            {!source && (
+                <span className="links">
+                    {sources.map((source) => (
+                        <a
+                            href={link[source]}
+                            target="_blank"
+                            rel="noreferrer"
+                            className={source}
+                            key={source}
+                        >
+                            <Icon className="icon" icon={source} />
+                            {sourceNames[source]}
+                        </a>
+                    ))}
+                </span>
+            )}
             <span className="infos">
                 <strong className="name">{name}</strong>
                 <span className="date">
@@ -74,6 +89,6 @@ const Item = memo(({ video: { name, thumbnail, link, release, source } }) => {
                     {time.getDate()}
                 </span>
             </span>
-        </div>
+        </C>
     );
 });

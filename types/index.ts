@@ -40,6 +40,7 @@ export type Tag =
     | 'device'
     | 'mod'
     | 'tour';
+export type VideoSource = 'bilibili' | 'youtube';
 export interface VideoItem {
     name: {
         [localeId: string]: string;
@@ -50,8 +51,7 @@ export interface VideoItem {
     thumbnail?: string;
     thumbnailOriginal?: string;
     link: {
-        youtube: string;
-        bilibili: string;
+        [type in VideoSource]: string;
     };
     tag: Array<Tag>;
     release: number;
