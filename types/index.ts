@@ -31,7 +31,15 @@ export interface RouteComponentProps {
     };
 }
 
-// 艺术家 =====================================================================
+// ============================================================================
+export type Tag =
+    | 'clip'
+    | 'training'
+    | 'landing'
+    | 'airport'
+    | 'device'
+    | 'mod'
+    | 'tour';
 export interface VideoItem {
     name: {
         [localeId: string]: string;
@@ -45,5 +53,6 @@ export interface VideoItem {
         youtube: string;
         bilibili: string;
     };
+    tag: Array<Tag>;
     release: number;
 }

@@ -26,16 +26,11 @@ class VideoList extends PureComponent {
         const now = Date.now();
         return (
             <div className={this.props.className}>
-                <div className="header">
-                    <h2>最新视频</h2>
-                </div>
-                <div className="list">
-                    {this.props.list
-                        .filter(({ release }) => now > release)
-                        .map((item) => (
-                            <Item video={item} key={item.release} />
-                        ))}
-                </div>
+                {this.props.list
+                    .filter(({ release }) => now > release)
+                    .map((item) => (
+                        <Item video={item} key={item.release} />
+                    ))}
             </div>
         );
     }
@@ -45,7 +40,7 @@ export default VideoList;
 
 // ============================================================================
 
-const Item = memo(({ video: { name, thumbnail, link, release } }) => {
+const Item = memo(({ video: { name, thumbnail, link, release, source } }) => {
     const time = new Date(release);
     return (
         <div className={`${classNameModule}-item`}>

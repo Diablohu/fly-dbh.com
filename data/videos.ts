@@ -14,6 +14,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/Q9ygEejv0lw',
             bilibili: 'https://www.bilibili.com/video/BV1JA411p75z',
         },
+        tag: ['device'],
         release: 1611462600000,
     },
 
@@ -30,6 +31,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/sMlw3HfhPoA',
             bilibili: 'https://www.bilibili.com/video/BV1CU4y1x7Hm',
         },
+        tag: ['mod'],
         release: 1610249416000,
     },
 
@@ -46,6 +48,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/lXeULVaPRLM',
             bilibili: 'https://www.bilibili.com/video/BV12f4y1e7Nt',
         },
+        tag: ['landing'],
         release: 1609210057000,
     },
 
@@ -62,6 +65,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/wSOc5o-xCeQ',
             bilibili: 'https://www.bilibili.com/video/BV1YZ4y1g7sR',
         },
+        tag: ['tour'],
         release: 1607229007000,
     },
 
@@ -78,6 +82,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/9JJhlXSBsbo',
             bilibili: 'https://www.bilibili.com/video/BV1Ey4y1S7V6',
         },
+        tag: ['clip', 'landing'],
         release: 1606188616000,
     },
 
@@ -94,6 +99,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/StOJ9HkXccY',
             bilibili: 'https://www.bilibili.com/video/BV1gD4y1X7Ng',
         },
+        tag: ['landing'],
         release: 1605497402000,
     },
 
@@ -110,6 +116,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/QElg8lr15tU',
             bilibili: 'https://www.bilibili.com/video/BV1ir4y1w7aj',
         },
+        tag: ['mod'],
         release: 1604808000000,
     },
 
@@ -125,6 +132,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/6qPRsCuPMUE',
             bilibili: 'https://www.bilibili.com/video/BV1KD4y1R7UT',
         },
+        tag: ['landing'],
         release: 1604201460000,
     },
 
@@ -141,6 +149,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/YxrXO9g-JLc',
             bilibili: 'https://www.bilibili.com/video/BV1tz4y1C78e',
         },
+        tag: ['landing'],
         release: 1603596631000,
     },
 
@@ -156,6 +165,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/XT9FdreY9ZQ',
             bilibili: 'https://www.bilibili.com/video/BV1x54y1R7nX',
         },
+        tag: ['device', 'tour'],
         release: 1603078204000,
     },
 
@@ -172,6 +182,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/rndn4CINMQc',
             bilibili: 'https://www.bilibili.com/video/BV1m54y117rt',
         },
+        tag: ['tour'],
         release: 1602127832000,
     },
 
@@ -188,6 +199,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/vNcbK0hF8mg',
             bilibili: 'https://www.bilibili.com/video/BV13p4y1Y7wS',
         },
+        tag: ['tour'],
         release: 1601546435000,
     },
 
@@ -203,6 +215,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/F-jVs38ab8Y',
             bilibili: 'https://www.bilibili.com/video/BV1kK4y1874X',
         },
+        tag: ['landing'],
         release: 1601092856000,
     },
 
@@ -218,6 +231,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/3Efm9u7TAyg',
             bilibili: 'https://www.bilibili.com/video/BV1yD4y1o7jE',
         },
+        tag: ['tour', 'landing'],
         release: 1600659015000,
     },
 
@@ -233,6 +247,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/eO0Prwjklkg',
             bilibili: 'https://www.bilibili.com/video/BV17a4y1j7Qq',
         },
+        tag: ['training'],
         release: 1600056009000,
     },
 ];
