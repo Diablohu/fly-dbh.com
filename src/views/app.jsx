@@ -2,6 +2,7 @@ import React, { memo, useState, useEffect, useRef } from 'react';
 import { extend } from 'koot';
 import qs from 'query-string';
 import classNames from 'classnames';
+import Cookies from 'js-cookie';
 
 import VideoList from '@components/video-list';
 import Icon from '@components/icon';
@@ -12,6 +13,7 @@ import { setAppMode } from '@api/app';
 import { PWA, NORMAL } from '@constants/app-mode';
 import videoSources from '@constants/video-sources';
 import videoTags, { names as videoTagName } from '@constants/video-tags';
+import { VIDEO_SOURCE as cookieNameVideoSource } from '@constants/cookie-name';
 
 import styles, { wrapper as classNameModule } from './app.module.less';
 
@@ -93,81 +95,95 @@ const Banner = extend({
     })
 );
 
-const List = memo(() => {
-    const HeaderRef = useRef(null);
+const List = extend({
+    connect: (state) => ({
+        defaultSource: state.server?.cookie?.[cookieNameVideoSource],
+    }),
+})(
+    memo(({ defaultSource }) => {
+        const HeaderRef = useRef(null);
 
-    const [source, setSource] = useState(undefined);
-    const [tag, setTag] = useState('');
+        const [source, setSource] = useState(defaultSource);
+        const [tag, setTag] = useState('');
 
-    useEffect(() => {
-        if (!HeaderRef || !HeaderRef.current) return;
-        if (List.observer) return;
-        List.observer = new IntersectionObserver(
-            ([e]) =>
-                e.target.classList.toggle('is-sticky', e.intersectionRatio < 1),
-            { threshold: [1] }
-        );
-        List.observer.observe(HeaderRef.current);
-    }, []);
+        useEffect(() => {
+            if (!HeaderRef || !HeaderRef.current) return;
+            if (List.observer) return;
+            List.observer = new IntersectionObserver(
+                ([e]) =>
+                    e.target.classList.toggle(
+                        'is-sticky',
+                        e.intersectionRatio < 1
+                    ),
+                { threshold: [1] }
+            );
+            List.observer.observe(HeaderRef.current);
+        }, []);
 
-    function selectSource(evt) {
-        evt.preventDefault();
-        const targetSource = evt.currentTarget.getAttribute('data-source');
-        setSource(targetSource === source ? undefined : targetSource);
-    }
-    function selectTag(evt) {
-        evt.preventDefault();
-        const targetTag = evt.currentTarget.getAttribute('data-tag');
-        setTag(targetTag === tag ? undefined : targetTag);
-    }
+        function selectSource(evt) {
+            evt.preventDefault();
+            const targetSource = evt.currentTarget.getAttribute('data-source');
+            const newSource =
+                targetSource === source ? undefined : targetSource;
+            setSource(newSource);
+            if (newSource)
+                Cookies.set(cookieNameVideoSource, newSource, { expires: 365 });
+            else Cookies.remove(cookieNameVideoSource);
+        }
+        function selectTag(evt) {
+            evt.preventDefault();
+            const targetTag = evt.currentTarget.getAttribute('data-tag');
+            setTag(targetTag === tag ? undefined : targetTag);
+        }
 
-    return (
-        <div className={`${classNameModule}-list`}>
-            <div className="header" ref={HeaderRef}>
-                <Center className="wrapper">
-                    <h2 className="title">最新视频</h2>
-                    <div className="sources">
-                        视频源
-                        {videoSources.map((thisSource) => (
-                            <button
-                                key={thisSource}
-                                data-source={thisSource}
-                                onClick={selectSource}
-                                className={classNames([
-                                    'btn-source',
-                                    {
-                                        'is-on': thisSource === source,
-                                    },
-                                ])}
-                            >
-                                <Icon className="icon" icon={thisSource} />
-                            </button>
-                        ))}
-                    </div>
-                    <div className="tags">
-                        {List.tags.map(({ label, value }) => (
-                            <Tag
-                                key={value}
-                                onClick={selectTag}
-                                className={classNames([
-                                    'tag',
-                                    {
-                                        'is-on': value === tag,
-                                    },
-                                ])}
-                                tag={value}
-                                label={label}
-                            />
-                        ))}
-                    </div>
+        return (
+            <div className={`${classNameModule}-list`}>
+                <div className="header" ref={HeaderRef}>
+                    <Center className="wrapper">
+                        <h2 className="title">最新视频</h2>
+                        <div className="sources">
+                            视频源
+                            {videoSources.map((thisSource) => (
+                                <button
+                                    key={thisSource}
+                                    data-source={thisSource}
+                                    onClick={selectSource}
+                                    className={classNames([
+                                        'btn-source',
+                                        {
+                                            'is-on': thisSource === source,
+                                        },
+                                    ])}
+                                >
+                                    <Icon className="icon" icon={thisSource} />
+                                </button>
+                            ))}
+                        </div>
+                        <div className="tags">
+                            {List.tags.map(({ label, value }) => (
+                                <Tag
+                                    key={value}
+                                    onClick={selectTag}
+                                    className={classNames([
+                                        'tag',
+                                        {
+                                            'is-on': value === tag,
+                                        },
+                                    ])}
+                                    tag={value}
+                                    label={label}
+                                />
+                            ))}
+                        </div>
+                    </Center>
+                </div>
+                <Center className="list-wrapper">
+                    <VideoList className="list" source={source} tag={tag} />
                 </Center>
             </div>
-            <Center className="list-wrapper">
-                <VideoList className="list" source={source} tag={tag} />
-            </Center>
-        </div>
-    );
-});
+        );
+    })
+);
 List.tags = [{ label: '全部', value: '' }].concat(
     videoTags.map((tag) => ({
         label: videoTagName[tag],
