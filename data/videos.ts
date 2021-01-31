@@ -3,6 +3,23 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: 'C·罗机场',
+        },
+        des: {
+            zh:
+                '图马斯特（Thrustmaster）TCA 空客摇杆可以说是目前市面上比较火爆的一款模拟飞行控制器，不过很多朋友应该都遇到了尾舵操作随机偏移的问题。好在这个问题是可以通过简单的拆解就能修理的。今天我们就来动手修理一下~',
+        },
+        thumbnailOriginal: './thumbnails/20210201.jpg',
+        link: {
+            youtube: 'https://youtu.be/8Q3lot3M9a0',
+            bilibili: 'https://www.bilibili.com/video/BV1Zv411Y7Y5',
+        },
+        tag: ['airport'],
+        release: 1612152000000,
+    },
+
+    {
+        name: {
             zh: '动手修理图马斯特摇杆',
         },
         des: {
