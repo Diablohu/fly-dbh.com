@@ -113,7 +113,7 @@ const List = extend({
                 ([e]) =>
                     e.target.classList.toggle(
                         'is-sticky',
-                        e.intersectionRatio < 1 && e.intersectionRatio > 1
+                        e.intersectionRatio < 1 && e.intersectionRatio > 0
                     ),
                 { threshold: [1, 0] }
             );
