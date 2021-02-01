@@ -10,7 +10,7 @@
             "client": [
                 "public/includes/chunk.fa2a51bfc163484b94e5.js",
                 "public/includes/chunk.fdd76becf204aaea349e.js",
-                "public/includes/entry.d3d5942ffe26efba867e.js"
+                "public/includes/entry.e9f4d10347a39774eb2b.js"
             ],
             "__KOOT__CLIENT__RUN__FIRST__": [
                 "public/includes/entry.919ac058dca35ae0ae23.js"
@@ -18,7 +18,7 @@
         },
         ".files": {
             "__KOOT__CLIENT__RUN__FIRST__.js": "public/includes/entry.919ac058dca35ae0ae23.js",
-            "client.js": "public/includes/entry.d3d5942ffe26efba867e.js",
+            "client.js": "public/includes/entry.e9f4d10347a39774eb2b.js",
             "critical.css": "public/includes/extract.2.1b2ed35958bd42e6985c.css",
             "critical.js": "public/includes/entry.1b2ed35958bd42e6985c.js",
             "libs.js": "public/includes/chunk.fa2a51bfc163484b94e5.js",
