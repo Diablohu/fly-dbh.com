@@ -113,9 +113,9 @@ const List = extend({
                 ([e]) =>
                     e.target.classList.toggle(
                         'is-sticky',
-                        e.intersectionRatio < 1
+                        e.intersectionRatio < 1 && e.intersectionRatio > 1
                     ),
-                { threshold: [1] }
+                { threshold: [1, 0] }
             );
             List.observer.observe(HeaderRef.current);
         }, []);
