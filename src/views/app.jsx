@@ -110,11 +110,15 @@ const List = extend({
             if (!HeaderRef || !HeaderRef.current) return;
             if (List.observer) return;
             List.observer = new IntersectionObserver(
-                ([e]) =>
+                ([e]) => {
+                    // console.log(e.boundingClientRect, e.intersectionRect);
                     e.target.classList.toggle(
                         'is-sticky',
-                        e.intersectionRatio < 1 && e.intersectionRatio > 0
-                    ),
+                        e.boundingClientRect.top <= 0 &&
+                            e.intersectionRatio < 1 &&
+                            e.intersectionRatio > 0
+                    );
+                },
                 { threshold: [1, 0] }
             );
             List.observer.observe(HeaderRef.current);
