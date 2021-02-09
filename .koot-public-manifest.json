@@ -4,25 +4,25 @@
         ".out": "public/",
         ".entrypoints": {
             "critical": [
-                "public/includes/extract.2.1b2ed35958bd42e6985c.css",
-                "public/includes/entry.1b2ed35958bd42e6985c.js"
+                "public/includes/extract.2.75d0926dc0c8e36d72e0.css",
+                "public/includes/entry.75d0926dc0c8e36d72e0.js"
             ],
             "client": [
-                "public/includes/chunk.fa2a51bfc163484b94e5.js",
-                "public/includes/chunk.fdd76becf204aaea349e.js",
-                "public/includes/entry.e9f4d10347a39774eb2b.js"
+                "public/includes/chunk.5646559d2df56da8053d.js",
+                "public/includes/chunk.5d71483254d63fe6f4ae.js",
+                "public/includes/entry.e8a2dab92775f4438775.js"
             ],
             "__KOOT__CLIENT__RUN__FIRST__": [
-                "public/includes/entry.919ac058dca35ae0ae23.js"
+                "public/includes/entry.ca153a9a3d10496e7b52.js"
             ]
         },
         ".files": {
-            "__KOOT__CLIENT__RUN__FIRST__.js": "public/includes/entry.919ac058dca35ae0ae23.js",
-            "client.js": "public/includes/entry.e9f4d10347a39774eb2b.js",
-            "critical.css": "public/includes/extract.2.1b2ed35958bd42e6985c.css",
-            "critical.js": "public/includes/entry.1b2ed35958bd42e6985c.js",
-            "libs.js": "public/includes/chunk.fa2a51bfc163484b94e5.js",
-            "vendors~client.js": "public/includes/chunk.fdd76becf204aaea349e.js",
+            "__KOOT__CLIENT__RUN__FIRST__.js": "public/includes/entry.ca153a9a3d10496e7b52.js",
+            "client.js": "public/includes/entry.e8a2dab92775f4438775.js",
+            "critical.css": "public/includes/extract.2.75d0926dc0c8e36d72e0.css",
+            "critical.js": "public/includes/entry.75d0926dc0c8e36d72e0.js",
+            "libs.js": "public/includes/chunk.5646559d2df56da8053d.js",
+            "vendors~client.js": "public/includes/chunk.5d71483254d63fe6f4ae.js",
             "__KOOT__EXTRACT__CSS__.css": "public/includes/extract.all.5d2f36ec5091395800d4fd2785bf716d.small.css"
         },
         "service-worker": [
