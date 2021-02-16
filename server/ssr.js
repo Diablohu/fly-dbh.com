@@ -2,537 +2,108 @@ if (typeof global.KOOT_DIST_DIR === "undefined") {
     global.KOOT_DIST_DIR = require("path").resolve(__dirname, "../");
 }
 
-/******/ (function(modules) { // webpackBootstrap
-/******/ 	// The module cache
-/******/ 	var installedModules = {};
-/******/
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-/******/
-/******/ 		// Check if module is in cache
-/******/ 		if(installedModules[moduleId]) {
-/******/ 			return installedModules[moduleId].exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = installedModules[moduleId] = {
-/******/ 			i: moduleId,
-/******/ 			l: false,
-/******/ 			exports: {}
-/******/ 		};
-/******/
-/******/ 		// Execute the module function
-/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
-/******/
-/******/ 		// Flag the module as loaded
-/******/ 		module.l = true;
-/******/
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/
-/******/
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = modules;
-/******/
-/******/ 	// expose the module cache
-/******/ 	__webpack_require__.c = installedModules;
-/******/
-/******/ 	// define getter function for harmony exports
-/******/ 	__webpack_require__.d = function(exports, name, getter) {
-/******/ 		if(!__webpack_require__.o(exports, name)) {
-/******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
-/******/ 		}
-/******/ 	};
-/******/
-/******/ 	// define __esModule on exports
-/******/ 	__webpack_require__.r = function(exports) {
-/******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
-/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
-/******/ 		}
-/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
-/******/ 	};
-/******/
-/******/ 	// create a fake namespace object
-/******/ 	// mode & 1: value is a module id, require it
-/******/ 	// mode & 2: merge all properties of value into the ns
-/******/ 	// mode & 4: return value when already ns object
-/******/ 	// mode & 8|1: behave like require
-/******/ 	__webpack_require__.t = function(value, mode) {
-/******/ 		if(mode & 1) value = __webpack_require__(value);
-/******/ 		if(mode & 8) return value;
-/******/ 		if((mode & 4) && typeof value === 'object' && value && value.__esModule) return value;
-/******/ 		var ns = Object.create(null);
-/******/ 		__webpack_require__.r(ns);
-/******/ 		Object.defineProperty(ns, 'default', { enumerable: true, value: value });
-/******/ 		if(mode & 2 && typeof value != 'string') for(var key in value) __webpack_require__.d(ns, key, function(key) { return value[key]; }.bind(null, key));
-/******/ 		return ns;
-/******/ 	};
-/******/
-/******/ 	// getDefaultExport function for compatibility with non-harmony modules
-/******/ 	__webpack_require__.n = function(module) {
-/******/ 		var getter = module && module.__esModule ?
-/******/ 			function getDefault() { return module['default']; } :
-/******/ 			function getModuleExports() { return module; };
-/******/ 		__webpack_require__.d(getter, 'a', getter);
-/******/ 		return getter;
-/******/ 	};
-/******/
-/******/ 	// Object.prototype.hasOwnProperty.call
-/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
-/******/
-/******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/";
-/******/
-/******/
-/******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
-/******/ })
-/************************************************************************/
-/******/ ({
+/******/ (() => { // webpackBootstrap
+/******/ 	var __webpack_modules__ = ({
 
-/***/ "./.data/videos/0923e9857e147def705adf6cc092c034.jpg":
-/*!***********************************************************!*\
-  !*** ./.data/videos/0923e9857e147def705adf6cc092c034.jpg ***!
-  \***********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./src/components/center/index.module.less":
+/*!*************************************************!*\
+  !*** ./src/components/center/index.module.less ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "includes/asset.14d2da3998285c6c8af9035a14cc2cac.jpg");
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "wrapper": () => (/* binding */ wrapper),
+/* harmony export */   "css": () => (/* binding */ css),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+const wrapper = 'c81c13';const css = '.c81c13{position:relative;width:100%;max-width:1280px;margin-left:auto;margin-right:auto;border-left:40px solid transparent;border-right:40px solid transparent}';/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({wrapper,css});
 
 /***/ }),
 
-/***/ "./.data/videos/0af5bcb78a7f4991468e861649c33dc5.jpg":
-/*!***********************************************************!*\
-  !*** ./.data/videos/0af5bcb78a7f4991468e861649c33dc5.jpg ***!
-  \***********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./src/components/icon/index.module.less":
+/*!***********************************************!*\
+  !*** ./src/components/icon/index.module.less ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "includes/asset.3398bf870fa68d152ec55a0719746ac1.jpg");
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "wrapper": () => (/* binding */ wrapper),
+/* harmony export */   "css": () => (/* binding */ css),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+const wrapper = 'dd3414';const css = '.dd3414{display:inline-block;width:16px;height:16px;stroke-width:0;stroke:currentColor;fill:currentColor;vertical-align:text-top}';/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({wrapper,css});
 
 /***/ }),
 
-/***/ "./.data/videos/187eab1173c35cb5ffd7b6f9c215d2cc.jpg":
-/*!***********************************************************!*\
-  !*** ./.data/videos/187eab1173c35cb5ffd7b6f9c215d2cc.jpg ***!
-  \***********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./src/components/tag/index.module.less":
+/*!**********************************************!*\
+  !*** ./src/components/tag/index.module.less ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "includes/asset.fcaaaeb34857c2bf04a1ffd6ca9342e3.jpg");
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "wrapper": () => (/* binding */ wrapper),
+/* harmony export */   "css": () => (/* binding */ css),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+const wrapper = 'a0a74f';const css = '.a0a74f{position:relative;display:inline-block;font-size:14px;line-height:1.1em;padding:4px 8px;color:#000;border:1px solid rgba(0,0,0,.35);border-radius:1em;cursor:default}.a0a74f.is-on{color:#fff;background:rgba(0,0,0,.35)}.a0a74f[data-tag=clip]{background:hsla(0,0%,82%,.35);border-color:rgba(130,145,160,.35)}.a0a74f[data-tag=clip].is-on{background-color:rgba(130,145,160,.8);border-color:rgba(130,145,160,.8)}.a0a74f[data-tag=training]{background:rgba(240,134,128,.35);border-color:rgba(240,13,1,.35)}.a0a74f[data-tag=training].is-on{background-color:rgba(240,13,1,.8);border-color:rgba(240,13,1,.8)}.a0a74f[data-tag=landing]{background:rgba(17,213,184,.35);border-color:rgba(0,103,87,.35)}.a0a74f[data-tag=landing].is-on{background-color:rgba(0,103,87,.8);border-color:rgba(0,103,87,.8)}.a0a74f[data-tag=airport]{background:rgba(234,205,179,.35);border-color:rgba(228,139,57,.35)}.a0a74f[data-tag=airport].is-on{background-color:rgba(228,139,57,.8);border-color:rgba(228,139,57,.8)}.a0a74f[data-tag=device]{background:rgba(197,189,250,.35);border-color:rgba(82,57,255,.35)}.a0a74f[data-tag=device].is-on{background-color:rgba(82,57,255,.8);border-color:rgba(82,57,255,.8)}.a0a74f[data-tag=mod]{background:rgba(216,216,115,.35);border-color:rgba(179,179,24,.35)}.a0a74f[data-tag=mod].is-on{background-color:rgba(179,179,24,.8);border-color:rgba(179,179,24,.8)}.a0a74f[data-tag=tour]{background:rgba(68,168,240,.35);border-color:rgba(0,105,180,.35)}.a0a74f[data-tag=tour].is-on{background-color:rgba(0,105,180,.8);border-color:rgba(0,105,180,.8)}';/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({wrapper,css});
 
 /***/ }),
 
-/***/ "./.data/videos/320d34025793213c66cf6f9c353df9d3.jpg":
-/*!***********************************************************!*\
-  !*** ./.data/videos/320d34025793213c66cf6f9c353df9d3.jpg ***!
-  \***********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./src/components/video-list/index.module.less":
+/*!*****************************************************!*\
+  !*** ./src/components/video-list/index.module.less ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "includes/asset.27faa17b8ef9e664b02b4c10cc279897.jpg");
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "wrapper": () => (/* binding */ wrapper),
+/* harmony export */   "css": () => (/* binding */ css),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+const wrapper = 'aaae60';const css = '.aaae60{position:relative;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));grid-gap:40px}.aaae60-item{position:relative;cursor:default;z-index:10;transition:none .15s ease-out}.aaae60-item:after{content:"";position:absolute;top:-10px;bottom:-15px;left:-10px;right:-10px;background:#fff;z-index:-1;border:1px solid #26a69a;border-radius:7px;box-shadow:0 25px 20px -20px rgba(0,0,0,.25);opacity:0;transition:inherit;transition-property:opacity}.aaae60-item>.thumbnail{position:relative;width:100%;padding-bottom:56.25%;height:0;display:block;background:no-repeat 50% 50%;background-size:cover;border-radius:5px 5px 0 0;border:solid #26a69a;border-width:1px 1px 0;transition:inherit;transition-property:-webkit-filter;transition-property:filter;transition-property:filter,-webkit-filter;overflow:hidden;background:#26a69a}.aaae60-item>.thumbnail>img{display:block;position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover}.aaae60-item>.links{display:block;margin-top:0;text-align:left;border-radius:0 0 5px 5px;border:1px solid #26a69a;border-top:0;background:#26a69a}.aaae60-item>.links,.aaae60-item>.links>a{height:50px;overflow:hidden;transition:inherit}.aaae60-item>.links>a{color:transparent !important;display:inline-block;width:50%;position:relative;vertical-align:top;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;transition-property:background-color}.aaae60-item>.links>a:after{content:"";position:absolute;top:0;bottom:0;left:0;right:0;box-shadow:inset 0 5px 10px rgba(0,0,0,.25)}.aaae60-item>.links>a svg{position:absolute;top:50%;left:50%;width:30px;height:30px;margin-top:-15px;margin-left:-15px;fill:#26a69a;display:block;fill:#fff;transition:inherit;transition-property:-webkit-transform;transition-property:transform;transition-property:transform,-webkit-transform}.aaae60-item>.links>a.bilibili{background:#67acc3}.aaae60-item>.links>a.youtube{background:#d27979}html.is-hover .aaae60-item>.links>a:hover svg{-webkit-transform:scale(1.2);transform:scale(1.2)}html.is-hover .aaae60-item>.links>a:focus{outline:0}html.is-hover .aaae60-item>.links>a:focus:not(:active) svg{-webkit-transform:scale(1.2);transform:scale(1.2)}.aaae60-item>.infos{width:100%;display:-webkit-flex;display:flex;margin-top:12px;-webkit-flex-flow:row wrap;flex-flow:row wrap;padding:0 8px 0 4px}.aaae60-item>.infos>.date,.aaae60-item>.infos>.name,.aaae60-item>.infos>.tags{display:block}.aaae60-item>.infos>.tags{-webkit-flex:1;flex:1;margin-bottom:.5em}.aaae60-item>.infos>.tags .tag{margin-right:.5em}.aaae60-item>.infos>.name{-webkit-flex:1 0 100%;flex:1 0 100%;color:#26a69a;font-size:20px;line-height:1.2}.aaae60-item>.infos>.date{-webkit-flex:0;flex:0;font-size:14px;line-height:1.2;font-style:italic;white-space:nowrap;margin-top:4px;margin-left:1em}html.is-hover .aaae60-item:hover>.thumbnail{-webkit-filter:none;filter:none}html.is-hover .aaae60-item:hover>.links>a.bilibili{background:#07a3d7}html.is-hover .aaae60-item:hover>.links>a.youtube{background:red}html.is-hover .aaae60-item:hover:after{opacity:1}html.is-hover .aaae60-item:focus{outline:0}html.is-hover .aaae60-item:focus:not(:active)>.thumbnail{-webkit-filter:none;filter:none}html.is-hover .aaae60-item:focus:not(:active)>.links>a.bilibili{background:#07a3d7}html.is-hover .aaae60-item:focus:not(:active)>.links>a.youtube{background:red}html.is-hover .aaae60-item:focus:not(:active):after{opacity:1}.aaae60-item.mod-has-source{cursor:pointer;text-decoration:none;transition-property:-webkit-transform;transition-property:transform;transition-property:transform,-webkit-transform}.aaae60-item.mod-has-source:active,html.is-hover .aaae60-item.mod-has-source:hover:active{-webkit-transform:scale(.95);transform:scale(.95)}.aaae60-item.mod-has-source>.thumbnail{border-radius:5px;border-bottom-width:1px}';/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({wrapper,css});
 
 /***/ }),
 
-/***/ "./.data/videos/3ccbc7c172bbe0ee464ba7068e6c2e72.jpg":
-/*!***********************************************************!*\
-  !*** ./.data/videos/3ccbc7c172bbe0ee464ba7068e6c2e72.jpg ***!
-  \***********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./src/views/app.module.less":
+/*!***********************************!*\
+  !*** ./src/views/app.module.less ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "includes/asset.5eb6fe3c4a6be6b97184b2f4381730e7.jpg");
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "wrapper": () => (/* binding */ wrapper),
+/* harmony export */   "css": () => (/* binding */ css),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var D_Projects_diablohu_sp_diablohu_com_src_assets_banner_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/assets/banner.jpg */ "./src/assets/banner.jpg");
+/* harmony import */ var D_Projects_diablohu_sp_diablohu_com_src_assets_sim_pilot_plate_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./src/assets/sim-pilot-plate.svg */ "./src/assets/sim-pilot-plate.svg");
+const wrapper = 'd7d236';const css = '.d7d236,.d7d236-banner{position:relative}.d7d236-banner{background:url("' + D_Projects_diablohu_sp_diablohu_com_src_assets_banner_jpg__WEBPACK_IMPORTED_MODULE_0__.default + '") no-repeat 50% 50%;background-size:cover;width:100%;height:75vh;min-height:340px;max-height:800px}.d7d236-banner:after,.d7d236-banner:before,.d7d236-banner>.wrapper{content:"";position:absolute;top:0;bottom:0;left:0;right:0;-webkit-flex:none;flex:none}.d7d236-banner:after{z-index:10;background:rgba(0,0,0,.15)}.d7d236-banner:before{z-index:100;background-image:radial-gradient(rgba(0,0,0,.1) 66.6667%,transparent 0);background-size:4px 4px}.d7d236-banner>.wrapper{z-index:200;display:-webkit-flex;display:flex;-webkit-flex-flow:column nowrap;flex-flow:column nowrap;-webkit-justify-content:space-around;justify-content:space-around;-webkit-align-items:center;align-items:center;padding:0 30px}.d7d236-banner>.wrapper:after,.d7d236-banner>.wrapper:before{content:"";-webkit-flex:1;flex:1}.d7d236-banner .logo{-webkit-flex:1;flex:1;color:transparent;background:url("' + D_Projects_diablohu_sp_diablohu_com_src_assets_sim_pilot_plate_svg__WEBPACK_IMPORTED_MODULE_1__.default + '") no-repeat 50% 50%;background-size:contain;margin:0;padding:0;min-height:200px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.d7d236-banner .subscribe{-webkit-flex:none;flex:none;padding-top:5vh}.d7d236-banner .subscribe>a{display:inline-block;line-height:40px;border-radius:10px;padding-left:60px;padding-right:20px;color:#fff;position:relative;text-decoration:none;margin:0 10px;transition:-webkit-transform .2s ease-out;transition:transform .2s ease-out;transition:transform .2s ease-out,-webkit-transform .2s ease-out}.d7d236-banner .subscribe>a>.icon{content:"";position:absolute;display:block;top:7px;left:10px;bottom:7px;height:26px;width:40px;background:no-repeat 50% 50%;background-size:contain;fill:#fff}.d7d236-banner .subscribe>a.youtube{background:red}.d7d236-banner .subscribe>a.bilibili{background:#07a3d7}html.is-hover .d7d236-banner .subscribe>a:hover{color:#fff;-webkit-transform:scale(1.1);transform:scale(1.1)}html.is-hover .d7d236-banner .subscribe>a:focus{outline:0}html.is-hover .d7d236-banner .subscribe>a:focus:not(:active){color:#fff;-webkit-transform:scale(1.1);transform:scale(1.1)}.d7d236-banner .subscribe>a:active,html.is-hover .d7d236-banner .subscribe>a:hover:active{color:#fff;-webkit-transform:scale(.95);transform:scale(.95)}.d7d236-banner.mod-pwa{height:50vh}.d7d236-list{position:relative;padding:20px 0 60px}.d7d236-list:after,.d7d236-list:before{content:"";position:absolute;top:0;bottom:0;left:0;right:0}.d7d236-list:before{z-index:-2;background:radial-gradient(ellipse at bottom,#f6f8f8 25%,#d7dee2 100%)}.d7d236-list:after{z-index:-1;opacity:.05;background:linear-gradient(135deg,#708090 21px,#d9ecff 22px,#d9ecff 24px,transparent 0,transparent 67px,#d9ecff 0,#d9ecff 69px,transparent 0),linear-gradient(225deg,#708090 21px,#d9ecff 22px,#d9ecff 24px,transparent 0,transparent 67px,#d9ecff 0,#d9ecff 69px,transparent 0) 0 64px;background-color:#708090;background-size:64px 128px}.d7d236-list>.header{position:-webkit-sticky;position:sticky;top:-1px;z-index:50;padding:20px 0 24px;transition:none .2s ease-out;transition-property:box-shadow}.d7d236-list>.header:after{content:"";z-index:-1;position:absolute;top:-20px;bottom:0;left:0;right:0;opacity:0;transition:inherit;transition-property:opacity;background:hsla(0,0%,100%,.95);border-bottom:1px solid rgba(0,0,0,.15)}@supports ((-webkit-backdrop-filter:blur(20px) saturate(180%)) or (backdrop-filter:blur(20px) saturate(180%))){.d7d236-list>.header:after{background:hsla(0,0%,100%,.65)}}.d7d236-list>.header>.wrapper{display:-webkit-flex;display:flex;-webkit-flex-flow:row wrap;flex-flow:row wrap;-webkit-justify-content:space-around;justify-content:space-around;-webkit-align-items:center;align-items:center}.d7d236-list>.header.is-sticky{box-shadow:0 0 10px rgba(0,0,0,.1)}.d7d236-list>.header.is-sticky:after{opacity:1;-webkit-backdrop-filter:blur(20px) saturate(180%);backdrop-filter:blur(20px) saturate(180%)}.d7d236-list>.header .title{-webkit-flex:1;flex:1;margin:0}.d7d236-list>.header .sources{white-space:nowrap;text-align:right;display:-webkit-flex;display:flex;-webkit-flex-flow:row nowrap;flex-flow:row nowrap;-webkit-align-items:center;align-items:center;font-size:14px;color:#78909b;cursor:default}.d7d236-list>.header .sources .btn-source{display:inline-block;border:0;padding:0;margin:0 0 0 .75em;background:none;color:inherit;cursor:pointer;transition:-webkit-transform .2s ease-out;transition:transform .2s ease-out;transition:transform .2s ease-out,-webkit-transform .2s ease-out}html.is-hover .d7d236-list>.header .sources .btn-source:hover{-webkit-transform:scale(1.2);transform:scale(1.2)}html.is-hover .d7d236-list>.header .sources .btn-source:focus{outline:0}html.is-hover .d7d236-list>.header .sources .btn-source:focus:not(:active){-webkit-transform:scale(1.2);transform:scale(1.2)}.d7d236-list>.header .sources .btn-source:active,html.is-hover .d7d236-list>.header .sources .btn-source:hover:active{-webkit-transform:scale(.95);transform:scale(.95)}.d7d236-list>.header .sources .btn-source .icon{width:24px;height:24px;color:inherit;fill:currentColor}.d7d236-list>.header .sources .btn-source.is-on[data-source=bilibili]{color:#07a3d7}.d7d236-list>.header .sources .btn-source.is-on[data-source=youtube]{color:red}.d7d236-list>.header .tags{-webkit-flex:1 0 100%;flex:1 0 100%;margin-top:.75em;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.d7d236-list>.header .tags .tag{margin:.75em .75em 0 0;cursor:pointer}.d7d236-list>.header .tags .tag.is-on{cursor:default}.d7d236-list>.header .tags .tag.is-on:after{content:"";position:absolute;border:6px solid transparent;left:50%;top:50%;margin-left:-6px;border-bottom-color:inherit;margin-top:.5em}.d7d236-list>.list-wrapper{border-top:15px solid transparent}.d7d236-footer{cursor:default;padding:26px 0;font-size:14px;line-height:1.5;text-align:center}';/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({wrapper,css});
 
 /***/ }),
 
-/***/ "./.data/videos/4a0f33775e00809689c2c8f419b0e6d9.jpg":
-/*!***********************************************************!*\
-  !*** ./.data/videos/4a0f33775e00809689c2c8f419b0e6d9.jpg ***!
-  \***********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./src/assets/sim-pilot-plate.svg":
+/*!****************************************!*\
+  !*** ./src/assets/sim-pilot-plate.svg ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "includes/asset.65e5d1511f696fe1c3bce5383bbe4d86.jpg");
-
-/***/ }),
-
-/***/ "./.data/videos/5e6fc2de773fd63c4d5b932bdb6f89bf.jpg":
-/*!***********************************************************!*\
-  !*** ./.data/videos/5e6fc2de773fd63c4d5b932bdb6f89bf.jpg ***!
-  \***********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "includes/asset.9c4b0397626f2d0848d81f326110e26e.jpg");
-
-/***/ }),
-
-/***/ "./.data/videos/6f925f0296ddc621243b84b696fffb37.jpg":
-/*!***********************************************************!*\
-  !*** ./.data/videos/6f925f0296ddc621243b84b696fffb37.jpg ***!
-  \***********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "includes/asset.e7c556b29921ffa0c9b1ae173a1a8b5b.jpg");
-
-/***/ }),
-
-/***/ "./.data/videos/72a7c6729c938cf8d20f7ec6266fdbbb.jpg":
-/*!***********************************************************!*\
-  !*** ./.data/videos/72a7c6729c938cf8d20f7ec6266fdbbb.jpg ***!
-  \***********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "includes/asset.5da041ffa143d572c1228ea5b31b4dfd.jpg");
-
-/***/ }),
-
-/***/ "./.data/videos/782350c3d238d01ca8a3b739b31007fb.jpg":
-/*!***********************************************************!*\
-  !*** ./.data/videos/782350c3d238d01ca8a3b739b31007fb.jpg ***!
-  \***********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "includes/asset.f69c36614d34d40419120d25331e7ffd.jpg");
-
-/***/ }),
-
-/***/ "./.data/videos/818c6d962c68ad2de6b253980d0d8b8a.jpg":
-/*!***********************************************************!*\
-  !*** ./.data/videos/818c6d962c68ad2de6b253980d0d8b8a.jpg ***!
-  \***********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "includes/asset.d26a9be04293041d8a5e413debb027be.jpg");
-
-/***/ }),
-
-/***/ "./.data/videos/821ca81a531326597d2e72a39eeeec43.jpg":
-/*!***********************************************************!*\
-  !*** ./.data/videos/821ca81a531326597d2e72a39eeeec43.jpg ***!
-  \***********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "includes/asset.c8bb09e3d66b6bdd6c7f42947ce470ce.jpg");
-
-/***/ }),
-
-/***/ "./.data/videos/b7e78f7126fa24c60ecae46c206248d5.jpg":
-/*!***********************************************************!*\
-  !*** ./.data/videos/b7e78f7126fa24c60ecae46c206248d5.jpg ***!
-  \***********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "includes/asset.de73aa5ad27b7032526a7bd6da31cdaa.jpg");
-
-/***/ }),
-
-/***/ "./.data/videos/c227a7bb757cd5f04db4f79a9b99ea03.jpg":
-/*!***********************************************************!*\
-  !*** ./.data/videos/c227a7bb757cd5f04db4f79a9b99ea03.jpg ***!
-  \***********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "includes/asset.c82ead5c72a6c08c4f9856a9278266a4.jpg");
-
-/***/ }),
-
-/***/ "./.data/videos/c71de1910cbaa3c2f87e973194f29fe2.jpg":
-/*!***********************************************************!*\
-  !*** ./.data/videos/c71de1910cbaa3c2f87e973194f29fe2.jpg ***!
-  \***********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "includes/asset.582edbc9769960816840cc8a5ff8cbf9.jpg");
-
-/***/ }),
-
-/***/ "./.data/videos/ffe9086e88654522ad0f6ec7d09b877c.jpg":
-/*!***********************************************************!*\
-  !*** ./.data/videos/ffe9086e88654522ad0f6ec7d09b877c.jpg ***!
-  \***********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "includes/asset.4f81bb073933e7acb53a8298593a70b4.jpg");
-
-/***/ }),
-
-/***/ "./.data/videos/index.ts":
-/*!*******************************!*\
-  !*** ./.data/videos/index.ts ***!
-  \*******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-const videos = [{
-  name: {
-    zh: 'C·罗机场'
-  },
-  des: {
-    zh: '图马斯特（Thrustmaster）TCA 空客摇杆可以说是目前市面上比较火爆的一款模拟飞行控制器，不过很多朋友应该都遇到了尾舵操作随机偏移的问题。好在这个问题是可以通过简单的拆解就能修理的。今天我们就来动手修理一下~'
-  },
-  thumbnail: __webpack_require__(/*! ./0af5bcb78a7f4991468e861649c33dc5.jpg */ "./.data/videos/0af5bcb78a7f4991468e861649c33dc5.jpg").default,
-  link: {
-    youtube: 'https://youtu.be/8Q3lot3M9a0',
-    bilibili: 'https://www.bilibili.com/video/BV1Zv411Y7Y5'
-  },
-  tag: ['airport'],
-  release: 1612152000000
-}, {
-  name: {
-    zh: '动手修理图马斯特摇杆'
-  },
-  des: {
-    zh: '图马斯特（Thrustmaster）TCA 空客摇杆可以说是目前市面上比较火爆的一款模拟飞行控制器，不过很多朋友应该都遇到了尾舵操作随机偏移的问题。好在这个问题是可以通过简单的拆解就能修理的。今天我们就来动手修理一下~'
-  },
-  thumbnail: __webpack_require__(/*! ./821ca81a531326597d2e72a39eeeec43.jpg */ "./.data/videos/821ca81a531326597d2e72a39eeeec43.jpg").default,
-  link: {
-    youtube: 'https://youtu.be/Q9ygEejv0lw',
-    bilibili: 'https://www.bilibili.com/video/BV1JA411p75z'
-  },
-  tag: ['device'],
-  release: 1611462600000
-}, {
-  name: {
-    zh: '航母 MOD'
-  },
-  des: {
-    zh: '看！那是什么！是航母！这是一套为微软模拟飞行打造的航母MOD，由 HARD DECK SIMULATION（HDS）开发，售价15美元。在本期节目中我们会尝试在航母上起降各种类型的飞机，在视频后半则会介绍该 MOD 的安装、配置介绍。'
-  },
-  thumbnail: __webpack_require__(/*! ./ffe9086e88654522ad0f6ec7d09b877c.jpg */ "./.data/videos/ffe9086e88654522ad0f6ec7d09b877c.jpg").default,
-  link: {
-    youtube: 'https://youtu.be/sMlw3HfhPoA',
-    bilibili: 'https://www.bilibili.com/video/BV1CU4y1x7Hm'
-  },
-  tag: ['mod'],
-  release: 1610249416000
-}, {
-  name: {
-    zh: '百万分！巴黎戴高乐降落挑战'
-  },
-  des: {
-    zh: '模拟更新（Sim Update）第二弹在12月23日正式上线，除了带来了备受期待的VR功能外，还有针对空客、波音客机的大量更新，以及全新的雪景表现。不过我们今天的视频中要讲的都不是这些，而是本次更新带来的全新降落挑战——巴黎夏尔·戴高乐机场A320降落挑战。'
-  },
-  thumbnail: __webpack_require__(/*! ./818c6d962c68ad2de6b253980d0d8b8a.jpg */ "./.data/videos/818c6d962c68ad2de6b253980d0d8b8a.jpg").default,
-  link: {
-    youtube: 'https://youtu.be/lXeULVaPRLM',
-    bilibili: 'https://www.bilibili.com/video/BV12f4y1e7Nt'
-  },
-  tag: ['landing'],
-  release: 1609210057000
-}, {
-  name: {
-    zh: '云游美国'
-  },
-  des: {
-    zh: '世界更新第二弹在11月24日如期而至，对美国全境的机场、地貌、地景、地标建筑进行了大幅更新。请大家系好安全带，搭乘 DBH 航空的班机游览北美风光~'
-  },
-  thumbnail: __webpack_require__(/*! ./4a0f33775e00809689c2c8f419b0e6d9.jpg */ "./.data/videos/4a0f33775e00809689c2c8f419b0e6d9.jpg").default,
-  link: {
-    youtube: 'https://youtu.be/wSOc5o-xCeQ',
-    bilibili: 'https://www.bilibili.com/video/BV1YZ4y1g7sR'
-  },
-  tag: ['tour'],
-  release: 1607229007000
-}, {
-  name: {
-    zh: '零能见度盲降'
-  },
-  des: {
-    zh: '在全新的《微软模拟飞行》中，空客A320能否在杰克逊·霍尔机场实现零能见度盲降？我们来亲自测试下……'
-  },
-  thumbnail: __webpack_require__(/*! ./c71de1910cbaa3c2f87e973194f29fe2.jpg */ "./.data/videos/c71de1910cbaa3c2f87e973194f29fe2.jpg").default,
-  link: {
-    youtube: 'https://youtu.be/9JJhlXSBsbo',
-    bilibili: 'https://www.bilibili.com/video/BV1Ey4y1S7V6'
-  },
-  tag: ['clip', 'landing'],
-  release: 1606188616000
-}, {
-  name: {
-    zh: '百万分！杰克逊机场降落挑战'
-  },
-  des: {
-    zh: '11月10日的更新为游戏带来了一个全新的降落挑战：杰克逊·霍尔机场（Jackson Hole）。本次挑战将会驾驶 Citation CJ4 降落在 19 跑道。CJ4 我的驾驶经验不多，祝我走运。'
-  },
-  thumbnail: __webpack_require__(/*! ./320d34025793213c66cf6f9c353df9d3.jpg */ "./.data/videos/320d34025793213c66cf6f9c353df9d3.jpg").default,
-  link: {
-    youtube: 'https://youtu.be/StOJ9HkXccY',
-    bilibili: 'https://www.bilibili.com/video/BV1gD4y1X7Ng'
-  },
-  tag: ['landing'],
-  release: 1605497402000
-}, {
-  name: {
-    zh: '生涯模式 NeoFly'
-  },
-  des: {
-    zh: '一款免费的第三方程序为《微软模拟飞行》带来了生涯模式，我们来一探究竟'
-  },
-  thumbnail: __webpack_require__(/*! ./b7e78f7126fa24c60ecae46c206248d5.jpg */ "./.data/videos/b7e78f7126fa24c60ecae46c206248d5.jpg").default,
-  link: {
-    youtube: 'https://youtu.be/QElg8lr15tU',
-    bilibili: 'https://www.bilibili.com/video/BV1ir4y1w7aj'
-  },
-  tag: ['mod'],
-  release: 1604808000000
-}, {
-  name: {
-    zh: '万圣节降落挑战'
-  },
-  des: {
-    zh: '10月29日的更新新增了一个万圣节主题的限定降落挑战——好吓人啊~'
-  },
-  thumbnail: __webpack_require__(/*! ./782350c3d238d01ca8a3b739b31007fb.jpg */ "./.data/videos/782350c3d238d01ca8a3b739b31007fb.jpg").default,
-  link: {
-    youtube: 'https://youtu.be/6qPRsCuPMUE',
-    bilibili: 'https://www.bilibili.com/video/BV1KD4y1R7UT'
-  },
-  tag: ['landing'],
-  release: 1604201460000
-}, {
-  name: {
-    zh: '攀枝花保安营降落挑战'
-  },
-  des: {
-    zh: '就在前不久的10月16日，攀枝花保安营机场发生了一起事故，虽然没有人员伤亡，但此次事故让这座机场再次进入公众视野。通过模拟飞行，我们可以还原当时的条件，来亲自体验下在这座机场降落是不是如传说那般具有挑战性！'
-  },
-  thumbnail: __webpack_require__(/*! ./c227a7bb757cd5f04db4f79a9b99ea03.jpg */ "./.data/videos/c227a7bb757cd5f04db4f79a9b99ea03.jpg").default,
-  link: {
-    youtube: 'https://youtu.be/YxrXO9g-JLc',
-    bilibili: 'https://www.bilibili.com/video/BV1tz4y1C78e'
-  },
-  tag: ['landing', 'airport'],
-  release: 1603596631000
-}, {
-  name: {
-    zh: '新摇杆开箱 & 上手体验'
-  },
-  des: {
-    zh: '大波胡购入了一款新的游戏外设，意图提升模拟飞行体验……'
-  },
-  thumbnail: __webpack_require__(/*! ./6f925f0296ddc621243b84b696fffb37.jpg */ "./.data/videos/6f925f0296ddc621243b84b696fffb37.jpg").default,
-  link: {
-    youtube: 'https://youtu.be/XT9FdreY9ZQ',
-    bilibili: 'https://www.bilibili.com/video/BV1x54y1R7nX'
-  },
-  tag: ['device', 'tour'],
-  release: 1603078204000
-}, {
-  name: {
-    zh: '新 · 东京'
-  },
-  des: {
-    zh: '9月29日的世界更新（日本）为东京带来了测绘级的地景。但大波胡之前一直没有在游戏中看到，直到现在……'
-  },
-  thumbnail: __webpack_require__(/*! ./187eab1173c35cb5ffd7b6f9c215d2cc.jpg */ "./.data/videos/187eab1173c35cb5ffd7b6f9c215d2cc.jpg").default,
-  link: {
-    youtube: 'https://youtu.be/rndn4CINMQc',
-    bilibili: 'https://www.bilibili.com/video/BV1m54y117rt'
-  },
-  tag: ['tour'],
-  release: 1602127832000
-}, {
-  name: {
-    zh: '云游日本'
-  },
-  des: {
-    zh: '9月29日大型补丁更新 - World Update: Japan，大规模更新了日本的地貌、地景以及机场，同时带来了一个新的活动：云游日本'
-  },
-  thumbnail: __webpack_require__(/*! ./0923e9857e147def705adf6cc092c034.jpg */ "./.data/videos/0923e9857e147def705adf6cc092c034.jpg").default,
-  link: {
-    youtube: 'https://youtu.be/vNcbK0hF8mg',
-    bilibili: 'https://www.bilibili.com/video/BV13p4y1Y7wS'
-  },
-  tag: ['tour'],
-  release: 1601546435000
-}, {
-  name: {
-    zh: 'ILS 盲降'
-  },
-  des: {
-    zh: 'ILS 盲降练习 - 降落首都国际机场'
-  },
-  thumbnail: __webpack_require__(/*! ./3ccbc7c172bbe0ee464ba7068e6c2e72.jpg */ "./.data/videos/3ccbc7c172bbe0ee464ba7068e6c2e72.jpg").default,
-  link: {
-    youtube: 'https://youtu.be/F-jVs38ab8Y',
-    bilibili: 'https://www.bilibili.com/video/BV1kK4y1874X'
-  },
-  tag: ['landing'],
-  release: 1601092856000
-}, {
-  name: {
-    zh: '海河水上降落'
-  },
-  des: {
-    zh: '驾驶 Icon A5 游览海河'
-  },
-  thumbnail: __webpack_require__(/*! ./72a7c6729c938cf8d20f7ec6266fdbbb.jpg */ "./.data/videos/72a7c6729c938cf8d20f7ec6266fdbbb.jpg").default,
-  link: {
-    youtube: 'https://youtu.be/3Efm9u7TAyg',
-    bilibili: 'https://www.bilibili.com/video/BV1yD4y1o7jE'
-  },
-  tag: ['tour', 'landing'],
-  release: 1600659015000
-}, {
-  name: {
-    zh: '飞行训练'
-  },
-  des: {
-    zh: '飞行训练最后一课'
-  },
-  thumbnail: __webpack_require__(/*! ./5e6fc2de773fd63c4d5b932bdb6f89bf.jpg */ "./.data/videos/5e6fc2de773fd63c4d5b932bdb6f89bf.jpg").default,
-  link: {
-    youtube: 'https://youtu.be/eO0Prwjklkg',
-    bilibili: 'https://www.bilibili.com/video/BV17a4y1j7Qq'
-  },
-  tag: ['training'],
-  release: 1600056009000
-}];
-/* harmony default export */ __webpack_exports__["default"] = (videos);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.2703dbafaffc8066597114554adab17f.svg");
 
 /***/ }),
 
@@ -540,18 +111,19 @@ const videos = [{
 /*!******************************************************************!*\
   !*** ./logs/tmp/config/full.8bf1f53c4cb1990446b4015828bd296e.js ***!
   \******************************************************************/
-/*! exports provided: name, type, template, router, redux, client, server */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "name", function() { return name; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "type", function() { return type; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "template", function() { return template; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "router", function() { return router; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "redux", function() { return redux; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "client", function() { return client; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "server", function() { return server; });
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "name": () => (/* binding */ name),
+/* harmony export */   "type": () => (/* binding */ type),
+/* harmony export */   "template": () => (/* binding */ template),
+/* harmony export */   "router": () => (/* binding */ router),
+/* harmony export */   "redux": () => (/* binding */ redux),
+/* harmony export */   "client": () => (/* binding */ client),
+/* harmony export */   "server": () => (/* binding */ server)
+/* harmony export */ });
 // 核心代码中引用的配置文件
 const name = "飞行员大波胡";
 const type = "react";
@@ -569,7 +141,7 @@ const server =  true ? {
   },
   "inject": __webpack_require__(/*! ../../../src/index.inject.js */ "./src/index.inject.js").default,
   "before": __webpack_require__(/*! ../../../src/server/before.js */ "./src/server/before.js").default
-} : undefined;
+} : 0;
 
 /***/ }),
 
@@ -577,8 +149,7 @@ const server =  true ? {
 /*!*********************************************!*\
   !*** ./node_modules/history/lib/Actions.js ***!
   \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
 
@@ -611,8 +182,7 @@ var POP = exports.POP = 'POP';
 /*!************************************************!*\
   !*** ./node_modules/history/lib/AsyncUtils.js ***!
   \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
 
@@ -677,8 +247,7 @@ var loopAsync = exports.loopAsync = function loopAsync(turns, work, callback) {
 /*!***************************************************!*\
   !*** ./node_modules/history/lib/LocationUtils.js ***!
   \***************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -733,7 +302,7 @@ var createLocation = exports.createLocation = function createLocation() {
   var action = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : _Actions.POP;
   var key = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : null;
   var object = typeof input === 'string' ? (0, _PathUtils.parsePath)(input) : input;
-   true ? (0, _warning2.default)(!object.path, 'Location descriptor objects should have a `pathname`, not a `path`.') : undefined;
+   true ? (0, _warning2.default)(!object.path, 'Location descriptor objects should have a `pathname`, not a `path`.') : 0;
   var pathname = object.pathname || '/';
   var search = object.search || '';
   var hash = object.hash || '';
@@ -757,10 +326,10 @@ var statesAreEqual = exports.statesAreEqual = function statesAreEqual(a, b) {
   var typeofA = typeof a === 'undefined' ? 'undefined' : _typeof(a);
   var typeofB = typeof b === 'undefined' ? 'undefined' : _typeof(b);
   if (typeofA !== typeofB) return false;
-  !(typeofA !== 'function') ?  true ? (0, _invariant2.default)(false, 'You must not store functions in location state') : undefined : void 0; // Not the same object, but same type.
+  !(typeofA !== 'function') ?  true ? (0, _invariant2.default)(false, 'You must not store functions in location state') : 0 : void 0; // Not the same object, but same type.
 
   if (typeofA === 'object') {
-    !!(isDate(a) && isDate(b)) ?  true ? (0, _invariant2.default)(false, 'You must not store Date objects in location state') : undefined : void 0;
+    !!(isDate(a) && isDate(b)) ?  true ? (0, _invariant2.default)(false, 'You must not store Date objects in location state') : 0 : void 0;
 
     if (!Array.isArray(a)) {
       var keysofA = Object.keys(a);
@@ -791,8 +360,7 @@ var locationsAreEqual = exports.locationsAreEqual = function locationsAreEqual(a
 /*!***********************************************!*\
   !*** ./node_modules/history/lib/PathUtils.js ***!
   \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -855,7 +423,7 @@ var parsePath = exports.parsePath = function parsePath(path) {
   var pathname = extractPath(path);
   var search = '';
   var hash = '';
-   true ? (0, _warning2.default)(path === pathname, 'A path must be pathname + search + hash only, not a full URL like "%s"', path) : undefined;
+   true ? (0, _warning2.default)(path === pathname, 'A path must be pathname + search + hash only, not a full URL like "%s"', path) : 0;
   var hashIndex = pathname.indexOf('#');
 
   if (hashIndex !== -1) {
@@ -896,8 +464,7 @@ var createPath = exports.createPath = function createPath(location) {
 /*!***************************************************!*\
   !*** ./node_modules/history/lib/createHistory.js ***!
   \***************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -1077,8 +644,7 @@ exports.default = createHistory;
 /*!*********************************************************!*\
   !*** ./node_modules/history/lib/createMemoryHistory.js ***!
   \*********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -1171,7 +737,7 @@ var createMemoryHistory = function createMemoryHistory() {
     if (!n) return;
 
     if (!canGo(n)) {
-       true ? (0, _warning2.default)(false, 'Cannot go(%s) there is not enough history', n) : undefined;
+       true ? (0, _warning2.default)(false, 'Cannot go(%s) there is not enough history', n) : 0;
       return;
     }
 
@@ -1218,7 +784,7 @@ var createMemoryHistory = function createMemoryHistory() {
   if (current == null) {
     current = entries.length - 1;
   } else {
-    !(current >= 0 && current < entries.length) ?  true ? (0, _invariant2.default)(false, 'Current index must be >= 0 and < %s, was %s', entries.length, current) : undefined : void 0;
+    !(current >= 0 && current < entries.length) ?  true ? (0, _invariant2.default)(false, 'Current index must be >= 0 and < %s, was %s', entries.length, current) : 0 : void 0;
   }
 
   var storage = createStateStorage(entries);
@@ -1244,8 +810,7 @@ exports.default = createMemoryHistory;
 /*!*******************************************************!*\
   !*** ./node_modules/history/lib/runTransitionHook.js ***!
   \*******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -1270,7 +835,7 @@ var runTransitionHook = function runTransitionHook(hook, location, callback) {
     // call the callback with the return value.
     callback(result);
   } else {
-     true ? (0, _warning2.default)(result === undefined, 'You should not "return" in a transition hook with a callback argument; ' + 'call the callback instead') : undefined;
+     true ? (0, _warning2.default)(result === undefined, 'You should not "return" in a transition hook with a callback argument; ' + 'call the callback instead') : 0;
   }
 };
 
@@ -1278,366 +843,483 @@ exports.default = runTransitionHook;
 
 /***/ }),
 
-/***/ "./node_modules/history/lib/useBasename.js":
-/*!*************************************************!*\
-  !*** ./node_modules/history/lib/useBasename.js ***!
-  \*************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "./node_modules/koot-webpack/libs/get-source-content.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/koot-webpack/libs/get-source-content.js ***!
+  \**************************************************************/
+/***/ ((module) => {
 
-"use strict";
+function getSourceContent(source) {
+  if (typeof source.source === 'function') return source.source();
+  if (typeof source.source === 'object') return getSourceContent(source.source);
+  if (source && Array.isArray(source._children)) return source._children.map(child => getSourceContent(child)).join('\n');
+  if (typeof source._value !== 'undefined') return source._value;
+  if (typeof source._cachedSource !== 'undefined') return source._cachedSource; // console.log(source);
 
-
-exports.__esModule = true;
-
-var _extends = Object.assign || function (target) {
-  for (var i = 1; i < arguments.length; i++) {
-    var source = arguments[i];
-
-    for (var key in source) {
-      if (Object.prototype.hasOwnProperty.call(source, key)) {
-        target[key] = source[key];
-      }
-    }
-  }
-
-  return target;
-};
-
-var _runTransitionHook = __webpack_require__(/*! ./runTransitionHook */ "./node_modules/history/lib/runTransitionHook.js");
-
-var _runTransitionHook2 = _interopRequireDefault(_runTransitionHook);
-
-var _PathUtils = __webpack_require__(/*! ./PathUtils */ "./node_modules/history/lib/PathUtils.js");
-
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : {
-    default: obj
-  };
+  return '';
 }
 
-var useBasename = function useBasename(createHistory) {
-  return function () {
-    var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-    var history = createHistory(options);
-    var basename = options.basename;
-
-    var addBasename = function addBasename(location) {
-      if (!location) return location;
-
-      if (basename && location.basename == null) {
-        if (location.pathname.toLowerCase().indexOf(basename.toLowerCase()) === 0) {
-          location.pathname = location.pathname.substring(basename.length);
-          location.basename = basename;
-          if (location.pathname === '') location.pathname = '/';
-        } else {
-          location.basename = '';
-        }
-      }
-
-      return location;
-    };
-
-    var prependBasename = function prependBasename(location) {
-      if (!basename) return location;
-      var object = typeof location === 'string' ? (0, _PathUtils.parsePath)(location) : location;
-      var pname = object.pathname;
-      var normalizedBasename = basename.slice(-1) === '/' ? basename : basename + '/';
-      var normalizedPathname = pname.charAt(0) === '/' ? pname.slice(1) : pname;
-      var pathname = normalizedBasename + normalizedPathname;
-      return _extends({}, object, {
-        pathname: pathname
-      });
-    }; // Override all read methods with basename-aware versions.
-
-
-    var getCurrentLocation = function getCurrentLocation() {
-      return addBasename(history.getCurrentLocation());
-    };
-
-    var listenBefore = function listenBefore(hook) {
-      return history.listenBefore(function (location, callback) {
-        return (0, _runTransitionHook2.default)(hook, addBasename(location), callback);
-      });
-    };
-
-    var listen = function listen(listener) {
-      return history.listen(function (location) {
-        return listener(addBasename(location));
-      });
-    }; // Override all write methods with basename-aware versions.
-
-
-    var push = function push(location) {
-      return history.push(prependBasename(location));
-    };
-
-    var replace = function replace(location) {
-      return history.replace(prependBasename(location));
-    };
-
-    var createPath = function createPath(location) {
-      return history.createPath(prependBasename(location));
-    };
-
-    var createHref = function createHref(location) {
-      return history.createHref(prependBasename(location));
-    };
-
-    var createLocation = function createLocation(location) {
-      for (var _len = arguments.length, args = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
-        args[_key - 1] = arguments[_key];
-      }
-
-      return addBasename(history.createLocation.apply(history, [prependBasename(location)].concat(args)));
-    };
-
-    return _extends({}, history, {
-      getCurrentLocation: getCurrentLocation,
-      listenBefore: listenBefore,
-      listen: listen,
-      push: push,
-      replace: replace,
-      createPath: createPath,
-      createHref: createHref,
-      createLocation: createLocation
-    });
-  };
-};
-
-exports.default = useBasename;
+module.exports = getSourceContent;
 
 /***/ }),
 
-/***/ "./node_modules/history/lib/useQueries.js":
-/*!************************************************!*\
-  !*** ./node_modules/history/lib/useQueries.js ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _extends = Object.assign || function (target) {
-  for (var i = 1; i < arguments.length; i++) {
-    var source = arguments[i];
-
-    for (var key in source) {
-      if (Object.prototype.hasOwnProperty.call(source, key)) {
-        target[key] = source[key];
-      }
-    }
-  }
-
-  return target;
-};
-
-var _queryString = __webpack_require__(/*! query-string */ "query-string");
-
-var _runTransitionHook = __webpack_require__(/*! ./runTransitionHook */ "./node_modules/history/lib/runTransitionHook.js");
-
-var _runTransitionHook2 = _interopRequireDefault(_runTransitionHook);
-
-var _LocationUtils = __webpack_require__(/*! ./LocationUtils */ "./node_modules/history/lib/LocationUtils.js");
-
-var _PathUtils = __webpack_require__(/*! ./PathUtils */ "./node_modules/history/lib/PathUtils.js");
-
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : {
-    default: obj
-  };
-}
-
-var defaultStringifyQuery = function defaultStringifyQuery(query) {
-  return (0, _queryString.stringify)(query).replace(/%20/g, '+');
-};
-
-var defaultParseQueryString = _queryString.parse;
-/**
- * Returns a new createHistory function that may be used to create
- * history objects that know how to handle URL queries.
- */
-
-var useQueries = function useQueries(createHistory) {
-  return function () {
-    var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-    var history = createHistory(options);
-    var stringifyQuery = options.stringifyQuery,
-        parseQueryString = options.parseQueryString;
-    if (typeof stringifyQuery !== 'function') stringifyQuery = defaultStringifyQuery;
-    if (typeof parseQueryString !== 'function') parseQueryString = defaultParseQueryString;
-
-    var decodeQuery = function decodeQuery(location) {
-      if (!location) return location;
-      if (location.query == null) location.query = parseQueryString(location.search.substring(1));
-      return location;
-    };
-
-    var encodeQuery = function encodeQuery(location, query) {
-      if (query == null) return location;
-      var object = typeof location === 'string' ? (0, _PathUtils.parsePath)(location) : location;
-      var queryString = stringifyQuery(query);
-      var search = queryString ? '?' + queryString : '';
-      return _extends({}, object, {
-        search: search
-      });
-    }; // Override all read methods with query-aware versions.
-
-
-    var getCurrentLocation = function getCurrentLocation() {
-      return decodeQuery(history.getCurrentLocation());
-    };
-
-    var listenBefore = function listenBefore(hook) {
-      return history.listenBefore(function (location, callback) {
-        return (0, _runTransitionHook2.default)(hook, decodeQuery(location), callback);
-      });
-    };
-
-    var listen = function listen(listener) {
-      return history.listen(function (location) {
-        return listener(decodeQuery(location));
-      });
-    }; // Override all write methods with query-aware versions.
-
-
-    var push = function push(location) {
-      return history.push(encodeQuery(location, location.query));
-    };
-
-    var replace = function replace(location) {
-      return history.replace(encodeQuery(location, location.query));
-    };
-
-    var createPath = function createPath(location) {
-      return history.createPath(encodeQuery(location, location.query));
-    };
-
-    var createHref = function createHref(location) {
-      return history.createHref(encodeQuery(location, location.query));
-    };
-
-    var createLocation = function createLocation(location) {
-      for (var _len = arguments.length, args = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
-        args[_key - 1] = arguments[_key];
-      }
-
-      var newLocation = history.createLocation.apply(history, [encodeQuery(location, location.query)].concat(args));
-      if (location.query) newLocation.query = (0, _LocationUtils.createQuery)(location.query);
-      return decodeQuery(newLocation);
-    };
-
-    return _extends({}, history, {
-      getCurrentLocation: getCurrentLocation,
-      listenBefore: listenBefore,
-      listen: listen,
-      push: push,
-      replace: replace,
-      createPath: createPath,
-      createHref: createHref,
-      createLocation: createLocation
-    });
-  };
-};
-
-exports.default = useQueries;
-
-/***/ }),
-
-/***/ "./node_modules/koot/React/client-session-store.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/koot/React/client-session-store.js ***!
-  \*********************************************************/
-/*! exports provided: save, addEventHandlerOnPageUnload, load */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./node_modules/koot/ReactApp/action-types.js":
+/*!****************************************************!*\
+  !*** ./node_modules/koot/ReactApp/action-types.js ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "save", function() { return save; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "addEventHandlerOnPageUnload", function() { return addEventHandlerOnPageUnload; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "load", function() { return load; });
-/* harmony import */ var lodash_get__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash/get */ "./node_modules/lodash/get.js");
-/* harmony import */ var lodash_get__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash_get__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var lodash_set__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lodash/set */ "./node_modules/lodash/set.js");
-/* harmony import */ var lodash_set__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(lodash_set__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var ___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../ */ "./node_modules/koot/index.js");
-/* harmony import */ var _defaults_defines__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../defaults/defines */ "./node_modules/koot/defaults/defines.js");
-/* harmony import */ var _defaults_defines__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_defaults_defines__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _libs_filter_state__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../libs/filter-state */ "./node_modules/koot/libs/filter-state.js");
-/* harmony import */ var _libs_filter_state__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_libs_filter_state__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "CHANGE_LANGUAGE": () => (/* binding */ CHANGE_LANGUAGE),
+/* harmony export */   "GET_ORIGIN_URL": () => (/* binding */ GET_ORIGIN_URL),
+/* harmony export */   "TELL_CLIENT_URL": () => (/* binding */ TELL_CLIENT_URL),
+/* harmony export */   "SYNC_COOKIE": () => (/* binding */ SYNC_COOKIE),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+const CHANGE_LANGUAGE = '@@KOOT@@CHANGE_LANGUAGE';
+const GET_ORIGIN_URL = '@@KOOT@@GET_ORIGIN_URL';
+const TELL_CLIENT_URL = '@@KOOT@@TELL_CLIENT_URL';
+const SYNC_COOKIE = '@@KOOT@@SYNC_COOKIE';
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  CHANGE_LANGUAGE,
+  GET_ORIGIN_URL,
+  TELL_CLIENT_URL,
+  SYNC_COOKIE
+});
+
+/***/ }),
+
+/***/ "./node_modules/koot/ReactApp/server/middlewares/isomorphic/execute-components-lifecycle.js":
+/*!**************************************************************************************************!*\
+  !*** ./node_modules/koot/ReactApp/server/middlewares/isomorphic/execute-components-lifecycle.js ***!
+  \**************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+const getSSRStateString = __webpack_require__(/*! ../../../../libs/get-ssr-state-string */ "./node_modules/koot/libs/get-ssr-state-string.js"); // const { get: getSSRContext } = require('../../../../libs/ssr/context');
 
 
+const {
+  ssrContext: SSRContext
+} = __webpack_require__(/*! ../../../../defaults/defines-server */ "./node_modules/koot/defaults/defines-server.js");
+
+const {
+  REDUXSTATE
+} = __webpack_require__(/*! ../../../../defaults/defines-window */ "./node_modules/koot/defaults/defines-window.js");
+/** @type {String} 同步数据到 store 的静态方法名 */
 
 
+const LIFECYCLE_DATA_TO_STORE = 'onServerRenderStoreExtend';
+/** @type {String} 扩展 HTML 信息的静态方法名 */
 
-const configSessionStore = JSON.parse("false");
-/** @type {Boolean} 当前是否可以/允许使用 sessionStore */
-
-const able = (() => {
-  if (true) return false;
-  if (!window.sessionStorage) return false;
-  if (!configSessionStore) return false;
-  if (configSessionStore === true) return true;
-  if (configSessionStore === 'all') return true;
-  return Boolean(typeof configSessionStore === 'object' && !Array.isArray(configSessionStore));
-})();
+const LIFECYCLE_HTML_EXTEND = 'onServerRenderHtmlExtend';
 /**
- * 保存当前 state 到 sessionStorage
- * @void
+ * 执行匹配到的组件的静态生命周期方法
+ * @async
+ * @param {Object} options
+ * @param {Object} store Redux store 对象
+ * @param {Object} renderProps 路由 `match` 结果中的属性对象，其内包含匹配到的组件的信息
+ * @param {Object} ctx Koa context
  */
 
+const executeComponentLifecycle = async ({
+  store,
+  renderProps,
+  ctx
+}) => {
+  /** @type {Array} 需要执行的异步方法 */
+  const tasks = [];
+  /**
+   * @type {Function}
+   * @async
+   * 扩展 HTML 信息需要执行的方法
+   * 仅执行匹配到的最深层组件对应的方法
+   */
 
-const save = () => {
-  if (!able) return;
-  /** @type {Object} 排除掉黑名单内的项目后的 state 对象 */
+  const extendHtmlTasks = [];
 
-  const state = _libs_filter_state__WEBPACK_IMPORTED_MODULE_4___default()(___WEBPACK_IMPORTED_MODULE_2__["store"].getState());
-  let saveState = {};
+  const extractDataToStoreTask = component => {
+    if (!component) return;
 
-  if (configSessionStore === true || configSessionStore === 'all') {
-    saveState = state;
-  } else if (typeof configSessionStore === 'object' && !Array.isArray(configSessionStore)) {
-    // 根据配置对象存储
-    const parse = (obj, accumulatedKey = '') => {
-      Object.keys(obj).forEach(key => {
-        const currentAccumulatedKey = accumulatedKey + `[${JSON.stringify(key)}]`;
+    if (typeof component[LIFECYCLE_DATA_TO_STORE] === 'function') {
+      const thisTask = component[LIFECYCLE_DATA_TO_STORE]({
+        store,
+        renderProps,
+        ctx
+      }); // component[LIFECYCLE_DATA_TO_STORE] = undefined
 
-        if (typeof obj[key] === 'object') {
-          parse(obj[key], currentAccumulatedKey);
-        } else if (obj[key] === true) {
-          const value = lodash_get__WEBPACK_IMPORTED_MODULE_0___default()(state, currentAccumulatedKey);
-          if (typeof value !== 'undefined') lodash_set__WEBPACK_IMPORTED_MODULE_1___default()(saveState, currentAccumulatedKey, value);
-        }
+      if (Array.isArray(thisTask)) {
+        for (const task of thisTask) tasks.push(task);
+      } else if (thisTask instanceof Promise || thisTask.then) {
+        tasks.push(thisTask);
+      } else if (typeof thisTask === 'function') {
+        tasks.push(new Promise(async (resolve, reject) => {
+          try {
+            await thisTask();
+            resolve();
+          } catch (e) {
+            reject(e);
+          }
+        }));
+      }
+    } else if (component.WrappedComponent) {
+      extractDataToStoreTask(component.WrappedComponent);
+    }
+  };
+
+  const extracHtmlExtendTask = component => {
+    if (!component) return;
+
+    if (typeof component[LIFECYCLE_HTML_EXTEND] === 'function') {
+      extendHtmlTasks.push(component[LIFECYCLE_HTML_EXTEND]); // component[LIFECYCLE_HTML_EXTEND] = undefined
+    } else if (component.WrappedComponent) {
+      extracHtmlExtendTask(component.WrappedComponent);
+    }
+  };
+  /** @type {Array} 使用 extend 高阶组件的组件 */
+
+
+  let thisConnectedComponents =  false ? 0 : ctx[SSRContext].connectedComponents; // console.log('\n\n==========');
+  // console.log({ connectedComponents });
+  // console.log({ connectedComponents, renderProps });
+  // console.log('==========\n\n');
+  // 添加各项任务
+
+  if (Array.isArray(thisConnectedComponents)) thisConnectedComponents.forEach(component => {
+    extractDataToStoreTask(component);
+    extracHtmlExtendTask(component);
+  });
+  thisConnectedComponents = undefined; // 旧代码
+  // for (const component of renderProps.components) {
+  //     /**
+  //      * @type {Component}
+  //      * 当前组件
+  //      * component.WrappedComponent 是 redux 装饰的外壳
+  //      */
+  //     // const thisComponent = component && component.WrappedComponent ? component.WrappedComponent : component
+  //     // extractDataToStoreTask(component)
+  // }
+  // 等待所有异步方法执行完毕
+
+  await Promise.all(tasks).catch(e => {
+    throw e;
+  }); // 扩展 HTML 相关信息
+
+  const result = {
+    title: "飞行员大波胡" || 0,
+    metaHtml: '',
+    reduxHtml: `window.${REDUXSTATE} = ${getSSRStateString(store.getState())};`
+  }; // console.log(extendHtmlTasks);
+
+  extendHtmlTasks.some(task => {
+    if (typeof task === 'function') {
+      const {
+        title: thisTitle,
+        metas: thisMetas
+      } = task({
+        store,
+        renderProps,
+        ctx
       });
-    };
+      const hasTitle = !!thisTitle;
+      const hasMeta = Array.isArray(thisMetas) && thisMetas.length;
+      if (hasTitle) result.title = thisTitle;
+      if (hasMeta) result.metaHtml = thisMetas.map(meta => '<meta' + Object.keys(meta).map(key => ` ${key}="${meta[key]}"`).join('') + '>').join('');
+      if (hasTitle || hasMeta) return true;
+    }
 
-    parse(configSessionStore); // console.log(configSessionStore, state, saveState);
+    return false;
+  });
+  return result;
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (executeComponentLifecycle);
+
+/***/ }),
+
+/***/ "./node_modules/koot/ReactApp/server/middlewares/isomorphic/init-store.js":
+/*!********************************************************************************!*\
+  !*** ./node_modules/koot/ReactApp/server/middlewares/isomorphic/init-store.js ***!
+  \********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _React_redux_reset_store__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../React/redux/reset-store */ "./node_modules/koot/React/redux/reset-store.js");
+
+/**
+ * 通过 redux 配置，初始化并获取 redux store 对象
+ *
+ * - 若提供产生 store 的方法 (`factoryStore`): 生成 store
+ * - 若提供自生成的 store (`store`): 尝试清空 state 并触发一次所有 reducer 的初始化
+ *
+ * 每次访问请求时，需要生成全新的干净的 redux store，不可复用
+ *
+ * @param {Object} reduxConfig Redux，以下内容选其一
+ * @param {Function} [reduxConfig.factoryStore] 生成 Redux Store 的方法
+ * @param {Object} [reduxConfig.store] Redux Store 对象
+ * @returns {Object} store
+ */
+
+const initStore = (reduxConfig = {}) => {
+  const {
+    store,
+    factoryStore
+  } = reduxConfig;
+
+  if (typeof factoryStore === 'function') {
+    return factoryStore();
   }
 
-  sessionStorage.setItem(_defaults_defines__WEBPACK_IMPORTED_MODULE_3__["sessionStoreKey"], JSON.stringify(saveState));
-  return;
-};
-/**
- * 向 window.onunload 添加事件：保存 state
- * @void
- */
+  if (typeof store === 'object') {
+    return (0,_React_redux_reset_store__WEBPACK_IMPORTED_MODULE_0__.default)(store);
+  }
 
-const addEventHandlerOnPageUnload = () => {
-  if (!able) return;
-  window.addEventListener('unload', save);
-  return;
+  return {};
 };
-/**
- * 从 sessionStorage 中读取 state
- * @returns {Object} 存储的 state
- */
 
-const load = () => {
-  if (!able) return {};
-  return JSON.parse(sessionStorage.getItem(_defaults_defines__WEBPACK_IMPORTED_MODULE_3__["sessionStoreKey"]) || '{}');
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (initStore);
+
+/***/ }),
+
+/***/ "./node_modules/koot/ReactApp/server/middlewares/isomorphic/lifecycle/after-data-to-store.js":
+/*!***************************************************************************************************!*\
+  !*** ./node_modules/koot/ReactApp/server/middlewares/isomorphic/lifecycle/after-data-to-store.js ***!
+  \***************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+
+
+const afterDataToStore = async ({
+  store,
+  ctx,
+  localeId,
+  callback
+}) => {
+  if (false) {}
+  if (typeof callback === 'function') await callback({
+    ctx,
+    store,
+    localeId
+  });
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (afterDataToStore);
+
+/***/ }),
+
+/***/ "./node_modules/koot/ReactApp/server/middlewares/isomorphic/lifecycle/before-data-to-store.js":
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/koot/ReactApp/server/middlewares/isomorphic/lifecycle/before-data-to-store.js ***!
+  \****************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+
+
+const beforeDataToStore = async ({
+  ctx,
+  store,
+  localeId,
+  callback
+}) => {
+  if (false) {}
+  if (false) {}
+  if (typeof callback === 'function') await callback({
+    ctx,
+    store,
+    localeId
+  });
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (beforeDataToStore);
+
+/***/ }),
+
+/***/ "./node_modules/koot/ReactApp/server/middlewares/isomorphic/lifecycle/before-pre-render.js":
+/*!*************************************************************************************************!*\
+  !*** ./node_modules/koot/ReactApp/server/middlewares/isomorphic/lifecycle/before-pre-render.js ***!
+  \*************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+
+
+const beforePreRender = async ({
+  ctx,
+  store,
+  localeId,
+  callback
+}) => {
+  if (false) {}
+  if (typeof callback === 'function') await callback({
+    ctx,
+    store,
+    localeId
+  });
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (beforePreRender);
+
+/***/ }),
+
+/***/ "./node_modules/koot/ReactApp/server/middlewares/isomorphic/lifecycle/before-router-match.js":
+/*!***************************************************************************************************!*\
+  !*** ./node_modules/koot/ReactApp/server/middlewares/isomorphic/lifecycle/before-router-match.js ***!
+  \***************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _action_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../action-types */ "./node_modules/koot/ReactApp/action-types.js");
+/* harmony import */ var _i18n_server_check_and_redirect__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../i18n/server/check-and-redirect */ "./node_modules/koot/i18n/server/check-and-redirect.js");
+
+ // import isI18nEnabled from '../../../../../i18n/is-enabled'
+
+
+
+const beforeRouterMatch = async ({
+  store,
+  ctx,
+  syncCookie,
+  callback
+}) => {
+  // 如果 i18n 判定需要跳转，此时进行处理
+  const needRedirect = (0,_i18n_server_check_and_redirect__WEBPACK_IMPORTED_MODULE_0__.default)(ctx);
+  if (needRedirect) return needRedirect; // 告诉前端，当前的url是啥
+
+  store.dispatch({
+    type: _action_types__WEBPACK_IMPORTED_MODULE_1__.TELL_CLIENT_URL,
+    data: ctx.originTrue
+  }); // 把http请求带来的cookie同步到ssr的初始化redux state里
+  // server.cookie 获取
+  // 配置信息在koot.config.js里
+  // redux.syncCookie = ['token', 'sid'] | 'token' | false
+
+  if (syncCookie) {
+    let cookies = syncCookie;
+
+    if (cookies === true) {
+      store.dispatch({
+        type: _action_types__WEBPACK_IMPORTED_MODULE_1__.SYNC_COOKIE,
+        data: ctx.headers.cookie || ''
+      });
+    } else {
+      const data = {};
+
+      if (cookies === 'all') {
+        const theCookies = ctx.headers.cookie || '';
+        theCookies.split(';').forEach(str => {
+          const crumbs = str.split('=');
+
+          if (crumbs.length > 1) {
+            const [key, ...values] = crumbs;
+            data[key.trim()] = values.join('=').trim();
+          }
+        });
+      } else {
+        if (typeof cookies === 'string') cookies = [cookies];
+
+        if (Array.isArray(cookies)) {
+          // 获取需要的cookie值
+          cookies.forEach(c => {
+            data[c] = ctx.cookies.get(c);
+          });
+        }
+      } // 同步到state中
+
+
+      store.dispatch({
+        type: _action_types__WEBPACK_IMPORTED_MODULE_1__.SYNC_COOKIE,
+        data
+      });
+    } // console.log({
+    //     syncCookie,
+    //     cookies: ctx.headers.cookie,
+    //     server: store.getState().server
+    // });
+
+  }
+
+  if (false) {}
+  if (typeof callback === 'function') await callback({
+    store,
+    ctx
+  });
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (beforeRouterMatch);
+
+/***/ }),
+
+/***/ "./node_modules/koot/ReactApp/server/redux.js":
+/*!****************************************************!*\
+  !*** ./node_modules/koot/ReactApp/server/redux.js ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "CHANGE_LANGUAGE": () => (/* reexport safe */ _action_types__WEBPACK_IMPORTED_MODULE_0__.CHANGE_LANGUAGE),
+/* harmony export */   "TELL_CLIENT_URL": () => (/* reexport safe */ _action_types__WEBPACK_IMPORTED_MODULE_0__.TELL_CLIENT_URL),
+/* harmony export */   "SYNC_COOKIE": () => (/* reexport safe */ _action_types__WEBPACK_IMPORTED_MODULE_0__.SYNC_COOKIE),
+/* harmony export */   "SERVER_REDUCER_NAME": () => (/* binding */ SERVER_REDUCER_NAME),
+/* harmony export */   "serverReducer": () => (/* binding */ serverReducer)
+/* harmony export */ });
+/* harmony import */ var _action_types__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../action-types */ "./node_modules/koot/ReactApp/action-types.js");
+// TODO: change to one action type , like: CHANGE_BASE_INFO
+
+
+const SERVER_REDUCER_NAME = 'server';
+const serverReducer = (state = {
+  lang: 'en',
+  origin: ''
+}, action) => {
+  switch (action.type) {
+    case _action_types__WEBPACK_IMPORTED_MODULE_0__.CHANGE_LANGUAGE:
+      return Object.assign({}, state, {
+        lang: action.data
+      });
+
+    case _action_types__WEBPACK_IMPORTED_MODULE_0__.TELL_CLIENT_URL:
+      return Object.assign({}, state, {
+        origin: action.data
+      });
+
+    case _action_types__WEBPACK_IMPORTED_MODULE_0__.SYNC_COOKIE:
+      return Object.assign({}, state, {
+        cookie: action.data
+      });
+
+    default:
+      return state;
+  }
 };
 
 /***/ }),
@@ -1646,13 +1328,15 @@ const load = () => {
 /*!************************************************************!*\
   !*** ./node_modules/koot/React/client-update-page-info.js ***!
   \************************************************************/
-/*! exports provided: default, getInjectedMetaTags, markInited */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getInjectedMetaTags", function() { return getInjectedMetaTags; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "markInited", function() { return markInited; });
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
+/* harmony export */   "getInjectedMetaTags": () => (/* binding */ getInjectedMetaTags),
+/* harmony export */   "markInited": () => (/* binding */ markInited)
+/* harmony export */ });
 /**
  * @typedef Pageinfo
  * @type {Object}
@@ -1685,7 +1369,7 @@ let changeTimeout = undefined;
  * @param {Array<Object.<string, string>>} metas meta 标签信息，需要形式为 `{[name]: value}` 对象的数组
  */
 
-/* harmony default export */ __webpack_exports__["default"] = ((title, metas = []) => {
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((title, metas = []) => {
   if (true) return;
 
   if ( true && !inited) {
@@ -1803,452 +1487,18 @@ const markInited = () => {
 
 /***/ }),
 
-/***/ "./node_modules/koot/React/component-extender.js":
-/*!*******************************************************!*\
-  !*** ./node_modules/koot/React/component-extender.js ***!
-  \*******************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "react-redux");
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! hoist-non-react-statics */ "hoist-non-react-statics");
-/* harmony import */ var hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var ___WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../ */ "./node_modules/koot/index.js");
-/* harmony import */ var _defaults_defines_server__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../defaults/defines-server */ "./node_modules/koot/defaults/defines-server.js");
-/* harmony import */ var _defaults_defines_server__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_defaults_defines_server__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _get_render_props__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./get-render-props */ "./node_modules/koot/React/get-render-props.js");
-/* harmony import */ var _styles__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./styles */ "./node_modules/koot/React/styles.js");
-/* harmony import */ var _client_update_page_info__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./client-update-page-info */ "./node_modules/koot/React/client-update-page-info.js");
-/* harmony import */ var _redux__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./redux */ "./node_modules/koot/React/redux.js");
-/* harmony import */ var _is_render_safe__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./is-render-safe */ "./node_modules/koot/React/is-render-safe.js");
-/* harmony import */ var _is_render_safe__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_is_render_safe__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _libs_ssr_context__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../libs/ssr/context */ "./node_modules/koot/libs/ssr/context.js");
-/* harmony import */ var _libs_ssr_context__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_libs_ssr_context__WEBPACK_IMPORTED_MODULE_10__);
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-
- // import { hot } from 'react-hot-loader'
-// import PropTypes from 'prop-types'
-
-
-
- //
-
-
-
-
-
-
- //
-// 是否已挂载了组件
-
-let everMounted = false; // const defaultPageInfo = {
-//     title: '',
-//     metas: []
-// }
-
-const styleMap = {};
-/**
- * @type {Number}
- * _开发环境_
- * _服务器_
- * 使用该高阶组件的次数
- */
-
-let devSSRConnectIndex = 0;
-/**
- * 获取数据
- * @callback callbackFetchData
- * @param {Object} state 当前 state
- * @param {Object} renderProps 封装的同构 props
- * @param {Function} dispatch Redux dispatch
- * @returns {Promise}
- */
-
-/**
- * 判断数据是否准备好
- * @callback callbackCheckLoaded
- * @param {Object} state 当前 state
- * @param {Object} renderProps 封装的同构 props
- * @returns {boolean}
- */
-
-/**
- * 获取页面信息
- * @callback callbackGetPageInfo
- * @param {Object} state 当前 state
- * @param {Object} renderProps 封装的同构 props
- * @returns {Object}
- */
-
-/**
- * 获取同构数据的执行方法
- * @param {Object} store
- * @param {Object} props renderProps
- * @returns {Promise}
- */
-
-const doFetchData = (store, renderProps, funcFetch) => {
-  // return new Promise((resolve) => resolve());
-  if (!_is_render_safe__WEBPACK_IMPORTED_MODULE_9___default()()) return  false ? undefined : undefined;
-  const result = funcFetch(store.getState(), renderProps, store.dispatch); // if (result === true) {
-  //     isDataPreloaded = true
-  //     return new Promise(resolve => resolve())
-  // }
-
-  if (Array.isArray(result)) return Promise.all(result);
-  if (result instanceof Promise) return result;
-  return new Promise(resolve => resolve(result));
-};
-/**
- * 更新页面信息
- * @param {Object} store
- * @param {Object} props renderProps
- * @returns {Object} infos
- * @returns {String} infos.title
- * @returns {Array} infos.metas
- */
-
-
-const doPageinfo = (store, props, pageinfo) => {
-  if (!_is_render_safe__WEBPACK_IMPORTED_MODULE_9___default()()) return {};
-  const defaultPageInfo = {
-    title: '',
-    metas: []
-  };
-  if (typeof pageinfo !== 'function' && typeof pageinfo !== 'object') return defaultPageInfo;
-  const state = store.getState();
-
-  const infos = (() => {
-    if (typeof pageinfo === 'object') return pageinfo;
-    const infos = pageinfo(state, props);
-    if (typeof infos !== 'object') return defaultPageInfo;
-    return infos;
-  })();
-
-  const {
-    title = defaultPageInfo.title,
-    metas = defaultPageInfo.metas
-  } = infos;
-
-  if (state.localeId) {
-    if (!metas.some(meta => {
-      if (meta.name === 'koot-locale-id') {
-        meta.content = state.localeId;
-        return true;
-      }
-
-      return false;
-    })) {
-      metas.push({
-        name: 'koot-locale-id',
-        content: state.localeId
-      });
-    }
-  }
-
-  return {
-    title,
-    metas
-  };
-}; // console.log((typeof store === 'undefined' ? `\x1b[31m×\x1b[0m` : `\x1b[32m√\x1b[0m`) + ' store in [HOC] extend')
-
-/**
- * 高阶组件/组件装饰器：组件扩展
- * @param {Object} options 选项
- * @param {boolean|Function} [options.connect] react-redux 的 connect() 的参数。如果为 true，表示使用 connect()，但不连接任何数据
- * @param {Object|callbackGetPageInfo} [options.pageinfo]
- * @param {Object} [options.data] 同构数据相关
- * @param {callbackFetchData} [options.data.fetch]
- * @param {callbackCheckLoaded} [options.data.check]
- * @param {Object} [options.styles] 组件 CSS 结果
- * @returns {Function} 封装好的 React 组件
- */
-
-
-/* harmony default export */ __webpack_exports__["default"] = ((options = {}) => WrappedComponent => {
-  // console.log((typeof store === 'undefined' ? `\x1b[31m×\x1b[0m` : `\x1b[32m√\x1b[0m`) + ' store in [HOC] extend run')
-  const {
-    connect: _connect = false,
-    pageinfo,
-    data: {
-      fetch: _dataFetch,
-      check: dataCheck,
-      resetWhenUnmount: dataResetWhenUnmount
-    } = {},
-    styles: _styles,
-    ssr = true // ttt
-    // hot: _hot = true,
-    // name
-
-  } = options; // console.log('extend hoc run', { name, LocaleId })
-  // 样式相关
-
-  /** @type {Object} 经过 koot-css-loader 处理后的 css 文件的结果对象 */
-
-  const styles = (!Array.isArray(_styles) ? [_styles] : _styles).filter(obj => typeof obj === 'object' && typeof obj.wrapper === 'string');
-  /** @type {boolean} 是否有上述结果对象 */
-
-  const hasStyles = Array.isArray(styles) && styles.length > 0; // console.log({ ttt, hasStyles, styles })
-
-  /** @type {boolean} 是否有 pageinfo 对象 */
-
-  const hasPageinfo = typeof pageinfo === 'function' || typeof pageinfo === 'object'; // 同构数据相关
-
-  /** @type {boolean} 同构数据是否已经获取成功 */
-  // let isDataPreloaded = false
-
-  /** @type {Function} 获取同构数据 */
-
-  const dataFetch = typeof options.data === 'function' || Array.isArray(options.data) ? options.data : typeof _dataFetch === 'function' || Array.isArray(_dataFetch) ? _dataFetch : undefined; // 装饰组件
-
-  class KootReactComponent extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-    //
-    // static contextType = StyleMapContext
-    //
-    clientUpdatePageInfo(to) {
-      if (true) return;
-      if (!hasPageinfo) return;
-      const {
-        title,
-        metas
-      } = typeof to === 'function' ? doPageinfo(Object(___WEBPACK_IMPORTED_MODULE_3__["getStore"])(), this.getRenderProps(), to) : to || doPageinfo(Object(___WEBPACK_IMPORTED_MODULE_3__["getStore"])(), this.getRenderProps(), pageinfo);
-      Object(_client_update_page_info__WEBPACK_IMPORTED_MODULE_7__["default"])(title || "飞行员大波胡", metas);
-    }
-
-    getRenderProps() {
-      return Object(_get_render_props__WEBPACK_IMPORTED_MODULE_5__["fromComponentProps"])(this.props);
-    } //
-
-
-    //
-    constructor(props
-    /*, context*/
-    ) {
-      super(props
-      /*, context*/
-      );
-      /**
-       * _服务器端_
-       * 将组件注册到同构渲染对象中
-       */
-
-      _defineProperty(this, "state", {
-        loaded: typeof dataCheck === 'function' ? dataCheck(Object(___WEBPACK_IMPORTED_MODULE_3__["getStore"])().getState(), this.getRenderProps()) : undefined
-      });
-
-      _defineProperty(this, "mounted", false);
-
-      _defineProperty(this, "kootClassNames", []);
-
-      if (true) {
-        let SSR = Object(_libs_ssr_context__WEBPACK_IMPORTED_MODULE_10__["get"])();
-
-        if (SSR[_defaults_defines_server__WEBPACK_IMPORTED_MODULE_4__["needConnectComponents"]]) {
-          if (false) {}
-
-          if (Array.isArray(SSR.connectedComponents)) SSR.connectedComponents.unshift(KootComponent);
-        }
-
-        SSR = undefined;
-      }
-
-      if (!_is_render_safe__WEBPACK_IMPORTED_MODULE_9___default()()) return;
-
-      if (hasStyles) {
-        this.kootClassNames = styles.map(obj => obj.wrapper);
-        Object(_styles__WEBPACK_IMPORTED_MODULE_6__["append"])(this.getStyleMap(), styles); // console.log('----------')
-        // console.log('styles', styles)
-        // console.log('theStyles', theStyles)
-        // console.log('this.classNameWrapper', this.classNameWrapper)
-        // console.log('----------')
-      }
-    }
-    /**
-     * 获取 styleMap
-     * - 服务器端: 返回全局常量中的对照表
-     * - 客户端: 直接返回本文件内的 styleMap
-     */
-
-
-    getStyleMap()
-    /*context*/
-    {
-      // console.log('extend', { LocaleId })
-      if (true) return Object(_libs_ssr_context__WEBPACK_IMPORTED_MODULE_10__["get"])().styleMap;
-      return styleMap; // return context
-    } //
-
-
-    componentDidUpdate(prevProps) {
-      // if (
-      //     typeof prevProps.location === 'object' &&
-      //     typeof this.props.location === 'object' &&
-      //     prevProps.location.pathname !== this.props.location.pathname
-      // )
-      this.clientUpdatePageInfo();
-    }
-
-    componentDidMount() {
-      this.mounted = true;
-
-      if (!this.state.loaded && typeof dataFetch !== 'undefined') {
-        doFetchData(Object(___WEBPACK_IMPORTED_MODULE_3__["getStore"])(), this.getRenderProps(), dataFetch).then(() => {
-          if (!this.mounted) return;
-          this.setState({
-            loaded: true
-          });
-        });
-      }
-
-      this.clientUpdatePageInfo();
-
-      if (hasPageinfo && this.mounted) {
-        setTimeout(() => {
-          if (this && this.mounted) {
-            this.clientUpdatePageInfo();
-          }
-        }, 500);
-      }
-
-      if (everMounted) {} else {
-        everMounted = true;
-      }
-    }
-
-    componentWillUnmount() {
-      this.mounted = false;
-
-      if (hasStyles) {
-        Object(_styles__WEBPACK_IMPORTED_MODULE_6__["remove"])(this.getStyleMap(), styles);
-      }
-
-      if (typeof dataResetWhenUnmount === 'object') {
-        setTimeout(() => {
-          this.props.dispatch({
-            type: _redux__WEBPACK_IMPORTED_MODULE_8__["RESET_CERTAIN_STATE"],
-            data: dataResetWhenUnmount
-          });
-        });
-      }
-    } //
-
-
-    render() {
-      // console.log('styles', styles)
-      // console.log('this', this)
-      // console.log('this.kootClassNames', this.kootClassNames)
-      // console.log('this.props.className', this.props.className)
-      if (true) {
-        if (ssr === false) return null;
-        if (ssr !== true) return ssr;
-      }
-
-      if (false) {}
-
-      const props = Object.assign({}, this.props, {
-        className: this.kootClassNames.concat(this.props.className).join(' ').trim(),
-        'data-class-name': this.kootClassNames.join(' ').trim()
-      });
-      if (hasPageinfo) props.updatePageinfo = this.clientUpdatePageInfo.bind(this); // if (__SERVER__) console.log('extender this.state.loaded', this.state.loaded)
-
-      if (typeof dataFetch !== 'undefined' && typeof dataCheck === 'function') props.loaded = this.state.loaded; // if (typeof props.forwardedRef !== 'undefined') {
-      //     console.log(props.forwardedRef);
-      // }
-
-      if (typeof props.kootForwardedRef !== 'undefined') {
-        props.forwardedRef = props.kootForwardedRef;
-        delete props.kootForwardedRef;
-      }
-
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(WrappedComponent, props);
-    }
-
-  }
-
-  _defineProperty(KootReactComponent, "onServerRenderHtmlExtend", ({
-    store,
-    renderProps = {}
-  }) => {
-    const {
-      title,
-      metas
-    } = doPageinfo(store, Object(_get_render_props__WEBPACK_IMPORTED_MODULE_5__["fromServerProps"])(renderProps), pageinfo);
-    return {
-      title,
-      metas
-    };
-  });
-
-  if (typeof dataFetch !== 'undefined') {
-    KootReactComponent.onServerRenderStoreExtend = ({
-      store,
-      renderProps
-    }) => doFetchData(store, Object(_get_render_props__WEBPACK_IMPORTED_MODULE_5__["fromServerProps"])(renderProps), dataFetch);
-  } // if (_hot && __DEV__ && __CLIENT__) {
-  //     const { hot, setConfig } = require('react-hot-loader')
-  //     setConfig({ logLevel: 'debug' })
-  //     KootComponent = hot(module)(KootComponent)
-  // }
-  // if (typeof styles === 'object' &&
-  //     typeof styles.wrapper === 'string'
-  // ) {
-  //     KootComponent = ImportStyle(styles)(KootComponent)
-  // }
-
-
-  let KootComponent = hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_2___default()(KootReactComponent, WrappedComponent); // if (typeof styles === 'object' &&
-  //     typeof styles.wrapper === 'string'
-  // ) {
-  //     KootComponent = ImportStyle(styles)(KootComponent)
-  // }
-
-  if (_connect === true) {
-    KootComponent = Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(() => ({}), undefined, undefined, {
-      forwardRef: true
-    })(KootComponent);
-  } else if (typeof _connect === 'function') {
-    KootComponent = Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(_connect, undefined, undefined, {
-      forwardRef: true
-    })(KootComponent);
-  } else if (Array.isArray(_connect)) {
-    if (typeof _connect[3] !== 'object') _connect[3] = {};
-    _connect[3].forwardRef = true;
-    KootComponent = Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(..._connect)(KootComponent);
-  } // return KootComponent;
-
-
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.forwardRef((props, ref) => {
-    if (props.forwardedRef) return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(KootComponent, _extends({}, props, {
-      kootForwardedRef: props.forwardedRef
-    }));
-    if (ref) return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(KootComponent, _extends({}, props, {
-      kootForwardedRef: ref
-    }));
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(KootComponent, props);
-  });
-});
-
-/***/ }),
-
 /***/ "./node_modules/koot/React/get-render-props.js":
 /*!*****************************************************!*\
   !*** ./node_modules/koot/React/get-render-props.js ***!
   \*****************************************************/
-/*! exports provided: fromServerProps, fromComponentProps */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "fromServerProps", function() { return fromServerProps; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "fromComponentProps", function() { return fromComponentProps; });
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "fromServerProps": () => (/* binding */ fromServerProps),
+/* harmony export */   "fromComponentProps": () => (/* binding */ fromComponentProps)
+/* harmony export */ });
 /**
  * 基于 serverProps 返回同构 props
  * @param {Object} serverProps 
@@ -2288,30 +1538,29 @@ const fromComponentProps = (componentProps = {}) => {
 /*!********************************************!*\
   !*** ./node_modules/koot/React/history.js ***!
   \********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
 /* harmony import */ var _KOOT_CLIENT_REQUIRE_CREATE_HISTORY___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! __KOOT_CLIENT_REQUIRE_CREATE_HISTORY__ */ "./node_modules/history/lib/createMemoryHistory.js");
-/* harmony import */ var _KOOT_CLIENT_REQUIRE_CREATE_HISTORY___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_KOOT_CLIENT_REQUIRE_CREATE_HISTORY___WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var history_lib_PathUtils__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! history/lib/PathUtils */ "./node_modules/history/lib/PathUtils.js");
-/* harmony import */ var history_lib_PathUtils__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(history_lib_PathUtils__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _i18n_is_enabled__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../i18n/is-enabled */ "./node_modules/koot/i18n/is-enabled.js");
-/* harmony import */ var _i18n_is_enabled__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_i18n_is_enabled__WEBPACK_IMPORTED_MODULE_2__);
 // import history from "__KOOT_CLIENT_REQUIRE_HISTORY__"
+
 
 
 
 /**
  * History Enhancer: use basename
- * 
+ *
  * Original useBasename enhancer from history also override all read methods
  * `getCurrentLocation` `listenBefore` `listen`
  * But as Diablohu tested, when read methods overrided, if the route matched used async method to get component, would fail
  * that rendering blank page and no route match event fired
  * So we only overrid write methods here. And modify the first level path in routes object to `:localeId`
- * 
+ *
  * @param {Function} createHistory
  * @returns {Object} History
  */
@@ -2340,7 +1589,7 @@ const kootUseBasename = createHistory => (options = {}) => {
 
   const prependBasename = location => {
     if (!basename) return location;
-    const object = typeof location === 'string' ? Object(history_lib_PathUtils__WEBPACK_IMPORTED_MODULE_1__["parsePath"])(location) : location;
+    const object = typeof location === 'string' ? (0,history_lib_PathUtils__WEBPACK_IMPORTED_MODULE_1__.parsePath)(location) : location;
     const pname = object.pathname;
     const normalizedBasename = basename.slice(-1) === '/' ? basename : `${basename}/`;
     const normalizedPathname = pname.charAt(0) === '/' ? pname.slice(1) : pname;
@@ -2380,7 +1629,7 @@ const history = (() => {
   }
 })();
 
-/* harmony default export */ __webpack_exports__["default"] = (history);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (history);
 
 /***/ }),
 
@@ -2388,8 +1637,7 @@ const history = (() => {
 /*!*******************************************************!*\
   !*** ./node_modules/koot/React/inject/_cache-keys.js ***!
   \*******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /**
  * inject 缓存键值
@@ -2407,8 +1655,7 @@ module.exports = {
 /*!****************************************************!*\
   !*** ./node_modules/koot/React/inject/htmlLang.js ***!
   \****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /**
  * 注入: html 标签上的 lang 属性
@@ -2423,8 +1670,7 @@ module.exports = localeId => localeId ? ` lang="${localeId}"` : '';
 /*!*******************************************************************!*\
   !*** ./node_modules/koot/React/inject/is-need-inject-critical.js ***!
   \*******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /**
  * 检查 template 是否需要自动添加针对 critical 的注入
@@ -2444,8 +1690,7 @@ module.exports = (template = '') => {
 /*!*************************************************!*\
   !*** ./node_modules/koot/React/inject/metas.js ***!
   \*************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 const fs = __webpack_require__(/*! fs */ "fs");
 
@@ -2501,8 +1746,7 @@ const getDevExtra = () => {
 /*!***************************************************!*\
   !*** ./node_modules/koot/React/inject/scripts.js ***!
   \***************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 const path = __webpack_require__(/*! path */ "path");
 
@@ -2513,6 +1757,13 @@ const {
 } = __webpack_require__(/*! ../../defaults/before-build */ "./node_modules/koot/defaults/before-build.js");
 
 const defaultEntrypoints = __webpack_require__(/*! ../../defaults/entrypoints */ "./node_modules/koot/defaults/entrypoints.js");
+
+const {
+  LOCALEID,
+  REDUXSTATE,
+  SSRSTATE,
+  SPALOCALEFILEMAP
+} = __webpack_require__(/*! ../../defaults/defines-window */ "./node_modules/koot/defaults/defines-window.js");
 
 const {
   scopeNeedTransformPathname
@@ -2619,7 +1870,7 @@ module.exports = ({
       }
     }); // 如果设置了 PWA 自动注册 Service-Worker，在此注册
 
-    const pwaAuto =  true ? JSON.parse("true") : undefined; // console.log({
+    const pwaAuto =  true ? JSON.parse("true") : 0; // console.log({
     //     pwaAuto,
     //     'injectCache[uriServiceWorker]': injectCache[uriServiceWorker]
     // });
@@ -2638,11 +1889,11 @@ module.exports = ({
   }
 
   if (isSPAi18nEnabled) {
-    return `<script type="text/javascript" ${scriptTagEntryAttributeName}="*run-first-spa-locales">` + `window.__KOOT_SPA_LOCALE_FILE_MAP__ = ${JSON.stringify(localeFileMap)};` + (SPAi18nNeedWaiting ? `window.__KOOT_SCRIPTS__ = {` + `addAfterLocale: function(name, src) {` + `if (` + `window.__KOOT_LOCALEID__ && ` + `typeof window.__KOOT_SSR_STATE__ === 'object' && ` + `typeof window.__KOOT_SSR_STATE__.locales === 'object'` + `) {` + `var fjs = document.getElementsByTagName('script')[0];` + `var js = document.createElement('script');` + `js.setAttribute("${scriptTagEntryAttributeName}", name);` + `js.setAttribute('defer', '');` + `js.onerror = function(e) {` + `console.error(e);` + `throw new Error(` + `'Loading javascript file ('+src+') fail!'` + `);` + `};` + `js.src = src;` + `fjs.parentNode.insertBefore(js, fjs);` + `return;` + `}` + `console.warn(name, src, window.__KOOT_LOCALEID__);` + `return setTimeout(() => {` + `window.__KOOT_SCRIPTS__.addAfterLocale(name, src);` + `}, 10);` + `}` + `};` : '') + `</script>` + // getClientRunFirstJS(localeId, compilation) +
+    return `<script type="text/javascript" ${scriptTagEntryAttributeName}="*run-first-spa-locales">` + `window.${SPALOCALEFILEMAP} = ${JSON.stringify(localeFileMap)};` + (SPAi18nNeedWaiting ? `window.__KOOT_SCRIPTS__ = {` + `addAfterLocale: function(name, src) {` + `if (` + `window.${LOCALEID} && ` + `typeof window.${SSRSTATE} === 'object' && ` + `typeof window.${SSRSTATE}.locales === 'object'` + `) {` + `var fjs = document.getElementsByTagName('script')[0];` + `var js = document.createElement('script');` + `js.setAttribute("${scriptTagEntryAttributeName}", name);` + `js.setAttribute('defer', '');` + `js.onerror = function(e) {` + `console.error(e);` + `throw new Error(` + `'Loading javascript file ('+src+') fail!'` + `);` + `};` + `js.src = src;` + `fjs.parentNode.insertBefore(js, fjs);` + `return;` + `}` + `console.warn(name, src, window.${LOCALEID});` + `return setTimeout(() => {` + `window.__KOOT_SCRIPTS__.addAfterLocale(name, src);` + `}, 10);` + `}` + `};` : '') + `</script>` + // getClientRunFirstJS(localeId, compilation) +
     injectCache[scriptsRunFirst] + injectCache[scriptsInBody];
   }
 
-  return `<script type="text/javascript">` + (reduxHtml ? reduxHtml : `window.__REDUX_STATE__ = {};`) + `window.__KOOT_LOCALEID__ = "${SSRState.localeId || ''}";` + `window.__KOOT_SSR_STATE__ = ${getSSRStateString(SSRState)};` + `</script>` + // getClientRunFirstJS(localeId, compilation) +
+  return `<script type="text/javascript">` + (reduxHtml ? reduxHtml : `window.${REDUXSTATE} = {};`) + `window.${LOCALEID} = "${SSRState.localeId || ''}";` + `window.${SSRSTATE} = ${getSSRStateString(SSRState)};` + `</script>` + // getClientRunFirstJS(localeId, compilation) +
   injectCache[scriptsRunFirst] + injectCache[scriptsInBody];
 };
 /**
@@ -2681,8 +1932,7 @@ const scriptTagsFromContent = (name, ...args) => `<script type="text/javascript"
 /*!**************************************************!*\
   !*** ./node_modules/koot/React/inject/styles.js ***!
   \**************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 const {
   chunkNameExtractCss,
@@ -2781,8 +2031,7 @@ const combineFilePaths = (...args) => {
 /*!***************************************************!*\
   !*** ./node_modules/koot/React/is-render-safe.js ***!
   \***************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 const {
   get: getSSRContext
@@ -2807,12 +2056,13 @@ module.exports = () => !Boolean( true && getSSRContext()[needConnectComponents])
 /*!*****************************************************************!*\
   !*** ./node_modules/koot/React/realtime-location/actionType.js ***!
   \*****************************************************************/
-/*! exports provided: LOCATION_UPDATE */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LOCATION_UPDATE", function() { return LOCATION_UPDATE; });
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "LOCATION_UPDATE": () => (/* binding */ LOCATION_UPDATE)
+/* harmony export */ });
 const LOCATION_UPDATE = '@@KOOT@@LOCATION_UPDATE';
 
 /***/ }),
@@ -2821,17 +2071,18 @@ const LOCATION_UPDATE = '@@KOOT@@LOCATION_UPDATE';
 /*!**************************************************************!*\
   !*** ./node_modules/koot/React/realtime-location/actions.js ***!
   \**************************************************************/
-/*! exports provided: update */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "update", function() { return update; });
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "update": () => (/* binding */ update)
+/* harmony export */ });
 /* harmony import */ var _actionType__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./actionType */ "./node_modules/koot/React/realtime-location/actionType.js");
 
 function update(location) {
   return {
-    type: _actionType__WEBPACK_IMPORTED_MODULE_0__["LOCATION_UPDATE"],
+    type: _actionType__WEBPACK_IMPORTED_MODULE_0__.LOCATION_UPDATE,
     location
   };
 }
@@ -2842,16 +2093,17 @@ function update(location) {
 /*!**********************************************************!*\
   !*** ./node_modules/koot/React/realtime-location/api.js ***!
   \**********************************************************/
-/*! exports provided: update */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "update", function() { return update; });
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "update": () => (/* binding */ update)
+/* harmony export */ });
 /* harmony import */ var _actions_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./actions.js */ "./node_modules/koot/React/realtime-location/actions.js");
 
 const update = location => dispatch => {
-  return dispatch(_actions_js__WEBPACK_IMPORTED_MODULE_0__["update"](location));
+  return dispatch(_actions_js__WEBPACK_IMPORTED_MODULE_0__.update(location));
 };
 
 /***/ }),
@@ -2860,24 +2112,21 @@ const update = location => dispatch => {
 /*!************************************************************!*\
   !*** ./node_modules/koot/React/realtime-location/index.js ***!
   \************************************************************/
-/*! exports provided: LOCATION_UPDATE, reducer, update, REALTIME_LOCATION_REDUCER_NAME, actionUpdate */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "REALTIME_LOCATION_REDUCER_NAME", function() { return REALTIME_LOCATION_REDUCER_NAME; });
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "LOCATION_UPDATE": () => (/* reexport safe */ _actionType__WEBPACK_IMPORTED_MODULE_0__.LOCATION_UPDATE),
+/* harmony export */   "reducer": () => (/* reexport safe */ _reducer__WEBPACK_IMPORTED_MODULE_1__.default),
+/* harmony export */   "update": () => (/* reexport safe */ _api__WEBPACK_IMPORTED_MODULE_2__.update),
+/* harmony export */   "REALTIME_LOCATION_REDUCER_NAME": () => (/* binding */ REALTIME_LOCATION_REDUCER_NAME),
+/* harmony export */   "actionUpdate": () => (/* reexport safe */ _actions__WEBPACK_IMPORTED_MODULE_3__.update)
+/* harmony export */ });
 /* harmony import */ var _actionType__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./actionType */ "./node_modules/koot/React/realtime-location/actionType.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "LOCATION_UPDATE", function() { return _actionType__WEBPACK_IMPORTED_MODULE_0__["LOCATION_UPDATE"]; });
-
 /* harmony import */ var _reducer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./reducer */ "./node_modules/koot/React/realtime-location/reducer.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "reducer", function() { return _reducer__WEBPACK_IMPORTED_MODULE_1__["default"]; });
-
 /* harmony import */ var _api__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./api */ "./node_modules/koot/React/realtime-location/api.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "update", function() { return _api__WEBPACK_IMPORTED_MODULE_2__["update"]; });
-
 /* harmony import */ var _actions__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./actions */ "./node_modules/koot/React/realtime-location/actions.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "actionUpdate", function() { return _actions__WEBPACK_IMPORTED_MODULE_3__["update"]; });
-
 
 
 
@@ -2891,22 +2140,24 @@ const REALTIME_LOCATION_REDUCER_NAME = 'realtimeLocation';
 /*!**************************************************************!*\
   !*** ./node_modules/koot/React/realtime-location/reducer.js ***!
   \**************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* export default binding */ __WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
 /* harmony import */ var _actionType_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./actionType.js */ "./node_modules/koot/React/realtime-location/actionType.js");
 
 const initialState = {};
-/* harmony default export */ __webpack_exports__["default"] = (function (state = initialState, action) {
+/* harmony default export */ function __WEBPACK_DEFAULT_EXPORT__(state = initialState, action) {
   switch (action.type) {
-    case _actionType_js__WEBPACK_IMPORTED_MODULE_0__["LOCATION_UPDATE"]:
+    case _actionType_js__WEBPACK_IMPORTED_MODULE_0__.LOCATION_UPDATE:
       return action.location;
   }
 
   return state;
-});
+}
 
 /***/ }),
 
@@ -2914,16 +2165,17 @@ const initialState = {};
 /*!******************************************!*\
   !*** ./node_modules/koot/React/redux.js ***!
   \******************************************/
-/*! exports provided: RESET_CERTAIN_STATE, reducers, initialState, middlewares, createStore */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RESET_CERTAIN_STATE", function() { return RESET_CERTAIN_STATE; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "reducers", function() { return reducers; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "initialState", function() { return initialState; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "middlewares", function() { return middlewares; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createStore", function() { return createStore; });
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "RESET_CERTAIN_STATE": () => (/* binding */ RESET_CERTAIN_STATE),
+/* harmony export */   "reducers": () => (/* binding */ reducers),
+/* harmony export */   "initialState": () => (/* binding */ initialState),
+/* harmony export */   "middlewares": () => (/* binding */ middlewares),
+/* harmony export */   "createStore": () => (/* binding */ createStore)
+/* harmony export */ });
 /* harmony import */ var lodash_merge__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash/merge */ "./node_modules/lodash/merge.js");
 /* harmony import */ var lodash_merge__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash_merge__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! redux */ "redux");
@@ -2933,12 +2185,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var redux_thunk__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! redux-thunk */ "redux-thunk");
 /* harmony import */ var redux_thunk__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(redux_thunk__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _realtime_location__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./realtime-location */ "./node_modules/koot/React/realtime-location/index.js");
-/* harmony import */ var _ReactApp_server_redux__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../ReactApp/server/redux */ "./node_modules/koot/ReactApp/server/redux.js");
-/* harmony import */ var _i18n_redux__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../i18n/redux */ "./node_modules/koot/i18n/redux/index.js");
+/* harmony import */ var _realtime_location__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./realtime-location */ "./node_modules/koot/React/realtime-location/reducer.js");
+/* harmony import */ var _ReactApp_server_redux__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../ReactApp/server/redux */ "./node_modules/koot/ReactApp/server/redux.js");
+/* harmony import */ var _i18n_redux__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../i18n/redux */ "./node_modules/koot/i18n/redux/index.js");
 /* harmony import */ var _i18n_is_enabled__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../i18n/is-enabled */ "./node_modules/koot/i18n/is-enabled.js");
 /* harmony import */ var _i18n_is_enabled__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_i18n_is_enabled__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _history__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./history */ "./node_modules/koot/React/history.js");
-/* harmony import */ var _client_session_store__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./client-session-store */ "./node_modules/koot/React/client-session-store.js");
+/* harmony import */ var _history__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./history */ "./node_modules/koot/React/history.js");
+
 
 
 
@@ -2957,15 +2210,15 @@ __webpack_require__.r(__webpack_exports__);
 // }
 
 /******************************************************************************
- * ┌─┐┌─┐┌┐┌┌─┐┌┬┐┌─┐┌┐┌┌┬┐┌─┐
- * │  │ ││││└─┐ │ ├─┤│││ │ └─┐
+ *   ┌─┐┌─┐┌┐┌┌─┐┌┬┐┌─┐┌┐┌┌┬┐┌─┐
+ *  │  │ ││││└─┐ │ ├─┤│││ │ └─┐
  * └─┘└─┘┘└┘└─┘ ┴ ┴ ┴┘└┘ ┴ └─┘
  *****************************************************************************/
 
 const RESET_CERTAIN_STATE = '@@KOOT@@RESET_CERTAIN_STATE';
 /******************************************************************************
- * ┌─┐┌─┐┌─┐┌─┐┌┐┌┌┬┐┬┌─┐┬  ┌─┐
- * ├┤ └─┐└─┐├┤ │││ │ │├─┤│  └─┐
+ *   ┌─┐┌─┐┌─┐┌─┐┌┐┌┌┬┐┬┌─┐┬  ┌─┐
+ *  ├┤ └─┐└─┐├┤ │││ │ │├─┤│  └─┐
  * └─┘└─┘└─┘└─┘┘└┘ ┴ ┴┴ ┴┴─┘└─┘
  *****************************************************************************/
 
@@ -2975,15 +2228,16 @@ const RESET_CERTAIN_STATE = '@@KOOT@@RESET_CERTAIN_STATE';
 
 const reducers = {
   // 路由状态扩展
-  routing: react_router_redux__WEBPACK_IMPORTED_MODULE_2__["routerReducer"],
+  routing: react_router_redux__WEBPACK_IMPORTED_MODULE_2__.routerReducer,
+  // history: __CLIENT__ ? () => history : () => '123',
   // 目的：新页面请求处理完成后再改变URL
-  [_realtime_location__WEBPACK_IMPORTED_MODULE_4__["REALTIME_LOCATION_REDUCER_NAME"]]: _realtime_location__WEBPACK_IMPORTED_MODULE_4__["reducer"],
+  [_realtime_location__WEBPACK_IMPORTED_MODULE_4__.REALTIME_LOCATION_REDUCER_NAME]: _realtime_location__WEBPACK_IMPORTED_MODULE_5__.default,
   // 对应服务器生成的store
-  [_ReactApp_server_redux__WEBPACK_IMPORTED_MODULE_5__["SERVER_REDUCER_NAME"]]: _ReactApp_server_redux__WEBPACK_IMPORTED_MODULE_5__["serverReducer"]
+  [_ReactApp_server_redux__WEBPACK_IMPORTED_MODULE_6__.SERVER_REDUCER_NAME]: _ReactApp_server_redux__WEBPACK_IMPORTED_MODULE_6__.serverReducer
 };
 
 if (_i18n_is_enabled__WEBPACK_IMPORTED_MODULE_7___default()()) {
-  reducers.localeId = _i18n_redux__WEBPACK_IMPORTED_MODULE_6__["reducerLocaleId"]; // reducers.locales = i18nReducerLocales
+  reducers.localeId = _i18n_redux__WEBPACK_IMPORTED_MODULE_8__.reducerLocaleId; // reducers.locales = i18nReducerLocales
 }
 /**
  * @type {Object}
@@ -2998,7 +2252,7 @@ const initialState = (() => {
  * @type {Array}
  */
 
-const middlewares = [redux_thunk__WEBPACK_IMPORTED_MODULE_3___default.a, Object(react_router_redux__WEBPACK_IMPORTED_MODULE_2__["routerMiddleware"])(_history__WEBPACK_IMPORTED_MODULE_8__["default"])]; // const enhancerClientModifyState = createStore => (
+const middlewares = [(redux_thunk__WEBPACK_IMPORTED_MODULE_3___default()), (0,react_router_redux__WEBPACK_IMPORTED_MODULE_2__.routerMiddleware)(_history__WEBPACK_IMPORTED_MODULE_9__.default)]; // const enhancerClientModifyState = createStore => (
 //     reducer,
 //     preloadedState,
 //     enhancer
@@ -3047,7 +2301,7 @@ const createStore = (appReducer, appMiddlewares = [], appEnhancers = []) => {
   // if (__CLIENT__) toCompose.push(enhancerClientModifyState);
   const projectReducer = (() => {
     if (typeof appReducer === 'function') {
-      const kootReducer = Object(redux__WEBPACK_IMPORTED_MODULE_1__["combineReducers"])({ ...reducers
+      const kootReducer = (0,redux__WEBPACK_IMPORTED_MODULE_1__.combineReducers)({ ...reducers
       });
       return (state, action) => {
         const {
@@ -3059,21 +2313,21 @@ const createStore = (appReducer, appMiddlewares = [], appEnhancers = []) => {
         };
       };
     } else if (typeof appReducer === 'object' && !Array.isArray(appReducer)) {
-      return Object(redux__WEBPACK_IMPORTED_MODULE_1__["combineReducers"])({ ...appReducer,
+      return (0,redux__WEBPACK_IMPORTED_MODULE_1__.combineReducers)({ ...appReducer,
         ...reducers
       });
     }
 
-    return Object(redux__WEBPACK_IMPORTED_MODULE_1__["combineReducers"])({ ...reducers
+    return (0,redux__WEBPACK_IMPORTED_MODULE_1__.combineReducers)({ ...reducers
     });
   })();
 
   if (!Array.isArray(appEnhancers) && appEnhancers) appEnhancers = [appEnhancers];else if (!appEnhancers) appEnhancers = [];
-  return Object(redux__WEBPACK_IMPORTED_MODULE_1__["createStore"])(projectReducer, initialState, Object(redux__WEBPACK_IMPORTED_MODULE_1__["compose"])(Object(redux__WEBPACK_IMPORTED_MODULE_1__["applyMiddleware"])(...middlewares.concat(appMiddlewares)), ...appEnhancers));
+  return (0,redux__WEBPACK_IMPORTED_MODULE_1__.createStore)(projectReducer, initialState, (0,redux__WEBPACK_IMPORTED_MODULE_1__.compose)((0,redux__WEBPACK_IMPORTED_MODULE_1__.applyMiddleware)(...middlewares.concat(appMiddlewares)), ...appEnhancers));
 };
 /******************************************************************************
- * ┬ ┬┌─┐┬  ┌─┐┌─┐┬─┐┌─┐
- * ├─┤├┤ │  ├─┘├┤ ├┬┘└─┐
+ *   ┬ ┬┌─┐┬  ┌─┐┌─┐┬─┐┌─┐
+ *  ├─┤├┤ │  ├─┘├┤ ├┬┘└─┐
  * ┴ ┴└─┘┴─┘┴  └─┘┴└─└─┘
  *****************************************************************************/
 
@@ -3106,12 +2360,14 @@ const sliceStateForReducers = state => {
 /*!******************************************************!*\
   !*** ./node_modules/koot/React/redux/reset-store.js ***!
   \******************************************************/
-/*! exports provided: defaultKeysToPreserve, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "defaultKeysToPreserve", function() { return defaultKeysToPreserve; });
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "defaultKeysToPreserve": () => (/* binding */ defaultKeysToPreserve),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
 /**
  * 重置 store，清空所有 state
  * @param {Object} store
@@ -3134,7 +2390,7 @@ const resetStore = (store, keysToPreserve = defaultKeysToPreserve) => {
 
 const defaultKeysToPreserve = ['localeId', 'locales' // 'server'
 ];
-/* harmony default export */ __webpack_exports__["default"] = (resetStore);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (resetStore);
 
 /***/ }),
 
@@ -3142,8 +2398,7 @@ const defaultKeysToPreserve = ['localeId', 'locales' // 'server'
 /*!****************************************************!*\
   !*** ./node_modules/koot/React/render-template.js ***!
   \****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 const ejs = __webpack_require__(/*! ejs */ "ejs");
 
@@ -3240,25 +2495,64 @@ const DEFAULT_TEMPLATE = `<!DOCTYPE html>
 
 /***/ }),
 
+/***/ "./node_modules/koot/React/root-context.js":
+/*!*************************************************!*\
+  !*** ./node_modules/koot/React/root-context.js ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "createValue": () => (/* binding */ createValue),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+ // ============================================================================
+
+const defaultValue = {
+  store: undefined,
+  history: undefined,
+  localeId: undefined,
+  locales: {}
+};
+
+if (process.env.WEBPACK_BUILD_STAGE === 'server') {
+  defaultValue.ctx = undefined;
+  defaultValue.styles = {};
+}
+
+const createValue = (value = {}) => ({ ...defaultValue,
+  ...value
+}); // ============================================================================
+
+const RootContext = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.createContext)(createValue());
+RootContext.displayName = 'KootRootContext';
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (RootContext);
+
+/***/ }),
+
 /***/ "./node_modules/koot/React/styles.js":
 /*!*******************************************!*\
   !*** ./node_modules/koot/React/styles.js ***!
   \*******************************************/
-/*! exports provided: checkAndWriteIntoHead, append, remove */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "checkAndWriteIntoHead", function() { return checkAndWriteIntoHead; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "append", function() { return append; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "remove", function() { return remove; });
-// import React from 'react'
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "checkAndWriteIntoHead": () => (/* binding */ checkAndWriteIntoHead),
+/* harmony export */   "append": () => (/* binding */ append),
+/* harmony export */   "remove": () => (/* binding */ remove)
+/* harmony export */ });
+// import { Component, createContext } from 'react'
 
 /**
  * 生成 StyleMapContext
  */
 // export const createStyleMapContext = () => {
-//     return React.createContext({})
+//     return createContext({})
 // }
 // export let StyleMapContext = createStyleMapContext()
 
@@ -3360,7 +2654,7 @@ const remove = (styleMap = {}, style) => {
 // /**
 //  * React 组件: 样式表内容容器
 //  */
-// export class StylesContainer extends React.Component {
+// export class StylesContainer extends Component {
 //     static contextType = StyleMapContext
 //     render() {
 //         return (
@@ -3383,8 +2677,7 @@ const remove = (styleMap = {}, style) => {
 /*!****************************************************!*\
   !*** ./node_modules/koot/React/validate-inject.js ***!
   \****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 const injectHtmlLang = __webpack_require__(/*! ./inject/htmlLang */ "./node_modules/koot/React/inject/htmlLang.js");
 
@@ -3474,11 +2767,13 @@ module.exports = (options = {}) => {
 /*!**********************************************************!*\
   !*** ./node_modules/koot/React/validate/redux-config.js ***!
   \**********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
 /* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! redux */ "redux");
 /* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(redux__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../redux */ "./node_modules/koot/React/redux.js");
@@ -3503,11 +2798,11 @@ const validateReduxConfig = (kootConfigRedux = {}) => {
     const {
       combineReducers: theReducers = {}
     } = kootConfigRedux;
-    Object.keys(_redux__WEBPACK_IMPORTED_MODULE_1__["reducers"]).forEach(reducerName => {
-      theReducers[reducerName] = _redux__WEBPACK_IMPORTED_MODULE_1__["reducers"][reducerName];
+    Object.keys(_redux__WEBPACK_IMPORTED_MODULE_1__.reducers).forEach(reducerName => {
+      theReducers[reducerName] = _redux__WEBPACK_IMPORTED_MODULE_1__.reducers[reducerName];
     });
 
-    reduxConfig.factoryStore = () => Object(redux__WEBPACK_IMPORTED_MODULE_0__["createStore"])(Object(redux__WEBPACK_IMPORTED_MODULE_0__["combineReducers"])(theReducers), _redux__WEBPACK_IMPORTED_MODULE_1__["initialState"], Object(redux__WEBPACK_IMPORTED_MODULE_0__["applyMiddleware"])(..._redux__WEBPACK_IMPORTED_MODULE_1__["middlewares"]));
+    reduxConfig.factoryStore = () => (0,redux__WEBPACK_IMPORTED_MODULE_0__.createStore)((0,redux__WEBPACK_IMPORTED_MODULE_0__.combineReducers)(theReducers), _redux__WEBPACK_IMPORTED_MODULE_1__.initialState, (0,redux__WEBPACK_IMPORTED_MODULE_0__.applyMiddleware)(..._redux__WEBPACK_IMPORTED_MODULE_1__.middlewares));
   } else if (typeof kootConfigRedux.store === 'function') {
     reduxConfig.factoryStore = kootConfigRedux.store;
   } else if (typeof kootConfigRedux.store === 'object') {
@@ -3517,7 +2812,7 @@ const validateReduxConfig = (kootConfigRedux = {}) => {
   return reduxConfig;
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (validateReduxConfig);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (validateReduxConfig);
 
 /***/ }),
 
@@ -3525,11 +2820,13 @@ const validateReduxConfig = (kootConfigRedux = {}) => {
 /*!***********************************************************!*\
   !*** ./node_modules/koot/React/validate/router-config.js ***!
   \***********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
 /* harmony import */ var _libs_error_msg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../libs/error-msg */ "./node_modules/koot/libs/error-msg.js");
 /* harmony import */ var _libs_error_msg__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_libs_error_msg__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _i18n_validte_routes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../i18n/validte-routes */ "./node_modules/koot/i18n/validte-routes.js");
@@ -3561,11 +2858,11 @@ const validateRouterConfig = kootConfigRouter => getPromise(kootConfigRouter).th
   }
 
   handleIndexRoute(routes);
-  Object(_i18n_validte_routes__WEBPACK_IMPORTED_MODULE_1__["default"])(routes);
+  (0,_i18n_validte_routes__WEBPACK_IMPORTED_MODULE_1__.default)(routes);
   return routes;
 });
 
-/* harmony default export */ __webpack_exports__["default"] = (validateRouterConfig); // ============================================================================
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (validateRouterConfig); // ============================================================================
 
 const getPromise = kootConfigRouter => {
   if (typeof kootConfigRouter !== 'function') return new Promise(resolve => resolve(kootConfigRouter));
@@ -3608,897 +2905,11 @@ const handleIndexRoute = route => {
 
 /***/ }),
 
-/***/ "./node_modules/koot/ReactApp/action-types.js":
-/*!****************************************************!*\
-  !*** ./node_modules/koot/ReactApp/action-types.js ***!
-  \****************************************************/
-/*! exports provided: CHANGE_LANGUAGE, GET_ORIGIN_URL, TELL_CLIENT_URL, SYNC_COOKIE, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CHANGE_LANGUAGE", function() { return CHANGE_LANGUAGE; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GET_ORIGIN_URL", function() { return GET_ORIGIN_URL; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TELL_CLIENT_URL", function() { return TELL_CLIENT_URL; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SYNC_COOKIE", function() { return SYNC_COOKIE; });
-const CHANGE_LANGUAGE = '@@KOOT@@CHANGE_LANGUAGE';
-const GET_ORIGIN_URL = '@@KOOT@@GET_ORIGIN_URL';
-const TELL_CLIENT_URL = '@@KOOT@@TELL_CLIENT_URL';
-const SYNC_COOKIE = '@@KOOT@@SYNC_COOKIE';
-/* harmony default export */ __webpack_exports__["default"] = ({
-  CHANGE_LANGUAGE,
-  GET_ORIGIN_URL,
-  TELL_CLIENT_URL,
-  SYNC_COOKIE
-});
-
-/***/ }),
-
-/***/ "./node_modules/koot/ReactApp/server/middlewares/isomorphic/execute-components-lifecycle.js":
-/*!**************************************************************************************************!*\
-  !*** ./node_modules/koot/ReactApp/server/middlewares/isomorphic/execute-components-lifecycle.js ***!
-  \**************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-const getSSRStateString = __webpack_require__(/*! ../../../../libs/get-ssr-state-string */ "./node_modules/koot/libs/get-ssr-state-string.js"); // const { get: getSSRContext } = require('../../../../libs/ssr/context');
-
-
-const {
-  ssrContext: SSRContext
-} = __webpack_require__(/*! ../../../../defaults/defines-server */ "./node_modules/koot/defaults/defines-server.js");
-/** @type {String} 同步数据到 store 的静态方法名 */
-
-
-const LIFECYCLE_DATA_TO_STORE = 'onServerRenderStoreExtend';
-/** @type {String} 扩展 HTML 信息的静态方法名 */
-
-const LIFECYCLE_HTML_EXTEND = 'onServerRenderHtmlExtend';
-/**
- * 执行匹配到的组件的静态生命周期方法
- * @async
- * @param {Object} options
- * @param {Object} store Redux store 对象
- * @param {Object} renderProps 路由 `match` 结果中的属性对象，其内包含匹配到的组件的信息
- * @param {Object} ctx Koa context
- */
-
-const executeComponentLifecycle = async ({
-  store,
-  renderProps,
-  ctx
-}) => {
-  /** @type {Array} 需要执行的异步方法 */
-  const tasks = [];
-  /**
-   * @type {Function}
-   * @async
-   * 扩展 HTML 信息需要执行的方法
-   * 仅执行匹配到的最深层组件对应的方法
-   */
-
-  const extendHtmlTasks = [];
-
-  const extractDataToStoreTask = component => {
-    if (!component) return;
-
-    if (typeof component[LIFECYCLE_DATA_TO_STORE] === 'function') {
-      const thisTask = component[LIFECYCLE_DATA_TO_STORE]({
-        store,
-        renderProps,
-        ctx
-      }); // component[LIFECYCLE_DATA_TO_STORE] = undefined
-
-      if (Array.isArray(thisTask)) {
-        for (const task of thisTask) tasks.push(task);
-      } else if (thisTask instanceof Promise || thisTask.then) {
-        tasks.push(thisTask);
-      } else if (typeof thisTask === 'function') {
-        tasks.push(new Promise(async (resolve, reject) => {
-          try {
-            await thisTask();
-            resolve();
-          } catch (e) {
-            reject(e);
-          }
-        }));
-      }
-    } else if (component.WrappedComponent) {
-      extractDataToStoreTask(component.WrappedComponent);
-    }
-  };
-
-  const extracHtmlExtendTask = component => {
-    if (!component) return;
-
-    if (typeof component[LIFECYCLE_HTML_EXTEND] === 'function') {
-      extendHtmlTasks.push(component[LIFECYCLE_HTML_EXTEND]); // component[LIFECYCLE_HTML_EXTEND] = undefined
-    } else if (component.WrappedComponent) {
-      extracHtmlExtendTask(component.WrappedComponent);
-    }
-  };
-  /** @type {Array} 使用 extend 高阶组件的组件 */
-
-
-  let thisConnectedComponents =  false ? undefined : ctx[SSRContext].connectedComponents; // console.log('\n\n==========');
-  // console.log({ connectedComponents });
-  // console.log({ connectedComponents, renderProps });
-  // console.log('==========\n\n');
-  // 添加各项任务
-
-  if (Array.isArray(thisConnectedComponents)) thisConnectedComponents.forEach(component => {
-    extractDataToStoreTask(component);
-    extracHtmlExtendTask(component);
-  });
-  thisConnectedComponents = undefined; // 旧代码
-  // for (const component of renderProps.components) {
-  //     /**
-  //      * @type {Component}
-  //      * 当前组件
-  //      * component.WrappedComponent 是 redux 装饰的外壳
-  //      */
-  //     // const thisComponent = component && component.WrappedComponent ? component.WrappedComponent : component
-  //     // extractDataToStoreTask(component)
-  // }
-  // 等待所有异步方法执行完毕
-
-  await Promise.all(tasks).catch(e => {
-    throw e;
-  }); // 扩展 HTML 相关信息
-
-  const result = {
-    title: "飞行员大波胡" || false,
-    metaHtml: '',
-    reduxHtml: `window.__REDUX_STATE__ = ${getSSRStateString(store.getState())};`
-  }; // console.log(extendHtmlTasks);
-
-  extendHtmlTasks.some(task => {
-    if (typeof task === 'function') {
-      const {
-        title: thisTitle,
-        metas: thisMetas
-      } = task({
-        store,
-        renderProps,
-        ctx
-      });
-      const hasTitle = !!thisTitle;
-      const hasMeta = Array.isArray(thisMetas) && thisMetas.length;
-      if (hasTitle) result.title = thisTitle;
-      if (hasMeta) result.metaHtml = thisMetas.map(meta => '<meta' + Object.keys(meta).map(key => ` ${key}="${meta[key]}"`).join('') + '>').join('');
-      if (hasTitle || hasMeta) return true;
-    }
-
-    return false;
-  });
-  return result;
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (executeComponentLifecycle);
-
-/***/ }),
-
-/***/ "./node_modules/koot/ReactApp/server/middlewares/isomorphic/init-store.js":
-/*!********************************************************************************!*\
-  !*** ./node_modules/koot/ReactApp/server/middlewares/isomorphic/init-store.js ***!
-  \********************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _React_redux_reset_store__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../React/redux/reset-store */ "./node_modules/koot/React/redux/reset-store.js");
-
-/**
- * 通过 redux 配置，初始化并获取 redux store 对象
- *
- * - 若提供产生 store 的方法 (`factoryStore`): 生成 store
- * - 若提供自生成的 store (`store`): 尝试清空 state 并触发一次所有 reducer 的初始化
- *
- * 每次访问请求时，需要生成全新的干净的 redux store，不可复用
- *
- * @param {Object} reduxConfig Redux，以下内容选其一
- * @param {Function} [reduxConfig.factoryStore] 生成 Redux Store 的方法
- * @param {Object} [reduxConfig.store] Redux Store 对象
- * @returns {Object} store
- */
-
-const initStore = (reduxConfig = {}) => {
-  const {
-    store,
-    factoryStore
-  } = reduxConfig;
-
-  if (typeof factoryStore === 'function') {
-    return factoryStore();
-  }
-
-  if (typeof store === 'object') {
-    return Object(_React_redux_reset_store__WEBPACK_IMPORTED_MODULE_0__["default"])(store);
-  }
-
-  return {};
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (initStore);
-
-/***/ }),
-
-/***/ "./node_modules/koot/ReactApp/server/middlewares/isomorphic/lifecycle/after-data-to-store.js":
-/*!***************************************************************************************************!*\
-  !*** ./node_modules/koot/ReactApp/server/middlewares/isomorphic/lifecycle/after-data-to-store.js ***!
-  \***************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _libs_log__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../libs/log */ "./node_modules/koot/libs/log.js");
-/* harmony import */ var _libs_log__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_libs_log__WEBPACK_IMPORTED_MODULE_0__);
-
-
-const afterDataToStore = async ({
-  store,
-  ctx,
-  localeId,
-  callback
-}) => {
-  if (false) {}
-  if (typeof callback === 'function') await callback({
-    ctx,
-    store,
-    localeId
-  });
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (afterDataToStore);
-
-/***/ }),
-
-/***/ "./node_modules/koot/ReactApp/server/middlewares/isomorphic/lifecycle/before-data-to-store.js":
-/*!****************************************************************************************************!*\
-  !*** ./node_modules/koot/ReactApp/server/middlewares/isomorphic/lifecycle/before-data-to-store.js ***!
-  \****************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _libs_log__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../libs/log */ "./node_modules/koot/libs/log.js");
-/* harmony import */ var _libs_log__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_libs_log__WEBPACK_IMPORTED_MODULE_0__);
-
-
-const beforeDataToStore = async ({
-  ctx,
-  store,
-  localeId,
-  callback
-}) => {
-  if (false) {}
-  if (false) {}
-  if (typeof callback === 'function') await callback({
-    ctx,
-    store,
-    localeId
-  });
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (beforeDataToStore);
-
-/***/ }),
-
-/***/ "./node_modules/koot/ReactApp/server/middlewares/isomorphic/lifecycle/before-pre-render.js":
-/*!*************************************************************************************************!*\
-  !*** ./node_modules/koot/ReactApp/server/middlewares/isomorphic/lifecycle/before-pre-render.js ***!
-  \*************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _libs_log__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../libs/log */ "./node_modules/koot/libs/log.js");
-/* harmony import */ var _libs_log__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_libs_log__WEBPACK_IMPORTED_MODULE_0__);
-
-
-const beforePreRender = async ({
-  ctx,
-  store,
-  localeId,
-  callback
-}) => {
-  if (false) {}
-  if (typeof callback === 'function') await callback({
-    ctx,
-    store,
-    localeId
-  });
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (beforePreRender);
-
-/***/ }),
-
-/***/ "./node_modules/koot/ReactApp/server/middlewares/isomorphic/lifecycle/before-router-match.js":
-/*!***************************************************************************************************!*\
-  !*** ./node_modules/koot/ReactApp/server/middlewares/isomorphic/lifecycle/before-router-match.js ***!
-  \***************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _action_types__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../action-types */ "./node_modules/koot/ReactApp/action-types.js");
-/* harmony import */ var _i18n_server_check_and_redirect__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../i18n/server/check-and-redirect */ "./node_modules/koot/i18n/server/check-and-redirect.js");
-/* harmony import */ var _libs_log__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../libs/log */ "./node_modules/koot/libs/log.js");
-/* harmony import */ var _libs_log__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_libs_log__WEBPACK_IMPORTED_MODULE_2__);
-
- // import isI18nEnabled from '../../../../../i18n/is-enabled'
-
-
-
-const beforeRouterMatch = async ({
-  store,
-  ctx,
-  syncCookie,
-  callback
-}) => {
-  // 如果 i18n 判定需要跳转，此时进行处理
-  const needRedirect = Object(_i18n_server_check_and_redirect__WEBPACK_IMPORTED_MODULE_1__["default"])(ctx);
-  if (needRedirect) return needRedirect; // 告诉前端，当前的url是啥
-
-  store.dispatch({
-    type: _action_types__WEBPACK_IMPORTED_MODULE_0__["TELL_CLIENT_URL"],
-    data: ctx.originTrue
-  }); // 把http请求带来的cookie同步到ssr的初始化redux state里
-  // server.cookie 获取
-  // 配置信息在koot.config.js里
-  // redux.syncCookie = ['token', 'sid'] | 'token' | false
-
-  if (syncCookie) {
-    let cookies = syncCookie;
-
-    if (cookies === true) {
-      store.dispatch({
-        type: _action_types__WEBPACK_IMPORTED_MODULE_0__["SYNC_COOKIE"],
-        data: ctx.headers.cookie || ''
-      });
-    } else {
-      const data = {};
-
-      if (cookies === 'all') {
-        const theCookies = ctx.headers.cookie || '';
-        theCookies.split(';').forEach(str => {
-          const crumbs = str.split('=');
-
-          if (crumbs.length > 1) {
-            const [key, ...values] = crumbs;
-            data[key.trim()] = values.join('=').trim();
-          }
-        });
-      } else {
-        if (typeof cookies === 'string') cookies = [cookies];
-
-        if (Array.isArray(cookies)) {
-          // 获取需要的cookie值
-          cookies.forEach(c => {
-            data[c] = ctx.cookies.get(c);
-          });
-        }
-      } // 同步到state中
-
-
-      store.dispatch({
-        type: _action_types__WEBPACK_IMPORTED_MODULE_0__["SYNC_COOKIE"],
-        data
-      });
-    } // console.log({
-    //     syncCookie,
-    //     cookies: ctx.headers.cookie,
-    //     server: store.getState().server
-    // });
-
-  }
-
-  if (false) {}
-  if (typeof callback === 'function') await callback({
-    store,
-    ctx
-  });
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (beforeRouterMatch);
-
-/***/ }),
-
-/***/ "./node_modules/koot/ReactApp/server/redux.js":
-/*!****************************************************!*\
-  !*** ./node_modules/koot/ReactApp/server/redux.js ***!
-  \****************************************************/
-/*! exports provided: CHANGE_LANGUAGE, TELL_CLIENT_URL, SYNC_COOKIE, SERVER_REDUCER_NAME, serverReducer */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SERVER_REDUCER_NAME", function() { return SERVER_REDUCER_NAME; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "serverReducer", function() { return serverReducer; });
-/* harmony import */ var _action_types__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../action-types */ "./node_modules/koot/ReactApp/action-types.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CHANGE_LANGUAGE", function() { return _action_types__WEBPACK_IMPORTED_MODULE_0__["CHANGE_LANGUAGE"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TELL_CLIENT_URL", function() { return _action_types__WEBPACK_IMPORTED_MODULE_0__["TELL_CLIENT_URL"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SYNC_COOKIE", function() { return _action_types__WEBPACK_IMPORTED_MODULE_0__["SYNC_COOKIE"]; });
-
-// TODO: change to one action type , like: CHANGE_BASE_INFO
-
-
-const SERVER_REDUCER_NAME = 'server';
-const serverReducer = (state = {
-  lang: 'en',
-  origin: ''
-}, action) => {
-  switch (action.type) {
-    case _action_types__WEBPACK_IMPORTED_MODULE_0__["CHANGE_LANGUAGE"]:
-      return Object.assign({}, state, {
-        lang: action.data
-      });
-
-    case _action_types__WEBPACK_IMPORTED_MODULE_0__["TELL_CLIENT_URL"]:
-      return Object.assign({}, state, {
-        origin: action.data
-      });
-
-    case _action_types__WEBPACK_IMPORTED_MODULE_0__["SYNC_COOKIE"]:
-      return Object.assign({}, state, {
-        cookie: action.data
-      });
-
-    default:
-      return state;
-  }
-};
-
-/***/ }),
-
-/***/ "./node_modules/koot/ReactApp/server/root-isomorphic.jsx":
-/*!***************************************************************!*\
-  !*** ./node_modules/koot/ReactApp/server/root-isomorphic.jsx ***!
-  \***************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "react-redux");
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_router_lib_RouterContext__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router/lib/RouterContext */ "./node_modules/react-router/lib/RouterContext.js");
-/* harmony import */ var react_router_lib_RouterContext__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_router_lib_RouterContext__WEBPACK_IMPORTED_MODULE_2__);
-
-
- // import { idDivStylesContainer, StyleMapContext } from '../../React/styles'
-
-const Root = ({
-  store,
-  ...props
-}) => {
-  // console.log('Root', {
-  //     'in __KOOT_SSR__': __KOOT_SSR__.LocaleId
-  // })
-  // console.log('Root render Store', typeof Store === 'undefined' ? undefined : Store)
-  return (
-    /*#__PURE__*/
-    // <StyleMapContext.Provider value={{}}>
-    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_redux__WEBPACK_IMPORTED_MODULE_1__["Provider"], {
-      store: store
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_lib_RouterContext__WEBPACK_IMPORTED_MODULE_2___default.a, props)) // <StylesContainer />
-    // </StyleMapContext.Provider>
-
-  );
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Root);
-/**
- * React 组件: 样式表内容容器
- */
-// const StylesContainer = () =>
-//     <div
-//         id={idDivStylesContainer}
-//         dangerouslySetInnerHTML={{
-//             __html: Object.keys(__KOOT_SSR__.styleMap)
-//                 .filter(id => !!__KOOT_SSR__.styleMap[id].css)
-//                 .map(id => `<style id="${id}">${__KOOT_SSR__.styleMap[id].css}</style>`)
-//                 .join('')
-//         }}
-//     />
-// let e = Root
-// if (__DEV__) {
-//     const { hot, setConfig } = require('react-hot-loader')
-//     setConfig({ logLevel: 'debug' })
-//     e = hot(module)(Root)
-// }
-// export default e
-
-/***/ }),
-
-/***/ "./node_modules/koot/ReactApp/server/ssr.js":
-/*!**************************************************!*\
-  !*** ./node_modules/koot/ReactApp/server/ssr.js ***!
-  \**************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_dom_server__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom/server */ "react-dom/server");
-/* harmony import */ var react_dom_server__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom_server__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_router_lib_match__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router/lib/match */ "./node_modules/react-router/lib/match.js");
-/* harmony import */ var react_router_lib_match__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_router_lib_match__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_router_lib_useRouterHistory__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router/lib/useRouterHistory */ "./node_modules/react-router/lib/useRouterHistory.js");
-/* harmony import */ var react_router_lib_useRouterHistory__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_router_lib_useRouterHistory__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var history_lib_createMemoryHistory__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! history/lib/createMemoryHistory */ "./node_modules/history/lib/createMemoryHistory.js");
-/* harmony import */ var history_lib_createMemoryHistory__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(history_lib_createMemoryHistory__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var react_router_redux__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-router-redux */ "react-router-redux");
-/* harmony import */ var react_router_redux__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_router_redux__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _KOOT_PROJECT_CONFIG_FULL_PATHNAME___WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! __KOOT_PROJECT_CONFIG_FULL_PATHNAME__ */ "./logs/tmp/config/full.8bf1f53c4cb1990446b4015828bd296e.js");
-/* harmony import */ var _libs_ssr_context__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../libs/ssr/context */ "./node_modules/koot/libs/ssr/context.js");
-/* harmony import */ var _libs_ssr_context__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_libs_ssr_context__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _root_isomorphic__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./root-isomorphic */ "./node_modules/koot/ReactApp/server/root-isomorphic.jsx");
-/* harmony import */ var _defaults_webpack_dev_server__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../defaults/webpack-dev-server */ "./node_modules/koot/defaults/webpack-dev-server.js");
-/* harmony import */ var _defaults_webpack_dev_server__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_defaults_webpack_dev_server__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _defaults_defines_server__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../defaults/defines-server */ "./node_modules/koot/defaults/defines-server.js");
-/* harmony import */ var _defaults_defines_server__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_defaults_defines_server__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _action_types__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../action-types */ "./node_modules/koot/ReactApp/action-types.js");
-/* harmony import */ var _React_validate_router_config__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../React/validate/router-config */ "./node_modules/koot/React/validate/router-config.js");
-/* harmony import */ var _React_validate_inject__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../React/validate-inject */ "./node_modules/koot/React/validate-inject.js");
-/* harmony import */ var _React_validate_inject__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_React_validate_inject__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var _React_validate_redux_config__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../React/validate/redux-config */ "./node_modules/koot/React/validate/redux-config.js");
-/* harmony import */ var _React_inject_is_need_inject_critical__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../React/inject/is-need-inject-critical */ "./node_modules/koot/React/inject/is-need-inject-critical.js");
-/* harmony import */ var _React_inject_is_need_inject_critical__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_React_inject_is_need_inject_critical__WEBPACK_IMPORTED_MODULE_15__);
-/* harmony import */ var _React_render_template__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../React/render-template */ "./node_modules/koot/React/render-template.js");
-/* harmony import */ var _React_render_template__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_React_render_template__WEBPACK_IMPORTED_MODULE_16__);
-/* harmony import */ var _React_redux_reset_store__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../../React/redux/reset-store */ "./node_modules/koot/React/redux/reset-store.js");
-/* harmony import */ var _React_inject_cache_keys__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../React/inject/_cache-keys */ "./node_modules/koot/React/inject/_cache-keys.js");
-/* harmony import */ var _React_inject_cache_keys__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(_React_inject_cache_keys__WEBPACK_IMPORTED_MODULE_18__);
-/* harmony import */ var _middlewares_isomorphic_lifecycle_before_router_match__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./middlewares/isomorphic/lifecycle/before-router-match */ "./node_modules/koot/ReactApp/server/middlewares/isomorphic/lifecycle/before-router-match.js");
-/* harmony import */ var _middlewares_isomorphic_lifecycle_before_pre_render__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./middlewares/isomorphic/lifecycle/before-pre-render */ "./node_modules/koot/ReactApp/server/middlewares/isomorphic/lifecycle/before-pre-render.js");
-/* harmony import */ var _middlewares_isomorphic_lifecycle_before_data_to_store__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./middlewares/isomorphic/lifecycle/before-data-to-store */ "./node_modules/koot/ReactApp/server/middlewares/isomorphic/lifecycle/before-data-to-store.js");
-/* harmony import */ var _middlewares_isomorphic_lifecycle_after_data_to_store__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./middlewares/isomorphic/lifecycle/after-data-to-store */ "./node_modules/koot/ReactApp/server/middlewares/isomorphic/lifecycle/after-data-to-store.js");
-/* harmony import */ var _middlewares_isomorphic_execute_components_lifecycle__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./middlewares/isomorphic/execute-components-lifecycle */ "./node_modules/koot/ReactApp/server/middlewares/isomorphic/execute-components-lifecycle.js");
-/* harmony import */ var _middlewares_isomorphic_init_store__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./middlewares/isomorphic/init-store */ "./node_modules/koot/ReactApp/server/middlewares/isomorphic/init-store.js");
-/* harmony import */ var _i18n_redux__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../../i18n/redux */ "./node_modules/koot/i18n/redux/index.js");
-/* harmony import */ var _i18n_server_generate_html_redirect_metas__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../../i18n/server/generate-html-redirect-metas */ "./node_modules/koot/i18n/server/generate-html-redirect-metas.js");
-/* harmony import */ var _i18n_server_get_ssr_state__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../../i18n/server/get-ssr-state */ "./node_modules/koot/i18n/server/get-ssr-state.js");
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-// import 'regenerator-runtime/runtime';
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- // import i18nOnServerRender from '../../i18n/onServerRender';
-
-
-
-
-
-async function ssr(ctx) {
-  Object(_libs_ssr_context__WEBPACK_IMPORTED_MODULE_7__["set"])(ctx);
-  const SSR = Object(_libs_ssr_context__WEBPACK_IMPORTED_MODULE_7__["get"])();
-  const {
-    LocaleId
-  } = SSR;
-  /** @type {string} 本次请求的 URL */
-
-  const url = ctx.path + ctx.search; // ========================================================================
-
-  const {
-    redux: reduxConfigRaw = {}
-  } = _KOOT_PROJECT_CONFIG_FULL_PATHNAME___WEBPACK_IMPORTED_MODULE_6__;
-  const reduxConfig = await Object(_React_validate_redux_config__WEBPACK_IMPORTED_MODULE_14__["default"])(reduxConfigRaw); // 生成/清理 Store
-  // console.log('\x1b[36m⚑\x1b[0m' + ' Store created')
-
-  const Store = Object(_middlewares_isomorphic_init_store__WEBPACK_IMPORTED_MODULE_24__["default"])(reduxConfig); // 生成 History
-
-  const historyConfig = {
-    basename: LocaleId && "undefined" === 'router' ? `/${LocaleId}` : '/'
-  };
-  /* eslint-disable react-hooks/rules-of-hooks */
-
-  const memoryHistory = react_router_lib_useRouterHistory__WEBPACK_IMPORTED_MODULE_3___default()(() => history_lib_createMemoryHistory__WEBPACK_IMPORTED_MODULE_4___default()(url))(historyConfig);
-  /* eslint-enable react-hooks/rules-of-hooks */
-
-  /** @type {Object} 已生成的 History 实例 */
-
-  const History = Object(react_router_redux__WEBPACK_IMPORTED_MODULE_5__["syncHistoryWithStore"])(memoryHistory, Store);
-  const {
-    syncCookie
-  } = reduxConfig;
-
-  if (false) {} else {
-    Object(_libs_ssr_context__WEBPACK_IMPORTED_MODULE_7__["resetStore"])(Store);
-    Object(_libs_ssr_context__WEBPACK_IMPORTED_MODULE_7__["resetHistory"])(History);
-  } // ========================================================================
-  // console.log({
-  //     LocaleId,
-  //     Store,
-  //     History,
-  //     SSR
-  // })
-
-  /** @type {Boolean} i18n 是否启用 */
-
-
-  const i18nEnabled = Boolean(LocaleId);
-  const {
-    proxyRequestOrigin = {},
-    ssrComplete: _complete
-  } = SSR;
-
-  function ssrComplete(...args) {
-    if (true) {
-      Object(_libs_ssr_context__WEBPACK_IMPORTED_MODULE_7__["reset"])(); // SSR = undefined;
-
-      ctx = undefined;
-      purgeObject(global);
-    }
-
-    _complete(...args);
-  }
-
-  ctx.originTrue = proxyRequestOrigin.protocol ? ctx.origin.replace(/^http:\/\//, `${proxyRequestOrigin.protocol}://`) : ctx.origin;
-  ctx.hrefTrue = proxyRequestOrigin.protocol ? ctx.href.replace(/^http:\/\//, `${proxyRequestOrigin.protocol}://`) : ctx.href;
-  const {
-    lifecycle,
-    routerConfig: routes
-  } = await initConfig(i18nEnabled, LocaleId); // 渲染生命周期: beforeRouterMatch
-
-  await Object(_middlewares_isomorphic_lifecycle_before_router_match__WEBPACK_IMPORTED_MODULE_19__["default"])({
-    ctx,
-    store: Store,
-    syncCookie,
-    callback: lifecycle.beforeRouterMatch
-  });
-
-  if (LocaleId) {
-    Store.dispatch({
-      type: _action_types__WEBPACK_IMPORTED_MODULE_11__["CHANGE_LANGUAGE"],
-      data: LocaleId
-    });
-    Store.dispatch(Object(_i18n_redux__WEBPACK_IMPORTED_MODULE_25__["actionInit"])(LocaleId)); // i18nOnServerRender(Store, LocaleId);
-  } // console.log('after router match', ctx.hrefTrue, LocaleId);
-  // 进行路由匹配
-
-
-  const {
-    redirectLocation,
-    renderProps
-  } = await new Promise((resolve, reject) => {
-    react_router_lib_match__WEBPACK_IMPORTED_MODULE_2___default()({
-      history: History,
-      routes,
-      location: url
-    }, (error, redirectLocation, renderProps) => {
-      if (error) return reject(error);
-      resolve({
-        redirectLocation,
-        renderProps
-      });
-    });
-  }); // 如果需要重定向，派发 ctx.redirect / 302
-
-  if (redirectLocation) {
-    ssrComplete({
-      redirect: redirectLocation.pathname + redirectLocation.search
-    });
-    return;
-  } // 如果没有匹配，终止本中间件流程，执行其他中间件
-  // 表示 react 不应处理该请求
-
-
-  if (!renderProps) {
-    ssrComplete({
-      next: true
-    });
-    return;
-  } // 强制更新 store: state.routing.locationBeforeTransitions
-
-
-  const state = Store.getState();
-  const currentPathname = state.routing.locationBeforeTransitions.pathname;
-  if (currentPathname.split(0, 1) !== '/') Object.assign(Store.getState().routing.locationBeforeTransitions, {
-    pathname: ctx.path // search: ctx.search
-
-  }); // 渲染生命周期: beforePreRender
-
-  await Object(_middlewares_isomorphic_lifecycle_before_pre_render__WEBPACK_IMPORTED_MODULE_20__["default"])({
-    ctx,
-    store: Store,
-    localeId: LocaleId,
-    callback: lifecycle.beforePreRender
-  }); // 确定当前访问匹配到的组件
-
-  SSR[_defaults_defines_server__WEBPACK_IMPORTED_MODULE_10__["needConnectComponents"]] = true;
-  SSR.connectedComponents = [];
-
-  try {
-    Object(react_dom_server__WEBPACK_IMPORTED_MODULE_1__["renderToString"])( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_root_isomorphic__WEBPACK_IMPORTED_MODULE_8__["default"], _extends({
-      store: Store
-    }, renderProps)));
-  } catch (e) {}
-
-  SSR[_defaults_defines_server__WEBPACK_IMPORTED_MODULE_10__["needConnectComponents"]] = false; // 重置 state
-
-  Object(_React_redux_reset_store__WEBPACK_IMPORTED_MODULE_17__["default"])(Store, [..._React_redux_reset_store__WEBPACK_IMPORTED_MODULE_17__["defaultKeysToPreserve"], 'server', 'routing']); // 渲染生命周期: beforeDataToStore
-
-  await Object(_middlewares_isomorphic_lifecycle_before_data_to_store__WEBPACK_IMPORTED_MODULE_21__["default"])({
-    ctx,
-    store: Store,
-    localeId: LocaleId,
-    callback: lifecycle.beforeDataToStore
-  }); // 执行所有匹配到的组件的自定义的静态生命周期
-
-  const {
-    title,
-    metaHtml,
-    reduxHtml
-  } = await Object(_middlewares_isomorphic_execute_components_lifecycle__WEBPACK_IMPORTED_MODULE_23__["default"])({
-    store: Store,
-    renderProps,
-    ctx
-  }); // 渲染生命周期: afterDataToStore
-
-  await Object(_middlewares_isomorphic_lifecycle_after_data_to_store__WEBPACK_IMPORTED_MODULE_22__["default"])({
-    ctx,
-    store: Store,
-    localeId: LocaleId,
-    callback: lifecycle.afterDataToStore
-  }); // SSR
-
-  const reactHtml = Object(react_dom_server__WEBPACK_IMPORTED_MODULE_1__["renderToString"])( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_root_isomorphic__WEBPACK_IMPORTED_MODULE_8__["default"], _extends({
-    store: Store
-  }, renderProps))); // console.log({
-  //     // __KOOT_SSR__,
-  //     // thisTemplateInjectCache: SSR.thisTemplateInjectCache,
-  //     // thisEntrypoints: SSR.thisEntrypoints,
-  //     // thisFilemap: SSR.thisFilemap,
-  //     thisStyleMap,
-  //     // templateInject: SSR.templateInject,
-  //     // proxyRequestOrigin,
-  // })
-  // const stylesHtml = Object.keys(thisStyleMap)
-  //     .filter(id => typeof thisStyleMap[id].css === 'string')
-  //     .map(id => `<style id="${id}">${thisStyleMap[id].css}</style>`)
-  //     .join('')
-
-  const stylesHtml = Object.keys(SSR.styleMap).filter(id => typeof SSR.styleMap[id].css === 'string' && SSR.styleMap[id].css !== '').map(id => `<style ${"data-koot-module"}="${id}">${SSR.styleMap[id].css}</style>`).join(''); // console.log('result thisStyleMap', thisStyleMap)
-  // 渲染 EJS 模板
-
-  const inject = _React_validate_inject__WEBPACK_IMPORTED_MODULE_13___default()({
-    injectCache: SSR.thisTemplateInjectCache,
-    filemap: SSR.thisFilemap,
-    entrypoints: SSR.thisEntrypoints,
-    manifest: SSR.thisManifest,
-    localeId: LocaleId,
-    title,
-    metaHtml,
-    reactHtml,
-    stylesHtml,
-    reduxHtml,
-    SSRState: Object(_i18n_server_get_ssr_state__WEBPACK_IMPORTED_MODULE_27__["default"])(SSR),
-    needInjectCritical: _React_inject_is_need_inject_critical__WEBPACK_IMPORTED_MODULE_15___default()(SSR.template)
-  });
-
-  if (LocaleId) {
-    // i18n 启用时: 添加其他语种页面跳转信息的 meta 标签
-    inject.metas += Object(_i18n_server_generate_html_redirect_metas__WEBPACK_IMPORTED_MODULE_26__["default"])({
-      ctx,
-      proxyRequestOrigin,
-      localeId: LocaleId
-    });
-  } // > Memory stable ========================================================
-
-  /** @type {String} HTML 结果 */
-
-
-  let body = _React_render_template__WEBPACK_IMPORTED_MODULE_16___default()({
-    template: SSR.template,
-    inject: { ...inject,
-      ...SSR.templateInject
-    },
-    store: Store,
-    ctx
-  }); // 结果写入缓存
-
-  if (false) {} // React SSR
-
-
-  ssrComplete({
-    body
-  });
-}
-/**
- * 初始化 SSR 配置
- * @param {*} i18nEnabled
- */
-
-
-const initConfig = async (i18nEnabled, LocaleId) => {
-  // const LocaleId = __DEV__ ? global.__KOOT_LOCALEID__ : __KOOT_LOCALEID__;
-  const {
-    server: serverConfig = {}
-  } = _KOOT_PROJECT_CONFIG_FULL_PATHNAME___WEBPACK_IMPORTED_MODULE_6__;
-  const config = {}; // 决定路由配置 (每次请求需重新生成)
-
-  config.routerConfig = await Object(_React_validate_router_config__WEBPACK_IMPORTED_MODULE_12__["default"])(_KOOT_PROJECT_CONFIG_FULL_PATHNAME___WEBPACK_IMPORTED_MODULE_6__["router"]);
-  if (typeof i18nEnabled === 'undefined') i18nEnabled = Boolean(LocaleId);
-  config.lifecycle = {};
-
-  if (typeof serverConfig.onRender === 'function') {
-    config.lifecycle.beforeDataToStore = serverConfig.onRender;
-  } else if (typeof serverConfig.onRender === 'object') {
-    Object.keys(serverConfig.onRender).forEach(key => {
-      config.lifecycle[key] = serverConfig.onRender[key];
-    });
-  }
-
-  return config;
-};
-
-if (true) {
-  // eslint-disable-next-line no-eval
-  const ctx = eval(_defaults_defines_server__WEBPACK_IMPORTED_MODULE_10__["koaContext"]);
-  ssr(ctx).catch(err => {
-    ctx[_defaults_defines_server__WEBPACK_IMPORTED_MODULE_10__["ssrContext"]].ssrComplete({
-      error: err
-    }); // console.error(err);
-    // throw err;
-  });
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (ssr); // ============================================================================
-
-const purgeObject = obj => {
-  if (typeof obj !== 'object') return;
-
-  for (const key of Object.keys(obj)) {
-    if (typeof obj[key] === 'object') purgeObject(obj[key]);
-    delete obj[key];
-  }
-};
-
-/***/ }),
-
 /***/ "./node_modules/koot/defaults/before-build.js":
 /*!****************************************************!*\
   !*** ./node_modules/koot/defaults/before-build.js ***!
   \****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /**
  * Webpack 打包相关的常量，包括：
@@ -4530,6 +2941,7 @@ module.exports = {
   keyConfigQuiet: '__QUIET__',
   keyConfigOutputPathShouldBe: '__OUTPUT_PATH_SHOULD_BE__',
   keyConfigWebpackSPATemplateInject: '__KOOT_WEBPACK_CONFIG_FOR_SPA_TEMPLATE_INJECT__',
+  keyConfigWebpackLocaleId: '__KOOT_WEBPACK_CONFIG_LOCALE_ID__',
   keyConfigWebpackSPAServer: '__SPA_SERVER__',
   keyConfigClientAssetsPublicPath: '__CLIENT_ASSETS_PUBLIC_PATH__',
   keyConfigClientServiceWorkerPathname: '__CLIENT_SERVICE_WORKER_PATHNAME__',
@@ -4580,7 +2992,10 @@ module.exports = {
   pathnameSockjs: `sockjs-node`,
 
   /** Webpack compilation 对象中的定制属性 - 额外 Meta 标签的 HTML 代码 */
-  compilationKeyHtmlMetaTags: '.htmlMetaTags__'
+  compilationKeyHtmlMetaTags: '.htmlMetaTags__',
+
+  /** 针对 SPA 打包时模板 injection 操作需要的 Webpack compilation 对象对应的全局变量名 */
+  GLOBAL_VAR_BUILD_COMPILATION_FOR_SPA_INJECTION: '__KOOT_GLOBAL_VAR_BUILD_COMPILATION_FOR_SPA_INJECTION__'
 };
 
 /***/ }),
@@ -4589,14 +3004,13 @@ module.exports = {
 /*!******************************************************!*\
   !*** ./node_modules/koot/defaults/defines-server.js ***!
   \******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module) => {
 
 module.exports =  true ? {
   needConnectComponents: '__NEED_CONNECT_COMPONENTS__',
   ssrContext: '__KOOT_SSR__',
   koaContext: '__KOOT_CTX__'
-} : undefined;
+} : 0;
 
 /***/ }),
 
@@ -4604,11 +3018,30 @@ module.exports =  true ? {
 /*!**************************************************************!*\
   !*** ./node_modules/koot/defaults/defines-service-worker.js ***!
   \**************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 module.exports = {
   scopeNeedTransformPathname: '<<CURRENT_PATHNAME>>'
+};
+
+/***/ }),
+
+/***/ "./node_modules/koot/defaults/defines-window.js":
+/*!******************************************************!*\
+  !*** ./node_modules/koot/defaults/defines-window.js ***!
+  \******************************************************/
+/***/ ((module) => {
+
+module.exports = {
+  /** [客户端] 语言ID */
+  LOCALEID: '__KOOT_LOCALEID__',
+  STORE: '__KOOT_STORE__',
+  HISTORY: '__KOOT_HISTORY__',
+  CACHE: '__KOOT_CACHE__',
+  REDUXSTATE: '__REDUX_STATE__',
+  SSRSTATE: '__KOOT_SSR_STATE__',
+  SPALOCALEFILEMAP: '__KOOT_SPA_LOCALE_FILE_MAP__',
+  DEV_NATIVE_CONSOLE: '__KOOT_DEV_NATIVE_CONSOLE__'
 };
 
 /***/ }),
@@ -4617,8 +3050,7 @@ module.exports = {
 /*!***********************************************!*\
   !*** ./node_modules/koot/defaults/defines.js ***!
   \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 module.exports = {
   __KOOT_INJECT_ATTRIBUTE_NAME__: 'koot-inject',
@@ -4635,15 +3067,14 @@ module.exports = {
 /*!*******************************************************!*\
   !*** ./node_modules/koot/defaults/dev-request-uri.js ***!
   \*******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module) => {
 
 /**
  * [开发环境] 特殊的请求 URI
  */
 module.exports = {
   dll: '/__koot_dev_dll',
-  serviceWorker: `/__KOOT_DEV_SERVICE_WORKER.${ true ? encodeURIComponent("飞行员大波胡") : undefined}.js`
+  serviceWorker: `/__KOOT_DEV_SERVICE_WORKER.${ true ? encodeURIComponent("飞行员大波胡") : 0}.js`
 };
 
 /***/ }),
@@ -4652,8 +3083,7 @@ module.exports = {
 /*!***************************************************!*\
   !*** ./node_modules/koot/defaults/entrypoints.js ***!
   \***************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /**
  * 默认的入口
@@ -4668,8 +3098,7 @@ module.exports = ['client'];
 /*!********************************************!*\
   !*** ./node_modules/koot/defaults/i18n.js ***!
   \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /** 默认 i18n 配置 */
 module.exports = {
@@ -4680,36 +3109,18 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./node_modules/koot/defaults/webpack-dev-server.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/koot/defaults/webpack-dev-server.js ***!
-  \**********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = {
-  publicPathPrefix: '__koot_webpack_dev_server__',
-  entryClientHMR: 'webpack-dev-server-client',
-  serviceWorkerFilename: '__KOOT_DEV_SERVICE_WORKER__.js',
-  hmrOptions: {// multiStep: true,
-    // fullBuildTimeout: process.env.WEBPACK_BUILD_TYPE === 'spa' ? 500 : undefined,
-    // requestTimeout: process.env.WEBPACK_BUILD_TYPE === 'spa' ? undefined : 1000
-  }
-};
-
-/***/ }),
-
 /***/ "./node_modules/koot/i18n/action-types.js":
 /*!************************************************!*\
   !*** ./node_modules/koot/i18n/action-types.js ***!
   \************************************************/
-/*! exports provided: I18N_INIT, I18N_SET_LOCALES */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "I18N_INIT", function() { return I18N_INIT; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "I18N_SET_LOCALES", function() { return I18N_SET_LOCALES; });
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "I18N_INIT": () => (/* binding */ I18N_INIT),
+/* harmony export */   "I18N_SET_LOCALES": () => (/* binding */ I18N_SET_LOCALES)
+/* harmony export */ });
 const I18N_INIT = '@@KOOT@@I18N_INIT';
 const I18N_SET_LOCALES = '@@KOOT@@I18N_SET_LOCALES';
 
@@ -4719,8 +3130,7 @@ const I18N_SET_LOCALES = '@@KOOT@@I18N_SET_LOCALES';
 /*!****************************************************************!*\
   !*** ./node_modules/koot/i18n/generate-html-redirect-metas.js ***!
   \****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 const {
   use: defaultUse
@@ -4794,8 +3204,7 @@ module.exports = generateHtmlRedirectMetas;
 /*!******************************************************!*\
   !*** ./node_modules/koot/i18n/get-locales-config.js ***!
   \******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 const isI18nEnabled = __webpack_require__(/*! ./is-enabled */ "./node_modules/koot/i18n/is-enabled.js");
 
@@ -4823,8 +3232,7 @@ module.exports = () => {
 /*!********************************************!*\
   !*** ./node_modules/koot/i18n/get-type.js ***!
   \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 const isI18nEnabled = __webpack_require__(/*! ./is-enabled */ "./node_modules/koot/i18n/is-enabled.js");
 /**
@@ -4841,8 +3249,7 @@ module.exports = () => isI18nEnabled() ? JSON.parse("\"default\"") || 'default' 
 /*!**********************************************!*\
   !*** ./node_modules/koot/i18n/is-enabled.js ***!
   \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module) => {
 
 /**
  * 检查当前项目是否开启多语言支持
@@ -4861,8 +3268,7 @@ module.exports = isI18nEnabled;
 /*!**********************************************!*\
   !*** ./node_modules/koot/i18n/locale-ids.js ***!
   \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 const getLocalesConfig = __webpack_require__(/*! ./get-locales-config */ "./node_modules/koot/i18n/get-locales-config.js");
 
@@ -4884,146 +3290,18 @@ module.exports = (() => {
 
 /***/ }),
 
-/***/ "./node_modules/koot/i18n/parse-language-list.js":
-/*!*******************************************************!*\
-  !*** ./node_modules/koot/i18n/parse-language-list.js ***!
-  \*******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-/**
- * 根据输入的语言列表字符串，返回语言列表array
- *
- * @param {string} langList 语言列表字符串，eg: zh-CN,zh;q=0.8,en;q=0.6
- *
- * @returns {array} 语言列表
- */
-module.exports = langList => langList.split(',').map(value => value.split(';')[0]);
-
-/***/ }),
-
-/***/ "./node_modules/koot/i18n/parse-locale-id.js":
-/*!***************************************************!*\
-  !*** ./node_modules/koot/i18n/parse-locale-id.js ***!
-  \***************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-const parseLanguageList = __webpack_require__(/*! ./parse-language-list */ "./node_modules/koot/i18n/parse-language-list.js");
-
-const availableLocaleIds = __webpack_require__(/*! ./locale-ids */ "./node_modules/koot/i18n/locale-ids.js");
-/**
- * 根据输入返回项目匹配的语言包ID (localeId)
- * 如果没有匹配，返回项目语言包ID的第一项
- * 注：仅为返回，没有赋值操作
- *
- * @param {string|string[]} input
- * @param {string[]} [localeIds] 可选语言ID列表
- * @returns 匹配的语言包ID localeId 或 availableLocaleIds[0]
- */
-
-
-const parseLocaleId = (input, localeIds = availableLocaleIds) => {
-  // 检查是否包含分号，如果是，按语言列表处理为array
-  // eg: zh-CN,zh;q=0.8,en;q=0.6
-  if (typeof input === 'string' && input.indexOf(';') > -1) input = parseLanguageList(input); // 检查是否为array
-
-  if (Array.isArray(input)) {
-    let id;
-    input.some(thisId => {
-      id = checkItem(thisId, localeIds);
-      return id;
-    });
-    return id || localeIds[0];
-  } else if (!input && typeof navigator !== 'undefined') return parseLocaleId(navigator.languages || navigator.language || navigator.browserLanguage || navigator.systemLanguage || navigator.userLanguage || localeIds[0], localeIds);else if (input) return checkItem(input, localeIds) || localeIds[0];
-
-  return localeIds[0];
-};
-
-module.exports = parseLocaleId; // ============================================================================
-
-/**
- * 标准化语言包ID，方便匹配
- * - 全部小写
- * - `_` 变为 `-`
- * @param {string} input
- * @returns {string}
- */
-
-const normalize = localeId => localeId.toLowerCase().replace(/_/g, '-');
-/**
- * 获取基础语种
- * @param {string} localeId
- * @param {string} [seperator='-'] 连接线，默认为 `-`
- * @returns {string}
- */
-
-
-const getLocaleBase = (localeId, seperator = '-') => localeId.split(seperator)[0];
-/**
- * 检查单项，如果和availableLocales内的项目有匹配，返回匹配，否则返回null
- * @param {string} input 检查项
- * @param {string[]} [localeIds] 可选语言ID列表
- * @returns 匹配的 localeId 或 null
- */
-
-
-const checkItem = (input, localeIds = availableLocaleIds) => {
-  const inputNormalized = normalize(input);
-  const localeIdsNormalized = localeIds.map(normalize);
-  let result; // 如果有完整匹配的项，直接返回结果
-
-  localeIdsNormalized.some((thisLocaleId, index) => {
-    if (thisLocaleId === inputNormalized) {
-      result = localeIds[index];
-      return true;
-    }
-
-    return false;
-  });
-  if (result) return result; // 之后根据基础语种进行检查
-
-  /** 基础语种 (eg: `zh-CN` 基础语种为 `zh`) */
-
-  const baseLocale = getLocaleBase(inputNormalized, '-'); // 如果可选列表中有对应的基础语种，返回该结果
-
-  localeIdsNormalized.some((thisLocaleId, index) => {
-    if (thisLocaleId === baseLocale) {
-      result = localeIds[index];
-      return true;
-    }
-
-    return false;
-  });
-  if (result) return result; // 检查可选列表中每一项的基础语种，返回第一个匹配
-
-  localeIdsNormalized.some((thisLocaleId, index) => {
-    const thisBaseLocale = getLocaleBase(thisLocaleId, '-');
-
-    if (thisBaseLocale === baseLocale) {
-      result = localeIds[index];
-      return true;
-    }
-
-    return false;
-  });
-  if (result) return result;
-  return null;
-};
-
-/***/ }),
-
 /***/ "./node_modules/koot/i18n/redux/index.js":
 /*!***********************************************!*\
   !*** ./node_modules/koot/i18n/redux/index.js ***!
   \***********************************************/
-/*! exports provided: reducerLocaleId, actionInit */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "reducerLocaleId", function() { return reducerLocaleId; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "actionInit", function() { return actionInit; });
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "reducerLocaleId": () => (/* binding */ reducerLocaleId),
+/* harmony export */   "actionInit": () => (/* binding */ actionInit)
+/* harmony export */ });
 /* harmony import */ var _action_types__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../action-types */ "./node_modules/koot/i18n/action-types.js");
 // import parseLanguageList from '../parse-language-list';
 // import getLanguagelistFromState from '../get-language-list-from-state';
@@ -5041,7 +3319,7 @@ __webpack_require__.r(__webpack_exports__);
 
 const reducerLocaleId = (state = null, action) => {
   switch (action.type) {
-    case _action_types__WEBPACK_IMPORTED_MODULE_0__["I18N_INIT"]:
+    case _action_types__WEBPACK_IMPORTED_MODULE_0__.I18N_INIT:
       return action.localeId;
   }
 
@@ -5078,7 +3356,7 @@ const actionInit = localeId => {
   //     : state.localeId
   // setLocaleId(localeId)
   return {
-    type: _action_types__WEBPACK_IMPORTED_MODULE_0__["I18N_INIT"],
+    type: _action_types__WEBPACK_IMPORTED_MODULE_0__.I18N_INIT,
     localeId: '' + localeId
   };
 }; // /**
@@ -5122,18 +3400,15 @@ const actionInit = localeId => {
 /*!*************************************************************!*\
   !*** ./node_modules/koot/i18n/server/check-and-redirect.js ***!
   \*************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _locale_ids__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../locale-ids */ "./node_modules/koot/i18n/locale-ids.js");
-/* harmony import */ var _locale_ids__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_locale_ids__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _get_lang_from_ctx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./get-lang-from-ctx */ "./node_modules/koot/i18n/server/get-lang-from-ctx.js");
-/* harmony import */ var _set_cookie__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../set-cookie */ "./node_modules/koot/i18n/set-cookie.js");
-/* harmony import */ var _set_cookie__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_set_cookie__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _is_enabled__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../is-enabled */ "./node_modules/koot/i18n/is-enabled.js");
-/* harmony import */ var _is_enabled__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_is_enabled__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _is_enabled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../is-enabled */ "./node_modules/koot/i18n/is-enabled.js");
+/* harmony import */ var _is_enabled__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_is_enabled__WEBPACK_IMPORTED_MODULE_0__);
 
 
 
@@ -5146,7 +3421,7 @@ __webpack_require__.r(__webpack_exports__);
  */
 
 const checkRouterRedirect = ctx => {
-  if (!_is_enabled__WEBPACK_IMPORTED_MODULE_3___default()()) return false;
+  if (!_is_enabled__WEBPACK_IMPORTED_MODULE_0___default()()) return false;
 
   if (false) {}
 
@@ -5155,7 +3430,7 @@ const checkRouterRedirect = ctx => {
   return false;
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (checkRouterRedirect);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (checkRouterRedirect);
 
 /***/ }),
 
@@ -5163,17 +3438,19 @@ const checkRouterRedirect = ctx => {
 /*!***********************************************************************!*\
   !*** ./node_modules/koot/i18n/server/generate-html-redirect-metas.js ***!
   \***********************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _locale_ids__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../locale-ids */ "./node_modules/koot/i18n/locale-ids.js");
-/* harmony import */ var _locale_ids__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_locale_ids__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _i18n_is_enabled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../i18n/is-enabled */ "./node_modules/koot/i18n/is-enabled.js");
-/* harmony import */ var _i18n_is_enabled__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_i18n_is_enabled__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _generate_html_redirect_metas__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../generate-html-redirect-metas */ "./node_modules/koot/i18n/generate-html-redirect-metas.js");
-/* harmony import */ var _generate_html_redirect_metas__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_generate_html_redirect_metas__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _locale_ids__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../locale-ids */ "./node_modules/koot/i18n/locale-ids.js");
+/* harmony import */ var _locale_ids__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_locale_ids__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _i18n_is_enabled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../i18n/is-enabled */ "./node_modules/koot/i18n/is-enabled.js");
+/* harmony import */ var _i18n_is_enabled__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_i18n_is_enabled__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _generate_html_redirect_metas__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../generate-html-redirect-metas */ "./node_modules/koot/i18n/generate-html-redirect-metas.js");
+/* harmony import */ var _generate_html_redirect_metas__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_generate_html_redirect_metas__WEBPACK_IMPORTED_MODULE_1__);
 
 
 
@@ -5192,98 +3469,16 @@ const generateHtmlRedirectMetas = ({
   /*, proxyRequestOrigin*/
 
 }) => {
-  if (!_i18n_is_enabled__WEBPACK_IMPORTED_MODULE_1___default()()) return '';
-  return _generate_html_redirect_metas__WEBPACK_IMPORTED_MODULE_2___default()({
+  if (!_i18n_is_enabled__WEBPACK_IMPORTED_MODULE_0___default()()) return '';
+  return _generate_html_redirect_metas__WEBPACK_IMPORTED_MODULE_1___default()({
     localeId,
-    availableLocaleIds: (_locale_ids__WEBPACK_IMPORTED_MODULE_0___default()),
+    availableLocaleIds: (_locale_ids__WEBPACK_IMPORTED_MODULE_2___default()),
     use: "undefined",
     ctx
   });
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (generateHtmlRedirectMetas);
-
-/***/ }),
-
-/***/ "./node_modules/koot/i18n/server/get-lang-from-ctx.js":
-/*!************************************************************!*\
-  !*** ./node_modules/koot/i18n/server/get-lang-from-ctx.js ***!
-  \************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _defaults_defines__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../defaults/defines */ "./node_modules/koot/defaults/defines.js");
-/* harmony import */ var _defaults_defines__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_defaults_defines__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _locale_ids__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../locale-ids */ "./node_modules/koot/i18n/locale-ids.js");
-/* harmony import */ var _locale_ids__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_locale_ids__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _parse_locale_id__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../parse-locale-id */ "./node_modules/koot/i18n/parse-locale-id.js");
-/* harmony import */ var _parse_locale_id__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_parse_locale_id__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _set_cookie__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../set-cookie */ "./node_modules/koot/i18n/set-cookie.js");
-/* harmony import */ var _set_cookie__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_set_cookie__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _is_enabled__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../is-enabled */ "./node_modules/koot/i18n/is-enabled.js");
-/* harmony import */ var _is_enabled__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_is_enabled__WEBPACK_IMPORTED_MODULE_4__);
-// import cookie from 'cookie'
-
-
-
-
-
-/**
- * 根据 KOA Context 获取语种ID
- * @param {Object} ctx KOA Context
- * @returns {String} 匹配到的或当前项目默认语种ID
- */
-
-const getLangFromCtx = ctx => {
-  if (!_is_enabled__WEBPACK_IMPORTED_MODULE_4___default()()) return ''; // const localeIds = getLocaleIds()
-  // 根据项目设置，从 URL 中抽取语种 ID
-
-  if (false) {} else if (false) {} else {
-    if (ctx.query[_defaults_defines__WEBPACK_IMPORTED_MODULE_0__["changeLocaleQueryKey"]]) {
-      if (_locale_ids__WEBPACK_IMPORTED_MODULE_1___default.a.includes(ctx.query[_defaults_defines__WEBPACK_IMPORTED_MODULE_0__["changeLocaleQueryKey"]])) return ctx.query[_defaults_defines__WEBPACK_IMPORTED_MODULE_0__["changeLocaleQueryKey"]];
-      ctx.redirect(ctx.url.replace(new RegExp(`(\\?|&)${_defaults_defines__WEBPACK_IMPORTED_MODULE_0__["changeLocaleQueryKey"]}=(.+)$`), '').replace(new RegExp(`(\\?|&)${_defaults_defines__WEBPACK_IMPORTED_MODULE_0__["changeLocaleQueryKey"]}=(.+)&`), ''));
-      return _locale_ids__WEBPACK_IMPORTED_MODULE_1___default.a[0];
-    }
-  } // 如果上一步没有结果，从 COOKIE 中获取
-  // const cookies = cookie.parse(ctx.request.header.cookie || '')
-  // if (cookies[process.env.KOOT_I18N_COOKIE_KEY] && cookies[process.env.KOOT_I18N_COOKIE_KEY] !== 'null')
-  //     return cookies[process.env.KOOT_I18N_COOKIE_KEY]
-
-
-  const cookieValue = ctx.cookies.get("spLocaleId");
-
-  if (cookieValue && _locale_ids__WEBPACK_IMPORTED_MODULE_1___default.a.includes(cookieValue)) {
-    return cookieValue;
-  } // console.log('ctx.cookies.get(process.env.KOOT_I18N_COOKIE_KEY)', cookieValue)
-  // 如果上一步没有结果，从请求 headers 中获取
-
-
-  if (ctx.header['accept-language']) {
-    // const acceptLanguage = ctx.header['accept-language']
-    // const acceptLanguages = acceptLanguage.split(',').map(str => str.split(';')[0])
-    // console.log('acceptLanguage', acceptLanguage)
-    // console.log('acceptLanguages', acceptLanguages)
-    // console.log('parsed locale id', parseLocaleId(acceptLanguage))
-    const localeId = _parse_locale_id__WEBPACK_IMPORTED_MODULE_2___default()(ctx.header['accept-language']);
-    if (localeId) return setLocale(localeId, ctx);
-  } // 如果上一步没有结果，返回项目默认语种
-
-
-  return setLocale(_locale_ids__WEBPACK_IMPORTED_MODULE_1___default.a[0], ctx);
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (getLangFromCtx);
-/**
- * 服务器环境: 设置 cookie
- * @param {*} localeId
- */
-
-const setLocale = (localeId, ctx) => {
-  _set_cookie__WEBPACK_IMPORTED_MODULE_3___default()(localeId, ctx);
-  return localeId;
-};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (generateHtmlRedirectMetas);
 
 /***/ }),
 
@@ -5291,11 +3486,13 @@ const setLocale = (localeId, ctx) => {
 /*!********************************************************!*\
   !*** ./node_modules/koot/i18n/server/get-ssr-state.js ***!
   \********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
 /**
  * 返回多语言相关的 SSR 状态
  * @returns {Object}
@@ -5308,44 +3505,7 @@ const getSSRState = SSRContext => {
   };
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (getSSRState);
-
-/***/ }),
-
-/***/ "./node_modules/koot/i18n/set-cookie.js":
-/*!**********************************************!*\
-  !*** ./node_modules/koot/i18n/set-cookie.js ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/**
- * 设置 cookie
- * @param {String} localeId
- * @param {Object} ctx Koa context
- */
-module.exports = (localeId, ctx) => {
-  const maxDate = 365;
-  const options = {};
-
-  if (typeof process.env.KOOT_I18N_COOKIE_DOMAIN === 'string' && process.env.KOOT_I18N_COOKIE_DOMAIN) {
-    options.domain = process.env.KOOT_I18N_COOKIE_DOMAIN;
-  }
-
-  if (false) {}
-
-  if (true) {// TODO: set cookie on server
-    // console.log('ctx.host', ctx.host)
-    // console.log('ctx.hostname', ctx.hostname)
-    // console.log(process.env.KOOT_I18N_COOKIE_KEY, localeId, { domain: ctx.hostname, ...options })
-    // ctx.cookies.set(process.env.KOOT_I18N_COOKIE_KEY, localeId, {
-    //     domain: ctx.hostname,
-    //     maxAge: maxDate * 24 * 60 * 60 * 1000,
-    //     signed: false,
-    //     ...options
-    // })
-  }
-};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (getSSRState);
 
 /***/ }),
 
@@ -5353,17 +3513,19 @@ module.exports = (localeId, ctx) => {
 /*!**************************************************!*\
   !*** ./node_modules/koot/i18n/validte-routes.js ***!
   \**************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
 /* harmony import */ var _is_enabled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./is-enabled */ "./node_modules/koot/i18n/is-enabled.js");
 /* harmony import */ var _is_enabled__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_is_enabled__WEBPACK_IMPORTED_MODULE_0__);
 
 /**
  * 根据当前项目配置，对路由对象进行改造
- * @param {Object} routes 
+ * @param {Object} routes
  * @returns {Object} routes
  */
 
@@ -5375,7 +3537,7 @@ const validateRoutes = (routes = {}) => {
   return routes;
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (validateRoutes);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (validateRoutes);
 
 /***/ }),
 
@@ -5383,43 +3545,32 @@ const validateRoutes = (routes = {}) => {
 /*!************************************!*\
   !*** ./node_modules/koot/index.js ***!
   \************************************/
-/*! exports provided: createStore, reduxForCreateStore, extend, localeId, store, getStore, history, getHistory, getLocaleId, resetLocaleId, resetStore, resetHistory, getCache, getCtx */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createStore", function() { return createStore; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "reduxForCreateStore", function() { return reduxForCreateStore; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getCache", function() { return getCache; });
-/* harmony import */ var _defaults_defines_server__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./defaults/defines-server */ "./node_modules/koot/defaults/defines-server.js");
-/* harmony import */ var _defaults_defines_server__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_defaults_defines_server__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _React_is_render_safe__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./React/is-render-safe */ "./node_modules/koot/React/is-render-safe.js");
-/* harmony import */ var _React_is_render_safe__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_React_is_render_safe__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "createStore": () => (/* binding */ createStore),
+/* harmony export */   "reduxForCreateStore": () => (/* binding */ reduxForCreateStore),
+/* harmony export */   "extend": () => (/* reexport safe */ _KOOT_HOC_EXTEND___WEBPACK_IMPORTED_MODULE_1__.default),
+/* harmony export */   "localeId": () => (/* reexport safe */ _libs_ssr_context__WEBPACK_IMPORTED_MODULE_2__.localeId),
+/* harmony export */   "store": () => (/* reexport safe */ _libs_ssr_context__WEBPACK_IMPORTED_MODULE_2__.store),
+/* harmony export */   "getStore": () => (/* reexport safe */ _libs_ssr_context__WEBPACK_IMPORTED_MODULE_2__.getStore),
+/* harmony export */   "history": () => (/* reexport safe */ _libs_ssr_context__WEBPACK_IMPORTED_MODULE_2__.history),
+/* harmony export */   "getHistory": () => (/* reexport safe */ _libs_ssr_context__WEBPACK_IMPORTED_MODULE_2__.getHistory),
+/* harmony export */   "getLocaleId": () => (/* reexport safe */ _libs_ssr_context__WEBPACK_IMPORTED_MODULE_2__.getLocaleId),
+/* harmony export */   "resetLocaleId": () => (/* reexport safe */ _libs_ssr_context__WEBPACK_IMPORTED_MODULE_2__.resetLocaleId),
+/* harmony export */   "resetStore": () => (/* reexport safe */ _libs_ssr_context__WEBPACK_IMPORTED_MODULE_2__.resetStore),
+/* harmony export */   "resetHistory": () => (/* reexport safe */ _libs_ssr_context__WEBPACK_IMPORTED_MODULE_2__.resetHistory),
+/* harmony export */   "getCache": () => (/* binding */ getCache),
+/* harmony export */   "getCtx": () => (/* reexport safe */ _libs_ssr_context__WEBPACK_IMPORTED_MODULE_2__.getKoaCtx)
+/* harmony export */ });
+/* harmony import */ var _React_is_render_safe__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./React/is-render-safe */ "./node_modules/koot/React/is-render-safe.js");
+/* harmony import */ var _React_is_render_safe__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_React_is_render_safe__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _libs_ssr_context__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./libs/ssr/context */ "./node_modules/koot/libs/ssr/context.js");
 /* harmony import */ var _libs_ssr_context__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_libs_ssr_context__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "getLocaleId", function() { return _libs_ssr_context__WEBPACK_IMPORTED_MODULE_2__["getLocaleId"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "resetLocaleId", function() { return _libs_ssr_context__WEBPACK_IMPORTED_MODULE_2__["resetLocaleId"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "resetStore", function() { return _libs_ssr_context__WEBPACK_IMPORTED_MODULE_2__["resetStore"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "resetHistory", function() { return _libs_ssr_context__WEBPACK_IMPORTED_MODULE_2__["resetHistory"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "getCtx", function() { return _libs_ssr_context__WEBPACK_IMPORTED_MODULE_2__["getKoaCtx"]; });
-
-/* harmony import */ var _React_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./React/redux */ "./node_modules/koot/React/redux.js");
-/* harmony import */ var _KOOT_HOC_EXTEND___WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! __KOOT_HOC_EXTEND__ */ "./node_modules/koot/React/component-extender.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "extend", function() { return _KOOT_HOC_EXTEND___WEBPACK_IMPORTED_MODULE_4__["default"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "localeId", function() { return _libs_ssr_context__WEBPACK_IMPORTED_MODULE_2__["localeId"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "store", function() { return _libs_ssr_context__WEBPACK_IMPORTED_MODULE_2__["store"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "getStore", function() { return _libs_ssr_context__WEBPACK_IMPORTED_MODULE_2__["getStore"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "history", function() { return _libs_ssr_context__WEBPACK_IMPORTED_MODULE_2__["history"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "getHistory", function() { return _libs_ssr_context__WEBPACK_IMPORTED_MODULE_2__["getHistory"]; });
+/* harmony import */ var _React_redux__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./React/redux */ "./node_modules/koot/React/redux.js");
+/* harmony import */ var _KOOT_HOC_EXTEND___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! __KOOT_HOC_EXTEND__ */ "./node_modules/koot/React/component-extender.jsx");
 
 
 
@@ -5434,7 +3585,7 @@ __webpack_require__.r(__webpack_exports__);
 const {
   createStore,
   ...reduxForCreateStore
-} = _React_redux__WEBPACK_IMPORTED_MODULE_3__;
+} = _React_redux__WEBPACK_IMPORTED_MODULE_0__;
 
 /**
  * 通用的高阶组件/方法的装饰器
@@ -5447,14 +3598,14 @@ const {
  // ============================================================================
 
 const getCache = localeId => {
-  if (!_React_is_render_safe__WEBPACK_IMPORTED_MODULE_1___default()()) return {};
+  if (!_React_is_render_safe__WEBPACK_IMPORTED_MODULE_3___default()()) return {};
 
   if (false) {}
 
   if (true) {
-    const cache = Object(_libs_ssr_context__WEBPACK_IMPORTED_MODULE_2__["get"])().globalCache;
+    const cache = (0,_libs_ssr_context__WEBPACK_IMPORTED_MODULE_2__.get)().globalCache;
     if (!cache) return {};
-    if (localeId === true) return cache.get(Object(_libs_ssr_context__WEBPACK_IMPORTED_MODULE_2__["getLocaleId"])());
+    if (localeId === true) return cache.get((0,_libs_ssr_context__WEBPACK_IMPORTED_MODULE_2__.getLocaleId)());
     if (localeId) return cache.get(localeId) || {};
     return cache.get('__');
   }
@@ -5470,8 +3621,7 @@ if (false) {}
 /*!*********************************************!*\
   !*** ./node_modules/koot/libs/error-msg.js ***!
   \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /**
  * 生成错误信息
@@ -5487,45 +3637,11 @@ module.exports = errorMsg;
 
 /***/ }),
 
-/***/ "./node_modules/koot/libs/filter-state.js":
-/*!************************************************!*\
-  !*** ./node_modules/koot/libs/filter-state.js ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-const itemsBlacklist = ['localeId', 'realtimeLocation', 'routing', 'server'];
-/**
- * 过滤 state，将黑名单内的项目删除，并返回过滤后的 state
- *
- * 黑名单中包括：
- * - `localeId`
- * - `realtimeLocation`
- * - `routing`
- * - `server`
- *
- * @param {Object} state
- * @returns {Object}
- */
-
-const filter = oldState => itemsBlacklist.reduce((state, item) => {
-  const {
-    [item]: _,
-    ...rest
-  } = state;
-  return rest;
-}, oldState);
-
-module.exports = filter;
-
-/***/ }),
-
 /***/ "./node_modules/koot/libs/get-dir-dev-tmp.js":
 /*!***************************************************!*\
   !*** ./node_modules/koot/libs/get-dir-dev-tmp.js ***!
   \***************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 const path = __webpack_require__(/*! path */ "path");
 
@@ -5546,14 +3662,13 @@ module.exports = (cwd = getCwd(), type = "") => path.resolve(cwd, 'logs/dev', ty
 /*!******************************************************************!*\
   !*** ./node_modules/koot/libs/get-dir-dist-public-foldername.js ***!
   \******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module) => {
 
 /**
  * 获取客户端打包结果 public 目录名
  * @returns {String}
  */
-module.exports = () =>  false ? undefined : `public`;
+module.exports = () =>  false ? 0 : `public`;
 
 /***/ }),
 
@@ -5561,8 +3676,7 @@ module.exports = () =>  false ? undefined : `public`;
 /*!*******************************************************!*\
   !*** ./node_modules/koot/libs/get-dir-dist-public.js ***!
   \*******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 const path = __webpack_require__(/*! path */ "path");
 
@@ -5587,106 +3701,11 @@ let result;
 
 /***/ }),
 
-/***/ "./node_modules/koot/libs/get-log-msg.js":
-/*!***********************************************!*\
-  !*** ./node_modules/koot/libs/get-log-msg.js ***!
-  \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-const chalk = __webpack_require__(/*! chalk */ "chalk");
-/**
- * 生成 log 消息内容
- * @variation 只提供内容
- * @param {String} content 内容
- */
-
-/**
-* 生成 log 消息内容
-* @variation 提供标记和内容
-* @param {String|Boolean} [mark=""] 标记
-* @param {String} content 内容
-*/
-
-/**
-* 生成 log 消息内容
-* @variation 提供标记、类型和内容
-* @param {String|Boolean} [mark=""] 标记
-* @param {String} [type=""] 操作类型
-* @param {String} content 内容
-*/
-
-
-const generateLogMsg = (mark, type, content) => {
-  if (typeof mark !== 'undefined' && typeof type === 'undefined' && typeof content === 'undefined') return generateLogMsg('', '', mark);
-  if (typeof type !== 'undefined' && typeof content === 'undefined') return generateLogMsg(mark, '', type);
-  let markColor = 'cyan';
-  if (mark === false) mark = '';
-
-  switch (mark.toLowerCase()) {
-    case '×':
-    case 'x':
-    case 'x ':
-    case 'error':
-      {
-        mark = '× ';
-        markColor = 'redBright';
-        break;
-      }
-
-    case 'success':
-      {
-        mark = '√ ';
-        markColor = 'green';
-        break;
-      }
-
-    case 'cb':
-    case 'callback':
-      {
-        mark = '⚑ ';
-        markColor = 'cyan';
-        break;
-      }
-
-    case 'warning':
-      {
-        mark = '! ';
-        markColor = 'yellowBright';
-        break;
-      }
-
-    case '':
-      {
-        break;
-      }
-
-    default:
-      {
-        mark = '  ';
-      }
-  }
-
-  const typeColor = (() => {
-    switch (type) {
-      default:
-        return 'yellowBright';
-    }
-  })();
-
-  return (mark === '' ? '' : chalk[markColor](mark)) + chalk[typeColor](`[koot${type ? `/${type}` : ''}] `) + content;
-};
-
-module.exports = generateLogMsg;
-
-/***/ }),
-
 /***/ "./node_modules/koot/libs/get-ssr-state-string.js":
 /*!********************************************************!*\
   !*** ./node_modules/koot/libs/get-ssr-state-string.js ***!
   \********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /**
  * 输出 SSR 时需要的 state 字符串形式结果
@@ -5703,8 +3722,7 @@ module.exports = getSSRStateString;
 /*!*********************************************************!*\
   !*** ./node_modules/koot/libs/get-sw-scope-from-env.js ***!
   \*********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 /* eslint-disable no-restricted-globals */
 const {
@@ -5740,47 +3758,11 @@ module.exports = valueScope => {
 
 /***/ }),
 
-/***/ "./node_modules/koot/libs/log.js":
-/*!***************************************!*\
-  !*** ./node_modules/koot/libs/log.js ***!
-  \***************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* eslint-disable no-console */
-
-/**
- * 命令行 Log
- * @variation 1
- * @param {String} content 内容
- */
-
-/**
-* 命令行 Log
-* @variation 2
-* @param {String} [type=""] 操作类型
-* @param {String} content 内容
-*/
-
-/**
-* 命令行 Log
-* @variation 3
-* @param {String} [mark=""] 标记
-* @param {String} [type=""] 操作类型
-* @param {String} content 内容
-*/
-module.exports = (...args) => {
-  console.log(__webpack_require__(/*! ./get-log-msg */ "./node_modules/koot/libs/get-log-msg.js")(...args));
-};
-
-/***/ }),
-
 /***/ "./node_modules/koot/libs/ssr/context.js":
 /*!***********************************************!*\
   !*** ./node_modules/koot/libs/ssr/context.js ***!
   \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 /* global
     __KOOT_SSR__:false
@@ -5811,6 +3793,12 @@ module.exports = (...args) => {
                         : [],
  */
 // ============================================================================
+const {
+  LOCALEID: ClientLocaleId,
+  STORE: ClientStore,
+  HISTORY: ClientHistory
+} = __webpack_require__(/*! ../../defaults/defines-window */ "./node_modules/koot/defaults/defines-window.js");
+
 const {
   ssrContext: SSRContext,
   koaContext: KOAContext
@@ -5968,34 +3956,50 @@ module.exports = {
 /*!**********************************************************************!*\
   !*** ./node_modules/koot/utils/generate-filemap-from-compilation.js ***!
   \**********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 const path = __webpack_require__(/*! path */ "path");
+/*
+  'id',               'ids',
+  'debugId',          'name',
+  'idNameHints',      'preventIntegration',
+  'filenameTemplate', '_groups',
+  'runtime',          'files',
+  'auxiliaryFiles',   'rendered',
+  'hash',             'contentHash',
+  'renderedHash',     'chunkReason',
+  'extraAsync'
+*/
+
 /**
  * 从 Webpack compilation 数据中生成文件对应表 (Filemap)
- * @param {Object} compilation 
- * @param {String} [dirRelative] 
+ * @param {Object} compilation
+ * @param {String} [dirRelative]
  * @returns {Object} 文件对应表 (Filemap)
  */
 
 
 module.exports = (compilation, dirRelative) => {
   if (typeof compilation !== 'object') return undefined;
-  const filemap = {};
-  const stats = compilation.getStats();
+  const filemap = {}; // const stats = compilation.getStats();
+  // for (const chunk of stats.compilation.chunks) {
 
-  for (let id in stats.compilation.chunks) {
-    const o = stats.compilation.chunks[id];
-    if (typeof o.name === 'undefined' || o.name === null) continue;
+  for (const chunk of compilation.chunks) {
+    const {
+      name,
+      idNameHints,
+      files
+    } = chunk;
+    const thisName = name || [...idNameHints].join('~');
+    if (typeof thisName === 'undefined' || thisName === null) continue;
+    if ([...files].every(filename => !/\.(js|css)$/i.test(filename))) continue; // console.log({ name, id, ids, debugId, idNameHints, files });
+    // console.log([...idNameHints]);
 
-    if (Array.isArray(o.files)) {
-      o.files.filter(filename => !/\.(js|css)\.map$/i.test(filename)).forEach(filename => {
-        const extname = path.extname(filename);
-        const file = o.name + extname;
-        if (typeof filemap[file] !== 'string') filemap[file] =  false ? undefined : (dirRelative ? dirRelative + '/' : '') + filename;
-      });
-    }
+    [...files].filter(filename => !/\.(js|css)\.map$/i.test(filename)).forEach(filename => {
+      const extname = path.extname(filename);
+      const file = thisName + extname;
+      if (typeof filemap[file] !== 'string') filemap[file] =  false ? 0 : (dirRelative ? dirRelative + '/' : '') + filename;
+    });
   }
 
   return filemap;
@@ -6007,8 +4011,7 @@ module.exports = (compilation, dirRelative) => {
 /*!************************************************************!*\
   !*** ./node_modules/koot/utils/get-build-manifest-path.js ***!
   \************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 const path = __webpack_require__(/*! path */ "path");
 
@@ -6037,8 +4040,7 @@ module.exports = (dist = getDistPath()) => {
 /*!******************************************************!*\
   !*** ./node_modules/koot/utils/get-chunkmap-path.js ***!
   \******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 /**
  * 获取打包文件对应表 (chunkmap) 的文件路径
@@ -6053,8 +4055,7 @@ module.exports = __webpack_require__(/*! ./get-build-manifest-path */ "./node_mo
 /*!*************************************************!*\
   !*** ./node_modules/koot/utils/get-chunkmap.js ***!
   \*************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 const fs = __webpack_require__(/*! fs */ "fs");
 
@@ -6098,7 +4099,7 @@ const getChunkmap = (localeId, getFullResult = false, ignoreCache = false) => {
     if (typeof global.chunkmap === 'object') chunkmap = global.chunkmap;
 
     try {
-      chunkmap = JSON.parse("{\".zh\":{\".public\":\"public/\",\".out\":\"public/\",\".entrypoints\":{\"critical\":[\"public/includes/extract.2.75d0926dc0c8e36d72e0.css\",\"public/includes/entry.75d0926dc0c8e36d72e0.js\"],\"client\":[\"public/includes/chunk.5646559d2df56da8053d.js\",\"public/includes/chunk.5d71483254d63fe6f4ae.js\",\"public/includes/entry.e8a2dab92775f4438775.js\"],\"__KOOT__CLIENT__RUN__FIRST__\":[\"public/includes/entry.ca153a9a3d10496e7b52.js\"]},\".files\":{\"__KOOT__CLIENT__RUN__FIRST__.js\":\"public/includes/entry.ca153a9a3d10496e7b52.js\",\"client.js\":\"public/includes/entry.e8a2dab92775f4438775.js\",\"critical.css\":\"public/includes/extract.2.75d0926dc0c8e36d72e0.css\",\"critical.js\":\"public/includes/entry.75d0926dc0c8e36d72e0.js\",\"libs.js\":\"public/includes/chunk.5646559d2df56da8053d.js\",\"vendors~client.js\":\"public/includes/chunk.5d71483254d63fe6f4ae.js\",\"__KOOT__EXTRACT__CSS__.css\":\"public/includes/extract.all.5d2f36ec5091395800d4fd2785bf716d.small.css\"},\"service-worker\":[\"public/service-worker.zh.js\"],\".htmlMetaTags__\":\"<link rel=\\\"shortcut icon\\\" href=\\\"/includes/webapp.54e31f7b/favicon.ico\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"16x16\\\" href=\\\"/includes/webapp.54e31f7b/favicon-16x16.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"32x32\\\" href=\\\"/includes/webapp.54e31f7b/favicon-32x32.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"48x48\\\" href=\\\"/includes/webapp.54e31f7b/favicon-48x48.png\\\"><link rel=\\\"manifest\\\" href=\\\"/includes/webapp.54e31f7b/manifest.json\\\"><meta name=\\\"mobile-web-app-capable\\\" content=\\\"yes\\\"><meta name=\\\"theme-color\\\" content=\\\"#fbfbfb\\\"><meta name=\\\"application-name\\\" content=\\\"飞行员大波胡\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"57x57\\\" href=\\\"/includes/webapp.54e31f7b/apple-touch-icon-57x57.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"60x60\\\" href=\\\"/includes/webapp.54e31f7b/apple-touch-icon-60x60.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"72x72\\\" href=\\\"/includes/webapp.54e31f7b/apple-touch-icon-72x72.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"76x76\\\" href=\\\"/includes/webapp.54e31f7b/apple-touch-icon-76x76.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"114x114\\\" href=\\\"/includes/webapp.54e31f7b/apple-touch-icon-114x114.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"120x120\\\" href=\\\"/includes/webapp.54e31f7b/apple-touch-icon-120x120.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"144x144\\\" href=\\\"/includes/webapp.54e31f7b/apple-touch-icon-144x144.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"152x152\\\" href=\\\"/includes/webapp.54e31f7b/apple-touch-icon-152x152.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"167x167\\\" href=\\\"/includes/webapp.54e31f7b/apple-touch-icon-167x167.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"180x180\\\" href=\\\"/includes/webapp.54e31f7b/apple-touch-icon-180x180.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"1024x1024\\\" href=\\\"/includes/webapp.54e31f7b/apple-touch-icon-1024x1024.png\\\"><meta name=\\\"apple-mobile-web-app-capable\\\" content=\\\"yes\\\"><meta name=\\\"apple-mobile-web-app-status-bar-style\\\" content=\\\"black-translucent\\\"><meta name=\\\"apple-mobile-web-app-title\\\" content=\\\"飞行大波胡\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"    href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-640x1136.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"    href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-750x1334.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"    href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-828x1792.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\"    href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-1125x2436.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\"    href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-1242x2208.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\"    href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-1242x2688.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"   href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-1536x2048.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"   href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-1668x2224.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"   href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-1668x2388.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"  href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-2048x2732.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"  href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-1620x2160.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\"   href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-1136x640.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\"   href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-1334x750.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\"   href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-1792x828.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\"   href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-2436x1125.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\"   href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-2208x1242.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\"   href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-2688x1242.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\"  href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-2048x1536.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\"  href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-2224x1668.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\"  href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-2388x1668.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-2732x2048.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\"  href=\\\"/includes/webapp.54e31f7b/apple-touch-startup-image-2160x1620.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"228x228\\\" href=\\\"/includes/webapp.54e31f7b/coast-228x228.png\\\"><meta name=\\\"msapplication-TileColor\\\" content=\\\"#212121\\\"><meta name=\\\"msapplication-TileImage\\\" content=\\\"/includes/webapp.54e31f7b/mstile-144x144.png\\\"><meta name=\\\"msapplication-config\\\" content=\\\"/includes/webapp.54e31f7b/browserconfig.xml\\\"><link rel=\\\"yandex-tableau-widget\\\" href=\\\"/includes/webapp.54e31f7b/yandex-browser-manifest.json\\\">\"}}");
+      chunkmap = JSON.parse("{\".zh\":{\".public\":\"public/\",\".out\":\"public/\",\".entrypoints\":{\"critical\":[\"public/includes/extract.122.cfe4662ab7e38152842f.css\",\"public/includes/entry.cfe4662ab7e38152842f.js\"],\"client\":[\"public/includes/entry.5d6a5ff1981f7e127f69.js\",\"public/includes/entry.acce3e3790c9e227cb08.js\",\"public/includes/entry.568daa6f93141392dba0.js\"],\"__KOOT__CLIENT__RUN__FIRST__\":[\"public/includes/entry.c1f94fa20a225c1fcf1f.js\"]},\".files\":{\"critical.css\":\"public/includes/extract.122.cfe4662ab7e38152842f.css\",\"critical.js\":\"public/includes/entry.cfe4662ab7e38152842f.js\",\"client.js\":\"public/includes/entry.568daa6f93141392dba0.js\",\"__KOOT__CLIENT__RUN__FIRST__.js\":\"public/includes/entry.c1f94fa20a225c1fcf1f.js\",\"libs.js\":\"public/includes/entry.5d6a5ff1981f7e127f69.js\",\"vendors.js\":\"public/includes/entry.acce3e3790c9e227cb08.js\",\"__KOOT__EXTRACT__CSS__.css\":\"public/includes/extract.all.5d2f36ec5091395800d4fd2785bf716d.small.css\"},\"service-worker\":[\"public/service-worker.zh.js\"],\".htmlMetaTags__\":\"<link rel=\\\"shortcut icon\\\" href=\\\"/includes/webapp.a1a1086f/favicon.ico\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"16x16\\\" href=\\\"/includes/webapp.a1a1086f/favicon-16x16.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"32x32\\\" href=\\\"/includes/webapp.a1a1086f/favicon-32x32.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"48x48\\\" href=\\\"/includes/webapp.a1a1086f/favicon-48x48.png\\\"><link rel=\\\"manifest\\\" href=\\\"/includes/webapp.a1a1086f/manifest.json\\\"><meta name=\\\"mobile-web-app-capable\\\" content=\\\"yes\\\"><meta name=\\\"theme-color\\\" content=\\\"#0898d8\\\"><meta name=\\\"application-name\\\" content=\\\"飞行员大波胡\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"57x57\\\" href=\\\"/includes/webapp.a1a1086f/apple-touch-icon-57x57.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"60x60\\\" href=\\\"/includes/webapp.a1a1086f/apple-touch-icon-60x60.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"72x72\\\" href=\\\"/includes/webapp.a1a1086f/apple-touch-icon-72x72.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"76x76\\\" href=\\\"/includes/webapp.a1a1086f/apple-touch-icon-76x76.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"114x114\\\" href=\\\"/includes/webapp.a1a1086f/apple-touch-icon-114x114.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"120x120\\\" href=\\\"/includes/webapp.a1a1086f/apple-touch-icon-120x120.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"144x144\\\" href=\\\"/includes/webapp.a1a1086f/apple-touch-icon-144x144.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"152x152\\\" href=\\\"/includes/webapp.a1a1086f/apple-touch-icon-152x152.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"167x167\\\" href=\\\"/includes/webapp.a1a1086f/apple-touch-icon-167x167.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"180x180\\\" href=\\\"/includes/webapp.a1a1086f/apple-touch-icon-180x180.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"1024x1024\\\" href=\\\"/includes/webapp.a1a1086f/apple-touch-icon-1024x1024.png\\\"><meta name=\\\"apple-mobile-web-app-capable\\\" content=\\\"yes\\\"><meta name=\\\"apple-mobile-web-app-status-bar-style\\\" content=\\\"black-translucent\\\"><meta name=\\\"apple-mobile-web-app-title\\\" content=\\\"飞行大波胡\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"    href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-640x1136.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"    href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-750x1334.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"    href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-828x1792.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\"    href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-1125x2436.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\"    href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-1242x2208.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\"    href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-1242x2688.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"   href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-1536x2048.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"   href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-1668x2224.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"   href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-1668x2388.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"  href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-2048x2732.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"  href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-1620x2160.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\"   href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-1136x640.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\"   href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-1334x750.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\"   href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-1792x828.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\"   href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-2436x1125.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\"   href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-2208x1242.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\"   href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-2688x1242.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\"  href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-2048x1536.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\"  href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-2224x1668.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\"  href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-2388x1668.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-2732x2048.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\"  href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-2160x1620.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"228x228\\\" href=\\\"/includes/webapp.a1a1086f/coast-228x228.png\\\"><meta name=\\\"msapplication-TileColor\\\" content=\\\"#212121\\\"><meta name=\\\"msapplication-TileImage\\\" content=\\\"/includes/webapp.a1a1086f/mstile-144x144.png\\\"><meta name=\\\"msapplication-config\\\" content=\\\"/includes/webapp.a1a1086f/browserconfig.xml\\\"><link rel=\\\"yandex-tableau-widget\\\" href=\\\"/includes/webapp.a1a1086f/yandex-browser-manifest.json\\\">\"}}");
     } catch (e) {
       chunkmap = false;
     }
@@ -6129,8 +4130,7 @@ module.exports = getChunkmap;
 /*!*********************************************************!*\
   !*** ./node_modules/koot/utils/get-client-file-path.js ***!
   \*********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 /* global
     __KOOT_LOCALEID__:false
@@ -6298,8 +4298,7 @@ module.exports = getFilePath; // module.exports = (pathname, pathDist = 'dist') 
 /*!********************************************!*\
   !*** ./node_modules/koot/utils/get-cwd.js ***!
   \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /**
  * 获取运行目录
@@ -6317,8 +4316,7 @@ module.exports = () => {
 /*!**************************************************!*\
   !*** ./node_modules/koot/utils/get-dist-path.js ***!
   \**************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 const fs = __webpack_require__(/*! fs */ "fs");
 
@@ -6360,8 +4358,7 @@ module.exports = () => {
 /*!*********************************************!*\
   !*** ./node_modules/koot/utils/get-port.js ***!
   \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module) => {
 
 // require('./init-node-env')()
 
@@ -6379,7 +4376,7 @@ module.exports = (port, env = "prod") => {
   // });
   const defaultPort =  true && typeof process.env.SERVER_PORT !== 'undefined' ? process.env.SERVER_PORT :
   /* typeof process.env.SERVER_PORT === 'undefined' && */
-   true ? "8090" : undefined;
+   true ? "8090" : 0;
 
   if (typeof port === 'object') {
     if (!env) env = 'prod';
@@ -6397,8 +4394,7 @@ module.exports = (port, env = "prod") => {
 /*!***************************************************!*\
   !*** ./node_modules/koot/utils/get-public-dir.js ***!
   \***************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 const getWDSport = __webpack_require__(/*! ./get-webpack-dev-server-port */ "./node_modules/koot/utils/get-webpack-dev-server-port.js");
 
@@ -6435,8 +4431,7 @@ module.exports = (isSSRReading = false) => {
 /*!****************************************************************!*\
   !*** ./node_modules/koot/utils/get-webpack-dev-server-port.js ***!
   \****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module) => {
 
 /**
  * 获取 webpack-dev-server 端口号
@@ -6444,7 +4439,7 @@ module.exports = (isSSRReading = false) => {
  */
 module.exports = () => {
   // console.log('process.env.WEBPACK_DEV_SERVER_PORT', process.env.WEBPACK_DEV_SERVER_PORT)
-  return "3001" || false;
+  return "3001" || 0;
 };
 
 /***/ }),
@@ -6453,14 +4448,20 @@ module.exports = () => {
 /*!*****************************************************!*\
   !*** ./node_modules/koot/utils/read-client-file.js ***!
   \*****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 const fs = __webpack_require__(/*! fs */ "fs");
 
 const path = __webpack_require__(/*! path */ "path");
 
-const isUrl = __webpack_require__(/*! is-url */ "is-url");
+const isUrl = __webpack_require__(/*! is-url */ "is-url"); // const { sources } = require('webpack');
+
+
+const getSourceContent = __webpack_require__(/*! koot-webpack/libs/get-source-content */ "./node_modules/koot-webpack/libs/get-source-content.js");
+
+const {
+  GLOBAL_VAR_BUILD_COMPILATION_FOR_SPA_INJECTION
+} = __webpack_require__(/*! ../defaults/before-build */ "./node_modules/koot/defaults/before-build.js");
 
 const getFilePath = __webpack_require__(/*! ./get-client-file-path */ "./node_modules/koot/utils/get-client-file-path.js");
 
@@ -6484,31 +4485,33 @@ const getDirDistPublic = __webpack_require__(/*! ../libs/get-dir-dist-public */ 
 
 const readClientFile = (filename, localeId, compilation, isPathname = false) => {
   // 如果第一个参数为 true，表示标记为 pathname
-  if (filename === true) return readClientFile(localeId, compilation || undefined, isPathname || undefined, true); // 如果提供了 webpack compilation 数据，尝试从其中查询对应文件的最终内容并返回
+  if (filename === true) return readClientFile(localeId, compilation || undefined, isPathname || undefined, true);
+  const fileExtName = path.extname(filename);
+  const filenameWithoutExtname = path.basename(filename, fileExtName);
+  if (!compilation) compilation = global[GLOBAL_VAR_BUILD_COMPILATION_FOR_SPA_INJECTION] || undefined; // 如果提供了 webpack compilation 数据，尝试从其中查询对应文件的最终内容并返回
 
   if (typeof compilation === 'object') {
     const filemap = generateFilemap(compilation);
 
     if (typeof filemap === 'object') {
-      // console.log('\n' + filename)
-      // console.log(`typeof filemap["${filename}"]`, typeof filemap[filename])
-      // console.log(`typeof compilation.assets["${filemap[filename]}"]`, typeof compilation.assets[filemap[filename]])
-      // for (let key in compilation) {
-      //     console.log(key)
-      // }
-      if (typeof filemap[filename] === 'string' && typeof compilation.assets[filemap[filename]] !== 'undefined') {
-        const asset = compilation.assets[filemap[filename]]; // console.log(filename, filemap[filename])
-        // if (!asset._value) {
-        //     console.log(asset)
-        // }
-        // console.log('typeof asset.source', typeof asset.source)
+      // console.log(compilation.chunks);
+      const files = []; // 根据文件名/特征名从查找特定 chunk，利用其内的文件列表
 
-        if (typeof asset.source === 'function') return asset.source();
-        if (typeof asset._value !== 'undefined') return asset._value;
-        if (typeof asset._cachedSource !== 'undefined') return asset._cachedSource; // return '123'
-      }
+      [...compilation.chunks].filter(({
+        name
+      }) => name === filename || name === filenameWithoutExtname).forEach(chunk => {
+        [...chunk.files].forEach(file => {
+          files.push(file);
+        });
+      }); // 如果上述操作不存在有效的文件，利用 koot 生成的 manifest 查询
+
+      if (!files.length) files.push(filename); // console.log({ filename, files });
+      // 如果有文件，直接使用，查询 asset
+
+      return files.filter(filename => path.extname(filename) === fileExtName).map(file => getSourceContent(compilation.getAsset(file))).join('\n');
     }
-  } // 在打包结果中寻找指定文件
+  } // console.log(filename, filenameWithoutExtname);
+  // 在打包结果中寻找指定文件
 
 
   let pathnames = getFilePath(filename, localeId, isPathname, true);
@@ -6535,8 +4538,7 @@ module.exports = readClientFile;
 /*!**************************************!*\
   !*** ./node_modules/lodash/_Hash.js ***!
   \**************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var hashClear = __webpack_require__(/*! ./_hashClear */ "./node_modules/lodash/_hashClear.js"),
     hashDelete = __webpack_require__(/*! ./_hashDelete */ "./node_modules/lodash/_hashDelete.js"),
@@ -6577,8 +4579,7 @@ module.exports = Hash;
 /*!*******************************************!*\
   !*** ./node_modules/lodash/_ListCache.js ***!
   \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var listCacheClear = __webpack_require__(/*! ./_listCacheClear */ "./node_modules/lodash/_listCacheClear.js"),
     listCacheDelete = __webpack_require__(/*! ./_listCacheDelete */ "./node_modules/lodash/_listCacheDelete.js"),
@@ -6619,8 +4620,7 @@ module.exports = ListCache;
 /*!*************************************!*\
   !*** ./node_modules/lodash/_Map.js ***!
   \*************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var getNative = __webpack_require__(/*! ./_getNative */ "./node_modules/lodash/_getNative.js"),
     root = __webpack_require__(/*! ./_root */ "./node_modules/lodash/_root.js");
@@ -6636,8 +4636,7 @@ module.exports = Map;
 /*!******************************************!*\
   !*** ./node_modules/lodash/_MapCache.js ***!
   \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var mapCacheClear = __webpack_require__(/*! ./_mapCacheClear */ "./node_modules/lodash/_mapCacheClear.js"),
     mapCacheDelete = __webpack_require__(/*! ./_mapCacheDelete */ "./node_modules/lodash/_mapCacheDelete.js"),
@@ -6678,8 +4677,7 @@ module.exports = MapCache;
 /*!***************************************!*\
   !*** ./node_modules/lodash/_Stack.js ***!
   \***************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var ListCache = __webpack_require__(/*! ./_ListCache */ "./node_modules/lodash/_ListCache.js"),
     stackClear = __webpack_require__(/*! ./_stackClear */ "./node_modules/lodash/_stackClear.js"),
@@ -6715,8 +4713,7 @@ module.exports = Stack;
 /*!****************************************!*\
   !*** ./node_modules/lodash/_Symbol.js ***!
   \****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var root = __webpack_require__(/*! ./_root */ "./node_modules/lodash/_root.js");
 /** Built-in value references. */
@@ -6731,8 +4728,7 @@ module.exports = Symbol;
 /*!********************************************!*\
   !*** ./node_modules/lodash/_Uint8Array.js ***!
   \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var root = __webpack_require__(/*! ./_root */ "./node_modules/lodash/_root.js");
 /** Built-in value references. */
@@ -6747,8 +4743,7 @@ module.exports = Uint8Array;
 /*!***************************************!*\
   !*** ./node_modules/lodash/_apply.js ***!
   \***************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /**
  * A faster alternative to `Function#apply`, this function invokes `func`
@@ -6786,8 +4781,7 @@ module.exports = apply;
 /*!***********************************************!*\
   !*** ./node_modules/lodash/_arrayLikeKeys.js ***!
   \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var baseTimes = __webpack_require__(/*! ./_baseTimes */ "./node_modules/lodash/_baseTimes.js"),
     isArguments = __webpack_require__(/*! ./isArguments */ "./node_modules/lodash/isArguments.js"),
@@ -6837,44 +4831,11 @@ module.exports = arrayLikeKeys;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/_arrayMap.js":
-/*!******************************************!*\
-  !*** ./node_modules/lodash/_arrayMap.js ***!
-  \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-/**
- * A specialized version of `_.map` for arrays without support for iteratee
- * shorthands.
- *
- * @private
- * @param {Array} [array] The array to iterate over.
- * @param {Function} iteratee The function invoked per iteration.
- * @returns {Array} Returns the new mapped array.
- */
-function arrayMap(array, iteratee) {
-  var index = -1,
-      length = array == null ? 0 : array.length,
-      result = Array(length);
-
-  while (++index < length) {
-    result[index] = iteratee(array[index], index, array);
-  }
-
-  return result;
-}
-
-module.exports = arrayMap;
-
-/***/ }),
-
 /***/ "./node_modules/lodash/_assignMergeValue.js":
 /*!**************************************************!*\
   !*** ./node_modules/lodash/_assignMergeValue.js ***!
   \**************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var baseAssignValue = __webpack_require__(/*! ./_baseAssignValue */ "./node_modules/lodash/_baseAssignValue.js"),
     eq = __webpack_require__(/*! ./eq */ "./node_modules/lodash/eq.js");
@@ -6903,8 +4864,7 @@ module.exports = assignMergeValue;
 /*!*********************************************!*\
   !*** ./node_modules/lodash/_assignValue.js ***!
   \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var baseAssignValue = __webpack_require__(/*! ./_baseAssignValue */ "./node_modules/lodash/_baseAssignValue.js"),
     eq = __webpack_require__(/*! ./eq */ "./node_modules/lodash/eq.js");
@@ -6942,8 +4902,7 @@ module.exports = assignValue;
 /*!**********************************************!*\
   !*** ./node_modules/lodash/_assocIndexOf.js ***!
   \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var eq = __webpack_require__(/*! ./eq */ "./node_modules/lodash/eq.js");
 /**
@@ -6976,8 +4935,7 @@ module.exports = assocIndexOf;
 /*!*************************************************!*\
   !*** ./node_modules/lodash/_baseAssignValue.js ***!
   \*************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var defineProperty = __webpack_require__(/*! ./_defineProperty */ "./node_modules/lodash/_defineProperty.js");
 /**
@@ -7012,8 +4970,7 @@ module.exports = baseAssignValue;
 /*!********************************************!*\
   !*** ./node_modules/lodash/_baseCreate.js ***!
   \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var isObject = __webpack_require__(/*! ./isObject */ "./node_modules/lodash/isObject.js");
 /** Built-in value references. */
@@ -7056,8 +5013,7 @@ module.exports = baseCreate;
 /*!*****************************************!*\
   !*** ./node_modules/lodash/_baseFor.js ***!
   \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var createBaseFor = __webpack_require__(/*! ./_createBaseFor */ "./node_modules/lodash/_createBaseFor.js");
 /**
@@ -7078,47 +5034,11 @@ module.exports = baseFor;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/_baseGet.js":
-/*!*****************************************!*\
-  !*** ./node_modules/lodash/_baseGet.js ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var castPath = __webpack_require__(/*! ./_castPath */ "./node_modules/lodash/_castPath.js"),
-    toKey = __webpack_require__(/*! ./_toKey */ "./node_modules/lodash/_toKey.js");
-/**
- * The base implementation of `_.get` without support for default values.
- *
- * @private
- * @param {Object} object The object to query.
- * @param {Array|string} path The path of the property to get.
- * @returns {*} Returns the resolved value.
- */
-
-
-function baseGet(object, path) {
-  path = castPath(path, object);
-  var index = 0,
-      length = path.length;
-
-  while (object != null && index < length) {
-    object = object[toKey(path[index++])];
-  }
-
-  return index && index == length ? object : undefined;
-}
-
-module.exports = baseGet;
-
-/***/ }),
-
 /***/ "./node_modules/lodash/_baseGetTag.js":
 /*!********************************************!*\
   !*** ./node_modules/lodash/_baseGetTag.js ***!
   \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var Symbol = __webpack_require__(/*! ./_Symbol */ "./node_modules/lodash/_Symbol.js"),
     getRawTag = __webpack_require__(/*! ./_getRawTag */ "./node_modules/lodash/_getRawTag.js"),
@@ -7155,8 +5075,7 @@ module.exports = baseGetTag;
 /*!*************************************************!*\
   !*** ./node_modules/lodash/_baseIsArguments.js ***!
   \*************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var baseGetTag = __webpack_require__(/*! ./_baseGetTag */ "./node_modules/lodash/_baseGetTag.js"),
     isObjectLike = __webpack_require__(/*! ./isObjectLike */ "./node_modules/lodash/isObjectLike.js");
@@ -7184,8 +5103,7 @@ module.exports = baseIsArguments;
 /*!**********************************************!*\
   !*** ./node_modules/lodash/_baseIsNative.js ***!
   \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var isFunction = __webpack_require__(/*! ./isFunction */ "./node_modules/lodash/isFunction.js"),
     isMasked = __webpack_require__(/*! ./_isMasked */ "./node_modules/lodash/_isMasked.js"),
@@ -7240,8 +5158,7 @@ module.exports = baseIsNative;
 /*!**************************************************!*\
   !*** ./node_modules/lodash/_baseIsTypedArray.js ***!
   \**************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var baseGetTag = __webpack_require__(/*! ./_baseGetTag */ "./node_modules/lodash/_baseGetTag.js"),
     isLength = __webpack_require__(/*! ./isLength */ "./node_modules/lodash/isLength.js"),
@@ -7298,8 +5215,7 @@ module.exports = baseIsTypedArray;
 /*!********************************************!*\
   !*** ./node_modules/lodash/_baseKeysIn.js ***!
   \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var isObject = __webpack_require__(/*! ./isObject */ "./node_modules/lodash/isObject.js"),
     isPrototype = __webpack_require__(/*! ./_isPrototype */ "./node_modules/lodash/_isPrototype.js"),
@@ -7344,8 +5260,7 @@ module.exports = baseKeysIn;
 /*!*******************************************!*\
   !*** ./node_modules/lodash/_baseMerge.js ***!
   \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var Stack = __webpack_require__(/*! ./_Stack */ "./node_modules/lodash/_Stack.js"),
     assignMergeValue = __webpack_require__(/*! ./_assignMergeValue */ "./node_modules/lodash/_assignMergeValue.js"),
@@ -7397,8 +5312,7 @@ module.exports = baseMerge;
 /*!***********************************************!*\
   !*** ./node_modules/lodash/_baseMergeDeep.js ***!
   \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var assignMergeValue = __webpack_require__(/*! ./_assignMergeValue */ "./node_modules/lodash/_assignMergeValue.js"),
     cloneBuffer = __webpack_require__(/*! ./_cloneBuffer */ "./node_modules/lodash/_cloneBuffer.js"),
@@ -7496,8 +5410,7 @@ module.exports = baseMergeDeep;
 /*!******************************************!*\
   !*** ./node_modules/lodash/_baseRest.js ***!
   \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var identity = __webpack_require__(/*! ./identity */ "./node_modules/lodash/identity.js"),
     overRest = __webpack_require__(/*! ./_overRest */ "./node_modules/lodash/_overRest.js"),
@@ -7520,75 +5433,11 @@ module.exports = baseRest;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/_baseSet.js":
-/*!*****************************************!*\
-  !*** ./node_modules/lodash/_baseSet.js ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var assignValue = __webpack_require__(/*! ./_assignValue */ "./node_modules/lodash/_assignValue.js"),
-    castPath = __webpack_require__(/*! ./_castPath */ "./node_modules/lodash/_castPath.js"),
-    isIndex = __webpack_require__(/*! ./_isIndex */ "./node_modules/lodash/_isIndex.js"),
-    isObject = __webpack_require__(/*! ./isObject */ "./node_modules/lodash/isObject.js"),
-    toKey = __webpack_require__(/*! ./_toKey */ "./node_modules/lodash/_toKey.js");
-/**
- * The base implementation of `_.set`.
- *
- * @private
- * @param {Object} object The object to modify.
- * @param {Array|string} path The path of the property to set.
- * @param {*} value The value to set.
- * @param {Function} [customizer] The function to customize path creation.
- * @returns {Object} Returns `object`.
- */
-
-
-function baseSet(object, path, value, customizer) {
-  if (!isObject(object)) {
-    return object;
-  }
-
-  path = castPath(path, object);
-  var index = -1,
-      length = path.length,
-      lastIndex = length - 1,
-      nested = object;
-
-  while (nested != null && ++index < length) {
-    var key = toKey(path[index]),
-        newValue = value;
-
-    if (key === '__proto__' || key === 'constructor' || key === 'prototype') {
-      return object;
-    }
-
-    if (index != lastIndex) {
-      var objValue = nested[key];
-      newValue = customizer ? customizer(objValue, key, nested) : undefined;
-
-      if (newValue === undefined) {
-        newValue = isObject(objValue) ? objValue : isIndex(path[index + 1]) ? [] : {};
-      }
-    }
-
-    assignValue(nested, key, newValue);
-    nested = nested[key];
-  }
-
-  return object;
-}
-
-module.exports = baseSet;
-
-/***/ }),
-
 /***/ "./node_modules/lodash/_baseSetToString.js":
 /*!*************************************************!*\
   !*** ./node_modules/lodash/_baseSetToString.js ***!
   \*************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var constant = __webpack_require__(/*! ./constant */ "./node_modules/lodash/constant.js"),
     defineProperty = __webpack_require__(/*! ./_defineProperty */ "./node_modules/lodash/_defineProperty.js"),
@@ -7619,8 +5468,7 @@ module.exports = baseSetToString;
 /*!*******************************************!*\
   !*** ./node_modules/lodash/_baseTimes.js ***!
   \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /**
  * The base implementation of `_.times` without support for iteratee shorthands
@@ -7646,63 +5494,11 @@ module.exports = baseTimes;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/_baseToString.js":
-/*!**********************************************!*\
-  !*** ./node_modules/lodash/_baseToString.js ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var Symbol = __webpack_require__(/*! ./_Symbol */ "./node_modules/lodash/_Symbol.js"),
-    arrayMap = __webpack_require__(/*! ./_arrayMap */ "./node_modules/lodash/_arrayMap.js"),
-    isArray = __webpack_require__(/*! ./isArray */ "./node_modules/lodash/isArray.js"),
-    isSymbol = __webpack_require__(/*! ./isSymbol */ "./node_modules/lodash/isSymbol.js");
-/** Used as references for various `Number` constants. */
-
-
-var INFINITY = 1 / 0;
-/** Used to convert symbols to primitives and strings. */
-
-var symbolProto = Symbol ? Symbol.prototype : undefined,
-    symbolToString = symbolProto ? symbolProto.toString : undefined;
-/**
- * The base implementation of `_.toString` which doesn't convert nullish
- * values to empty strings.
- *
- * @private
- * @param {*} value The value to process.
- * @returns {string} Returns the string.
- */
-
-function baseToString(value) {
-  // Exit early for strings to avoid a performance hit in some environments.
-  if (typeof value == 'string') {
-    return value;
-  }
-
-  if (isArray(value)) {
-    // Recursively convert values (susceptible to call stack limits).
-    return arrayMap(value, baseToString) + '';
-  }
-
-  if (isSymbol(value)) {
-    return symbolToString ? symbolToString.call(value) : '';
-  }
-
-  var result = value + '';
-  return result == '0' && 1 / value == -INFINITY ? '-0' : result;
-}
-
-module.exports = baseToString;
-
-/***/ }),
-
 /***/ "./node_modules/lodash/_baseUnary.js":
 /*!*******************************************!*\
   !*** ./node_modules/lodash/_baseUnary.js ***!
   \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /**
  * The base implementation of `_.unary` without support for storing metadata.
@@ -7721,45 +5517,11 @@ module.exports = baseUnary;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/_castPath.js":
-/*!******************************************!*\
-  !*** ./node_modules/lodash/_castPath.js ***!
-  \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var isArray = __webpack_require__(/*! ./isArray */ "./node_modules/lodash/isArray.js"),
-    isKey = __webpack_require__(/*! ./_isKey */ "./node_modules/lodash/_isKey.js"),
-    stringToPath = __webpack_require__(/*! ./_stringToPath */ "./node_modules/lodash/_stringToPath.js"),
-    toString = __webpack_require__(/*! ./toString */ "./node_modules/lodash/toString.js");
-/**
- * Casts `value` to a path array if it's not one.
- *
- * @private
- * @param {*} value The value to inspect.
- * @param {Object} [object] The object to query keys on.
- * @returns {Array} Returns the cast property path array.
- */
-
-
-function castPath(value, object) {
-  if (isArray(value)) {
-    return value;
-  }
-
-  return isKey(value, object) ? [value] : stringToPath(toString(value));
-}
-
-module.exports = castPath;
-
-/***/ }),
-
 /***/ "./node_modules/lodash/_cloneArrayBuffer.js":
 /*!**************************************************!*\
   !*** ./node_modules/lodash/_cloneArrayBuffer.js ***!
   \**************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var Uint8Array = __webpack_require__(/*! ./_Uint8Array */ "./node_modules/lodash/_Uint8Array.js");
 /**
@@ -7785,17 +5547,17 @@ module.exports = cloneArrayBuffer;
 /*!*********************************************!*\
   !*** ./node_modules/lodash/_cloneBuffer.js ***!
   \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, exports, __webpack_require__) => {
 
-/* WEBPACK VAR INJECTION */(function(module) {var root = __webpack_require__(/*! ./_root */ "./node_modules/lodash/_root.js");
+/* module decorator */ module = __webpack_require__.nmd(module);
+var root = __webpack_require__(/*! ./_root */ "./node_modules/lodash/_root.js");
 /** Detect free variable `exports`. */
 
 
 var freeExports =  true && exports && !exports.nodeType && exports;
 /** Detect free variable `module`. */
 
-var freeModule = freeExports && typeof module == 'object' && module && !module.nodeType && module;
+var freeModule = freeExports && "object" == 'object' && module && !module.nodeType && module;
 /** Detect the popular CommonJS extension `module.exports`. */
 
 var moduleExports = freeModule && freeModule.exports === freeExports;
@@ -7824,7 +5586,6 @@ function cloneBuffer(buffer, isDeep) {
 }
 
 module.exports = cloneBuffer;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
 
 /***/ }),
 
@@ -7832,8 +5593,7 @@ module.exports = cloneBuffer;
 /*!*************************************************!*\
   !*** ./node_modules/lodash/_cloneTypedArray.js ***!
   \*************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var cloneArrayBuffer = __webpack_require__(/*! ./_cloneArrayBuffer */ "./node_modules/lodash/_cloneArrayBuffer.js");
 /**
@@ -7859,8 +5619,7 @@ module.exports = cloneTypedArray;
 /*!*******************************************!*\
   !*** ./node_modules/lodash/_copyArray.js ***!
   \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /**
  * Copies the values of `source` to `array`.
@@ -7890,8 +5649,7 @@ module.exports = copyArray;
 /*!********************************************!*\
   !*** ./node_modules/lodash/_copyObject.js ***!
   \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var assignValue = __webpack_require__(/*! ./_assignValue */ "./node_modules/lodash/_assignValue.js"),
     baseAssignValue = __webpack_require__(/*! ./_baseAssignValue */ "./node_modules/lodash/_baseAssignValue.js");
@@ -7939,8 +5697,7 @@ module.exports = copyObject;
 /*!********************************************!*\
   !*** ./node_modules/lodash/_coreJsData.js ***!
   \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var root = __webpack_require__(/*! ./_root */ "./node_modules/lodash/_root.js");
 /** Used to detect overreaching core-js shims. */
@@ -7955,8 +5712,7 @@ module.exports = coreJsData;
 /*!************************************************!*\
   !*** ./node_modules/lodash/_createAssigner.js ***!
   \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var baseRest = __webpack_require__(/*! ./_baseRest */ "./node_modules/lodash/_baseRest.js"),
     isIterateeCall = __webpack_require__(/*! ./_isIterateeCall */ "./node_modules/lodash/_isIterateeCall.js");
@@ -8004,8 +5760,7 @@ module.exports = createAssigner;
 /*!***********************************************!*\
   !*** ./node_modules/lodash/_createBaseFor.js ***!
   \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /**
  * Creates a base function for methods like `_.forIn` and `_.forOwn`.
@@ -8041,8 +5796,7 @@ module.exports = createBaseFor;
 /*!************************************************!*\
   !*** ./node_modules/lodash/_defineProperty.js ***!
   \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var getNative = __webpack_require__(/*! ./_getNative */ "./node_modules/lodash/_getNative.js");
 
@@ -8062,8 +5816,7 @@ module.exports = defineProperty;
 /*!********************************************!*\
   !*** ./node_modules/lodash/_freeGlobal.js ***!
   \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /** Detect free variable `global` from Node.js. */
 var freeGlobal = typeof global == 'object' && global && global.Object === Object && global;
@@ -8075,8 +5828,7 @@ module.exports = freeGlobal;
 /*!********************************************!*\
   !*** ./node_modules/lodash/_getMapData.js ***!
   \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var isKeyable = __webpack_require__(/*! ./_isKeyable */ "./node_modules/lodash/_isKeyable.js");
 /**
@@ -8102,8 +5854,7 @@ module.exports = getMapData;
 /*!*******************************************!*\
   !*** ./node_modules/lodash/_getNative.js ***!
   \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var baseIsNative = __webpack_require__(/*! ./_baseIsNative */ "./node_modules/lodash/_baseIsNative.js"),
     getValue = __webpack_require__(/*! ./_getValue */ "./node_modules/lodash/_getValue.js");
@@ -8130,8 +5881,7 @@ module.exports = getNative;
 /*!**********************************************!*\
   !*** ./node_modules/lodash/_getPrototype.js ***!
   \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var overArg = __webpack_require__(/*! ./_overArg */ "./node_modules/lodash/_overArg.js");
 /** Built-in value references. */
@@ -8146,8 +5896,7 @@ module.exports = getPrototype;
 /*!*******************************************!*\
   !*** ./node_modules/lodash/_getRawTag.js ***!
   \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var Symbol = __webpack_require__(/*! ./_Symbol */ "./node_modules/lodash/_Symbol.js");
 /** Used for built-in method references. */
@@ -8205,8 +5954,7 @@ module.exports = getRawTag;
 /*!******************************************!*\
   !*** ./node_modules/lodash/_getValue.js ***!
   \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /**
  * Gets the value at `key` of `object`.
@@ -8228,8 +5976,7 @@ module.exports = getValue;
 /*!*******************************************!*\
   !*** ./node_modules/lodash/_hashClear.js ***!
   \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var nativeCreate = __webpack_require__(/*! ./_nativeCreate */ "./node_modules/lodash/_nativeCreate.js");
 /**
@@ -8254,8 +6001,7 @@ module.exports = hashClear;
 /*!********************************************!*\
   !*** ./node_modules/lodash/_hashDelete.js ***!
   \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /**
  * Removes `key` and its value from the hash.
@@ -8281,8 +6027,7 @@ module.exports = hashDelete;
 /*!*****************************************!*\
   !*** ./node_modules/lodash/_hashGet.js ***!
   \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var nativeCreate = __webpack_require__(/*! ./_nativeCreate */ "./node_modules/lodash/_nativeCreate.js");
 /** Used to stand-in for `undefined` hash values. */
@@ -8324,8 +6069,7 @@ module.exports = hashGet;
 /*!*****************************************!*\
   !*** ./node_modules/lodash/_hashHas.js ***!
   \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var nativeCreate = __webpack_require__(/*! ./_nativeCreate */ "./node_modules/lodash/_nativeCreate.js");
 /** Used for built-in method references. */
@@ -8358,8 +6102,7 @@ module.exports = hashHas;
 /*!*****************************************!*\
   !*** ./node_modules/lodash/_hashSet.js ***!
   \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var nativeCreate = __webpack_require__(/*! ./_nativeCreate */ "./node_modules/lodash/_nativeCreate.js");
 /** Used to stand-in for `undefined` hash values. */
@@ -8392,8 +6135,7 @@ module.exports = hashSet;
 /*!*************************************************!*\
   !*** ./node_modules/lodash/_initCloneObject.js ***!
   \*************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var baseCreate = __webpack_require__(/*! ./_baseCreate */ "./node_modules/lodash/_baseCreate.js"),
     getPrototype = __webpack_require__(/*! ./_getPrototype */ "./node_modules/lodash/_getPrototype.js"),
@@ -8419,8 +6161,7 @@ module.exports = initCloneObject;
 /*!*****************************************!*\
   !*** ./node_modules/lodash/_isIndex.js ***!
   \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /** Used as references for various `Number` constants. */
 var MAX_SAFE_INTEGER = 9007199254740991;
@@ -8450,8 +6191,7 @@ module.exports = isIndex;
 /*!************************************************!*\
   !*** ./node_modules/lodash/_isIterateeCall.js ***!
   \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var eq = __webpack_require__(/*! ./eq */ "./node_modules/lodash/eq.js"),
     isArrayLike = __webpack_require__(/*! ./isArrayLike */ "./node_modules/lodash/isArrayLike.js"),
@@ -8487,53 +6227,11 @@ module.exports = isIterateeCall;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/_isKey.js":
-/*!***************************************!*\
-  !*** ./node_modules/lodash/_isKey.js ***!
-  \***************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var isArray = __webpack_require__(/*! ./isArray */ "./node_modules/lodash/isArray.js"),
-    isSymbol = __webpack_require__(/*! ./isSymbol */ "./node_modules/lodash/isSymbol.js");
-/** Used to match property names within property paths. */
-
-
-var reIsDeepProp = /\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\\]|\\.)*?\1)\]/,
-    reIsPlainProp = /^\w*$/;
-/**
- * Checks if `value` is a property name and not a property path.
- *
- * @private
- * @param {*} value The value to check.
- * @param {Object} [object] The object to query keys on.
- * @returns {boolean} Returns `true` if `value` is a property name, else `false`.
- */
-
-function isKey(value, object) {
-  if (isArray(value)) {
-    return false;
-  }
-
-  var type = typeof value;
-
-  if (type == 'number' || type == 'symbol' || type == 'boolean' || value == null || isSymbol(value)) {
-    return true;
-  }
-
-  return reIsPlainProp.test(value) || !reIsDeepProp.test(value) || object != null && value in Object(object);
-}
-
-module.exports = isKey;
-
-/***/ }),
-
 /***/ "./node_modules/lodash/_isKeyable.js":
 /*!*******************************************!*\
   !*** ./node_modules/lodash/_isKeyable.js ***!
   \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /**
  * Checks if `value` is suitable for use as unique object key.
@@ -8555,8 +6253,7 @@ module.exports = isKeyable;
 /*!******************************************!*\
   !*** ./node_modules/lodash/_isMasked.js ***!
   \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var coreJsData = __webpack_require__(/*! ./_coreJsData */ "./node_modules/lodash/_coreJsData.js");
 /** Used to detect methods masquerading as native. */
@@ -8587,8 +6284,7 @@ module.exports = isMasked;
 /*!*********************************************!*\
   !*** ./node_modules/lodash/_isPrototype.js ***!
   \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /** Used for built-in method references. */
 var objectProto = Object.prototype;
@@ -8614,8 +6310,7 @@ module.exports = isPrototype;
 /*!************************************************!*\
   !*** ./node_modules/lodash/_listCacheClear.js ***!
   \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /**
  * Removes all key-value entries from the list cache.
@@ -8637,8 +6332,7 @@ module.exports = listCacheClear;
 /*!*************************************************!*\
   !*** ./node_modules/lodash/_listCacheDelete.js ***!
   \*************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var assocIndexOf = __webpack_require__(/*! ./_assocIndexOf */ "./node_modules/lodash/_assocIndexOf.js");
 /** Used for built-in method references. */
@@ -8686,8 +6380,7 @@ module.exports = listCacheDelete;
 /*!**********************************************!*\
   !*** ./node_modules/lodash/_listCacheGet.js ***!
   \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var assocIndexOf = __webpack_require__(/*! ./_assocIndexOf */ "./node_modules/lodash/_assocIndexOf.js");
 /**
@@ -8715,8 +6408,7 @@ module.exports = listCacheGet;
 /*!**********************************************!*\
   !*** ./node_modules/lodash/_listCacheHas.js ***!
   \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var assocIndexOf = __webpack_require__(/*! ./_assocIndexOf */ "./node_modules/lodash/_assocIndexOf.js");
 /**
@@ -8742,8 +6434,7 @@ module.exports = listCacheHas;
 /*!**********************************************!*\
   !*** ./node_modules/lodash/_listCacheSet.js ***!
   \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var assocIndexOf = __webpack_require__(/*! ./_assocIndexOf */ "./node_modules/lodash/_assocIndexOf.js");
 /**
@@ -8780,8 +6471,7 @@ module.exports = listCacheSet;
 /*!***********************************************!*\
   !*** ./node_modules/lodash/_mapCacheClear.js ***!
   \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var Hash = __webpack_require__(/*! ./_Hash */ "./node_modules/lodash/_Hash.js"),
     ListCache = __webpack_require__(/*! ./_ListCache */ "./node_modules/lodash/_ListCache.js"),
@@ -8812,8 +6502,7 @@ module.exports = mapCacheClear;
 /*!************************************************!*\
   !*** ./node_modules/lodash/_mapCacheDelete.js ***!
   \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var getMapData = __webpack_require__(/*! ./_getMapData */ "./node_modules/lodash/_getMapData.js");
 /**
@@ -8841,8 +6530,7 @@ module.exports = mapCacheDelete;
 /*!*********************************************!*\
   !*** ./node_modules/lodash/_mapCacheGet.js ***!
   \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var getMapData = __webpack_require__(/*! ./_getMapData */ "./node_modules/lodash/_getMapData.js");
 /**
@@ -8868,8 +6556,7 @@ module.exports = mapCacheGet;
 /*!*********************************************!*\
   !*** ./node_modules/lodash/_mapCacheHas.js ***!
   \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var getMapData = __webpack_require__(/*! ./_getMapData */ "./node_modules/lodash/_getMapData.js");
 /**
@@ -8895,8 +6582,7 @@ module.exports = mapCacheHas;
 /*!*********************************************!*\
   !*** ./node_modules/lodash/_mapCacheSet.js ***!
   \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var getMapData = __webpack_require__(/*! ./_getMapData */ "./node_modules/lodash/_getMapData.js");
 /**
@@ -8923,49 +6609,11 @@ module.exports = mapCacheSet;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/_memoizeCapped.js":
-/*!***********************************************!*\
-  !*** ./node_modules/lodash/_memoizeCapped.js ***!
-  \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var memoize = __webpack_require__(/*! ./memoize */ "./node_modules/lodash/memoize.js");
-/** Used as the maximum memoize cache size. */
-
-
-var MAX_MEMOIZE_SIZE = 500;
-/**
- * A specialized version of `_.memoize` which clears the memoized function's
- * cache when it exceeds `MAX_MEMOIZE_SIZE`.
- *
- * @private
- * @param {Function} func The function to have its output memoized.
- * @returns {Function} Returns the new memoized function.
- */
-
-function memoizeCapped(func) {
-  var result = memoize(func, function (key) {
-    if (cache.size === MAX_MEMOIZE_SIZE) {
-      cache.clear();
-    }
-
-    return key;
-  });
-  var cache = result.cache;
-  return result;
-}
-
-module.exports = memoizeCapped;
-
-/***/ }),
-
 /***/ "./node_modules/lodash/_nativeCreate.js":
 /*!**********************************************!*\
   !*** ./node_modules/lodash/_nativeCreate.js ***!
   \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var getNative = __webpack_require__(/*! ./_getNative */ "./node_modules/lodash/_getNative.js");
 /* Built-in method references that are verified to be native. */
@@ -8980,8 +6628,7 @@ module.exports = nativeCreate;
 /*!**********************************************!*\
   !*** ./node_modules/lodash/_nativeKeysIn.js ***!
   \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /**
  * This function is like
@@ -9012,17 +6659,17 @@ module.exports = nativeKeysIn;
 /*!******************************************!*\
   !*** ./node_modules/lodash/_nodeUtil.js ***!
   \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, exports, __webpack_require__) => {
 
-/* WEBPACK VAR INJECTION */(function(module) {var freeGlobal = __webpack_require__(/*! ./_freeGlobal */ "./node_modules/lodash/_freeGlobal.js");
+/* module decorator */ module = __webpack_require__.nmd(module);
+var freeGlobal = __webpack_require__(/*! ./_freeGlobal */ "./node_modules/lodash/_freeGlobal.js");
 /** Detect free variable `exports`. */
 
 
 var freeExports =  true && exports && !exports.nodeType && exports;
 /** Detect free variable `module`. */
 
-var freeModule = freeExports && typeof module == 'object' && module && !module.nodeType && module;
+var freeModule = freeExports && "object" == 'object' && module && !module.nodeType && module;
 /** Detect the popular CommonJS extension `module.exports`. */
 
 var moduleExports = freeModule && freeModule.exports === freeExports;
@@ -9046,7 +6693,6 @@ var nodeUtil = function () {
 }();
 
 module.exports = nodeUtil;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
 
 /***/ }),
 
@@ -9054,8 +6700,7 @@ module.exports = nodeUtil;
 /*!************************************************!*\
   !*** ./node_modules/lodash/_objectToString.js ***!
   \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /** Used for built-in method references. */
 var objectProto = Object.prototype;
@@ -9086,8 +6731,7 @@ module.exports = objectToString;
 /*!*****************************************!*\
   !*** ./node_modules/lodash/_overArg.js ***!
   \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /**
  * Creates a unary function that invokes `func` with its argument transformed.
@@ -9111,8 +6755,7 @@ module.exports = overArg;
 /*!******************************************!*\
   !*** ./node_modules/lodash/_overRest.js ***!
   \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var apply = __webpack_require__(/*! ./_apply */ "./node_modules/lodash/_apply.js");
 /* Built-in method references for those with the same name as other `lodash` methods. */
@@ -9161,8 +6804,7 @@ module.exports = overRest;
 /*!**************************************!*\
   !*** ./node_modules/lodash/_root.js ***!
   \**************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var freeGlobal = __webpack_require__(/*! ./_freeGlobal */ "./node_modules/lodash/_freeGlobal.js");
 /** Detect free variable `self`. */
@@ -9180,8 +6822,7 @@ module.exports = root;
 /*!*****************************************!*\
   !*** ./node_modules/lodash/_safeGet.js ***!
   \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /**
  * Gets the value at `key`, unless `key` is "__proto__" or "constructor".
@@ -9211,8 +6852,7 @@ module.exports = safeGet;
 /*!*********************************************!*\
   !*** ./node_modules/lodash/_setToString.js ***!
   \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var baseSetToString = __webpack_require__(/*! ./_baseSetToString */ "./node_modules/lodash/_baseSetToString.js"),
     shortOut = __webpack_require__(/*! ./_shortOut */ "./node_modules/lodash/_shortOut.js");
@@ -9235,8 +6875,7 @@ module.exports = setToString;
 /*!******************************************!*\
   !*** ./node_modules/lodash/_shortOut.js ***!
   \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /** Used to detect hot functions by number of calls within a span of milliseconds. */
 var HOT_COUNT = 800,
@@ -9282,8 +6921,7 @@ module.exports = shortOut;
 /*!********************************************!*\
   !*** ./node_modules/lodash/_stackClear.js ***!
   \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var ListCache = __webpack_require__(/*! ./_ListCache */ "./node_modules/lodash/_ListCache.js");
 /**
@@ -9308,8 +6946,7 @@ module.exports = stackClear;
 /*!*********************************************!*\
   !*** ./node_modules/lodash/_stackDelete.js ***!
   \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /**
  * Removes `key` and its value from the stack.
@@ -9335,8 +6972,7 @@ module.exports = stackDelete;
 /*!******************************************!*\
   !*** ./node_modules/lodash/_stackGet.js ***!
   \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /**
  * Gets the stack value for `key`.
@@ -9359,8 +6995,7 @@ module.exports = stackGet;
 /*!******************************************!*\
   !*** ./node_modules/lodash/_stackHas.js ***!
   \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /**
  * Checks if a stack value for `key` exists.
@@ -9383,8 +7018,7 @@ module.exports = stackHas;
 /*!******************************************!*\
   !*** ./node_modules/lodash/_stackSet.js ***!
   \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var ListCache = __webpack_require__(/*! ./_ListCache */ "./node_modules/lodash/_ListCache.js"),
     Map = __webpack_require__(/*! ./_Map */ "./node_modules/lodash/_Map.js"),
@@ -9428,86 +7062,11 @@ module.exports = stackSet;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/_stringToPath.js":
-/*!**********************************************!*\
-  !*** ./node_modules/lodash/_stringToPath.js ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var memoizeCapped = __webpack_require__(/*! ./_memoizeCapped */ "./node_modules/lodash/_memoizeCapped.js");
-/** Used to match property names within property paths. */
-
-
-var rePropName = /[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]|(?=(?:\.|\[\])(?:\.|\[\]|$))/g;
-/** Used to match backslashes in property paths. */
-
-var reEscapeChar = /\\(\\)?/g;
-/**
- * Converts `string` to a property path array.
- *
- * @private
- * @param {string} string The string to convert.
- * @returns {Array} Returns the property path array.
- */
-
-var stringToPath = memoizeCapped(function (string) {
-  var result = [];
-
-  if (string.charCodeAt(0) === 46
-  /* . */
-  ) {
-      result.push('');
-    }
-
-  string.replace(rePropName, function (match, number, quote, subString) {
-    result.push(quote ? subString.replace(reEscapeChar, '$1') : number || match);
-  });
-  return result;
-});
-module.exports = stringToPath;
-
-/***/ }),
-
-/***/ "./node_modules/lodash/_toKey.js":
-/*!***************************************!*\
-  !*** ./node_modules/lodash/_toKey.js ***!
-  \***************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var isSymbol = __webpack_require__(/*! ./isSymbol */ "./node_modules/lodash/isSymbol.js");
-/** Used as references for various `Number` constants. */
-
-
-var INFINITY = 1 / 0;
-/**
- * Converts `value` to a string key if it's not a string or symbol.
- *
- * @private
- * @param {*} value The value to inspect.
- * @returns {string|symbol} Returns the key.
- */
-
-function toKey(value) {
-  if (typeof value == 'string' || isSymbol(value)) {
-    return value;
-  }
-
-  var result = value + '';
-  return result == '0' && 1 / value == -INFINITY ? '-0' : result;
-}
-
-module.exports = toKey;
-
-/***/ }),
-
 /***/ "./node_modules/lodash/_toSource.js":
 /*!******************************************!*\
   !*** ./node_modules/lodash/_toSource.js ***!
   \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /** Used for built-in method references. */
 var funcProto = Function.prototype;
@@ -9544,8 +7103,7 @@ module.exports = toSource;
 /*!*****************************************!*\
   !*** ./node_modules/lodash/constant.js ***!
   \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /**
  * Creates a function that returns `value`.
@@ -9580,8 +7138,7 @@ module.exports = constant;
 /*!***********************************!*\
   !*** ./node_modules/lodash/eq.js ***!
   \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /**
  * Performs a
@@ -9623,56 +7180,11 @@ module.exports = eq;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/get.js":
-/*!************************************!*\
-  !*** ./node_modules/lodash/get.js ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var baseGet = __webpack_require__(/*! ./_baseGet */ "./node_modules/lodash/_baseGet.js");
-/**
- * Gets the value at `path` of `object`. If the resolved value is
- * `undefined`, the `defaultValue` is returned in its place.
- *
- * @static
- * @memberOf _
- * @since 3.7.0
- * @category Object
- * @param {Object} object The object to query.
- * @param {Array|string} path The path of the property to get.
- * @param {*} [defaultValue] The value returned for `undefined` resolved values.
- * @returns {*} Returns the resolved value.
- * @example
- *
- * var object = { 'a': [{ 'b': { 'c': 3 } }] };
- *
- * _.get(object, 'a[0].b.c');
- * // => 3
- *
- * _.get(object, ['a', '0', 'b', 'c']);
- * // => 3
- *
- * _.get(object, 'a.b.c', 'default');
- * // => 'default'
- */
-
-
-function get(object, path, defaultValue) {
-  var result = object == null ? undefined : baseGet(object, path);
-  return result === undefined ? defaultValue : result;
-}
-
-module.exports = get;
-
-/***/ }),
-
 /***/ "./node_modules/lodash/identity.js":
 /*!*****************************************!*\
   !*** ./node_modules/lodash/identity.js ***!
   \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /**
  * This method returns the first argument it receives.
@@ -9702,8 +7214,7 @@ module.exports = identity;
 /*!********************************************!*\
   !*** ./node_modules/lodash/isArguments.js ***!
   \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var baseIsArguments = __webpack_require__(/*! ./_baseIsArguments */ "./node_modules/lodash/_baseIsArguments.js"),
     isObjectLike = __webpack_require__(/*! ./isObjectLike */ "./node_modules/lodash/isObjectLike.js");
@@ -9749,8 +7260,7 @@ module.exports = isArguments;
 /*!****************************************!*\
   !*** ./node_modules/lodash/isArray.js ***!
   \****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /**
  * Checks if `value` is classified as an `Array` object.
@@ -9784,8 +7294,7 @@ module.exports = isArray;
 /*!********************************************!*\
   !*** ./node_modules/lodash/isArrayLike.js ***!
   \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var isFunction = __webpack_require__(/*! ./isFunction */ "./node_modules/lodash/isFunction.js"),
     isLength = __webpack_require__(/*! ./isLength */ "./node_modules/lodash/isLength.js");
@@ -9828,8 +7337,7 @@ module.exports = isArrayLike;
 /*!**************************************************!*\
   !*** ./node_modules/lodash/isArrayLikeObject.js ***!
   \**************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var isArrayLike = __webpack_require__(/*! ./isArrayLike */ "./node_modules/lodash/isArrayLike.js"),
     isObjectLike = __webpack_require__(/*! ./isObjectLike */ "./node_modules/lodash/isObjectLike.js");
@@ -9872,10 +7380,10 @@ module.exports = isArrayLikeObject;
 /*!*****************************************!*\
   !*** ./node_modules/lodash/isBuffer.js ***!
   \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, exports, __webpack_require__) => {
 
-/* WEBPACK VAR INJECTION */(function(module) {var root = __webpack_require__(/*! ./_root */ "./node_modules/lodash/_root.js"),
+/* module decorator */ module = __webpack_require__.nmd(module);
+var root = __webpack_require__(/*! ./_root */ "./node_modules/lodash/_root.js"),
     stubFalse = __webpack_require__(/*! ./stubFalse */ "./node_modules/lodash/stubFalse.js");
 /** Detect free variable `exports`. */
 
@@ -9883,7 +7391,7 @@ module.exports = isArrayLikeObject;
 var freeExports =  true && exports && !exports.nodeType && exports;
 /** Detect free variable `module`. */
 
-var freeModule = freeExports && typeof module == 'object' && module && !module.nodeType && module;
+var freeModule = freeExports && "object" == 'object' && module && !module.nodeType && module;
 /** Detect the popular CommonJS extension `module.exports`. */
 
 var moduleExports = freeModule && freeModule.exports === freeExports;
@@ -9913,7 +7421,6 @@ var nativeIsBuffer = Buffer ? Buffer.isBuffer : undefined;
 
 var isBuffer = nativeIsBuffer || stubFalse;
 module.exports = isBuffer;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
 
 /***/ }),
 
@@ -9921,8 +7428,7 @@ module.exports = isBuffer;
 /*!*******************************************!*\
   !*** ./node_modules/lodash/isFunction.js ***!
   \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var baseGetTag = __webpack_require__(/*! ./_baseGetTag */ "./node_modules/lodash/_baseGetTag.js"),
     isObject = __webpack_require__(/*! ./isObject */ "./node_modules/lodash/isObject.js");
@@ -9970,8 +7476,7 @@ module.exports = isFunction;
 /*!*****************************************!*\
   !*** ./node_modules/lodash/isLength.js ***!
   \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /** Used as references for various `Number` constants. */
 var MAX_SAFE_INTEGER = 9007199254740991;
@@ -10014,8 +7519,7 @@ module.exports = isLength;
 /*!*****************************************!*\
   !*** ./node_modules/lodash/isObject.js ***!
   \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /**
  * Checks if `value` is the
@@ -10055,8 +7559,7 @@ module.exports = isObject;
 /*!*********************************************!*\
   !*** ./node_modules/lodash/isObjectLike.js ***!
   \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /**
  * Checks if `value` is object-like. A value is object-like if it's not `null`
@@ -10094,8 +7597,7 @@ module.exports = isObjectLike;
 /*!**********************************************!*\
   !*** ./node_modules/lodash/isPlainObject.js ***!
   \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var baseGetTag = __webpack_require__(/*! ./_baseGetTag */ "./node_modules/lodash/_baseGetTag.js"),
     getPrototype = __webpack_require__(/*! ./_getPrototype */ "./node_modules/lodash/_getPrototype.js"),
@@ -10165,51 +7667,11 @@ module.exports = isPlainObject;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/isSymbol.js":
-/*!*****************************************!*\
-  !*** ./node_modules/lodash/isSymbol.js ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var baseGetTag = __webpack_require__(/*! ./_baseGetTag */ "./node_modules/lodash/_baseGetTag.js"),
-    isObjectLike = __webpack_require__(/*! ./isObjectLike */ "./node_modules/lodash/isObjectLike.js");
-/** `Object#toString` result references. */
-
-
-var symbolTag = '[object Symbol]';
-/**
- * Checks if `value` is classified as a `Symbol` primitive or object.
- *
- * @static
- * @memberOf _
- * @since 4.0.0
- * @category Lang
- * @param {*} value The value to check.
- * @returns {boolean} Returns `true` if `value` is a symbol, else `false`.
- * @example
- *
- * _.isSymbol(Symbol.iterator);
- * // => true
- *
- * _.isSymbol('abc');
- * // => false
- */
-
-function isSymbol(value) {
-  return typeof value == 'symbol' || isObjectLike(value) && baseGetTag(value) == symbolTag;
-}
-
-module.exports = isSymbol;
-
-/***/ }),
-
 /***/ "./node_modules/lodash/isTypedArray.js":
 /*!*********************************************!*\
   !*** ./node_modules/lodash/isTypedArray.js ***!
   \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var baseIsTypedArray = __webpack_require__(/*! ./_baseIsTypedArray */ "./node_modules/lodash/_baseIsTypedArray.js"),
     baseUnary = __webpack_require__(/*! ./_baseUnary */ "./node_modules/lodash/_baseUnary.js"),
@@ -10245,8 +7707,7 @@ module.exports = isTypedArray;
 /*!***************************************!*\
   !*** ./node_modules/lodash/keysIn.js ***!
   \***************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var arrayLikeKeys = __webpack_require__(/*! ./_arrayLikeKeys */ "./node_modules/lodash/_arrayLikeKeys.js"),
     baseKeysIn = __webpack_require__(/*! ./_baseKeysIn */ "./node_modules/lodash/_baseKeysIn.js"),
@@ -10284,98 +7745,11 @@ module.exports = keysIn;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/memoize.js":
-/*!****************************************!*\
-  !*** ./node_modules/lodash/memoize.js ***!
-  \****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var MapCache = __webpack_require__(/*! ./_MapCache */ "./node_modules/lodash/_MapCache.js");
-/** Error message constants. */
-
-
-var FUNC_ERROR_TEXT = 'Expected a function';
-/**
- * Creates a function that memoizes the result of `func`. If `resolver` is
- * provided, it determines the cache key for storing the result based on the
- * arguments provided to the memoized function. By default, the first argument
- * provided to the memoized function is used as the map cache key. The `func`
- * is invoked with the `this` binding of the memoized function.
- *
- * **Note:** The cache is exposed as the `cache` property on the memoized
- * function. Its creation may be customized by replacing the `_.memoize.Cache`
- * constructor with one whose instances implement the
- * [`Map`](http://ecma-international.org/ecma-262/7.0/#sec-properties-of-the-map-prototype-object)
- * method interface of `clear`, `delete`, `get`, `has`, and `set`.
- *
- * @static
- * @memberOf _
- * @since 0.1.0
- * @category Function
- * @param {Function} func The function to have its output memoized.
- * @param {Function} [resolver] The function to resolve the cache key.
- * @returns {Function} Returns the new memoized function.
- * @example
- *
- * var object = { 'a': 1, 'b': 2 };
- * var other = { 'c': 3, 'd': 4 };
- *
- * var values = _.memoize(_.values);
- * values(object);
- * // => [1, 2]
- *
- * values(other);
- * // => [3, 4]
- *
- * object.a = 2;
- * values(object);
- * // => [1, 2]
- *
- * // Modify the result cache.
- * values.cache.set(object, ['a', 'b']);
- * values(object);
- * // => ['a', 'b']
- *
- * // Replace `_.memoize.Cache`.
- * _.memoize.Cache = WeakMap;
- */
-
-function memoize(func, resolver) {
-  if (typeof func != 'function' || resolver != null && typeof resolver != 'function') {
-    throw new TypeError(FUNC_ERROR_TEXT);
-  }
-
-  var memoized = function () {
-    var args = arguments,
-        key = resolver ? resolver.apply(this, args) : args[0],
-        cache = memoized.cache;
-
-    if (cache.has(key)) {
-      return cache.get(key);
-    }
-
-    var result = func.apply(this, args);
-    memoized.cache = cache.set(key, result) || cache;
-    return result;
-  };
-
-  memoized.cache = new (memoize.Cache || MapCache)();
-  return memoized;
-} // Expose `MapCache`.
-
-
-memoize.Cache = MapCache;
-module.exports = memoize;
-
-/***/ }),
-
 /***/ "./node_modules/lodash/merge.js":
 /*!**************************************!*\
   !*** ./node_modules/lodash/merge.js ***!
   \**************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var baseMerge = __webpack_require__(/*! ./_baseMerge */ "./node_modules/lodash/_baseMerge.js"),
     createAssigner = __webpack_require__(/*! ./_createAssigner */ "./node_modules/lodash/_createAssigner.js");
@@ -10419,58 +7793,11 @@ module.exports = merge;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/set.js":
-/*!************************************!*\
-  !*** ./node_modules/lodash/set.js ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var baseSet = __webpack_require__(/*! ./_baseSet */ "./node_modules/lodash/_baseSet.js");
-/**
- * Sets the value at `path` of `object`. If a portion of `path` doesn't exist,
- * it's created. Arrays are created for missing index properties while objects
- * are created for all other missing properties. Use `_.setWith` to customize
- * `path` creation.
- *
- * **Note:** This method mutates `object`.
- *
- * @static
- * @memberOf _
- * @since 3.7.0
- * @category Object
- * @param {Object} object The object to modify.
- * @param {Array|string} path The path of the property to set.
- * @param {*} value The value to set.
- * @returns {Object} Returns `object`.
- * @example
- *
- * var object = { 'a': [{ 'b': { 'c': 3 } }] };
- *
- * _.set(object, 'a[0].b.c', 4);
- * console.log(object.a[0].b.c);
- * // => 4
- *
- * _.set(object, ['x', '0', 'y', 'z'], 5);
- * console.log(object.x[0].y.z);
- * // => 5
- */
-
-
-function set(object, path, value) {
-  return object == null ? object : baseSet(object, path, value);
-}
-
-module.exports = set;
-
-/***/ }),
-
 /***/ "./node_modules/lodash/stubFalse.js":
 /*!******************************************!*\
   !*** ./node_modules/lodash/stubFalse.js ***!
   \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
 /**
  * This method returns `false`.
@@ -10497,8 +7824,7 @@ module.exports = stubFalse;
 /*!**********************************************!*\
   !*** ./node_modules/lodash/toPlainObject.js ***!
   \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var copyObject = __webpack_require__(/*! ./_copyObject */ "./node_modules/lodash/_copyObject.js"),
     keysIn = __webpack_require__(/*! ./keysIn */ "./node_modules/lodash/keysIn.js");
@@ -10536,2773 +7862,1228 @@ module.exports = toPlainObject;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/toString.js":
-/*!*****************************************!*\
-  !*** ./node_modules/lodash/toString.js ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "./node_modules/react/cjs/react-jsx-runtime.development.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/react/cjs/react-jsx-runtime.development.js ***!
+  \*****************************************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-var baseToString = __webpack_require__(/*! ./_baseToString */ "./node_modules/lodash/_baseToString.js");
-/**
- * Converts `value` to a string. An empty string is returned for `null`
- * and `undefined` values. The sign of `-0` is preserved.
+"use strict";
+/** @license React v17.0.1
+ * react-jsx-runtime.development.js
  *
- * @static
- * @memberOf _
- * @since 4.0.0
- * @category Lang
- * @param {*} value The value to convert.
- * @returns {string} Returns the converted string.
- * @example
+ * Copyright (c) Facebook, Inc. and its affiliates.
  *
- * _.toString(null);
- * // => ''
- *
- * _.toString(-0);
- * // => '-0'
- *
- * _.toString([1, 2, 3]);
- * // => '1,2,3'
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
  */
 
 
-function toString(value) {
-  return value == null ? '' : baseToString(value);
-}
+if (true) {
+  (function () {
+    'use strict';
 
-module.exports = toString;
+    var React = __webpack_require__(/*! react */ "react");
 
-/***/ }),
-
-/***/ "./node_modules/react-router/lib/AsyncUtils.js":
-/*!*****************************************************!*\
-  !*** ./node_modules/react-router/lib/AsyncUtils.js ***!
-  \*****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
+    var _assign = __webpack_require__(/*! object-assign */ "object-assign"); // ATTENTION
+    // When adding new symbols to this file,
+    // Please consider also adding to 'react-devtools-shared/src/backend/ReactSymbols'
+    // The Symbol used to tag the ReactElement-like types. If there is no native Symbol
+    // nor polyfill, then a plain number is used for performance.
 
 
-exports.__esModule = true;
-exports.loopAsync = loopAsync;
-exports.mapAsync = mapAsync;
+    var REACT_ELEMENT_TYPE = 0xeac7;
+    var REACT_PORTAL_TYPE = 0xeaca;
+    exports.Fragment = 0xeacb;
+    var REACT_STRICT_MODE_TYPE = 0xeacc;
+    var REACT_PROFILER_TYPE = 0xead2;
+    var REACT_PROVIDER_TYPE = 0xeacd;
+    var REACT_CONTEXT_TYPE = 0xeace;
+    var REACT_FORWARD_REF_TYPE = 0xead0;
+    var REACT_SUSPENSE_TYPE = 0xead1;
+    var REACT_SUSPENSE_LIST_TYPE = 0xead8;
+    var REACT_MEMO_TYPE = 0xead3;
+    var REACT_LAZY_TYPE = 0xead4;
+    var REACT_BLOCK_TYPE = 0xead9;
+    var REACT_SERVER_BLOCK_TYPE = 0xeada;
+    var REACT_FUNDAMENTAL_TYPE = 0xead5;
+    var REACT_SCOPE_TYPE = 0xead7;
+    var REACT_OPAQUE_ID_TYPE = 0xeae0;
+    var REACT_DEBUG_TRACING_MODE_TYPE = 0xeae1;
+    var REACT_OFFSCREEN_TYPE = 0xeae2;
+    var REACT_LEGACY_HIDDEN_TYPE = 0xeae3;
 
-function loopAsync(turns, work, callback) {
-  var currentTurn = 0,
-      isDone = false;
-  var sync = false,
-      hasNext = false,
-      doneArgs = void 0;
-
-  function done() {
-    isDone = true;
-
-    if (sync) {
-      // Iterate instead of recursing if possible.
-      doneArgs = [].concat(Array.prototype.slice.call(arguments));
-      return;
+    if (typeof Symbol === 'function' && Symbol.for) {
+      var symbolFor = Symbol.for;
+      REACT_ELEMENT_TYPE = symbolFor('react.element');
+      REACT_PORTAL_TYPE = symbolFor('react.portal');
+      exports.Fragment = symbolFor('react.fragment');
+      REACT_STRICT_MODE_TYPE = symbolFor('react.strict_mode');
+      REACT_PROFILER_TYPE = symbolFor('react.profiler');
+      REACT_PROVIDER_TYPE = symbolFor('react.provider');
+      REACT_CONTEXT_TYPE = symbolFor('react.context');
+      REACT_FORWARD_REF_TYPE = symbolFor('react.forward_ref');
+      REACT_SUSPENSE_TYPE = symbolFor('react.suspense');
+      REACT_SUSPENSE_LIST_TYPE = symbolFor('react.suspense_list');
+      REACT_MEMO_TYPE = symbolFor('react.memo');
+      REACT_LAZY_TYPE = symbolFor('react.lazy');
+      REACT_BLOCK_TYPE = symbolFor('react.block');
+      REACT_SERVER_BLOCK_TYPE = symbolFor('react.server.block');
+      REACT_FUNDAMENTAL_TYPE = symbolFor('react.fundamental');
+      REACT_SCOPE_TYPE = symbolFor('react.scope');
+      REACT_OPAQUE_ID_TYPE = symbolFor('react.opaque.id');
+      REACT_DEBUG_TRACING_MODE_TYPE = symbolFor('react.debug_trace_mode');
+      REACT_OFFSCREEN_TYPE = symbolFor('react.offscreen');
+      REACT_LEGACY_HIDDEN_TYPE = symbolFor('react.legacy_hidden');
     }
 
-    callback.apply(this, arguments);
-  }
+    var MAYBE_ITERATOR_SYMBOL = typeof Symbol === 'function' && Symbol.iterator;
+    var FAUX_ITERATOR_SYMBOL = '@@iterator';
 
-  function next() {
-    if (isDone) {
-      return;
-    }
-
-    hasNext = true;
-
-    if (sync) {
-      // Iterate instead of recursing if possible.
-      return;
-    }
-
-    sync = true;
-
-    while (!isDone && currentTurn < turns && hasNext) {
-      hasNext = false;
-      work.call(this, currentTurn++, next, done);
-    }
-
-    sync = false;
-
-    if (isDone) {
-      // This means the loop finished synchronously.
-      callback.apply(this, doneArgs);
-      return;
-    }
-
-    if (currentTurn >= turns && hasNext) {
-      isDone = true;
-      callback();
-    }
-  }
-
-  next();
-}
-
-function mapAsync(array, work, callback) {
-  var length = array.length;
-  var values = [];
-  if (length === 0) return callback(null, values);
-  var isDone = false,
-      doneCount = 0;
-
-  function done(index, error, value) {
-    if (isDone) return;
-
-    if (error) {
-      isDone = true;
-      callback(error);
-    } else {
-      values[index] = value;
-      isDone = ++doneCount === length;
-      if (isDone) callback(null, values);
-    }
-  }
-
-  array.forEach(function (item, index) {
-    work(item, index, function (error, value) {
-      done(index, error, value);
-    });
-  });
-}
-
-/***/ }),
-
-/***/ "./node_modules/react-router/lib/ContextUtils.js":
-/*!*******************************************************!*\
-  !*** ./node_modules/react-router/lib/ContextUtils.js ***!
-  \*******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-exports.ContextProvider = ContextProvider;
-exports.ContextSubscriber = ContextSubscriber;
-
-var _react = __webpack_require__(/*! react */ "react");
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "prop-types");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : {
-    default: obj
-  };
-} // Works around issues with context updates failing to propagate.
-// Caveat: the context value is expected to never change its identity.
-// https://github.com/facebook/react/issues/2517
-// https://github.com/reactjs/react-router/issues/470
-
-
-var contextProviderShape = _propTypes2.default.shape({
-  subscribe: _propTypes2.default.func.isRequired,
-  eventIndex: _propTypes2.default.number.isRequired
-});
-
-function makeContextName(name) {
-  return '@@contextSubscriber/' + name;
-}
-
-var prefixUnsafeLifecycleMethods = typeof _react2.default.forwardRef !== 'undefined';
-
-function ContextProvider(name) {
-  var _childContextTypes, _config;
-
-  var contextName = makeContextName(name);
-  var listenersKey = contextName + '/listeners';
-  var eventIndexKey = contextName + '/eventIndex';
-  var subscribeKey = contextName + '/subscribe';
-  var config = (_config = {
-    childContextTypes: (_childContextTypes = {}, _childContextTypes[contextName] = contextProviderShape.isRequired, _childContextTypes),
-    getChildContext: function getChildContext() {
-      var _ref;
-
-      return _ref = {}, _ref[contextName] = {
-        eventIndex: this[eventIndexKey],
-        subscribe: this[subscribeKey]
-      }, _ref;
-    },
-    // this method will be updated to UNSAFE_componentWillMount below for React versions >= 16.3
-    componentWillMount: function componentWillMount() {
-      this[listenersKey] = [];
-      this[eventIndexKey] = 0;
-    },
-    // this method will be updated to UNSAFE_componentWillReceiveProps below for React versions >= 16.3
-    componentWillReceiveProps: function componentWillReceiveProps() {
-      this[eventIndexKey]++;
-    },
-    componentDidUpdate: function componentDidUpdate() {
-      var _this = this;
-
-      this[listenersKey].forEach(function (listener) {
-        return listener(_this[eventIndexKey]);
-      });
-    }
-  }, _config[subscribeKey] = function (listener) {
-    var _this2 = this; // No need to immediately call listener here.
-
-
-    this[listenersKey].push(listener);
-    return function () {
-      _this2[listenersKey] = _this2[listenersKey].filter(function (item) {
-        return item !== listener;
-      });
-    };
-  }, _config);
-
-  if (prefixUnsafeLifecycleMethods) {
-    config.UNSAFE_componentWillMount = config.componentWillMount;
-    config.UNSAFE_componentWillReceiveProps = config.componentWillReceiveProps;
-    delete config.componentWillMount;
-    delete config.componentWillReceiveProps;
-  }
-
-  return config;
-}
-
-function ContextSubscriber(name) {
-  var _contextTypes, _config2;
-
-  var contextName = makeContextName(name);
-  var lastRenderedEventIndexKey = contextName + '/lastRenderedEventIndex';
-  var handleContextUpdateKey = contextName + '/handleContextUpdate';
-  var unsubscribeKey = contextName + '/unsubscribe';
-  var config = (_config2 = {
-    contextTypes: (_contextTypes = {}, _contextTypes[contextName] = contextProviderShape, _contextTypes),
-    getInitialState: function getInitialState() {
-      var _ref2;
-
-      if (!this.context[contextName]) {
-        return {};
+    function getIteratorFn(maybeIterable) {
+      if (maybeIterable === null || typeof maybeIterable !== 'object') {
+        return null;
       }
 
-      return _ref2 = {}, _ref2[lastRenderedEventIndexKey] = this.context[contextName].eventIndex, _ref2;
-    },
-    componentDidMount: function componentDidMount() {
-      if (!this.context[contextName]) {
-        return;
+      var maybeIterator = MAYBE_ITERATOR_SYMBOL && maybeIterable[MAYBE_ITERATOR_SYMBOL] || maybeIterable[FAUX_ITERATOR_SYMBOL];
+
+      if (typeof maybeIterator === 'function') {
+        return maybeIterator;
       }
 
-      this[unsubscribeKey] = this.context[contextName].subscribe(this[handleContextUpdateKey]);
-    },
-    // this method will be updated to UNSAFE_componentWillReceiveProps below for React versions >= 16.3
-    componentWillReceiveProps: function componentWillReceiveProps() {
-      var _setState;
-
-      if (!this.context[contextName]) {
-        return;
-      }
-
-      this.setState((_setState = {}, _setState[lastRenderedEventIndexKey] = this.context[contextName].eventIndex, _setState));
-    },
-    componentWillUnmount: function componentWillUnmount() {
-      if (!this[unsubscribeKey]) {
-        return;
-      }
-
-      this[unsubscribeKey]();
-      this[unsubscribeKey] = null;
-    }
-  }, _config2[handleContextUpdateKey] = function (eventIndex) {
-    if (eventIndex !== this.state[lastRenderedEventIndexKey]) {
-      var _setState2;
-
-      this.setState((_setState2 = {}, _setState2[lastRenderedEventIndexKey] = eventIndex, _setState2));
-    }
-  }, _config2);
-
-  if (prefixUnsafeLifecycleMethods) {
-    config.UNSAFE_componentWillReceiveProps = config.componentWillReceiveProps;
-    delete config.componentWillReceiveProps;
-  }
-
-  return config;
-}
-
-/***/ }),
-
-/***/ "./node_modules/react-router/lib/PatternUtils.js":
-/*!*******************************************************!*\
-  !*** ./node_modules/react-router/lib/PatternUtils.js ***!
-  \*******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-exports.compilePattern = compilePattern;
-exports.matchPattern = matchPattern;
-exports.getParamNames = getParamNames;
-exports.getParams = getParams;
-exports.formatPattern = formatPattern;
-
-var _invariant = __webpack_require__(/*! invariant */ "invariant");
-
-var _invariant2 = _interopRequireDefault(_invariant);
-
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : {
-    default: obj
-  };
-}
-
-function escapeRegExp(string) {
-  return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-}
-
-function _compilePattern(pattern) {
-  var regexpSource = '';
-  var paramNames = [];
-  var tokens = [];
-  var match = void 0,
-      lastIndex = 0,
-      matcher = /:([a-zA-Z_$][a-zA-Z0-9_$]*)|\*\*|\*|\(|\)|\\\(|\\\)/g;
-
-  while (match = matcher.exec(pattern)) {
-    if (match.index !== lastIndex) {
-      tokens.push(pattern.slice(lastIndex, match.index));
-      regexpSource += escapeRegExp(pattern.slice(lastIndex, match.index));
-    }
-
-    if (match[1]) {
-      regexpSource += '([^/]+)';
-      paramNames.push(match[1]);
-    } else if (match[0] === '**') {
-      regexpSource += '(.*)';
-      paramNames.push('splat');
-    } else if (match[0] === '*') {
-      regexpSource += '(.*?)';
-      paramNames.push('splat');
-    } else if (match[0] === '(') {
-      regexpSource += '(?:';
-    } else if (match[0] === ')') {
-      regexpSource += ')?';
-    } else if (match[0] === '\\(') {
-      regexpSource += '\\(';
-    } else if (match[0] === '\\)') {
-      regexpSource += '\\)';
-    }
-
-    tokens.push(match[0]);
-    lastIndex = matcher.lastIndex;
-  }
-
-  if (lastIndex !== pattern.length) {
-    tokens.push(pattern.slice(lastIndex, pattern.length));
-    regexpSource += escapeRegExp(pattern.slice(lastIndex, pattern.length));
-  }
-
-  return {
-    pattern: pattern,
-    regexpSource: regexpSource,
-    paramNames: paramNames,
-    tokens: tokens
-  };
-}
-
-var CompiledPatternsCache = Object.create(null);
-
-function compilePattern(pattern) {
-  if (!CompiledPatternsCache[pattern]) CompiledPatternsCache[pattern] = _compilePattern(pattern);
-  return CompiledPatternsCache[pattern];
-}
-/**
- * Attempts to match a pattern on the given pathname. Patterns may use
- * the following special characters:
- *
- * - :paramName     Matches a URL segment up to the next /, ?, or #. The
- *                  captured string is considered a "param"
- * - ()             Wraps a segment of the URL that is optional
- * - *              Consumes (non-greedy) all characters up to the next
- *                  character in the pattern, or to the end of the URL if
- *                  there is none
- * - **             Consumes (greedy) all characters up to the next character
- *                  in the pattern, or to the end of the URL if there is none
- *
- *  The function calls callback(error, matched) when finished.
- * The return value is an object with the following properties:
- *
- * - remainingPathname
- * - paramNames
- * - paramValues
- */
-
-
-function matchPattern(pattern, pathname) {
-  // Ensure pattern starts with leading slash for consistency with pathname.
-  if (pattern.charAt(0) !== '/') {
-    pattern = '/' + pattern;
-  }
-
-  var _compilePattern2 = compilePattern(pattern),
-      regexpSource = _compilePattern2.regexpSource,
-      paramNames = _compilePattern2.paramNames,
-      tokens = _compilePattern2.tokens;
-
-  if (pattern.charAt(pattern.length - 1) !== '/') {
-    regexpSource += '/?'; // Allow optional path separator at end.
-  } // Special-case patterns like '*' for catch-all routes.
-
-
-  if (tokens[tokens.length - 1] === '*') {
-    regexpSource += '$';
-  }
-
-  var match = pathname.match(new RegExp('^' + regexpSource, 'i'));
-
-  if (match == null) {
-    return null;
-  }
-
-  var matchedPath = match[0];
-  var remainingPathname = pathname.substr(matchedPath.length);
-
-  if (remainingPathname) {
-    // Require that the match ends at a path separator, if we didn't match
-    // the full path, so any remaining pathname is a new path segment.
-    if (matchedPath.charAt(matchedPath.length - 1) !== '/') {
       return null;
-    } // If there is a remaining pathname, treat the path separator as part of
-    // the remaining pathname for properly continuing the match.
+    }
+
+    var ReactSharedInternals = React.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+
+    function error(format) {
+      {
+        for (var _len2 = arguments.length, args = new Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++) {
+          args[_key2 - 1] = arguments[_key2];
+        }
+
+        printWarning('error', format, args);
+      }
+    }
+
+    function printWarning(level, format, args) {
+      // When changing this logic, you might want to also
+      // update consoleWithStackDev.www.js as well.
+      {
+        var ReactDebugCurrentFrame = ReactSharedInternals.ReactDebugCurrentFrame;
+        var stack = ReactDebugCurrentFrame.getStackAddendum();
+
+        if (stack !== '') {
+          format += '%s';
+          args = args.concat([stack]);
+        }
+
+        var argsWithFormat = args.map(function (item) {
+          return '' + item;
+        }); // Careful: RN currently depends on this prefix
+
+        argsWithFormat.unshift('Warning: ' + format); // We intentionally don't use spread (or .apply) directly because it
+        // breaks IE9: https://github.com/facebook/react/issues/13610
+        // eslint-disable-next-line react-internal/no-production-logging
+
+        Function.prototype.apply.call(console[level], console, argsWithFormat);
+      }
+    } // Filter certain DOM attributes (e.g. src, href) if their values are empty strings.
 
 
-    remainingPathname = '/' + remainingPathname;
-  }
+    var enableScopeAPI = false; // Experimental Create Event Handle API.
 
-  return {
-    remainingPathname: remainingPathname,
-    paramNames: paramNames,
-    paramValues: match.slice(1).map(function (v) {
-      return v && decodeURIComponent(v);
-    })
-  };
-}
-
-function getParamNames(pattern) {
-  return compilePattern(pattern).paramNames;
-}
-
-function getParams(pattern, pathname) {
-  var match = matchPattern(pattern, pathname);
-
-  if (!match) {
-    return null;
-  }
-
-  var paramNames = match.paramNames,
-      paramValues = match.paramValues;
-  var params = {};
-  paramNames.forEach(function (paramName, index) {
-    params[paramName] = paramValues[index];
-  });
-  return params;
-}
-/**
- * Returns a version of the given pattern with params interpolated. Throws
- * if there is a dynamic segment of the pattern for which there is no param.
- */
+    function isValidElementType(type) {
+      if (typeof type === 'string' || typeof type === 'function') {
+        return true;
+      } // Note: typeof might be other than 'symbol' or 'number' (e.g. if it's a polyfill).
 
 
-function formatPattern(pattern, params) {
-  params = params || {};
+      if (type === exports.Fragment || type === REACT_PROFILER_TYPE || type === REACT_DEBUG_TRACING_MODE_TYPE || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || type === REACT_SUSPENSE_LIST_TYPE || type === REACT_LEGACY_HIDDEN_TYPE || enableScopeAPI) {
+        return true;
+      }
 
-  var _compilePattern3 = compilePattern(pattern),
-      tokens = _compilePattern3.tokens;
+      if (typeof type === 'object' && type !== null) {
+        if (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE || type.$$typeof === REACT_FUNDAMENTAL_TYPE || type.$$typeof === REACT_BLOCK_TYPE || type[0] === REACT_SERVER_BLOCK_TYPE) {
+          return true;
+        }
+      }
 
-  var parenCount = 0,
-      pathname = '',
-      splatIndex = 0,
-      parenHistory = [];
-  var token = void 0,
-      paramName = void 0,
-      paramValue = void 0;
+      return false;
+    }
 
-  for (var i = 0, len = tokens.length; i < len; ++i) {
-    token = tokens[i];
+    function getWrappedName(outerType, innerType, wrapperName) {
+      var functionName = innerType.displayName || innerType.name || '';
+      return outerType.displayName || (functionName !== '' ? wrapperName + "(" + functionName + ")" : wrapperName);
+    }
 
-    if (token === '*' || token === '**') {
-      paramValue = Array.isArray(params.splat) ? params.splat[splatIndex++] : params.splat;
-      !(paramValue != null || parenCount > 0) ?  true ? (0, _invariant2.default)(false, 'Missing splat #%s for path "%s"', splatIndex, pattern) : undefined : void 0;
-      if (paramValue != null) pathname += encodeURI(paramValue);
-    } else if (token === '(') {
-      parenHistory[parenCount] = '';
-      parenCount += 1;
-    } else if (token === ')') {
-      var parenText = parenHistory.pop();
-      parenCount -= 1;
-      if (parenCount) parenHistory[parenCount - 1] += parenText;else pathname += parenText;
-    } else if (token === '\\(') {
-      pathname += '(';
-    } else if (token === '\\)') {
-      pathname += ')';
-    } else if (token.charAt(0) === ':') {
-      paramName = token.substring(1);
-      paramValue = params[paramName];
-      !(paramValue != null || parenCount > 0) ?  true ? (0, _invariant2.default)(false, 'Missing "%s" parameter for path "%s"', paramName, pattern) : undefined : void 0;
+    function getContextName(type) {
+      return type.displayName || 'Context';
+    }
 
-      if (paramValue == null) {
-        if (parenCount) {
-          parenHistory[parenCount - 1] = '';
-          var curTokenIdx = tokens.indexOf(token);
-          var tokensSubset = tokens.slice(curTokenIdx, tokens.length);
-          var nextParenIdx = -1;
+    function getComponentName(type) {
+      if (type == null) {
+        // Host root, text node or just invalid type.
+        return null;
+      }
 
-          for (var _i = 0; _i < tokensSubset.length; _i++) {
-            if (tokensSubset[_i] == ')') {
-              nextParenIdx = _i;
+      {
+        if (typeof type.tag === 'number') {
+          error('Received an unexpected object in getComponentName(). ' + 'This is likely a bug in React. Please file an issue.');
+        }
+      }
+
+      if (typeof type === 'function') {
+        return type.displayName || type.name || null;
+      }
+
+      if (typeof type === 'string') {
+        return type;
+      }
+
+      switch (type) {
+        case exports.Fragment:
+          return 'Fragment';
+
+        case REACT_PORTAL_TYPE:
+          return 'Portal';
+
+        case REACT_PROFILER_TYPE:
+          return 'Profiler';
+
+        case REACT_STRICT_MODE_TYPE:
+          return 'StrictMode';
+
+        case REACT_SUSPENSE_TYPE:
+          return 'Suspense';
+
+        case REACT_SUSPENSE_LIST_TYPE:
+          return 'SuspenseList';
+      }
+
+      if (typeof type === 'object') {
+        switch (type.$$typeof) {
+          case REACT_CONTEXT_TYPE:
+            var context = type;
+            return getContextName(context) + '.Consumer';
+
+          case REACT_PROVIDER_TYPE:
+            var provider = type;
+            return getContextName(provider._context) + '.Provider';
+
+          case REACT_FORWARD_REF_TYPE:
+            return getWrappedName(type, type.render, 'ForwardRef');
+
+          case REACT_MEMO_TYPE:
+            return getComponentName(type.type);
+
+          case REACT_BLOCK_TYPE:
+            return getComponentName(type._render);
+
+          case REACT_LAZY_TYPE:
+            {
+              var lazyComponent = type;
+              var payload = lazyComponent._payload;
+              var init = lazyComponent._init;
+
+              try {
+                return getComponentName(init(payload));
+              } catch (x) {
+                return null;
+              }
+            }
+        }
+      }
+
+      return null;
+    } // Helpers to patch console.logs to avoid logging during side-effect free
+    // replaying on render function. This currently only patches the object
+    // lazily which won't cover if the log function was extracted eagerly.
+    // We could also eagerly patch the method.
+
+
+    var disabledDepth = 0;
+    var prevLog;
+    var prevInfo;
+    var prevWarn;
+    var prevError;
+    var prevGroup;
+    var prevGroupCollapsed;
+    var prevGroupEnd;
+
+    function disabledLog() {}
+
+    disabledLog.__reactDisabledLog = true;
+
+    function disableLogs() {
+      {
+        if (disabledDepth === 0) {
+          /* eslint-disable react-internal/no-production-logging */
+          prevLog = console.log;
+          prevInfo = console.info;
+          prevWarn = console.warn;
+          prevError = console.error;
+          prevGroup = console.group;
+          prevGroupCollapsed = console.groupCollapsed;
+          prevGroupEnd = console.groupEnd; // https://github.com/facebook/react/issues/19099
+
+          var props = {
+            configurable: true,
+            enumerable: true,
+            value: disabledLog,
+            writable: true
+          }; // $FlowFixMe Flow thinks console is immutable.
+
+          Object.defineProperties(console, {
+            info: props,
+            log: props,
+            warn: props,
+            error: props,
+            group: props,
+            groupCollapsed: props,
+            groupEnd: props
+          });
+          /* eslint-enable react-internal/no-production-logging */
+        }
+
+        disabledDepth++;
+      }
+    }
+
+    function reenableLogs() {
+      {
+        disabledDepth--;
+
+        if (disabledDepth === 0) {
+          /* eslint-disable react-internal/no-production-logging */
+          var props = {
+            configurable: true,
+            enumerable: true,
+            writable: true
+          }; // $FlowFixMe Flow thinks console is immutable.
+
+          Object.defineProperties(console, {
+            log: _assign({}, props, {
+              value: prevLog
+            }),
+            info: _assign({}, props, {
+              value: prevInfo
+            }),
+            warn: _assign({}, props, {
+              value: prevWarn
+            }),
+            error: _assign({}, props, {
+              value: prevError
+            }),
+            group: _assign({}, props, {
+              value: prevGroup
+            }),
+            groupCollapsed: _assign({}, props, {
+              value: prevGroupCollapsed
+            }),
+            groupEnd: _assign({}, props, {
+              value: prevGroupEnd
+            })
+          });
+          /* eslint-enable react-internal/no-production-logging */
+        }
+
+        if (disabledDepth < 0) {
+          error('disabledDepth fell below zero. ' + 'This is a bug in React. Please file an issue.');
+        }
+      }
+    }
+
+    var ReactCurrentDispatcher = ReactSharedInternals.ReactCurrentDispatcher;
+    var prefix;
+
+    function describeBuiltInComponentFrame(name, source, ownerFn) {
+      {
+        if (prefix === undefined) {
+          // Extract the VM specific prefix used by each line.
+          try {
+            throw Error();
+          } catch (x) {
+            var match = x.stack.trim().match(/\n( *(at )?)/);
+            prefix = match && match[1] || '';
+          }
+        } // We use the prefix to ensure our stacks line up with native stack frames.
+
+
+        return '\n' + prefix + name;
+      }
+    }
+
+    var reentry = false;
+    var componentFrameCache;
+    {
+      var PossiblyWeakMap = typeof WeakMap === 'function' ? WeakMap : Map;
+      componentFrameCache = new PossiblyWeakMap();
+    }
+
+    function describeNativeComponentFrame(fn, construct) {
+      // If something asked for a stack inside a fake render, it should get ignored.
+      if (!fn || reentry) {
+        return '';
+      }
+
+      {
+        var frame = componentFrameCache.get(fn);
+
+        if (frame !== undefined) {
+          return frame;
+        }
+      }
+      var control;
+      reentry = true;
+      var previousPrepareStackTrace = Error.prepareStackTrace; // $FlowFixMe It does accept undefined.
+
+      Error.prepareStackTrace = undefined;
+      var previousDispatcher;
+      {
+        previousDispatcher = ReactCurrentDispatcher.current; // Set the dispatcher in DEV because this might be call in the render function
+        // for warnings.
+
+        ReactCurrentDispatcher.current = null;
+        disableLogs();
+      }
+
+      try {
+        // This should throw.
+        if (construct) {
+          // Something should be setting the props in the constructor.
+          var Fake = function () {
+            throw Error();
+          }; // $FlowFixMe
+
+
+          Object.defineProperty(Fake.prototype, 'props', {
+            set: function () {
+              // We use a throwing setter instead of frozen or non-writable props
+              // because that won't throw in a non-strict mode function.
+              throw Error();
+            }
+          });
+
+          if (typeof Reflect === 'object' && Reflect.construct) {
+            // We construct a different control for this case to include any extra
+            // frames added by the construct call.
+            try {
+              Reflect.construct(Fake, []);
+            } catch (x) {
+              control = x;
+            }
+
+            Reflect.construct(fn, [], Fake);
+          } else {
+            try {
+              Fake.call();
+            } catch (x) {
+              control = x;
+            }
+
+            fn.call(Fake.prototype);
+          }
+        } else {
+          try {
+            throw Error();
+          } catch (x) {
+            control = x;
+          }
+
+          fn();
+        }
+      } catch (sample) {
+        // This is inlined manually because closure doesn't do it for us.
+        if (sample && control && typeof sample.stack === 'string') {
+          // This extracts the first frame from the sample that isn't also in the control.
+          // Skipping one frame that we assume is the frame that calls the two.
+          var sampleLines = sample.stack.split('\n');
+          var controlLines = control.stack.split('\n');
+          var s = sampleLines.length - 1;
+          var c = controlLines.length - 1;
+
+          while (s >= 1 && c >= 0 && sampleLines[s] !== controlLines[c]) {
+            // We expect at least one stack frame to be shared.
+            // Typically this will be the root most one. However, stack frames may be
+            // cut off due to maximum stack limits. In this case, one maybe cut off
+            // earlier than the other. We assume that the sample is longer or the same
+            // and there for cut off earlier. So we should find the root most frame in
+            // the sample somewhere in the control.
+            c--;
+          }
+
+          for (; s >= 1 && c >= 0; s--, c--) {
+            // Next we find the first one that isn't the same which should be the
+            // frame that called our sample function and the control.
+            if (sampleLines[s] !== controlLines[c]) {
+              // In V8, the first line is describing the message but other VMs don't.
+              // If we're about to return the first line, and the control is also on the same
+              // line, that's a pretty good indicator that our sample threw at same line as
+              // the control. I.e. before we entered the sample frame. So we ignore this result.
+              // This can happen if you passed a class to function component, or non-function.
+              if (s !== 1 || c !== 1) {
+                do {
+                  s--;
+                  c--; // We may still have similar intermediate frames from the construct call.
+                  // The next one that isn't the same should be our match though.
+
+                  if (c < 0 || sampleLines[s] !== controlLines[c]) {
+                    // V8 adds a "new" prefix for native classes. Let's remove it to make it prettier.
+                    var _frame = '\n' + sampleLines[s].replace(' at new ', ' at ');
+
+                    {
+                      if (typeof fn === 'function') {
+                        componentFrameCache.set(fn, _frame);
+                      }
+                    } // Return the line we found.
+
+                    return _frame;
+                  }
+                } while (s >= 1 && c >= 0);
+              }
+
               break;
             }
           }
-
-          !(nextParenIdx > 0) ?  true ? (0, _invariant2.default)(false, 'Path "%s" is missing end paren at segment "%s"', pattern, tokensSubset.join('')) : undefined : void 0; // jump to ending paren
-
-          i = curTokenIdx + nextParenIdx - 1;
         }
-      } else if (parenCount) parenHistory[parenCount - 1] += encodeURIComponent(paramValue);else pathname += encodeURIComponent(paramValue);
-    } else {
-      if (parenCount) parenHistory[parenCount - 1] += token;else pathname += token;
+      } finally {
+        reentry = false;
+        {
+          ReactCurrentDispatcher.current = previousDispatcher;
+          reenableLogs();
+        }
+        Error.prepareStackTrace = previousPrepareStackTrace;
+      } // Fallback to just using the name if we couldn't make it throw.
+
+
+      var name = fn ? fn.displayName || fn.name : '';
+      var syntheticFrame = name ? describeBuiltInComponentFrame(name) : '';
+      {
+        if (typeof fn === 'function') {
+          componentFrameCache.set(fn, syntheticFrame);
+        }
+      }
+      return syntheticFrame;
     }
-  }
 
-  !(parenCount <= 0) ?  true ? (0, _invariant2.default)(false, 'Path "%s" is missing end paren', pattern) : undefined : void 0;
-  return pathname.replace(/\/+/g, '/');
-}
-
-/***/ }),
-
-/***/ "./node_modules/react-router/lib/PromiseUtils.js":
-/*!*******************************************************!*\
-  !*** ./node_modules/react-router/lib/PromiseUtils.js ***!
-  \*******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-exports.isPromise = isPromise;
-
-function isPromise(obj) {
-  return obj && typeof obj.then === 'function';
-}
-
-/***/ }),
-
-/***/ "./node_modules/react-router/lib/RouteUtils.js":
-/*!*****************************************************!*\
-  !*** ./node_modules/react-router/lib/RouteUtils.js ***!
-  \*****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _extends = Object.assign || function (target) {
-  for (var i = 1; i < arguments.length; i++) {
-    var source = arguments[i];
-
-    for (var key in source) {
-      if (Object.prototype.hasOwnProperty.call(source, key)) {
-        target[key] = source[key];
+    function describeFunctionComponentFrame(fn, source, ownerFn) {
+      {
+        return describeNativeComponentFrame(fn, false);
       }
     }
-  }
 
-  return target;
-};
+    function shouldConstruct(Component) {
+      var prototype = Component.prototype;
+      return !!(prototype && prototype.isReactComponent);
+    }
 
-exports.isReactChildren = isReactChildren;
-exports.createRouteFromReactElement = createRouteFromReactElement;
-exports.createRoutesFromReactChildren = createRoutesFromReactChildren;
-exports.createRoutes = createRoutes;
+    function describeUnknownElementTypeFrameInDEV(type, source, ownerFn) {
+      if (type == null) {
+        return '';
+      }
 
-var _react = __webpack_require__(/*! react */ "react");
+      if (typeof type === 'function') {
+        {
+          return describeNativeComponentFrame(type, shouldConstruct(type));
+        }
+      }
 
-var _react2 = _interopRequireDefault(_react);
+      if (typeof type === 'string') {
+        return describeBuiltInComponentFrame(type);
+      }
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : {
-    default: obj
-  };
-}
+      switch (type) {
+        case REACT_SUSPENSE_TYPE:
+          return describeBuiltInComponentFrame('Suspense');
 
-function isValidChild(object) {
-  return object == null || _react2.default.isValidElement(object);
-}
+        case REACT_SUSPENSE_LIST_TYPE:
+          return describeBuiltInComponentFrame('SuspenseList');
+      }
 
-function isReactChildren(object) {
-  return isValidChild(object) || Array.isArray(object) && object.every(isValidChild);
-}
+      if (typeof type === 'object') {
+        switch (type.$$typeof) {
+          case REACT_FORWARD_REF_TYPE:
+            return describeFunctionComponentFrame(type.render);
 
-function createRoute(defaultProps, props) {
-  return _extends({}, defaultProps, props);
-}
+          case REACT_MEMO_TYPE:
+            // Memo may contain any component type so we recursively resolve it.
+            return describeUnknownElementTypeFrameInDEV(type.type, source, ownerFn);
 
-function createRouteFromReactElement(element) {
-  var type = element.type;
-  var route = createRoute(type.defaultProps, element.props);
+          case REACT_BLOCK_TYPE:
+            return describeFunctionComponentFrame(type._render);
 
-  if (route.children) {
-    var childRoutes = createRoutesFromReactChildren(route.children, route);
-    if (childRoutes.length) route.childRoutes = childRoutes;
-    delete route.children;
-  }
+          case REACT_LAZY_TYPE:
+            {
+              var lazyComponent = type;
+              var payload = lazyComponent._payload;
+              var init = lazyComponent._init;
 
-  return route;
-}
-/**
- * Creates and returns a routes object from the given ReactChildren. JSX
- * provides a convenient way to visualize how routes in the hierarchy are
- * nested.
- *
- *   import { Route, createRoutesFromReactChildren } from 'react-router'
- *
- *   const routes = createRoutesFromReactChildren(
- *     <Route component={App}>
- *       <Route path="home" component={Dashboard}/>
- *       <Route path="news" component={NewsFeed}/>
- *     </Route>
- *   )
- *
- * Note: This method is automatically used when you provide <Route> children
- * to a <Router> component.
- */
+              try {
+                // Lazy may contain any component type so we recursively resolve it.
+                return describeUnknownElementTypeFrameInDEV(init(payload), source, ownerFn);
+              } catch (x) {}
+            }
+        }
+      }
 
+      return '';
+    }
 
-function createRoutesFromReactChildren(children, parentRoute) {
-  var routes = [];
+    var loggedTypeFailures = {};
+    var ReactDebugCurrentFrame = ReactSharedInternals.ReactDebugCurrentFrame;
 
-  _react2.default.Children.forEach(children, function (element) {
-    if (_react2.default.isValidElement(element)) {
-      // Component classes may have a static create* method.
-      if (element.type.createRouteFromReactElement) {
-        var route = element.type.createRouteFromReactElement(element, parentRoute);
-        if (route) routes.push(route);
-      } else {
-        routes.push(createRouteFromReactElement(element));
+    function setCurrentlyValidatingElement(element) {
+      {
+        if (element) {
+          var owner = element._owner;
+          var stack = describeUnknownElementTypeFrameInDEV(element.type, element._source, owner ? owner.type : null);
+          ReactDebugCurrentFrame.setExtraStackFrame(stack);
+        } else {
+          ReactDebugCurrentFrame.setExtraStackFrame(null);
+        }
       }
     }
-  });
 
-  return routes;
-}
-/**
- * Creates and returns an array of routes from the given object which
- * may be a JSX route, a plain object route, or an array of either.
- */
+    function checkPropTypes(typeSpecs, values, location, componentName, element) {
+      {
+        // $FlowFixMe This is okay but Flow doesn't know it.
+        var has = Function.call.bind(Object.prototype.hasOwnProperty);
 
+        for (var typeSpecName in typeSpecs) {
+          if (has(typeSpecs, typeSpecName)) {
+            var error$1 = void 0; // Prop type validation may throw. In case they do, we don't want to
+            // fail the render phase where it didn't fail before. So we log it.
+            // After these have been cleaned up, we'll let them throw.
 
-function createRoutes(routes) {
-  if (isReactChildren(routes)) {
-    routes = createRoutesFromReactChildren(routes);
-  } else if (routes && !Array.isArray(routes)) {
-    routes = [routes];
-  }
+            try {
+              // This is intentionally an invariant that gets caught. It's the same
+              // behavior as without this statement except with a better message.
+              if (typeof typeSpecs[typeSpecName] !== 'function') {
+                var err = Error((componentName || 'React class') + ': ' + location + ' type `' + typeSpecName + '` is invalid; ' + 'it must be a function, usually from the `prop-types` package, but received `' + typeof typeSpecs[typeSpecName] + '`.' + 'This often happens because of typos such as `PropTypes.function` instead of `PropTypes.func`.');
+                err.name = 'Invariant Violation';
+                throw err;
+              }
 
-  return routes;
-}
+              error$1 = typeSpecs[typeSpecName](values, typeSpecName, componentName, location, null, 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED');
+            } catch (ex) {
+              error$1 = ex;
+            }
 
-/***/ }),
+            if (error$1 && !(error$1 instanceof Error)) {
+              setCurrentlyValidatingElement(element);
+              error('%s: type specification of %s' + ' `%s` is invalid; the type checker ' + 'function must return `null` or an `Error` but returned a %s. ' + 'You may have forgotten to pass an argument to the type checker ' + 'creator (arrayOf, instanceOf, objectOf, oneOf, oneOfType, and ' + 'shape all require an argument).', componentName || 'React class', location, typeSpecName, typeof error$1);
+              setCurrentlyValidatingElement(null);
+            }
 
-/***/ "./node_modules/react-router/lib/RouterContext.js":
-/*!********************************************************!*\
-  !*** ./node_modules/react-router/lib/RouterContext.js ***!
-  \********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _extends = Object.assign || function (target) {
-  for (var i = 1; i < arguments.length; i++) {
-    var source = arguments[i];
-
-    for (var key in source) {
-      if (Object.prototype.hasOwnProperty.call(source, key)) {
-        target[key] = source[key];
-      }
-    }
-  }
-
-  return target;
-};
-
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) {
-  return typeof obj;
-} : function (obj) {
-  return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
-};
-
-var _invariant = __webpack_require__(/*! invariant */ "invariant");
-
-var _invariant2 = _interopRequireDefault(_invariant);
-
-var _react = __webpack_require__(/*! react */ "react");
-
-var _react2 = _interopRequireDefault(_react);
-
-var _reactIs = __webpack_require__(/*! react-is */ "react-is");
-
-var _createReactClass = __webpack_require__(/*! create-react-class */ "create-react-class");
-
-var _createReactClass2 = _interopRequireDefault(_createReactClass);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "prop-types");
-
-var _getRouteParams = __webpack_require__(/*! ./getRouteParams */ "./node_modules/react-router/lib/getRouteParams.js");
-
-var _getRouteParams2 = _interopRequireDefault(_getRouteParams);
-
-var _ContextUtils = __webpack_require__(/*! ./ContextUtils */ "./node_modules/react-router/lib/ContextUtils.js");
-
-var _RouteUtils = __webpack_require__(/*! ./RouteUtils */ "./node_modules/react-router/lib/RouteUtils.js");
-
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : {
-    default: obj
-  };
-}
-/**
- * A <RouterContext> renders the component tree for a given router state
- * and sets the history object and the current location in context.
- */
-
-
-var RouterContext = (0, _createReactClass2.default)({
-  displayName: 'RouterContext',
-  mixins: [(0, _ContextUtils.ContextProvider)('router')],
-  propTypes: {
-    router: _propTypes.object.isRequired,
-    location: _propTypes.object.isRequired,
-    routes: _propTypes.array.isRequired,
-    params: _propTypes.object.isRequired,
-    components: _propTypes.array.isRequired,
-    createElement: _propTypes.func.isRequired
-  },
-  getDefaultProps: function getDefaultProps() {
-    return {
-      createElement: _react2.default.createElement
-    };
-  },
-  childContextTypes: {
-    router: _propTypes.object.isRequired
-  },
-  getChildContext: function getChildContext() {
-    return {
-      router: this.props.router
-    };
-  },
-  createElement: function createElement(component, props) {
-    return component == null ? null : this.props.createElement(component, props);
-  },
-  render: function render() {
-    var _this = this;
-
-    var _props = this.props,
-        location = _props.location,
-        routes = _props.routes,
-        params = _props.params,
-        components = _props.components,
-        router = _props.router;
-    var element = null;
-
-    if (components) {
-      element = components.reduceRight(function (element, components, index) {
-        if (components == null) return element; // Don't create new children; use the grandchildren.
-
-        var route = routes[index];
-        var routeParams = (0, _getRouteParams2.default)(route, params);
-        var props = {
-          location: location,
-          params: params,
-          route: route,
-          router: router,
-          routeParams: routeParams,
-          routes: routes
-        };
-
-        if ((0, _RouteUtils.isReactChildren)(element)) {
-          props.children = element;
-        } else if (element) {
-          for (var prop in element) {
-            if (Object.prototype.hasOwnProperty.call(element, prop)) props[prop] = element[prop];
-          }
-        } // Handle components is object for { [name]: component } but not valid element
-        // type of react, such as React.memo, React.lazy and so on.
-
-
-        if ((typeof components === 'undefined' ? 'undefined' : _typeof(components)) === 'object' && !(0, _reactIs.isValidElementType)(components)) {
-          var elements = {};
-
-          for (var key in components) {
-            if (Object.prototype.hasOwnProperty.call(components, key)) {
-              // Pass through the key as a prop to createElement to allow
-              // custom createElement functions to know which named component
-              // they're rendering, for e.g. matching up to fetched data.
-              elements[key] = _this.createElement(components[key], _extends({
-                key: key
-              }, props));
+            if (error$1 instanceof Error && !(error$1.message in loggedTypeFailures)) {
+              // Only monitor this failure once because there tends to be a lot of the
+              // same error.
+              loggedTypeFailures[error$1.message] = true;
+              setCurrentlyValidatingElement(element);
+              error('Failed %s type: %s', location, error$1.message);
+              setCurrentlyValidatingElement(null);
             }
           }
-
-          return elements;
         }
-
-        return _this.createElement(components, props);
-      }, element);
-    }
-
-    !(element === null || element === false || _react2.default.isValidElement(element)) ?  true ? (0, _invariant2.default)(false, 'The root route must render a single element') : undefined : void 0;
-    return element;
-  }
-});
-exports.default = RouterContext;
-module.exports = exports['default'];
-
-/***/ }),
-
-/***/ "./node_modules/react-router/lib/RouterUtils.js":
-/*!******************************************************!*\
-  !*** ./node_modules/react-router/lib/RouterUtils.js ***!
-  \******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _extends = Object.assign || function (target) {
-  for (var i = 1; i < arguments.length; i++) {
-    var source = arguments[i];
-
-    for (var key in source) {
-      if (Object.prototype.hasOwnProperty.call(source, key)) {
-        target[key] = source[key];
       }
     }
-  }
 
-  return target;
-};
-
-exports.createRouterObject = createRouterObject;
-exports.assignRouterState = assignRouterState;
-
-function createRouterObject(history, transitionManager, state) {
-  var router = _extends({}, history, {
-    setRouteLeaveHook: transitionManager.listenBeforeLeavingRoute,
-    isActive: transitionManager.isActive
-  });
-
-  return assignRouterState(router, state);
-}
-
-function assignRouterState(router, _ref) {
-  var location = _ref.location,
-      params = _ref.params,
-      routes = _ref.routes;
-  router.location = location;
-  router.params = params;
-  router.routes = routes;
-  return router;
-}
-
-/***/ }),
-
-/***/ "./node_modules/react-router/lib/TransitionUtils.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/react-router/lib/TransitionUtils.js ***!
-  \**********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-exports.default = getTransitionUtils;
-
-var _AsyncUtils = __webpack_require__(/*! ./AsyncUtils */ "./node_modules/react-router/lib/AsyncUtils.js");
-
-function _classCallCheck(instance, Constructor) {
-  if (!(instance instanceof Constructor)) {
-    throw new TypeError("Cannot call a class as a function");
-  }
-}
-
-var PendingHooks = function PendingHooks() {
-  var _this = this;
-
-  _classCallCheck(this, PendingHooks);
-
-  this.hooks = [];
-
-  this.add = function (hook) {
-    return _this.hooks.push(hook);
-  };
-
-  this.remove = function (hook) {
-    return _this.hooks = _this.hooks.filter(function (h) {
-      return h !== hook;
-    });
-  };
-
-  this.has = function (hook) {
-    return _this.hooks.indexOf(hook) !== -1;
-  };
-
-  this.clear = function () {
-    return _this.hooks = [];
-  };
-};
-
-function getTransitionUtils() {
-  var enterHooks = new PendingHooks();
-  var changeHooks = new PendingHooks();
-
-  function createTransitionHook(hook, route, asyncArity, pendingHooks) {
-    var isSync = hook.length < asyncArity;
-
-    var transitionHook = function transitionHook() {
-      for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-        args[_key] = arguments[_key];
-      }
-
-      hook.apply(route, args);
-
-      if (isSync) {
-        var callback = args[args.length - 1]; // Assume hook executes synchronously and
-        // automatically call the callback.
-
-        callback();
-      }
+    var ReactCurrentOwner = ReactSharedInternals.ReactCurrentOwner;
+    var hasOwnProperty = Object.prototype.hasOwnProperty;
+    var RESERVED_PROPS = {
+      key: true,
+      ref: true,
+      __self: true,
+      __source: true
     };
-
-    pendingHooks.add(transitionHook);
-    return transitionHook;
-  }
-
-  function getEnterHooks(routes) {
-    return routes.reduce(function (hooks, route) {
-      if (route.onEnter) hooks.push(createTransitionHook(route.onEnter, route, 3, enterHooks));
-      return hooks;
-    }, []);
-  }
-
-  function getChangeHooks(routes) {
-    return routes.reduce(function (hooks, route) {
-      if (route.onChange) hooks.push(createTransitionHook(route.onChange, route, 4, changeHooks));
-      return hooks;
-    }, []);
-  }
-
-  function runTransitionHooks(length, iter, callback) {
-    if (!length) {
-      callback();
-      return;
+    var specialPropKeyWarningShown;
+    var specialPropRefWarningShown;
+    var didWarnAboutStringRefs;
+    {
+      didWarnAboutStringRefs = {};
     }
 
-    var redirectInfo = void 0;
-
-    function replace(location) {
-      redirectInfo = location;
-    }
-
-    (0, _AsyncUtils.loopAsync)(length, function (index, next, done) {
-      iter(index, replace, function (error) {
-        if (error || redirectInfo) {
-          done(error, redirectInfo); // No need to continue.
-        } else {
-          next();
-        }
-      });
-    }, callback);
-  }
-  /**
-   * Runs all onEnter hooks in the given array of routes in order
-   * with onEnter(nextState, replace, callback) and calls
-   * callback(error, redirectInfo) when finished. The first hook
-   * to use replace short-circuits the loop.
-   *
-   * If a hook needs to run asynchronously, it may use the callback
-   * function. However, doing so will cause the transition to pause,
-   * which could lead to a non-responsive UI if the hook is slow.
-   */
-
-
-  function runEnterHooks(routes, nextState, callback) {
-    enterHooks.clear();
-    var hooks = getEnterHooks(routes);
-    return runTransitionHooks(hooks.length, function (index, replace, next) {
-      var wrappedNext = function wrappedNext() {
-        if (enterHooks.has(hooks[index])) {
-          next.apply(undefined, arguments);
-          enterHooks.remove(hooks[index]);
-        }
-      };
-
-      hooks[index](nextState, replace, wrappedNext);
-    }, callback);
-  }
-  /**
-   * Runs all onChange hooks in the given array of routes in order
-   * with onChange(prevState, nextState, replace, callback) and calls
-   * callback(error, redirectInfo) when finished. The first hook
-   * to use replace short-circuits the loop.
-   *
-   * If a hook needs to run asynchronously, it may use the callback
-   * function. However, doing so will cause the transition to pause,
-   * which could lead to a non-responsive UI if the hook is slow.
-   */
-
-
-  function runChangeHooks(routes, state, nextState, callback) {
-    changeHooks.clear();
-    var hooks = getChangeHooks(routes);
-    return runTransitionHooks(hooks.length, function (index, replace, next) {
-      var wrappedNext = function wrappedNext() {
-        if (changeHooks.has(hooks[index])) {
-          next.apply(undefined, arguments);
-          changeHooks.remove(hooks[index]);
-        }
-      };
-
-      hooks[index](state, nextState, replace, wrappedNext);
-    }, callback);
-  }
-  /**
-   * Runs all onLeave hooks in the given array of routes in order.
-   */
-
-
-  function runLeaveHooks(routes, prevState) {
-    for (var i = 0, len = routes.length; i < len; ++i) {
-      if (routes[i].onLeave) routes[i].onLeave.call(routes[i], prevState);
-    }
-  }
-
-  return {
-    runEnterHooks: runEnterHooks,
-    runChangeHooks: runChangeHooks,
-    runLeaveHooks: runLeaveHooks
-  };
-}
-
-module.exports = exports['default'];
-
-/***/ }),
-
-/***/ "./node_modules/react-router/lib/computeChangedRoutes.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/react-router/lib/computeChangedRoutes.js ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _PatternUtils = __webpack_require__(/*! ./PatternUtils */ "./node_modules/react-router/lib/PatternUtils.js");
-
-function routeParamsChanged(route, prevState, nextState) {
-  if (!route.path) return false;
-  var paramNames = (0, _PatternUtils.getParamNames)(route.path);
-  return paramNames.some(function (paramName) {
-    return prevState.params[paramName] !== nextState.params[paramName];
-  });
-}
-/**
- * Returns an object of { leaveRoutes, changeRoutes, enterRoutes } determined by
- * the change from prevState to nextState. We leave routes if either
- * 1) they are not in the next state or 2) they are in the next state
- * but their params have changed (i.e. /users/123 => /users/456).
- *
- * leaveRoutes are ordered starting at the leaf route of the tree
- * we're leaving up to the common parent route. enterRoutes are ordered
- * from the top of the tree we're entering down to the leaf route.
- *
- * changeRoutes are any routes that didn't leave or enter during
- * the transition.
- */
-
-
-function computeChangedRoutes(prevState, nextState) {
-  var prevRoutes = prevState && prevState.routes;
-  var nextRoutes = nextState.routes;
-  var leaveRoutes = void 0,
-      changeRoutes = void 0,
-      enterRoutes = void 0;
-
-  if (prevRoutes) {
-    var parentIsLeaving = false;
-    leaveRoutes = prevRoutes.filter(function (route) {
-      if (parentIsLeaving) {
-        return true;
-      } else {
-        var isLeaving = nextRoutes.indexOf(route) === -1 || routeParamsChanged(route, prevState, nextState);
-        if (isLeaving) parentIsLeaving = true;
-        return isLeaving;
-      }
-    }); // onLeave hooks start at the leaf route.
-
-    leaveRoutes.reverse();
-    enterRoutes = [];
-    changeRoutes = [];
-    nextRoutes.forEach(function (route) {
-      var isNew = prevRoutes.indexOf(route) === -1;
-      var paramsChanged = leaveRoutes.indexOf(route) !== -1;
-      if (isNew || paramsChanged) enterRoutes.push(route);else changeRoutes.push(route);
-    });
-  } else {
-    leaveRoutes = [];
-    changeRoutes = [];
-    enterRoutes = nextRoutes;
-  }
-
-  return {
-    leaveRoutes: leaveRoutes,
-    changeRoutes: changeRoutes,
-    enterRoutes: enterRoutes
-  };
-}
-
-exports.default = computeChangedRoutes;
-module.exports = exports['default'];
-
-/***/ }),
-
-/***/ "./node_modules/react-router/lib/createMemoryHistory.js":
-/*!**************************************************************!*\
-  !*** ./node_modules/react-router/lib/createMemoryHistory.js ***!
-  \**************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-exports.default = createMemoryHistory;
-
-var _useQueries = __webpack_require__(/*! history/lib/useQueries */ "./node_modules/history/lib/useQueries.js");
-
-var _useQueries2 = _interopRequireDefault(_useQueries);
-
-var _useBasename = __webpack_require__(/*! history/lib/useBasename */ "./node_modules/history/lib/useBasename.js");
-
-var _useBasename2 = _interopRequireDefault(_useBasename);
-
-var _createMemoryHistory = __webpack_require__(/*! history/lib/createMemoryHistory */ "./node_modules/history/lib/createMemoryHistory.js");
-
-var _createMemoryHistory2 = _interopRequireDefault(_createMemoryHistory);
-
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : {
-    default: obj
-  };
-}
-
-function createMemoryHistory(options) {
-  // signatures and type checking differ between `useQueries` and
-  // `createMemoryHistory`, have to create `memoryHistory` first because
-  // `useQueries` doesn't understand the signature
-  var memoryHistory = (0, _createMemoryHistory2.default)(options);
-
-  var createHistory = function createHistory() {
-    return memoryHistory;
-  };
-
-  var history = (0, _useQueries2.default)((0, _useBasename2.default)(createHistory))(options);
-  return history;
-}
-
-module.exports = exports['default'];
-
-/***/ }),
-
-/***/ "./node_modules/react-router/lib/createTransitionManager.js":
-/*!******************************************************************!*\
-  !*** ./node_modules/react-router/lib/createTransitionManager.js ***!
-  \******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _extends = Object.assign || function (target) {
-  for (var i = 1; i < arguments.length; i++) {
-    var source = arguments[i];
-
-    for (var key in source) {
-      if (Object.prototype.hasOwnProperty.call(source, key)) {
-        target[key] = source[key];
-      }
-    }
-  }
-
-  return target;
-};
-
-exports.default = createTransitionManager;
-
-var _routerWarning = __webpack_require__(/*! ./routerWarning */ "./node_modules/react-router/lib/routerWarning.js");
-
-var _routerWarning2 = _interopRequireDefault(_routerWarning);
-
-var _computeChangedRoutes2 = __webpack_require__(/*! ./computeChangedRoutes */ "./node_modules/react-router/lib/computeChangedRoutes.js");
-
-var _computeChangedRoutes3 = _interopRequireDefault(_computeChangedRoutes2);
-
-var _TransitionUtils = __webpack_require__(/*! ./TransitionUtils */ "./node_modules/react-router/lib/TransitionUtils.js");
-
-var _TransitionUtils2 = _interopRequireDefault(_TransitionUtils);
-
-var _isActive2 = __webpack_require__(/*! ./isActive */ "./node_modules/react-router/lib/isActive.js");
-
-var _isActive3 = _interopRequireDefault(_isActive2);
-
-var _getComponents = __webpack_require__(/*! ./getComponents */ "./node_modules/react-router/lib/getComponents.js");
-
-var _getComponents2 = _interopRequireDefault(_getComponents);
-
-var _matchRoutes = __webpack_require__(/*! ./matchRoutes */ "./node_modules/react-router/lib/matchRoutes.js");
-
-var _matchRoutes2 = _interopRequireDefault(_matchRoutes);
-
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : {
-    default: obj
-  };
-}
-
-function hasAnyProperties(object) {
-  for (var p in object) {
-    if (Object.prototype.hasOwnProperty.call(object, p)) return true;
-  }
-
-  return false;
-}
-
-function createTransitionManager(history, routes) {
-  var state = {};
-
-  var _getTransitionUtils = (0, _TransitionUtils2.default)(),
-      runEnterHooks = _getTransitionUtils.runEnterHooks,
-      runChangeHooks = _getTransitionUtils.runChangeHooks,
-      runLeaveHooks = _getTransitionUtils.runLeaveHooks; // Signature should be (location, indexOnly), but needs to support (path,
-  // query, indexOnly)
-
-
-  function isActive(location, indexOnly) {
-    location = history.createLocation(location);
-    return (0, _isActive3.default)(location, indexOnly, state.location, state.routes, state.params);
-  }
-
-  var partialNextState = void 0;
-
-  function match(location, callback) {
-    if (partialNextState && partialNextState.location === location) {
-      // Continue from where we left off.
-      finishMatch(partialNextState, callback);
-    } else {
-      (0, _matchRoutes2.default)(routes, location, function (error, nextState) {
-        if (error) {
-          callback(error);
-        } else if (nextState) {
-          finishMatch(_extends({}, nextState, {
-            location: location
-          }), callback);
-        } else {
-          callback();
-        }
-      });
-    }
-  }
-
-  function finishMatch(nextState, callback) {
-    var _computeChangedRoutes = (0, _computeChangedRoutes3.default)(state, nextState),
-        leaveRoutes = _computeChangedRoutes.leaveRoutes,
-        changeRoutes = _computeChangedRoutes.changeRoutes,
-        enterRoutes = _computeChangedRoutes.enterRoutes;
-
-    runLeaveHooks(leaveRoutes, state); // Tear down confirmation hooks for left routes
-
-    leaveRoutes.filter(function (route) {
-      return enterRoutes.indexOf(route) === -1;
-    }).forEach(removeListenBeforeHooksForRoute); // change and enter hooks are run in series
-
-    runChangeHooks(changeRoutes, state, nextState, function (error, redirectInfo) {
-      if (error || redirectInfo) return handleErrorOrRedirect(error, redirectInfo);
-      runEnterHooks(enterRoutes, nextState, finishEnterHooks);
-    });
-
-    function finishEnterHooks(error, redirectInfo) {
-      if (error || redirectInfo) return handleErrorOrRedirect(error, redirectInfo); // TODO: Fetch components after state is updated.
-
-      (0, _getComponents2.default)(nextState, function (error, components) {
-        if (error) {
-          callback(error);
-        } else {
-          // TODO: Make match a pure function and have some other API
-          // for "match and update state".
-          callback(null, null, state = _extends({}, nextState, {
-            components: components
-          }));
-        }
-      });
-    }
-
-    function handleErrorOrRedirect(error, redirectInfo) {
-      if (error) callback(error);else callback(null, redirectInfo);
-    }
-  }
-
-  var RouteGuid = 1;
-
-  function getRouteID(route) {
-    var create = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
-    return route.__id__ || create && (route.__id__ = RouteGuid++);
-  }
-
-  var RouteHooks = Object.create(null);
-
-  function getRouteHooksForRoutes(routes) {
-    return routes.map(function (route) {
-      return RouteHooks[getRouteID(route)];
-    }).filter(function (hook) {
-      return hook;
-    });
-  }
-
-  function transitionHook(location, callback) {
-    (0, _matchRoutes2.default)(routes, location, function (error, nextState) {
-      if (nextState == null) {
-        // TODO: We didn't actually match anything, but hang
-        // onto error/nextState so we don't have to matchRoutes
-        // again in the listen callback.
-        callback();
-        return;
-      } // Cache some state here so we don't have to
-      // matchRoutes() again in the listen callback.
-
-
-      partialNextState = _extends({}, nextState, {
-        location: location
-      });
-      var hooks = getRouteHooksForRoutes((0, _computeChangedRoutes3.default)(state, partialNextState).leaveRoutes);
-      var result = void 0;
-
-      for (var i = 0, len = hooks.length; result == null && i < len; ++i) {
-        // Passing the location arg here indicates to
-        // the user that this is a transition hook.
-        result = hooks[i](location);
-      }
-
-      callback(result);
-    });
-  }
-  /* istanbul ignore next: untestable with Karma */
-
-
-  function beforeUnloadHook() {
-    // Synchronously check to see if any route hooks want
-    // to prevent the current window/tab from closing.
-    if (state.routes) {
-      var hooks = getRouteHooksForRoutes(state.routes);
-      var message = void 0;
-
-      for (var i = 0, len = hooks.length; typeof message !== 'string' && i < len; ++i) {
-        // Passing no args indicates to the user that this is a
-        // beforeunload hook. We don't know the next location.
-        message = hooks[i]();
-      }
-
-      return message;
-    }
-  }
-
-  var unlistenBefore = void 0,
-      unlistenBeforeUnload = void 0;
-
-  function removeListenBeforeHooksForRoute(route) {
-    var routeID = getRouteID(route);
-
-    if (!routeID) {
-      return;
-    }
-
-    delete RouteHooks[routeID];
-
-    if (!hasAnyProperties(RouteHooks)) {
-      // teardown transition & beforeunload hooks
-      if (unlistenBefore) {
-        unlistenBefore();
-        unlistenBefore = null;
-      }
-
-      if (unlistenBeforeUnload) {
-        unlistenBeforeUnload();
-        unlistenBeforeUnload = null;
-      }
-    }
-  }
-  /**
-   * Registers the given hook function to run before leaving the given route.
-   *
-   * During a normal transition, the hook function receives the next location
-   * as its only argument and can return either a prompt message (string) to show the user,
-   * to make sure they want to leave the page; or `false`, to prevent the transition.
-   * Any other return value will have no effect.
-   *
-   * During the beforeunload event (in browsers) the hook receives no arguments.
-   * In this case it must return a prompt message to prevent the transition.
-   *
-   * Returns a function that may be used to unbind the listener.
-   */
-
-
-  function listenBeforeLeavingRoute(route, hook) {
-    var thereWereNoRouteHooks = !hasAnyProperties(RouteHooks);
-    var routeID = getRouteID(route, true);
-    RouteHooks[routeID] = hook;
-
-    if (thereWereNoRouteHooks) {
-      // setup transition & beforeunload hooks
-      unlistenBefore = history.listenBefore(transitionHook);
-      if (history.listenBeforeUnload) unlistenBeforeUnload = history.listenBeforeUnload(beforeUnloadHook);
-    }
-
-    return function () {
-      removeListenBeforeHooksForRoute(route);
-    };
-  }
-  /**
-   * This is the API for stateful environments. As the location
-   * changes, we update state and call the listener. We can also
-   * gracefully handle errors and redirects.
-   */
-
-
-  function listen(listener) {
-    function historyListener(location) {
-      if (state.location === location) {
-        listener(null, state);
-      } else {
-        match(location, function (error, redirectLocation, nextState) {
-          if (error) {
-            listener(error);
-          } else if (redirectLocation) {
-            history.replace(redirectLocation);
-          } else if (nextState) {
-            listener(null, nextState);
-          } else {
-             true ? (0, _routerWarning2.default)(false, 'Location "%s" did not match any routes', location.pathname + location.search + location.hash) : undefined;
+    function hasValidRef(config) {
+      {
+        if (hasOwnProperty.call(config, 'ref')) {
+          var getter = Object.getOwnPropertyDescriptor(config, 'ref').get;
+
+          if (getter && getter.isReactWarning) {
+            return false;
           }
-        });
-      }
-    } // TODO: Only use a single history listener. Otherwise we'll end up with
-    // multiple concurrent calls to match.
-    // Set up the history listener first in case the initial match redirects.
-
-
-    var unsubscribe = history.listen(historyListener);
-
-    if (state.location) {
-      // Picking up on a matchContext.
-      listener(null, state);
-    } else {
-      historyListener(history.getCurrentLocation());
-    }
-
-    return unsubscribe;
-  }
-
-  return {
-    isActive: isActive,
-    match: match,
-    listenBeforeLeavingRoute: listenBeforeLeavingRoute,
-    listen: listen
-  };
-}
-
-module.exports = exports['default'];
-
-/***/ }),
-
-/***/ "./node_modules/react-router/lib/getComponents.js":
-/*!********************************************************!*\
-  !*** ./node_modules/react-router/lib/getComponents.js ***!
-  \********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _AsyncUtils = __webpack_require__(/*! ./AsyncUtils */ "./node_modules/react-router/lib/AsyncUtils.js");
-
-var _PromiseUtils = __webpack_require__(/*! ./PromiseUtils */ "./node_modules/react-router/lib/PromiseUtils.js");
-
-function getComponentsForRoute(nextState, route, callback) {
-  if (route.component || route.components) {
-    callback(null, route.component || route.components);
-    return;
-  }
-
-  var getComponent = route.getComponent || route.getComponents;
-
-  if (getComponent) {
-    var componentReturn = getComponent.call(route, nextState, callback);
-    if ((0, _PromiseUtils.isPromise)(componentReturn)) componentReturn.then(function (component) {
-      return callback(null, component);
-    }, callback);
-  } else {
-    callback();
-  }
-}
-/**
- * Asynchronously fetches all components needed for the given router
- * state and calls callback(error, components) when finished.
- *
- * Note: This operation may finish synchronously if no routes have an
- * asynchronous getComponents method.
- */
-
-
-function getComponents(nextState, callback) {
-  (0, _AsyncUtils.mapAsync)(nextState.routes, function (route, index, callback) {
-    getComponentsForRoute(nextState, route, callback);
-  }, callback);
-}
-
-exports.default = getComponents;
-module.exports = exports['default'];
-
-/***/ }),
-
-/***/ "./node_modules/react-router/lib/getRouteParams.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/react-router/lib/getRouteParams.js ***!
-  \*********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _PatternUtils = __webpack_require__(/*! ./PatternUtils */ "./node_modules/react-router/lib/PatternUtils.js");
-/**
- * Extracts an object of params the given route cares about from
- * the given params object.
- */
-
-
-function getRouteParams(route, params) {
-  var routeParams = {};
-  if (!route.path) return routeParams;
-  (0, _PatternUtils.getParamNames)(route.path).forEach(function (p) {
-    if (Object.prototype.hasOwnProperty.call(params, p)) {
-      routeParams[p] = params[p];
-    }
-  });
-  return routeParams;
-}
-
-exports.default = getRouteParams;
-module.exports = exports['default'];
-
-/***/ }),
-
-/***/ "./node_modules/react-router/lib/isActive.js":
-/*!***************************************************!*\
-  !*** ./node_modules/react-router/lib/isActive.js ***!
-  \***************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) {
-  return typeof obj;
-} : function (obj) {
-  return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
-};
-
-exports.default = isActive;
-
-var _PatternUtils = __webpack_require__(/*! ./PatternUtils */ "./node_modules/react-router/lib/PatternUtils.js");
-
-function deepEqual(a, b) {
-  if (a == b) return true;
-  if (a == null || b == null) return false;
-
-  if (Array.isArray(a)) {
-    return Array.isArray(b) && a.length === b.length && a.every(function (item, index) {
-      return deepEqual(item, b[index]);
-    });
-  }
-
-  if ((typeof a === 'undefined' ? 'undefined' : _typeof(a)) === 'object') {
-    for (var p in a) {
-      if (!Object.prototype.hasOwnProperty.call(a, p)) {
-        continue;
-      }
-
-      if (a[p] === undefined) {
-        if (b[p] !== undefined) {
-          return false;
         }
-      } else if (!Object.prototype.hasOwnProperty.call(b, p)) {
-        return false;
-      } else if (!deepEqual(a[p], b[p])) {
-        return false;
       }
+      return config.ref !== undefined;
     }
 
-    return true;
-  }
+    function hasValidKey(config) {
+      {
+        if (hasOwnProperty.call(config, 'key')) {
+          var getter = Object.getOwnPropertyDescriptor(config, 'key').get;
 
-  return String(a) === String(b);
-}
-/**
- * Returns true if the current pathname matches the supplied one, net of
- * leading and trailing slash normalization. This is sufficient for an
- * indexOnly route match.
- */
-
-
-function pathIsActive(pathname, currentPathname) {
-  // Normalize leading slash for consistency. Leading slash on pathname has
-  // already been normalized in isActive. See caveat there.
-  if (currentPathname.charAt(0) !== '/') {
-    currentPathname = '/' + currentPathname;
-  } // Normalize the end of both path names too. Maybe `/foo/` shouldn't show
-  // `/foo` as active, but in this case, we would already have failed the
-  // match.
-
-
-  if (pathname.charAt(pathname.length - 1) !== '/') {
-    pathname += '/';
-  }
-
-  if (currentPathname.charAt(currentPathname.length - 1) !== '/') {
-    currentPathname += '/';
-  }
-
-  return currentPathname === pathname;
-}
-/**
- * Returns true if the given pathname matches the active routes and params.
- */
-
-
-function routeIsActive(pathname, routes, params) {
-  var remainingPathname = pathname,
-      paramNames = [],
-      paramValues = []; // for...of would work here but it's probably slower post-transpilation.
-
-  for (var i = 0, len = routes.length; i < len; ++i) {
-    var route = routes[i];
-    var pattern = route.path || '';
-
-    if (pattern.charAt(0) === '/') {
-      remainingPathname = pathname;
-      paramNames = [];
-      paramValues = [];
-    }
-
-    if (remainingPathname !== null && pattern) {
-      var matched = (0, _PatternUtils.matchPattern)(pattern, remainingPathname);
-
-      if (matched) {
-        remainingPathname = matched.remainingPathname;
-        paramNames = [].concat(paramNames, matched.paramNames);
-        paramValues = [].concat(paramValues, matched.paramValues);
-      } else {
-        remainingPathname = null;
-      }
-
-      if (remainingPathname === '') {
-        // We have an exact match on the route. Just check that all the params
-        // match.
-        // FIXME: This doesn't work on repeated params.
-        return paramNames.every(function (paramName, index) {
-          return String(paramValues[index]) === String(params[paramName]);
-        });
-      }
-    }
-  }
-
-  return false;
-}
-/**
- * Returns true if all key/value pairs in the given query are
- * currently active.
- */
-
-
-function queryIsActive(query, activeQuery) {
-  if (activeQuery == null) return query == null;
-  if (query == null) return true;
-  return deepEqual(query, activeQuery);
-}
-/**
- * Returns true if a <Link> to the given pathname/query combination is
- * currently active.
- */
-
-
-function isActive(_ref, indexOnly, currentLocation, routes, params) {
-  var pathname = _ref.pathname,
-      query = _ref.query;
-  if (currentLocation == null) return false; // TODO: This is a bit ugly. It keeps around support for treating pathnames
-  // without preceding slashes as absolute paths, but possibly also works
-  // around the same quirks with basenames as in matchRoutes.
-
-  if (pathname.charAt(0) !== '/') {
-    pathname = '/' + pathname;
-  }
-
-  if (!pathIsActive(pathname, currentLocation.pathname)) {
-    // The path check is necessary and sufficient for indexOnly, but otherwise
-    // we still need to check the routes.
-    if (indexOnly || !routeIsActive(pathname, routes, params)) {
-      return false;
-    }
-  }
-
-  return queryIsActive(query, currentLocation.query);
-}
-
-module.exports = exports['default'];
-
-/***/ }),
-
-/***/ "./node_modules/react-router/lib/match.js":
-/*!************************************************!*\
-  !*** ./node_modules/react-router/lib/match.js ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _extends = Object.assign || function (target) {
-  for (var i = 1; i < arguments.length; i++) {
-    var source = arguments[i];
-
-    for (var key in source) {
-      if (Object.prototype.hasOwnProperty.call(source, key)) {
-        target[key] = source[key];
-      }
-    }
-  }
-
-  return target;
-};
-
-var _Actions = __webpack_require__(/*! history/lib/Actions */ "./node_modules/history/lib/Actions.js");
-
-var _invariant = __webpack_require__(/*! invariant */ "invariant");
-
-var _invariant2 = _interopRequireDefault(_invariant);
-
-var _createMemoryHistory = __webpack_require__(/*! ./createMemoryHistory */ "./node_modules/react-router/lib/createMemoryHistory.js");
-
-var _createMemoryHistory2 = _interopRequireDefault(_createMemoryHistory);
-
-var _createTransitionManager = __webpack_require__(/*! ./createTransitionManager */ "./node_modules/react-router/lib/createTransitionManager.js");
-
-var _createTransitionManager2 = _interopRequireDefault(_createTransitionManager);
-
-var _RouteUtils = __webpack_require__(/*! ./RouteUtils */ "./node_modules/react-router/lib/RouteUtils.js");
-
-var _RouterUtils = __webpack_require__(/*! ./RouterUtils */ "./node_modules/react-router/lib/RouterUtils.js");
-
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : {
-    default: obj
-  };
-}
-
-function _objectWithoutProperties(obj, keys) {
-  var target = {};
-
-  for (var i in obj) {
-    if (keys.indexOf(i) >= 0) continue;
-    if (!Object.prototype.hasOwnProperty.call(obj, i)) continue;
-    target[i] = obj[i];
-  }
-
-  return target;
-}
-/**
- * A high-level API to be used for server-side rendering.
- *
- * This function matches a location to a set of routes and calls
- * callback(error, redirectLocation, renderProps) when finished.
- *
- * Note: You probably don't want to use this in a browser unless you're using
- * server-side rendering with async routes.
- */
-
-
-function match(_ref, callback) {
-  var history = _ref.history,
-      routes = _ref.routes,
-      location = _ref.location,
-      options = _objectWithoutProperties(_ref, ['history', 'routes', 'location']);
-
-  !(history || location) ?  true ? (0, _invariant2.default)(false, 'match needs a history or a location') : undefined : void 0;
-  history = history ? history : (0, _createMemoryHistory2.default)(options);
-  var transitionManager = (0, _createTransitionManager2.default)(history, (0, _RouteUtils.createRoutes)(routes));
-
-  if (location) {
-    // Allow match({ location: '/the/path', ... })
-    location = history.createLocation(location);
-  } else {
-    location = history.getCurrentLocation();
-  }
-
-  transitionManager.match(location, function (error, redirectLocation, nextState) {
-    var renderProps = void 0;
-
-    if (nextState) {
-      var router = (0, _RouterUtils.createRouterObject)(history, transitionManager, nextState);
-      renderProps = _extends({}, nextState, {
-        router: router,
-        matchContext: {
-          transitionManager: transitionManager,
-          router: router
+          if (getter && getter.isReactWarning) {
+            return false;
+          }
         }
-      });
-    }
-
-    callback(error, redirectLocation && history.createLocation(redirectLocation, _Actions.REPLACE), renderProps);
-  });
-}
-
-exports.default = match;
-module.exports = exports['default'];
-
-/***/ }),
-
-/***/ "./node_modules/react-router/lib/matchRoutes.js":
-/*!******************************************************!*\
-  !*** ./node_modules/react-router/lib/matchRoutes.js ***!
-  \******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _extends = Object.assign || function (target) {
-  for (var i = 1; i < arguments.length; i++) {
-    var source = arguments[i];
-
-    for (var key in source) {
-      if (Object.prototype.hasOwnProperty.call(source, key)) {
-        target[key] = source[key];
       }
-    }
-  }
-
-  return target;
-};
-
-exports.default = matchRoutes;
-
-var _AsyncUtils = __webpack_require__(/*! ./AsyncUtils */ "./node_modules/react-router/lib/AsyncUtils.js");
-
-var _PromiseUtils = __webpack_require__(/*! ./PromiseUtils */ "./node_modules/react-router/lib/PromiseUtils.js");
-
-var _PatternUtils = __webpack_require__(/*! ./PatternUtils */ "./node_modules/react-router/lib/PatternUtils.js");
-
-var _routerWarning = __webpack_require__(/*! ./routerWarning */ "./node_modules/react-router/lib/routerWarning.js");
-
-var _routerWarning2 = _interopRequireDefault(_routerWarning);
-
-var _RouteUtils = __webpack_require__(/*! ./RouteUtils */ "./node_modules/react-router/lib/RouteUtils.js");
-
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : {
-    default: obj
-  };
-}
-
-function getChildRoutes(route, location, paramNames, paramValues, callback) {
-  if (route.childRoutes) {
-    return [null, route.childRoutes];
-  }
-
-  if (!route.getChildRoutes) {
-    return [];
-  }
-
-  var sync = true,
-      result = void 0;
-  var partialNextState = {
-    location: location,
-    params: createParams(paramNames, paramValues)
-  };
-  var childRoutesReturn = route.getChildRoutes(partialNextState, function (error, childRoutes) {
-    childRoutes = !error && (0, _RouteUtils.createRoutes)(childRoutes);
-
-    if (sync) {
-      result = [error, childRoutes];
-      return;
+      return config.key !== undefined;
     }
 
-    callback(error, childRoutes);
-  });
-  if ((0, _PromiseUtils.isPromise)(childRoutesReturn)) childRoutesReturn.then(function (childRoutes) {
-    return callback(null, (0, _RouteUtils.createRoutes)(childRoutes));
-  }, callback);
-  sync = false;
-  return result; // Might be undefined.
-}
+    function warnIfStringRefCannotBeAutoConverted(config, self) {
+      {
+        if (typeof config.ref === 'string' && ReactCurrentOwner.current && self && ReactCurrentOwner.current.stateNode !== self) {
+          var componentName = getComponentName(ReactCurrentOwner.current.type);
 
-function getIndexRoute(route, location, paramNames, paramValues, callback) {
-  if (route.indexRoute) {
-    callback(null, route.indexRoute);
-  } else if (route.getIndexRoute) {
-    var partialNextState = {
-      location: location,
-      params: createParams(paramNames, paramValues)
-    };
-    var indexRoutesReturn = route.getIndexRoute(partialNextState, function (error, indexRoute) {
-      callback(error, !error && (0, _RouteUtils.createRoutes)(indexRoute)[0]);
-    });
-    if ((0, _PromiseUtils.isPromise)(indexRoutesReturn)) indexRoutesReturn.then(function (indexRoute) {
-      return callback(null, (0, _RouteUtils.createRoutes)(indexRoute)[0]);
-    }, callback);
-  } else if (route.childRoutes || route.getChildRoutes) {
-    var onChildRoutes = function onChildRoutes(error, childRoutes) {
-      if (error) {
-        callback(error);
-        return;
-      }
-
-      var pathless = childRoutes.filter(function (childRoute) {
-        return !childRoute.path;
-      });
-      (0, _AsyncUtils.loopAsync)(pathless.length, function (index, next, done) {
-        getIndexRoute(pathless[index], location, paramNames, paramValues, function (error, indexRoute) {
-          if (error || indexRoute) {
-            var routes = [pathless[index]].concat(Array.isArray(indexRoute) ? indexRoute : [indexRoute]);
-            done(error, routes);
-          } else {
-            next();
+          if (!didWarnAboutStringRefs[componentName]) {
+            error('Component "%s" contains the string ref "%s". ' + 'Support for string refs will be removed in a future major release. ' + 'This case cannot be automatically converted to an arrow function. ' + 'We ask you to manually fix this case by using useRef() or createRef() instead. ' + 'Learn more about using refs safely here: ' + 'https://reactjs.org/link/strict-mode-string-ref', getComponentName(ReactCurrentOwner.current.type), config.ref);
+            didWarnAboutStringRefs[componentName] = true;
           }
-        });
-      }, function (err, routes) {
-        callback(null, routes);
-      });
-    };
-
-    var result = getChildRoutes(route, location, paramNames, paramValues, onChildRoutes);
-
-    if (result) {
-      onChildRoutes.apply(undefined, result);
-    }
-  } else {
-    callback();
-  }
-}
-
-function assignParams(params, paramNames, paramValues) {
-  return paramNames.reduce(function (params, paramName, index) {
-    var paramValue = paramValues && paramValues[index];
-
-    if (Array.isArray(params[paramName])) {
-      params[paramName].push(paramValue);
-    } else if (paramName in params) {
-      params[paramName] = [params[paramName], paramValue];
-    } else {
-      params[paramName] = paramValue;
-    }
-
-    return params;
-  }, params);
-}
-
-function createParams(paramNames, paramValues) {
-  return assignParams({}, paramNames, paramValues);
-}
-
-function matchRouteDeep(route, location, remainingPathname, paramNames, paramValues, callback) {
-  var pattern = route.path || '';
-
-  if (pattern.charAt(0) === '/') {
-    remainingPathname = location.pathname;
-    paramNames = [];
-    paramValues = [];
-  } // Only try to match the path if the route actually has a pattern, and if
-  // we're not just searching for potential nested absolute paths.
-
-
-  if (remainingPathname !== null && pattern) {
-    try {
-      var matched = (0, _PatternUtils.matchPattern)(pattern, remainingPathname);
-
-      if (matched) {
-        remainingPathname = matched.remainingPathname;
-        paramNames = [].concat(paramNames, matched.paramNames);
-        paramValues = [].concat(paramValues, matched.paramValues);
-      } else {
-        remainingPathname = null;
-      }
-    } catch (error) {
-      callback(error);
-    } // By assumption, pattern is non-empty here, which is the prerequisite for
-    // actually terminating a match.
-
-
-    if (remainingPathname === '') {
-      var match = {
-        routes: [route],
-        params: createParams(paramNames, paramValues)
-      };
-      getIndexRoute(route, location, paramNames, paramValues, function (error, indexRoute) {
-        if (error) {
-          callback(error);
-        } else {
-          if (Array.isArray(indexRoute)) {
-            var _match$routes;
-
-             true ? (0, _routerWarning2.default)(indexRoute.every(function (route) {
-              return !route.path;
-            }), 'Index routes should not have paths') : undefined;
-
-            (_match$routes = match.routes).push.apply(_match$routes, indexRoute);
-          } else if (indexRoute) {
-             true ? (0, _routerWarning2.default)(!indexRoute.path, 'Index routes should not have paths') : undefined;
-            match.routes.push(indexRoute);
-          }
-
-          callback(null, match);
         }
-      });
-      return;
+      }
     }
-  }
 
-  if (remainingPathname != null || route.childRoutes) {
-    // Either a) this route matched at least some of the path or b)
-    // we don't have to load this route's children asynchronously. In
-    // either case continue checking for matches in the subtree.
-    var onChildRoutes = function onChildRoutes(error, childRoutes) {
-      if (error) {
-        callback(error);
-      } else if (childRoutes) {
-        // Check the child routes to see if any of them match.
-        matchRoutes(childRoutes, location, function (error, match) {
-          if (error) {
-            callback(error);
-          } else if (match) {
-            // A child route matched! Augment the match and pass it up the stack.
-            match.routes.unshift(route);
-            callback(null, match);
-          } else {
-            callback();
+    function defineKeyPropWarningGetter(props, displayName) {
+      {
+        var warnAboutAccessingKey = function () {
+          if (!specialPropKeyWarningShown) {
+            specialPropKeyWarningShown = true;
+            error('%s: `key` is not a prop. Trying to access it will result ' + 'in `undefined` being returned. If you need to access the same ' + 'value within the child component, you should pass it as a different ' + 'prop. (https://reactjs.org/link/special-props)', displayName);
           }
-        }, remainingPathname, paramNames, paramValues);
-      } else {
-        callback();
-      }
-    };
-
-    var result = getChildRoutes(route, location, paramNames, paramValues, onChildRoutes);
-
-    if (result) {
-      onChildRoutes.apply(undefined, result);
-    }
-  } else {
-    callback();
-  }
-}
-/**
- * Asynchronously matches the given location to a set of routes and calls
- * callback(error, state) when finished. The state object will have the
- * following properties:
- *
- * - routes       An array of routes that matched, in hierarchical order
- * - params       An object of URL parameters
- *
- * Note: This operation may finish synchronously if no routes have an
- * asynchronous getChildRoutes method.
- */
-
-
-function matchRoutes(routes, location, callback, remainingPathname) {
-  var paramNames = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : [];
-  var paramValues = arguments.length > 5 && arguments[5] !== undefined ? arguments[5] : [];
-
-  if (remainingPathname === undefined) {
-    // TODO: This is a little bit ugly, but it works around a quirk in history
-    // that strips the leading slash from pathnames when using basenames with
-    // trailing slashes.
-    if (location.pathname.charAt(0) !== '/') {
-      location = _extends({}, location, {
-        pathname: '/' + location.pathname
-      });
-    }
-
-    remainingPathname = location.pathname;
-  }
-
-  (0, _AsyncUtils.loopAsync)(routes.length, function (index, next, done) {
-    matchRouteDeep(routes[index], location, remainingPathname, paramNames, paramValues, function (error, match) {
-      if (error || match) {
-        done(error, match);
-      } else {
-        next();
-      }
-    });
-  }, callback);
-}
-
-module.exports = exports['default'];
-
-/***/ }),
-
-/***/ "./node_modules/react-router/lib/routerWarning.js":
-/*!********************************************************!*\
-  !*** ./node_modules/react-router/lib/routerWarning.js ***!
-  \********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-exports.default = routerWarning;
-exports._resetWarned = _resetWarned;
-
-var _warning = __webpack_require__(/*! warning */ "warning");
-
-var _warning2 = _interopRequireDefault(_warning);
-
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : {
-    default: obj
-  };
-}
-
-var warned = {};
-
-function routerWarning(falseToWarn, message) {
-  // Only issue deprecation warnings once.
-  if (message.indexOf('deprecated') !== -1) {
-    if (warned[message]) {
-      return;
-    }
-
-    warned[message] = true;
-  }
-
-  message = '[react-router] ' + message;
-
-  for (var _len = arguments.length, args = Array(_len > 2 ? _len - 2 : 0), _key = 2; _key < _len; _key++) {
-    args[_key - 2] = arguments[_key];
-  }
-
-  _warning2.default.apply(undefined, [falseToWarn, message].concat(args));
-}
-
-function _resetWarned() {
-  warned = {};
-}
-
-/***/ }),
-
-/***/ "./node_modules/react-router/lib/useRouterHistory.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/react-router/lib/useRouterHistory.js ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-exports.default = useRouterHistory;
-
-var _useQueries = __webpack_require__(/*! history/lib/useQueries */ "./node_modules/history/lib/useQueries.js");
-
-var _useQueries2 = _interopRequireDefault(_useQueries);
-
-var _useBasename = __webpack_require__(/*! history/lib/useBasename */ "./node_modules/history/lib/useBasename.js");
-
-var _useBasename2 = _interopRequireDefault(_useBasename);
-
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : {
-    default: obj
-  };
-}
-
-function useRouterHistory(createHistory) {
-  return function (options) {
-    var history = (0, _useQueries2.default)((0, _useBasename2.default)(createHistory))(options);
-    return history;
-  };
-}
-
-module.exports = exports['default'];
-
-/***/ }),
-
-/***/ "./node_modules/webpack/buildin/module.js":
-/*!***********************************!*\
-  !*** (webpack)/buildin/module.js ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = function (module) {
-  if (!module.webpackPolyfill) {
-    module.deprecate = function () {};
-
-    module.paths = []; // module.parent = undefined by default
-
-    if (!module.children) module.children = [];
-    Object.defineProperty(module, "loaded", {
-      enumerable: true,
-      get: function () {
-        return module.l;
-      }
-    });
-    Object.defineProperty(module, "id", {
-      enumerable: true,
-      get: function () {
-        return module.i;
-      }
-    });
-    module.webpackPolyfill = 1;
-  }
-
-  return module;
-};
-
-/***/ }),
-
-/***/ "./src/api/app.ts":
-/*!************************!*\
-  !*** ./src/api/app.ts ***!
-  \************************/
-/*! exports provided: setAppMode */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setAppMode", function() { return setAppMode; });
-/* harmony import */ var _constants_action_types__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @constants/action-types */ "./src/constants/action-types.ts");
-/* eslint-disable @typescript-eslint/no-var-requires */
-
-/* eslint-disable @typescript-eslint/explicit-function-return-type */
-
-const setAppMode = newMode => dispatch => dispatch({
-  type: _constants_action_types__WEBPACK_IMPORTED_MODULE_0__["SET_APP_MODE"],
-  payload: newMode
-});
-
-/***/ }),
-
-/***/ "./src/api/videos.ts":
-/*!***************************!*\
-  !*** ./src/api/videos.ts ***!
-  \***************************/
-/*! exports provided: getVideoList */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getVideoList", function() { return getVideoList; });
-/* harmony import */ var koot__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! koot */ "./node_modules/koot/index.js");
-/* harmony import */ var _constants_action_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @constants/action-types */ "./src/constants/action-types.ts");
-/* eslint-disable @typescript-eslint/no-var-requires */
-
-/* eslint-disable @typescript-eslint/explicit-function-return-type */
-
-
-const getVideoList = () => async dispatch => {
-  if (true) {
-    const list = __webpack_require__(/*! ~data/videos */ "./.data/videos/index.ts").default;
-
-    return dispatch({
-      type: _constants_action_types__WEBPACK_IMPORTED_MODULE_1__["UPDATE_VIDEO_LIST"],
-      payload: list.map(({
-        name,
-        des,
-        ...o
-      }) => {
-        var _name$getLocaleId, _des$getLocaleId;
-
-        return {
-          name: (_name$getLocaleId = name[Object(koot__WEBPACK_IMPORTED_MODULE_0__["getLocaleId"])()]) !== null && _name$getLocaleId !== void 0 ? _name$getLocaleId : name.zh,
-          des: (_des$getLocaleId = des[Object(koot__WEBPACK_IMPORTED_MODULE_0__["getLocaleId"])()]) !== null && _des$getLocaleId !== void 0 ? _des$getLocaleId : name.zh,
-          ...o
         };
-      })
-    });
-  }
 
-  return;
-};
+        warnAboutAccessingKey.isReactWarning = true;
+        Object.defineProperty(props, 'key', {
+          get: warnAboutAccessingKey,
+          configurable: true
+        });
+      }
+    }
 
-/***/ }),
+    function defineRefPropWarningGetter(props, displayName) {
+      {
+        var warnAboutAccessingRef = function () {
+          if (!specialPropRefWarningShown) {
+            specialPropRefWarningShown = true;
+            error('%s: `ref` is not a prop. Trying to access it will result ' + 'in `undefined` being returned. If you need to access the same ' + 'value within the child component, you should pass it as a different ' + 'prop. (https://reactjs.org/link/special-props)', displayName);
+          }
+        };
 
-/***/ "./src/assets/banner.jpg":
-/*!*******************************!*\
-  !*** ./src/assets/banner.jpg ***!
-  \*******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "includes/asset.7618bfaeaa248e73e6190c1e101355c4.jpg");
-
-/***/ }),
-
-/***/ "./src/assets/sim-pilot-plate.svg":
-/*!****************************************!*\
-  !*** ./src/assets/sim-pilot-plate.svg ***!
-  \****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "includes/asset.2703dbafaffc8066597114554adab17f.svg");
-
-/***/ }),
-
-/***/ "./src/components/center/index.module.less":
-/*!*************************************************!*\
-  !*** ./src/components/center/index.module.less ***!
-  \*************************************************/
-/*! exports provided: wrapper, css, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "wrapper", function() { return wrapper; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "css", function() { return css; });
-const wrapper = 'c81c13';const css = '.c81c13{position:relative;width:100%;max-width:1280px;margin-left:auto;margin-right:auto;border-left:40px solid transparent;border-right:40px solid transparent}';/* harmony default export */ __webpack_exports__["default"] = ({wrapper,css});
-
-/***/ }),
-
-/***/ "./src/components/center/index.tsx":
-/*!*****************************************!*\
-  !*** ./src/components/center/index.tsx ***!
-  \*****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var koot__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! koot */ "./node_modules/koot/index.js");
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! classnames */ "classnames");
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _index_module_less__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./index.module.less */ "./src/components/center/index.module.less");
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+        warnAboutAccessingRef.isReactWarning = true;
+        Object.defineProperty(props, 'ref', {
+          get: warnAboutAccessingRef,
+          configurable: true
+        });
+      }
+    }
+    /**
+     * Factory method to create a new React element. This no longer adheres to
+     * the class pattern, so do not use new to call it. Also, instanceof check
+     * will not work. Instead test $$typeof field against Symbol.for('react.element') to check
+     * if something is a React Element.
+     *
+     * @param {*} type
+     * @param {*} props
+     * @param {*} key
+     * @param {string|object} ref
+     * @param {*} owner
+     * @param {*} self A *temporary* helper to detect places where `this` is
+     * different from the `owner` when React.createElement is called, so that we
+     * can warn. We want to get rid of owner and replace string `ref`s with arrow
+     * functions, and as long as `this` and owner are the same, there will be no
+     * change in behavior.
+     * @param {*} source An annotation object (added by a transpiler or otherwise)
+     * indicating filename, line number, and/or other information.
+     * @internal
+     */
 
 
+    var ReactElement = function (type, key, ref, self, source, owner, props) {
+      var element = {
+        // This tag allows us to uniquely identify this as a React Element
+        $$typeof: REACT_ELEMENT_TYPE,
+        // Built-in properties that belong on the element
+        type: type,
+        key: key,
+        ref: ref,
+        props: props,
+        // Record the component responsible for creating this element.
+        _owner: owner
+      };
+      {
+        // The validation flag is currently mutative. We put it on
+        // an external backing store so that we can freeze the whole object.
+        // This can be replaced with a WeakMap once they are implemented in
+        // commonly used development environments.
+        element._store = {}; // To make comparing ReactElements easier for testing purposes, we make
+        // the validation flag non-enumerable (where possible, which should
+        // include every environment we run tests in), so the test framework
+        // ignores it.
 
+        Object.defineProperty(element._store, 'validated', {
+          configurable: false,
+          enumerable: false,
+          writable: true,
+          value: false
+        }); // self and source are DEV only properties.
 
- // ============================================================================
+        Object.defineProperty(element, '_self', {
+          configurable: false,
+          enumerable: false,
+          writable: false,
+          value: self
+        }); // Two elements created in two different places should be considered
+        // equal for testing purposes and therefore we hide it from enumeration.
 
-// Functional Component =======================================================
-const Center = Object(koot__WEBPACK_IMPORTED_MODULE_1__["extend"])({
-  styles: _index_module_less__WEBPACK_IMPORTED_MODULE_3__["default"]
-})( /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_0__["memo"])(({
-  className,
-  type,
-  ...props
-}) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", _extends({
-  className: classnames__WEBPACK_IMPORTED_MODULE_2___default()([className, {
-    [`mod-${type}`]: typeof type === 'string'
-  }])
-}, props))));
-/* harmony default export */ __webpack_exports__["default"] = (Center);
+        Object.defineProperty(element, '_source', {
+          configurable: false,
+          enumerable: false,
+          writable: false,
+          value: source
+        });
 
-/***/ }),
-
-/***/ "./src/components/icon/index.jsx":
-/*!***************************************!*\
-  !*** ./src/components/icon/index.jsx ***!
-  \***************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var koot__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! koot */ "./node_modules/koot/index.js");
-/* harmony import */ var _index_module_less__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.module.less */ "./src/components/icon/index.module.less");
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-
-
-
-const Icon = Object(koot__WEBPACK_IMPORTED_MODULE_1__["extend"])({
-  styles: _index_module_less__WEBPACK_IMPORTED_MODULE_2__["default"]
-})(({
-  className,
-  style,
-  id,
-  icon,
-  ...props
-}) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
-  xmlns: "http://www.w3.org/2000/svg",
-  xmlnsXlink: "http://www.w3.org/1999/xlink",
-  className: className,
-  style: style
-}, props), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
-  xlinkHref: '#icon-' + (id || icon)
-})));
-/* harmony default export */ __webpack_exports__["default"] = (Icon);
-
-/***/ }),
-
-/***/ "./src/components/icon/index.module.less":
-/*!***********************************************!*\
-  !*** ./src/components/icon/index.module.less ***!
-  \***********************************************/
-/*! exports provided: wrapper, css, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "wrapper", function() { return wrapper; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "css", function() { return css; });
-const wrapper = 'dd3414';const css = '.dd3414{display:inline-block;width:16px;height:16px;stroke-width:0;stroke:currentColor;fill:currentColor;vertical-align:text-top}';/* harmony default export */ __webpack_exports__["default"] = ({wrapper,css});
-
-/***/ }),
-
-/***/ "./src/components/tag/index.module.less":
-/*!**********************************************!*\
-  !*** ./src/components/tag/index.module.less ***!
-  \**********************************************/
-/*! exports provided: wrapper, css, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "wrapper", function() { return wrapper; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "css", function() { return css; });
-const wrapper = 'a0a74f';const css = '.a0a74f{position:relative;display:inline-block;font-size:14px;line-height:1.1em;padding:4px 8px;color:#000;border:1px solid rgba(0,0,0,.35);border-radius:1em;cursor:default}.a0a74f.is-on{color:#fff;background:rgba(0,0,0,.35)}.a0a74f[data-tag=clip]{background:hsla(0,0%,82%,.35);border-color:rgba(130,145,160,.35)}.a0a74f[data-tag=clip].is-on{background-color:rgba(130,145,160,.8);border-color:rgba(130,145,160,.8)}.a0a74f[data-tag=training]{background:rgba(240,134,128,.35);border-color:rgba(240,13,1,.35)}.a0a74f[data-tag=training].is-on{background-color:rgba(240,13,1,.8);border-color:rgba(240,13,1,.8)}.a0a74f[data-tag=landing]{background:rgba(17,213,184,.35);border-color:rgba(0,103,87,.35)}.a0a74f[data-tag=landing].is-on{background-color:rgba(0,103,87,.8);border-color:rgba(0,103,87,.8)}.a0a74f[data-tag=airport]{background:rgba(234,205,179,.35);border-color:rgba(228,139,57,.35)}.a0a74f[data-tag=airport].is-on{background-color:rgba(228,139,57,.8);border-color:rgba(228,139,57,.8)}.a0a74f[data-tag=device]{background:rgba(197,189,250,.35);border-color:rgba(82,57,255,.35)}.a0a74f[data-tag=device].is-on{background-color:rgba(82,57,255,.8);border-color:rgba(82,57,255,.8)}.a0a74f[data-tag=mod]{background:rgba(216,216,115,.35);border-color:rgba(179,179,24,.35)}.a0a74f[data-tag=mod].is-on{background-color:rgba(179,179,24,.8);border-color:rgba(179,179,24,.8)}.a0a74f[data-tag=tour]{background:rgba(68,168,240,.35);border-color:rgba(0,105,180,.35)}.a0a74f[data-tag=tour].is-on{background-color:rgba(0,105,180,.8);border-color:rgba(0,105,180,.8)}';/* harmony default export */ __webpack_exports__["default"] = ({wrapper,css});
-
-/***/ }),
-
-/***/ "./src/components/tag/index.tsx":
-/*!**************************************!*\
-  !*** ./src/components/tag/index.tsx ***!
-  \**************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var koot__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! koot */ "./node_modules/koot/index.js");
-/* harmony import */ var _constants_video_tags__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @constants/video-tags */ "./src/constants/video-tags.ts");
-/* harmony import */ var _index_module_less__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./index.module.less */ "./src/components/tag/index.module.less");
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-
-
-
- // ============================================================================
-
-// Functional Component =======================================================
-const Tag = Object(koot__WEBPACK_IMPORTED_MODULE_1__["extend"])({
-  styles: _index_module_less__WEBPACK_IMPORTED_MODULE_3__["default"]
-})( /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_0__["memo"])(({
-  className,
-  tag,
-  label,
-  ...props
-}) => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", _extends({
-    className: className,
-    "data-tag": tag
-  }, props), label !== null && label !== void 0 ? label : _constants_video_tags__WEBPACK_IMPORTED_MODULE_2__["names"][tag]);
-}));
-/* harmony default export */ __webpack_exports__["default"] = (Tag);
-
-/***/ }),
-
-/***/ "./src/components/video-list/index.jsx":
-/*!*********************************************!*\
-  !*** ./src/components/video-list/index.jsx ***!
-  \*********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var koot__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! koot */ "./node_modules/koot/index.js");
-/* harmony import */ var _api_videos__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @api/videos */ "./src/api/videos.ts");
-/* harmony import */ var _components_icon__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @components/icon */ "./src/components/icon/index.jsx");
-/* harmony import */ var _components_tag__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @components/tag */ "./src/components/tag/index.tsx");
-/* harmony import */ var _constants_video_sources__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @constants/video-sources */ "./src/constants/video-sources.ts");
-/* harmony import */ var _index_module_less__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./index.module.less */ "./src/components/video-list/index.module.less");
-var _dec, _class, _temp;
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-
-
-
-
-
-
- // Component Class ============================================================
-
-let VideoList = (_dec = Object(koot__WEBPACK_IMPORTED_MODULE_1__["extend"])({
-  connect: state => {
-    var _state$videos;
-
-    return {
-      list: (_state$videos = state.videos) !== null && _state$videos !== void 0 ? _state$videos : []
+        if (Object.freeze) {
+          Object.freeze(element.props);
+          Object.freeze(element);
+        }
+      }
+      return element;
     };
-  },
-  data: (state, renderProps, dispatch) => dispatch(Object(_api_videos__WEBPACK_IMPORTED_MODULE_2__["getVideoList"])()),
-  styles: _index_module_less__WEBPACK_IMPORTED_MODULE_6__["default"]
-}), _dec(_class = (_temp = class VideoList extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"] {
-  constructor(...args) {
-    super(...args);
+    /**
+     * https://github.com/reactjs/rfcs/pull/107
+     * @param {*} type
+     * @param {object} props
+     * @param {string} key
+     */
 
-    _defineProperty(this, "state", void 0);
-  }
 
-  render() {
-    const now = Date.now();
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: this.props.className
-    }, this.props.list.filter(({
-      release
-    }) => now > release).filter(({
-      tag
-    }) => !this.props.tag || tag.includes(this.props.tag)).map(item => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Item, {
-      video: item,
-      key: item.release,
-      source: this.props.source
-    })));
-  }
+    function jsxDEV(type, config, maybeKey, source, self) {
+      {
+        var propName; // Reserved names are extracted
 
-}, _temp)) || _class);
-/* harmony default export */ __webpack_exports__["default"] = (VideoList); // ============================================================================
+        var props = {};
+        var key = null;
+        var ref = null; // Currently, key can be spread in as a prop. This causes a potential
+        // issue if key is also explicitly declared (ie. <div {...props} key="Hi" />
+        // or <div key="Hi" {...props} /> ). We want to deprecate key spread,
+        // but as an intermediary step, we will use jsxDEV for everything except
+        // <div {...props} key="Hi" />, because we aren't currently able to tell if
+        // key is explicitly declared to be undefined or not.
 
-const Item = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_0__["memo"])(({
-  video: {
-    name,
-    thumbnail,
-    link,
-    release,
-    tag
-  },
-  source
-}) => {
-  const time = new Date(release);
-  const C = source ? 'a' : 'div';
-  const P = {
-    className: `${_index_module_less__WEBPACK_IMPORTED_MODULE_6__["wrapper"]}-item`
-  };
+        if (maybeKey !== undefined) {
+          key = '' + maybeKey;
+        }
 
-  if (C === 'a') {
-    P.className += ' mod-has-source';
-    P.href = link[source];
-    P.target = '_blank';
-    P.rel = 'noreferrer';
-  }
+        if (hasValidKey(config)) {
+          key = '' + config.key;
+        }
 
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(C, P, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "thumbnail"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: thumbnail,
-    alt: name,
-    loading: "lazy"
-  })), !source && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "links"
-  }, _constants_video_sources__WEBPACK_IMPORTED_MODULE_5__["default"].map(source => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: link[source],
-    target: "_blank",
-    rel: "noreferrer",
-    className: source,
-    key: source
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_icon__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    className: "icon",
-    icon: source
-  }), _constants_video_sources__WEBPACK_IMPORTED_MODULE_5__["names"][source]))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "infos"
-  }, Array.isArray(tag) && tag.length && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "tags"
-  }, tag.map(t => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_tag__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    className: "tag",
-    tag: t,
-    key: t
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "date"
-  }, time.getFullYear(), " / ", time.getMonth() + 1, " /", ' ', time.getDate()), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
-    className: "name"
-  }, name)));
-});
+        if (hasValidRef(config)) {
+          ref = config.ref;
+          warnIfStringRefCannotBeAutoConverted(config, self);
+        } // Remaining properties are added to a new props object
+
+
+        for (propName in config) {
+          if (hasOwnProperty.call(config, propName) && !RESERVED_PROPS.hasOwnProperty(propName)) {
+            props[propName] = config[propName];
+          }
+        } // Resolve default props
+
+
+        if (type && type.defaultProps) {
+          var defaultProps = type.defaultProps;
+
+          for (propName in defaultProps) {
+            if (props[propName] === undefined) {
+              props[propName] = defaultProps[propName];
+            }
+          }
+        }
+
+        if (key || ref) {
+          var displayName = typeof type === 'function' ? type.displayName || type.name || 'Unknown' : type;
+
+          if (key) {
+            defineKeyPropWarningGetter(props, displayName);
+          }
+
+          if (ref) {
+            defineRefPropWarningGetter(props, displayName);
+          }
+        }
+
+        return ReactElement(type, key, ref, self, source, ReactCurrentOwner.current, props);
+      }
+    }
+
+    var ReactCurrentOwner$1 = ReactSharedInternals.ReactCurrentOwner;
+    var ReactDebugCurrentFrame$1 = ReactSharedInternals.ReactDebugCurrentFrame;
+
+    function setCurrentlyValidatingElement$1(element) {
+      {
+        if (element) {
+          var owner = element._owner;
+          var stack = describeUnknownElementTypeFrameInDEV(element.type, element._source, owner ? owner.type : null);
+          ReactDebugCurrentFrame$1.setExtraStackFrame(stack);
+        } else {
+          ReactDebugCurrentFrame$1.setExtraStackFrame(null);
+        }
+      }
+    }
+
+    var propTypesMisspellWarningShown;
+    {
+      propTypesMisspellWarningShown = false;
+    }
+    /**
+     * Verifies the object is a ReactElement.
+     * See https://reactjs.org/docs/react-api.html#isvalidelement
+     * @param {?object} object
+     * @return {boolean} True if `object` is a ReactElement.
+     * @final
+     */
+
+    function isValidElement(object) {
+      {
+        return typeof object === 'object' && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
+      }
+    }
+
+    function getDeclarationErrorAddendum() {
+      {
+        if (ReactCurrentOwner$1.current) {
+          var name = getComponentName(ReactCurrentOwner$1.current.type);
+
+          if (name) {
+            return '\n\nCheck the render method of `' + name + '`.';
+          }
+        }
+
+        return '';
+      }
+    }
+
+    function getSourceInfoErrorAddendum(source) {
+      {
+        if (source !== undefined) {
+          var fileName = source.fileName.replace(/^.*[\\\/]/, '');
+          var lineNumber = source.lineNumber;
+          return '\n\nCheck your code at ' + fileName + ':' + lineNumber + '.';
+        }
+
+        return '';
+      }
+    }
+    /**
+     * Warn if there's no key explicitly set on dynamic arrays of children or
+     * object keys are not valid. This allows us to keep track of children between
+     * updates.
+     */
+
+
+    var ownerHasKeyUseWarning = {};
+
+    function getCurrentComponentErrorInfo(parentType) {
+      {
+        var info = getDeclarationErrorAddendum();
+
+        if (!info) {
+          var parentName = typeof parentType === 'string' ? parentType : parentType.displayName || parentType.name;
+
+          if (parentName) {
+            info = "\n\nCheck the top-level render call using <" + parentName + ">.";
+          }
+        }
+
+        return info;
+      }
+    }
+    /**
+     * Warn if the element doesn't have an explicit key assigned to it.
+     * This element is in an array. The array could grow and shrink or be
+     * reordered. All children that haven't already been validated are required to
+     * have a "key" property assigned to it. Error statuses are cached so a warning
+     * will only be shown once.
+     *
+     * @internal
+     * @param {ReactElement} element Element that requires a key.
+     * @param {*} parentType element's parent's type.
+     */
+
+
+    function validateExplicitKey(element, parentType) {
+      {
+        if (!element._store || element._store.validated || element.key != null) {
+          return;
+        }
+
+        element._store.validated = true;
+        var currentComponentErrorInfo = getCurrentComponentErrorInfo(parentType);
+
+        if (ownerHasKeyUseWarning[currentComponentErrorInfo]) {
+          return;
+        }
+
+        ownerHasKeyUseWarning[currentComponentErrorInfo] = true; // Usually the current owner is the offender, but if it accepts children as a
+        // property, it may be the creator of the child that's responsible for
+        // assigning it a key.
+
+        var childOwner = '';
+
+        if (element && element._owner && element._owner !== ReactCurrentOwner$1.current) {
+          // Give the component that originally created this child.
+          childOwner = " It was passed a child from " + getComponentName(element._owner.type) + ".";
+        }
+
+        setCurrentlyValidatingElement$1(element);
+        error('Each child in a list should have a unique "key" prop.' + '%s%s See https://reactjs.org/link/warning-keys for more information.', currentComponentErrorInfo, childOwner);
+        setCurrentlyValidatingElement$1(null);
+      }
+    }
+    /**
+     * Ensure that every element either is passed in a static location, in an
+     * array with an explicit keys property defined, or in an object literal
+     * with valid key property.
+     *
+     * @internal
+     * @param {ReactNode} node Statically passed child of any type.
+     * @param {*} parentType node's parent's type.
+     */
+
+
+    function validateChildKeys(node, parentType) {
+      {
+        if (typeof node !== 'object') {
+          return;
+        }
+
+        if (Array.isArray(node)) {
+          for (var i = 0; i < node.length; i++) {
+            var child = node[i];
+
+            if (isValidElement(child)) {
+              validateExplicitKey(child, parentType);
+            }
+          }
+        } else if (isValidElement(node)) {
+          // This element was passed in a valid location.
+          if (node._store) {
+            node._store.validated = true;
+          }
+        } else if (node) {
+          var iteratorFn = getIteratorFn(node);
+
+          if (typeof iteratorFn === 'function') {
+            // Entry iterators used to provide implicit keys,
+            // but now we print a separate warning for them later.
+            if (iteratorFn !== node.entries) {
+              var iterator = iteratorFn.call(node);
+              var step;
+
+              while (!(step = iterator.next()).done) {
+                if (isValidElement(step.value)) {
+                  validateExplicitKey(step.value, parentType);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    /**
+     * Given an element, validate that its props follow the propTypes definition,
+     * provided by the type.
+     *
+     * @param {ReactElement} element
+     */
+
+
+    function validatePropTypes(element) {
+      {
+        var type = element.type;
+
+        if (type === null || type === undefined || typeof type === 'string') {
+          return;
+        }
+
+        var propTypes;
+
+        if (typeof type === 'function') {
+          propTypes = type.propTypes;
+        } else if (typeof type === 'object' && (type.$$typeof === REACT_FORWARD_REF_TYPE || // Note: Memo only checks outer props here.
+        // Inner props are checked in the reconciler.
+        type.$$typeof === REACT_MEMO_TYPE)) {
+          propTypes = type.propTypes;
+        } else {
+          return;
+        }
+
+        if (propTypes) {
+          // Intentionally inside to avoid triggering lazy initializers:
+          var name = getComponentName(type);
+          checkPropTypes(propTypes, element.props, 'prop', name, element);
+        } else if (type.PropTypes !== undefined && !propTypesMisspellWarningShown) {
+          propTypesMisspellWarningShown = true; // Intentionally inside to avoid triggering lazy initializers:
+
+          var _name = getComponentName(type);
+
+          error('Component %s declared `PropTypes` instead of `propTypes`. Did you misspell the property assignment?', _name || 'Unknown');
+        }
+
+        if (typeof type.getDefaultProps === 'function' && !type.getDefaultProps.isReactClassApproved) {
+          error('getDefaultProps is only used on classic React.createClass ' + 'definitions. Use a static property named `defaultProps` instead.');
+        }
+      }
+    }
+    /**
+     * Given a fragment, validate that it can only be provided with fragment props
+     * @param {ReactElement} fragment
+     */
+
+
+    function validateFragmentProps(fragment) {
+      {
+        var keys = Object.keys(fragment.props);
+
+        for (var i = 0; i < keys.length; i++) {
+          var key = keys[i];
+
+          if (key !== 'children' && key !== 'key') {
+            setCurrentlyValidatingElement$1(fragment);
+            error('Invalid prop `%s` supplied to `React.Fragment`. ' + 'React.Fragment can only have `key` and `children` props.', key);
+            setCurrentlyValidatingElement$1(null);
+            break;
+          }
+        }
+
+        if (fragment.ref !== null) {
+          setCurrentlyValidatingElement$1(fragment);
+          error('Invalid attribute `ref` supplied to `React.Fragment`.');
+          setCurrentlyValidatingElement$1(null);
+        }
+      }
+    }
+
+    function jsxWithValidation(type, props, key, isStaticChildren, source, self) {
+      {
+        var validType = isValidElementType(type); // We warn in this case but don't throw. We expect the element creation to
+        // succeed and there will likely be errors in render.
+
+        if (!validType) {
+          var info = '';
+
+          if (type === undefined || typeof type === 'object' && type !== null && Object.keys(type).length === 0) {
+            info += ' You likely forgot to export your component from the file ' + "it's defined in, or you might have mixed up default and named imports.";
+          }
+
+          var sourceInfo = getSourceInfoErrorAddendum(source);
+
+          if (sourceInfo) {
+            info += sourceInfo;
+          } else {
+            info += getDeclarationErrorAddendum();
+          }
+
+          var typeString;
+
+          if (type === null) {
+            typeString = 'null';
+          } else if (Array.isArray(type)) {
+            typeString = 'array';
+          } else if (type !== undefined && type.$$typeof === REACT_ELEMENT_TYPE) {
+            typeString = "<" + (getComponentName(type.type) || 'Unknown') + " />";
+            info = ' Did you accidentally export a JSX literal instead of a component?';
+          } else {
+            typeString = typeof type;
+          }
+
+          error('React.jsx: type is invalid -- expected a string (for ' + 'built-in components) or a class/function (for composite ' + 'components) but got: %s.%s', typeString, info);
+        }
+
+        var element = jsxDEV(type, props, key, source, self); // The result can be nullish if a mock or a custom function is used.
+        // TODO: Drop this when these are no longer allowed as the type argument.
+
+        if (element == null) {
+          return element;
+        } // Skip key warning if the type isn't valid since our key validation logic
+        // doesn't expect a non-string/function type and can throw confusing errors.
+        // We don't want exception behavior to differ between dev and prod.
+        // (Rendering will throw with a helpful message and as soon as the type is
+        // fixed, the key warnings will appear.)
+
+
+        if (validType) {
+          var children = props.children;
+
+          if (children !== undefined) {
+            if (isStaticChildren) {
+              if (Array.isArray(children)) {
+                for (var i = 0; i < children.length; i++) {
+                  validateChildKeys(children[i], type);
+                }
+
+                if (Object.freeze) {
+                  Object.freeze(children);
+                }
+              } else {
+                error('React.jsx: Static children should always be an array. ' + 'You are likely explicitly calling React.jsxs or React.jsxDEV. ' + 'Use the Babel transform instead.');
+              }
+            } else {
+              validateChildKeys(children, type);
+            }
+          }
+        }
+
+        if (type === exports.Fragment) {
+          validateFragmentProps(element);
+        } else {
+          validatePropTypes(element);
+        }
+
+        return element;
+      }
+    } // These two functions exist to still get child warnings in dev
+    // even with the prod transform. This means that jsxDEV is purely
+    // opt-in behavior for better messages but that we won't stop
+    // giving you warnings if you use production apis.
+
+
+    function jsxWithValidationStatic(type, props, key) {
+      {
+        return jsxWithValidation(type, props, key, true);
+      }
+    }
+
+    function jsxWithValidationDynamic(type, props, key) {
+      {
+        return jsxWithValidation(type, props, key, false);
+      }
+    }
+
+    var jsx = jsxWithValidationDynamic; // we may want to special case jsxs internally to take advantage of static children.
+    // for now we can ship identical prod functions
+
+    var jsxs = jsxWithValidationStatic;
+    exports.jsx = jsx;
+    exports.jsxs = jsxs;
+  })();
+}
 
 /***/ }),
 
-/***/ "./src/components/video-list/index.module.less":
-/*!*****************************************************!*\
-  !*** ./src/components/video-list/index.module.less ***!
-  \*****************************************************/
-/*! exports provided: wrapper, css, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./node_modules/react/jsx-runtime.js":
+/*!*******************************************!*\
+  !*** ./node_modules/react/jsx-runtime.js ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "wrapper", function() { return wrapper; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "css", function() { return css; });
-const wrapper = 'aaae60';const css = '.aaae60{position:relative;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));grid-gap:40px}.aaae60-item{position:relative;cursor:default;z-index:10;transition:none .15s ease-out}.aaae60-item:after{content:"";position:absolute;top:-10px;bottom:-15px;left:-10px;right:-10px;background:#fff;z-index:-1;border:1px solid #26a69a;border-radius:7px;box-shadow:0 25px 20px -20px rgba(0,0,0,.25);opacity:0;transition:inherit;transition-property:opacity}.aaae60-item>.thumbnail{position:relative;width:100%;padding-bottom:56.25%;height:0;display:block;background:no-repeat 50% 50%;background-size:cover;border-radius:5px 5px 0 0;border:solid #26a69a;border-width:1px 1px 0;transition:inherit;transition-property:-webkit-filter;transition-property:filter;transition-property:filter,-webkit-filter;overflow:hidden;background:#26a69a}.aaae60-item>.thumbnail>img{display:block;position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover}.aaae60-item>.links{display:block;margin-top:0;text-align:left;border-radius:0 0 5px 5px;border:1px solid #26a69a;border-top:0;background:#26a69a}.aaae60-item>.links,.aaae60-item>.links>a{height:50px;overflow:hidden;transition:inherit}.aaae60-item>.links>a{color:transparent !important;display:inline-block;width:50%;position:relative;vertical-align:top;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;transition-property:background-color}.aaae60-item>.links>a:after{content:"";position:absolute;top:0;bottom:0;left:0;right:0;box-shadow:inset 0 5px 10px rgba(0,0,0,.25)}.aaae60-item>.links>a svg{position:absolute;top:50%;left:50%;width:30px;height:30px;margin-top:-15px;margin-left:-15px;fill:#26a69a;display:block;fill:#fff;transition:inherit;transition-property:-webkit-transform;transition-property:transform;transition-property:transform,-webkit-transform}.aaae60-item>.links>a.bilibili{background:#67acc3}.aaae60-item>.links>a.youtube{background:#d27979}html.is-hover .aaae60-item>.links>a:hover svg{-webkit-transform:scale(1.2);transform:scale(1.2)}html.is-hover .aaae60-item>.links>a:focus{outline:0}html.is-hover .aaae60-item>.links>a:focus:not(:active) svg{-webkit-transform:scale(1.2);transform:scale(1.2)}.aaae60-item>.infos{width:100%;display:-webkit-flex;display:flex;margin-top:12px;-webkit-flex-flow:row wrap;flex-flow:row wrap;padding:0 8px 0 4px}.aaae60-item>.infos>.date,.aaae60-item>.infos>.name,.aaae60-item>.infos>.tags{display:block}.aaae60-item>.infos>.tags{-webkit-flex:1;flex:1;margin-bottom:.5em}.aaae60-item>.infos>.tags .tag{margin-right:.5em}.aaae60-item>.infos>.name{-webkit-flex:1 0 100%;flex:1 0 100%;color:#26a69a;font-size:20px;line-height:1.2}.aaae60-item>.infos>.date{-webkit-flex:0;flex:0;font-size:14px;line-height:1.2;font-style:italic;white-space:nowrap;margin-top:4px;margin-left:1em}html.is-hover .aaae60-item:hover>.thumbnail{-webkit-filter:none;filter:none}html.is-hover .aaae60-item:hover>.links>a.bilibili{background:#07a3d7}html.is-hover .aaae60-item:hover>.links>a.youtube{background:red}html.is-hover .aaae60-item:hover:after{opacity:1}html.is-hover .aaae60-item:focus{outline:0}html.is-hover .aaae60-item:focus:not(:active)>.thumbnail{-webkit-filter:none;filter:none}html.is-hover .aaae60-item:focus:not(:active)>.links>a.bilibili{background:#07a3d7}html.is-hover .aaae60-item:focus:not(:active)>.links>a.youtube{background:red}html.is-hover .aaae60-item:focus:not(:active):after{opacity:1}.aaae60-item.mod-has-source{cursor:pointer;text-decoration:none;transition-property:-webkit-transform;transition-property:transform;transition-property:transform,-webkit-transform}.aaae60-item.mod-has-source:active,html.is-hover .aaae60-item.mod-has-source:hover:active{-webkit-transform:scale(.95);transform:scale(.95)}.aaae60-item.mod-has-source>.thumbnail{border-radius:5px;border-bottom-width:1px}';/* harmony default export */ __webpack_exports__["default"] = ({wrapper,css});
 
-/***/ }),
 
-/***/ "./src/constants/action-types.ts":
-/*!***************************************!*\
-  !*** ./src/constants/action-types.ts ***!
-  \***************************************/
-/*! exports provided: SET_APP_MODE, UPDATE_VIDEO_LIST */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SET_APP_MODE", function() { return SET_APP_MODE; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UPDATE_VIDEO_LIST", function() { return UPDATE_VIDEO_LIST; });
-const SET_APP_MODE = 'SET_APP_MODE';
-const UPDATE_VIDEO_LIST = 'UPDATE_VIDEO_LIST';
-
-/***/ }),
-
-/***/ "./src/constants/app-mode.ts":
-/*!***********************************!*\
-  !*** ./src/constants/app-mode.ts ***!
-  \***********************************/
-/*! exports provided: NORMAL, PWA */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NORMAL", function() { return NORMAL; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PWA", function() { return PWA; });
-const NORMAL = 'normal';
-const PWA = 'pwa';
-
-/***/ }),
-
-/***/ "./src/constants/cookie-name.ts":
-/*!**************************************!*\
-  !*** ./src/constants/cookie-name.ts ***!
-  \**************************************/
-/*! exports provided: VIDEO_SOURCE */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VIDEO_SOURCE", function() { return VIDEO_SOURCE; });
-const VIDEO_SOURCE = 'VIDEO_SOURCE';
-
-/***/ }),
-
-/***/ "./src/constants/video-sources.ts":
-/*!****************************************!*\
-  !*** ./src/constants/video-sources.ts ***!
-  \****************************************/
-/*! exports provided: default, names */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "names", function() { return names; });
-const sources = ['bilibili', 'youtube'];
-/* harmony default export */ __webpack_exports__["default"] = (sources);
-const names = {
-  bilibili: '哔哩哔哩',
-  youtube: 'YouTube'
-};
-
-/***/ }),
-
-/***/ "./src/constants/video-tags.ts":
-/*!*************************************!*\
-  !*** ./src/constants/video-tags.ts ***!
-  \*************************************/
-/*! exports provided: default, names */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "names", function() { return names; });
-const tags = ['landing', 'airport', 'tour', 'device', 'mod', 'training', 'clip'];
-/* harmony default export */ __webpack_exports__["default"] = (tags);
-const names = {
-  clip: '片段',
-  training: '训练',
-  landing: '降落',
-  airport: '机场',
-  device: '设备',
-  mod: 'MOD/插件',
-  tour: '景观'
-};
+if (false) {} else {
+  module.exports = __webpack_require__(/*! ./cjs/react-jsx-runtime.development.js */ "./node_modules/react/cjs/react-jsx-runtime.development.js");
+}
 
 /***/ }),
 
@@ -13310,15 +9091,17 @@ const names = {
 /*!*****************************!*\
   !*** ./src/index.inject.js ***!
   \*****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
 /* global
     __SVG_ICON_PACK__:false
 */
-/* harmony default export */ __webpack_exports__["default"] = ({
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   performanceInfos: () => `<!-- rendered: ${new Date().toISOString()} -->`,
   svgIconPack: "<svg aria-hidden=\"true\" style=\"position: absolute; width: 0; height: 0; overflow: hidden;\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n<defs>\r\n<symbol id=\"icon-bilibili\" viewBox=\"0 0 35 32\">\r\n<path d=\"M20.807 9.893c0.094 0.141 0.752 4.873 0.58 4.904s-1.394 0.313-1.394 0.313c-0.094-0.642-0.893-4.622-0.909-5.029zM22.076 14.719c0.329-0.016 1.661-0.11 1.786-0.125-0.204-1.927-0.517-4.967-0.517-4.967-0.627-0.125-1.285-0.125-1.911 0zM24.113 16.317c0.533 1.927 1.504 12.738 1.598 13.177-0.658 0.078-2.82 0.266-2.993 0.313-0.141-0.815-2.554-12.597-2.554-13.114zM32.62 10.159c0.031 0.376 0.188 4.92 0.016 4.935s-1.394 0.125-1.394 0.125c-0.031-0.627-0.36-4.591-0.345-5.014zM33.388 15.11c0.329 0 1.645 0.078 1.786 0.063-0.031-1.927 0-4.967 0-4.967-0.627-0.11-1.269-0.141-1.911-0.125zM35.205 16.912c0.219 2.256 0.188 12.769 0.219 13.208-0.674 0-2.82 0.031-2.993 0.063-0.016-0.815-1.238-12.832-1.191-13.349zM27.419 28.459c0 0 1.347 0.031 2.867 0.125-0.893-9.385-1.99-24.379-1.974-24.88-0.376-0.407-3.948 0.204-3.948 0.204zM20.603 24.511c-0.329-2.444-9.072-5.217-13.991-4.324 0 0-0.611-5.39-0.846-10.607-0.204-4.481-0.031-8.837 0.016-9.557-0.329-0.219-3.87 1.457-5.781 2.162 0 0 2.288 9.683 3.948 29.769 0 0 2.648 0.282 7.191-0.595s9.918-3.619 9.463-6.847zM9.918 28.913l-0.768-5.531c0.188-0.094 4.904 1.661 5.405 1.974-0.078 0.345-4.638 3.557-4.638 3.557z\"></path>\r\n</symbol>\r\n<symbol id=\"icon-youtube\" viewBox=\"0 0 32 32\">\r\n<path d=\"M31.682 9.6c0 0-0.312-2.206-1.274-3.174-1.218-1.274-2.582-1.282-3.206-1.356-4.474-0.326-11.194-0.326-11.194-0.326h-0.012c0 0-6.718 0-11.194 0.326-0.626 0.076-1.988 0.082-3.206 1.356-0.962 0.968-1.268 3.174-1.268 3.174s-0.318 2.588-0.318 5.182v2.426c0 2.588 0.318 5.182 0.318 5.182s0.312 2.206 1.268 3.176c1.218 1.274 2.818 1.232 3.532 1.368 2.562 0.244 10.882 0.318 10.882 0.318s6.726-0.012 11.2-0.332c0.626-0.074 1.988-0.082 3.206-1.356 0.962-0.968 1.274-3.176 1.274-3.176s0.318-2.588 0.318-5.182v-2.426c-0.006-2.588-0.324-5.182-0.324-5.182zM12.694 20.15v-8.994l8.644 4.512-8.644 4.482z\"></path>\r\n</symbol>\r\n</defs>\r\n</svg>\r\n"
 });
@@ -13329,11 +9112,13 @@ __webpack_require__.r(__webpack_exports__);
 /*!*****************************!*\
   !*** ./src/routes/index.js ***!
   \*****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
 /* harmony import */ var _views_app__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @views/app */ "./src/views/app.jsx");
 // import routeCheck from 'koot/React/route-check';
 
@@ -13343,9 +9128,9 @@ __webpack_require__.r(__webpack_exports__);
  * - 可使用 koot-router 提供的方法封装路由配置对象
  */
 
-/* harmony default export */ __webpack_exports__["default"] = ({
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   path: '/',
-  component: _views_app__WEBPACK_IMPORTED_MODULE_0__["default"] // 项目的根层组件
+  component: _views_app__WEBPACK_IMPORTED_MODULE_0__.default // 项目的根层组件
   // indexRoute: {
   //     /**
   //      * 标准写法: 打包后，该组件会存在于核心包中
@@ -13376,11 +9161,13 @@ __webpack_require__.r(__webpack_exports__);
 /*!******************************!*\
   !*** ./src/server/before.js ***!
   \******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
 /* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./routes */ "./src/server/routes/index.js");
 /**
  * **服务器端生命周期**
@@ -13388,9 +9175,9 @@ __webpack_require__.r(__webpack_exports__);
  * _创建 Koa 实例后、挂载任何中间件之前_
  */
 
-/* harmony default export */ __webpack_exports__["default"] = (async app => {
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (async app => {
   // 挂载路由
-  app.use(_routes__WEBPACK_IMPORTED_MODULE_0__["default"]);
+  app.use(_routes__WEBPACK_IMPORTED_MODULE_0__.default);
 });
 
 /***/ }),
@@ -13399,12 +9186,14 @@ __webpack_require__.r(__webpack_exports__);
 /*!************************************!*\
   !*** ./src/server/routes/index.js ***!
   \************************************/
-/*! exports provided: router, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "router", function() { return router; });
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "router": () => (/* binding */ router),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
 /* harmony import */ var koa_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! koa-router */ "koa-router");
 /* harmony import */ var koa_router__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(koa_router__WEBPACK_IMPORTED_MODULE_0__);
 
@@ -13413,7 +9202,7 @@ __webpack_require__.r(__webpack_exports__);
 const router = koa_router__WEBPACK_IMPORTED_MODULE_0___default()();
 /** @type {Object} 服务器路由表 */
 
-/* harmony default export */ __webpack_exports__["default"] = (router.routes()); // ----------------------------------------------------------------------------
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (router.routes()); // ----------------------------------------------------------------------------
 
 router.get('/api/timestamp', async ctx => {
   ctx.set('Access-Control-Allow-Origin', '*');
@@ -13428,14 +9217,16 @@ router.get('/api/timestamp', async ctx => {
 /*!****************************!*\
   !*** ./src/store/index.js ***!
   \****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var koot__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! koot */ "./node_modules/koot/index.js");
-/* harmony import */ var _reducers_videos__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./reducers/videos */ "./src/store/reducers/videos.js");
-/* harmony import */ var _reducers_app__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./reducers/app */ "./src/store/reducers/app.js");
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var koot__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! koot */ "./node_modules/koot/index.js");
+/* harmony import */ var _reducers_videos__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./reducers/videos */ "./src/store/reducers/videos.js");
+/* harmony import */ var _reducers_app__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./reducers/app */ "./src/store/reducers/app.js");
 
 
 
@@ -13447,8 +9238,8 @@ __webpack_require__.r(__webpack_exports__);
  */
 
 const appReducer = {
-  app: _reducers_app__WEBPACK_IMPORTED_MODULE_2__["default"],
-  videos: _reducers_videos__WEBPACK_IMPORTED_MODULE_1__["default"]
+  app: _reducers_app__WEBPACK_IMPORTED_MODULE_1__.default,
+  videos: _reducers_videos__WEBPACK_IMPORTED_MODULE_0__.default
 };
 /** @type {Array} 项目使用的 middleware 列表 */
 
@@ -13462,7 +9253,7 @@ if (false) {}
  * 本例为 Redux 最基本的写法
  */
 
-/* harmony default export */ __webpack_exports__["default"] = (() => Object(koot__WEBPACK_IMPORTED_MODULE_0__["createStore"])(appReducer, appMiddlewares));
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (() => (0,koot__WEBPACK_IMPORTED_MODULE_2__.createStore)(appReducer, appMiddlewares));
 
 /***/ }),
 
@@ -13470,24 +9261,26 @@ if (false) {}
 /*!***********************************!*\
   !*** ./src/store/reducers/app.js ***!
   \***********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* export default binding */ __WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
 /* harmony import */ var _constants_action_types__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @constants/action-types */ "./src/constants/action-types.ts");
 /* harmony import */ var _constants_app_mode__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @constants/app-mode */ "./src/constants/app-mode.ts");
 
 
 const initialState = {
-  mode: _constants_app_mode__WEBPACK_IMPORTED_MODULE_1__["NORMAL"]
+  mode: _constants_app_mode__WEBPACK_IMPORTED_MODULE_1__.NORMAL
 };
-/* harmony default export */ __webpack_exports__["default"] = (function (state = initialState, {
+/* harmony default export */ function __WEBPACK_DEFAULT_EXPORT__(state = initialState, {
   type,
   payload
 } = {}) {
   switch (type) {
-    case _constants_action_types__WEBPACK_IMPORTED_MODULE_0__["SET_APP_MODE"]:
+    case _constants_action_types__WEBPACK_IMPORTED_MODULE_0__.SET_APP_MODE:
       {
         return { ...state,
           mode: payload
@@ -13497,7 +9290,7 @@ const initialState = {
     default:
       return state;
   }
-});
+}
 
 /***/ }),
 
@@ -13505,20 +9298,22 @@ const initialState = {
 /*!**************************************!*\
   !*** ./src/store/reducers/videos.js ***!
   \**************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* export default binding */ __WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
 /* harmony import */ var _constants_action_types__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @constants/action-types */ "./src/constants/action-types.ts");
 
 const initialState = [];
-/* harmony default export */ __webpack_exports__["default"] = (function (state = initialState, {
+/* harmony default export */ function __WEBPACK_DEFAULT_EXPORT__(state = initialState, {
   type,
   payload
 } = {}) {
   switch (type) {
-    case _constants_action_types__WEBPACK_IMPORTED_MODULE_0__["UPDATE_VIDEO_LIST"]:
+    case _constants_action_types__WEBPACK_IMPORTED_MODULE_0__.UPDATE_VIDEO_LIST:
       {
         return payload !== null && payload !== void 0 ? payload : state;
       }
@@ -13526,6 +9321,689 @@ const initialState = [];
     default:
       return state;
   }
+}
+
+/***/ }),
+
+/***/ "./node_modules/koot/ReactApp/server/root-isomorphic.jsx":
+/*!***************************************************************!*\
+  !*** ./node_modules/koot/ReactApp/server/root-isomorphic.jsx ***!
+  \***************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-redux */ "react-redux");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router */ "react-router");
+/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_router__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _React_root_context__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../React/root-context */ "./node_modules/koot/React/root-context.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+ // import { idDivStylesContainer, StyleMapContext } from '../../React/styles'
+
+
+
+const Root = ({
+  store,
+  ctx,
+  ...props
+}) => {
+  // console.log('Root', {
+  //     'in __KOOT_SSR__': __KOOT_SSR__.LocaleId
+  // })
+  // console.log('Root render Store', typeof Store === 'undefined' ? undefined : Store)
+  return (
+    /*#__PURE__*/
+    // <StyleMapContext.Provider value={{}}>
+    (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_React_root_context__WEBPACK_IMPORTED_MODULE_3__.default.Provider, {
+      value: (0,_React_root_context__WEBPACK_IMPORTED_MODULE_3__.createValue)({
+        store,
+        history: props.history,
+        localeId: props.localeId,
+        locales: props.locales,
+        styles: props.styles,
+        ctx
+      }),
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_redux__WEBPACK_IMPORTED_MODULE_0__.Provider, {
+        store: store,
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_router__WEBPACK_IMPORTED_MODULE_1__.RouterContext, { ...props
+        })
+      })
+    }) // <StylesContainer />
+    // </StyleMapContext.Provider>
+
+  );
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Root);
+/**
+ * React 组件: 样式表内容容器
+ */
+// const StylesContainer = () =>
+//     <div
+//         id={idDivStylesContainer}
+//         dangerouslySetInnerHTML={{
+//             __html: Object.keys(__KOOT_SSR__.styleMap)
+//                 .filter(id => !!__KOOT_SSR__.styleMap[id].css)
+//                 .map(id => `<style id="${id}">${__KOOT_SSR__.styleMap[id].css}</style>`)
+//                 .join('')
+//         }}
+//     />
+// let e = Root
+// if (__DEV__) {
+//     const { hot, setConfig } = require('react-hot-loader')
+//     setConfig({ logLevel: 'debug' })
+//     e = hot(module)(Root)
+// }
+// export default e
+
+/***/ }),
+
+/***/ "./node_modules/koot/React/component-extender.jsx":
+/*!********************************************************!*\
+  !*** ./node_modules/koot/React/component-extender.jsx ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "react-redux");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! hoist-non-react-statics */ "hoist-non-react-statics");
+/* harmony import */ var hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _defaults_defines_server__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../defaults/defines-server */ "./node_modules/koot/defaults/defines-server.js");
+/* harmony import */ var _defaults_defines_server__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_defaults_defines_server__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _get_render_props__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./get-render-props */ "./node_modules/koot/React/get-render-props.js");
+/* harmony import */ var _styles__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./styles */ "./node_modules/koot/React/styles.js");
+/* harmony import */ var _client_update_page_info__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./client-update-page-info */ "./node_modules/koot/React/client-update-page-info.js");
+/* harmony import */ var _redux__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./redux */ "./node_modules/koot/React/redux.js");
+/* harmony import */ var _is_render_safe__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./is-render-safe */ "./node_modules/koot/React/is-render-safe.js");
+/* harmony import */ var _is_render_safe__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_is_render_safe__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _root_context__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./root-context */ "./node_modules/koot/React/root-context.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+/* __KOOT_DEV_NO_REACT_HOT_INJECT__ */
+
+ // import { hot } from 'react-hot-loader'
+// import PropTypes from 'prop-types'
+
+
+ //
+
+
+
+
+
+
+ //
+// 是否已挂载了组件
+
+
+let everMounted = false; // const defaultPageInfo = {
+//     title: '',
+//     metas: []
+// }
+
+/**
+ * @type {Number}
+ * _开发环境_
+ * _服务器_
+ * 使用该高阶组件的次数
+ */
+
+let devSSRConnectIndex = 0;
+/**
+ * 获取数据
+ * @callback callbackFetchData
+ * @param {Object} state 当前 state
+ * @param {Object} renderProps 封装的同构 props
+ * @param {Function} dispatch Redux dispatch
+ * @returns {Promise}
+ */
+
+/**
+ * 判断数据是否准备好
+ * @callback callbackCheckLoaded
+ * @param {Object} state 当前 state
+ * @param {Object} renderProps 封装的同构 props
+ * @returns {boolean}
+ */
+
+/**
+ * 获取页面信息
+ * @callback callbackGetPageInfo
+ * @param {Object} state 当前 state
+ * @param {Object} renderProps 封装的同构 props
+ * @returns {Object}
+ */
+
+/**
+ * 获取同构数据的执行方法
+ * @param {Object} store
+ * @param {Object} props renderProps
+ * @returns {Promise}
+ */
+
+const doFetchData = (store, renderProps, funcFetch) => {
+  // return new Promise((resolve) => resolve());
+  if (!_is_render_safe__WEBPACK_IMPORTED_MODULE_4___default()()) return  false ? 0 : undefined;
+  const result = funcFetch(store.getState(), renderProps, store.dispatch); // if (result === true) {
+  //     isDataPreloaded = true
+  //     return new Promise(resolve => resolve())
+  // }
+
+  if (Array.isArray(result)) return Promise.all(result);
+  if (result instanceof Promise) return result;
+  return new Promise(resolve => resolve(result));
+};
+/**
+ * 更新页面信息
+ * @param {Object} store
+ * @param {Object} props renderProps
+ * @returns {Object} infos
+ * @returns {String} infos.title
+ * @returns {Array} infos.metas
+ */
+
+
+const doPageinfo = (store, props, pageinfo) => {
+  if (!_is_render_safe__WEBPACK_IMPORTED_MODULE_4___default()()) return {};
+  const defaultPageInfo = {
+    title: '',
+    metas: []
+  };
+  if (typeof pageinfo !== 'function' && typeof pageinfo !== 'object') return defaultPageInfo;
+  const state = store.getState();
+
+  const infos = (() => {
+    if (typeof pageinfo === 'object') return pageinfo;
+    const infos = pageinfo(state, props);
+    if (typeof infos !== 'object') return defaultPageInfo;
+    return infos;
+  })();
+
+  const {
+    title = defaultPageInfo.title,
+    metas = defaultPageInfo.metas
+  } = infos;
+
+  if (state.localeId) {
+    if (!metas.some(meta => {
+      if (meta.name === 'koot-locale-id') {
+        meta.content = state.localeId;
+        return true;
+      }
+
+      return false;
+    })) {
+      metas.push({
+        name: 'koot-locale-id',
+        content: state.localeId
+      });
+    }
+  }
+
+  return {
+    title,
+    metas
+  };
+}; // console.log((typeof store === 'undefined' ? `\x1b[31m×\x1b[0m` : `\x1b[32m√\x1b[0m`) + ' store in [HOC] extend')
+
+/**
+ * 高阶组件/组件装饰器：组件扩展
+ * @param {Object} options 选项
+ * @param {boolean|Function} [options.connect] react-redux 的 connect() 的参数。如果为 true，表示使用 connect()，但不连接任何数据
+ * @param {Object|callbackGetPageInfo} [options.pageinfo]
+ * @param {Object} [options.data] 同构数据相关
+ * @param {callbackFetchData} [options.data.fetch]
+ * @param {callbackCheckLoaded} [options.data.check]
+ * @param {Object} [options.styles] 组件 CSS 结果
+ * @returns {Function} 封装好的 React 组件
+ */
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((options = {}) => WrappedComponent => {
+  // console.log((typeof store === 'undefined' ? `\x1b[31m×\x1b[0m` : `\x1b[32m√\x1b[0m`) + ' store in [HOC] extend run')
+  const {
+    connect: _connect = false,
+    pageinfo,
+    data: {
+      fetch: _dataFetch,
+      check: dataCheck,
+      resetWhenUnmount: dataResetWhenUnmount
+    } = {},
+    styles: _styles,
+    ssr = true // ttt
+    // hot: _hot = true,
+    // name
+
+  } = options; // console.log('extend hoc run', { name, LocaleId })
+  // 样式相关
+
+  /** @type {Object} 经过 koot-css-loader 处理后的 css 文件的结果对象 */
+
+  const styles = (!Array.isArray(_styles) ? [_styles] : _styles).filter(obj => typeof obj === 'object' && typeof obj.wrapper === 'string');
+  /** @type {boolean} 是否有上述结果对象 */
+
+  const hasStyles = Array.isArray(styles) && styles.length > 0; // console.log({ ttt, hasStyles, styles })
+
+  /** @type {boolean} 是否有 pageinfo 对象 */
+
+  const hasPageinfo = typeof pageinfo === 'function' || typeof pageinfo === 'object'; // 同构数据相关
+
+  /** @type {boolean} 同构数据是否已经获取成功 */
+  // let isDataPreloaded = false
+
+  /** @type {Function} 获取同构数据 */
+
+  const dataFetch = typeof options.data === 'function' || Array.isArray(options.data) ? options.data : typeof _dataFetch === 'function' || Array.isArray(_dataFetch) ? _dataFetch : undefined; // 装饰组件
+
+  class KootReactComponent extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
+    //
+    clientUpdatePageInfo(to) {
+      if (true) return;
+      if (!hasPageinfo) return;
+      const {
+        title,
+        metas
+      } = typeof to === 'function' ? doPageinfo(this.context.store, this.getRenderProps(), to) : to || doPageinfo(this.context.store, this.getRenderProps(), pageinfo);
+      (0,_client_update_page_info__WEBPACK_IMPORTED_MODULE_5__.default)(title || "飞行员大波胡", metas);
+    }
+
+    getRenderProps() {
+      return (0,_get_render_props__WEBPACK_IMPORTED_MODULE_6__.fromComponentProps)(this.props);
+    } //
+
+
+    //
+    constructor(props, context) {
+      super(props, context);
+      /**
+       * _服务器端_
+       * 将组件注册到同构渲染对象中
+       */
+
+      _defineProperty(this, "state", {
+        loaded: typeof dataCheck === 'function' ? dataCheck(this.context.store.getState(), this.getRenderProps()) : undefined
+      });
+
+      _defineProperty(this, "mounted", false);
+
+      _defineProperty(this, "kootClassNames", []);
+
+      if (true) {
+        const {
+          [_defaults_defines_server__WEBPACK_IMPORTED_MODULE_7__.ssrContext]: SSR
+        } = context.ctx;
+
+        if (SSR[_defaults_defines_server__WEBPACK_IMPORTED_MODULE_7__.needConnectComponents]) {
+          if (false) {}
+
+          if (Array.isArray(SSR.connectedComponents)) SSR.connectedComponents.unshift(KootComponent);
+        }
+      }
+
+      if (!_is_render_safe__WEBPACK_IMPORTED_MODULE_4___default()()) return;
+
+      if (hasStyles) {
+        this.kootClassNames = styles.map(obj => obj.wrapper);
+        (0,_styles__WEBPACK_IMPORTED_MODULE_8__.append)(this.getStyleMap(), styles); // console.log('----------')
+        // console.log('styles', styles)
+        // console.log('theStyles', theStyles)
+        // console.log('this.classNameWrapper', this.classNameWrapper)
+        // console.log('----------')
+      }
+    }
+    /**
+     * 获取 styleMap
+     * - 服务器端: 全局常量中的对照表
+     * - 客户端: 静态对象 styles
+     */
+
+
+    getStyleMap()
+    /*context*/
+    {
+      if (true) return this.context.styles;
+      return KootReactComponent.styles;
+    } //
+
+
+    componentDidUpdate(prevProps) {
+      // if (
+      //     typeof prevProps.location === 'object' &&
+      //     typeof this.props.location === 'object' &&
+      //     prevProps.location.pathname !== this.props.location.pathname
+      // )
+      this.clientUpdatePageInfo();
+    }
+
+    componentDidMount() {
+      this.mounted = true;
+
+      if (!this.state.loaded && typeof dataFetch !== 'undefined') {
+        doFetchData(this.context.store, this.getRenderProps(), dataFetch).then(() => {
+          if (!this.mounted) return;
+          this.setState({
+            loaded: true
+          });
+        });
+      }
+
+      this.clientUpdatePageInfo();
+
+      if (hasPageinfo && this.mounted) {
+        setTimeout(() => {
+          if (this && this.mounted) {
+            this.clientUpdatePageInfo();
+          }
+        }, 500);
+      }
+
+      if (everMounted) {} else {
+        everMounted = true;
+      }
+    }
+
+    componentWillUnmount() {
+      this.mounted = false;
+
+      if (hasStyles) {
+        (0,_styles__WEBPACK_IMPORTED_MODULE_8__.remove)(this.getStyleMap(), styles);
+      }
+
+      if (typeof dataResetWhenUnmount === 'object') {
+        setTimeout(() => {
+          this.props.dispatch({
+            type: _redux__WEBPACK_IMPORTED_MODULE_9__.RESET_CERTAIN_STATE,
+            data: dataResetWhenUnmount
+          });
+        });
+      }
+    } //
+
+
+    render() {
+      // console.log('styles', styles)
+      // console.log('this', this)
+      // console.log('this.kootClassNames', this.kootClassNames)
+      // console.log('this.props.className', this.props.className)
+      if (true) {
+        if (ssr === false) return null;
+        if (ssr !== true) return ssr;
+      }
+
+      if (false) {}
+
+      const props = Object.assign({}, this.props, {
+        className: this.kootClassNames.concat(this.props.className).join(' ').trim(),
+        'data-class-name': this.kootClassNames.join(' ').trim()
+      });
+      if (hasPageinfo) props.updatePageinfo = this.clientUpdatePageInfo.bind(this); // if (__SERVER__) console.log('extender this.state.loaded', this.state.loaded)
+
+      if (typeof dataFetch !== 'undefined' && typeof dataCheck === 'function') props.loaded = this.state.loaded; // if (typeof props.forwardedRef !== 'undefined') {
+      //     console.log(props.forwardedRef);
+      // }
+
+      if (typeof props.kootForwardedRef !== 'undefined') {
+        props.forwardedRef = props.kootForwardedRef;
+        delete props.kootForwardedRef;
+      }
+
+      return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(WrappedComponent, { ...props
+      });
+    }
+
+  }
+
+  _defineProperty(KootReactComponent, "onServerRenderHtmlExtend", ({
+    store,
+    renderProps = {}
+  }) => {
+    const {
+      title,
+      metas
+    } = doPageinfo(store, (0,_get_render_props__WEBPACK_IMPORTED_MODULE_6__.fromServerProps)(renderProps), pageinfo);
+    return {
+      title,
+      metas
+    };
+  });
+
+  KootReactComponent.contextType = _root_context__WEBPACK_IMPORTED_MODULE_10__.default;
+  KootReactComponent.styles = {};
+
+  if (typeof dataFetch !== 'undefined') {
+    KootReactComponent.onServerRenderStoreExtend = ({
+      store,
+      renderProps
+    }) => doFetchData(store, (0,_get_render_props__WEBPACK_IMPORTED_MODULE_6__.fromServerProps)(renderProps), dataFetch);
+  } // if (_hot && __DEV__ && __CLIENT__) {
+  //     const { hot, setConfig } = require('react-hot-loader')
+  //     setConfig({ logLevel: 'debug' })
+  //     KootComponent = hot(module)(KootComponent)
+  // }
+  // if (typeof styles === 'object' &&
+  //     typeof styles.wrapper === 'string'
+  // ) {
+  //     KootComponent = ImportStyle(styles)(KootComponent)
+  // }
+
+
+  let KootComponent = hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_2___default()(KootReactComponent, WrappedComponent); // if (typeof styles === 'object' &&
+  //     typeof styles.wrapper === 'string'
+  // ) {
+  //     KootComponent = ImportStyle(styles)(KootComponent)
+  // }
+
+  if (_connect === true) {
+    KootComponent = (0,react_redux__WEBPACK_IMPORTED_MODULE_1__.connect)(() => ({}), undefined, undefined, {
+      forwardRef: true
+    })(KootComponent);
+  } else if (typeof _connect === 'function') {
+    KootComponent = (0,react_redux__WEBPACK_IMPORTED_MODULE_1__.connect)(_connect, undefined, undefined, {
+      forwardRef: true
+    })(KootComponent);
+  } else if (Array.isArray(_connect)) {
+    if (typeof _connect[3] !== 'object') _connect[3] = {};
+    _connect[3].forwardRef = true;
+    KootComponent = (0,react_redux__WEBPACK_IMPORTED_MODULE_1__.connect)(..._connect)(KootComponent);
+  } // return KootComponent;
+
+
+  return /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.forwardRef)((props, ref) => {
+    if (props.forwardedRef) return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(KootComponent, { ...props,
+      kootForwardedRef: props.forwardedRef
+    });
+    if (ref) return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(KootComponent, { ...props,
+      kootForwardedRef: ref
+    });
+    return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(KootComponent, { ...props
+    });
+  });
+});
+
+/***/ }),
+
+/***/ "./src/components/icon/index.jsx":
+/*!***************************************!*\
+  !*** ./src/components/icon/index.jsx ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var koot__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! koot */ "./node_modules/koot/React/component-extender.jsx");
+/* harmony import */ var _index_module_less__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.module.less */ "./src/components/icon/index.module.less");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+const Icon = (0,koot__WEBPACK_IMPORTED_MODULE_2__.default)({
+  styles: _index_module_less__WEBPACK_IMPORTED_MODULE_0__.default
+})(({
+  className,
+  style,
+  id,
+  icon,
+  ...props
+}) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
+  xmlns: "http://www.w3.org/2000/svg",
+  xmlnsXlink: "http://www.w3.org/1999/xlink",
+  className: className,
+  style: style,
+  ...props,
+  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("use", {
+    xlinkHref: '#icon-' + (id || icon)
+  })
+}));
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Icon);
+
+/***/ }),
+
+/***/ "./src/components/video-list/index.jsx":
+/*!*********************************************!*\
+  !*** ./src/components/video-list/index.jsx ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var koot__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! koot */ "./node_modules/koot/React/component-extender.jsx");
+/* harmony import */ var _api_videos__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @api/videos */ "./src/api/videos.ts");
+/* harmony import */ var _components_icon__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @components/icon */ "./src/components/icon/index.jsx");
+/* harmony import */ var _components_tag__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @components/tag */ "./src/components/tag/index.tsx");
+/* harmony import */ var _constants_video_sources__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @constants/video-sources */ "./src/constants/video-sources.ts");
+/* harmony import */ var _index_module_less__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./index.module.less */ "./src/components/video-list/index.module.less");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+var _dec, _class, _temp;
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+
+
+
+
+ // Component Class ============================================================
+
+
+
+let VideoList = (_dec = (0,koot__WEBPACK_IMPORTED_MODULE_7__.default)({
+  connect: state => {
+    var _state$videos;
+
+    return {
+      list: (_state$videos = state.videos) !== null && _state$videos !== void 0 ? _state$videos : []
+    };
+  },
+  data: (state, renderProps, dispatch) => dispatch((0,_api_videos__WEBPACK_IMPORTED_MODULE_1__.getVideoList)()),
+  styles: _index_module_less__WEBPACK_IMPORTED_MODULE_5__.default
+}), _dec(_class = (_temp = class VideoList extends react__WEBPACK_IMPORTED_MODULE_0__.PureComponent {
+  constructor(...args) {
+    super(...args);
+
+    _defineProperty(this, "state", void 0);
+  }
+
+  render() {
+    const now = Date.now();
+    return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
+      className: this.props.className,
+      children: this.props.list.filter(({
+        release
+      }) => now > release).filter(({
+        tag
+      }) => !this.props.tag || tag.includes(this.props.tag)).map(item => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(Item, {
+        video: item,
+        source: this.props.source
+      }, item.release))
+    });
+  }
+
+}, _temp)) || _class);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (VideoList); // ============================================================================
+
+const Item = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.memo)(({
+  video: {
+    name,
+    thumbnail,
+    link,
+    release,
+    tag
+  },
+  source
+}) => {
+  const time = new Date(release);
+  const C = source ? 'a' : 'div';
+  const P = {
+    className: `${_index_module_less__WEBPACK_IMPORTED_MODULE_5__.wrapper}-item`
+  };
+
+  if (C === 'a') {
+    P.className += ' mod-has-source';
+    P.href = link[source];
+    P.target = '_blank';
+    P.rel = 'noreferrer';
+  }
+
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)(C, { ...P,
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("span", {
+      className: "thumbnail",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("img", {
+        src: thumbnail,
+        alt: name,
+        loading: "lazy"
+      })
+    }), !source && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("span", {
+      className: "links",
+      children: _constants_video_sources__WEBPACK_IMPORTED_MODULE_4__.default.map(source => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("a", {
+        href: link[source],
+        target: "_blank",
+        rel: "noreferrer",
+        className: source,
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_components_icon__WEBPACK_IMPORTED_MODULE_2__.default, {
+          className: "icon",
+          icon: source
+        }), _constants_video_sources__WEBPACK_IMPORTED_MODULE_4__.names[source]]
+      }, source))
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("span", {
+      className: "infos",
+      children: [Array.isArray(tag) && tag.length && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("span", {
+        className: "tags",
+        children: tag.map(t => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_components_tag__WEBPACK_IMPORTED_MODULE_3__.default, {
+          className: "tag",
+          tag: t
+        }, t))
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("span", {
+        className: "date",
+        children: [time.getFullYear(), " / ", time.getMonth() + 1, " /", ' ', time.getDate()]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("strong", {
+        className: "name",
+        children: name
+      })]
+    })]
+  });
 });
 
 /***/ }),
@@ -13534,30 +10012,33 @@ const initialState = [];
 /*!***************************!*\
   !*** ./src/views/app.jsx ***!
   \***************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var koot__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! koot */ "./node_modules/koot/index.js");
-/* harmony import */ var query_string__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! query-string */ "query-string");
-/* harmony import */ var query_string__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(query_string__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! classnames */ "classnames");
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! js-cookie */ "js-cookie");
-/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(js_cookie__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _components_video_list__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @components/video-list */ "./src/components/video-list/index.jsx");
-/* harmony import */ var _components_icon__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @components/icon */ "./src/components/icon/index.jsx");
-/* harmony import */ var _components_center__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @components/center */ "./src/components/center/index.tsx");
-/* harmony import */ var _components_tag__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @components/tag */ "./src/components/tag/index.tsx");
-/* harmony import */ var _api_app__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @api/app */ "./src/api/app.ts");
-/* harmony import */ var _constants_app_mode__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @constants/app-mode */ "./src/constants/app-mode.ts");
-/* harmony import */ var _constants_video_sources__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @constants/video-sources */ "./src/constants/video-sources.ts");
-/* harmony import */ var _constants_video_tags__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @constants/video-tags */ "./src/constants/video-tags.ts");
-/* harmony import */ var _constants_cookie_name__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @constants/cookie-name */ "./src/constants/cookie-name.ts");
-/* harmony import */ var _app_module_less__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./app.module.less */ "./src/views/app.module.less");
+/* harmony import */ var koot__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! koot */ "./node_modules/koot/React/component-extender.jsx");
+/* harmony import */ var query_string__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! query-string */ "query-string");
+/* harmony import */ var query_string__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(query_string__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! classnames */ "classnames");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! js-cookie */ "js-cookie");
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(js_cookie__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _components_video_list__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @components/video-list */ "./src/components/video-list/index.jsx");
+/* harmony import */ var _components_icon__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @components/icon */ "./src/components/icon/index.jsx");
+/* harmony import */ var _components_center__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @components/center */ "./src/components/center/index.tsx");
+/* harmony import */ var _components_tag__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @components/tag */ "./src/components/tag/index.tsx");
+/* harmony import */ var _api_app__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @api/app */ "./src/api/app.ts");
+/* harmony import */ var _constants_app_mode__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @constants/app-mode */ "./src/constants/app-mode.ts");
+/* harmony import */ var _constants_video_sources__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @constants/video-sources */ "./src/constants/video-sources.ts");
+/* harmony import */ var _constants_video_tags__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @constants/video-tags */ "./src/constants/video-tags.ts");
+/* harmony import */ var _constants_cookie_name__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @constants/cookie-name */ "./src/constants/cookie-name.ts");
+/* harmony import */ var _app_module_less__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./app.module.less */ "./src/views/app.module.less");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 
 
 
@@ -13574,7 +10055,9 @@ __webpack_require__.r(__webpack_exports__);
 
  // ============================================================================
 
-const App = Object(koot__WEBPACK_IMPORTED_MODULE_1__["extend"])({
+
+
+const App = (0,koot__WEBPACK_IMPORTED_MODULE_15__.default)({
   connect: true,
   pageinfo: {
     title: '飞行员大波胡 | Sim-Pilot Diablohu',
@@ -13583,75 +10066,84 @@ const App = Object(koot__WEBPACK_IMPORTED_MODULE_1__["extend"])({
   data: (state, renderProps, dispatch) => {
     if (false) {}
 
-    switch (query_string__WEBPACK_IMPORTED_MODULE_2___default.a.parse(state.routing.locationBeforeTransitions.search).utm_source) {
+    switch (query_string__WEBPACK_IMPORTED_MODULE_1___default().parse(state.routing.locationBeforeTransitions.search).utm_source) {
       case 'web_app_manifest':
-        return dispatch(Object(_api_app__WEBPACK_IMPORTED_MODULE_9__["setAppMode"])(_constants_app_mode__WEBPACK_IMPORTED_MODULE_10__["PWA"]));
+        return dispatch((0,_api_app__WEBPACK_IMPORTED_MODULE_8__.setAppMode)(_constants_app_mode__WEBPACK_IMPORTED_MODULE_9__.PWA));
 
       default:
-        dispatch(Object(_api_app__WEBPACK_IMPORTED_MODULE_9__["setAppMode"])(_constants_app_mode__WEBPACK_IMPORTED_MODULE_10__["NORMAL"]));
+        dispatch((0,_api_app__WEBPACK_IMPORTED_MODULE_8__.setAppMode)(_constants_app_mode__WEBPACK_IMPORTED_MODULE_9__.NORMAL));
     }
   },
-  styles: _app_module_less__WEBPACK_IMPORTED_MODULE_14__["default"]
+  styles: _app_module_less__WEBPACK_IMPORTED_MODULE_13__.default
 })(({
   className,
   dispatch
 }) => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.StrictMode, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: className
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Banner, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(List, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Footer, null)));
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(react__WEBPACK_IMPORTED_MODULE_0__.StrictMode, {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("div", {
+      className: className,
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(Banner, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(List, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(Footer, {})]
+    })
+  });
 });
-/* harmony default export */ __webpack_exports__["default"] = (App); // ============================================================================
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App); // ============================================================================
 
-const Banner = Object(koot__WEBPACK_IMPORTED_MODULE_1__["extend"])({
+const Banner = (0,koot__WEBPACK_IMPORTED_MODULE_15__.default)({
   connect: state => ({
     appMode: state.app.mode
   })
-})( /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_0__["memo"])(({
+})( /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.memo)(({
   appMode
 }) => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: classnames__WEBPACK_IMPORTED_MODULE_3___default()([`${_app_module_less__WEBPACK_IMPORTED_MODULE_14__["wrapper"]}-banner`, {
-      'mod-pwa': appMode === _constants_app_mode__WEBPACK_IMPORTED_MODULE_10__["PWA"]
-    }])
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "wrapper"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    className: "logo"
-  }, "\u98DE\u884C\u5458\u5927\u6CE2\u80E1 | Sim-Pilot Diablohu"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "subscribe"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://space.bilibili.com/79089",
-    target: "_blank",
-    rel: "noreferrer",
-    className: "bilibili"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_icon__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    className: "icon",
-    icon: "bilibili"
-  }), "\u5173\u6CE8"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://www.youtube.com/channel/UCJyg_CwPNweYfuwZ05VGpJg",
-    target: "_blank",
-    rel: "noreferrer",
-    className: "youtube"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_icon__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    className: "icon",
-    icon: "youtube"
-  }), "\u8BA2\u9605"))));
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("div", {
+    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()([`${_app_module_less__WEBPACK_IMPORTED_MODULE_13__.wrapper}-banner`, {
+      'mod-pwa': appMode === _constants_app_mode__WEBPACK_IMPORTED_MODULE_9__.PWA
+    }]),
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("div", {
+      className: "wrapper",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("h1", {
+        className: "logo",
+        children: "\u98DE\u884C\u5458\u5927\u6CE2\u80E1 | Sim-Pilot Diablohu"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("div", {
+        className: "subscribe",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("a", {
+          href: "https://space.bilibili.com/79089",
+          target: "_blank",
+          rel: "noreferrer",
+          className: "bilibili",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_components_icon__WEBPACK_IMPORTED_MODULE_5__.default, {
+            className: "icon",
+            icon: "bilibili"
+          }), "\u5173\u6CE8"]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("a", {
+          href: "https://www.youtube.com/channel/UCJyg_CwPNweYfuwZ05VGpJg",
+          target: "_blank",
+          rel: "noreferrer",
+          className: "youtube",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_components_icon__WEBPACK_IMPORTED_MODULE_5__.default, {
+            className: "icon",
+            icon: "youtube"
+          }), "\u8BA2\u9605"]
+        })]
+      })]
+    })
+  });
 }));
-const List = Object(koot__WEBPACK_IMPORTED_MODULE_1__["extend"])({
+const List = (0,koot__WEBPACK_IMPORTED_MODULE_15__.default)({
   connect: state => {
     var _state$server, _state$server$cookie;
 
     return {
-      defaultSource: (_state$server = state.server) === null || _state$server === void 0 ? void 0 : (_state$server$cookie = _state$server.cookie) === null || _state$server$cookie === void 0 ? void 0 : _state$server$cookie[_constants_cookie_name__WEBPACK_IMPORTED_MODULE_13__["VIDEO_SOURCE"]]
+      defaultSource: (_state$server = state.server) === null || _state$server === void 0 ? void 0 : (_state$server$cookie = _state$server.cookie) === null || _state$server$cookie === void 0 ? void 0 : _state$server$cookie[_constants_cookie_name__WEBPACK_IMPORTED_MODULE_12__.VIDEO_SOURCE]
     };
   }
-})( /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_0__["memo"])(({
+})( /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.memo)(({
   defaultSource
 }) => {
-  const HeaderRef = Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])(null);
-  const [source, setSource] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(defaultSource);
-  const [tag, setTag] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])('');
-  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
+  const HeaderRef = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
+  const [source, setSource] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(defaultSource);
+  const [tag, setTag] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)('');
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
     if (!HeaderRef || !HeaderRef.current) return;
     if (List.observer) return;
     List.observer = new IntersectionObserver(([e]) => {
@@ -13668,9 +10160,9 @@ const List = Object(koot__WEBPACK_IMPORTED_MODULE_1__["extend"])({
     const targetSource = evt.currentTarget.getAttribute('data-source');
     const newSource = targetSource === source ? undefined : targetSource;
     setSource(newSource);
-    if (newSource) js_cookie__WEBPACK_IMPORTED_MODULE_4___default.a.set(_constants_cookie_name__WEBPACK_IMPORTED_MODULE_13__["VIDEO_SOURCE"], newSource, {
+    if (newSource) js_cookie__WEBPACK_IMPORTED_MODULE_3___default().set(_constants_cookie_name__WEBPACK_IMPORTED_MODULE_12__.VIDEO_SOURCE, newSource, {
       expires: 365
-    });else js_cookie__WEBPACK_IMPORTED_MODULE_4___default.a.remove(_constants_cookie_name__WEBPACK_IMPORTED_MODULE_13__["VIDEO_SOURCE"]);
+    });else js_cookie__WEBPACK_IMPORTED_MODULE_3___default().remove(_constants_cookie_name__WEBPACK_IMPORTED_MODULE_12__.VIDEO_SOURCE);
   }
 
   function selectTag(evt) {
@@ -13679,112 +10171,826 @@ const List = Object(koot__WEBPACK_IMPORTED_MODULE_1__["extend"])({
     setTag(targetTag === tag ? undefined : targetTag);
   }
 
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: `${_app_module_less__WEBPACK_IMPORTED_MODULE_14__["wrapper"]}-list`
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "header",
-    ref: HeaderRef
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_center__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    className: "wrapper"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "title"
-  }, "\u6700\u65B0\u89C6\u9891"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "sources"
-  }, "\u89C6\u9891\u6E90", _constants_video_sources__WEBPACK_IMPORTED_MODULE_11__["default"].map(thisSource => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    key: thisSource,
-    "data-source": thisSource,
-    onClick: selectSource,
-    className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(['btn-source', {
-      'is-on': thisSource === source
-    }])
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_icon__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    className: "icon",
-    icon: thisSource
-  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "tags"
-  }, List.tags.map(({
-    label,
-    value
-  }) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_tag__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    key: value,
-    onClick: selectTag,
-    className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(['tag', {
-      'is-on': value === tag
-    }]),
-    tag: value,
-    label: label
-  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_center__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    className: "list-wrapper"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_video_list__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    className: "list",
-    source: source,
-    tag: tag
-  })));
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("div", {
+    className: `${_app_module_less__WEBPACK_IMPORTED_MODULE_13__.wrapper}-list`,
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("div", {
+      className: "header",
+      ref: HeaderRef,
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)(_components_center__WEBPACK_IMPORTED_MODULE_6__.default, {
+        className: "wrapper",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("h2", {
+          className: "title",
+          children: "\u6700\u65B0\u89C6\u9891"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("div", {
+          className: "sources",
+          children: ["\u89C6\u9891\u6E90", _constants_video_sources__WEBPACK_IMPORTED_MODULE_10__.default.map(thisSource => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("button", {
+            "data-source": thisSource,
+            onClick: selectSource,
+            className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(['btn-source', {
+              'is-on': thisSource === source
+            }]),
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_components_icon__WEBPACK_IMPORTED_MODULE_5__.default, {
+              className: "icon",
+              icon: thisSource
+            })
+          }, thisSource))]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("div", {
+          className: "tags",
+          children: List.tags.map(({
+            label,
+            value
+          }) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_components_tag__WEBPACK_IMPORTED_MODULE_7__.default, {
+            onClick: selectTag,
+            className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(['tag', {
+              'is-on': value === tag
+            }]),
+            tag: value,
+            label: label
+          }, value))
+        })]
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_components_center__WEBPACK_IMPORTED_MODULE_6__.default, {
+      className: "list-wrapper",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_components_video_list__WEBPACK_IMPORTED_MODULE_4__.default, {
+        className: "list",
+        source: source,
+        tag: tag
+      })
+    })]
+  });
 }));
 List.tags = [{
   label: '全部',
   value: ''
-}].concat(_constants_video_tags__WEBPACK_IMPORTED_MODULE_12__["default"].map(tag => ({
-  label: _constants_video_tags__WEBPACK_IMPORTED_MODULE_12__["names"][tag],
+}].concat(_constants_video_tags__WEBPACK_IMPORTED_MODULE_11__.default.map(tag => ({
+  label: _constants_video_tags__WEBPACK_IMPORTED_MODULE_11__.names[tag],
   value: tag
 })));
-const Footer = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_0__["memo"])(() => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_center__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    className: `${_app_module_less__WEBPACK_IMPORTED_MODULE_14__["wrapper"]}-footer`
-  }, "\xA9 2021", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://diablohu.com/",
-    target: "_blank",
-    rel: "noreferrer"
-  }, "diablohu.com"), ' ', "|", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://weibo.com/u/2019430291",
-    target: "_blank",
-    rel: "noreferrer"
-  }, "@diablohu (\u5FAE\u535A)"), ' ', "|", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://twitter.com/Diablohu/",
-    target: "_blank",
-    rel: "noreferrer"
-  }, "@diablohu (twitter)"));
+const Footer = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.memo)(() => {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)(_components_center__WEBPACK_IMPORTED_MODULE_6__.default, {
+    className: `${_app_module_less__WEBPACK_IMPORTED_MODULE_13__.wrapper}-footer`,
+    children: ["\xA9 2021", ' ', /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("a", {
+      href: "https://diablohu.com/",
+      target: "_blank",
+      rel: "noreferrer",
+      children: "diablohu.com"
+    }), ' ', "|", ' ', /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("a", {
+      href: "https://weibo.com/u/2019430291",
+      target: "_blank",
+      rel: "noreferrer",
+      children: "@diablohu (\u5FAE\u535A)"
+    }), ' ', "|", ' ', /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("a", {
+      href: "https://twitter.com/Diablohu/",
+      target: "_blank",
+      rel: "noreferrer",
+      children: "@diablohu (twitter)"
+    })]
+  });
 });
 
 /***/ }),
 
-/***/ "./src/views/app.module.less":
-/*!***********************************!*\
-  !*** ./src/views/app.module.less ***!
-  \***********************************/
-/*! exports provided: wrapper, css, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./.data/videos/index.ts":
+/*!*******************************!*\
+  !*** ./.data/videos/index.ts ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "wrapper", function() { return wrapper; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "css", function() { return css; });
-/* harmony import */ var D_Projects_diablohu_sp_diablohu_com_src_assets_banner_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/assets/banner.jpg */ "./src/assets/banner.jpg");
-/* harmony import */ var D_Projects_diablohu_sp_diablohu_com_src_assets_sim_pilot_plate_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./src/assets/sim-pilot-plate.svg */ "./src/assets/sim-pilot-plate.svg");
-const wrapper = 'a88a4b';const css = '.a88a4b,.a88a4b-banner{position:relative}.a88a4b-banner{background:url("' + D_Projects_diablohu_sp_diablohu_com_src_assets_banner_jpg__WEBPACK_IMPORTED_MODULE_0__["default"] + '") no-repeat 50% 50%;background-size:cover;width:100%;height:75vh;min-height:340px;max-height:800px}.a88a4b-banner:after,.a88a4b-banner:before,.a88a4b-banner>.wrapper{content:"";position:absolute;top:0;bottom:0;left:0;right:0;-webkit-flex:none;flex:none}.a88a4b-banner:after{z-index:10;background:rgba(0,0,0,.15)}.a88a4b-banner:before{z-index:100;background-image:radial-gradient(rgba(0,0,0,.1) 66.6667%,transparent 0);background-size:4px 4px}.a88a4b-banner>.wrapper{z-index:200;display:-webkit-flex;display:flex;-webkit-flex-flow:column nowrap;flex-flow:column nowrap;-webkit-justify-content:space-around;justify-content:space-around;-webkit-align-items:center;align-items:center;padding:0 30px}.a88a4b-banner>.wrapper:after,.a88a4b-banner>.wrapper:before{content:"";-webkit-flex:1;flex:1}.a88a4b-banner .logo{-webkit-flex:1;flex:1;color:transparent;background:url("' + D_Projects_diablohu_sp_diablohu_com_src_assets_sim_pilot_plate_svg__WEBPACK_IMPORTED_MODULE_1__["default"] + '") no-repeat 50% 50%;background-size:contain;margin:0;padding:0;min-height:200px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.a88a4b-banner .subscribe{-webkit-flex:none;flex:none;padding-top:5vh}.a88a4b-banner .subscribe>a{display:inline-block;line-height:40px;border-radius:10px;padding-left:60px;padding-right:20px;color:#fff;position:relative;text-decoration:none;margin:0 10px;transition:-webkit-transform .2s ease-out;transition:transform .2s ease-out;transition:transform .2s ease-out,-webkit-transform .2s ease-out}.a88a4b-banner .subscribe>a>.icon{content:"";position:absolute;display:block;top:7px;left:10px;bottom:7px;height:26px;width:40px;background:no-repeat 50% 50%;background-size:contain;fill:#fff}.a88a4b-banner .subscribe>a.youtube{background:red}.a88a4b-banner .subscribe>a.bilibili{background:#07a3d7}html.is-hover .a88a4b-banner .subscribe>a:hover{color:#fff;-webkit-transform:scale(1.1);transform:scale(1.1)}html.is-hover .a88a4b-banner .subscribe>a:focus{outline:0}html.is-hover .a88a4b-banner .subscribe>a:focus:not(:active){color:#fff;-webkit-transform:scale(1.1);transform:scale(1.1)}.a88a4b-banner .subscribe>a:active,html.is-hover .a88a4b-banner .subscribe>a:hover:active{color:#fff;-webkit-transform:scale(.95);transform:scale(.95)}.a88a4b-banner.mod-pwa{height:50vh}.a88a4b-list{position:relative;padding:20px 0 60px}.a88a4b-list:after,.a88a4b-list:before{content:"";position:absolute;top:0;bottom:0;left:0;right:0}.a88a4b-list:before{z-index:-2;background:radial-gradient(ellipse at bottom,#f6f8f8 25%,#d7dee2 100%)}.a88a4b-list:after{z-index:-1;opacity:.05;background:linear-gradient(135deg,#708090 21px,#d9ecff 22px,#d9ecff 24px,transparent 0,transparent 67px,#d9ecff 0,#d9ecff 69px,transparent 0),linear-gradient(225deg,#708090 21px,#d9ecff 22px,#d9ecff 24px,transparent 0,transparent 67px,#d9ecff 0,#d9ecff 69px,transparent 0) 0 64px;background-color:#708090;background-size:64px 128px}.a88a4b-list>.header{position:-webkit-sticky;position:sticky;top:-1px;z-index:50;padding:20px 0 24px;border-bottom:1px solid transparent;transition:none .2s ease-out;transition-property:border-bottom-color,background-color,box-shadow}.a88a4b-list>.header>.wrapper{display:-webkit-flex;display:flex;-webkit-flex-flow:row wrap;flex-flow:row wrap;-webkit-justify-content:space-around;justify-content:space-around;-webkit-align-items:center;align-items:center}.a88a4b-list>.header.is-sticky{border-bottom-color:rgba(0,0,0,.15);background:hsla(0,0%,100%,.65);-webkit-backdrop-filter:blur(20px) saturate(180%);backdrop-filter:blur(20px) saturate(180%);box-shadow:0 0 10px rgba(0,0,0,.1)}.a88a4b-list>.header .title{-webkit-flex:1;flex:1;margin:0}.a88a4b-list>.header .sources{white-space:nowrap;text-align:right;display:-webkit-flex;display:flex;-webkit-flex-flow:row nowrap;flex-flow:row nowrap;-webkit-align-items:center;align-items:center;font-size:14px;color:#78909b;cursor:default}.a88a4b-list>.header .sources .btn-source{display:inline-block;border:0;padding:0;margin:0 0 0 .75em;background:none;color:inherit;cursor:pointer;transition:-webkit-transform .2s ease-out;transition:transform .2s ease-out;transition:transform .2s ease-out,-webkit-transform .2s ease-out}html.is-hover .a88a4b-list>.header .sources .btn-source:hover{-webkit-transform:scale(1.2);transform:scale(1.2)}html.is-hover .a88a4b-list>.header .sources .btn-source:focus{outline:0}html.is-hover .a88a4b-list>.header .sources .btn-source:focus:not(:active){-webkit-transform:scale(1.2);transform:scale(1.2)}.a88a4b-list>.header .sources .btn-source:active,html.is-hover .a88a4b-list>.header .sources .btn-source:hover:active{-webkit-transform:scale(.95);transform:scale(.95)}.a88a4b-list>.header .sources .btn-source .icon{width:24px;height:24px;color:inherit;fill:currentColor}.a88a4b-list>.header .sources .btn-source.is-on[data-source=bilibili]{color:#07a3d7}.a88a4b-list>.header .sources .btn-source.is-on[data-source=youtube]{color:red}.a88a4b-list>.header .tags{-webkit-flex:1 0 100%;flex:1 0 100%;margin-top:.75em}.a88a4b-list>.header .tags .tag{margin:.75em .75em 0 0;cursor:pointer}.a88a4b-list>.header .tags .tag.is-on{cursor:default}.a88a4b-list>.header .tags .tag.is-on:after{content:"";position:absolute;border:6px solid transparent;left:50%;top:50%;margin-left:-6px;border-bottom-color:inherit;margin-top:.5em}.a88a4b-list>.list-wrapper{border-top:15px solid transparent}.a88a4b-footer{cursor:default;padding:26px 0;font-size:14px;line-height:1.5;text-align:center}';/* harmony default export */ __webpack_exports__["default"] = ({wrapper,css});
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+const videos = [{
+  name: {
+    zh: 'C·罗机场'
+  },
+  des: {
+    zh: '图马斯特（Thrustmaster）TCA 空客摇杆可以说是目前市面上比较火爆的一款模拟飞行控制器，不过很多朋友应该都遇到了尾舵操作随机偏移的问题。好在这个问题是可以通过简单的拆解就能修理的。今天我们就来动手修理一下~'
+  },
+  thumbnail: __webpack_require__(/*! ./b1cda0ff755abaeb4ab1cd45e59390d4.jpg */ "./.data/videos/b1cda0ff755abaeb4ab1cd45e59390d4.jpg").default,
+  link: {
+    youtube: 'https://youtu.be/8Q3lot3M9a0',
+    bilibili: 'https://www.bilibili.com/video/BV1Zv411Y7Y5'
+  },
+  tag: ['airport'],
+  release: 1612152000000
+}, {
+  name: {
+    zh: '动手修理图马斯特摇杆'
+  },
+  des: {
+    zh: '图马斯特（Thrustmaster）TCA 空客摇杆可以说是目前市面上比较火爆的一款模拟飞行控制器，不过很多朋友应该都遇到了尾舵操作随机偏移的问题。好在这个问题是可以通过简单的拆解就能修理的。今天我们就来动手修理一下~'
+  },
+  thumbnail: __webpack_require__(/*! ./6c69ffc66b8778fe346b0c319d44f5d8.jpg */ "./.data/videos/6c69ffc66b8778fe346b0c319d44f5d8.jpg").default,
+  link: {
+    youtube: 'https://youtu.be/Q9ygEejv0lw',
+    bilibili: 'https://www.bilibili.com/video/BV1JA411p75z'
+  },
+  tag: ['device'],
+  release: 1611462600000
+}, {
+  name: {
+    zh: '航母 MOD'
+  },
+  des: {
+    zh: '看！那是什么！是航母！这是一套为微软模拟飞行打造的航母MOD，由 HARD DECK SIMULATION（HDS）开发，售价15美元。在本期节目中我们会尝试在航母上起降各种类型的飞机，在视频后半则会介绍该 MOD 的安装、配置介绍。'
+  },
+  thumbnail: __webpack_require__(/*! ./9838857b43b4eeaec35f9734955d206a.jpg */ "./.data/videos/9838857b43b4eeaec35f9734955d206a.jpg").default,
+  link: {
+    youtube: 'https://youtu.be/sMlw3HfhPoA',
+    bilibili: 'https://www.bilibili.com/video/BV1CU4y1x7Hm'
+  },
+  tag: ['mod'],
+  release: 1610249416000
+}, {
+  name: {
+    zh: '百万分！巴黎戴高乐降落挑战'
+  },
+  des: {
+    zh: '模拟更新（Sim Update）第二弹在12月23日正式上线，除了带来了备受期待的VR功能外，还有针对空客、波音客机的大量更新，以及全新的雪景表现。不过我们今天的视频中要讲的都不是这些，而是本次更新带来的全新降落挑战——巴黎夏尔·戴高乐机场A320降落挑战。'
+  },
+  thumbnail: __webpack_require__(/*! ./7eec2d06365ea0e26cef3749be2d9daa.jpg */ "./.data/videos/7eec2d06365ea0e26cef3749be2d9daa.jpg").default,
+  link: {
+    youtube: 'https://youtu.be/lXeULVaPRLM',
+    bilibili: 'https://www.bilibili.com/video/BV12f4y1e7Nt'
+  },
+  tag: ['landing'],
+  release: 1609210057000
+}, {
+  name: {
+    zh: '云游美国'
+  },
+  des: {
+    zh: '世界更新第二弹在11月24日如期而至，对美国全境的机场、地貌、地景、地标建筑进行了大幅更新。请大家系好安全带，搭乘 DBH 航空的班机游览北美风光~'
+  },
+  thumbnail: __webpack_require__(/*! ./313356672a3f700575e2482b816a0876.jpg */ "./.data/videos/313356672a3f700575e2482b816a0876.jpg").default,
+  link: {
+    youtube: 'https://youtu.be/wSOc5o-xCeQ',
+    bilibili: 'https://www.bilibili.com/video/BV1YZ4y1g7sR'
+  },
+  tag: ['tour'],
+  release: 1607229007000
+}, {
+  name: {
+    zh: '零能见度盲降'
+  },
+  des: {
+    zh: '在全新的《微软模拟飞行》中，空客A320能否在杰克逊·霍尔机场实现零能见度盲降？我们来亲自测试下……'
+  },
+  thumbnail: __webpack_require__(/*! ./e91fc7b55e5ecb6bc4088470d90bc44f.jpg */ "./.data/videos/e91fc7b55e5ecb6bc4088470d90bc44f.jpg").default,
+  link: {
+    youtube: 'https://youtu.be/9JJhlXSBsbo',
+    bilibili: 'https://www.bilibili.com/video/BV1Ey4y1S7V6'
+  },
+  tag: ['clip', 'landing'],
+  release: 1606188616000
+}, {
+  name: {
+    zh: '百万分！杰克逊机场降落挑战'
+  },
+  des: {
+    zh: '11月10日的更新为游戏带来了一个全新的降落挑战：杰克逊·霍尔机场（Jackson Hole）。本次挑战将会驾驶 Citation CJ4 降落在 19 跑道。CJ4 我的驾驶经验不多，祝我走运。'
+  },
+  thumbnail: __webpack_require__(/*! ./ea30182d4fb9aad78be3d8689cb2dc01.jpg */ "./.data/videos/ea30182d4fb9aad78be3d8689cb2dc01.jpg").default,
+  link: {
+    youtube: 'https://youtu.be/StOJ9HkXccY',
+    bilibili: 'https://www.bilibili.com/video/BV1gD4y1X7Ng'
+  },
+  tag: ['landing'],
+  release: 1605497402000
+}, {
+  name: {
+    zh: '生涯模式 NeoFly'
+  },
+  des: {
+    zh: '一款免费的第三方程序为《微软模拟飞行》带来了生涯模式，我们来一探究竟'
+  },
+  thumbnail: __webpack_require__(/*! ./5160b605b06b3d392d498c37bcbb339d.jpg */ "./.data/videos/5160b605b06b3d392d498c37bcbb339d.jpg").default,
+  link: {
+    youtube: 'https://youtu.be/QElg8lr15tU',
+    bilibili: 'https://www.bilibili.com/video/BV1ir4y1w7aj'
+  },
+  tag: ['mod'],
+  release: 1604808000000
+}, {
+  name: {
+    zh: '万圣节降落挑战'
+  },
+  des: {
+    zh: '10月29日的更新新增了一个万圣节主题的限定降落挑战——好吓人啊~'
+  },
+  thumbnail: __webpack_require__(/*! ./c3a8c02b58d88f8b9b50208a546cc9cc.jpg */ "./.data/videos/c3a8c02b58d88f8b9b50208a546cc9cc.jpg").default,
+  link: {
+    youtube: 'https://youtu.be/6qPRsCuPMUE',
+    bilibili: 'https://www.bilibili.com/video/BV1KD4y1R7UT'
+  },
+  tag: ['landing'],
+  release: 1604201460000
+}, {
+  name: {
+    zh: '攀枝花保安营降落挑战'
+  },
+  des: {
+    zh: '就在前不久的10月16日，攀枝花保安营机场发生了一起事故，虽然没有人员伤亡，但此次事故让这座机场再次进入公众视野。通过模拟飞行，我们可以还原当时的条件，来亲自体验下在这座机场降落是不是如传说那般具有挑战性！'
+  },
+  thumbnail: __webpack_require__(/*! ./c196fddc72ff3be648b02bd722f7e564.jpg */ "./.data/videos/c196fddc72ff3be648b02bd722f7e564.jpg").default,
+  link: {
+    youtube: 'https://youtu.be/YxrXO9g-JLc',
+    bilibili: 'https://www.bilibili.com/video/BV1tz4y1C78e'
+  },
+  tag: ['landing', 'airport'],
+  release: 1603596631000
+}, {
+  name: {
+    zh: '新摇杆开箱 & 上手体验'
+  },
+  des: {
+    zh: '大波胡购入了一款新的游戏外设，意图提升模拟飞行体验……'
+  },
+  thumbnail: __webpack_require__(/*! ./0097685261463d7fc71f30738b61f94c.jpg */ "./.data/videos/0097685261463d7fc71f30738b61f94c.jpg").default,
+  link: {
+    youtube: 'https://youtu.be/XT9FdreY9ZQ',
+    bilibili: 'https://www.bilibili.com/video/BV1x54y1R7nX'
+  },
+  tag: ['device', 'tour'],
+  release: 1603078204000
+}, {
+  name: {
+    zh: '新 · 东京'
+  },
+  des: {
+    zh: '9月29日的世界更新（日本）为东京带来了测绘级的地景。但大波胡之前一直没有在游戏中看到，直到现在……'
+  },
+  thumbnail: __webpack_require__(/*! ./127e52cc910b9aba330586d98844a305.jpg */ "./.data/videos/127e52cc910b9aba330586d98844a305.jpg").default,
+  link: {
+    youtube: 'https://youtu.be/rndn4CINMQc',
+    bilibili: 'https://www.bilibili.com/video/BV1m54y117rt'
+  },
+  tag: ['tour'],
+  release: 1602127832000
+}, {
+  name: {
+    zh: '云游日本'
+  },
+  des: {
+    zh: '9月29日大型补丁更新 - World Update: Japan，大规模更新了日本的地貌、地景以及机场，同时带来了一个新的活动：云游日本'
+  },
+  thumbnail: __webpack_require__(/*! ./ac5f43094587d65ae95fbff5e94b89a3.jpg */ "./.data/videos/ac5f43094587d65ae95fbff5e94b89a3.jpg").default,
+  link: {
+    youtube: 'https://youtu.be/vNcbK0hF8mg',
+    bilibili: 'https://www.bilibili.com/video/BV13p4y1Y7wS'
+  },
+  tag: ['tour'],
+  release: 1601546435000
+}, {
+  name: {
+    zh: 'ILS 盲降'
+  },
+  des: {
+    zh: 'ILS 盲降练习 - 降落首都国际机场'
+  },
+  thumbnail: __webpack_require__(/*! ./2347093ba95dcf997f61523e4b0e3765.jpg */ "./.data/videos/2347093ba95dcf997f61523e4b0e3765.jpg").default,
+  link: {
+    youtube: 'https://youtu.be/F-jVs38ab8Y',
+    bilibili: 'https://www.bilibili.com/video/BV1kK4y1874X'
+  },
+  tag: ['landing'],
+  release: 1601092856000
+}, {
+  name: {
+    zh: '海河水上降落'
+  },
+  des: {
+    zh: '驾驶 Icon A5 游览海河'
+  },
+  thumbnail: __webpack_require__(/*! ./e8d8a06e6fb9f87beeea875d8bffc360.jpg */ "./.data/videos/e8d8a06e6fb9f87beeea875d8bffc360.jpg").default,
+  link: {
+    youtube: 'https://youtu.be/3Efm9u7TAyg',
+    bilibili: 'https://www.bilibili.com/video/BV1yD4y1o7jE'
+  },
+  tag: ['tour', 'landing'],
+  release: 1600659015000
+}, {
+  name: {
+    zh: '飞行训练'
+  },
+  des: {
+    zh: '飞行训练最后一课'
+  },
+  thumbnail: __webpack_require__(/*! ./8d20faa0a4cae3a0f401f93c91f29d33.jpg */ "./.data/videos/8d20faa0a4cae3a0f401f93c91f29d33.jpg").default,
+  link: {
+    youtube: 'https://youtu.be/eO0Prwjklkg',
+    bilibili: 'https://www.bilibili.com/video/BV17a4y1j7Qq'
+  },
+  tag: ['training'],
+  release: 1600056009000
+}];
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (videos);
 
 /***/ }),
 
-/***/ 0:
-/*!********************************************************!*\
-  !*** multi ./node_modules/koot/ReactApp/server/ssr.js ***!
-  \********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! D:\Projects\@diablohu\sp.diablohu.com\node_modules\koot\ReactApp\server\ssr.js */"./node_modules/koot/ReactApp/server/ssr.js");
-
-
-/***/ }),
-
-/***/ "chalk":
+/***/ "./src/api/app.ts":
 /*!************************!*\
-  !*** external "chalk" ***!
+  !*** ./src/api/app.ts ***!
   \************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-module.exports = require("chalk");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "setAppMode": () => (/* binding */ setAppMode)
+/* harmony export */ });
+/* harmony import */ var _constants_action_types__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @constants/action-types */ "./src/constants/action-types.ts");
+/* eslint-disable @typescript-eslint/no-var-requires */
+
+/* eslint-disable @typescript-eslint/explicit-function-return-type */
+
+const setAppMode = newMode => dispatch => dispatch({
+  type: _constants_action_types__WEBPACK_IMPORTED_MODULE_0__.SET_APP_MODE,
+  payload: newMode
+});
+
+/***/ }),
+
+/***/ "./src/api/videos.ts":
+/*!***************************!*\
+  !*** ./src/api/videos.ts ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "getVideoList": () => (/* binding */ getVideoList)
+/* harmony export */ });
+/* harmony import */ var koot__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! koot */ "./node_modules/koot/libs/ssr/context.js");
+/* harmony import */ var koot__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(koot__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _constants_action_types__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @constants/action-types */ "./src/constants/action-types.ts");
+/* eslint-disable @typescript-eslint/no-var-requires */
+
+/* eslint-disable @typescript-eslint/explicit-function-return-type */
+
+
+const getVideoList = () => async dispatch => {
+  if (true) {
+    const list = __webpack_require__(/*! ~data/videos */ "./.data/videos/index.ts").default;
+
+    return dispatch({
+      type: _constants_action_types__WEBPACK_IMPORTED_MODULE_0__.UPDATE_VIDEO_LIST,
+      payload: list.map(({
+        name,
+        des,
+        ...o
+      }) => {
+        var _name$getLocaleId, _des$getLocaleId;
+
+        return {
+          name: (_name$getLocaleId = name[(0,koot__WEBPACK_IMPORTED_MODULE_1__.getLocaleId)()]) !== null && _name$getLocaleId !== void 0 ? _name$getLocaleId : name.zh,
+          des: (_des$getLocaleId = des[(0,koot__WEBPACK_IMPORTED_MODULE_1__.getLocaleId)()]) !== null && _des$getLocaleId !== void 0 ? _des$getLocaleId : name.zh,
+          ...o
+        };
+      })
+    });
+  }
+
+  return;
+};
+
+/***/ }),
+
+/***/ "./src/constants/action-types.ts":
+/*!***************************************!*\
+  !*** ./src/constants/action-types.ts ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "SET_APP_MODE": () => (/* binding */ SET_APP_MODE),
+/* harmony export */   "UPDATE_VIDEO_LIST": () => (/* binding */ UPDATE_VIDEO_LIST)
+/* harmony export */ });
+const SET_APP_MODE = 'SET_APP_MODE';
+const UPDATE_VIDEO_LIST = 'UPDATE_VIDEO_LIST';
+
+/***/ }),
+
+/***/ "./src/constants/app-mode.ts":
+/*!***********************************!*\
+  !*** ./src/constants/app-mode.ts ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "NORMAL": () => (/* binding */ NORMAL),
+/* harmony export */   "PWA": () => (/* binding */ PWA)
+/* harmony export */ });
+const NORMAL = 'normal';
+const PWA = 'pwa';
+
+/***/ }),
+
+/***/ "./src/constants/cookie-name.ts":
+/*!**************************************!*\
+  !*** ./src/constants/cookie-name.ts ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "VIDEO_SOURCE": () => (/* binding */ VIDEO_SOURCE)
+/* harmony export */ });
+const VIDEO_SOURCE = 'VIDEO_SOURCE';
+
+/***/ }),
+
+/***/ "./src/constants/video-sources.ts":
+/*!****************************************!*\
+  !*** ./src/constants/video-sources.ts ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
+/* harmony export */   "names": () => (/* binding */ names)
+/* harmony export */ });
+const sources = ['bilibili', 'youtube'];
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (sources);
+const names = {
+  bilibili: '哔哩哔哩',
+  youtube: 'YouTube'
+};
+
+/***/ }),
+
+/***/ "./src/constants/video-tags.ts":
+/*!*************************************!*\
+  !*** ./src/constants/video-tags.ts ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
+/* harmony export */   "names": () => (/* binding */ names)
+/* harmony export */ });
+const tags = ['landing', 'airport', 'tour', 'device', 'mod', 'training', 'clip'];
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (tags);
+const names = {
+  clip: '片段',
+  training: '训练',
+  landing: '降落',
+  airport: '机场',
+  device: '设备',
+  mod: 'MOD/插件',
+  tour: '景观'
+};
+
+/***/ }),
+
+/***/ "./src/components/center/index.tsx":
+/*!*****************************************!*\
+  !*** ./src/components/center/index.tsx ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var koot__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! koot */ "./node_modules/koot/React/component-extender.jsx");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! classnames */ "classnames");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _index_module_less__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.module.less */ "./src/components/center/index.module.less");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+ // ============================================================================
+
+
+// Functional Component =======================================================
+const Center = (0,koot__WEBPACK_IMPORTED_MODULE_4__.default)({
+  styles: _index_module_less__WEBPACK_IMPORTED_MODULE_2__.default
+})( /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.memo)(({
+  className,
+  type,
+  ...props
+}) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+  className: classnames__WEBPACK_IMPORTED_MODULE_1___default()([className, {
+    [`mod-${type}`]: typeof type === 'string'
+  }]),
+  ...props
+})));
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Center);
+
+/***/ }),
+
+/***/ "./src/components/tag/index.tsx":
+/*!**************************************!*\
+  !*** ./src/components/tag/index.tsx ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var koot__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! koot */ "./node_modules/koot/React/component-extender.jsx");
+/* harmony import */ var _constants_video_tags__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @constants/video-tags */ "./src/constants/video-tags.ts");
+/* harmony import */ var _index_module_less__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.module.less */ "./src/components/tag/index.module.less");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+ // ============================================================================
+
+
+// Functional Component =======================================================
+const Tag = (0,koot__WEBPACK_IMPORTED_MODULE_4__.default)({
+  styles: _index_module_less__WEBPACK_IMPORTED_MODULE_2__.default
+})( /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.memo)(({
+  className,
+  tag,
+  label,
+  ...props
+}) => {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("span", {
+    className: className,
+    "data-tag": tag,
+    ...props,
+    children: label !== null && label !== void 0 ? label : _constants_video_tags__WEBPACK_IMPORTED_MODULE_1__.names[tag]
+  });
+}));
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Tag);
+
+/***/ }),
+
+/***/ "./.data/videos/0097685261463d7fc71f30738b61f94c.jpg":
+/*!***********************************************************!*\
+  !*** ./.data/videos/0097685261463d7fc71f30738b61f94c.jpg ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.bf35ff4c8cfdeebe12fca8286cc89514.jpg");
+
+/***/ }),
+
+/***/ "./.data/videos/127e52cc910b9aba330586d98844a305.jpg":
+/*!***********************************************************!*\
+  !*** ./.data/videos/127e52cc910b9aba330586d98844a305.jpg ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.ea465c100f4abf7a20dc30be2c021815.jpg");
+
+/***/ }),
+
+/***/ "./.data/videos/2347093ba95dcf997f61523e4b0e3765.jpg":
+/*!***********************************************************!*\
+  !*** ./.data/videos/2347093ba95dcf997f61523e4b0e3765.jpg ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.1c8acf594efecec0e24a7eaaff7e4b5c.jpg");
+
+/***/ }),
+
+/***/ "./.data/videos/313356672a3f700575e2482b816a0876.jpg":
+/*!***********************************************************!*\
+  !*** ./.data/videos/313356672a3f700575e2482b816a0876.jpg ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.16fe2b29cc57b448a9327f4eb1312c9c.jpg");
+
+/***/ }),
+
+/***/ "./.data/videos/5160b605b06b3d392d498c37bcbb339d.jpg":
+/*!***********************************************************!*\
+  !*** ./.data/videos/5160b605b06b3d392d498c37bcbb339d.jpg ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.0908381a0565bb80f2bc048f0699f1aa.jpg");
+
+/***/ }),
+
+/***/ "./.data/videos/6c69ffc66b8778fe346b0c319d44f5d8.jpg":
+/*!***********************************************************!*\
+  !*** ./.data/videos/6c69ffc66b8778fe346b0c319d44f5d8.jpg ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.9add7c9d5208b4240bf2a215bb4a311f.jpg");
+
+/***/ }),
+
+/***/ "./.data/videos/7eec2d06365ea0e26cef3749be2d9daa.jpg":
+/*!***********************************************************!*\
+  !*** ./.data/videos/7eec2d06365ea0e26cef3749be2d9daa.jpg ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.f6cff3bd5eadb839513792b304301520.jpg");
+
+/***/ }),
+
+/***/ "./.data/videos/8d20faa0a4cae3a0f401f93c91f29d33.jpg":
+/*!***********************************************************!*\
+  !*** ./.data/videos/8d20faa0a4cae3a0f401f93c91f29d33.jpg ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.f1ec4c291c3288be4edbe0ad29265e06.jpg");
+
+/***/ }),
+
+/***/ "./.data/videos/9838857b43b4eeaec35f9734955d206a.jpg":
+/*!***********************************************************!*\
+  !*** ./.data/videos/9838857b43b4eeaec35f9734955d206a.jpg ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.b5f1a379c10aef77e1d60b881cb62f6f.jpg");
+
+/***/ }),
+
+/***/ "./.data/videos/ac5f43094587d65ae95fbff5e94b89a3.jpg":
+/*!***********************************************************!*\
+  !*** ./.data/videos/ac5f43094587d65ae95fbff5e94b89a3.jpg ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.4646664074c3c26561fe8e93845fdd47.jpg");
+
+/***/ }),
+
+/***/ "./.data/videos/b1cda0ff755abaeb4ab1cd45e59390d4.jpg":
+/*!***********************************************************!*\
+  !*** ./.data/videos/b1cda0ff755abaeb4ab1cd45e59390d4.jpg ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.1250f5a39c023caadaea35574b01e01a.jpg");
+
+/***/ }),
+
+/***/ "./.data/videos/c196fddc72ff3be648b02bd722f7e564.jpg":
+/*!***********************************************************!*\
+  !*** ./.data/videos/c196fddc72ff3be648b02bd722f7e564.jpg ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.35b8c5812538e4aa61f7f4720292e4a7.jpg");
+
+/***/ }),
+
+/***/ "./.data/videos/c3a8c02b58d88f8b9b50208a546cc9cc.jpg":
+/*!***********************************************************!*\
+  !*** ./.data/videos/c3a8c02b58d88f8b9b50208a546cc9cc.jpg ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.82cf79fd178cfc01ec20332553cca24c.jpg");
+
+/***/ }),
+
+/***/ "./.data/videos/e8d8a06e6fb9f87beeea875d8bffc360.jpg":
+/*!***********************************************************!*\
+  !*** ./.data/videos/e8d8a06e6fb9f87beeea875d8bffc360.jpg ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.9b290cfe32cb8bab0e9f3804572b618d.jpg");
+
+/***/ }),
+
+/***/ "./.data/videos/e91fc7b55e5ecb6bc4088470d90bc44f.jpg":
+/*!***********************************************************!*\
+  !*** ./.data/videos/e91fc7b55e5ecb6bc4088470d90bc44f.jpg ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.3a888484b6b3033e31e8f1d1fb5bd03a.jpg");
+
+/***/ }),
+
+/***/ "./.data/videos/ea30182d4fb9aad78be3d8689cb2dc01.jpg":
+/*!***********************************************************!*\
+  !*** ./.data/videos/ea30182d4fb9aad78be3d8689cb2dc01.jpg ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.9d574dc28dde6385118ae306b2432b91.jpg");
+
+/***/ }),
+
+/***/ "./src/assets/banner.jpg":
+/*!*******************************!*\
+  !*** ./src/assets/banner.jpg ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.7618bfaeaa248e73e6190c1e101355c4.jpg");
 
 /***/ }),
 
@@ -13792,21 +10998,10 @@ module.exports = require("chalk");
 /*!*****************************!*\
   !*** external "classnames" ***!
   \*****************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
-module.exports = require("classnames");
-
-/***/ }),
-
-/***/ "create-react-class":
-/*!*************************************!*\
-  !*** external "create-react-class" ***!
-  \*************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("create-react-class");
+"use strict";
+module.exports = require("classnames");;
 
 /***/ }),
 
@@ -13814,10 +11009,10 @@ module.exports = require("create-react-class");
 /*!**********************!*\
   !*** external "ejs" ***!
   \**********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
-module.exports = require("ejs");
+"use strict";
+module.exports = require("ejs");;
 
 /***/ }),
 
@@ -13825,10 +11020,10 @@ module.exports = require("ejs");
 /*!*********************!*\
   !*** external "fs" ***!
   \*********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
-module.exports = require("fs");
+"use strict";
+module.exports = require("fs");;
 
 /***/ }),
 
@@ -13836,10 +11031,10 @@ module.exports = require("fs");
 /*!******************************************!*\
   !*** external "hoist-non-react-statics" ***!
   \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
-module.exports = require("hoist-non-react-statics");
+"use strict";
+module.exports = require("hoist-non-react-statics");;
 
 /***/ }),
 
@@ -13847,10 +11042,10 @@ module.exports = require("hoist-non-react-statics");
 /*!****************************!*\
   !*** external "invariant" ***!
   \****************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
-module.exports = require("invariant");
+"use strict";
+module.exports = require("invariant");;
 
 /***/ }),
 
@@ -13858,10 +11053,10 @@ module.exports = require("invariant");
 /*!*************************!*\
   !*** external "is-url" ***!
   \*************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
-module.exports = require("is-url");
+"use strict";
+module.exports = require("is-url");;
 
 /***/ }),
 
@@ -13869,10 +11064,10 @@ module.exports = require("is-url");
 /*!****************************!*\
   !*** external "js-cookie" ***!
   \****************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
-module.exports = require("js-cookie");
+"use strict";
+module.exports = require("js-cookie");;
 
 /***/ }),
 
@@ -13880,10 +11075,21 @@ module.exports = require("js-cookie");
 /*!*****************************!*\
   !*** external "koa-router" ***!
   \*****************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
-module.exports = require("koa-router");
+"use strict";
+module.exports = require("koa-router");;
+
+/***/ }),
+
+/***/ "object-assign":
+/*!********************************!*\
+  !*** external "object-assign" ***!
+  \********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("object-assign");;
 
 /***/ }),
 
@@ -13891,21 +11097,10 @@ module.exports = require("koa-router");
 /*!***********************!*\
   !*** external "path" ***!
   \***********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
-module.exports = require("path");
-
-/***/ }),
-
-/***/ "prop-types":
-/*!*****************************!*\
-  !*** external "prop-types" ***!
-  \*****************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("prop-types");
+"use strict";
+module.exports = require("path");;
 
 /***/ }),
 
@@ -13913,10 +11108,10 @@ module.exports = require("prop-types");
 /*!*******************************!*\
   !*** external "query-string" ***!
   \*******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
-module.exports = require("query-string");
+"use strict";
+module.exports = require("query-string");;
 
 /***/ }),
 
@@ -13924,10 +11119,10 @@ module.exports = require("query-string");
 /*!************************!*\
   !*** external "react" ***!
   \************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
-module.exports = require("react");
+"use strict";
+module.exports = require("react");;
 
 /***/ }),
 
@@ -13935,21 +11130,10 @@ module.exports = require("react");
 /*!***********************************!*\
   !*** external "react-dom/server" ***!
   \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
-module.exports = require("react-dom/server");
-
-/***/ }),
-
-/***/ "react-is":
-/*!***************************!*\
-  !*** external "react-is" ***!
-  \***************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-is");
+"use strict";
+module.exports = require("react-dom/server");;
 
 /***/ }),
 
@@ -13957,10 +11141,21 @@ module.exports = require("react-is");
 /*!******************************!*\
   !*** external "react-redux" ***!
   \******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
-module.exports = require("react-redux");
+"use strict";
+module.exports = require("react-redux");;
+
+/***/ }),
+
+/***/ "react-router":
+/*!*******************************!*\
+  !*** external "react-router" ***!
+  \*******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react-router");;
 
 /***/ }),
 
@@ -13968,10 +11163,10 @@ module.exports = require("react-redux");
 /*!*************************************!*\
   !*** external "react-router-redux" ***!
   \*************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
-module.exports = require("react-router-redux");
+"use strict";
+module.exports = require("react-router-redux");;
 
 /***/ }),
 
@@ -13979,10 +11174,10 @@ module.exports = require("react-router-redux");
 /*!************************!*\
   !*** external "redux" ***!
   \************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
-module.exports = require("redux");
+"use strict";
+module.exports = require("redux");;
 
 /***/ }),
 
@@ -13990,10 +11185,10 @@ module.exports = require("redux");
 /*!******************************!*\
   !*** external "redux-thunk" ***!
   \******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
-module.exports = require("redux-thunk");
+"use strict";
+module.exports = require("redux-thunk");;
 
 /***/ }),
 
@@ -14001,12 +11196,463 @@ module.exports = require("redux-thunk");
 /*!**************************!*\
   !*** external "warning" ***!
   \**************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ ((module) => {
 
-module.exports = require("warning");
+"use strict";
+module.exports = require("warning");;
 
 /***/ })
 
-/******/ });
+/******/ 	});
+/************************************************************************/
+/******/ 	// The module cache
+/******/ 	var __webpack_module_cache__ = {};
+/******/ 	
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/ 		// Check if module is in cache
+/******/ 		if(__webpack_module_cache__[moduleId]) {
+/******/ 			return __webpack_module_cache__[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = __webpack_module_cache__[moduleId] = {
+/******/ 			id: moduleId,
+/******/ 			loaded: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/ 	
+/******/ 		// Execute the module function
+/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
+/******/ 	
+/******/ 		// Flag the module as loaded
+/******/ 		module.loaded = true;
+/******/ 	
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/ 	
+/************************************************************************/
+/******/ 	/* webpack/runtime/compat get default export */
+/******/ 	(() => {
+/******/ 		// getDefaultExport function for compatibility with non-harmony modules
+/******/ 		__webpack_require__.n = (module) => {
+/******/ 			var getter = module && module.__esModule ?
+/******/ 				() => (module['default']) :
+/******/ 				() => (module);
+/******/ 			__webpack_require__.d(getter, { a: getter });
+/******/ 			return getter;
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	(() => {
+/******/ 		// define getter functions for harmony exports
+/******/ 		__webpack_require__.d = (exports, definition) => {
+/******/ 			for(var key in definition) {
+/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 				}
+/******/ 			}
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
+/******/ 	(() => {
+/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/make namespace object */
+/******/ 	(() => {
+/******/ 		// define __esModule on exports
+/******/ 		__webpack_require__.r = (exports) => {
+/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 			}
+/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/node module decorator */
+/******/ 	(() => {
+/******/ 		__webpack_require__.nmd = (module) => {
+/******/ 			module.paths = [];
+/******/ 			if (!module.children) module.children = [];
+/******/ 			return module;
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		__webpack_require__.p = "/";
+/******/ 	})();
+/******/ 	
+/************************************************************************/
+var __webpack_exports__ = {};
+// This entry need to be wrapped in an IIFE because it need to be in strict mode.
+(() => {
+"use strict";
+/*!***************************************************!*\
+  !*** ./node_modules/koot/ReactApp/server/ssr.jsx ***!
+  \***************************************************/
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react_dom_server__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-dom/server */ "react-dom/server");
+/* harmony import */ var react_dom_server__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_dom_server__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router */ "react-router");
+/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_router__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var history_lib_createMemoryHistory__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! history/lib/createMemoryHistory */ "./node_modules/history/lib/createMemoryHistory.js");
+/* harmony import */ var react_router_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-redux */ "react-router-redux");
+/* harmony import */ var react_router_redux__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_router_redux__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _KOOT_PROJECT_CONFIG_FULL_PATHNAME___WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! __KOOT_PROJECT_CONFIG_FULL_PATHNAME__ */ "./logs/tmp/config/full.8bf1f53c4cb1990446b4015828bd296e.js");
+/* harmony import */ var _libs_ssr_context__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../libs/ssr/context */ "./node_modules/koot/libs/ssr/context.js");
+/* harmony import */ var _libs_ssr_context__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_libs_ssr_context__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _root_isomorphic__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./root-isomorphic */ "./node_modules/koot/ReactApp/server/root-isomorphic.jsx");
+/* harmony import */ var _defaults_defines_server__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../defaults/defines-server */ "./node_modules/koot/defaults/defines-server.js");
+/* harmony import */ var _defaults_defines_server__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_defaults_defines_server__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _action_types__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../action-types */ "./node_modules/koot/ReactApp/action-types.js");
+/* harmony import */ var _React_validate_router_config__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../../React/validate/router-config */ "./node_modules/koot/React/validate/router-config.js");
+/* harmony import */ var _React_validate_inject__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../../React/validate-inject */ "./node_modules/koot/React/validate-inject.js");
+/* harmony import */ var _React_validate_inject__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_React_validate_inject__WEBPACK_IMPORTED_MODULE_19__);
+/* harmony import */ var _React_validate_redux_config__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../React/validate/redux-config */ "./node_modules/koot/React/validate/redux-config.js");
+/* harmony import */ var _React_inject_is_need_inject_critical__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../../React/inject/is-need-inject-critical */ "./node_modules/koot/React/inject/is-need-inject-critical.js");
+/* harmony import */ var _React_inject_is_need_inject_critical__WEBPACK_IMPORTED_MODULE_21___default = /*#__PURE__*/__webpack_require__.n(_React_inject_is_need_inject_critical__WEBPACK_IMPORTED_MODULE_21__);
+/* harmony import */ var _React_render_template__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../../React/render-template */ "./node_modules/koot/React/render-template.js");
+/* harmony import */ var _React_render_template__WEBPACK_IMPORTED_MODULE_23___default = /*#__PURE__*/__webpack_require__.n(_React_render_template__WEBPACK_IMPORTED_MODULE_23__);
+/* harmony import */ var _React_redux_reset_store__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../React/redux/reset-store */ "./node_modules/koot/React/redux/reset-store.js");
+/* harmony import */ var _middlewares_isomorphic_lifecycle_before_router_match__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./middlewares/isomorphic/lifecycle/before-router-match */ "./node_modules/koot/ReactApp/server/middlewares/isomorphic/lifecycle/before-router-match.js");
+/* harmony import */ var _middlewares_isomorphic_lifecycle_before_pre_render__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./middlewares/isomorphic/lifecycle/before-pre-render */ "./node_modules/koot/ReactApp/server/middlewares/isomorphic/lifecycle/before-pre-render.js");
+/* harmony import */ var _middlewares_isomorphic_lifecycle_before_data_to_store__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./middlewares/isomorphic/lifecycle/before-data-to-store */ "./node_modules/koot/ReactApp/server/middlewares/isomorphic/lifecycle/before-data-to-store.js");
+/* harmony import */ var _middlewares_isomorphic_lifecycle_after_data_to_store__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./middlewares/isomorphic/lifecycle/after-data-to-store */ "./node_modules/koot/ReactApp/server/middlewares/isomorphic/lifecycle/after-data-to-store.js");
+/* harmony import */ var _middlewares_isomorphic_execute_components_lifecycle__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./middlewares/isomorphic/execute-components-lifecycle */ "./node_modules/koot/ReactApp/server/middlewares/isomorphic/execute-components-lifecycle.js");
+/* harmony import */ var _middlewares_isomorphic_init_store__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./middlewares/isomorphic/init-store */ "./node_modules/koot/ReactApp/server/middlewares/isomorphic/init-store.js");
+/* harmony import */ var _i18n_redux__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../i18n/redux */ "./node_modules/koot/i18n/redux/index.js");
+/* harmony import */ var _i18n_server_generate_html_redirect_metas__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../../i18n/server/generate-html-redirect-metas */ "./node_modules/koot/i18n/server/generate-html-redirect-metas.js");
+/* harmony import */ var _i18n_server_get_ssr_state__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../../i18n/server/get-ssr-state */ "./node_modules/koot/i18n/server/get-ssr-state.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* __KOOT_DEV_NO_REACT_HOT_INJECT__ */
+// import 'regenerator-runtime/runtime';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ // import i18nOnServerRender from '../../i18n/onServerRender';
+
+
+
+
+
+
+async function ssr(ctx) {
+  (0,_libs_ssr_context__WEBPACK_IMPORTED_MODULE_6__.set)(ctx);
+  const SSR = (0,_libs_ssr_context__WEBPACK_IMPORTED_MODULE_6__.get)();
+  const {
+    LocaleId
+  } = SSR;
+  /** @type {string} 本次请求的 URL */
+
+  const url = ctx.path + ctx.search; // ========================================================================
+
+  const {
+    redux: reduxConfigRaw = {}
+  } = _KOOT_PROJECT_CONFIG_FULL_PATHNAME___WEBPACK_IMPORTED_MODULE_4__;
+  const reduxConfig = await (0,_React_validate_redux_config__WEBPACK_IMPORTED_MODULE_7__.default)(reduxConfigRaw); // 生成 History
+
+  const historyConfig = {
+    basename: LocaleId && "undefined" === 'router' ? `/${LocaleId}` : '/'
+  };
+  /* eslint-disable react-hooks/rules-of-hooks */
+
+  const memoryHistory = (0,react_router__WEBPACK_IMPORTED_MODULE_1__.useRouterHistory)(() => (0,history_lib_createMemoryHistory__WEBPACK_IMPORTED_MODULE_2__.default)(url))(historyConfig); // 生成/清理 Store
+  // console.log('\x1b[36m⚑\x1b[0m' + ' Store created')
+
+  const Store = (0,_middlewares_isomorphic_init_store__WEBPACK_IMPORTED_MODULE_8__.default)(reduxConfig);
+  /** @type {Object} 已生成的 History 实例 */
+
+  const History = (0,react_router_redux__WEBPACK_IMPORTED_MODULE_3__.syncHistoryWithStore)(memoryHistory, Store);
+  const {
+    syncCookie
+  } = reduxConfig;
+
+  if (false) {} else {
+    (0,_libs_ssr_context__WEBPACK_IMPORTED_MODULE_6__.resetStore)(Store);
+    (0,_libs_ssr_context__WEBPACK_IMPORTED_MODULE_6__.resetHistory)(History);
+  } // ========================================================================
+  // console.log({
+  //     LocaleId,
+  //     Store,
+  //     History,
+  //     SSR
+  // })
+
+  /** @type {Boolean} i18n 是否启用 */
+
+
+  const i18nEnabled = Boolean(LocaleId);
+  const {
+    proxyRequestOrigin = {},
+    ssrComplete: _complete
+  } = SSR;
+
+  function ssrComplete(...args) {
+    if (true) {
+      (0,_libs_ssr_context__WEBPACK_IMPORTED_MODULE_6__.reset)(); // SSR = undefined;
+
+      ctx = undefined;
+      purgeObject(global);
+    }
+
+    _complete(...args);
+  }
+
+  ctx.originTrue = proxyRequestOrigin.protocol ? ctx.origin.replace(/^http:\/\//, `${proxyRequestOrigin.protocol}://`) : ctx.origin;
+  ctx.hrefTrue = proxyRequestOrigin.protocol ? ctx.href.replace(/^http:\/\//, `${proxyRequestOrigin.protocol}://`) : ctx.href;
+  const {
+    lifecycle,
+    routerConfig: routes
+  } = await initConfig(i18nEnabled, LocaleId); // 渲染生命周期: beforeRouterMatch
+
+  await (0,_middlewares_isomorphic_lifecycle_before_router_match__WEBPACK_IMPORTED_MODULE_9__.default)({
+    ctx,
+    store: Store,
+    syncCookie,
+    callback: lifecycle.beforeRouterMatch
+  });
+
+  if (LocaleId) {
+    Store.dispatch({
+      type: _action_types__WEBPACK_IMPORTED_MODULE_10__.CHANGE_LANGUAGE,
+      data: LocaleId
+    });
+    Store.dispatch((0,_i18n_redux__WEBPACK_IMPORTED_MODULE_11__.actionInit)(LocaleId)); // i18nOnServerRender(Store, LocaleId);
+  } // console.log('after router match', ctx.hrefTrue, LocaleId);
+  // 进行路由匹配
+
+
+  const {
+    redirectLocation,
+    renderProps
+  } = await new Promise((resolve, reject) => {
+    (0,react_router__WEBPACK_IMPORTED_MODULE_1__.match)({
+      history: History,
+      routes,
+      location: url
+    }, (error, redirectLocation, renderProps) => {
+      if (error) return reject(error);
+      resolve({
+        redirectLocation,
+        renderProps
+      });
+    });
+  }); // 如果需要重定向，派发 ctx.redirect / 302
+
+  if (redirectLocation) {
+    ssrComplete({
+      redirect: redirectLocation.pathname + redirectLocation.search
+    });
+    return;
+  } // 如果没有匹配，终止本中间件流程，执行其他中间件
+  // 表示 react 不应处理该请求
+
+
+  if (!renderProps) {
+    ssrComplete({
+      next: true
+    });
+    return;
+  } // 强制更新 store: state.routing.locationBeforeTransitions
+
+
+  const state = Store.getState();
+  const currentPathname = state.routing.locationBeforeTransitions.pathname;
+  if (currentPathname.split(0, 1) !== '/') Object.assign(Store.getState().routing.locationBeforeTransitions, {
+    pathname: ctx.path // search: ctx.search
+
+  }); // 渲染生命周期: beforePreRender
+
+  await (0,_middlewares_isomorphic_lifecycle_before_pre_render__WEBPACK_IMPORTED_MODULE_12__.default)({
+    ctx,
+    store: Store,
+    localeId: LocaleId,
+    callback: lifecycle.beforePreRender
+  });
+  const rootProps = {
+    store: Store,
+    history: History,
+    localeId: LocaleId,
+    locales: SSR.locales,
+    styles: SSR.styleMap,
+    ctx,
+    ...renderProps
+  }; // 确定当前访问匹配到的组件
+
+  SSR[_defaults_defines_server__WEBPACK_IMPORTED_MODULE_13__.needConnectComponents] = true;
+  SSR.connectedComponents = [];
+
+  try {
+    (0,react_dom_server__WEBPACK_IMPORTED_MODULE_0__.renderToString)( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_root_isomorphic__WEBPACK_IMPORTED_MODULE_14__.default, { ...rootProps
+    }));
+  } catch (e) {}
+
+  SSR[_defaults_defines_server__WEBPACK_IMPORTED_MODULE_13__.needConnectComponents] = false; // 重置 state
+
+  (0,_React_redux_reset_store__WEBPACK_IMPORTED_MODULE_15__.default)(Store, [..._React_redux_reset_store__WEBPACK_IMPORTED_MODULE_15__.defaultKeysToPreserve, 'server', 'routing']); // 渲染生命周期: beforeDataToStore
+
+  await (0,_middlewares_isomorphic_lifecycle_before_data_to_store__WEBPACK_IMPORTED_MODULE_16__.default)({
+    ctx,
+    store: Store,
+    localeId: LocaleId,
+    callback: lifecycle.beforeDataToStore
+  }); // 执行所有匹配到的组件的自定义的静态生命周期
+
+  const {
+    title,
+    metaHtml,
+    reduxHtml
+  } = await (0,_middlewares_isomorphic_execute_components_lifecycle__WEBPACK_IMPORTED_MODULE_17__.default)({
+    store: Store,
+    renderProps,
+    ctx
+  }); // 渲染生命周期: afterDataToStore
+
+  await (0,_middlewares_isomorphic_lifecycle_after_data_to_store__WEBPACK_IMPORTED_MODULE_18__.default)({
+    ctx,
+    store: Store,
+    localeId: LocaleId,
+    callback: lifecycle.afterDataToStore
+  }); // SSR
+
+  const reactHtml = (0,react_dom_server__WEBPACK_IMPORTED_MODULE_0__.renderToString)( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_root_isomorphic__WEBPACK_IMPORTED_MODULE_14__.default, { ...rootProps
+  })); // console.log({
+  //     // __KOOT_SSR__,
+  //     // thisTemplateInjectCache: SSR.thisTemplateInjectCache,
+  //     // thisEntrypoints: SSR.thisEntrypoints,
+  //     // thisFilemap: SSR.thisFilemap,
+  //     thisStyleMap,
+  //     // templateInject: SSR.templateInject,
+  //     // proxyRequestOrigin,
+  // })
+  // const stylesHtml = Object.keys(thisStyleMap)
+  //     .filter(id => typeof thisStyleMap[id].css === 'string')
+  //     .map(id => `<style id="${id}">${thisStyleMap[id].css}</style>`)
+  //     .join('')
+
+  const stylesHtml = Object.keys(SSR.styleMap).filter(id => typeof SSR.styleMap[id].css === 'string' && SSR.styleMap[id].css !== '').map(id => `<style ${"data-koot-module"}="${id}">${SSR.styleMap[id].css}</style>`).join(''); // console.log('result thisStyleMap', thisStyleMap)
+  // 渲染 EJS 模板
+
+  const inject = _React_validate_inject__WEBPACK_IMPORTED_MODULE_19___default()({
+    injectCache: SSR.thisTemplateInjectCache,
+    filemap: SSR.thisFilemap,
+    entrypoints: SSR.thisEntrypoints,
+    manifest: SSR.thisManifest,
+    localeId: LocaleId,
+    title,
+    metaHtml,
+    reactHtml,
+    stylesHtml,
+    reduxHtml,
+    SSRState: (0,_i18n_server_get_ssr_state__WEBPACK_IMPORTED_MODULE_20__.default)(SSR),
+    needInjectCritical: _React_inject_is_need_inject_critical__WEBPACK_IMPORTED_MODULE_21___default()(SSR.template)
+  });
+
+  if (LocaleId) {
+    // i18n 启用时: 添加其他语种页面跳转信息的 meta 标签
+    inject.metas += (0,_i18n_server_generate_html_redirect_metas__WEBPACK_IMPORTED_MODULE_22__.default)({
+      ctx,
+      proxyRequestOrigin,
+      localeId: LocaleId
+    });
+  } // > Memory stable ========================================================
+
+  /** @type {String} HTML 结果 */
+
+
+  let body = _React_render_template__WEBPACK_IMPORTED_MODULE_23___default()({
+    template: SSR.template,
+    inject: { ...inject,
+      ...SSR.templateInject
+    },
+    store: Store,
+    ctx
+  }); // 结果写入缓存
+
+  if (false) {} // React SSR
+
+
+  ssrComplete({
+    body
+  });
+}
+/**
+ * 初始化 SSR 配置
+ * @param {*} i18nEnabled
+ */
+
+
+const initConfig = async (i18nEnabled, LocaleId) => {
+  // const LocaleId = __DEV__ ? global.__KOOT_LOCALEID__ : __KOOT_LOCALEID__;
+  const {
+    server: serverConfig = {}
+  } = _KOOT_PROJECT_CONFIG_FULL_PATHNAME___WEBPACK_IMPORTED_MODULE_4__;
+  const config = {}; // 决定路由配置 (每次请求需重新生成)
+
+  config.routerConfig = await (0,_React_validate_router_config__WEBPACK_IMPORTED_MODULE_24__.default)(_KOOT_PROJECT_CONFIG_FULL_PATHNAME___WEBPACK_IMPORTED_MODULE_4__.router);
+  if (typeof i18nEnabled === 'undefined') i18nEnabled = Boolean(LocaleId);
+  config.lifecycle = {};
+
+  if (typeof serverConfig.onRender === 'function') {
+    config.lifecycle.beforeDataToStore = serverConfig.onRender;
+  } else if (typeof serverConfig.onRender === 'object') {
+    Object.keys(serverConfig.onRender).forEach(key => {
+      config.lifecycle[key] = serverConfig.onRender[key];
+    });
+  }
+
+  return config;
+};
+
+if (true) {
+  // eslint-disable-next-line no-eval
+  const ctx = eval(_defaults_defines_server__WEBPACK_IMPORTED_MODULE_13__.koaContext);
+  ssr(ctx).catch(err => {
+    ctx[_defaults_defines_server__WEBPACK_IMPORTED_MODULE_13__.ssrContext].ssrComplete({
+      error: err
+    }); // console.error(err);
+    // throw err;
+  });
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ssr); // ============================================================================
+
+const purgeObject = obj => {
+  if (typeof obj !== 'object') return;
+
+  for (const key of Object.keys(obj)) {
+    if (typeof obj[key] === 'object') purgeObject(obj[key]);
+    delete obj[key];
+  }
+};
+})();
+
+/******/ })()
+;
 //# sourceMappingURL=ssr.js.map
