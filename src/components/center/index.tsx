@@ -1,4 +1,4 @@
-import React, { memo } from 'react';
+import { memo } from 'react';
 import { extend } from 'koot';
 import classNames from 'classnames';
 
@@ -13,7 +13,7 @@ interface ComponentProps {
 // Functional Component =======================================================
 
 const Center = extend<ComponentProps>({
-    styles
+    styles,
 })(
     memo(
         ({ className, type, ...props }): JSX.Element => (
@@ -21,8 +21,8 @@ const Center = extend<ComponentProps>({
                 className={classNames([
                     className,
                     {
-                        [`mod-${type}`]: typeof type === 'string'
-                    }
+                        [`mod-${type}`]: typeof type === 'string',
+                    },
                 ])}
                 {...props}
             />

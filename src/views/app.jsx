@@ -1,4 +1,4 @@
-import React, { memo, useState, useEffect, useRef } from 'react';
+import { StrictMode, memo, useState, useEffect, useRef } from 'react';
 import { extend } from 'koot';
 import qs from 'query-string';
 import classNames from 'classnames';
@@ -39,13 +39,13 @@ const App = extend({
     styles,
 })(({ className, dispatch }) => {
     return (
-        <React.StrictMode>
+        <StrictMode>
             <div className={className}>
                 <Banner />
                 <List />
                 <Footer />
             </div>
-        </React.StrictMode>
+        </StrictMode>
     );
 });
 export default App;

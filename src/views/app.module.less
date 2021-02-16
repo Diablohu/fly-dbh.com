@@ -122,9 +122,27 @@
         top: -1px;
         z-index: 50;
         padding: 20px 0 24px 0;
-        border-bottom: 1px solid transparent;
         transition: none ease-out 200ms;
-        transition-property: border-bottom-color, background-color, box-shadow;
+        transition-property: box-shadow;
+        // transition-property: border-bottom-color, background-color, box-shadow;
+        &::after {
+            content: '';
+            z-index: -1;
+            position: absolute;
+            top: -20px;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            opacity: 0;
+            transition: inherit;
+            transition-property: opacity;
+            background: fade(#fff, 95%);
+            border-bottom: 1px solid transparent;
+            border-bottom-color: fade(#000, 15%);
+            @supports (backdrop-filter: blur(20px) saturate(180%)) {
+                background: fade(#fff, 65%);
+            }
+        }
         & > .wrapper {
             display: flex;
             flex-flow: row wrap;
@@ -132,10 +150,11 @@
             align-items: center;
         }
         &.is-sticky {
-            border-bottom-color: fade(#000, 15%);
-            background: fade(#fff, 65%);
-            backdrop-filter: blur(20px) saturate(180%);
             box-shadow: 0 0 10px fade(#000, 10%);
+            &::after {
+                opacity: 1;
+                backdrop-filter: blur(20px) saturate(180%);
+            }
         }
         .title {
             flex: 1;
@@ -184,6 +203,7 @@
         .tags {
             flex: 1 0 100%;
             margin-top: 0.75em;
+            user-select: none;
             .tag {
                 margin: 0.75em 0.75em 0 0;
                 cursor: pointer;

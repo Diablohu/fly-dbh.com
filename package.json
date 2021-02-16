@@ -24,33 +24,35 @@
         "push": "node ./scripts/push.js",
         "eslint": "eslint \"src/**/*.+(js|jsx)\"",
         "check-types": "tsc --noEmit",
-        "up": "yarn upgrade-interactive --latest",
-        "postinstall": "husky install"
+        "postinstall": "husky install",
+        "up": "yarn upgrade-interactive --latest"
     },
     "dependencies": {
         "axios": "^0.21.1",
         "bind-event": "^1.1.2",
         "classnames": "^2.2.6",
-        "koot": "^0.14.12",
-        "query-string": "^6.13.8"
+        "koot": "^0.15.0-alpha.2",
+        "query-string": "^6.14.0"
     },
     "devDependencies": {
         "@babel/plugin-proposal-nullish-coalescing-operator": "^7.12.13",
-        "@babel/plugin-proposal-optional-chaining": "^7.12.13",
+        "@babel/plugin-proposal-optional-chaining": "^7.12.16",
         "@types/classnames": "^2.2.10",
-        "autoprefixer": "^9.8.6",
+        "autoprefixer": "^10.2.4",
         "babel-eslint": "^10.1.0",
         "cssnano": "^4.1.10",
-        "eslint": "^7.19.0",
+        "eslint": "^7.20.0",
         "eslint-config-koot": "^3.1.1",
         "husky": "^5.0.9",
         "lint-staged": "^10.5.4",
         "normalize.css": "^8.0.1",
+        "postcss": "^8.2.6",
+        "postcss-loader": "^5.0.0",
         "prettier": "^2.0.5",
         "prettier-eslint": "^12.0.0",
         "pretty-ms": "^7.0.1",
         "redux-logger": "^3.0.6",
-        "simple-git": "^2.34.2",
+        "simple-git": "^2.35.0",
         "string-replace-async": "^2.0.0",
         "svg-url-loader": "^7.1.1",
         "url-loader": "^4.1.0"
@@ -73,6 +75,6 @@
         ]
     },
     "koot": {
-        "version": "0.14.12"
+        "version": "0.15.0-alpha.2"
     }
 }

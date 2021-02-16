@@ -4,7 +4,7 @@ const spawn = require('../libs/spawn');
 const log = require('../libs/log');
 
 module.exports = async ({ dist, apiServer }) => {
-    if (process.env.DREAMARI_DATA_PROCESSED) return;
+    if (process.env.KOOT_BUILD_DATA_PROCESSED) return;
 
     // eslint-disable-next-line no-console
     console.log(' ');
@@ -17,5 +17,5 @@ module.exports = async ({ dist, apiServer }) => {
     waiting.stop();
     spinner(msg).succeed();
 
-    process.env.DREAMARI_DATA_PROCESSED = true;
+    process.env.KOOT_BUILD_DATA_PROCESSED = true;
 };

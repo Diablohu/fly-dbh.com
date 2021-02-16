@@ -1,4 +1,4 @@
-import React, { PureComponent, memo } from 'react';
+import { PureComponent, memo } from 'react';
 import { extend } from 'koot';
 
 import { getVideoList } from '@api/videos';
