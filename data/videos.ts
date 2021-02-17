@@ -3,7 +3,24 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
-            zh: 'C·罗机场',
+            zh: '降落挑战: 英国更新 - EG78 + EGHI',
+        },
+        des: {
+            zh:
+                '经历了快一个月的跳票后，《微软模拟飞行》的英国更新终于上线，除了万众期待的英伦三岛及爱尔兰的地景更新外，此次更新还带来了 2 个全新的降落挑战，均属于强风挑战，那么接下来大波胡就来作死了~',
+        },
+        thumbnailOriginal: './thumbnails/20210218.jpg',
+        link: {
+            youtube: 'https://youtu.be/aB7Aw8-1F3Q',
+            bilibili: 'https://www.bilibili.com/video/BV1kV411i7oZ',
+        },
+        tag: ['landing'],
+        release: 1613620800000,
+    },
+
+    {
+        name: {
+            zh: '机场介绍: C·罗机场',
         },
         des: {
             zh:
