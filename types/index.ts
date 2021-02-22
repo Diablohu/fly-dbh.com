@@ -37,6 +37,7 @@ export type VideoTag =
     | 'training'
     | 'landing'
     | 'airport'
+    | 'route'
     | 'device'
     | 'mod'
     | 'tour';

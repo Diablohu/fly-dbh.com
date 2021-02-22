@@ -3,6 +3,7 @@ import { VideoTag } from '@types';
 const tags: Array<VideoTag> = [
     'landing',
     'airport',
+    'route',
     'tour',
     'device',
     'mod',
@@ -19,6 +20,7 @@ export const names: {
     training: '训练',
     landing: '降落',
     airport: '机场',
+    route: '航线',
     device: '设备',
     mod: 'MOD/插件',
     tour: '景观',

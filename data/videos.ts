@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '航线介绍: 一分钟航线 - 韦斯特雷',
+        },
+        des: {
+            zh: '一条飞行时间90秒的常规航线？存在的意义又是什么？',
+        },
+        thumbnailOriginal: './thumbnails/20210223.jpg',
+        link: {
+            youtube: 'https://youtu.be/O-P03s_acKU',
+            bilibili: 'https://www.bilibili.com/video/BV16V411e7qz',
+        },
+        tag: ['route'],
+        release: 1614052800000,
+    },
+
+    {
+        name: {
             zh: '降落挑战: 英国更新 - EG78 + EGHI',
         },
         des: {
