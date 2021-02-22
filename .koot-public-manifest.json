@@ -10,7 +10,7 @@
             "client": [
                 "public/includes/entry.5d6a5ff1981f7e127f69.js",
                 "public/includes/entry.acce3e3790c9e227cb08.js",
-                "public/includes/entry.7b5d566c29418de4dc53.js"
+                "public/includes/entry.84ff024a35cb23ba5f9d.js"
             ],
             "__KOOT__CLIENT__RUN__FIRST__": [
                 "public/includes/entry.c1f94fa20a225c1fcf1f.js"
@@ -19,7 +19,7 @@
         ".files": {
             "critical.css": "public/includes/extract.122.cfe4662ab7e38152842f.css",
             "critical.js": "public/includes/entry.cfe4662ab7e38152842f.js",
-            "client.js": "public/includes/entry.7b5d566c29418de4dc53.js",
+            "client.js": "public/includes/entry.84ff024a35cb23ba5f9d.js",
             "__KOOT__CLIENT__RUN__FIRST__.js": "public/includes/entry.c1f94fa20a225c1fcf1f.js",
             "libs.js": "public/includes/entry.5d6a5ff1981f7e127f69.js",
             "vendors.js": "public/includes/entry.acce3e3790c9e227cb08.js",
