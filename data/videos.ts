@@ -3,10 +3,10 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
-            zh: '航线介绍: 一分钟航线 - 韦斯特雷',
+            zh: '航线介绍: 一分钟! 全球最短航线 - 韦斯特雷',
         },
         des: {
-            zh: '一条飞行时间90秒的常规航线？存在的意义又是什么？',
+            zh: '一条飞行时间不足两分钟的商业航线？存在的意义又是什么？',
         },
         thumbnailOriginal: './thumbnails/20210223.jpg',
         link: {
