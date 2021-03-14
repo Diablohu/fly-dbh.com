@@ -8,6 +8,8 @@ const sharp = require('sharp');
 const md5 = require('md5');
 const replaceAsync = require('string-replace-async');
 
+const { videoThumbnail } = require('../../src/constants/folders');
+
 /** 原始数据目录 */
 const dirData = path.resolve(__dirname, '../../data');
 
@@ -15,7 +17,8 @@ const dirData = path.resolve(__dirname, '../../data');
 const fileOriginal = path.resolve(dirData, 'videos.ts');
 
 /** 新的存放目录 */
-const dirSaveTo = path.resolve(__dirname, '../../.data/videos');
+const dirSaveToData = path.resolve(__dirname, '../../.data');
+const dirSaveTo = path.resolve(dirSaveToData, 'videos');
 
 /** 新的宽度 */
 const resizeToWidth = 600;
@@ -25,6 +28,7 @@ const resizeToWidth = 600;
 (async () => {
     await fs.ensureDir(dirSaveTo);
     await fs.emptyDir(dirSaveTo);
+    await fs.ensureDir(path.resolve(dirSaveTo, videoThumbnail));
 
     const newContent = await replaceAsync(
         await fs.readFile(fileOriginal, 'utf-8'),
@@ -40,6 +44,7 @@ const resizeToWidth = 600;
                 .then(async ({ data, info }) => {
                     const saveTo = path.resolve(
                         dirSaveTo,
+                        videoThumbnail,
                         `${md5(data)}.${
                             info.format === 'jpeg' ? 'jpg' : info.format
                         }`
@@ -47,16 +52,16 @@ const resizeToWidth = 600;
                     await fs.writeFile(saveTo, data);
                     return saveTo;
                 });
-            return `thumbnail:${p1}require('./${path.relative(
-                dirSaveTo,
-                fileNew
-            )}').default,`;
+            const pathname = path
+                .relative(dirSaveTo, fileNew)
+                .replace(/\\/g, '/');
+            return `thumbnail:${p1}'${pathname}',`;
         }
     );
 
     await fs.writeFile(
-        path.resolve(dirSaveTo, 'index.ts'),
+        path.resolve(dirSaveToData, 'videos.ts'),
         newContent,
         'utf-8'
     );
-})();
+})().catch(console.error);

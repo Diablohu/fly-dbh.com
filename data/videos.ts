@@ -3,6 +3,23 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '机场介绍: 跑道 × 公路 - 直布罗陀国际机场',
+        },
+        des: {
+            zh:
+                '我们来见识下这个星球上仅有的一座跑道与公路交汇的机场——直布罗陀国际机场',
+        },
+        thumbnailOriginal: './thumbnails/20210314.jpg',
+        link: {
+            youtube: 'https://youtu.be/IW7Qnyd-6hg',
+            bilibili: 'https://www.bilibili.com/video/BV1Vr4y1P72k',
+        },
+        tag: ['airport'],
+        release: 1615694400000,
+    },
+
+    {
+        name: {
             zh: '航线介绍: 一分钟! 全球最短航线 - 韦斯特雷',
         },
         des: {

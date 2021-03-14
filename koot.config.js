@@ -6,9 +6,14 @@
  * 配置文档请查阅: [https://koot.js.org/#/config]
  */
 
+require('koot/typedef');
+
 const fs = require('fs');
 const path = require('path');
 
+const { videos, videoThumbnail } = require('./src/constants/folders');
+
+/** @type {AppConfig} */
 module.exports = {
     /**************************************************************************
      * 项目基本信息
@@ -75,6 +80,11 @@ module.exports = {
         },
 
         module: {
+            generator: {
+                asset: {
+                    emit: process.env.WEBPACK_BUILD_STAGE !== 'server',
+                },
+            },
             rules: [
                 /**
                  * Koot.js 会为以下类型的文件自动添加 loader，无需进行配置
@@ -84,6 +94,7 @@ module.exports = {
                 {
                     test: /\.(ico|gif|jpg|jpeg|png|webp)$/,
                     loader: 'url-loader',
+                    // type: 'asset',
                     options: {
                         limit: 2 * 1024,
                     },
@@ -91,6 +102,7 @@ module.exports = {
                 {
                     test: /\.(ttf|ttc|eot|woff|woff2)$/,
                     loader: 'file-loader',
+                    // type: 'asset/resource',
                 },
                 {
                     test: /\.svg$/,
@@ -104,7 +116,10 @@ module.exports = {
             ],
         },
     }),
-    staticCopyFrom: path.resolve(__dirname, './src/assets/public'),
+    staticCopyFrom: [
+        path.resolve(__dirname, './src/assets/public'),
+        path.resolve(videos),
+    ],
     internalLoaderOptions: {
         'less-loader': {
             lessOptions: {
