@@ -52,7 +52,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "css": () => (/* binding */ css),
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-const wrapper = 'd5181d';const css = '.d5181d{position:relative;display:inline-block;font-size:14px;line-height:1.1em;padding:4px 8px;color:#000;border:1px solid rgba(0,0,0,.35);border-radius:1em;cursor:default}.d5181d.is-on{color:#fff;background:rgba(0,0,0,.35)}.d5181d[data-tag=clip]{background:hsla(0,0%,82%,.35);border-color:rgba(130,145,160,.35)}.d5181d[data-tag=clip].is-on{background-color:rgba(130,145,160,.8);border-color:rgba(130,145,160,.8)}.d5181d[data-tag=training]{background:rgba(240,134,128,.35);border-color:rgba(240,13,1,.35)}.d5181d[data-tag=training].is-on{background-color:rgba(240,13,1,.8);border-color:rgba(240,13,1,.8)}.d5181d[data-tag=landing]{background:rgba(17,213,184,.35);border-color:rgba(0,103,87,.35)}.d5181d[data-tag=landing].is-on{background-color:rgba(0,103,87,.8);border-color:rgba(0,103,87,.8)}.d5181d[data-tag=airport]{background:rgba(234,205,179,.35);border-color:rgba(228,139,57,.35)}.d5181d[data-tag=airport].is-on{background-color:rgba(228,139,57,.8);border-color:rgba(228,139,57,.8)}.d5181d[data-tag=device]{background:rgba(197,189,250,.35);border-color:rgba(82,57,255,.35)}.d5181d[data-tag=device].is-on{background-color:rgba(82,57,255,.8);border-color:rgba(82,57,255,.8)}.d5181d[data-tag=mod]{background:rgba(216,216,115,.35);border-color:rgba(179,179,24,.35)}.d5181d[data-tag=mod].is-on{background-color:rgba(179,179,24,.8);border-color:rgba(179,179,24,.8)}.d5181d[data-tag=tour]{background:rgba(68,168,240,.35);border-color:rgba(0,105,180,.35)}.d5181d[data-tag=tour].is-on{background-color:rgba(0,105,180,.8);border-color:rgba(0,105,180,.8)}.d5181d[data-tag=route]{background:rgba(206,130,215,.35);border-color:rgba(170,31,186,.35)}.d5181d[data-tag=route].is-on{background-color:rgba(170,31,186,.8);border-color:rgba(170,31,186,.8)}';/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({wrapper,css});
+const wrapper = 'c9cd74';const css = '.c9cd74{position:relative;display:inline-block;font-size:14px;line-height:1.1em;padding:4px 8px;color:#000;border:1px solid rgba(0,0,0,.35);border-radius:1em;cursor:default}.c9cd74.is-on{color:#fff;background:rgba(0,0,0,.35)}.c9cd74[data-tag=clip]{background:hsla(0,0%,82%,.35);border-color:rgba(130,145,160,.35)}.c9cd74[data-tag=clip].is-on{background-color:rgba(130,145,160,.8);border-color:rgba(130,145,160,.8)}.c9cd74[data-tag=training]{background:rgba(240,134,128,.35);border-color:rgba(240,13,1,.35)}.c9cd74[data-tag=training].is-on{background-color:rgba(240,13,1,.8);border-color:rgba(240,13,1,.8)}.c9cd74[data-tag=landing]{background:rgba(17,213,184,.35);border-color:rgba(0,103,87,.35)}.c9cd74[data-tag=landing].is-on{background-color:rgba(0,103,87,.8);border-color:rgba(0,103,87,.8)}.c9cd74[data-tag=airport]{background:rgba(206,130,215,.35);border-color:rgba(170,31,186,.35)}.c9cd74[data-tag=airport].is-on{background-color:rgba(170,31,186,.8);border-color:rgba(170,31,186,.8)}.c9cd74[data-tag=device]{background:rgba(197,189,250,.35);border-color:rgba(82,57,255,.35)}.c9cd74[data-tag=device].is-on{background-color:rgba(82,57,255,.8);border-color:rgba(82,57,255,.8)}.c9cd74[data-tag=mod]{background:rgba(216,216,115,.35);border-color:rgba(179,179,24,.35)}.c9cd74[data-tag=mod].is-on{background-color:rgba(179,179,24,.8);border-color:rgba(179,179,24,.8)}.c9cd74[data-tag=tour]{background:rgba(68,168,240,.35);border-color:rgba(0,105,180,.35)}.c9cd74[data-tag=tour].is-on{background-color:rgba(0,105,180,.8);border-color:rgba(0,105,180,.8)}.c9cd74[data-tag=route]{background:rgba(234,205,179,.35);border-color:rgba(228,139,57,.35)}.c9cd74[data-tag=route].is-on{background-color:rgba(228,139,57,.8);border-color:rgba(228,139,57,.8)}';/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({wrapper,css});
 
 /***/ }),
 
@@ -1026,8 +1026,13 @@ const executeComponentLifecycle = async ({
         store,
         renderProps,
         ctx
-      });
-      const hasTitle = !!thisTitle;
+      }); // console.log({
+      //     thisTitle,
+      //     type: typeof thisTitle,
+      //     result: process.env.KOOT_PROJECT_NAME,
+      // });
+
+      const hasTitle = typeof thisTitle !== 'undefined';
       const hasMeta = Array.isArray(thisMetas) && thisMetas.length;
       if (hasTitle) result.title = thisTitle;
       if (hasMeta) result.metaHtml = thisMetas.map(meta => '<meta' + Object.keys(meta).map(key => ` ${key}="${meta[key]}"`).join('') + '>').join('');
@@ -1356,7 +1361,7 @@ let inited = false;
 /** @type {Pageinfo} */
 
 const infoToChange = {
-  title: '',
+  title: undefined,
   metas: []
 };
 let changeTimeout = undefined;
@@ -1405,7 +1410,7 @@ let changeTimeout = undefined;
   if (changeTimeout) return;
   changeTimeout = setTimeout(() => {
     doUpdate();
-    infoToChange.title = '';
+    infoToChange.title = undefined;
     infoToChange.metas = [];
     changeTimeout = undefined;
   });
@@ -1417,7 +1422,7 @@ const doUpdate = () => {
     metas
   } = infoToChange; // 替换页面标题
 
-  document.title = title; // 替换 metas
+  if (typeof title !== 'undefined') document.title = title; // 替换 metas
 
   const head = document.getElementsByTagName('head')[0];
   getInjectedMetaTags().forEach(el => head.removeChild(el));
@@ -2199,7 +2204,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
- // import history from "__KOOT_CLIENT_REQUIRE_HISTORY__"
+ // import filterState from '../libs/filter-state';
+// import history from "__KOOT_CLIENT_REQUIRE_HISTORY__"
 
 
  // const getHistory = () => {
@@ -2777,11 +2783,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! redux */ "redux");
 /* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(redux__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../redux */ "./node_modules/koot/React/redux.js");
+/* harmony import */ var _libs_filter_state__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../libs/filter-state */ "./node_modules/koot/libs/filter-state.js");
+/* harmony import */ var _libs_filter_state__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_libs_filter_state__WEBPACK_IMPORTED_MODULE_2__);
+
 
 
 /**
  * 验证 Redux 配置
- * 
+ *
  * @param {Object} kootConfigRedux Koot 配置项: `redux`
  * @returns {Object} reduxConfig
  */
@@ -2800,9 +2809,12 @@ const validateReduxConfig = (kootConfigRedux = {}) => {
     } = kootConfigRedux;
     Object.keys(_redux__WEBPACK_IMPORTED_MODULE_1__.reducers).forEach(reducerName => {
       theReducers[reducerName] = _redux__WEBPACK_IMPORTED_MODULE_1__.reducers[reducerName];
+    }); // console.log({ theReducers, initialState });
+
+    const theInitialState = _libs_filter_state__WEBPACK_IMPORTED_MODULE_2___default()({ ..._redux__WEBPACK_IMPORTED_MODULE_1__.initialState
     });
 
-    reduxConfig.factoryStore = () => (0,redux__WEBPACK_IMPORTED_MODULE_0__.createStore)((0,redux__WEBPACK_IMPORTED_MODULE_0__.combineReducers)(theReducers), _redux__WEBPACK_IMPORTED_MODULE_1__.initialState, (0,redux__WEBPACK_IMPORTED_MODULE_0__.applyMiddleware)(..._redux__WEBPACK_IMPORTED_MODULE_1__.middlewares));
+    reduxConfig.factoryStore = () => (0,redux__WEBPACK_IMPORTED_MODULE_0__.createStore)((0,redux__WEBPACK_IMPORTED_MODULE_0__.combineReducers)(theReducers), theInitialState, (0,redux__WEBPACK_IMPORTED_MODULE_0__.applyMiddleware)(..._redux__WEBPACK_IMPORTED_MODULE_1__.middlewares));
   } else if (typeof kootConfigRedux.store === 'function') {
     reduxConfig.factoryStore = kootConfigRedux.store;
   } else if (typeof kootConfigRedux.store === 'object') {
@@ -2946,6 +2958,7 @@ module.exports = {
   keyConfigClientAssetsPublicPath: '__CLIENT_ASSETS_PUBLIC_PATH__',
   keyConfigClientServiceWorkerPathname: '__CLIENT_SERVICE_WORKER_PATHNAME__',
   keyConfigIcons: '__APP_ICONS__',
+  keyConfigOriginalFull: '__ORIGINAL__',
   WEBPACK_OUTPUT_PATH: '__WEBPACK_OUTPUT_PATH',
   CLIENT_ROOT_PATH: '__CLIENT_ROOT_PATH',
   WEBPACK_MODIFIED_PUBLIC_PATH: '__WEBPACK_MODIFIED_PUBLIC_PATH',
@@ -3091,6 +3104,21 @@ module.exports = {
  * @module koot/defaults/entrypoints
  */
 module.exports = ['client'];
+
+/***/ }),
+
+/***/ "./node_modules/koot/defaults/envs.js":
+/*!********************************************!*\
+  !*** ./node_modules/koot/defaults/envs.js ***!
+  \********************************************/
+/***/ ((module) => {
+
+module.exports = {
+  KOOT_BUILD_START_TIME: 'KOOT_BUILD_START_TIME',
+  KOOT_DEV_START_TIME: 'KOOT_DEV_START_TIME',
+  KOOT_REACT_RUNTIME: 'KOOT_REACT_RUNTIME',
+  KOOT_CLIENT_PUBLIC_PATH: 'KOOT_CLIENT_PUBLIC_PATH'
+};
 
 /***/ }),
 
@@ -3637,6 +3665,38 @@ module.exports = errorMsg;
 
 /***/ }),
 
+/***/ "./node_modules/koot/libs/filter-state.js":
+/*!************************************************!*\
+  !*** ./node_modules/koot/libs/filter-state.js ***!
+  \************************************************/
+/***/ ((module) => {
+
+const itemsBlacklist = ['localeId', 'realtimeLocation', 'routing', 'server'];
+/**
+ * 过滤 state，将黑名单内的项目删除，并返回过滤后的 state
+ *
+ * 黑名单中包括：
+ * - `localeId`
+ * - `realtimeLocation`
+ * - `routing`
+ * - `server`
+ *
+ * @param {Object} state
+ * @returns {Object}
+ */
+
+const filter = oldState => itemsBlacklist.reduce((state, item) => {
+  const {
+    [item]: _,
+    ...rest
+  } = state;
+  return rest;
+}, oldState);
+
+module.exports = filter;
+
+/***/ }),
+
 /***/ "./node_modules/koot/libs/get-dir-dev-tmp.js":
 /*!***************************************************!*\
   !*** ./node_modules/koot/libs/get-dir-dev-tmp.js ***!
@@ -4099,7 +4159,7 @@ const getChunkmap = (localeId, getFullResult = false, ignoreCache = false) => {
     if (typeof global.chunkmap === 'object') chunkmap = global.chunkmap;
 
     try {
-      chunkmap = JSON.parse("{\".zh\":{\".public\":\"public/\",\".out\":\"public/\",\".entrypoints\":{\"critical\":[\"public/includes/extract.122.cfe4662ab7e38152842f.css\",\"public/includes/entry.cfe4662ab7e38152842f.js\"],\"client\":[\"public/includes/entry.5d6a5ff1981f7e127f69.js\",\"public/includes/entry.acce3e3790c9e227cb08.js\",\"public/includes/entry.efa5db19ad501ad2153d.js\"],\"__KOOT__CLIENT__RUN__FIRST__\":[\"public/includes/entry.c1f94fa20a225c1fcf1f.js\"]},\".files\":{\"critical.css\":\"public/includes/extract.122.cfe4662ab7e38152842f.css\",\"critical.js\":\"public/includes/entry.cfe4662ab7e38152842f.js\",\"client.js\":\"public/includes/entry.efa5db19ad501ad2153d.js\",\"__KOOT__CLIENT__RUN__FIRST__.js\":\"public/includes/entry.c1f94fa20a225c1fcf1f.js\",\"libs.js\":\"public/includes/entry.5d6a5ff1981f7e127f69.js\",\"vendors.js\":\"public/includes/entry.acce3e3790c9e227cb08.js\",\"__KOOT__EXTRACT__CSS__.css\":\"public/includes/extract.all.5d2f36ec5091395800d4fd2785bf716d.small.css\"},\"service-worker\":[\"public/service-worker.zh.js\"],\".htmlMetaTags__\":\"<link rel=\\\"shortcut icon\\\" href=\\\"/includes/webapp.a1a1086f/favicon.ico\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"16x16\\\" href=\\\"/includes/webapp.a1a1086f/favicon-16x16.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"32x32\\\" href=\\\"/includes/webapp.a1a1086f/favicon-32x32.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"48x48\\\" href=\\\"/includes/webapp.a1a1086f/favicon-48x48.png\\\"><link rel=\\\"manifest\\\" href=\\\"/includes/webapp.a1a1086f/manifest.json\\\"><meta name=\\\"mobile-web-app-capable\\\" content=\\\"yes\\\"><meta name=\\\"theme-color\\\" content=\\\"#0898d8\\\"><meta name=\\\"application-name\\\" content=\\\"飞行员大波胡\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"57x57\\\" href=\\\"/includes/webapp.a1a1086f/apple-touch-icon-57x57.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"60x60\\\" href=\\\"/includes/webapp.a1a1086f/apple-touch-icon-60x60.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"72x72\\\" href=\\\"/includes/webapp.a1a1086f/apple-touch-icon-72x72.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"76x76\\\" href=\\\"/includes/webapp.a1a1086f/apple-touch-icon-76x76.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"114x114\\\" href=\\\"/includes/webapp.a1a1086f/apple-touch-icon-114x114.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"120x120\\\" href=\\\"/includes/webapp.a1a1086f/apple-touch-icon-120x120.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"144x144\\\" href=\\\"/includes/webapp.a1a1086f/apple-touch-icon-144x144.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"152x152\\\" href=\\\"/includes/webapp.a1a1086f/apple-touch-icon-152x152.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"167x167\\\" href=\\\"/includes/webapp.a1a1086f/apple-touch-icon-167x167.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"180x180\\\" href=\\\"/includes/webapp.a1a1086f/apple-touch-icon-180x180.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"1024x1024\\\" href=\\\"/includes/webapp.a1a1086f/apple-touch-icon-1024x1024.png\\\"><meta name=\\\"apple-mobile-web-app-capable\\\" content=\\\"yes\\\"><meta name=\\\"apple-mobile-web-app-status-bar-style\\\" content=\\\"black-translucent\\\"><meta name=\\\"apple-mobile-web-app-title\\\" content=\\\"飞行大波胡\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"    href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-640x1136.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"    href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-750x1334.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"    href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-828x1792.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\"    href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-1125x2436.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\"    href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-1242x2208.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\"    href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-1242x2688.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"   href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-1536x2048.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"   href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-1668x2224.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"   href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-1668x2388.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"  href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-2048x2732.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\"  href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-1620x2160.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\"   href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-1136x640.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\"   href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-1334x750.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\"   href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-1792x828.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\"   href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-2436x1125.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\"   href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-2208x1242.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\"   href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-2688x1242.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\"  href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-2048x1536.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\"  href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-2224x1668.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\"  href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-2388x1668.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-2732x2048.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\"  href=\\\"/includes/webapp.a1a1086f/apple-touch-startup-image-2160x1620.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"228x228\\\" href=\\\"/includes/webapp.a1a1086f/coast-228x228.png\\\"><meta name=\\\"msapplication-TileColor\\\" content=\\\"#212121\\\"><meta name=\\\"msapplication-TileImage\\\" content=\\\"/includes/webapp.a1a1086f/mstile-144x144.png\\\"><meta name=\\\"msapplication-config\\\" content=\\\"/includes/webapp.a1a1086f/browserconfig.xml\\\"><link rel=\\\"yandex-tableau-widget\\\" href=\\\"/includes/webapp.a1a1086f/yandex-browser-manifest.json\\\">\"}}");
+      chunkmap = JSON.parse("{\".zh\":{\".public\":\"public/\",\".out\":\"public/\",\".entrypoints\":{\"critical\":[\"public/includes/extract.122.c40a44502884cc634787.css\",\"public/includes/entry.c40a44502884cc634787.js\"],\"client\":[\"public/includes/entry.8a6868e25d0bf842467f.js\",\"public/includes/entry.a2b9537dbcd544d748ce.js\",\"public/includes/entry.1beb8e5e100b9719f1b0.js\"],\"__KOOT__CLIENT__RUN__FIRST__\":[\"public/includes/entry.2cb33376089e55c071d4.js\"]},\".files\":{\"critical.css\":\"public/includes/extract.122.c40a44502884cc634787.css\",\"critical.js\":\"public/includes/entry.c40a44502884cc634787.js\",\"client.js\":\"public/includes/entry.1beb8e5e100b9719f1b0.js\",\"__KOOT__CLIENT__RUN__FIRST__.js\":\"public/includes/entry.2cb33376089e55c071d4.js\",\"libs.js\":\"public/includes/entry.8a6868e25d0bf842467f.js\",\"vendors.js\":\"public/includes/entry.a2b9537dbcd544d748ce.js\",\"__KOOT__EXTRACT__CSS__.css\":\"public/includes/extract.all.5d2f36ec5091395800d4fd2785bf716d.small.css\"},\"service-worker\":[\"public/service-worker.zh.js\"],\".htmlMetaTags__\":\"<link rel=\\\"shortcut icon\\\" href=\\\"/includes/webapp.4ba49445/favicon.ico\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"16x16\\\" href=\\\"/includes/webapp.4ba49445/favicon-16x16.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"32x32\\\" href=\\\"/includes/webapp.4ba49445/favicon-32x32.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"48x48\\\" href=\\\"/includes/webapp.4ba49445/favicon-48x48.png\\\"><link rel=\\\"manifest\\\" href=\\\"/includes/webapp.4ba49445/manifest.json\\\"><meta name=\\\"mobile-web-app-capable\\\" content=\\\"yes\\\"><meta name=\\\"theme-color\\\" content=\\\"#0898d8\\\"><meta name=\\\"application-name\\\" content=\\\"飞行员大波胡\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"57x57\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-57x57.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"60x60\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-60x60.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"72x72\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-72x72.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"76x76\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-76x76.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"114x114\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-114x114.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"120x120\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-120x120.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"144x144\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-144x144.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"152x152\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-152x152.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"167x167\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-167x167.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"180x180\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-180x180.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"1024x1024\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-1024x1024.png\\\"><meta name=\\\"apple-mobile-web-app-capable\\\" content=\\\"yes\\\"><meta name=\\\"apple-mobile-web-app-status-bar-style\\\" content=\\\"black-translucent\\\"><meta name=\\\"apple-mobile-web-app-title\\\" content=\\\"飞行大波胡\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-640x1136.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-750x1334.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-828x1792.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1125x2436.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1242x2208.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1242x2688.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1536x2048.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1668x2224.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1668x2388.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2048x2732.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1620x2160.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1136x640.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1334x750.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1792x828.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2436x1125.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2208x1242.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2688x1242.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2048x1536.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2224x1668.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2388x1668.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2732x2048.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2160x1620.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"228x228\\\" href=\\\"/includes/webapp.4ba49445/coast-228x228.png\\\"><meta name=\\\"msapplication-TileColor\\\" content=\\\"#212121\\\"><meta name=\\\"msapplication-TileImage\\\" content=\\\"/includes/webapp.4ba49445/mstile-144x144.png\\\"><meta name=\\\"msapplication-config\\\" content=\\\"/includes/webapp.4ba49445/browserconfig.xml\\\"><link rel=\\\"yandex-tableau-widget\\\" href=\\\"/includes/webapp.4ba49445/yandex-browser-manifest.json\\\">\"}}");
     } catch (e) {
       chunkmap = false;
     }
@@ -4395,6 +4455,10 @@ module.exports = (port, env = "prod") => {
   !*** ./node_modules/koot/utils/get-public-dir.js ***!
   \***************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+const {
+  KOOT_CLIENT_PUBLIC_PATH
+} = __webpack_require__(/*! ../defaults/envs */ "./node_modules/koot/defaults/envs.js");
 
 const getWDSport = __webpack_require__(/*! ./get-webpack-dev-server-port */ "./node_modules/koot/utils/get-webpack-dev-server-port.js");
 
@@ -9520,7 +9584,7 @@ const doFetchData = (store, renderProps, funcFetch) => {
 const doPageinfo = (store, props, pageinfo) => {
   if (!_is_render_safe__WEBPACK_IMPORTED_MODULE_4___default()()) return {};
   const defaultPageInfo = {
-    title: '',
+    title: undefined,
     metas: []
   };
   if (typeof pageinfo !== 'function' && typeof pageinfo !== 'object') return defaultPageInfo;
@@ -10250,10 +10314,10 @@ const Footer = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.memo)(() => {
 
 /***/ }),
 
-/***/ "./.data/videos/index.ts":
-/*!*******************************!*\
-  !*** ./.data/videos/index.ts ***!
-  \*******************************/
+/***/ "./.data/videos.ts":
+/*!*************************!*\
+  !*** ./.data/videos.ts ***!
+  \*************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -10263,12 +10327,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: '机场介绍: 跑道 × 公路 - 直布罗陀国际机场'
+  },
+  des: {
+    zh: '我们来见识下这个星球上仅有的一座跑道与公路交汇的机场——直布罗陀国际机场'
+  },
+  thumbnail: 'thumbnails/686fed44dff01e4d12cf23f82ef5b143.jpg',
+  link: {
+    youtube: 'https://youtu.be/IW7Qnyd-6hg',
+    bilibili: 'https://www.bilibili.com/video/BV1Vr4y1P72k'
+  },
+  tag: ['airport'],
+  release: 1615694400000
+}, {
+  name: {
     zh: '航线介绍: 一分钟! 全球最短航线 - 韦斯特雷'
   },
   des: {
     zh: '一条飞行时间不足两分钟的商业航线？存在的意义又是什么？'
   },
-  thumbnail: __webpack_require__(/*! ./e5a0a4d3d923bb7bf8fd502eba502797.jpg */ "./.data/videos/e5a0a4d3d923bb7bf8fd502eba502797.jpg").default,
+  thumbnail: 'thumbnails/e5a0a4d3d923bb7bf8fd502eba502797.jpg',
   link: {
     youtube: 'https://youtu.be/O-P03s_acKU',
     bilibili: 'https://www.bilibili.com/video/BV16V411e7qz'
@@ -10282,7 +10360,7 @@ const videos = [{
   des: {
     zh: '经历了快一个月的跳票后，《微软模拟飞行》的英国更新终于上线，除了万众期待的英伦三岛及爱尔兰的地景更新外，此次更新还带来了 2 个全新的降落挑战，均属于强风挑战，那么接下来大波胡就来作死了~'
   },
-  thumbnail: __webpack_require__(/*! ./998872b0d55d29bf2425a5798a0a51dd.jpg */ "./.data/videos/998872b0d55d29bf2425a5798a0a51dd.jpg").default,
+  thumbnail: 'thumbnails/998872b0d55d29bf2425a5798a0a51dd.jpg',
   link: {
     youtube: 'https://youtu.be/aB7Aw8-1F3Q',
     bilibili: 'https://www.bilibili.com/video/BV1kV411i7oZ'
@@ -10296,7 +10374,7 @@ const videos = [{
   des: {
     zh: '图马斯特（Thrustmaster）TCA 空客摇杆可以说是目前市面上比较火爆的一款模拟飞行控制器，不过很多朋友应该都遇到了尾舵操作随机偏移的问题。好在这个问题是可以通过简单的拆解就能修理的。今天我们就来动手修理一下~'
   },
-  thumbnail: __webpack_require__(/*! ./b1cda0ff755abaeb4ab1cd45e59390d4.jpg */ "./.data/videos/b1cda0ff755abaeb4ab1cd45e59390d4.jpg").default,
+  thumbnail: 'thumbnails/b1cda0ff755abaeb4ab1cd45e59390d4.jpg',
   link: {
     youtube: 'https://youtu.be/8Q3lot3M9a0',
     bilibili: 'https://www.bilibili.com/video/BV1Zv411Y7Y5'
@@ -10310,7 +10388,7 @@ const videos = [{
   des: {
     zh: '图马斯特（Thrustmaster）TCA 空客摇杆可以说是目前市面上比较火爆的一款模拟飞行控制器，不过很多朋友应该都遇到了尾舵操作随机偏移的问题。好在这个问题是可以通过简单的拆解就能修理的。今天我们就来动手修理一下~'
   },
-  thumbnail: __webpack_require__(/*! ./6c69ffc66b8778fe346b0c319d44f5d8.jpg */ "./.data/videos/6c69ffc66b8778fe346b0c319d44f5d8.jpg").default,
+  thumbnail: 'thumbnails/6c69ffc66b8778fe346b0c319d44f5d8.jpg',
   link: {
     youtube: 'https://youtu.be/Q9ygEejv0lw',
     bilibili: 'https://www.bilibili.com/video/BV1JA411p75z'
@@ -10324,7 +10402,7 @@ const videos = [{
   des: {
     zh: '看！那是什么！是航母！这是一套为微软模拟飞行打造的航母MOD，由 HARD DECK SIMULATION（HDS）开发，售价15美元。在本期节目中我们会尝试在航母上起降各种类型的飞机，在视频后半则会介绍该 MOD 的安装、配置介绍。'
   },
-  thumbnail: __webpack_require__(/*! ./9838857b43b4eeaec35f9734955d206a.jpg */ "./.data/videos/9838857b43b4eeaec35f9734955d206a.jpg").default,
+  thumbnail: 'thumbnails/9838857b43b4eeaec35f9734955d206a.jpg',
   link: {
     youtube: 'https://youtu.be/sMlw3HfhPoA',
     bilibili: 'https://www.bilibili.com/video/BV1CU4y1x7Hm'
@@ -10338,7 +10416,7 @@ const videos = [{
   des: {
     zh: '模拟更新（Sim Update）第二弹在12月23日正式上线，除了带来了备受期待的VR功能外，还有针对空客、波音客机的大量更新，以及全新的雪景表现。不过我们今天的视频中要讲的都不是这些，而是本次更新带来的全新降落挑战——巴黎夏尔·戴高乐机场A320降落挑战。'
   },
-  thumbnail: __webpack_require__(/*! ./7eec2d06365ea0e26cef3749be2d9daa.jpg */ "./.data/videos/7eec2d06365ea0e26cef3749be2d9daa.jpg").default,
+  thumbnail: 'thumbnails/7eec2d06365ea0e26cef3749be2d9daa.jpg',
   link: {
     youtube: 'https://youtu.be/lXeULVaPRLM',
     bilibili: 'https://www.bilibili.com/video/BV12f4y1e7Nt'
@@ -10352,7 +10430,7 @@ const videos = [{
   des: {
     zh: '世界更新第二弹在11月24日如期而至，对美国全境的机场、地貌、地景、地标建筑进行了大幅更新。请大家系好安全带，搭乘 DBH 航空的班机游览北美风光~'
   },
-  thumbnail: __webpack_require__(/*! ./313356672a3f700575e2482b816a0876.jpg */ "./.data/videos/313356672a3f700575e2482b816a0876.jpg").default,
+  thumbnail: 'thumbnails/313356672a3f700575e2482b816a0876.jpg',
   link: {
     youtube: 'https://youtu.be/wSOc5o-xCeQ',
     bilibili: 'https://www.bilibili.com/video/BV1YZ4y1g7sR'
@@ -10366,7 +10444,7 @@ const videos = [{
   des: {
     zh: '在全新的《微软模拟飞行》中，空客A320能否在杰克逊·霍尔机场实现零能见度盲降？我们来亲自测试下……'
   },
-  thumbnail: __webpack_require__(/*! ./e91fc7b55e5ecb6bc4088470d90bc44f.jpg */ "./.data/videos/e91fc7b55e5ecb6bc4088470d90bc44f.jpg").default,
+  thumbnail: 'thumbnails/e91fc7b55e5ecb6bc4088470d90bc44f.jpg',
   link: {
     youtube: 'https://youtu.be/9JJhlXSBsbo',
     bilibili: 'https://www.bilibili.com/video/BV1Ey4y1S7V6'
@@ -10380,7 +10458,7 @@ const videos = [{
   des: {
     zh: '11月10日的更新为游戏带来了一个全新的降落挑战：杰克逊·霍尔机场（Jackson Hole）。本次挑战将会驾驶 Citation CJ4 降落在 19 跑道。CJ4 我的驾驶经验不多，祝我走运。'
   },
-  thumbnail: __webpack_require__(/*! ./ea30182d4fb9aad78be3d8689cb2dc01.jpg */ "./.data/videos/ea30182d4fb9aad78be3d8689cb2dc01.jpg").default,
+  thumbnail: 'thumbnails/ea30182d4fb9aad78be3d8689cb2dc01.jpg',
   link: {
     youtube: 'https://youtu.be/StOJ9HkXccY',
     bilibili: 'https://www.bilibili.com/video/BV1gD4y1X7Ng'
@@ -10394,7 +10472,7 @@ const videos = [{
   des: {
     zh: '一款免费的第三方程序为《微软模拟飞行》带来了生涯模式，我们来一探究竟'
   },
-  thumbnail: __webpack_require__(/*! ./5160b605b06b3d392d498c37bcbb339d.jpg */ "./.data/videos/5160b605b06b3d392d498c37bcbb339d.jpg").default,
+  thumbnail: 'thumbnails/5160b605b06b3d392d498c37bcbb339d.jpg',
   link: {
     youtube: 'https://youtu.be/QElg8lr15tU',
     bilibili: 'https://www.bilibili.com/video/BV1ir4y1w7aj'
@@ -10408,7 +10486,7 @@ const videos = [{
   des: {
     zh: '10月29日的更新新增了一个万圣节主题的限定降落挑战——好吓人啊~'
   },
-  thumbnail: __webpack_require__(/*! ./c3a8c02b58d88f8b9b50208a546cc9cc.jpg */ "./.data/videos/c3a8c02b58d88f8b9b50208a546cc9cc.jpg").default,
+  thumbnail: 'thumbnails/c3a8c02b58d88f8b9b50208a546cc9cc.jpg',
   link: {
     youtube: 'https://youtu.be/6qPRsCuPMUE',
     bilibili: 'https://www.bilibili.com/video/BV1KD4y1R7UT'
@@ -10422,7 +10500,7 @@ const videos = [{
   des: {
     zh: '就在前不久的10月16日，攀枝花保安营机场发生了一起事故，虽然没有人员伤亡，但此次事故让这座机场再次进入公众视野。通过模拟飞行，我们可以还原当时的条件，来亲自体验下在这座机场降落是不是如传说那般具有挑战性！'
   },
-  thumbnail: __webpack_require__(/*! ./c196fddc72ff3be648b02bd722f7e564.jpg */ "./.data/videos/c196fddc72ff3be648b02bd722f7e564.jpg").default,
+  thumbnail: 'thumbnails/c196fddc72ff3be648b02bd722f7e564.jpg',
   link: {
     youtube: 'https://youtu.be/YxrXO9g-JLc',
     bilibili: 'https://www.bilibili.com/video/BV1tz4y1C78e'
@@ -10436,7 +10514,7 @@ const videos = [{
   des: {
     zh: '大波胡购入了一款新的游戏外设，意图提升模拟飞行体验……'
   },
-  thumbnail: __webpack_require__(/*! ./0097685261463d7fc71f30738b61f94c.jpg */ "./.data/videos/0097685261463d7fc71f30738b61f94c.jpg").default,
+  thumbnail: 'thumbnails/0097685261463d7fc71f30738b61f94c.jpg',
   link: {
     youtube: 'https://youtu.be/XT9FdreY9ZQ',
     bilibili: 'https://www.bilibili.com/video/BV1x54y1R7nX'
@@ -10450,7 +10528,7 @@ const videos = [{
   des: {
     zh: '9月29日的世界更新（日本）为东京带来了测绘级的地景。但大波胡之前一直没有在游戏中看到，直到现在……'
   },
-  thumbnail: __webpack_require__(/*! ./127e52cc910b9aba330586d98844a305.jpg */ "./.data/videos/127e52cc910b9aba330586d98844a305.jpg").default,
+  thumbnail: 'thumbnails/127e52cc910b9aba330586d98844a305.jpg',
   link: {
     youtube: 'https://youtu.be/rndn4CINMQc',
     bilibili: 'https://www.bilibili.com/video/BV1m54y117rt'
@@ -10464,7 +10542,7 @@ const videos = [{
   des: {
     zh: '9月29日大型补丁更新 - World Update: Japan，大规模更新了日本的地貌、地景以及机场，同时带来了一个新的活动：云游日本'
   },
-  thumbnail: __webpack_require__(/*! ./ac5f43094587d65ae95fbff5e94b89a3.jpg */ "./.data/videos/ac5f43094587d65ae95fbff5e94b89a3.jpg").default,
+  thumbnail: 'thumbnails/ac5f43094587d65ae95fbff5e94b89a3.jpg',
   link: {
     youtube: 'https://youtu.be/vNcbK0hF8mg',
     bilibili: 'https://www.bilibili.com/video/BV13p4y1Y7wS'
@@ -10478,7 +10556,7 @@ const videos = [{
   des: {
     zh: 'ILS 盲降练习 - 降落首都国际机场'
   },
-  thumbnail: __webpack_require__(/*! ./2347093ba95dcf997f61523e4b0e3765.jpg */ "./.data/videos/2347093ba95dcf997f61523e4b0e3765.jpg").default,
+  thumbnail: 'thumbnails/2347093ba95dcf997f61523e4b0e3765.jpg',
   link: {
     youtube: 'https://youtu.be/F-jVs38ab8Y',
     bilibili: 'https://www.bilibili.com/video/BV1kK4y1874X'
@@ -10492,7 +10570,7 @@ const videos = [{
   des: {
     zh: '驾驶 Icon A5 游览海河'
   },
-  thumbnail: __webpack_require__(/*! ./e8d8a06e6fb9f87beeea875d8bffc360.jpg */ "./.data/videos/e8d8a06e6fb9f87beeea875d8bffc360.jpg").default,
+  thumbnail: 'thumbnails/e8d8a06e6fb9f87beeea875d8bffc360.jpg',
   link: {
     youtube: 'https://youtu.be/3Efm9u7TAyg',
     bilibili: 'https://www.bilibili.com/video/BV1yD4y1o7jE'
@@ -10506,7 +10584,7 @@ const videos = [{
   des: {
     zh: '飞行训练最后一课'
   },
-  thumbnail: __webpack_require__(/*! ./8d20faa0a4cae3a0f401f93c91f29d33.jpg */ "./.data/videos/8d20faa0a4cae3a0f401f93c91f29d33.jpg").default,
+  thumbnail: 'thumbnails/8d20faa0a4cae3a0f401f93c91f29d33.jpg',
   link: {
     youtube: 'https://youtu.be/eO0Prwjklkg',
     bilibili: 'https://www.bilibili.com/video/BV17a4y1j7Qq'
@@ -10562,7 +10640,7 @@ __webpack_require__.r(__webpack_exports__);
 
 const getVideoList = () => async dispatch => {
   if (true) {
-    const list = __webpack_require__(/*! ~data/videos */ "./.data/videos/index.ts").default;
+    const list = __webpack_require__(/*! ~data/videos */ "./.data/videos.ts").default;
 
     return dispatch({
       type: _constants_action_types__WEBPACK_IMPORTED_MODULE_0__.UPDATE_VIDEO_LIST,
@@ -10765,276 +10843,6 @@ const Tag = (0,koot__WEBPACK_IMPORTED_MODULE_4__.default)({
   });
 }));
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Tag);
-
-/***/ }),
-
-/***/ "./.data/videos/0097685261463d7fc71f30738b61f94c.jpg":
-/*!***********************************************************!*\
-  !*** ./.data/videos/0097685261463d7fc71f30738b61f94c.jpg ***!
-  \***********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.bf35ff4c8cfdeebe12fca8286cc89514.jpg");
-
-/***/ }),
-
-/***/ "./.data/videos/127e52cc910b9aba330586d98844a305.jpg":
-/*!***********************************************************!*\
-  !*** ./.data/videos/127e52cc910b9aba330586d98844a305.jpg ***!
-  \***********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.ea465c100f4abf7a20dc30be2c021815.jpg");
-
-/***/ }),
-
-/***/ "./.data/videos/2347093ba95dcf997f61523e4b0e3765.jpg":
-/*!***********************************************************!*\
-  !*** ./.data/videos/2347093ba95dcf997f61523e4b0e3765.jpg ***!
-  \***********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.1c8acf594efecec0e24a7eaaff7e4b5c.jpg");
-
-/***/ }),
-
-/***/ "./.data/videos/313356672a3f700575e2482b816a0876.jpg":
-/*!***********************************************************!*\
-  !*** ./.data/videos/313356672a3f700575e2482b816a0876.jpg ***!
-  \***********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.16fe2b29cc57b448a9327f4eb1312c9c.jpg");
-
-/***/ }),
-
-/***/ "./.data/videos/5160b605b06b3d392d498c37bcbb339d.jpg":
-/*!***********************************************************!*\
-  !*** ./.data/videos/5160b605b06b3d392d498c37bcbb339d.jpg ***!
-  \***********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.0908381a0565bb80f2bc048f0699f1aa.jpg");
-
-/***/ }),
-
-/***/ "./.data/videos/6c69ffc66b8778fe346b0c319d44f5d8.jpg":
-/*!***********************************************************!*\
-  !*** ./.data/videos/6c69ffc66b8778fe346b0c319d44f5d8.jpg ***!
-  \***********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.9add7c9d5208b4240bf2a215bb4a311f.jpg");
-
-/***/ }),
-
-/***/ "./.data/videos/7eec2d06365ea0e26cef3749be2d9daa.jpg":
-/*!***********************************************************!*\
-  !*** ./.data/videos/7eec2d06365ea0e26cef3749be2d9daa.jpg ***!
-  \***********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.f6cff3bd5eadb839513792b304301520.jpg");
-
-/***/ }),
-
-/***/ "./.data/videos/8d20faa0a4cae3a0f401f93c91f29d33.jpg":
-/*!***********************************************************!*\
-  !*** ./.data/videos/8d20faa0a4cae3a0f401f93c91f29d33.jpg ***!
-  \***********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.f1ec4c291c3288be4edbe0ad29265e06.jpg");
-
-/***/ }),
-
-/***/ "./.data/videos/9838857b43b4eeaec35f9734955d206a.jpg":
-/*!***********************************************************!*\
-  !*** ./.data/videos/9838857b43b4eeaec35f9734955d206a.jpg ***!
-  \***********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.b5f1a379c10aef77e1d60b881cb62f6f.jpg");
-
-/***/ }),
-
-/***/ "./.data/videos/998872b0d55d29bf2425a5798a0a51dd.jpg":
-/*!***********************************************************!*\
-  !*** ./.data/videos/998872b0d55d29bf2425a5798a0a51dd.jpg ***!
-  \***********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.ab437d416c0838a30e021dffee6c6fe2.jpg");
-
-/***/ }),
-
-/***/ "./.data/videos/ac5f43094587d65ae95fbff5e94b89a3.jpg":
-/*!***********************************************************!*\
-  !*** ./.data/videos/ac5f43094587d65ae95fbff5e94b89a3.jpg ***!
-  \***********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.4646664074c3c26561fe8e93845fdd47.jpg");
-
-/***/ }),
-
-/***/ "./.data/videos/b1cda0ff755abaeb4ab1cd45e59390d4.jpg":
-/*!***********************************************************!*\
-  !*** ./.data/videos/b1cda0ff755abaeb4ab1cd45e59390d4.jpg ***!
-  \***********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.1250f5a39c023caadaea35574b01e01a.jpg");
-
-/***/ }),
-
-/***/ "./.data/videos/c196fddc72ff3be648b02bd722f7e564.jpg":
-/*!***********************************************************!*\
-  !*** ./.data/videos/c196fddc72ff3be648b02bd722f7e564.jpg ***!
-  \***********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.35b8c5812538e4aa61f7f4720292e4a7.jpg");
-
-/***/ }),
-
-/***/ "./.data/videos/c3a8c02b58d88f8b9b50208a546cc9cc.jpg":
-/*!***********************************************************!*\
-  !*** ./.data/videos/c3a8c02b58d88f8b9b50208a546cc9cc.jpg ***!
-  \***********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.82cf79fd178cfc01ec20332553cca24c.jpg");
-
-/***/ }),
-
-/***/ "./.data/videos/e5a0a4d3d923bb7bf8fd502eba502797.jpg":
-/*!***********************************************************!*\
-  !*** ./.data/videos/e5a0a4d3d923bb7bf8fd502eba502797.jpg ***!
-  \***********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.e7138ddc36c4001c2cc2160a598495b0.jpg");
-
-/***/ }),
-
-/***/ "./.data/videos/e8d8a06e6fb9f87beeea875d8bffc360.jpg":
-/*!***********************************************************!*\
-  !*** ./.data/videos/e8d8a06e6fb9f87beeea875d8bffc360.jpg ***!
-  \***********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.9b290cfe32cb8bab0e9f3804572b618d.jpg");
-
-/***/ }),
-
-/***/ "./.data/videos/e91fc7b55e5ecb6bc4088470d90bc44f.jpg":
-/*!***********************************************************!*\
-  !*** ./.data/videos/e91fc7b55e5ecb6bc4088470d90bc44f.jpg ***!
-  \***********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.3a888484b6b3033e31e8f1d1fb5bd03a.jpg");
-
-/***/ }),
-
-/***/ "./.data/videos/ea30182d4fb9aad78be3d8689cb2dc01.jpg":
-/*!***********************************************************!*\
-  !*** ./.data/videos/ea30182d4fb9aad78be3d8689cb2dc01.jpg ***!
-  \***********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.9d574dc28dde6385118ae306b2432b91.jpg");
 
 /***/ }),
 
@@ -11270,8 +11078,9 @@ module.exports = require("warning");;
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
 /******/ 		// Check if module is in cache
-/******/ 		if(__webpack_module_cache__[moduleId]) {
-/******/ 			return __webpack_module_cache__[moduleId].exports;
+/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
+/******/ 		if (cachedModule !== undefined) {
+/******/ 			return cachedModule.exports;
 /******/ 		}
 /******/ 		// Create a new module (and put it into the cache)
 /******/ 		var module = __webpack_module_cache__[moduleId] = {
