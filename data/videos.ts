@@ -3,6 +3,23 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '降落挑战: Chagual - 山区急转弯',
+        },
+        des: {
+            zh:
+                '秘鲁山区中的 Chagual 机场以进近难度高而闻名。在《微软模拟飞行》3月初的更新中，带来了该机场的降落挑战。',
+        },
+        thumbnailOriginal: './thumbnails/20210317.jpg',
+        link: {
+            youtube: 'https://youtu.be/Um8URjl9zn4',
+            bilibili: 'https://www.bilibili.com/video/BV1Hb4y1Q7UA',
+        },
+        tag: ['landing'],
+        release: new Date('2021-03-17T12:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '机场介绍: 跑道 × 公路 - 直布罗陀国际机场',
         },
         des: {
