@@ -5,6 +5,36 @@ if (typeof global.KOOT_DIST_DIR === "undefined") {
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/assets/banner/30fps/best.webm":
+/*!*******************************************!*\
+  !*** ./src/assets/banner/30fps/best.webm ***!
+  \*******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.58217d89cee74c3159929baeb49c903c.webm");
+
+/***/ }),
+
+/***/ "./src/assets/banner/30fps/medium.mp4":
+/*!********************************************!*\
+  !*** ./src/assets/banner/30fps/medium.mp4 ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.e4006c95357679c62bdde335449ee83c.mp4");
+
+/***/ }),
+
 /***/ "./src/components/center/index.module.less":
 /*!*************************************************!*\
   !*** ./src/components/center/index.module.less ***!
@@ -86,9 +116,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "css": () => (/* binding */ css),
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var D_Projects_diablohu_sp_diablohu_com_src_assets_banner_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/assets/banner.jpg */ "./src/assets/banner.jpg");
+/* harmony import */ var D_Projects_diablohu_sp_diablohu_com_src_assets_banner_cover_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/assets/banner/cover.jpg */ "./src/assets/banner/cover.jpg");
 /* harmony import */ var D_Projects_diablohu_sp_diablohu_com_src_assets_sim_pilot_plate_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./src/assets/sim-pilot-plate.svg */ "./src/assets/sim-pilot-plate.svg");
-const wrapper = 'd7d236';const css = '.d7d236,.d7d236-banner{position:relative}.d7d236-banner{background:url("' + D_Projects_diablohu_sp_diablohu_com_src_assets_banner_jpg__WEBPACK_IMPORTED_MODULE_0__.default + '") no-repeat 50% 50%;background-size:cover;width:100%;height:75vh;min-height:340px;max-height:800px}.d7d236-banner:after,.d7d236-banner:before,.d7d236-banner>.wrapper{content:"";position:absolute;top:0;bottom:0;left:0;right:0;-webkit-flex:none;flex:none}.d7d236-banner:after{z-index:10;background:rgba(0,0,0,.15)}.d7d236-banner:before{z-index:100;background-image:radial-gradient(rgba(0,0,0,.1) 66.6667%,transparent 0);background-size:4px 4px}.d7d236-banner>.wrapper{z-index:200;display:-webkit-flex;display:flex;-webkit-flex-flow:column nowrap;flex-flow:column nowrap;-webkit-justify-content:space-around;justify-content:space-around;-webkit-align-items:center;align-items:center;padding:0 30px}.d7d236-banner>.wrapper:after,.d7d236-banner>.wrapper:before{content:"";-webkit-flex:1;flex:1}.d7d236-banner .logo{-webkit-flex:1;flex:1;color:transparent;background:url("' + D_Projects_diablohu_sp_diablohu_com_src_assets_sim_pilot_plate_svg__WEBPACK_IMPORTED_MODULE_1__.default + '") no-repeat 50% 50%;background-size:contain;margin:0;padding:0;min-height:200px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.d7d236-banner .subscribe{-webkit-flex:none;flex:none;padding-top:5vh}.d7d236-banner .subscribe>a{display:inline-block;line-height:40px;border-radius:10px;padding-left:60px;padding-right:20px;color:#fff;position:relative;text-decoration:none;margin:0 10px;transition:-webkit-transform .2s ease-out;transition:transform .2s ease-out;transition:transform .2s ease-out,-webkit-transform .2s ease-out}.d7d236-banner .subscribe>a>.icon{content:"";position:absolute;display:block;top:7px;left:10px;bottom:7px;height:26px;width:40px;background:no-repeat 50% 50%;background-size:contain;fill:#fff}.d7d236-banner .subscribe>a.youtube{background:red}.d7d236-banner .subscribe>a.bilibili{background:#07a3d7}html.is-hover .d7d236-banner .subscribe>a:hover{color:#fff;-webkit-transform:scale(1.1);transform:scale(1.1)}html.is-hover .d7d236-banner .subscribe>a:focus{outline:0}html.is-hover .d7d236-banner .subscribe>a:focus:not(:active){color:#fff;-webkit-transform:scale(1.1);transform:scale(1.1)}.d7d236-banner .subscribe>a:active,html.is-hover .d7d236-banner .subscribe>a:hover:active{color:#fff;-webkit-transform:scale(.95);transform:scale(.95)}.d7d236-banner.mod-pwa{height:50vh}.d7d236-list{position:relative;padding:20px 0 60px}.d7d236-list:after,.d7d236-list:before{content:"";position:absolute;top:0;bottom:0;left:0;right:0}.d7d236-list:before{z-index:-2;background:radial-gradient(ellipse at bottom,#f6f8f8 25%,#d7dee2 100%)}.d7d236-list:after{z-index:-1;opacity:.05;background:linear-gradient(135deg,#708090 21px,#d9ecff 22px,#d9ecff 24px,transparent 0,transparent 67px,#d9ecff 0,#d9ecff 69px,transparent 0),linear-gradient(225deg,#708090 21px,#d9ecff 22px,#d9ecff 24px,transparent 0,transparent 67px,#d9ecff 0,#d9ecff 69px,transparent 0) 0 64px;background-color:#708090;background-size:64px 128px}.d7d236-list>.header{position:-webkit-sticky;position:sticky;top:-1px;z-index:50;padding:20px 0 24px;transition:none .2s ease-out;transition-property:box-shadow}.d7d236-list>.header:after{content:"";z-index:-1;position:absolute;top:-20px;bottom:0;left:0;right:0;opacity:0;transition:inherit;transition-property:opacity;background:hsla(0,0%,100%,.95);border-bottom:1px solid rgba(0,0,0,.15)}@supports ((-webkit-backdrop-filter:blur(20px) saturate(180%)) or (backdrop-filter:blur(20px) saturate(180%))){.d7d236-list>.header:after{background:hsla(0,0%,100%,.65)}}.d7d236-list>.header>.wrapper{display:-webkit-flex;display:flex;-webkit-flex-flow:row wrap;flex-flow:row wrap;-webkit-justify-content:space-around;justify-content:space-around;-webkit-align-items:center;align-items:center}.d7d236-list>.header.is-sticky{box-shadow:0 0 10px rgba(0,0,0,.1)}.d7d236-list>.header.is-sticky:after{opacity:1;-webkit-backdrop-filter:blur(20px) saturate(180%);backdrop-filter:blur(20px) saturate(180%)}.d7d236-list>.header .title{-webkit-flex:1;flex:1;margin:0}.d7d236-list>.header .sources{white-space:nowrap;text-align:right;display:-webkit-flex;display:flex;-webkit-flex-flow:row nowrap;flex-flow:row nowrap;-webkit-align-items:center;align-items:center;font-size:14px;color:#78909b;cursor:default}.d7d236-list>.header .sources .btn-source{display:inline-block;border:0;padding:0;margin:0 0 0 .75em;background:none;color:inherit;cursor:pointer;transition:-webkit-transform .2s ease-out;transition:transform .2s ease-out;transition:transform .2s ease-out,-webkit-transform .2s ease-out}html.is-hover .d7d236-list>.header .sources .btn-source:hover{-webkit-transform:scale(1.2);transform:scale(1.2)}html.is-hover .d7d236-list>.header .sources .btn-source:focus{outline:0}html.is-hover .d7d236-list>.header .sources .btn-source:focus:not(:active){-webkit-transform:scale(1.2);transform:scale(1.2)}.d7d236-list>.header .sources .btn-source:active,html.is-hover .d7d236-list>.header .sources .btn-source:hover:active{-webkit-transform:scale(.95);transform:scale(.95)}.d7d236-list>.header .sources .btn-source .icon{width:24px;height:24px;color:inherit;fill:currentColor}.d7d236-list>.header .sources .btn-source.is-on[data-source=bilibili]{color:#07a3d7}.d7d236-list>.header .sources .btn-source.is-on[data-source=youtube]{color:red}.d7d236-list>.header .tags{-webkit-flex:1 0 100%;flex:1 0 100%;margin-top:.75em;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.d7d236-list>.header .tags .tag{margin:.75em .75em 0 0;cursor:pointer}.d7d236-list>.header .tags .tag.is-on{cursor:default}.d7d236-list>.header .tags .tag.is-on:after{content:"";position:absolute;border:6px solid transparent;left:50%;top:50%;margin-left:-6px;border-bottom-color:inherit;margin-top:.5em}.d7d236-list>.list-wrapper{border-top:15px solid transparent}.d7d236-footer{cursor:default;padding:26px 0;font-size:14px;line-height:1.5;text-align:center}';/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({wrapper,css});
+const wrapper = 'c97c27';const css = '.c97c27,.c97c27-banner{position:relative}.c97c27-banner{background:no-repeat 50% 50%;background-size:cover;background-image:url("' + D_Projects_diablohu_sp_diablohu_com_src_assets_banner_cover_jpg__WEBPACK_IMPORTED_MODULE_0__.default + '");width:100%;height:75vh;min-height:340px;max-height:800px}.c97c27-banner:after,.c97c27-banner:before,.c97c27-banner>.video,.c97c27-banner>.wrapper{content:"";position:absolute;top:0;bottom:0;left:0;right:0;-webkit-flex:none;flex:none}.c97c27-banner:after{z-index:10;background:rgba(0,0,0,.15)}.c97c27-banner:before{z-index:100;background-image:radial-gradient(rgba(0,0,0,.1) 66.6667%,transparent 0);background-size:4px 4px}.c97c27-banner>.wrapper{z-index:200;display:-webkit-flex;display:flex;-webkit-flex-flow:column nowrap;flex-flow:column nowrap;-webkit-justify-content:space-around;justify-content:space-around;-webkit-align-items:center;align-items:center;padding:0 30px}.c97c27-banner>.wrapper:after,.c97c27-banner>.wrapper:before{content:"";-webkit-flex:1;flex:1}.c97c27-banner>.video{z-index:1;width:100%;height:100%;object-fit:cover}.c97c27-banner .logo{-webkit-flex:1;flex:1;color:transparent;background:url("' + D_Projects_diablohu_sp_diablohu_com_src_assets_sim_pilot_plate_svg__WEBPACK_IMPORTED_MODULE_1__.default + '") no-repeat 50% 50%;background-size:contain;margin:0;padding:0;min-height:200px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.c97c27-banner .subscribe{-webkit-flex:none;flex:none;padding-top:5vh}.c97c27-banner .subscribe>a{display:inline-block;line-height:40px;border-radius:10px;padding-left:60px;padding-right:20px;color:#fff;position:relative;text-decoration:none;margin:0 10px;transition:-webkit-transform .2s ease-out;transition:transform .2s ease-out;transition:transform .2s ease-out,-webkit-transform .2s ease-out}.c97c27-banner .subscribe>a>.icon{content:"";position:absolute;display:block;top:7px;left:10px;bottom:7px;height:26px;width:40px;background:no-repeat 50% 50%;background-size:contain;fill:#fff}.c97c27-banner .subscribe>a.youtube{background:red}.c97c27-banner .subscribe>a.bilibili{background:#07a3d7}html.is-hover .c97c27-banner .subscribe>a:hover{color:#fff;-webkit-transform:scale(1.1);transform:scale(1.1)}html.is-hover .c97c27-banner .subscribe>a:focus{outline:0}html.is-hover .c97c27-banner .subscribe>a:focus:not(:active){color:#fff;-webkit-transform:scale(1.1);transform:scale(1.1)}.c97c27-banner .subscribe>a:active,html.is-hover .c97c27-banner .subscribe>a:hover:active{color:#fff;-webkit-transform:scale(.95);transform:scale(.95)}.c97c27-banner.mod-pwa{height:50vh}.c97c27-list{position:relative;padding:20px 0 60px}.c97c27-list:after,.c97c27-list:before{content:"";position:absolute;top:0;bottom:0;left:0;right:0}.c97c27-list:before{z-index:-2;background:radial-gradient(ellipse at bottom,#f6f8f8 25%,#d7dee2 100%)}.c97c27-list:after{z-index:-1;opacity:.05;background:linear-gradient(135deg,#708090 21px,#d9ecff 22px,#d9ecff 24px,transparent 0,transparent 67px,#d9ecff 0,#d9ecff 69px,transparent 0),linear-gradient(225deg,#708090 21px,#d9ecff 22px,#d9ecff 24px,transparent 0,transparent 67px,#d9ecff 0,#d9ecff 69px,transparent 0) 0 64px;background-color:#708090;background-size:64px 128px}.c97c27-list>.header{position:-webkit-sticky;position:sticky;top:-1px;z-index:50;padding:20px 0 24px;transition:none .2s ease-out;transition-property:box-shadow}.c97c27-list>.header:after{content:"";z-index:-1;position:absolute;top:-20px;bottom:0;left:0;right:0;opacity:0;transition:inherit;transition-property:opacity;background:hsla(0,0%,100%,.95);border-bottom:1px solid rgba(0,0,0,.15)}@supports ((-webkit-backdrop-filter:blur(20px) saturate(180%)) or (backdrop-filter:blur(20px) saturate(180%))){.c97c27-list>.header:after{background:hsla(0,0%,100%,.65)}}.c97c27-list>.header>.wrapper{display:-webkit-flex;display:flex;-webkit-flex-flow:row wrap;flex-flow:row wrap;-webkit-justify-content:space-around;justify-content:space-around;-webkit-align-items:center;align-items:center}.c97c27-list>.header.is-sticky{box-shadow:0 0 10px rgba(0,0,0,.1)}.c97c27-list>.header.is-sticky:after{opacity:1;-webkit-backdrop-filter:blur(20px) saturate(180%);backdrop-filter:blur(20px) saturate(180%)}.c97c27-list>.header .title{-webkit-flex:1;flex:1;margin:0}.c97c27-list>.header .sources{white-space:nowrap;text-align:right;display:-webkit-flex;display:flex;-webkit-flex-flow:row nowrap;flex-flow:row nowrap;-webkit-align-items:center;align-items:center;font-size:14px;color:#78909b;cursor:default}.c97c27-list>.header .sources .btn-source{display:inline-block;border:0;padding:0;margin:0 0 0 .75em;background:none;color:inherit;cursor:pointer;transition:-webkit-transform .2s ease-out;transition:transform .2s ease-out;transition:transform .2s ease-out,-webkit-transform .2s ease-out}html.is-hover .c97c27-list>.header .sources .btn-source:hover{-webkit-transform:scale(1.2);transform:scale(1.2)}html.is-hover .c97c27-list>.header .sources .btn-source:focus{outline:0}html.is-hover .c97c27-list>.header .sources .btn-source:focus:not(:active){-webkit-transform:scale(1.2);transform:scale(1.2)}.c97c27-list>.header .sources .btn-source:active,html.is-hover .c97c27-list>.header .sources .btn-source:hover:active{-webkit-transform:scale(.95);transform:scale(.95)}.c97c27-list>.header .sources .btn-source .icon{width:24px;height:24px;color:inherit;fill:currentColor}.c97c27-list>.header .sources .btn-source.is-on[data-source=bilibili]{color:#07a3d7}.c97c27-list>.header .sources .btn-source.is-on[data-source=youtube]{color:red}.c97c27-list>.header .tags{-webkit-flex:1 0 100%;flex:1 0 100%;margin-top:.75em;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.c97c27-list>.header .tags .tag{margin:.75em .75em 0 0;cursor:pointer}.c97c27-list>.header .tags .tag.is-on{cursor:default}.c97c27-list>.header .tags .tag.is-on:after{content:"";position:absolute;border:6px solid transparent;left:50%;top:50%;margin-left:-6px;border-bottom-color:inherit;margin-top:.5em}.c97c27-list>.list-wrapper{border-top:15px solid transparent}.c97c27-footer{cursor:default;padding:26px 0;font-size:14px;line-height:1.5;text-align:center}';/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({wrapper,css});
 
 /***/ }),
 
@@ -4159,7 +4189,7 @@ const getChunkmap = (localeId, getFullResult = false, ignoreCache = false) => {
     if (typeof global.chunkmap === 'object') chunkmap = global.chunkmap;
 
     try {
-      chunkmap = JSON.parse("{\".zh\":{\".public\":\"public/\",\".out\":\"public/\",\".entrypoints\":{\"critical\":[\"public/includes/extract.122.c40a44502884cc634787.css\",\"public/includes/entry.c40a44502884cc634787.js\"],\"client\":[\"public/includes/entry.8a6868e25d0bf842467f.js\",\"public/includes/entry.a2b9537dbcd544d748ce.js\",\"public/includes/entry.1beb8e5e100b9719f1b0.js\"],\"__KOOT__CLIENT__RUN__FIRST__\":[\"public/includes/entry.2cb33376089e55c071d4.js\"]},\".files\":{\"critical.css\":\"public/includes/extract.122.c40a44502884cc634787.css\",\"critical.js\":\"public/includes/entry.c40a44502884cc634787.js\",\"client.js\":\"public/includes/entry.1beb8e5e100b9719f1b0.js\",\"__KOOT__CLIENT__RUN__FIRST__.js\":\"public/includes/entry.2cb33376089e55c071d4.js\",\"libs.js\":\"public/includes/entry.8a6868e25d0bf842467f.js\",\"vendors.js\":\"public/includes/entry.a2b9537dbcd544d748ce.js\",\"__KOOT__EXTRACT__CSS__.css\":\"public/includes/extract.all.5d2f36ec5091395800d4fd2785bf716d.small.css\"},\"service-worker\":[\"public/service-worker.zh.js\"],\".htmlMetaTags__\":\"<link rel=\\\"shortcut icon\\\" href=\\\"/includes/webapp.4ba49445/favicon.ico\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"16x16\\\" href=\\\"/includes/webapp.4ba49445/favicon-16x16.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"32x32\\\" href=\\\"/includes/webapp.4ba49445/favicon-32x32.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"48x48\\\" href=\\\"/includes/webapp.4ba49445/favicon-48x48.png\\\"><link rel=\\\"manifest\\\" href=\\\"/includes/webapp.4ba49445/manifest.json\\\"><meta name=\\\"mobile-web-app-capable\\\" content=\\\"yes\\\"><meta name=\\\"theme-color\\\" content=\\\"#0898d8\\\"><meta name=\\\"application-name\\\" content=\\\"飞行员大波胡\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"57x57\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-57x57.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"60x60\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-60x60.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"72x72\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-72x72.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"76x76\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-76x76.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"114x114\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-114x114.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"120x120\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-120x120.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"144x144\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-144x144.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"152x152\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-152x152.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"167x167\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-167x167.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"180x180\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-180x180.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"1024x1024\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-1024x1024.png\\\"><meta name=\\\"apple-mobile-web-app-capable\\\" content=\\\"yes\\\"><meta name=\\\"apple-mobile-web-app-status-bar-style\\\" content=\\\"black-translucent\\\"><meta name=\\\"apple-mobile-web-app-title\\\" content=\\\"飞行大波胡\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-640x1136.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-750x1334.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-828x1792.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1125x2436.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1242x2208.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1242x2688.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1536x2048.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1668x2224.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1668x2388.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2048x2732.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1620x2160.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1136x640.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1334x750.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1792x828.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2436x1125.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2208x1242.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2688x1242.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2048x1536.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2224x1668.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2388x1668.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2732x2048.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2160x1620.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"228x228\\\" href=\\\"/includes/webapp.4ba49445/coast-228x228.png\\\"><meta name=\\\"msapplication-TileColor\\\" content=\\\"#212121\\\"><meta name=\\\"msapplication-TileImage\\\" content=\\\"/includes/webapp.4ba49445/mstile-144x144.png\\\"><meta name=\\\"msapplication-config\\\" content=\\\"/includes/webapp.4ba49445/browserconfig.xml\\\"><link rel=\\\"yandex-tableau-widget\\\" href=\\\"/includes/webapp.4ba49445/yandex-browser-manifest.json\\\">\"}}");
+      chunkmap = JSON.parse("{\".zh\":{\".public\":\"public/\",\".out\":\"public/\",\".entrypoints\":{\"critical\":[\"public/includes/extract.122.c40a44502884cc634787.css\",\"public/includes/entry.c40a44502884cc634787.js\"],\"client\":[\"public/includes/entry.8a6868e25d0bf842467f.js\",\"public/includes/entry.742279a2af5e0f3db18b.js\",\"public/includes/entry.6914289ffa26814f884e.js\"],\"__KOOT__CLIENT__RUN__FIRST__\":[\"public/includes/entry.2cb33376089e55c071d4.js\"]},\".files\":{\"critical.css\":\"public/includes/extract.122.c40a44502884cc634787.css\",\"critical.js\":\"public/includes/entry.c40a44502884cc634787.js\",\"client.js\":\"public/includes/entry.6914289ffa26814f884e.js\",\"__KOOT__CLIENT__RUN__FIRST__.js\":\"public/includes/entry.2cb33376089e55c071d4.js\",\"libs.js\":\"public/includes/entry.8a6868e25d0bf842467f.js\",\"vendors.js\":\"public/includes/entry.742279a2af5e0f3db18b.js\",\"__KOOT__EXTRACT__CSS__.css\":\"public/includes/extract.all.5d2f36ec5091395800d4fd2785bf716d.small.css\"},\"service-worker\":[\"public/service-worker.zh.js\"],\".htmlMetaTags__\":\"<link rel=\\\"shortcut icon\\\" href=\\\"/includes/webapp.4ba49445/favicon.ico\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"16x16\\\" href=\\\"/includes/webapp.4ba49445/favicon-16x16.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"32x32\\\" href=\\\"/includes/webapp.4ba49445/favicon-32x32.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"48x48\\\" href=\\\"/includes/webapp.4ba49445/favicon-48x48.png\\\"><link rel=\\\"manifest\\\" href=\\\"/includes/webapp.4ba49445/manifest.json\\\"><meta name=\\\"mobile-web-app-capable\\\" content=\\\"yes\\\"><meta name=\\\"theme-color\\\" content=\\\"#0898d8\\\"><meta name=\\\"application-name\\\" content=\\\"飞行员大波胡\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"57x57\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-57x57.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"60x60\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-60x60.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"72x72\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-72x72.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"76x76\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-76x76.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"114x114\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-114x114.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"120x120\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-120x120.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"144x144\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-144x144.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"152x152\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-152x152.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"167x167\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-167x167.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"180x180\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-180x180.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"1024x1024\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-1024x1024.png\\\"><meta name=\\\"apple-mobile-web-app-capable\\\" content=\\\"yes\\\"><meta name=\\\"apple-mobile-web-app-status-bar-style\\\" content=\\\"black-translucent\\\"><meta name=\\\"apple-mobile-web-app-title\\\" content=\\\"飞行大波胡\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-640x1136.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-750x1334.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-828x1792.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1125x2436.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1242x2208.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1242x2688.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1536x2048.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1668x2224.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1668x2388.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2048x2732.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1620x2160.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1136x640.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1334x750.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1792x828.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2436x1125.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2208x1242.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2688x1242.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2048x1536.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2224x1668.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2388x1668.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2732x2048.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2160x1620.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"228x228\\\" href=\\\"/includes/webapp.4ba49445/coast-228x228.png\\\"><meta name=\\\"msapplication-TileColor\\\" content=\\\"#212121\\\"><meta name=\\\"msapplication-TileImage\\\" content=\\\"/includes/webapp.4ba49445/mstile-144x144.png\\\"><meta name=\\\"msapplication-config\\\" content=\\\"/includes/webapp.4ba49445/browserconfig.xml\\\"><link rel=\\\"yandex-tableau-widget\\\" href=\\\"/includes/webapp.4ba49445/yandex-browser-manifest.json\\\">\"}}");
     } catch (e) {
       chunkmap = false;
     }
@@ -7926,6 +7956,433 @@ module.exports = toPlainObject;
 
 /***/ }),
 
+/***/ "./node_modules/mime/Mime.js":
+/*!***********************************!*\
+  !*** ./node_modules/mime/Mime.js ***!
+  \***********************************/
+/***/ ((module) => {
+
+"use strict";
+
+/**
+ * @param typeMap [Object] Map of MIME type -> Array[extensions]
+ * @param ...
+ */
+
+function Mime() {
+  this._types = Object.create(null);
+  this._extensions = Object.create(null);
+
+  for (let i = 0; i < arguments.length; i++) {
+    this.define(arguments[i]);
+  }
+
+  this.define = this.define.bind(this);
+  this.getType = this.getType.bind(this);
+  this.getExtension = this.getExtension.bind(this);
+}
+/**
+ * Define mimetype -> extension mappings.  Each key is a mime-type that maps
+ * to an array of extensions associated with the type.  The first extension is
+ * used as the default extension for the type.
+ *
+ * e.g. mime.define({'audio/ogg', ['oga', 'ogg', 'spx']});
+ *
+ * If a type declares an extension that has already been defined, an error will
+ * be thrown.  To suppress this error and force the extension to be associated
+ * with the new type, pass `force`=true.  Alternatively, you may prefix the
+ * extension with "*" to map the type to extension, without mapping the
+ * extension to the type.
+ *
+ * e.g. mime.define({'audio/wav', ['wav']}, {'audio/x-wav', ['*wav']});
+ *
+ *
+ * @param map (Object) type definitions
+ * @param force (Boolean) if true, force overriding of existing definitions
+ */
+
+
+Mime.prototype.define = function (typeMap, force) {
+  for (let type in typeMap) {
+    let extensions = typeMap[type].map(function (t) {
+      return t.toLowerCase();
+    });
+    type = type.toLowerCase();
+
+    for (let i = 0; i < extensions.length; i++) {
+      const ext = extensions[i]; // '*' prefix = not the preferred type for this extension.  So fixup the
+      // extension, and skip it.
+
+      if (ext[0] === '*') {
+        continue;
+      }
+
+      if (!force && ext in this._types) {
+        throw new Error('Attempt to change mapping for "' + ext + '" extension from "' + this._types[ext] + '" to "' + type + '". Pass `force=true` to allow this, otherwise remove "' + ext + '" from the list of extensions for "' + type + '".');
+      }
+
+      this._types[ext] = type;
+    } // Use first extension as default
+
+
+    if (force || !this._extensions[type]) {
+      const ext = extensions[0];
+      this._extensions[type] = ext[0] !== '*' ? ext : ext.substr(1);
+    }
+  }
+};
+/**
+ * Lookup a mime type based on extension
+ */
+
+
+Mime.prototype.getType = function (path) {
+  path = String(path);
+  let last = path.replace(/^.*[/\\]/, '').toLowerCase();
+  let ext = last.replace(/^.*\./, '').toLowerCase();
+  let hasPath = last.length < path.length;
+  let hasDot = ext.length < last.length - 1;
+  return (hasDot || !hasPath) && this._types[ext] || null;
+};
+/**
+ * Return file extension associated with a mime type
+ */
+
+
+Mime.prototype.getExtension = function (type) {
+  type = /^\s*([^;\s]*)/.test(type) && RegExp.$1;
+  return type && this._extensions[type.toLowerCase()] || null;
+};
+
+module.exports = Mime;
+
+/***/ }),
+
+/***/ "./node_modules/mime/lite.js":
+/*!***********************************!*\
+  !*** ./node_modules/mime/lite.js ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+let Mime = __webpack_require__(/*! ./Mime */ "./node_modules/mime/Mime.js");
+
+module.exports = new Mime(__webpack_require__(/*! ./types/standard */ "./node_modules/mime/types/standard.js"));
+
+/***/ }),
+
+/***/ "./node_modules/mime/types/standard.js":
+/*!*********************************************!*\
+  !*** ./node_modules/mime/types/standard.js ***!
+  \*********************************************/
+/***/ ((module) => {
+
+module.exports = {
+  "application/andrew-inset": ["ez"],
+  "application/applixware": ["aw"],
+  "application/atom+xml": ["atom"],
+  "application/atomcat+xml": ["atomcat"],
+  "application/atomdeleted+xml": ["atomdeleted"],
+  "application/atomsvc+xml": ["atomsvc"],
+  "application/atsc-dwd+xml": ["dwd"],
+  "application/atsc-held+xml": ["held"],
+  "application/atsc-rsat+xml": ["rsat"],
+  "application/bdoc": ["bdoc"],
+  "application/calendar+xml": ["xcs"],
+  "application/ccxml+xml": ["ccxml"],
+  "application/cdfx+xml": ["cdfx"],
+  "application/cdmi-capability": ["cdmia"],
+  "application/cdmi-container": ["cdmic"],
+  "application/cdmi-domain": ["cdmid"],
+  "application/cdmi-object": ["cdmio"],
+  "application/cdmi-queue": ["cdmiq"],
+  "application/cu-seeme": ["cu"],
+  "application/dash+xml": ["mpd"],
+  "application/davmount+xml": ["davmount"],
+  "application/docbook+xml": ["dbk"],
+  "application/dssc+der": ["dssc"],
+  "application/dssc+xml": ["xdssc"],
+  "application/ecmascript": ["ecma", "es"],
+  "application/emma+xml": ["emma"],
+  "application/emotionml+xml": ["emotionml"],
+  "application/epub+zip": ["epub"],
+  "application/exi": ["exi"],
+  "application/fdt+xml": ["fdt"],
+  "application/font-tdpfr": ["pfr"],
+  "application/geo+json": ["geojson"],
+  "application/gml+xml": ["gml"],
+  "application/gpx+xml": ["gpx"],
+  "application/gxf": ["gxf"],
+  "application/gzip": ["gz"],
+  "application/hjson": ["hjson"],
+  "application/hyperstudio": ["stk"],
+  "application/inkml+xml": ["ink", "inkml"],
+  "application/ipfix": ["ipfix"],
+  "application/its+xml": ["its"],
+  "application/java-archive": ["jar", "war", "ear"],
+  "application/java-serialized-object": ["ser"],
+  "application/java-vm": ["class"],
+  "application/javascript": ["js", "mjs"],
+  "application/json": ["json", "map"],
+  "application/json5": ["json5"],
+  "application/jsonml+json": ["jsonml"],
+  "application/ld+json": ["jsonld"],
+  "application/lgr+xml": ["lgr"],
+  "application/lost+xml": ["lostxml"],
+  "application/mac-binhex40": ["hqx"],
+  "application/mac-compactpro": ["cpt"],
+  "application/mads+xml": ["mads"],
+  "application/manifest+json": ["webmanifest"],
+  "application/marc": ["mrc"],
+  "application/marcxml+xml": ["mrcx"],
+  "application/mathematica": ["ma", "nb", "mb"],
+  "application/mathml+xml": ["mathml"],
+  "application/mbox": ["mbox"],
+  "application/mediaservercontrol+xml": ["mscml"],
+  "application/metalink+xml": ["metalink"],
+  "application/metalink4+xml": ["meta4"],
+  "application/mets+xml": ["mets"],
+  "application/mmt-aei+xml": ["maei"],
+  "application/mmt-usd+xml": ["musd"],
+  "application/mods+xml": ["mods"],
+  "application/mp21": ["m21", "mp21"],
+  "application/mp4": ["mp4s", "m4p"],
+  "application/mrb-consumer+xml": ["*xdf"],
+  "application/mrb-publish+xml": ["*xdf"],
+  "application/msword": ["doc", "dot"],
+  "application/mxf": ["mxf"],
+  "application/n-quads": ["nq"],
+  "application/n-triples": ["nt"],
+  "application/node": ["cjs"],
+  "application/octet-stream": ["bin", "dms", "lrf", "mar", "so", "dist", "distz", "pkg", "bpk", "dump", "elc", "deploy", "exe", "dll", "deb", "dmg", "iso", "img", "msi", "msp", "msm", "buffer"],
+  "application/oda": ["oda"],
+  "application/oebps-package+xml": ["opf"],
+  "application/ogg": ["ogx"],
+  "application/omdoc+xml": ["omdoc"],
+  "application/onenote": ["onetoc", "onetoc2", "onetmp", "onepkg"],
+  "application/oxps": ["oxps"],
+  "application/p2p-overlay+xml": ["relo"],
+  "application/patch-ops-error+xml": ["*xer"],
+  "application/pdf": ["pdf"],
+  "application/pgp-encrypted": ["pgp"],
+  "application/pgp-signature": ["asc", "sig"],
+  "application/pics-rules": ["prf"],
+  "application/pkcs10": ["p10"],
+  "application/pkcs7-mime": ["p7m", "p7c"],
+  "application/pkcs7-signature": ["p7s"],
+  "application/pkcs8": ["p8"],
+  "application/pkix-attr-cert": ["ac"],
+  "application/pkix-cert": ["cer"],
+  "application/pkix-crl": ["crl"],
+  "application/pkix-pkipath": ["pkipath"],
+  "application/pkixcmp": ["pki"],
+  "application/pls+xml": ["pls"],
+  "application/postscript": ["ai", "eps", "ps"],
+  "application/provenance+xml": ["provx"],
+  "application/pskc+xml": ["pskcxml"],
+  "application/raml+yaml": ["raml"],
+  "application/rdf+xml": ["rdf", "owl"],
+  "application/reginfo+xml": ["rif"],
+  "application/relax-ng-compact-syntax": ["rnc"],
+  "application/resource-lists+xml": ["rl"],
+  "application/resource-lists-diff+xml": ["rld"],
+  "application/rls-services+xml": ["rs"],
+  "application/route-apd+xml": ["rapd"],
+  "application/route-s-tsid+xml": ["sls"],
+  "application/route-usd+xml": ["rusd"],
+  "application/rpki-ghostbusters": ["gbr"],
+  "application/rpki-manifest": ["mft"],
+  "application/rpki-roa": ["roa"],
+  "application/rsd+xml": ["rsd"],
+  "application/rss+xml": ["rss"],
+  "application/rtf": ["rtf"],
+  "application/sbml+xml": ["sbml"],
+  "application/scvp-cv-request": ["scq"],
+  "application/scvp-cv-response": ["scs"],
+  "application/scvp-vp-request": ["spq"],
+  "application/scvp-vp-response": ["spp"],
+  "application/sdp": ["sdp"],
+  "application/senml+xml": ["senmlx"],
+  "application/sensml+xml": ["sensmlx"],
+  "application/set-payment-initiation": ["setpay"],
+  "application/set-registration-initiation": ["setreg"],
+  "application/shf+xml": ["shf"],
+  "application/sieve": ["siv", "sieve"],
+  "application/smil+xml": ["smi", "smil"],
+  "application/sparql-query": ["rq"],
+  "application/sparql-results+xml": ["srx"],
+  "application/srgs": ["gram"],
+  "application/srgs+xml": ["grxml"],
+  "application/sru+xml": ["sru"],
+  "application/ssdl+xml": ["ssdl"],
+  "application/ssml+xml": ["ssml"],
+  "application/swid+xml": ["swidtag"],
+  "application/tei+xml": ["tei", "teicorpus"],
+  "application/thraud+xml": ["tfi"],
+  "application/timestamped-data": ["tsd"],
+  "application/toml": ["toml"],
+  "application/ttml+xml": ["ttml"],
+  "application/ubjson": ["ubj"],
+  "application/urc-ressheet+xml": ["rsheet"],
+  "application/urc-targetdesc+xml": ["td"],
+  "application/voicexml+xml": ["vxml"],
+  "application/wasm": ["wasm"],
+  "application/widget": ["wgt"],
+  "application/winhlp": ["hlp"],
+  "application/wsdl+xml": ["wsdl"],
+  "application/wspolicy+xml": ["wspolicy"],
+  "application/xaml+xml": ["xaml"],
+  "application/xcap-att+xml": ["xav"],
+  "application/xcap-caps+xml": ["xca"],
+  "application/xcap-diff+xml": ["xdf"],
+  "application/xcap-el+xml": ["xel"],
+  "application/xcap-error+xml": ["xer"],
+  "application/xcap-ns+xml": ["xns"],
+  "application/xenc+xml": ["xenc"],
+  "application/xhtml+xml": ["xhtml", "xht"],
+  "application/xliff+xml": ["xlf"],
+  "application/xml": ["xml", "xsl", "xsd", "rng"],
+  "application/xml-dtd": ["dtd"],
+  "application/xop+xml": ["xop"],
+  "application/xproc+xml": ["xpl"],
+  "application/xslt+xml": ["*xsl", "xslt"],
+  "application/xspf+xml": ["xspf"],
+  "application/xv+xml": ["mxml", "xhvml", "xvml", "xvm"],
+  "application/yang": ["yang"],
+  "application/yin+xml": ["yin"],
+  "application/zip": ["zip"],
+  "audio/3gpp": ["*3gpp"],
+  "audio/adpcm": ["adp"],
+  "audio/amr": ["amr"],
+  "audio/basic": ["au", "snd"],
+  "audio/midi": ["mid", "midi", "kar", "rmi"],
+  "audio/mobile-xmf": ["mxmf"],
+  "audio/mp3": ["*mp3"],
+  "audio/mp4": ["m4a", "mp4a"],
+  "audio/mpeg": ["mpga", "mp2", "mp2a", "mp3", "m2a", "m3a"],
+  "audio/ogg": ["oga", "ogg", "spx", "opus"],
+  "audio/s3m": ["s3m"],
+  "audio/silk": ["sil"],
+  "audio/wav": ["wav"],
+  "audio/wave": ["*wav"],
+  "audio/webm": ["weba"],
+  "audio/xm": ["xm"],
+  "font/collection": ["ttc"],
+  "font/otf": ["otf"],
+  "font/ttf": ["ttf"],
+  "font/woff": ["woff"],
+  "font/woff2": ["woff2"],
+  "image/aces": ["exr"],
+  "image/apng": ["apng"],
+  "image/avif": ["avif"],
+  "image/bmp": ["bmp"],
+  "image/cgm": ["cgm"],
+  "image/dicom-rle": ["drle"],
+  "image/emf": ["emf"],
+  "image/fits": ["fits"],
+  "image/g3fax": ["g3"],
+  "image/gif": ["gif"],
+  "image/heic": ["heic"],
+  "image/heic-sequence": ["heics"],
+  "image/heif": ["heif"],
+  "image/heif-sequence": ["heifs"],
+  "image/hej2k": ["hej2"],
+  "image/hsj2": ["hsj2"],
+  "image/ief": ["ief"],
+  "image/jls": ["jls"],
+  "image/jp2": ["jp2", "jpg2"],
+  "image/jpeg": ["jpeg", "jpg", "jpe"],
+  "image/jph": ["jph"],
+  "image/jphc": ["jhc"],
+  "image/jpm": ["jpm"],
+  "image/jpx": ["jpx", "jpf"],
+  "image/jxr": ["jxr"],
+  "image/jxra": ["jxra"],
+  "image/jxrs": ["jxrs"],
+  "image/jxs": ["jxs"],
+  "image/jxsc": ["jxsc"],
+  "image/jxsi": ["jxsi"],
+  "image/jxss": ["jxss"],
+  "image/ktx": ["ktx"],
+  "image/ktx2": ["ktx2"],
+  "image/png": ["png"],
+  "image/sgi": ["sgi"],
+  "image/svg+xml": ["svg", "svgz"],
+  "image/t38": ["t38"],
+  "image/tiff": ["tif", "tiff"],
+  "image/tiff-fx": ["tfx"],
+  "image/webp": ["webp"],
+  "image/wmf": ["wmf"],
+  "message/disposition-notification": ["disposition-notification"],
+  "message/global": ["u8msg"],
+  "message/global-delivery-status": ["u8dsn"],
+  "message/global-disposition-notification": ["u8mdn"],
+  "message/global-headers": ["u8hdr"],
+  "message/rfc822": ["eml", "mime"],
+  "model/3mf": ["3mf"],
+  "model/gltf+json": ["gltf"],
+  "model/gltf-binary": ["glb"],
+  "model/iges": ["igs", "iges"],
+  "model/mesh": ["msh", "mesh", "silo"],
+  "model/mtl": ["mtl"],
+  "model/obj": ["obj"],
+  "model/stl": ["stl"],
+  "model/vrml": ["wrl", "vrml"],
+  "model/x3d+binary": ["*x3db", "x3dbz"],
+  "model/x3d+fastinfoset": ["x3db"],
+  "model/x3d+vrml": ["*x3dv", "x3dvz"],
+  "model/x3d+xml": ["x3d", "x3dz"],
+  "model/x3d-vrml": ["x3dv"],
+  "text/cache-manifest": ["appcache", "manifest"],
+  "text/calendar": ["ics", "ifb"],
+  "text/coffeescript": ["coffee", "litcoffee"],
+  "text/css": ["css"],
+  "text/csv": ["csv"],
+  "text/html": ["html", "htm", "shtml"],
+  "text/jade": ["jade"],
+  "text/jsx": ["jsx"],
+  "text/less": ["less"],
+  "text/markdown": ["markdown", "md"],
+  "text/mathml": ["mml"],
+  "text/mdx": ["mdx"],
+  "text/n3": ["n3"],
+  "text/plain": ["txt", "text", "conf", "def", "list", "log", "in", "ini"],
+  "text/richtext": ["rtx"],
+  "text/rtf": ["*rtf"],
+  "text/sgml": ["sgml", "sgm"],
+  "text/shex": ["shex"],
+  "text/slim": ["slim", "slm"],
+  "text/spdx": ["spdx"],
+  "text/stylus": ["stylus", "styl"],
+  "text/tab-separated-values": ["tsv"],
+  "text/troff": ["t", "tr", "roff", "man", "me", "ms"],
+  "text/turtle": ["ttl"],
+  "text/uri-list": ["uri", "uris", "urls"],
+  "text/vcard": ["vcard"],
+  "text/vtt": ["vtt"],
+  "text/xml": ["*xml"],
+  "text/yaml": ["yaml", "yml"],
+  "video/3gpp": ["3gp", "3gpp"],
+  "video/3gpp2": ["3g2"],
+  "video/h261": ["h261"],
+  "video/h263": ["h263"],
+  "video/h264": ["h264"],
+  "video/iso.segment": ["m4s"],
+  "video/jpeg": ["jpgv"],
+  "video/jpm": ["*jpm", "jpgm"],
+  "video/mj2": ["mj2", "mjp2"],
+  "video/mp2t": ["ts"],
+  "video/mp4": ["mp4", "mp4v", "mpg4"],
+  "video/mpeg": ["mpeg", "mpg", "mpe", "m1v", "m2v"],
+  "video/ogg": ["ogv"],
+  "video/quicktime": ["qt", "mov"],
+  "video/webm": ["webm"]
+};
+
+/***/ }),
+
 /***/ "./node_modules/react/cjs/react-jsx-runtime.development.js":
 /*!*****************************************************************!*\
   !*** ./node_modules/react/cjs/react-jsx-runtime.development.js ***!
@@ -9232,16 +9689,55 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./routes */ "./src/server/routes/index.js");
+/* harmony import */ var fs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! fs */ "fs");
+/* harmony import */ var fs__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(fs__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! path */ "path");
+/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(path__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var koa_range__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! koa-range */ "koa-range");
+/* harmony import */ var koa_range__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(koa_range__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var mime_lite__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! mime/lite */ "./node_modules/mime/lite.js");
+/* harmony import */ var mime_lite__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(mime_lite__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./routes */ "./src/server/routes/index.js");
 /**
  * **服务器端生命周期**
  *
  * _创建 Koa 实例后、挂载任何中间件之前_
  */
 
+
+
+
+
+const forceLength = {};
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (async app => {
-  // 挂载路由
-  app.use(_routes__WEBPACK_IMPORTED_MODULE_0__.default);
+  app.use((koa_range__WEBPACK_IMPORTED_MODULE_2___default()));
+  app.use(async (ctx, next) => {
+    if (forceLength[ctx.path]) {
+      ctx.length = forceLength[ctx.path];
+      return next();
+    }
+
+    if (ctx.is('video/*') || /^video(\/|$)/.test(mime_lite__WEBPACK_IMPORTED_MODULE_3___default().getType(ctx.path))) {
+      const file = path__WEBPACK_IMPORTED_MODULE_1___default().resolve(global.KOOT_DIST_DIR, 'public', ctx.path.replace(/^(\/|\\)/, '')); // console.log(
+      //     ctx.path,
+      //     file,
+      //     fs.existsSync(file),
+      //     fs.lstatSync(file)
+      // );
+      // serveAsStream[ctx.path] = fs.createReadStream(file);
+
+      forceLength[ctx.path] = fs__WEBPACK_IMPORTED_MODULE_0___default().lstatSync(file).size;
+      ctx.length = forceLength[ctx.path];
+    } // if (serveAsStream[ctx.path]) {
+    //     ctx.body = serveAsStream[ctx.path];
+    //     return;
+    // }
+
+
+    return next();
+  }); // 挂载路由
+
+  app.use(_routes__WEBPACK_IMPORTED_MODULE_4__.default);
 });
 
 /***/ }),
@@ -10159,11 +10655,11 @@ const Banner = (0,koot__WEBPACK_IMPORTED_MODULE_15__.default)({
 })( /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.memo)(({
   appMode
 }) => {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("div", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("div", {
     className: classnames__WEBPACK_IMPORTED_MODULE_2___default()([`${_app_module_less__WEBPACK_IMPORTED_MODULE_13__.wrapper}-banner`, {
       'mod-pwa': appMode === _constants_app_mode__WEBPACK_IMPORTED_MODULE_9__.PWA
     }]),
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("div", {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("div", {
       className: "wrapper",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("h1", {
         className: "logo",
@@ -10190,7 +10686,21 @@ const Banner = (0,koot__WEBPACK_IMPORTED_MODULE_15__.default)({
           }), "\u8BA2\u9605"]
         })]
       })]
-    })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("video", {
+      className: "video" // poster={require('@assets/banner/cover.jpg').default}
+      ,
+      crossOrigin: "anonymous",
+      preload: "auto",
+      autoPlay: true,
+      loop: true,
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("source", {
+        type: "video/webm",
+        src: __webpack_require__(/*! @assets/banner/30fps/best.webm */ "./src/assets/banner/30fps/best.webm").default
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("source", {
+        type: "video/mp4",
+        src: __webpack_require__(/*! @assets/banner/30fps/medium.mp4 */ "./src/assets/banner/30fps/medium.mp4").default
+      })]
+    })]
   });
 }));
 const List = (0,koot__WEBPACK_IMPORTED_MODULE_15__.default)({
@@ -10860,10 +11370,10 @@ const Tag = (0,koot__WEBPACK_IMPORTED_MODULE_4__.default)({
 
 /***/ }),
 
-/***/ "./src/assets/banner.jpg":
-/*!*******************************!*\
-  !*** ./src/assets/banner.jpg ***!
-  \*******************************/
+/***/ "./src/assets/banner/cover.jpg":
+/*!*************************************!*\
+  !*** ./src/assets/banner/cover.jpg ***!
+  \*************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -10871,7 +11381,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.7618bfaeaa248e73e6190c1e101355c4.jpg");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.3c37282f79b4bd73d8d49c0b030381d4.jpg");
 
 /***/ }),
 
@@ -10949,6 +11459,17 @@ module.exports = require("is-url");;
 
 "use strict";
 module.exports = require("js-cookie");;
+
+/***/ }),
+
+/***/ "koa-range":
+/*!****************************!*\
+  !*** external "koa-range" ***!
+  \****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("koa-range");;
 
 /***/ }),
 

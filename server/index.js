@@ -1780,7 +1780,7 @@ __webpack_require__.r(__webpack_exports__);
 const validateTemplate = template => {
   if (false) {}
 
-  if (true) template = "<!DOCTYPE html>\r\n<html<%- inject.htmlLang %>>\r\n\r\n<head>\r\n    <meta charset=\"utf-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,viewport-fit=cover\">\r\n\r\n    <title><%= inject.title %></title>\r\n\r\n    <base target=\"_self\">\r\n\r\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\r\n    <meta name=\"format-detection\" content=\"telephone=no,email=no,address=no\">\r\n    <meta name=\"format-detection\" content=\"email=no\">\r\n    <meta name=\"format-detection\" content=\"address=no\">\r\n    <meta name=\"format-detection\" content=\"telephone=no\">\r\n    <meta name=\"HandheldFriendly\" content=\"true\">\r\n\r\n    <!-- IE/Edge/Multi-engine -->\r\n    <meta name=\"renderer\" content=\"webkit\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\r\n\r\n    <%- inject.metas %>\r\n    <%- inject.styles %>\r\n</head>\r\n\r\n<body class=\"koot-system\">\r\n    <div id=\"root\"><%- inject.react %></div>\r\n    <script type=\"text/javascript\"><%- content('critical.js') %></script>\r\n    <%- inject.svgIconPack %>\r\n    <%- inject.scripts %>\r\n\r\n    <!-- Global site tag (gtag.js) - Google Analytics -->\r\n    <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-C48ZDR3K8S\"></script>\r\n    <script>\r\n        window.dataLayer = window.dataLayer || [];\r\n        function gtag(){dataLayer.push(arguments);}\r\n        gtag('js', new Date());\r\n\r\n        gtag('config', 'G-C48ZDR3K8S');\r\n    </script>\r\n</body>\r\n\r\n</html>\r\n\r\n<%- inject.performanceInfos %>\r\n\n<!-- rendered by using koot.js 0.15.0-beta.0 -->";
+  if (true) template = "<!DOCTYPE html>\r\n<html<%- inject.htmlLang %>>\r\n\r\n<head>\r\n    <meta charset=\"utf-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,viewport-fit=cover\">\r\n\r\n    <title><%= inject.title %></title>\r\n\r\n    <base target=\"_self\">\r\n\r\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\r\n    <meta name=\"format-detection\" content=\"telephone=no,email=no,address=no\">\r\n    <meta name=\"format-detection\" content=\"email=no\">\r\n    <meta name=\"format-detection\" content=\"address=no\">\r\n    <meta name=\"format-detection\" content=\"telephone=no\">\r\n    <meta name=\"HandheldFriendly\" content=\"true\">\r\n\r\n    <!-- IE/Edge/Multi-engine -->\r\n    <meta name=\"renderer\" content=\"webkit\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\r\n\r\n    <%- inject.metas %>\r\n    <%- inject.styles %>\r\n</head>\r\n\r\n<body class=\"koot-system\">\r\n    <div id=\"root\"><%- inject.react %></div>\r\n    <script type=\"text/javascript\"><%- content('critical.js') %></script>\r\n    <%- inject.svgIconPack %>\r\n    <%- inject.scripts %>\r\n\r\n    <!-- Global site tag (gtag.js) - Google Analytics -->\r\n    <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-C48ZDR3K8S\"></script>\r\n    <script>\r\n        window.dataLayer = window.dataLayer || [];\r\n        function gtag(){dataLayer.push(arguments);}\r\n        gtag('js', new Date());\r\n\r\n        gtag('config', 'G-C48ZDR3K8S');\r\n    </script>\r\n</body>\r\n\r\n</html>\r\n\r\n<%- inject.performanceInfos %>\r\n\n<!-- rendered by using koot.js 0.15.0-beta.1 -->";
   if (typeof template !== 'string') throw new Error(_libs_error_msg__WEBPACK_IMPORTED_MODULE_0___default()('VALIDATE_TEMPLATE', '`config.template` should be Pathname or EJS String')); // process.env.KOOT_HTML_TEMPLATE = template
 
   return template;
@@ -4205,7 +4205,7 @@ const getChunkmap = (localeId, getFullResult = false, ignoreCache = false) => {
     if (typeof global.chunkmap === 'object') chunkmap = global.chunkmap;
 
     try {
-      chunkmap = JSON.parse("{\".zh\":{\".public\":\"public/\",\".out\":\"public/\",\".entrypoints\":{\"critical\":[\"public/includes/extract.122.c40a44502884cc634787.css\",\"public/includes/entry.c40a44502884cc634787.js\"],\"client\":[\"public/includes/entry.8a6868e25d0bf842467f.js\",\"public/includes/entry.a2b9537dbcd544d748ce.js\",\"public/includes/entry.1beb8e5e100b9719f1b0.js\"],\"__KOOT__CLIENT__RUN__FIRST__\":[\"public/includes/entry.2cb33376089e55c071d4.js\"]},\".files\":{\"critical.css\":\"public/includes/extract.122.c40a44502884cc634787.css\",\"critical.js\":\"public/includes/entry.c40a44502884cc634787.js\",\"client.js\":\"public/includes/entry.1beb8e5e100b9719f1b0.js\",\"__KOOT__CLIENT__RUN__FIRST__.js\":\"public/includes/entry.2cb33376089e55c071d4.js\",\"libs.js\":\"public/includes/entry.8a6868e25d0bf842467f.js\",\"vendors.js\":\"public/includes/entry.a2b9537dbcd544d748ce.js\",\"__KOOT__EXTRACT__CSS__.css\":\"public/includes/extract.all.5d2f36ec5091395800d4fd2785bf716d.small.css\"},\"service-worker\":[\"public/service-worker.zh.js\"],\".htmlMetaTags__\":\"<link rel=\\\"shortcut icon\\\" href=\\\"/includes/webapp.4ba49445/favicon.ico\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"16x16\\\" href=\\\"/includes/webapp.4ba49445/favicon-16x16.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"32x32\\\" href=\\\"/includes/webapp.4ba49445/favicon-32x32.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"48x48\\\" href=\\\"/includes/webapp.4ba49445/favicon-48x48.png\\\"><link rel=\\\"manifest\\\" href=\\\"/includes/webapp.4ba49445/manifest.json\\\"><meta name=\\\"mobile-web-app-capable\\\" content=\\\"yes\\\"><meta name=\\\"theme-color\\\" content=\\\"#0898d8\\\"><meta name=\\\"application-name\\\" content=\\\"飞行员大波胡\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"57x57\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-57x57.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"60x60\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-60x60.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"72x72\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-72x72.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"76x76\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-76x76.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"114x114\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-114x114.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"120x120\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-120x120.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"144x144\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-144x144.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"152x152\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-152x152.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"167x167\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-167x167.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"180x180\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-180x180.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"1024x1024\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-1024x1024.png\\\"><meta name=\\\"apple-mobile-web-app-capable\\\" content=\\\"yes\\\"><meta name=\\\"apple-mobile-web-app-status-bar-style\\\" content=\\\"black-translucent\\\"><meta name=\\\"apple-mobile-web-app-title\\\" content=\\\"飞行大波胡\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-640x1136.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-750x1334.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-828x1792.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1125x2436.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1242x2208.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1242x2688.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1536x2048.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1668x2224.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1668x2388.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2048x2732.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1620x2160.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1136x640.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1334x750.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1792x828.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2436x1125.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2208x1242.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2688x1242.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2048x1536.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2224x1668.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2388x1668.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2732x2048.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2160x1620.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"228x228\\\" href=\\\"/includes/webapp.4ba49445/coast-228x228.png\\\"><meta name=\\\"msapplication-TileColor\\\" content=\\\"#212121\\\"><meta name=\\\"msapplication-TileImage\\\" content=\\\"/includes/webapp.4ba49445/mstile-144x144.png\\\"><meta name=\\\"msapplication-config\\\" content=\\\"/includes/webapp.4ba49445/browserconfig.xml\\\"><link rel=\\\"yandex-tableau-widget\\\" href=\\\"/includes/webapp.4ba49445/yandex-browser-manifest.json\\\">\"}}");
+      chunkmap = JSON.parse("{\".zh\":{\".public\":\"public/\",\".out\":\"public/\",\".entrypoints\":{\"critical\":[\"public/includes/extract.122.c40a44502884cc634787.css\",\"public/includes/entry.c40a44502884cc634787.js\"],\"client\":[\"public/includes/entry.8a6868e25d0bf842467f.js\",\"public/includes/entry.742279a2af5e0f3db18b.js\",\"public/includes/entry.6914289ffa26814f884e.js\"],\"__KOOT__CLIENT__RUN__FIRST__\":[\"public/includes/entry.2cb33376089e55c071d4.js\"]},\".files\":{\"critical.css\":\"public/includes/extract.122.c40a44502884cc634787.css\",\"critical.js\":\"public/includes/entry.c40a44502884cc634787.js\",\"client.js\":\"public/includes/entry.6914289ffa26814f884e.js\",\"__KOOT__CLIENT__RUN__FIRST__.js\":\"public/includes/entry.2cb33376089e55c071d4.js\",\"libs.js\":\"public/includes/entry.8a6868e25d0bf842467f.js\",\"vendors.js\":\"public/includes/entry.742279a2af5e0f3db18b.js\",\"__KOOT__EXTRACT__CSS__.css\":\"public/includes/extract.all.5d2f36ec5091395800d4fd2785bf716d.small.css\"},\"service-worker\":[\"public/service-worker.zh.js\"],\".htmlMetaTags__\":\"<link rel=\\\"shortcut icon\\\" href=\\\"/includes/webapp.4ba49445/favicon.ico\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"16x16\\\" href=\\\"/includes/webapp.4ba49445/favicon-16x16.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"32x32\\\" href=\\\"/includes/webapp.4ba49445/favicon-32x32.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"48x48\\\" href=\\\"/includes/webapp.4ba49445/favicon-48x48.png\\\"><link rel=\\\"manifest\\\" href=\\\"/includes/webapp.4ba49445/manifest.json\\\"><meta name=\\\"mobile-web-app-capable\\\" content=\\\"yes\\\"><meta name=\\\"theme-color\\\" content=\\\"#0898d8\\\"><meta name=\\\"application-name\\\" content=\\\"飞行员大波胡\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"57x57\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-57x57.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"60x60\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-60x60.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"72x72\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-72x72.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"76x76\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-76x76.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"114x114\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-114x114.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"120x120\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-120x120.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"144x144\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-144x144.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"152x152\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-152x152.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"167x167\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-167x167.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"180x180\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-180x180.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"1024x1024\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-icon-1024x1024.png\\\"><meta name=\\\"apple-mobile-web-app-capable\\\" content=\\\"yes\\\"><meta name=\\\"apple-mobile-web-app-status-bar-style\\\" content=\\\"black-translucent\\\"><meta name=\\\"apple-mobile-web-app-title\\\" content=\\\"飞行大波胡\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-640x1136.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-750x1334.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-828x1792.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1125x2436.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1242x2208.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1242x2688.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1536x2048.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1668x2224.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1668x2388.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2048x2732.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1620x2160.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1136x640.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1334x750.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-1792x828.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2436x1125.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2208x1242.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2688x1242.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2048x1536.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2224x1668.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2388x1668.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2732x2048.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.4ba49445/apple-touch-startup-image-2160x1620.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"228x228\\\" href=\\\"/includes/webapp.4ba49445/coast-228x228.png\\\"><meta name=\\\"msapplication-TileColor\\\" content=\\\"#212121\\\"><meta name=\\\"msapplication-TileImage\\\" content=\\\"/includes/webapp.4ba49445/mstile-144x144.png\\\"><meta name=\\\"msapplication-config\\\" content=\\\"/includes/webapp.4ba49445/browserconfig.xml\\\"><link rel=\\\"yandex-tableau-widget\\\" href=\\\"/includes/webapp.4ba49445/yandex-browser-manifest.json\\\">\"}}");
     } catch (e) {
       chunkmap = false;
     }
@@ -7778,6 +7778,433 @@ module.exports = toPlainObject;
 
 /***/ }),
 
+/***/ "./node_modules/mime/Mime.js":
+/*!***********************************!*\
+  !*** ./node_modules/mime/Mime.js ***!
+  \***********************************/
+/***/ ((module) => {
+
+"use strict";
+
+/**
+ * @param typeMap [Object] Map of MIME type -> Array[extensions]
+ * @param ...
+ */
+
+function Mime() {
+  this._types = Object.create(null);
+  this._extensions = Object.create(null);
+
+  for (let i = 0; i < arguments.length; i++) {
+    this.define(arguments[i]);
+  }
+
+  this.define = this.define.bind(this);
+  this.getType = this.getType.bind(this);
+  this.getExtension = this.getExtension.bind(this);
+}
+/**
+ * Define mimetype -> extension mappings.  Each key is a mime-type that maps
+ * to an array of extensions associated with the type.  The first extension is
+ * used as the default extension for the type.
+ *
+ * e.g. mime.define({'audio/ogg', ['oga', 'ogg', 'spx']});
+ *
+ * If a type declares an extension that has already been defined, an error will
+ * be thrown.  To suppress this error and force the extension to be associated
+ * with the new type, pass `force`=true.  Alternatively, you may prefix the
+ * extension with "*" to map the type to extension, without mapping the
+ * extension to the type.
+ *
+ * e.g. mime.define({'audio/wav', ['wav']}, {'audio/x-wav', ['*wav']});
+ *
+ *
+ * @param map (Object) type definitions
+ * @param force (Boolean) if true, force overriding of existing definitions
+ */
+
+
+Mime.prototype.define = function (typeMap, force) {
+  for (let type in typeMap) {
+    let extensions = typeMap[type].map(function (t) {
+      return t.toLowerCase();
+    });
+    type = type.toLowerCase();
+
+    for (let i = 0; i < extensions.length; i++) {
+      const ext = extensions[i]; // '*' prefix = not the preferred type for this extension.  So fixup the
+      // extension, and skip it.
+
+      if (ext[0] === '*') {
+        continue;
+      }
+
+      if (!force && ext in this._types) {
+        throw new Error('Attempt to change mapping for "' + ext + '" extension from "' + this._types[ext] + '" to "' + type + '". Pass `force=true` to allow this, otherwise remove "' + ext + '" from the list of extensions for "' + type + '".');
+      }
+
+      this._types[ext] = type;
+    } // Use first extension as default
+
+
+    if (force || !this._extensions[type]) {
+      const ext = extensions[0];
+      this._extensions[type] = ext[0] !== '*' ? ext : ext.substr(1);
+    }
+  }
+};
+/**
+ * Lookup a mime type based on extension
+ */
+
+
+Mime.prototype.getType = function (path) {
+  path = String(path);
+  let last = path.replace(/^.*[/\\]/, '').toLowerCase();
+  let ext = last.replace(/^.*\./, '').toLowerCase();
+  let hasPath = last.length < path.length;
+  let hasDot = ext.length < last.length - 1;
+  return (hasDot || !hasPath) && this._types[ext] || null;
+};
+/**
+ * Return file extension associated with a mime type
+ */
+
+
+Mime.prototype.getExtension = function (type) {
+  type = /^\s*([^;\s]*)/.test(type) && RegExp.$1;
+  return type && this._extensions[type.toLowerCase()] || null;
+};
+
+module.exports = Mime;
+
+/***/ }),
+
+/***/ "./node_modules/mime/lite.js":
+/*!***********************************!*\
+  !*** ./node_modules/mime/lite.js ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+let Mime = __webpack_require__(/*! ./Mime */ "./node_modules/mime/Mime.js");
+
+module.exports = new Mime(__webpack_require__(/*! ./types/standard */ "./node_modules/mime/types/standard.js"));
+
+/***/ }),
+
+/***/ "./node_modules/mime/types/standard.js":
+/*!*********************************************!*\
+  !*** ./node_modules/mime/types/standard.js ***!
+  \*********************************************/
+/***/ ((module) => {
+
+module.exports = {
+  "application/andrew-inset": ["ez"],
+  "application/applixware": ["aw"],
+  "application/atom+xml": ["atom"],
+  "application/atomcat+xml": ["atomcat"],
+  "application/atomdeleted+xml": ["atomdeleted"],
+  "application/atomsvc+xml": ["atomsvc"],
+  "application/atsc-dwd+xml": ["dwd"],
+  "application/atsc-held+xml": ["held"],
+  "application/atsc-rsat+xml": ["rsat"],
+  "application/bdoc": ["bdoc"],
+  "application/calendar+xml": ["xcs"],
+  "application/ccxml+xml": ["ccxml"],
+  "application/cdfx+xml": ["cdfx"],
+  "application/cdmi-capability": ["cdmia"],
+  "application/cdmi-container": ["cdmic"],
+  "application/cdmi-domain": ["cdmid"],
+  "application/cdmi-object": ["cdmio"],
+  "application/cdmi-queue": ["cdmiq"],
+  "application/cu-seeme": ["cu"],
+  "application/dash+xml": ["mpd"],
+  "application/davmount+xml": ["davmount"],
+  "application/docbook+xml": ["dbk"],
+  "application/dssc+der": ["dssc"],
+  "application/dssc+xml": ["xdssc"],
+  "application/ecmascript": ["ecma", "es"],
+  "application/emma+xml": ["emma"],
+  "application/emotionml+xml": ["emotionml"],
+  "application/epub+zip": ["epub"],
+  "application/exi": ["exi"],
+  "application/fdt+xml": ["fdt"],
+  "application/font-tdpfr": ["pfr"],
+  "application/geo+json": ["geojson"],
+  "application/gml+xml": ["gml"],
+  "application/gpx+xml": ["gpx"],
+  "application/gxf": ["gxf"],
+  "application/gzip": ["gz"],
+  "application/hjson": ["hjson"],
+  "application/hyperstudio": ["stk"],
+  "application/inkml+xml": ["ink", "inkml"],
+  "application/ipfix": ["ipfix"],
+  "application/its+xml": ["its"],
+  "application/java-archive": ["jar", "war", "ear"],
+  "application/java-serialized-object": ["ser"],
+  "application/java-vm": ["class"],
+  "application/javascript": ["js", "mjs"],
+  "application/json": ["json", "map"],
+  "application/json5": ["json5"],
+  "application/jsonml+json": ["jsonml"],
+  "application/ld+json": ["jsonld"],
+  "application/lgr+xml": ["lgr"],
+  "application/lost+xml": ["lostxml"],
+  "application/mac-binhex40": ["hqx"],
+  "application/mac-compactpro": ["cpt"],
+  "application/mads+xml": ["mads"],
+  "application/manifest+json": ["webmanifest"],
+  "application/marc": ["mrc"],
+  "application/marcxml+xml": ["mrcx"],
+  "application/mathematica": ["ma", "nb", "mb"],
+  "application/mathml+xml": ["mathml"],
+  "application/mbox": ["mbox"],
+  "application/mediaservercontrol+xml": ["mscml"],
+  "application/metalink+xml": ["metalink"],
+  "application/metalink4+xml": ["meta4"],
+  "application/mets+xml": ["mets"],
+  "application/mmt-aei+xml": ["maei"],
+  "application/mmt-usd+xml": ["musd"],
+  "application/mods+xml": ["mods"],
+  "application/mp21": ["m21", "mp21"],
+  "application/mp4": ["mp4s", "m4p"],
+  "application/mrb-consumer+xml": ["*xdf"],
+  "application/mrb-publish+xml": ["*xdf"],
+  "application/msword": ["doc", "dot"],
+  "application/mxf": ["mxf"],
+  "application/n-quads": ["nq"],
+  "application/n-triples": ["nt"],
+  "application/node": ["cjs"],
+  "application/octet-stream": ["bin", "dms", "lrf", "mar", "so", "dist", "distz", "pkg", "bpk", "dump", "elc", "deploy", "exe", "dll", "deb", "dmg", "iso", "img", "msi", "msp", "msm", "buffer"],
+  "application/oda": ["oda"],
+  "application/oebps-package+xml": ["opf"],
+  "application/ogg": ["ogx"],
+  "application/omdoc+xml": ["omdoc"],
+  "application/onenote": ["onetoc", "onetoc2", "onetmp", "onepkg"],
+  "application/oxps": ["oxps"],
+  "application/p2p-overlay+xml": ["relo"],
+  "application/patch-ops-error+xml": ["*xer"],
+  "application/pdf": ["pdf"],
+  "application/pgp-encrypted": ["pgp"],
+  "application/pgp-signature": ["asc", "sig"],
+  "application/pics-rules": ["prf"],
+  "application/pkcs10": ["p10"],
+  "application/pkcs7-mime": ["p7m", "p7c"],
+  "application/pkcs7-signature": ["p7s"],
+  "application/pkcs8": ["p8"],
+  "application/pkix-attr-cert": ["ac"],
+  "application/pkix-cert": ["cer"],
+  "application/pkix-crl": ["crl"],
+  "application/pkix-pkipath": ["pkipath"],
+  "application/pkixcmp": ["pki"],
+  "application/pls+xml": ["pls"],
+  "application/postscript": ["ai", "eps", "ps"],
+  "application/provenance+xml": ["provx"],
+  "application/pskc+xml": ["pskcxml"],
+  "application/raml+yaml": ["raml"],
+  "application/rdf+xml": ["rdf", "owl"],
+  "application/reginfo+xml": ["rif"],
+  "application/relax-ng-compact-syntax": ["rnc"],
+  "application/resource-lists+xml": ["rl"],
+  "application/resource-lists-diff+xml": ["rld"],
+  "application/rls-services+xml": ["rs"],
+  "application/route-apd+xml": ["rapd"],
+  "application/route-s-tsid+xml": ["sls"],
+  "application/route-usd+xml": ["rusd"],
+  "application/rpki-ghostbusters": ["gbr"],
+  "application/rpki-manifest": ["mft"],
+  "application/rpki-roa": ["roa"],
+  "application/rsd+xml": ["rsd"],
+  "application/rss+xml": ["rss"],
+  "application/rtf": ["rtf"],
+  "application/sbml+xml": ["sbml"],
+  "application/scvp-cv-request": ["scq"],
+  "application/scvp-cv-response": ["scs"],
+  "application/scvp-vp-request": ["spq"],
+  "application/scvp-vp-response": ["spp"],
+  "application/sdp": ["sdp"],
+  "application/senml+xml": ["senmlx"],
+  "application/sensml+xml": ["sensmlx"],
+  "application/set-payment-initiation": ["setpay"],
+  "application/set-registration-initiation": ["setreg"],
+  "application/shf+xml": ["shf"],
+  "application/sieve": ["siv", "sieve"],
+  "application/smil+xml": ["smi", "smil"],
+  "application/sparql-query": ["rq"],
+  "application/sparql-results+xml": ["srx"],
+  "application/srgs": ["gram"],
+  "application/srgs+xml": ["grxml"],
+  "application/sru+xml": ["sru"],
+  "application/ssdl+xml": ["ssdl"],
+  "application/ssml+xml": ["ssml"],
+  "application/swid+xml": ["swidtag"],
+  "application/tei+xml": ["tei", "teicorpus"],
+  "application/thraud+xml": ["tfi"],
+  "application/timestamped-data": ["tsd"],
+  "application/toml": ["toml"],
+  "application/ttml+xml": ["ttml"],
+  "application/ubjson": ["ubj"],
+  "application/urc-ressheet+xml": ["rsheet"],
+  "application/urc-targetdesc+xml": ["td"],
+  "application/voicexml+xml": ["vxml"],
+  "application/wasm": ["wasm"],
+  "application/widget": ["wgt"],
+  "application/winhlp": ["hlp"],
+  "application/wsdl+xml": ["wsdl"],
+  "application/wspolicy+xml": ["wspolicy"],
+  "application/xaml+xml": ["xaml"],
+  "application/xcap-att+xml": ["xav"],
+  "application/xcap-caps+xml": ["xca"],
+  "application/xcap-diff+xml": ["xdf"],
+  "application/xcap-el+xml": ["xel"],
+  "application/xcap-error+xml": ["xer"],
+  "application/xcap-ns+xml": ["xns"],
+  "application/xenc+xml": ["xenc"],
+  "application/xhtml+xml": ["xhtml", "xht"],
+  "application/xliff+xml": ["xlf"],
+  "application/xml": ["xml", "xsl", "xsd", "rng"],
+  "application/xml-dtd": ["dtd"],
+  "application/xop+xml": ["xop"],
+  "application/xproc+xml": ["xpl"],
+  "application/xslt+xml": ["*xsl", "xslt"],
+  "application/xspf+xml": ["xspf"],
+  "application/xv+xml": ["mxml", "xhvml", "xvml", "xvm"],
+  "application/yang": ["yang"],
+  "application/yin+xml": ["yin"],
+  "application/zip": ["zip"],
+  "audio/3gpp": ["*3gpp"],
+  "audio/adpcm": ["adp"],
+  "audio/amr": ["amr"],
+  "audio/basic": ["au", "snd"],
+  "audio/midi": ["mid", "midi", "kar", "rmi"],
+  "audio/mobile-xmf": ["mxmf"],
+  "audio/mp3": ["*mp3"],
+  "audio/mp4": ["m4a", "mp4a"],
+  "audio/mpeg": ["mpga", "mp2", "mp2a", "mp3", "m2a", "m3a"],
+  "audio/ogg": ["oga", "ogg", "spx", "opus"],
+  "audio/s3m": ["s3m"],
+  "audio/silk": ["sil"],
+  "audio/wav": ["wav"],
+  "audio/wave": ["*wav"],
+  "audio/webm": ["weba"],
+  "audio/xm": ["xm"],
+  "font/collection": ["ttc"],
+  "font/otf": ["otf"],
+  "font/ttf": ["ttf"],
+  "font/woff": ["woff"],
+  "font/woff2": ["woff2"],
+  "image/aces": ["exr"],
+  "image/apng": ["apng"],
+  "image/avif": ["avif"],
+  "image/bmp": ["bmp"],
+  "image/cgm": ["cgm"],
+  "image/dicom-rle": ["drle"],
+  "image/emf": ["emf"],
+  "image/fits": ["fits"],
+  "image/g3fax": ["g3"],
+  "image/gif": ["gif"],
+  "image/heic": ["heic"],
+  "image/heic-sequence": ["heics"],
+  "image/heif": ["heif"],
+  "image/heif-sequence": ["heifs"],
+  "image/hej2k": ["hej2"],
+  "image/hsj2": ["hsj2"],
+  "image/ief": ["ief"],
+  "image/jls": ["jls"],
+  "image/jp2": ["jp2", "jpg2"],
+  "image/jpeg": ["jpeg", "jpg", "jpe"],
+  "image/jph": ["jph"],
+  "image/jphc": ["jhc"],
+  "image/jpm": ["jpm"],
+  "image/jpx": ["jpx", "jpf"],
+  "image/jxr": ["jxr"],
+  "image/jxra": ["jxra"],
+  "image/jxrs": ["jxrs"],
+  "image/jxs": ["jxs"],
+  "image/jxsc": ["jxsc"],
+  "image/jxsi": ["jxsi"],
+  "image/jxss": ["jxss"],
+  "image/ktx": ["ktx"],
+  "image/ktx2": ["ktx2"],
+  "image/png": ["png"],
+  "image/sgi": ["sgi"],
+  "image/svg+xml": ["svg", "svgz"],
+  "image/t38": ["t38"],
+  "image/tiff": ["tif", "tiff"],
+  "image/tiff-fx": ["tfx"],
+  "image/webp": ["webp"],
+  "image/wmf": ["wmf"],
+  "message/disposition-notification": ["disposition-notification"],
+  "message/global": ["u8msg"],
+  "message/global-delivery-status": ["u8dsn"],
+  "message/global-disposition-notification": ["u8mdn"],
+  "message/global-headers": ["u8hdr"],
+  "message/rfc822": ["eml", "mime"],
+  "model/3mf": ["3mf"],
+  "model/gltf+json": ["gltf"],
+  "model/gltf-binary": ["glb"],
+  "model/iges": ["igs", "iges"],
+  "model/mesh": ["msh", "mesh", "silo"],
+  "model/mtl": ["mtl"],
+  "model/obj": ["obj"],
+  "model/stl": ["stl"],
+  "model/vrml": ["wrl", "vrml"],
+  "model/x3d+binary": ["*x3db", "x3dbz"],
+  "model/x3d+fastinfoset": ["x3db"],
+  "model/x3d+vrml": ["*x3dv", "x3dvz"],
+  "model/x3d+xml": ["x3d", "x3dz"],
+  "model/x3d-vrml": ["x3dv"],
+  "text/cache-manifest": ["appcache", "manifest"],
+  "text/calendar": ["ics", "ifb"],
+  "text/coffeescript": ["coffee", "litcoffee"],
+  "text/css": ["css"],
+  "text/csv": ["csv"],
+  "text/html": ["html", "htm", "shtml"],
+  "text/jade": ["jade"],
+  "text/jsx": ["jsx"],
+  "text/less": ["less"],
+  "text/markdown": ["markdown", "md"],
+  "text/mathml": ["mml"],
+  "text/mdx": ["mdx"],
+  "text/n3": ["n3"],
+  "text/plain": ["txt", "text", "conf", "def", "list", "log", "in", "ini"],
+  "text/richtext": ["rtx"],
+  "text/rtf": ["*rtf"],
+  "text/sgml": ["sgml", "sgm"],
+  "text/shex": ["shex"],
+  "text/slim": ["slim", "slm"],
+  "text/spdx": ["spdx"],
+  "text/stylus": ["stylus", "styl"],
+  "text/tab-separated-values": ["tsv"],
+  "text/troff": ["t", "tr", "roff", "man", "me", "ms"],
+  "text/turtle": ["ttl"],
+  "text/uri-list": ["uri", "uris", "urls"],
+  "text/vcard": ["vcard"],
+  "text/vtt": ["vtt"],
+  "text/xml": ["*xml"],
+  "text/yaml": ["yaml", "yml"],
+  "video/3gpp": ["3gp", "3gpp"],
+  "video/3gpp2": ["3g2"],
+  "video/h261": ["h261"],
+  "video/h263": ["h263"],
+  "video/h264": ["h264"],
+  "video/iso.segment": ["m4s"],
+  "video/jpeg": ["jpgv"],
+  "video/jpm": ["*jpm", "jpgm"],
+  "video/mj2": ["mj2", "mjp2"],
+  "video/mp2t": ["ts"],
+  "video/mp4": ["mp4", "mp4v", "mpg4"],
+  "video/mpeg": ["mpeg", "mpg", "mpe", "m1v", "m2v"],
+  "video/ogg": ["ogv"],
+  "video/quicktime": ["qt", "mov"],
+  "video/webm": ["webm"]
+};
+
+/***/ }),
+
 /***/ "./node_modules/react/cjs/react-jsx-runtime.development.js":
 /*!*****************************************************************!*\
   !*** ./node_modules/react/cjs/react-jsx-runtime.development.js ***!
@@ -9035,16 +9462,55 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./routes */ "./src/server/routes/index.js");
+/* harmony import */ var fs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! fs */ "fs");
+/* harmony import */ var fs__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(fs__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! path */ "path");
+/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(path__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var koa_range__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! koa-range */ "koa-range");
+/* harmony import */ var koa_range__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(koa_range__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var mime_lite__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! mime/lite */ "./node_modules/mime/lite.js");
+/* harmony import */ var mime_lite__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(mime_lite__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./routes */ "./src/server/routes/index.js");
 /**
  * **服务器端生命周期**
  *
  * _创建 Koa 实例后、挂载任何中间件之前_
  */
 
+
+
+
+
+const forceLength = {};
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (async app => {
-  // 挂载路由
-  app.use(_routes__WEBPACK_IMPORTED_MODULE_0__.default);
+  app.use((koa_range__WEBPACK_IMPORTED_MODULE_2___default()));
+  app.use(async (ctx, next) => {
+    if (forceLength[ctx.path]) {
+      ctx.length = forceLength[ctx.path];
+      return next();
+    }
+
+    if (ctx.is('video/*') || /^video(\/|$)/.test(mime_lite__WEBPACK_IMPORTED_MODULE_3___default().getType(ctx.path))) {
+      const file = path__WEBPACK_IMPORTED_MODULE_1___default().resolve(global.KOOT_DIST_DIR, 'public', ctx.path.replace(/^(\/|\\)/, '')); // console.log(
+      //     ctx.path,
+      //     file,
+      //     fs.existsSync(file),
+      //     fs.lstatSync(file)
+      // );
+      // serveAsStream[ctx.path] = fs.createReadStream(file);
+
+      forceLength[ctx.path] = fs__WEBPACK_IMPORTED_MODULE_0___default().lstatSync(file).size;
+      ctx.length = forceLength[ctx.path];
+    } // if (serveAsStream[ctx.path]) {
+    //     ctx.body = serveAsStream[ctx.path];
+    //     return;
+    // }
+
+
+    return next();
+  }); // 挂载路由
+
+  app.use(_routes__WEBPACK_IMPORTED_MODULE_4__.default);
 });
 
 /***/ }),
@@ -9630,6 +10096,17 @@ module.exports = require("koa-convert");;
 
 "use strict";
 module.exports = require("koa-helmet");;
+
+/***/ }),
+
+/***/ "koa-range":
+/*!****************************!*\
+  !*** external "koa-range" ***!
+  \****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("koa-range");;
 
 /***/ }),
 
