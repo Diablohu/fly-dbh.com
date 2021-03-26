@@ -90,6 +90,23 @@ const Banner = extend({
                         </a>
                     </div>
                 </div>
+                <video
+                    className="video"
+                    // poster={require('@assets/banner/cover.jpg').default}
+                    crossOrigin="anonymous"
+                    preload="auto"
+                    autoPlay
+                    loop
+                >
+                    <source
+                        type="video/webm"
+                        src={require('@assets/banner/30fps/best.webm').default}
+                    />
+                    <source
+                        type="video/mp4"
+                        src={require('@assets/banner/30fps/medium.mp4').default}
+                    />
+                </video>
             </div>
         );
     })

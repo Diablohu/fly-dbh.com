@@ -7,8 +7,10 @@
 .component-banner {
     @banner-height: 75vh;
     position: relative;
-    background: url(@assets/banner.jpg) no-repeat 50% 50%;
+    background: no-repeat 50% 50%;
     background-size: cover;
+    // background-image: url(@assets/banner.jpg);
+    background-image: url(@assets/banner/cover.jpg);
     width: 100%;
     height: @banner-height;
     min-height: 340px;
@@ -16,7 +18,8 @@
 
     &::before,
     &::after,
-    & > .wrapper {
+    & > .wrapper,
+    & > .video {
         content: '';
         position: absolute;
         top: 0;
@@ -53,6 +56,14 @@
             flex: 1;
         }
     }
+
+    & > .video {
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
     .logo {
         flex: 1;
         color: transparent;

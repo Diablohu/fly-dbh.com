@@ -11,7 +11,10 @@ require('koot/typedef');
 const fs = require('fs');
 const path = require('path');
 
-const { videos, videoThumbnail } = require('./src/constants/folders');
+const {
+    videos,
+    // videoThumbnail
+} = require('./src/constants/folders');
 
 /** @type {AppConfig} */
 module.exports = {
@@ -100,7 +103,7 @@ module.exports = {
                     },
                 },
                 {
-                    test: /\.(ttf|ttc|eot|woff|woff2)$/,
+                    test: /\.(ttf|ttc|eot|woff|woff2|mp4|webm)$/,
                     loader: 'file-loader',
                     // type: 'asset/resource',
                 },
