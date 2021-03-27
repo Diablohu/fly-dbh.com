@@ -1,4 +1,13 @@
-import { StrictMode, memo, useState, useEffect, useRef } from 'react';
+import {
+    StrictMode,
+    memo,
+    useState,
+    useEffect,
+    useRef,
+    useCallback,
+    useContext,
+    createContext,
+} from 'react';
 import { extend } from 'koot';
 import qs from 'query-string';
 import classNames from 'classnames';
@@ -16,6 +25,13 @@ import videoTags, { names as videoTagName } from '@constants/video-tags';
 import { VIDEO_SOURCE as cookieNameVideoSource } from '@constants/cookie-name';
 
 import styles, { wrapper as classNameModule } from './app.module.less';
+
+// ============================================================================
+
+const listStickyContext = createContext({
+    value: false,
+    update() {},
+});
 
 // ============================================================================
 
@@ -38,13 +54,21 @@ const App = extend({
     },
     styles,
 })(({ className, dispatch }) => {
+    const [listStickyValue, setListStickyValue] = useState(false);
     return (
         <StrictMode>
-            <div className={className}>
-                <Banner />
-                <List />
-                <Footer />
-            </div>
+            <listStickyContext.Provider
+                value={{
+                    value: listStickyValue,
+                    update: setListStickyValue,
+                }}
+            >
+                <div className={className}>
+                    <Banner />
+                    <List />
+                    <Footer />
+                </div>
+            </listStickyContext.Provider>
         </StrictMode>
     );
 });
@@ -58,6 +82,67 @@ const Banner = extend({
     }),
 })(
     memo(({ appMode }) => {
+        const WrapperRef = useRef(null);
+        const VideoRef = useRef(null);
+
+        const { value: listSticky } = useContext(listStickyContext);
+
+        const setStylesDo = useCallback(
+            (evt) => {
+                // reset the tick so we can
+                // capture the next onScroll
+                Banner.ticking = false;
+
+                if (listSticky) return;
+
+                const wrapperHeight = WrapperRef.current.offsetHeight;
+                WrapperRef.current.style.setProperty(
+                    '--scale',
+                    Math.min(
+                        1,
+                        Math.max(
+                            0,
+                            (wrapperHeight - window.scrollY) / wrapperHeight // * 1.2
+                        )
+                    )
+                );
+                VideoRef.current.style.setProperty(
+                    '--offsetY',
+                    window.scrollY / 2
+                );
+                // console.log(
+                //     window.scrollY,
+                //     pos,
+                //     WrapperRef.current,
+                //     VideoRef.current
+                // );
+            },
+            [WrapperRef, VideoRef, listSticky]
+        );
+        const setStyles = useCallback(
+            (evt) => {
+                if (!Banner.ticking) {
+                    requestAnimationFrame(setStylesDo);
+                }
+                Banner.ticking = true;
+            },
+            [setStylesDo]
+        );
+
+        useEffect(() => {
+            setStyles();
+            window.addEventListener('resize', setStyles);
+            window.addEventListener('scroll', setStyles);
+            return () => {
+                window.removeEventListener('resize', setStyles);
+                window.removeEventListener('scroll', setStyles);
+            };
+        }, [setStyles]);
+
+        // useEffect(() => {
+        //     console.log({ listSticky });
+        // }, [listSticky]);
+
         return (
             <div
                 className={classNames([
@@ -67,7 +152,7 @@ const Banner = extend({
                     },
                 ])}
             >
-                <div className="wrapper">
+                <div className="wrapper" ref={WrapperRef}>
                     <h1 className="logo">飞行员大波胡 | Sim-Pilot Diablohu</h1>
                     <div className="subscribe">
                         <a
@@ -99,6 +184,7 @@ const Banner = extend({
                     autoPlay
                     loop
                     muted
+                    ref={VideoRef}
                 >
                     <source
                         type="video/webm"
@@ -113,6 +199,14 @@ const Banner = extend({
         );
     })
 );
+Banner.requestTick = () => {
+    if (!Banner.ticking) {
+        requestAnimationFrame(Banner.update);
+    }
+    Banner.ticking = true;
+};
+
+// ============================================================================
 
 const List = extend({
     connect: (state) => ({
@@ -124,6 +218,10 @@ const List = extend({
 
         const [source, setSource] = useState(defaultSource);
         const [tag, setTag] = useState('');
+        // const [sticky, setSticky] = useState(false);
+        const { value: sticky, update: setSticky } = useContext(
+            listStickyContext
+        );
 
         useEffect(() => {
             if (!HeaderRef || !HeaderRef.current) return;
@@ -131,8 +229,13 @@ const List = extend({
             List.observer = new IntersectionObserver(
                 ([e]) => {
                     // console.log(e.boundingClientRect, e.intersectionRect);
-                    e.target.classList.toggle(
-                        'is-sticky',
+                    // e.target.classList.toggle(
+                    //     'is-sticky',
+                    //     e.boundingClientRect.top <= 0 &&
+                    //         e.intersectionRatio < 1 &&
+                    //         e.intersectionRatio > 0
+                    // );
+                    setSticky(
                         e.boundingClientRect.top <= 0 &&
                             e.intersectionRatio < 1 &&
                             e.intersectionRatio > 0
@@ -141,7 +244,7 @@ const List = extend({
                 { threshold: [1, 0] }
             );
             List.observer.observe(HeaderRef.current);
-        }, []);
+        }, [setSticky]);
 
         function selectSource(evt) {
             evt.preventDefault();
@@ -161,7 +264,15 @@ const List = extend({
 
         return (
             <div className={`${classNameModule}-list`}>
-                <div className="header" ref={HeaderRef}>
+                <div
+                    className={classNames([
+                        'header',
+                        {
+                            'is-sticky': sticky,
+                        },
+                    ])}
+                    ref={HeaderRef}
+                >
                     <Center className="wrapper">
                         <h2 className="title">最新视频</h2>
                         <div className="sources">
@@ -213,6 +324,8 @@ List.tags = [{ label: '全部', value: '' }].concat(
         value: tag,
     }))
 );
+
+// ============================================================================
 
 const Footer = memo(() => {
     return (
