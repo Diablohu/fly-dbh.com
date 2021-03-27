@@ -95,8 +95,10 @@ const Banner = extend({
                     // poster={require('@assets/banner/cover.jpg').default}
                     crossOrigin="anonymous"
                     preload="auto"
+                    playsInline
                     autoPlay
                     loop
+                    muted
                 >
                     <source
                         type="video/webm"
