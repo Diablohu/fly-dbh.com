@@ -133,15 +133,18 @@ const Banner = extend({
             setStyles();
             window.addEventListener('resize', setStyles);
             window.addEventListener('scroll', setStyles);
+            // VideoRef.current.play();
             return () => {
                 window.removeEventListener('resize', setStyles);
                 window.removeEventListener('scroll', setStyles);
             };
         }, [setStyles]);
 
-        // useEffect(() => {
-        //     console.log({ listSticky });
-        // }, [listSticky]);
+        useEffect(() => {
+            if (listSticky) VideoRef.current.pause();
+            else VideoRef.current.play();
+            // console.log({ listSticky });
+        }, [listSticky]);
 
         return (
             <div
@@ -188,11 +191,13 @@ const Banner = extend({
                 >
                     <source
                         type="video/webm"
-                        src={require('@assets/banner/30fps/best.webm').default}
+                        src={
+                            require('@assets/banner/30fps/medium.webm').default
+                        }
                     />
                     <source
                         type="video/mp4"
-                        src={require('@assets/banner/30fps/medium.mp4').default}
+                        src={require('@assets/banner/30fps/low.mp4').default}
                     />
                 </video>
             </div>
