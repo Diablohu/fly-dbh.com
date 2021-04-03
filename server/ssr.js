@@ -10919,6 +10919,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: '插件介绍: 纸箱喷火战斗机'
+  },
+  des: {
+    zh: 'Supermarine Spitfire 喷火战斗机。皇家空军之骄傲，将纳粹德军扫出不列颠岛之功臣。梅林引擎的轰鸣声曾为伦敦人民带来希望。而如今……'
+  },
+  thumbnail: 'thumbnails/d199fe0b03ccf965777bbc3380a50c4e.jpg',
+  link: {
+    youtube: 'https://youtu.be/8nnNb-wHqnU',
+    bilibili: 'https://www.bilibili.com/video/BV1PZ4y1c7hA'
+  },
+  tag: ['mod'],
+  release: new Date('2021-04-04T11:35:00+0800').valueOf()
+}, {
+  name: {
     zh: '降落挑战: Chagual - 山区急转弯'
   },
   des: {
