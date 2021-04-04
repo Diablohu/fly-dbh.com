@@ -10919,12 +10919,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
-    zh: '插件介绍: 纸箱喷火战斗机'
+    zh: '纸箱喷火战斗机'
   },
   des: {
     zh: 'Supermarine Spitfire 喷火战斗机。皇家空军之骄傲，将纳粹德军扫出不列颠岛之功臣。梅林引擎的轰鸣声曾为伦敦人民带来希望。而如今……'
   },
-  thumbnail: 'thumbnails/d199fe0b03ccf965777bbc3380a50c4e.jpg',
+  thumbnail: 'thumbnails/44a56464035c504142a731726894e68f.jpg',
   link: {
     youtube: 'https://youtu.be/8nnNb-wHqnU',
     bilibili: 'https://www.bilibili.com/video/BV1PZ4y1c7hA'
