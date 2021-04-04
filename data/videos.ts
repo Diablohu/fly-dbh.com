@@ -3,7 +3,7 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
-            zh: '插件介绍: 纸箱喷火战斗机',
+            zh: '纸箱喷火战斗机',
         },
         des: {
             zh:
