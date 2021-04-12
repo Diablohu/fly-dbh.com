@@ -10919,6 +10919,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: '全球AI船舶交通'
+  },
+  des: {
+    zh: '一款名为“全球AI船舶交通”（Global AI Ship Traffic MSFS）的第三方插件问世，为水面增加了一些活力'
+  },
+  thumbnail: 'thumbnails/fbefbdc0619bafb7029275eca4f18b90.jpg',
+  link: {
+    youtube: 'https://youtu.be/1mfi-0LJjvg',
+    bilibili: 'https://www.bilibili.com/video/BV1rZ4y1c79A'
+  },
+  tag: ['mod'],
+  release: new Date('2021-04-13T11:35:00+0800').valueOf()
+}, {
+  name: {
     zh: '纸箱喷火战斗机'
   },
   des: {
