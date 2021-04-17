@@ -18,7 +18,7 @@ export const names: {
 } = {
     clip: '片段',
     training: '训练',
-    landing: '降落',
+    landing: '着陆',
     airport: '机场',
     route: '航线',
     device: '设备',
