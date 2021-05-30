@@ -11,7 +11,7 @@
     background: no-repeat 50% 50%;
     background-size: cover;
     // background-image: url(@assets/banner.jpg);
-    background-image: url(@assets/banner/cover.jpg);
+    background-image: url(~'@assets/banner/cover.jpg');
     width: 100%;
     height: @banner-height;
     min-height: 340px;
@@ -74,13 +74,13 @@
         transform: translateY(calc(var(--offsetY) * 1px));
         background: no-repeat 50% 50%;
         background-size: cover;
-        background-image: url(@assets/banner/cover.jpg);
+        background-image: url(~'@assets/banner/cover.jpg');
     }
 
     .logo {
         flex: 1;
         color: transparent;
-        background: url(@assets/sim-pilot-plate.svg) no-repeat 50% 50%;
+        background: url(~'@assets/sim-pilot-plate.svg') no-repeat 50% 50%;
         background-size: contain;
         margin: 0;
         padding: 0;

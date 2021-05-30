@@ -3,6 +3,23 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '着陆挑战: Sirena - 草坪机场侧风挑战',
+        },
+        des: {
+            zh:
+                '哥斯达黎加一座国家公园内的草坪跑道机场，在侧风条件下的着陆难都会有多高呢？在《微软模拟飞行》5月更新中，带来了该机场的降落挑战。',
+        },
+        thumbnailOriginal: './thumbnails/20210531.jpg',
+        link: {
+            youtube: 'https://youtu.be/yqV7oCybH-I',
+            bilibili: 'https://www.bilibili.com/video/BV1iK4y1R7UU',
+        },
+        tag: ['landing'],
+        release: new Date('2021-06-01T17:35:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '着陆挑战: La Salette - 山峰上坡草地',
         },
         des: {
