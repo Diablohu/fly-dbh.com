@@ -229,6 +229,15 @@ const List = extend({
         const { value: sticky, update: setSticky } =
             useContext(listStickyContext);
 
+        function scrollToList() {
+            if (!HeaderRef || !HeaderRef.current) return;
+            const { top } = HeaderRef.current.getBoundingClientRect();
+            window.scrollTo(
+                0,
+                top + window.pageYOffset || document.documentElement.scrollTop
+            );
+        }
+
         useEffect(() => {
             if (!HeaderRef || !HeaderRef.current) return;
             if (List.observer) return;
@@ -254,12 +263,7 @@ const List = extend({
 
         useEffect(() => {
             if (!category) return;
-            if (!HeaderRef || !HeaderRef.current) return;
-            const { top } = HeaderRef.current.getBoundingClientRect();
-            window.scrollTo(
-                0,
-                top + window.pageYOffset || document.documentElement.scrollTop
-            );
+            scrollToList();
             // eslint-disable-next-line react-hooks/exhaustive-deps
         }, []);
 
@@ -273,11 +277,13 @@ const List = extend({
                 Cookies.set(cookieNameVideoSource, newSource, { expires: 365 });
             else Cookies.remove(cookieNameVideoSource);
         }
-        // function selectTag(evt) {
-        //     evt.preventDefault();
-        //     const targetTag = evt.currentTarget.getAttribute('data-tag');
-        //     setTag(targetTag === tag ? undefined : targetTag);
-        // }
+        function selectTag(evt) {
+            setTimeout(() => {
+                scrollToList();
+            }, 10);
+            // const targetTag = evt.currentTarget.getAttribute('data-tag');
+            // setTag(targetTag === tag ? undefined : targetTag);
+        }
 
         return (
             <div className={`${classNameModule}-list`}>
@@ -314,7 +320,7 @@ const List = extend({
                             {List.tags.map(({ label, value }) => (
                                 <Link key={value} to={`/${value}`}>
                                     <Tag
-                                        // onClick={selectTag}
+                                        onClick={selectTag}
                                         className={classNames([
                                             'tag',
                                             {
