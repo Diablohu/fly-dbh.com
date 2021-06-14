@@ -221,6 +221,7 @@ const List = extend({
     }),
 })(
     memo(({ defaultSource, category = '' }) => {
+        const ContainerRef = useRef(null);
         const HeaderRef = useRef(null);
 
         const [source, setSource] = useState(defaultSource);
@@ -230,11 +231,12 @@ const List = extend({
             useContext(listStickyContext);
 
         function scrollToList() {
-            if (!HeaderRef || !HeaderRef.current) return;
-            const { top } = HeaderRef.current.getBoundingClientRect();
+            if (!ContainerRef || !ContainerRef.current) return;
+            const { top } = ContainerRef.current.getBoundingClientRect();
             window.scrollTo(
                 0,
-                top + window.pageYOffset || document.documentElement.scrollTop
+                4 + top + window.pageYOffset ||
+                    document.documentElement.scrollTop
             );
         }
 
@@ -286,7 +288,7 @@ const List = extend({
         }
 
         return (
-            <div className={`${classNameModule}-list`}>
+            <div className={`${classNameModule}-list`} ref={ContainerRef}>
                 <div
                     className={classNames([
                         'header',
