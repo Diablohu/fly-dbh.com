@@ -32,5 +32,9 @@ export default {
     //     },
     // },
 
-    // childRoutes: [],
+    childRoutes: [
+        {
+            path: ':category',
+        },
+    ],
 };

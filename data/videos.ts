@@ -3,11 +3,26 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '新闻: XBOX版本日期 & 壮志凌云免费DLC',
+        },
+        des: {
+            zh: '在几个小时前进行的 Xbox E3 发布直播上，ASOBO 携模拟飞行登台，主要公布了 3 大内容',
+        },
+        thumbnailOriginal: './thumbnails/20210614.jpg',
+        link: {
+            youtube: 'https://youtu.be/bEsFG7x9LHQ',
+            bilibili: 'https://www.bilibili.com/video/BV1Ry4y1u7VT',
+        },
+        tag: ['news'],
+        release: new Date('2021-06-14T12:46:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '着陆挑战: Sirena - 草坪机场侧风挑战',
         },
         des: {
-            zh:
-                '哥斯达黎加一座国家公园内的草坪跑道机场，在侧风条件下的着陆难都会有多高呢？在《微软模拟飞行》5月更新中，带来了该机场的降落挑战。',
+            zh: '哥斯达黎加一座国家公园内的草坪跑道机场，在侧风条件下的着陆难都会有多高呢？在《微软模拟飞行》5月更新中，带来了该机场的降落挑战。',
         },
         thumbnailOriginal: './thumbnails/20210531.jpg',
         link: {
@@ -23,8 +38,7 @@ const videos: VideoItem[] = [
             zh: '着陆挑战: La Salette - 山峰上坡草地',
         },
         des: {
-            zh:
-                '这条法国阿尔卑斯山区中的草地跑道着陆难度颇高。在《微软模拟飞行》4月更新中，带来了该机场的着陆挑战。',
+            zh: '这条法国阿尔卑斯山区中的草地跑道着陆难度颇高。在《微软模拟飞行》4月更新中，带来了该机场的着陆挑战。',
         },
         thumbnailOriginal: './thumbnails/20210418.jpg',
         link: {
@@ -40,8 +54,7 @@ const videos: VideoItem[] = [
             zh: '全球AI船舶交通',
         },
         des: {
-            zh:
-                '一款名为“全球AI船舶交通”（Global AI Ship Traffic MSFS）的第三方插件问世，为水面增加了一些活力',
+            zh: '一款名为“全球AI船舶交通”（Global AI Ship Traffic MSFS）的第三方插件问世，为水面增加了一些活力',
         },
         thumbnailOriginal: './thumbnails/20210413.jpg',
         link: {
@@ -57,8 +70,7 @@ const videos: VideoItem[] = [
             zh: '纸箱喷火战斗机',
         },
         des: {
-            zh:
-                'Supermarine Spitfire 喷火战斗机。皇家空军之骄傲，将纳粹德军扫出不列颠岛之功臣。梅林引擎的轰鸣声曾为伦敦人民带来希望。而如今……',
+            zh: 'Supermarine Spitfire 喷火战斗机。皇家空军之骄傲，将纳粹德军扫出不列颠岛之功臣。梅林引擎的轰鸣声曾为伦敦人民带来希望。而如今……',
         },
         thumbnailOriginal: './thumbnails/20210404.jpg',
         link: {
@@ -74,8 +86,7 @@ const videos: VideoItem[] = [
             zh: '着陆挑战: Chagual - 山区急转弯',
         },
         des: {
-            zh:
-                '秘鲁山区中的 Chagual 机场以进近难度高而闻名。在《微软模拟飞行》3月初的更新中，带来了该机场的着陆挑战。',
+            zh: '秘鲁山区中的 Chagual 机场以进近难度高而闻名。在《微软模拟飞行》3月初的更新中，带来了该机场的着陆挑战。',
         },
         thumbnailOriginal: './thumbnails/20210317.jpg',
         link: {
@@ -91,8 +102,7 @@ const videos: VideoItem[] = [
             zh: '机场介绍: 跑道 × 公路 - 直布罗陀国际机场',
         },
         des: {
-            zh:
-                '我们来见识下这个星球上仅有的一座跑道与公路交汇的机场——直布罗陀国际机场',
+            zh: '我们来见识下这个星球上仅有的一座跑道与公路交汇的机场——直布罗陀国际机场',
         },
         thumbnailOriginal: './thumbnails/20210314.jpg',
         link: {
@@ -124,8 +134,7 @@ const videos: VideoItem[] = [
             zh: '着陆挑战: 英国更新 - EG78 + EGHI',
         },
         des: {
-            zh:
-                '经历了快一个月的跳票后，《微软模拟飞行》的英国更新终于上线，除了万众期待的英伦三岛及爱尔兰的地景更新外，此次更新还带来了 2 个全新的着陆挑战，均属于强风挑战，那么接下来大波胡就来作死了~',
+            zh: '经历了快一个月的跳票后，《微软模拟飞行》的英国更新终于上线，除了万众期待的英伦三岛及爱尔兰的地景更新外，此次更新还带来了 2 个全新的着陆挑战，均属于强风挑战，那么接下来大波胡就来作死了~',
         },
         thumbnailOriginal: './thumbnails/20210218.jpg',
         link: {
@@ -141,8 +150,7 @@ const videos: VideoItem[] = [
             zh: '机场介绍: C·罗机场',
         },
         des: {
-            zh:
-                '图马斯特（Thrustmaster）TCA 空客摇杆可以说是目前市面上比较火爆的一款模拟飞行控制器，不过很多朋友应该都遇到了尾舵操作随机偏移的问题。好在这个问题是可以通过简单的拆解就能修理的。今天我们就来动手修理一下~',
+            zh: '图马斯特（Thrustmaster）TCA 空客摇杆可以说是目前市面上比较火爆的一款模拟飞行控制器，不过很多朋友应该都遇到了尾舵操作随机偏移的问题。好在这个问题是可以通过简单的拆解就能修理的。今天我们就来动手修理一下~',
         },
         thumbnailOriginal: './thumbnails/20210201.jpg',
         link: {
@@ -158,8 +166,7 @@ const videos: VideoItem[] = [
             zh: '动手修理图马斯特摇杆',
         },
         des: {
-            zh:
-                '图马斯特（Thrustmaster）TCA 空客摇杆可以说是目前市面上比较火爆的一款模拟飞行控制器，不过很多朋友应该都遇到了尾舵操作随机偏移的问题。好在这个问题是可以通过简单的拆解就能修理的。今天我们就来动手修理一下~',
+            zh: '图马斯特（Thrustmaster）TCA 空客摇杆可以说是目前市面上比较火爆的一款模拟飞行控制器，不过很多朋友应该都遇到了尾舵操作随机偏移的问题。好在这个问题是可以通过简单的拆解就能修理的。今天我们就来动手修理一下~',
         },
         thumbnailOriginal: './thumbnails/20210124.jpg',
         link: {
@@ -175,8 +182,7 @@ const videos: VideoItem[] = [
             zh: '航母 MOD',
         },
         des: {
-            zh:
-                '看！那是什么！是航母！这是一套为微软模拟飞行打造的航母MOD，由 HARD DECK SIMULATION（HDS）开发，售价15美元。在本期节目中我们会尝试在航母上起降各种类型的飞机，在视频后半则会介绍该 MOD 的安装、配置介绍。',
+            zh: '看！那是什么！是航母！这是一套为微软模拟飞行打造的航母MOD，由 HARD DECK SIMULATION（HDS）开发，售价15美元。在本期节目中我们会尝试在航母上起降各种类型的飞机，在视频后半则会介绍该 MOD 的安装、配置介绍。',
         },
         thumbnailOriginal: './thumbnails/20210110.jpg',
         link: {
@@ -192,8 +198,7 @@ const videos: VideoItem[] = [
             zh: '百万分！巴黎戴高乐着陆挑战',
         },
         des: {
-            zh:
-                '模拟更新（Sim Update）第二弹在12月23日正式上线，除了带来了备受期待的VR功能外，还有针对空客、波音客机的大量更新，以及全新的雪景表现。不过我们今天的视频中要讲的都不是这些，而是本次更新带来的全新着陆挑战——巴黎夏尔·戴高乐机场A320着陆挑战。',
+            zh: '模拟更新（Sim Update）第二弹在12月23日正式上线，除了带来了备受期待的VR功能外，还有针对空客、波音客机的大量更新，以及全新的雪景表现。不过我们今天的视频中要讲的都不是这些，而是本次更新带来的全新着陆挑战——巴黎夏尔·戴高乐机场A320着陆挑战。',
         },
         thumbnailOriginal: './thumbnails/20201229.jpg',
         link: {
@@ -209,8 +214,7 @@ const videos: VideoItem[] = [
             zh: '云游美国',
         },
         des: {
-            zh:
-                '世界更新第二弹在11月24日如期而至，对美国全境的机场、地貌、地景、地标建筑进行了大幅更新。请大家系好安全带，搭乘 DBH 航空的班机游览北美风光~',
+            zh: '世界更新第二弹在11月24日如期而至，对美国全境的机场、地貌、地景、地标建筑进行了大幅更新。请大家系好安全带，搭乘 DBH 航空的班机游览北美风光~',
         },
         thumbnailOriginal: './thumbnails/20201206.jpg',
         link: {
@@ -226,8 +230,7 @@ const videos: VideoItem[] = [
             zh: '零能见度盲降',
         },
         des: {
-            zh:
-                '在全新的《微软模拟飞行》中，空客A320能否在杰克逊·霍尔机场实现零能见度盲降？我们来亲自测试下……',
+            zh: '在全新的《微软模拟飞行》中，空客A320能否在杰克逊·霍尔机场实现零能见度盲降？我们来亲自测试下……',
         },
         thumbnailOriginal: './thumbnails/20201124.jpg',
         link: {
@@ -243,8 +246,7 @@ const videos: VideoItem[] = [
             zh: '百万分！杰克逊机场着陆挑战',
         },
         des: {
-            zh:
-                '11月10日的更新为游戏带来了一个全新的着陆挑战：杰克逊·霍尔机场（Jackson Hole）。本次挑战将会驾驶 Citation CJ4 着陆在 19 跑道。CJ4 我的驾驶经验不多，祝我走运。',
+            zh: '11月10日的更新为游戏带来了一个全新的着陆挑战：杰克逊·霍尔机场（Jackson Hole）。本次挑战将会驾驶 Citation CJ4 着陆在 19 跑道。CJ4 我的驾驶经验不多，祝我走运。',
         },
         thumbnailOriginal: './thumbnails/20201116.jpg',
         link: {
@@ -260,8 +262,7 @@ const videos: VideoItem[] = [
             zh: '生涯模式 NeoFly',
         },
         des: {
-            zh:
-                '一款免费的第三方程序为《微软模拟飞行》带来了生涯模式，我们来一探究竟',
+            zh: '一款免费的第三方程序为《微软模拟飞行》带来了生涯模式，我们来一探究竟',
         },
         thumbnailOriginal: './thumbnails/20201108.jpg',
         link: {
@@ -293,8 +294,7 @@ const videos: VideoItem[] = [
             zh: '攀枝花保安营着陆挑战',
         },
         des: {
-            zh:
-                '就在前不久的10月16日，攀枝花保安营机场发生了一起事故，虽然没有人员伤亡，但此次事故让这座机场再次进入公众视野。通过模拟飞行，我们可以还原当时的条件，来亲自体验下在这座机场着陆是不是如传说那般具有挑战性！',
+            zh: '就在前不久的10月16日，攀枝花保安营机场发生了一起事故，虽然没有人员伤亡，但此次事故让这座机场再次进入公众视野。通过模拟飞行，我们可以还原当时的条件，来亲自体验下在这座机场着陆是不是如传说那般具有挑战性！',
         },
         thumbnailOriginal: './thumbnails/20201025.jpg',
         link: {
@@ -326,8 +326,7 @@ const videos: VideoItem[] = [
             zh: '新 · 东京',
         },
         des: {
-            zh:
-                '9月29日的世界更新（日本）为东京带来了测绘级的地景。但大波胡之前一直没有在游戏中看到，直到现在……',
+            zh: '9月29日的世界更新（日本）为东京带来了测绘级的地景。但大波胡之前一直没有在游戏中看到，直到现在……',
         },
         thumbnailOriginal: './thumbnails/20201008.jpg',
         link: {
@@ -343,8 +342,7 @@ const videos: VideoItem[] = [
             zh: '云游日本',
         },
         des: {
-            zh:
-                '9月29日大型补丁更新 - World Update: Japan，大规模更新了日本的地貌、地景以及机场，同时带来了一个新的活动：云游日本',
+            zh: '9月29日大型补丁更新 - World Update: Japan，大规模更新了日本的地貌、地景以及机场，同时带来了一个新的活动：云游日本',
         },
         thumbnailOriginal: './thumbnails/20201001.jpg',
         link: {

@@ -8,6 +8,7 @@ import {
     useContext,
     createContext,
 } from 'react';
+import { Link } from 'react-router';
 import { extend } from 'koot';
 import qs from 'query-string';
 import classNames from 'classnames';
@@ -53,8 +54,9 @@ const App = extend({
         }
     },
     styles,
-})(({ className, dispatch }) => {
+})(({ className, dispatch, params }) => {
     const [listStickyValue, setListStickyValue] = useState(false);
+    const { category } = params;
     return (
         <StrictMode>
             <listStickyContext.Provider
@@ -65,7 +67,7 @@ const App = extend({
             >
                 <div className={className}>
                     <Banner />
-                    <List />
+                    <List category={category} />
                     <Footer />
                 </div>
             </listStickyContext.Provider>
@@ -218,15 +220,14 @@ const List = extend({
         defaultSource: state.server?.cookie?.[cookieNameVideoSource],
     }),
 })(
-    memo(({ defaultSource }) => {
+    memo(({ defaultSource, category = '' }) => {
         const HeaderRef = useRef(null);
 
         const [source, setSource] = useState(defaultSource);
-        const [tag, setTag] = useState('');
+        // const [tag, setTag] = useState('');
         // const [sticky, setSticky] = useState(false);
-        const { value: sticky, update: setSticky } = useContext(
-            listStickyContext
-        );
+        const { value: sticky, update: setSticky } =
+            useContext(listStickyContext);
 
         useEffect(() => {
             if (!HeaderRef || !HeaderRef.current) return;
@@ -251,6 +252,17 @@ const List = extend({
             List.observer.observe(HeaderRef.current);
         }, [setSticky]);
 
+        useEffect(() => {
+            if (!category) return;
+            if (!HeaderRef || !HeaderRef.current) return;
+            const { top } = HeaderRef.current.getBoundingClientRect();
+            window.scrollTo(
+                0,
+                top + window.pageYOffset || document.documentElement.scrollTop
+            );
+            // eslint-disable-next-line react-hooks/exhaustive-deps
+        }, []);
+
         function selectSource(evt) {
             evt.preventDefault();
             const targetSource = evt.currentTarget.getAttribute('data-source');
@@ -261,11 +273,11 @@ const List = extend({
                 Cookies.set(cookieNameVideoSource, newSource, { expires: 365 });
             else Cookies.remove(cookieNameVideoSource);
         }
-        function selectTag(evt) {
-            evt.preventDefault();
-            const targetTag = evt.currentTarget.getAttribute('data-tag');
-            setTag(targetTag === tag ? undefined : targetTag);
-        }
+        // function selectTag(evt) {
+        //     evt.preventDefault();
+        //     const targetTag = evt.currentTarget.getAttribute('data-tag');
+        //     setTag(targetTag === tag ? undefined : targetTag);
+        // }
 
         return (
             <div className={`${classNameModule}-list`}>
@@ -300,24 +312,29 @@ const List = extend({
                         </div>
                         <div className="tags">
                             {List.tags.map(({ label, value }) => (
-                                <Tag
-                                    key={value}
-                                    onClick={selectTag}
-                                    className={classNames([
-                                        'tag',
-                                        {
-                                            'is-on': value === tag,
-                                        },
-                                    ])}
-                                    tag={value}
-                                    label={label}
-                                />
+                                <Link key={value} to={`/${value}`}>
+                                    <Tag
+                                        // onClick={selectTag}
+                                        className={classNames([
+                                            'tag',
+                                            {
+                                                'is-on': value === category,
+                                            },
+                                        ])}
+                                        tag={value}
+                                        label={label}
+                                    />
+                                </Link>
                             ))}
                         </div>
                     </Center>
                 </div>
                 <Center className="list-wrapper">
-                    <VideoList className="list" source={source} tag={tag} />
+                    <VideoList
+                        className="list"
+                        source={source}
+                        tag={category}
+                    />
                 </Center>
             </div>
         );
