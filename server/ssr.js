@@ -82,7 +82,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "css": () => (/* binding */ css),
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-const wrapper = 'bb1ce3';const css = '.bb1ce3{border:1px solid rgba(0,0,0,.35);border-radius:1em;color:#000;cursor:default;display:inline-block;font-size:14px;line-height:1.1em;padding:4px 8px;position:relative}.bb1ce3.is-on{background:rgba(0,0,0,.35);color:#fff}.bb1ce3[data-tag=clip]{background:hsla(0,0%,82%,.35);border-color:rgba(130,145,160,.35)}.bb1ce3[data-tag=clip].is-on{background-color:rgba(130,145,160,.8);border-color:rgba(130,145,160,.8)}.bb1ce3[data-tag=training]{background:hsla(3,79%,72%,.35);border-color:rgba(240,13,1,.35)}.bb1ce3[data-tag=training].is-on{background-color:rgba(240,13,1,.8);border-color:rgba(240,13,1,.8)}.bb1ce3[data-tag=landing]{background:rgba(17,213,184,.35);border-color:rgba(0,103,87,.35)}.bb1ce3[data-tag=landing].is-on{background-color:rgba(0,103,87,.8);border-color:rgba(0,103,87,.8)}.bb1ce3[data-tag=airport]{background:rgba(206,130,215,.35);border-color:rgba(170,31,186,.35)}.bb1ce3[data-tag=airport].is-on{background-color:rgba(170,31,186,.8);border-color:rgba(170,31,186,.8)}.bb1ce3[data-tag=device]{background:rgba(197,189,250,.35);border-color:rgba(82,57,255,.35)}.bb1ce3[data-tag=device].is-on{background-color:rgba(82,57,255,.8);border-color:rgba(82,57,255,.8)}.bb1ce3[data-tag=mod]{background:hsla(60,56%,65%,.35);border-color:rgba(179,179,24,.35)}.bb1ce3[data-tag=mod].is-on{background-color:rgba(179,179,24,.8);border-color:rgba(179,179,24,.8)}.bb1ce3[data-tag=tour]{background:rgba(68,168,240,.35);border-color:rgba(0,105,180,.35)}.bb1ce3[data-tag=tour].is-on{background-color:rgba(0,105,180,.8);border-color:rgba(0,105,180,.8)}.bb1ce3[data-tag=route]{background:hsla(28,57%,81%,.35);border-color:rgba(228,139,57,.35)}.bb1ce3[data-tag=route].is-on{background-color:rgba(228,139,57,.8);border-color:rgba(228,139,57,.8)}';/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({wrapper,css});
+const wrapper = 'e702e9';const css = '.e702e9{border:1px solid rgba(0,0,0,.35);border-radius:1em;color:#000;cursor:default;display:inline-block;font-size:14px;line-height:1.1em;padding:4px 8px;position:relative}.e702e9.is-on{background:rgba(0,0,0,.35);color:#fff}.e702e9[data-tag=clip]{background:hsla(0,0%,82%,.35);border-color:rgba(130,145,160,.35)}.e702e9[data-tag=clip].is-on{background-color:rgba(130,145,160,.8);border-color:rgba(130,145,160,.8)}.e702e9[data-tag=training]{background:hsla(3,79%,72%,.35);border-color:rgba(240,13,1,.35)}.e702e9[data-tag=training].is-on{background-color:rgba(240,13,1,.8);border-color:rgba(240,13,1,.8)}.e702e9[data-tag=landing]{background:rgba(17,213,184,.35);border-color:rgba(0,103,87,.35)}.e702e9[data-tag=landing].is-on{background-color:rgba(0,103,87,.8);border-color:rgba(0,103,87,.8)}.e702e9[data-tag=airport]{background:rgba(206,130,215,.35);border-color:rgba(170,31,186,.35)}.e702e9[data-tag=airport].is-on{background-color:rgba(170,31,186,.8);border-color:rgba(170,31,186,.8)}.e702e9[data-tag=device]{background:rgba(197,189,250,.35);border-color:rgba(82,57,255,.35)}.e702e9[data-tag=device].is-on{background-color:rgba(82,57,255,.8);border-color:rgba(82,57,255,.8)}.e702e9[data-tag=mod]{background:hsla(60,56%,65%,.35);border-color:rgba(179,179,24,.35)}.e702e9[data-tag=mod].is-on{background-color:rgba(179,179,24,.8);border-color:rgba(179,179,24,.8)}.e702e9[data-tag=tour]{background:rgba(68,168,240,.35);border-color:rgba(0,105,180,.35)}.e702e9[data-tag=tour].is-on{background-color:rgba(0,105,180,.8);border-color:rgba(0,105,180,.8)}.e702e9[data-tag=route]{background:hsla(28,57%,81%,.35);border-color:rgba(228,139,57,.35)}.e702e9[data-tag=route].is-on{background-color:rgba(228,139,57,.8);border-color:rgba(228,139,57,.8)}.e702e9[data-tag=news]{background:rgba(118,110,33,.35);border-color:rgba(21,19,3,.35)}.e702e9[data-tag=news].is-on{background-color:rgba(21,19,3,.8);border-color:rgba(21,19,3,.8)}';/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({wrapper,css});
 
 /***/ }),
 
@@ -4161,7 +4161,7 @@ const getChunkmap = (localeId, getFullResult = false, ignoreCache = false) => {
     if (typeof global.chunkmap === 'object') chunkmap = global.chunkmap;
 
     try {
-      chunkmap = JSON.parse("{\".zh\":{\".public\":\"public/\",\".out\":\"public/\",\".entrypoints\":{\"critical\":[\"public/includes/extract.122.2c0172ae8dedf95704dc.css\",\"public/includes/entry.2c0172ae8dedf95704dc.js\"],\"__KOOT__CLIENT__RUN__FIRST__\":[\"public/includes/entry.28376aa7a3aec89209ea.js\"],\"client\":[\"public/includes/entry.04f7cf92a2c49edef920.js\",\"public/includes/entry.be46b46f0fc857893744.js\",\"public/includes/entry.81c4c610a44faa9f0b60.js\"]},\".files\":{\"critical.css\":\"public/includes/extract.122.2c0172ae8dedf95704dc.css\",\"critical.js\":\"public/includes/entry.2c0172ae8dedf95704dc.js\",\"__KOOT__CLIENT__RUN__FIRST__.js\":\"public/includes/entry.28376aa7a3aec89209ea.js\",\"client.js\":\"public/includes/entry.81c4c610a44faa9f0b60.js\",\"libs.js\":\"public/includes/entry.04f7cf92a2c49edef920.js\",\"vendors.js\":\"public/includes/entry.be46b46f0fc857893744.js\",\"__KOOT__EXTRACT__CSS__.css\":\"public/includes/extract.all.14dcf092e5523a8dc68ea95608ea9f92.small.css\"},\"service-worker\":[\"public/service-worker.zh.js\"],\".htmlMetaTags__\":\"<link rel=\\\"shortcut icon\\\" href=\\\"/includes/webapp.d4ff8bbc/favicon.ico\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"16x16\\\" href=\\\"/includes/webapp.d4ff8bbc/favicon-16x16.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"32x32\\\" href=\\\"/includes/webapp.d4ff8bbc/favicon-32x32.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"48x48\\\" href=\\\"/includes/webapp.d4ff8bbc/favicon-48x48.png\\\"><link rel=\\\"manifest\\\" href=\\\"/includes/webapp.d4ff8bbc/manifest.json\\\"><meta name=\\\"mobile-web-app-capable\\\" content=\\\"yes\\\"><meta name=\\\"theme-color\\\" content=\\\"#0898d8\\\"><meta name=\\\"application-name\\\" content=\\\"飞行员大波胡\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"57x57\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-icon-57x57.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"60x60\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-icon-60x60.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"72x72\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-icon-72x72.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"76x76\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-icon-76x76.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"114x114\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-icon-114x114.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"120x120\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-icon-120x120.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"144x144\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-icon-144x144.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"152x152\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-icon-152x152.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"167x167\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-icon-167x167.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"180x180\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-icon-180x180.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"1024x1024\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-icon-1024x1024.png\\\"><meta name=\\\"apple-mobile-web-app-capable\\\" content=\\\"yes\\\"><meta name=\\\"apple-mobile-web-app-status-bar-style\\\" content=\\\"black-translucent\\\"><meta name=\\\"apple-mobile-web-app-title\\\" content=\\\"飞行大波胡\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-640x1136.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-750x1334.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-828x1792.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-1125x2436.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-1242x2208.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-1242x2688.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-1536x2048.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-1668x2224.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-1668x2388.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-2048x2732.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-1620x2160.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-1136x640.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-1334x750.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-1792x828.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-2436x1125.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-2208x1242.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-2688x1242.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-2048x1536.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-2224x1668.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-2388x1668.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-2732x2048.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-2160x1620.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"228x228\\\" href=\\\"/includes/webapp.d4ff8bbc/coast-228x228.png\\\"><meta name=\\\"msapplication-TileColor\\\" content=\\\"#212121\\\"><meta name=\\\"msapplication-TileImage\\\" content=\\\"/includes/webapp.d4ff8bbc/mstile-144x144.png\\\"><meta name=\\\"msapplication-config\\\" content=\\\"/includes/webapp.d4ff8bbc/browserconfig.xml\\\"><link rel=\\\"yandex-tableau-widget\\\" href=\\\"/includes/webapp.d4ff8bbc/yandex-browser-manifest.json\\\">\"}}");
+      chunkmap = JSON.parse("{\".zh\":{\".public\":\"public/\",\".out\":\"public/\",\".entrypoints\":{\"critical\":[\"public/includes/extract.122.2c0172ae8dedf95704dc.css\",\"public/includes/entry.2c0172ae8dedf95704dc.js\"],\"__KOOT__CLIENT__RUN__FIRST__\":[\"public/includes/entry.28376aa7a3aec89209ea.js\"],\"client\":[\"public/includes/entry.caa3be1b8ad7eaffef2c.js\",\"public/includes/entry.6f869ad93c17d0b5083e.js\",\"public/includes/entry.ff86c2ca07ada812b367.js\"]},\".files\":{\"critical.css\":\"public/includes/extract.122.2c0172ae8dedf95704dc.css\",\"critical.js\":\"public/includes/entry.2c0172ae8dedf95704dc.js\",\"__KOOT__CLIENT__RUN__FIRST__.js\":\"public/includes/entry.28376aa7a3aec89209ea.js\",\"client.js\":\"public/includes/entry.ff86c2ca07ada812b367.js\",\"libs.js\":\"public/includes/entry.caa3be1b8ad7eaffef2c.js\",\"vendors.js\":\"public/includes/entry.6f869ad93c17d0b5083e.js\",\"__KOOT__EXTRACT__CSS__.css\":\"public/includes/extract.all.14dcf092e5523a8dc68ea95608ea9f92.small.css\"},\"service-worker\":[\"public/service-worker.zh.js\"],\".htmlMetaTags__\":\"<link rel=\\\"shortcut icon\\\" href=\\\"/includes/webapp.9d69f99a/favicon.ico\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"16x16\\\" href=\\\"/includes/webapp.9d69f99a/favicon-16x16.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"32x32\\\" href=\\\"/includes/webapp.9d69f99a/favicon-32x32.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"48x48\\\" href=\\\"/includes/webapp.9d69f99a/favicon-48x48.png\\\"><link rel=\\\"manifest\\\" href=\\\"/includes/webapp.9d69f99a/manifest.json\\\"><meta name=\\\"mobile-web-app-capable\\\" content=\\\"yes\\\"><meta name=\\\"theme-color\\\" content=\\\"#0898d8\\\"><meta name=\\\"application-name\\\" content=\\\"飞行员大波胡\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"57x57\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-57x57.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"60x60\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-60x60.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"72x72\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-72x72.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"76x76\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-76x76.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"114x114\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-114x114.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"120x120\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-120x120.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"144x144\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-144x144.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"152x152\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-152x152.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"167x167\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-167x167.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"180x180\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-180x180.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"1024x1024\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-1024x1024.png\\\"><meta name=\\\"apple-mobile-web-app-capable\\\" content=\\\"yes\\\"><meta name=\\\"apple-mobile-web-app-status-bar-style\\\" content=\\\"black-translucent\\\"><meta name=\\\"apple-mobile-web-app-title\\\" content=\\\"飞行大波胡\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-640x1136.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-750x1334.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-828x1792.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1125x2436.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1242x2208.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1242x2688.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1536x2048.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1668x2224.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1668x2388.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2048x2732.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1620x2160.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1136x640.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1334x750.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1792x828.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2436x1125.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2208x1242.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2688x1242.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2048x1536.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2224x1668.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2388x1668.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2732x2048.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2160x1620.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"228x228\\\" href=\\\"/includes/webapp.9d69f99a/coast-228x228.png\\\"><meta name=\\\"msapplication-TileColor\\\" content=\\\"#212121\\\"><meta name=\\\"msapplication-TileImage\\\" content=\\\"/includes/webapp.9d69f99a/mstile-144x144.png\\\"><meta name=\\\"msapplication-config\\\" content=\\\"/includes/webapp.9d69f99a/browserconfig.xml\\\"><link rel=\\\"yandex-tableau-widget\\\" href=\\\"/includes/webapp.9d69f99a/yandex-browser-manifest.json\\\">\"}}");
     } catch (e) {
       chunkmap = false;
     }
@@ -9623,7 +9623,8 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   path: '/',
-  component: _views_app__WEBPACK_IMPORTED_MODULE_0__.default // 项目的根层组件
+  component: _views_app__WEBPACK_IMPORTED_MODULE_0__.default,
+  // 项目的根层组件
   // indexRoute: {
   //     /**
   //      * 标准写法: 打包后，该组件会存在于核心包中
@@ -9644,8 +9645,9 @@ __webpack_require__.r(__webpack_exports__);
   //         });
   //     },
   // },
-  // childRoutes: [],
-
+  childRoutes: [{
+    path: ':category'
+  }]
 });
 
 /***/ }),
@@ -10540,24 +10542,27 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var koot__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! koot */ "./node_modules/koot/React/component-extender.jsx");
-/* harmony import */ var query_string__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! query-string */ "query-string");
-/* harmony import */ var query_string__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(query_string__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! classnames */ "classnames");
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! js-cookie */ "js-cookie");
-/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(js_cookie__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _components_video_list__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @components/video-list */ "./src/components/video-list/index.jsx");
-/* harmony import */ var _components_icon__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @components/icon */ "./src/components/icon/index.jsx");
-/* harmony import */ var _components_center__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @components/center */ "./src/components/center/index.tsx");
-/* harmony import */ var _components_tag__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @components/tag */ "./src/components/tag/index.tsx");
-/* harmony import */ var _api_app__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @api/app */ "./src/api/app.ts");
-/* harmony import */ var _constants_app_mode__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @constants/app-mode */ "./src/constants/app-mode.ts");
-/* harmony import */ var _constants_video_sources__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @constants/video-sources */ "./src/constants/video-sources.ts");
-/* harmony import */ var _constants_video_tags__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @constants/video-tags */ "./src/constants/video-tags.ts");
-/* harmony import */ var _constants_cookie_name__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @constants/cookie-name */ "./src/constants/cookie-name.ts");
-/* harmony import */ var _app_module_less__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./app.module.less */ "./src/views/app.module.less");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router */ "react-router");
+/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_router__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var koot__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! koot */ "./node_modules/koot/React/component-extender.jsx");
+/* harmony import */ var query_string__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! query-string */ "query-string");
+/* harmony import */ var query_string__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(query_string__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! classnames */ "classnames");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! js-cookie */ "js-cookie");
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(js_cookie__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _components_video_list__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @components/video-list */ "./src/components/video-list/index.jsx");
+/* harmony import */ var _components_icon__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @components/icon */ "./src/components/icon/index.jsx");
+/* harmony import */ var _components_center__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @components/center */ "./src/components/center/index.tsx");
+/* harmony import */ var _components_tag__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @components/tag */ "./src/components/tag/index.tsx");
+/* harmony import */ var _api_app__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @api/app */ "./src/api/app.ts");
+/* harmony import */ var _constants_app_mode__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @constants/app-mode */ "./src/constants/app-mode.ts");
+/* harmony import */ var _constants_video_sources__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @constants/video-sources */ "./src/constants/video-sources.ts");
+/* harmony import */ var _constants_video_tags__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @constants/video-tags */ "./src/constants/video-tags.ts");
+/* harmony import */ var _constants_cookie_name__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @constants/cookie-name */ "./src/constants/cookie-name.ts");
+/* harmony import */ var _app_module_less__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./app.module.less */ "./src/views/app.module.less");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
 
 
 
@@ -10583,7 +10588,7 @@ const listStickyContext = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.cre
 
 }); // ============================================================================
 
-const App = (0,koot__WEBPACK_IMPORTED_MODULE_15__.default)({
+const App = (0,koot__WEBPACK_IMPORTED_MODULE_16__.default)({
   connect: true,
   pageinfo: {
     title: '飞行员大波胡 | Sim-Pilot Diablohu',
@@ -10592,36 +10597,42 @@ const App = (0,koot__WEBPACK_IMPORTED_MODULE_15__.default)({
   data: (state, renderProps, dispatch) => {
     if (false) {}
 
-    switch (query_string__WEBPACK_IMPORTED_MODULE_1___default().parse(state.routing.locationBeforeTransitions.search).utm_source) {
+    switch (query_string__WEBPACK_IMPORTED_MODULE_2___default().parse(state.routing.locationBeforeTransitions.search).utm_source) {
       case 'web_app_manifest':
-        return dispatch((0,_api_app__WEBPACK_IMPORTED_MODULE_8__.setAppMode)(_constants_app_mode__WEBPACK_IMPORTED_MODULE_9__.PWA));
+        return dispatch((0,_api_app__WEBPACK_IMPORTED_MODULE_9__.setAppMode)(_constants_app_mode__WEBPACK_IMPORTED_MODULE_10__.PWA));
 
       default:
-        dispatch((0,_api_app__WEBPACK_IMPORTED_MODULE_8__.setAppMode)(_constants_app_mode__WEBPACK_IMPORTED_MODULE_9__.NORMAL));
+        dispatch((0,_api_app__WEBPACK_IMPORTED_MODULE_9__.setAppMode)(_constants_app_mode__WEBPACK_IMPORTED_MODULE_10__.NORMAL));
     }
   },
-  styles: _app_module_less__WEBPACK_IMPORTED_MODULE_13__.default
+  styles: _app_module_less__WEBPACK_IMPORTED_MODULE_14__.default
 })(({
   className,
-  dispatch
+  dispatch,
+  params
 }) => {
   const [listStickyValue, setListStickyValue] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(react__WEBPACK_IMPORTED_MODULE_0__.StrictMode, {
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(listStickyContext.Provider, {
+  const {
+    category
+  } = params;
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(react__WEBPACK_IMPORTED_MODULE_0__.StrictMode, {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(listStickyContext.Provider, {
       value: {
         value: listStickyValue,
         update: setListStickyValue
       },
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("div", {
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)("div", {
         className: className,
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(Banner, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(List, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(Footer, {})]
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(Banner, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(List, {
+          category: category
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(Footer, {})]
       })
     })
   });
 });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App); // ============================================================================
 
-const Banner = (0,koot__WEBPACK_IMPORTED_MODULE_15__.default)({
+const Banner = (0,koot__WEBPACK_IMPORTED_MODULE_16__.default)({
   connect: state => ({
     appMode: state.app.mode
   })
@@ -10668,39 +10679,39 @@ const Banner = (0,koot__WEBPACK_IMPORTED_MODULE_15__.default)({
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
     if (listSticky) VideoRef.current.pause();else VideoRef.current.play(); // console.log({ listSticky });
   }, [listSticky]);
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("div", {
-    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()([`${_app_module_less__WEBPACK_IMPORTED_MODULE_13__.wrapper}-banner`, {
-      'mod-pwa': appMode === _constants_app_mode__WEBPACK_IMPORTED_MODULE_9__.PWA
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)("div", {
+    className: classnames__WEBPACK_IMPORTED_MODULE_3___default()([`${_app_module_less__WEBPACK_IMPORTED_MODULE_14__.wrapper}-banner`, {
+      'mod-pwa': appMode === _constants_app_mode__WEBPACK_IMPORTED_MODULE_10__.PWA
     }]),
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("div", {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)("div", {
       className: "wrapper",
       ref: WrapperRef,
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("h1", {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("h1", {
         className: "logo",
         children: "\u98DE\u884C\u5458\u5927\u6CE2\u80E1 | Sim-Pilot Diablohu"
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("div", {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)("div", {
         className: "subscribe",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("a", {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)("a", {
           href: "https://space.bilibili.com/79089",
           target: "_blank",
           rel: "noreferrer",
           className: "bilibili",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_components_icon__WEBPACK_IMPORTED_MODULE_5__.default, {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_components_icon__WEBPACK_IMPORTED_MODULE_6__.default, {
             className: "icon",
             icon: "bilibili"
           }), "\u5173\u6CE8"]
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("a", {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)("a", {
           href: "https://www.youtube.com/channel/UCJyg_CwPNweYfuwZ05VGpJg",
           target: "_blank",
           rel: "noreferrer",
           className: "youtube",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_components_icon__WEBPACK_IMPORTED_MODULE_5__.default, {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_components_icon__WEBPACK_IMPORTED_MODULE_6__.default, {
             className: "icon",
             icon: "youtube"
           }), "\u8BA2\u9605"]
         })]
       })]
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("video", {
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)("video", {
       className: "video" // poster={require('@assets/banner/cover.jpg').default}
       ,
       crossOrigin: "anonymous",
@@ -10710,10 +10721,10 @@ const Banner = (0,koot__WEBPACK_IMPORTED_MODULE_15__.default)({
       loop: true,
       muted: true,
       ref: VideoRef,
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("source", {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("source", {
         type: "video/webm",
         src: __webpack_require__(/*! @assets/banner/30fps/medium.webm */ "./src/assets/banner/30fps/medium.webm").default
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("source", {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("source", {
         type: "video/mp4",
         src: __webpack_require__(/*! @assets/banner/30fps/low.mp4 */ "./src/assets/banner/30fps/low.mp4").default
       })]
@@ -10730,20 +10741,21 @@ Banner.requestTick = () => {
 }; // ============================================================================
 
 
-const List = (0,koot__WEBPACK_IMPORTED_MODULE_15__.default)({
+const List = (0,koot__WEBPACK_IMPORTED_MODULE_16__.default)({
   connect: state => {
     var _state$server, _state$server$cookie;
 
     return {
-      defaultSource: (_state$server = state.server) === null || _state$server === void 0 ? void 0 : (_state$server$cookie = _state$server.cookie) === null || _state$server$cookie === void 0 ? void 0 : _state$server$cookie[_constants_cookie_name__WEBPACK_IMPORTED_MODULE_12__.VIDEO_SOURCE]
+      defaultSource: (_state$server = state.server) === null || _state$server === void 0 ? void 0 : (_state$server$cookie = _state$server.cookie) === null || _state$server$cookie === void 0 ? void 0 : _state$server$cookie[_constants_cookie_name__WEBPACK_IMPORTED_MODULE_13__.VIDEO_SOURCE]
     };
   }
 })( /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.memo)(({
-  defaultSource
+  defaultSource,
+  category = ''
 }) => {
   const HeaderRef = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
-  const [source, setSource] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(defaultSource);
-  const [tag, setTag] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''); // const [sticky, setSticky] = useState(false);
+  const [source, setSource] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(defaultSource); // const [tag, setTag] = useState('');
+  // const [sticky, setSticky] = useState(false);
 
   const {
     value: sticky,
@@ -10766,69 +10778,79 @@ const List = (0,koot__WEBPACK_IMPORTED_MODULE_15__.default)({
     });
     List.observer.observe(HeaderRef.current);
   }, [setSticky]);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    if (!category) return;
+    if (!HeaderRef || !HeaderRef.current) return;
+    const {
+      top
+    } = HeaderRef.current.getBoundingClientRect();
+    window.scrollTo(0, top + window.pageYOffset || document.documentElement.scrollTop); // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   function selectSource(evt) {
     evt.preventDefault();
     const targetSource = evt.currentTarget.getAttribute('data-source');
     const newSource = targetSource === source ? undefined : targetSource;
     setSource(newSource);
-    if (newSource) js_cookie__WEBPACK_IMPORTED_MODULE_3___default().set(_constants_cookie_name__WEBPACK_IMPORTED_MODULE_12__.VIDEO_SOURCE, newSource, {
+    if (newSource) js_cookie__WEBPACK_IMPORTED_MODULE_4___default().set(_constants_cookie_name__WEBPACK_IMPORTED_MODULE_13__.VIDEO_SOURCE, newSource, {
       expires: 365
-    });else js_cookie__WEBPACK_IMPORTED_MODULE_3___default().remove(_constants_cookie_name__WEBPACK_IMPORTED_MODULE_12__.VIDEO_SOURCE);
-  }
+    });else js_cookie__WEBPACK_IMPORTED_MODULE_4___default().remove(_constants_cookie_name__WEBPACK_IMPORTED_MODULE_13__.VIDEO_SOURCE);
+  } // function selectTag(evt) {
+  //     evt.preventDefault();
+  //     const targetTag = evt.currentTarget.getAttribute('data-tag');
+  //     setTag(targetTag === tag ? undefined : targetTag);
+  // }
 
-  function selectTag(evt) {
-    evt.preventDefault();
-    const targetTag = evt.currentTarget.getAttribute('data-tag');
-    setTag(targetTag === tag ? undefined : targetTag);
-  }
 
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("div", {
-    className: `${_app_module_less__WEBPACK_IMPORTED_MODULE_13__.wrapper}-list`,
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("div", {
-      className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(['header', {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)("div", {
+    className: `${_app_module_less__WEBPACK_IMPORTED_MODULE_14__.wrapper}-list`,
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("div", {
+      className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(['header', {
         'is-sticky': sticky
       }]),
       ref: HeaderRef,
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)(_components_center__WEBPACK_IMPORTED_MODULE_6__.default, {
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)(_components_center__WEBPACK_IMPORTED_MODULE_7__.default, {
         className: "wrapper",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("h2", {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("h2", {
           className: "title",
           children: "\u6700\u65B0\u89C6\u9891"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("div", {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)("div", {
           className: "sources",
-          children: ["\u89C6\u9891\u6E90", _constants_video_sources__WEBPACK_IMPORTED_MODULE_10__.default.map(thisSource => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("button", {
+          children: ["\u89C6\u9891\u6E90", _constants_video_sources__WEBPACK_IMPORTED_MODULE_11__.default.map(thisSource => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("button", {
             "data-source": thisSource,
             onClick: selectSource,
-            className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(['btn-source', {
+            className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(['btn-source', {
               'is-on': thisSource === source
             }]),
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_components_icon__WEBPACK_IMPORTED_MODULE_5__.default, {
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_components_icon__WEBPACK_IMPORTED_MODULE_6__.default, {
               className: "icon",
               icon: thisSource
             })
           }, thisSource))]
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("div", {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("div", {
           className: "tags",
           children: List.tags.map(({
             label,
             value
-          }) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_components_tag__WEBPACK_IMPORTED_MODULE_7__.default, {
-            onClick: selectTag,
-            className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(['tag', {
-              'is-on': value === tag
-            }]),
-            tag: value,
-            label: label
+          }) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(react_router__WEBPACK_IMPORTED_MODULE_1__.Link, {
+            to: `/${value}`,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_components_tag__WEBPACK_IMPORTED_MODULE_8__.default // onClick={selectTag}
+            , {
+              className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(['tag', {
+                'is-on': value === category
+              }]),
+              tag: value,
+              label: label
+            })
           }, value))
         })]
       })
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_components_center__WEBPACK_IMPORTED_MODULE_6__.default, {
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_components_center__WEBPACK_IMPORTED_MODULE_7__.default, {
       className: "list-wrapper",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_components_video_list__WEBPACK_IMPORTED_MODULE_4__.default, {
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_components_video_list__WEBPACK_IMPORTED_MODULE_5__.default, {
         className: "list",
         source: source,
-        tag: tag
+        tag: category
       })
     })]
   });
@@ -10836,25 +10858,25 @@ const List = (0,koot__WEBPACK_IMPORTED_MODULE_15__.default)({
 List.tags = [{
   label: '全部',
   value: ''
-}].concat(_constants_video_tags__WEBPACK_IMPORTED_MODULE_11__.default.map(tag => ({
-  label: _constants_video_tags__WEBPACK_IMPORTED_MODULE_11__.names[tag],
+}].concat(_constants_video_tags__WEBPACK_IMPORTED_MODULE_12__.default.map(tag => ({
+  label: _constants_video_tags__WEBPACK_IMPORTED_MODULE_12__.names[tag],
   value: tag
 }))); // ============================================================================
 
 const Footer = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.memo)(() => {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)(_components_center__WEBPACK_IMPORTED_MODULE_6__.default, {
-    className: `${_app_module_less__WEBPACK_IMPORTED_MODULE_13__.wrapper}-footer`,
-    children: ["\xA9 2021", ' ', /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("a", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)(_components_center__WEBPACK_IMPORTED_MODULE_7__.default, {
+    className: `${_app_module_less__WEBPACK_IMPORTED_MODULE_14__.wrapper}-footer`,
+    children: ["\xA9 2021", ' ', /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("a", {
       href: "https://diablohu.com/",
       target: "_blank",
       rel: "noreferrer",
       children: "diablohu.com"
-    }), ' ', "|", ' ', /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("a", {
+    }), ' ', "|", ' ', /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("a", {
       href: "https://weibo.com/u/2019430291",
       target: "_blank",
       rel: "noreferrer",
       children: "@diablohu (\u5FAE\u535A)"
-    }), ' ', "|", ' ', /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("a", {
+    }), ' ', "|", ' ', /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("a", {
       href: "https://twitter.com/Diablohu/",
       target: "_blank",
       rel: "noreferrer",
@@ -10877,6 +10899,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 const videos = [{
+  name: {
+    zh: '新闻: XBOX版本日期 & 壮志凌云免费DLC'
+  },
+  des: {
+    zh: '在几个小时前进行的 Xbox E3 发布直播上，ASOBO 携模拟飞行登台，主要公布了 3 大内容'
+  },
+  thumbnail: 'thumbnails/fed6b932b7432879ac6531a904a7ea6e.jpg',
+  link: {
+    youtube: 'https://youtu.be/bEsFG7x9LHQ',
+    bilibili: 'https://www.bilibili.com/video/BV1Ry4y1u7VT'
+  },
+  tag: ['news'],
+  release: new Date('2021-06-14T12:46:00+0800').valueOf()
+}, {
   name: {
     zh: '着陆挑战: Sirena - 草坪机场侧风挑战'
   },
@@ -11368,7 +11404,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
 /* harmony export */   "names": () => (/* binding */ names)
 /* harmony export */ });
-const tags = ['airport', 'route', 'landing', 'tour', 'device', 'mod', 'training', 'clip'];
+const tags = ['airport', 'route', 'news', 'landing', 'tour', 'device', 'mod', 'training', 'clip'];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (tags);
 const names = {
   clip: '片段',
@@ -11378,7 +11414,8 @@ const names = {
   route: '专题：航线',
   device: '设备',
   mod: 'MOD/插件',
-  tour: '景观'
+  tour: '景观',
+  news: '新闻'
 };
 
 /***/ }),
