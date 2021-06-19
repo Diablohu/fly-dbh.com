@@ -8,7 +8,7 @@ const videos: VideoItem[] = [
         des: {
             zh: '日本的公共交通之发达举世闻名，但大家可曾想过，日本是否有直升机航班呢？在伊豆群岛间日常穿梭的“东京爱LAND通勤航班”定期商业航线就是答案。在本期航线介绍节目中，我们就来一探究竟……',
         },
-        thumbnailOriginal: './thumbnails/20210614.jpg',
+        thumbnailOriginal: './thumbnails/20210619.jpg',
         link: {
             youtube: 'https://youtu.be/-JQLYdvrt1A',
             bilibili: 'https://www.bilibili.com/video/BV1EU4y1G7br',
