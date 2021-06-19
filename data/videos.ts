@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '航线介绍: 全日本唯一直升机航班 - 东京爱LAND',
+        },
+        des: {
+            zh: '日本的公共交通之发达举世闻名，但大家可曾想过，日本是否有直升机航班呢？在伊豆群岛间日常穿梭的“东京爱LAND通勤航班”定期商业航线就是答案。在本期航线介绍节目中，我们就来一探究竟……',
+        },
+        thumbnailOriginal: './thumbnails/20210614.jpg',
+        link: {
+            youtube: 'https://youtu.be/-JQLYdvrt1A',
+            bilibili: 'https://www.bilibili.com/video/BV1EU4y1G7br',
+        },
+        tag: ['route'],
+        release: new Date('2021-06-19T12:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '新闻: XBOX版本日期 & 壮志凌云免费DLC',
         },
         des: {
