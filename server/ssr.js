@@ -10909,12 +10909,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: '新闻: 4K30帧 & 新UI & 德国更新 & 超音速？'
+  },
+  des: {
+    zh: '在本周早些时候的 Xbox E3 加场直播以及模拟飞行官方的 Twitch 直播中，项目负责人 Jorg Neumann 透露了有关 XBOX 版，以及 PC 版更新的更多信息。'
+  },
+  thumbnail: 'thumbnails/5330a2199a7c7b963e725edd809fb2de.jpg',
+  link: {
+    youtube: 'https://youtu.be/6z7U6HVbbEg',
+    bilibili: 'https://www.bilibili.com/video/BV15U4y1G7Aj'
+  },
+  tag: ['news'],
+  release: new Date('2021-06-21T10:30:00+0800').valueOf()
+}, {
+  name: {
     zh: '航线介绍: 全日本唯一直升机航班 - 东京爱LAND'
   },
   des: {
     zh: '日本的公共交通之发达举世闻名，但大家可曾想过，日本是否有直升机航班呢？在伊豆群岛间日常穿梭的“东京爱LAND通勤航班”定期商业航线就是答案。在本期航线介绍节目中，我们就来一探究竟……'
   },
-  thumbnail: 'thumbnails/c2b9dfb3a8aac4eb364c9506fe5c9616.jpg',
+  thumbnail: 'thumbnails/98a1c923a741c2455bb381194f92e36a.jpg',
   link: {
     youtube: 'https://youtu.be/-JQLYdvrt1A',
     bilibili: 'https://www.bilibili.com/video/BV1EU4y1G7br'
