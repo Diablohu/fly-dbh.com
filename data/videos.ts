@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '新闻: 4K30帧 & 新UI & 德国更新 & 超音速？',
+        },
+        des: {
+            zh: '在本周早些时候的 Xbox E3 加场直播以及模拟飞行官方的 Twitch 直播中，项目负责人 Jorg Neumann 透露了有关 XBOX 版，以及 PC 版更新的更多信息。',
+        },
+        thumbnailOriginal: './thumbnails/20210621.jpg',
+        link: {
+            youtube: 'https://youtu.be/6z7U6HVbbEg',
+            bilibili: 'https://www.bilibili.com/video/BV15U4y1G7Aj',
+        },
+        tag: ['news'],
+        release: new Date('2021-06-21T10:30:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '航线介绍: 全日本唯一直升机航班 - 东京爱LAND',
         },
         des: {
