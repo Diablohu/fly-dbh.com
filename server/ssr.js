@@ -10909,12 +10909,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: '着陆挑战: Ísafjörður - 180°调头进近'
+  },
+  des: {
+    zh: '微软模拟飞行的世界更新第5弹：北欧，已于近日正式上线。按照惯例，本次更新也带来了所属地区的着陆挑战。今天我们先来挑战的这座机场名为……呃…… Ísafjarðarflugvöllur （伊萨菲厄泽机场）。机场地处冰岛西北部，由于地形原因，基本只能选用 08 跑道着陆，而进近则需要贴着周围的山脉来一个180°调头，难度颇高'
+  },
+  thumbnail: 'thumbnails/8a940b9fcde6692b3b704b98e11df0fa.jpg',
+  link: {
+    youtube: 'https://youtu.be/7FV0uab-wg8',
+    bilibili: 'https://www.bilibili.com/video/BV1m64y197jk'
+  },
+  tag: ['landing'],
+  release: new Date('2021-06-24T12:05:00+0800').valueOf()
+}, {
+  name: {
     zh: '新闻: 4K30帧 & 新UI & 德国更新 & 超音速？'
   },
   des: {
     zh: '在本周早些时候的 Xbox E3 加场直播以及模拟飞行官方的 Twitch 直播中，项目负责人 Jorg Neumann 透露了有关 XBOX 版，以及 PC 版更新的更多信息。'
   },
-  thumbnail: 'thumbnails/5330a2199a7c7b963e725edd809fb2de.jpg',
+  thumbnail: 'thumbnails/f63ac43d7acbe7a68f54bf94a4d7de5f.jpg',
   link: {
     youtube: 'https://youtu.be/6z7U6HVbbEg',
     bilibili: 'https://www.bilibili.com/video/BV15U4y1G7Aj'
