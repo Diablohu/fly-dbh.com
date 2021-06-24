@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '着陆挑战: Svalbard lufthavn - 雪盲',
+        },
+        des: {
+            zh: '微软模拟飞行的世界更新第5弹：北欧，已于近日正式上线。按照惯例，本次更新也带来了所属地区的着陆挑战。今天我们来挑战的这座机场名为……Svalbard lufthavn, Longyearbyen (ICAO: ENSB | IATA: LYR) 机场位于挪威最北部的斯瓦尔巴群岛，是全球目前最接近北极的拥有定期航班的机场。此次着陆挑战中机场被厚厚的积雪覆盖，对准跑道将会是一大难题。',
+        },
+        thumbnailOriginal: './thumbnails/20210625.jpg',
+        link: {
+            youtube: 'https://youtu.be/_Xh8r4T63mE',
+            bilibili: 'https://www.bilibili.com/video/BV1Rv411n7zG',
+        },
+        tag: ['landing'],
+        release: new Date('2021-06-25T12:05:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '着陆挑战: Ísafjörður - 180°调头进近',
         },
         des: {
