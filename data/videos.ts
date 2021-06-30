@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '新闻简报: “巨大”帧率提升',
+        },
+        des: {
+            zh: '当前最强PC硬件依然无法保证《微软模拟飞行》60帧的流畅运行。现在有一个好消息！官方公布了一个名为 PerformancePLUS 的内测计划，目标很明确：大幅提升游戏的帧率表现。',
+        },
+        thumbnailOriginal: './thumbnails/20210630.jpg',
+        link: {
+            youtube: 'https://youtu.be/U1kiHKyHA0k',
+            bilibili: 'https://www.bilibili.com/video/BV1uf4y1b7xt',
+        },
+        tag: ['news'],
+        release: new Date('2021-06-30T19:30:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '着陆挑战: Svalbard lufthavn - 雪盲',
         },
         des: {
