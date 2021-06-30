@@ -10909,6 +10909,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: '新闻简报: “巨大”帧率提升'
+  },
+  des: {
+    zh: '当前最强PC硬件依然无法保证《微软模拟飞行》60帧的流畅运行。现在有一个好消息！官方公布了一个名为 PerformancePLUS 的内测计划，目标很明确：大幅提升游戏的帧率表现。'
+  },
+  thumbnail: 'thumbnails/6d5fdccdaa38006efeb3ffc7f10ca575.jpg',
+  link: {
+    youtube: 'https://youtu.be/U1kiHKyHA0k',
+    bilibili: 'https://www.bilibili.com/video/BV1uf4y1b7xt'
+  },
+  tag: ['news'],
+  release: new Date('2021-06-30T19:30:00+0800').valueOf()
+}, {
+  name: {
     zh: '着陆挑战: Svalbard lufthavn - 雪盲'
   },
   des: {
@@ -11096,7 +11110,7 @@ const videos = [{
   des: {
     zh: '图马斯特（Thrustmaster）TCA 空客摇杆可以说是目前市面上比较火爆的一款模拟飞行控制器，不过很多朋友应该都遇到了尾舵操作随机偏移的问题。好在这个问题是可以通过简单的拆解就能修理的。今天我们就来动手修理一下~'
   },
-  thumbnail: 'thumbnails/b1cda0ff755abaeb4ab1cd45e59390d4.jpg',
+  thumbnail: 'thumbnails/42eae864175c507bf05dc27af611f87a.jpg',
   link: {
     youtube: 'https://youtu.be/8Q3lot3M9a0',
     bilibili: 'https://www.bilibili.com/video/BV1Zv411Y7Y5'
