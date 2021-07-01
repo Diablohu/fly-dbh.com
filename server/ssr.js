@@ -10909,12 +10909,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
-    zh: '新闻简报: “巨大”帧率提升'
+    zh: '快讯: 官宣！巨大帧率提升'
+  },
+  des: {
+    zh: '昨日预告的“巨大”帧率提升是真的！在最新的 Twitch 直播中，《微软模拟飞行》官方展示了这一即将到来的改进。'
+  },
+  thumbnail: 'thumbnails/b599594de75e58bfceb64d10d1dc373d.jpg',
+  link: {
+    youtube: 'https://youtu.be/39l8dDDlUMo',
+    bilibili: 'https://www.bilibili.com/video/BV1F64y1b73T'
+  },
+  tag: ['news'],
+  release: new Date('2021-07-01T23:30:00+0800').valueOf()
+}, {
+  name: {
+    zh: '快讯: “巨大”帧率提升'
   },
   des: {
     zh: '当前最强PC硬件依然无法保证《微软模拟飞行》60帧的流畅运行。现在有一个好消息！官方公布了一个名为 PerformancePLUS 的内测计划，目标很明确：大幅提升游戏的帧率表现。'
   },
-  thumbnail: 'thumbnails/6d5fdccdaa38006efeb3ffc7f10ca575.jpg',
+  thumbnail: 'thumbnails/db820631ddc9a367433554e9d35c02b4.jpg',
   link: {
     youtube: 'https://youtu.be/U1kiHKyHA0k',
     bilibili: 'https://www.bilibili.com/video/BV1uf4y1b7xt'
