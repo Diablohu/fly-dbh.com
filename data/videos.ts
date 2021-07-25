@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: 'XBOX 手柄开飞机',
+        },
+        des: {
+            zh: '全新的《微软模拟飞行》XBOX 版本即将上线，很多玩家或许都会有一个疑问——手柄怎么开飞机？操作顺畅么？',
+        },
+        thumbnailOriginal: './thumbnails/20210725.jpg',
+        link: {
+            youtube: 'https://youtu.be/vO6syWJw0Hg',
+            bilibili: 'https://www.bilibili.com/video/BV1f44y1y74T',
+        },
+        tag: ['device'],
+        release: new Date('2021-07-25T16:30:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '快讯: 官宣！巨大帧率提升',
         },
         des: {
