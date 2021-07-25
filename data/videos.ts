@@ -3,7 +3,7 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
-            zh: 'XBOX 手柄开飞机',
+            zh: 'XBOX 手柄开飞机教学',
         },
         des: {
             zh: '全新的《微软模拟飞行》XBOX 版本即将上线，很多玩家或许都会有一个疑问——手柄怎么开飞机？操作顺畅么？',
