@@ -4,25 +4,25 @@
         ".out": "public/",
         ".entrypoints": {
             "critical": [
-                "public/includes/extract.122.2c0172ae8dedf95704dc.css",
-                "public/includes/entry.2c0172ae8dedf95704dc.js"
+                "public/includes/extract.122.b80ac4bc54fedbe741ee.css",
+                "public/includes/entry.b80ac4bc54fedbe741ee.js"
             ],
             "__KOOT__CLIENT__RUN__FIRST__": [
-                "public/includes/entry.28376aa7a3aec89209ea.js"
+                "public/includes/entry.aa5952a4149bd23268fb.js"
             ],
             "client": [
                 "public/includes/entry.caa3be1b8ad7eaffef2c.js",
-                "public/includes/entry.6f869ad93c17d0b5083e.js",
-                "public/includes/entry.af4ad4d652e057f0bae1.js"
+                "public/includes/entry.48296fa550c3ea38a953.js",
+                "public/includes/entry.d2b9396d1789c1034f50.js"
             ]
         },
         ".files": {
-            "critical.css": "public/includes/extract.122.2c0172ae8dedf95704dc.css",
-            "critical.js": "public/includes/entry.2c0172ae8dedf95704dc.js",
-            "__KOOT__CLIENT__RUN__FIRST__.js": "public/includes/entry.28376aa7a3aec89209ea.js",
-            "client.js": "public/includes/entry.af4ad4d652e057f0bae1.js",
+            "critical.css": "public/includes/extract.122.b80ac4bc54fedbe741ee.css",
+            "critical.js": "public/includes/entry.b80ac4bc54fedbe741ee.js",
+            "__KOOT__CLIENT__RUN__FIRST__.js": "public/includes/entry.aa5952a4149bd23268fb.js",
+            "client.js": "public/includes/entry.d2b9396d1789c1034f50.js",
             "libs.js": "public/includes/entry.caa3be1b8ad7eaffef2c.js",
-            "vendors.js": "public/includes/entry.6f869ad93c17d0b5083e.js",
+            "vendors.js": "public/includes/entry.48296fa550c3ea38a953.js",
             "__KOOT__EXTRACT__CSS__.css": "public/includes/extract.all.14dcf092e5523a8dc68ea95608ea9f92.small.css"
         },
         "service-worker": [
