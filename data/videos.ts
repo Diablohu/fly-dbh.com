@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '性能优化实测：卡顿成为历史',
+        },
+        des: {
+            zh: '全新的《微软模拟飞行》由于对硬件的需求相当高，已经被玩家们戏称为次世代显卡危机。随着 XBOX 版的问世，PC 版也得到了同步更新，此次更新针对渲染效率进行了大幅优化。',
+        },
+        thumbnailOriginal: './thumbnails/20210728.jpg',
+        link: {
+            youtube: 'https://youtu.be/-EDRvlOLwPs',
+            bilibili: 'https://www.bilibili.com/video/BV1Bo4y1Q7mi',
+        },
+        tag: ['device'],
+        release: new Date('2021-07-28T20:30:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: 'XBOX 手柄开飞机教学',
         },
         des: {
