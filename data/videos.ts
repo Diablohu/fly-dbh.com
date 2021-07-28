@@ -13,7 +13,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/-EDRvlOLwPs',
             bilibili: 'https://www.bilibili.com/video/BV1Bo4y1Q7mi',
         },
-        tag: ['device'],
+        tag: ['news'],
         release: new Date('2021-07-28T20:30:00+0800').valueOf(),
     },
 
