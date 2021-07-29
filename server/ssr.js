@@ -10905,6 +10905,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: '如何还原旧版仪表操作 (SU5)'
+  },
+  des: {
+    zh: 'PC版《微软模拟飞行》最新的大更新后，引入了全新的舱内仪表互动方式，不过直接改变操作习惯着实令人诟病。其实游戏允许改回原来的方式。'
+  },
+  thumbnail: 'thumbnails/137dd18debbab481bb11f9f1ab1a7ef5.jpg',
+  link: {
+    youtube: 'https://youtu.be/yJFjoVGbOJ4',
+    bilibili: 'https://www.bilibili.com/video/BV18q4y1X7tb'
+  },
+  tag: ['news'],
+  release: new Date('2021-07-30T12:30:00+0800').valueOf()
+}, {
+  name: {
     zh: '性能优化实测：卡顿成为历史'
   },
   des: {
