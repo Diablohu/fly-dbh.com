@@ -1,5 +1,5 @@
 {
-    "1627471851931": [
+    "1627476068761": [
         "public/favicon.ico",
         "public/favicon.ico.gz",
         "public/includes/asset.266a6a660ebf0880f0c2b418204caa37.webm",
@@ -128,7 +128,7 @@
         "public/thumbnails/fbefbdc0619bafb7029275eca4f18b90.jpg",
         "public/thumbnails/fed6b932b7432879ac6531a904a7ea6e.jpg"
     ],
-    "1627476068761": [
+    "1627577093112": [
         "public/favicon.ico",
         "public/favicon.ico.gz",
         "public/includes/asset.266a6a660ebf0880f0c2b418204caa37.webm",
@@ -220,6 +220,7 @@
         "public/includes/webapp.9d69f99a/mstile-70x70.png",
         "public/includes/webapp.9d69f99a/yandex-browser-50x50.png",
         "public/includes/webapp.9d69f99a/yandex-browser-manifest.json",
+        "public/packages/Asobo_TBM930_DBH.zip",
         "public/robots.txt",
         "public/service-worker.zh.js",
         "public/service-worker.zh.js.gz",
