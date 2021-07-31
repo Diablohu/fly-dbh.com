@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '修正：PC版地景 (SU5)',
+        },
+        des: {
+            zh: '在《微软模拟飞行》最新的大更新中，游戏的帧率表现得到了大幅优化，但很多玩家表示画质缩水了。经过反复测试，我发现了这两个问题的原因，也找到了修正方案。',
+        },
+        thumbnailOriginal: './thumbnails/20210801.jpg',
+        link: {
+            youtube: 'https://youtu.be/F4ajh5X7NvM',
+            bilibili: 'https://www.bilibili.com/video/BV1W44y117Kx',
+        },
+        tag: ['news'],
+        release: new Date('2021-08-01T12:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '如何还原旧版仪表操作 (SU5)',
         },
         des: {
