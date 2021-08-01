@@ -10910,7 +10910,7 @@ const videos = [{
   des: {
     zh: '在《微软模拟飞行》最新的大更新中，游戏的帧率表现得到了大幅优化，但很多玩家表示画质缩水了。经过反复测试，我发现了这两个问题的原因，也找到了修正方案。'
   },
-  thumbnail: 'thumbnails/675caeef5af919b4cb0ddfa1a23a42e2.jpg',
+  thumbnail: 'thumbnails/5a894c2cb33140c493e7b12a3e6c3102.jpg',
   link: {
     youtube: 'https://youtu.be/F4ajh5X7NvM',
     bilibili: 'https://www.bilibili.com/video/BV1W44y117Kx'
