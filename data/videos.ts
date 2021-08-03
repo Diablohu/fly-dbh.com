@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: 'VR 试飞 (录像测试)',
+        },
+        des: {
+            zh: '《微软模拟飞行》2020 PC 版支持虚拟现实 (VR)，可以完全沉浸在驾驶舱中。',
+        },
+        thumbnailOriginal: './thumbnails/20210804.jpg',
+        link: {
+            youtube: 'https://youtu.be/tcShJcXB0qA',
+            bilibili: 'https://www.bilibili.com/video/BV1h64y1B7g8',
+        },
+        tag: ['flight'],
+        release: new Date('2021-08-04T12:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '修正：PC版地景 (SU5)',
         },
         des: {

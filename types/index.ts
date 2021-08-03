@@ -41,7 +41,8 @@ export type VideoTag =
     | 'device'
     | 'mod'
     | 'tour'
-    | 'news';
+    | 'news'
+    | 'flight';
 export type VideoSource = 'bilibili' | 'youtube';
 export interface VideoItem {
     name: {

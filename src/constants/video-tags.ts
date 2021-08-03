@@ -8,6 +8,7 @@ const tags: Array<VideoTag> = [
     'tour',
     'device',
     'mod',
+    'flight',
     'training',
     'clip',
 ];
@@ -26,4 +27,5 @@ export const names: {
     mod: 'MOD/插件',
     tour: '景观',
     news: '新闻',
+    flight: '飞行',
 };
