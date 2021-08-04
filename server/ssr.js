@@ -10905,6 +10905,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: 'VR试飞 - 水城威尼斯 (修正流畅度)'
+  },
+  des: {
+    zh: '再次尝试录制 VR 飞行，流畅度有很大改观！这次来从空中游览水城威尼斯'
+  },
+  thumbnail: 'thumbnails/03249eeb81a02664337ec550890fdff3.jpg',
+  link: {
+    youtube: 'https://youtu.be/ABHk8Z1QvJw',
+    bilibili: 'https://www.bilibili.com/video/BV1xq4y1p7cu'
+  },
+  tag: ['flight'],
+  release: new Date('2021-08-05T12:00:00+0800').valueOf()
+}, {
+  name: {
     zh: 'VR 试飞 (录像测试)'
   },
   des: {
