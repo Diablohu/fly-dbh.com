@@ -10910,7 +10910,7 @@ const videos = [{
   des: {
     zh: '再次尝试录制 VR 飞行，流畅度有很大改观！这次来从空中游览水城威尼斯'
   },
-  thumbnail: 'thumbnails/03249eeb81a02664337ec550890fdff3.jpg',
+  thumbnail: 'thumbnails/bd62d82555f5f6bb2f7b98079d8713a4.jpg',
   link: {
     youtube: 'https://youtu.be/ABHk8Z1QvJw',
     bilibili: 'https://www.bilibili.com/video/BV1xq4y1p7cu'
