@@ -10913,7 +10913,7 @@ const videos = [{
   thumbnail: 'thumbnails/38d22b5987e18eef1179ebc5055ced0d.jpg',
   link: {
     youtube: 'https://youtu.be/8iQed1vcq4M',
-    bilibili: 'https://www.bilibili.com/video/BV1rv411K79s'
+    bilibili: 'https://www.bilibili.com/video/BV1MQ4y127zy'
   },
   tag: ['news'],
   release: new Date('2021-08-06T12:00:00+0800').valueOf()
