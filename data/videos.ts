@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '新闻: SU5 补救计划',
+        },
+        des: {
+            zh: '北京时间8月4日深夜，ASOBO在官方论坛上发帖，针对玩家们近期对SU5更新普遍反馈的各种问题进行了集中解释，并计划在数日后会上线一个热更新补丁修复大多数问题。',
+        },
+        thumbnailOriginal: './thumbnails/20210806.jpg',
+        link: {
+            youtube: 'https://youtu.be/8iQed1vcq4M',
+            bilibili: 'https://www.bilibili.com/video/BV1rv411K79s',
+        },
+        tag: ['news'],
+        release: new Date('2021-08-06T12:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: 'VR试飞 - 水城威尼斯 (修正流畅度)',
         },
         des: {
