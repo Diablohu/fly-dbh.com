@@ -11,7 +11,7 @@ const videos: VideoItem[] = [
         thumbnailOriginal: './thumbnails/20210806.jpg',
         link: {
             youtube: 'https://youtu.be/8iQed1vcq4M',
-            bilibili: 'https://www.bilibili.com/video/BV1rv411K79s',
+            bilibili: 'https://www.bilibili.com/video/BV1MQ4y127zy',
         },
         tag: ['news'],
         release: new Date('2021-08-06T12:00:00+0800').valueOf(),
