@@ -10910,7 +10910,7 @@ const videos = [{
   des: {
     zh: '北京时间8月4日深夜，ASOBO在官方论坛上发帖，针对玩家们近期对SU5更新普遍反馈的各种问题进行了集中解释，并计划在数日后会上线一个热更新补丁修复大多数问题。'
   },
-  thumbnail: 'thumbnails/38d22b5987e18eef1179ebc5055ced0d.jpg',
+  thumbnail: 'thumbnails/74dff118f5adfb225abf1ee850fd9697.jpg',
   link: {
     youtube: 'https://youtu.be/8iQed1vcq4M',
     bilibili: 'https://www.bilibili.com/video/BV1MQ4y127zy'
