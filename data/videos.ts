@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '新闻: SU5 画质热修更新对比',
+        },
+        des: {
+            zh: '为解决系统更新第5弹带来的各种画质问题，ASOBO 加班加点为《微软模拟飞行》带来了一个全新补丁。接下来我们来看看画质相关修正的改进效果。',
+        },
+        thumbnailOriginal: './thumbnails/20210808.jpg',
+        link: {
+            youtube: 'https://youtu.be/7NzwvnVcWLo',
+            bilibili: 'https://www.bilibili.com/video/BV13h411B7u9',
+        },
+        tag: ['news'],
+        release: new Date('2021-08-08T12:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '新闻: SU5 补救计划',
         },
         des: {
