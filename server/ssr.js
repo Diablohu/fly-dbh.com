@@ -10905,6 +10905,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: '着陆挑战: 全球最危险 - 卢克拉'
+  },
+  des: {
+    zh: '丹增-希拉里机场（Tenzing–Hillary Airport），又名卢克拉机场（Lukla Airport）。由于严酷的地理条件，被很多人誉为全球最危险的机场。进近时没有复飞可能，任何失误都有可能机毁人亡。'
+  },
+  thumbnail: 'thumbnails/67c0516cc39eb22eba0ae3c1f9e73390.jpg',
+  link: {
+    youtube: 'https://youtu.be/6vUEun4xOhc',
+    bilibili: 'https://www.bilibili.com/video/BV1v3411z7kc'
+  },
+  tag: ['landing'],
+  release: new Date('2021-08-12T12:00:00+0800').valueOf()
+}, {
+  name: {
     zh: '新闻: SU5 画质热修更新对比'
   },
   des: {
