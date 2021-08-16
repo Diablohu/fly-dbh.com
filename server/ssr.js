@@ -10905,6 +10905,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: 'AI景观: 阿富汗喀布尔国际机场'
+  },
+  des: {
+    zh: '哈米德·卡尔扎伊国际机场，又名喀布尔机场，坐落于阿富汗首都喀布尔市，距离市区5公里，是阿富汗境内最主要的国际机场之一，也是全国最大的军事基地，可容纳上百架飞机。'
+  },
+  thumbnail: 'thumbnails/1dd840b56bcf1e3de16030db1d3a71a1.jpg',
+  link: {
+    youtube: 'https://youtu.be/L7BIV6baDDo',
+    bilibili: 'https://www.bilibili.com/video/BV1f3411z7Nc'
+  },
+  tag: ['tour'],
+  release: new Date('2021-08-17T12:00:00+0800').valueOf()
+}, {
+  name: {
     zh: '着陆挑战: 全球最危险 - 卢克拉'
   },
   des: {
