@@ -10910,7 +10910,7 @@ const videos = [{
   des: {
     zh: '哈米德·卡尔扎伊国际机场，又名喀布尔机场，坐落于阿富汗首都喀布尔市，距离市区5公里，是阿富汗境内最主要的国际机场之一，也是全国最大的军事基地，可容纳上百架飞机。'
   },
-  thumbnail: 'thumbnails/1dd840b56bcf1e3de16030db1d3a71a1.jpg',
+  thumbnail: 'thumbnails/eb9c326d66c8c8d76a6c6fe60d835475.jpg',
   link: {
     youtube: 'https://youtu.be/L7BIV6baDDo',
     bilibili: 'https://www.bilibili.com/video/BV1f3411z7Nc'
