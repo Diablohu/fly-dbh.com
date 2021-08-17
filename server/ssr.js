@@ -10910,7 +10910,7 @@ const videos = [{
   des: {
     zh: '哈米德·卡尔扎伊国际机场，又名喀布尔机场，坐落于阿富汗首都喀布尔市，距离市区5公里，是阿富汗境内最主要的国际机场之一，也是全国最大的军事基地，可容纳上百架飞机。'
   },
-  thumbnail: 'thumbnails/eb9c326d66c8c8d76a6c6fe60d835475.jpg',
+  thumbnail: 'thumbnails/bba175c32ab289ae68dc998dec0e7fb3.jpg',
   link: {
     youtube: 'https://youtu.be/L7BIV6baDDo',
     bilibili: 'https://www.bilibili.com/video/BV1f3411z7Nc'
@@ -11218,7 +11218,7 @@ const videos = [{
   des: {
     zh: '我们来见识下这个星球上仅有的一座跑道与公路交汇的机场——直布罗陀国际机场'
   },
-  thumbnail: 'thumbnails/12eab34dfd4a23c1447219df304d8ec4.jpg',
+  thumbnail: 'thumbnails/b1e692e94f6f6d47e64791b5f8cbc1bf.jpg',
   link: {
     youtube: 'https://youtu.be/IW7Qnyd-6hg',
     bilibili: 'https://www.bilibili.com/video/BV1Vr4y1P72k'
@@ -11260,7 +11260,7 @@ const videos = [{
   des: {
     zh: '图马斯特（Thrustmaster）TCA 空客摇杆可以说是目前市面上比较火爆的一款模拟飞行控制器，不过很多朋友应该都遇到了尾舵操作随机偏移的问题。好在这个问题是可以通过简单的拆解就能修理的。今天我们就来动手修理一下~'
   },
-  thumbnail: 'thumbnails/42eae864175c507bf05dc27af611f87a.jpg',
+  thumbnail: 'thumbnails/7732f0fc8cbd349973c5efcae71a7022.jpg',
   link: {
     youtube: 'https://youtu.be/8Q3lot3M9a0',
     bilibili: 'https://www.bilibili.com/video/BV1Zv411Y7Y5'
