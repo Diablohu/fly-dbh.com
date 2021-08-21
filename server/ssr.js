@@ -10905,6 +10905,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: '快讯: 世界更新６延期'
+  },
+  des: {
+    zh: '微软模拟飞行官方近日宣布，原定于8月24日上线的世界更新第6弹将会延期两周，计划在9月7日上线'
+  },
+  thumbnail: 'thumbnails/a8c268f97688a46b9b22e8d99946b0a4.jpg',
+  link: {
+    youtube: 'https://youtu.be/C1EnFX1q1e8',
+    bilibili: 'https://www.bilibili.com/video/BV1VQ4y117cB'
+  },
+  tag: ['news'],
+  release: new Date('2021-08-22T11:20:00+0800').valueOf()
+}, {
+  name: {
     zh: 'AI景观: 阿富汗喀布尔国际机场'
   },
   des: {
