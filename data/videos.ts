@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '新闻: 世界更新６详情 & 两架新飞机 & 多人竞速模式',
+        },
+        des: {
+            zh: '就在刚刚进行的德国科隆游戏展 Gamescom 的 Xbox 发布会直播上，《微软模拟飞行》负责人 Jorg Neuman 公布了游戏近期即将上线的新内容',
+        },
+        thumbnailOriginal: './thumbnails/20210825.jpg',
+        link: {
+            youtube: 'https://youtu.be/hfXnSLjadCQ',
+            bilibili: 'https://www.bilibili.com/video/BV1DQ4y1Y7ZL',
+        },
+        tag: ['news'],
+        release: new Date('2021-08-25T11:20:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '快讯: 世界更新６延期',
         },
         des: {
