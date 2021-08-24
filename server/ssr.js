@@ -10910,7 +10910,7 @@ const videos = [{
   des: {
     zh: '就在刚刚进行的德国科隆游戏展 Gamescom 的 Xbox 发布会直播上，《微软模拟飞行》负责人 Jorg Neuman 公布了游戏近期即将上线的新内容'
   },
-  thumbnail: 'thumbnails/a9d14a6b37baac75b6b6d35259d3484f.jpg',
+  thumbnail: 'thumbnails/175c4d8b4cbe8f6965e5ae41010b6558.jpg',
   link: {
     youtube: 'https://youtu.be/hfXnSLjadCQ',
     bilibili: 'https://www.bilibili.com/video/BV1DQ4y1Y7ZL'
