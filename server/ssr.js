@@ -10905,12 +10905,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
-    zh: '新闻: 世界更新６详情 & 两架新飞机 & 多人竞速模式'
+    zh: '着陆挑战: 俯冲降落 - 圣巴泰勒米'
+  },
+  des: {
+    zh: '圣巴泰勒米-雷米·德·哈嫩机场，位于加勒比海中法国海外领地圣巴泰勒米岛。受地理条件限制，跑道两侧的起降都极具挑战。曾荣登历史频道全球最危险机场榜的第三名。'
+  },
+  thumbnail: 'thumbnails/107c7043f981947e9633f9c21eef482e.jpg',
+  link: {
+    youtube: 'https://youtu.be/tXImGxbN_ns',
+    bilibili: 'https://www.bilibili.com/video/BV1Sq4y1M7rs'
+  },
+  tag: ['landing'],
+  release: new Date('2021-08-27T11:20:00+0800').valueOf()
+}, {
+  name: {
+    zh: '新闻: 世界更新６详情 & 飞行出租车 & 多人竞速模式'
   },
   des: {
     zh: '就在刚刚进行的德国科隆游戏展 Gamescom 的 Xbox 发布会直播上，《微软模拟飞行》负责人 Jorg Neuman 公布了游戏近期即将上线的新内容'
   },
-  thumbnail: 'thumbnails/175c4d8b4cbe8f6965e5ae41010b6558.jpg',
+  thumbnail: 'thumbnails/008b538f2985d8be56bf11e4fdf55ff0.jpg',
   link: {
     youtube: 'https://youtu.be/hfXnSLjadCQ',
     bilibili: 'https://www.bilibili.com/video/BV1DQ4y1Y7ZL'
