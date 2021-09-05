@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '无限可能的模拟飞行 - 游戏内容挖掘',
+        },
+        des: {
+            zh: '全新的《微软模拟飞行》登录 XBOX 平台已经有一个月了，其凭借优秀的画面以及系列长久的口碑，涌入了一大批新玩家。但新晋飞行员们很快就发现，在这所谓的游戏里基本没啥事儿干。本期视频就来为大家介绍下更多的游戏方式，丰富飞行模拟体验。',
+        },
+        thumbnailOriginal: './thumbnails/20210905.jpg',
+        link: {
+            youtube: 'https://youtu.be/9A1tPdN5AUk',
+            bilibili: 'https://www.bilibili.com/video/BV1Uq4y1U7Y4',
+        },
+        tag: ['training'],
+        release: new Date('2021-09-05T16:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '着陆挑战: 俯冲降落 - 圣巴泰勒米',
         },
         des: {

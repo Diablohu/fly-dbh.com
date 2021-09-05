@@ -19,7 +19,7 @@ export const names: {
     [key in VideoTag]: string;
 } = {
     clip: '片段',
-    training: '训练',
+    training: '综合',
     landing: '着陆',
     airport: '专题：机场',
     route: '专题：航线',
