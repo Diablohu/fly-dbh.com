@@ -10905,12 +10905,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
-    zh: '无限可能的模拟飞行 - 游戏内容挖掘'
+    zh: '世界更新６全新系统修改'
+  },
+  des: {
+    zh: '延期两周的世界更新第６弹终于上线，德国、奥地利和瑞士的地景得到了全面加强。接下来，我们来看看全新的世界更新带来了哪些系统性修改，以及对性能的影响。'
+  },
+  thumbnail: 'thumbnails/3c7041513ae9595ff8e2cebaab73c67a.jpg',
+  link: {
+    youtube: 'https://youtu.be/CtrVUtDmNs0',
+    bilibili: 'https://www.bilibili.com/video/BV1S34y1Q7Pv'
+  },
+  tag: ['news'],
+  release: new Date('2021-09-10T12:00:00+0800').valueOf()
+}, {
+  name: {
+    zh: '无限可能的模拟飞行 - 游戏玩法挖掘'
   },
   des: {
     zh: '全新的《微软模拟飞行》登录 XBOX 平台已经有一个月了，其凭借优秀的画面以及系列长久的口碑，涌入了一大批新玩家。但新晋飞行员们很快就发现，在这所谓的游戏里基本没啥事儿干。本期视频就来为大家介绍下更多的游戏方式，丰富飞行模拟体验。'
   },
-  thumbnail: 'thumbnails/23108965143cf4edeeff4efa9f631249.jpg',
+  thumbnail: 'thumbnails/5bdfea8dbfa108ddfad1bf2c3cd89e73.jpg',
   link: {
     youtube: 'https://youtu.be/9A1tPdN5AUk',
     bilibili: 'https://www.bilibili.com/video/BV1Uq4y1U7Y4'
