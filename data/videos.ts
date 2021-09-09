@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '世界更新６全新系统修改',
+        },
+        des: {
+            zh: '延期两周的世界更新第６弹终于上线，德国、奥地利和瑞士的地景得到了全面加强。接下来，我们来看看全新的世界更新带来了哪些系统性修改，以及对性能的影响。',
+        },
+        thumbnailOriginal: './thumbnails/20210910.jpg',
+        link: {
+            youtube: 'https://youtu.be/CtrVUtDmNs0',
+            bilibili: 'https://www.bilibili.com/video/BV1S34y1Q7Pv',
+        },
+        tag: ['news'],
+        release: new Date('2021-09-10T12:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '无限可能的模拟飞行 - 游戏玩法挖掘',
         },
         des: {
