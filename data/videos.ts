@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '【微软模拟飞行】TBM930 硬闯台风灿都',
+        },
+        des: {
+            zh: '请大家登上这架 TBM930，从天津滨海国际机场起飞，前往上海浦东，挑战台风天气下的夜间着陆。大波胡的生死，就在接下来的几分钟决定！',
+        },
+        thumbnailOriginal: './thumbnails/20210914.jpg',
+        link: {
+            youtube: 'https://youtu.be/-7E2qOY76nI',
+            bilibili: 'https://www.bilibili.com/video/BV1Mb4y127ZZ',
+        },
+        tag: ['flight'],
+        release: new Date('2021-09-14T13:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '世界更新６全新系统修改',
         },
         des: {
