@@ -10905,12 +10905,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
-    zh: '【微软模拟飞行】TBM930 硬闯台风灿都'
+    zh: '着陆挑战: 陡峭进近 - 卢加诺'
+  },
+  des: {
+    zh: '卢加诺机场（Aeroporto di Lugano），又名：卢加诺-阿尼奥机场（Lugano-Agno），由于山谷地形，该跑道的仪表进近有着 6.65° 的下滑坡道，远高于标准的 3°。甚至比著名的伦敦城机场的 5.5° 还要陡峭。'
+  },
+  thumbnail: 'thumbnails/4f89886bafc157529108124bf81ade03.jpg',
+  link: {
+    youtube: 'https://youtu.be/b4rZ_IwzqME',
+    bilibili: 'https://www.bilibili.com/video/BV1nL4y187JZ'
+  },
+  tag: ['landing'],
+  release: new Date('2021-09-16T11:30:00+0800').valueOf()
+}, {
+  name: {
+    zh: 'TBM930 硬闯台风灿都'
   },
   des: {
     zh: '请大家登上这架 TBM930，从天津滨海国际机场起飞，前往上海浦东，挑战台风天气下的夜间着陆。大波胡的生死，就在接下来的几分钟决定！'
   },
-  thumbnail: 'thumbnails/6122382bcba0c2a425492c824e7dd8d7.jpg',
+  thumbnail: 'thumbnails/101db63cba5b42922f0e902bf4ed5355.jpg',
   link: {
     youtube: 'https://youtu.be/-7E2qOY76nI',
     bilibili: 'https://www.bilibili.com/video/BV1Mb4y127ZZ'
