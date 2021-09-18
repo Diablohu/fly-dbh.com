@@ -29,7 +29,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/-7E2qOY76nI',
             bilibili: 'https://www.bilibili.com/video/BV1Mb4y127ZZ',
         },
-        tag: ['flight'],
+        tag: ['flight', 'landing'],
         release: new Date('2021-09-14T13:00:00+0800').valueOf(),
     },
 
