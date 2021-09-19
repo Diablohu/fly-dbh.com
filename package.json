@@ -28,11 +28,11 @@
         "up": "yarn upgrade-interactive --latest"
     },
     "dependencies": {
-        "axios": "^0.21.1",
+        "axios": "^0.21.4",
         "bind-event": "^1.1.2",
         "classnames": "^2.3.1",
         "koa-range": "^0.3.0",
-        "koot": "^0.15.0-beta.26",
+        "koot": "^0.15.0-rc.11",
         "mime": "^2.5.2",
         "query-string": "^7.0.1"
     },
@@ -40,19 +40,19 @@
         "@babel/plugin-proposal-nullish-coalescing-operator": "^7.14.5",
         "@babel/plugin-proposal-optional-chaining": "^7.14.5",
         "@types/classnames": "^2.3.1",
-        "autoprefixer": "^10.3.1",
+        "autoprefixer": "^10.3.4",
         "babel-eslint": "^10.1.0",
-        "cssnano": "^5.0.7",
-        "eslint": "^7.31.0",
+        "cssnano": "^5.0.8",
+        "eslint": "^7.32.0",
         "eslint-config-koot": "^3.1.1",
-        "husky": "^7.0.1",
-        "lint-staged": "^11.1.1",
+        "husky": "^7.0.2",
+        "lint-staged": "^11.1.2",
         "normalize.css": "^8.0.1",
-        "prettier": "^2.3.2",
-        "prettier-eslint": "^12.0.0",
+        "prettier": "^2.4.1",
+        "prettier-eslint": "^13.0.0",
         "pretty-ms": "^7.0.1",
         "redux-logger": "^3.0.6",
-        "simple-git": "^2.41.1",
+        "simple-git": "^2.45.1",
         "string-replace-async": "^2.0.0",
         "svg-url-loader": "^7.1.1",
         "url-loader": "^4.1.0"
@@ -75,6 +75,6 @@
         ]
     },
     "koot": {
-        "version": "0.15.0-beta.26"
+        "version": "0.15.0-rc.11"
     }
 }

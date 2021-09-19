@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '新闻: 世界更新６热修补丁 & 后续开发计划',
+        },
+        des: {
+            zh: '在本期视频中，我们来看看新补丁的改动，以及开发组今后几个月的开发计划',
+        },
+        thumbnailOriginal: './thumbnails/20210920.jpg',
+        link: {
+            youtube: 'https://youtu.be/gjcaty4IqXE',
+            bilibili: 'https://www.bilibili.com/video/BV1Nf4y1E7JX',
+        },
+        tag: ['news'],
+        release: new Date('2021-09-20T11:30:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '着陆挑战: 陡峭进近 - 卢加诺',
         },
         des: {
