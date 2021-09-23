@@ -10,8 +10,8 @@ const videos: VideoItem[] = [
         },
         thumbnailOriginal: './thumbnails/20210924.jpg',
         link: {
-            youtube: 'https://youtu.be/b4rZ_IwzqME',
-            bilibili: 'https://www.bilibili.com/video/BV1nL4y187JZ',
+            youtube: 'https://youtu.be/pQUS63Si_5s',
+            bilibili: 'https://www.bilibili.com/video/BV1oq4y1A7Bq',
         },
         tag: ['landing'],
         release: new Date('2021-09-24T11:30:00+0800').valueOf(),
