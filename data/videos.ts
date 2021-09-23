@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '着陆挑战: 黄昏阵风 - 克拉根福',
+        },
+        des: {
+            zh: '克拉根福机场（Airport Klagenfurt），机场位于奥地利南部城市克拉根福，坐落于克拉根福谷地的沃尔特湖畔。由于地形原因，在黄昏时分常有阵风。',
+        },
+        thumbnailOriginal: './thumbnails/20210924.jpg',
+        link: {
+            youtube: 'https://youtu.be/b4rZ_IwzqME',
+            bilibili: 'https://www.bilibili.com/video/BV1nL4y187JZ',
+        },
+        tag: ['landing'],
+        release: new Date('2021-09-24T11:30:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '新闻: 世界更新６热修补丁 & 后续开发计划',
         },
         des: {
