@@ -8635,8 +8635,7 @@ const getDevExtra = () => {
   \***************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-const path = __webpack_require__(/*! path */ "path");
-
+// const path = require('path');
 const {
   chunkNameClientRunFirst,
   scriptTagEntryAttributeName,
@@ -8673,7 +8672,16 @@ const {
 } = __webpack_require__(/*! ./_cache-keys */ "./node_modules/koot/React/inject/_cache-keys.js");
 
 let isSPAi18nEnabled = false;
-const SPAi18nNeedWaiting = false; // ============================================================================
+const SPAi18nNeedWaiting = false;
+/** 已注入的 js 文件 */
+
+let injected = [];
+/** 过滤入口，得到 js 文件列表 */
+
+function filterEntrypoint(list) {
+  return list.filter(file => /\.(js|jsx|mjs|ejs)$/.test(file)) // 将第一次请求时产生的热更新过滤掉
+  .filter(file => !/\.hot-update\.js$/.test(file));
+} // ============================================================================
 
 /**
  * 注入: JavaScript 代码
@@ -8689,6 +8697,7 @@ const SPAi18nNeedWaiting = false; // ===========================================
  * @param {Object} [options.SSRState]
  * @returns {String}
  */
+
 
 module.exports = ({
   needInjectCritical,
@@ -8733,7 +8742,7 @@ module.exports = ({
     let r = ''; // 入口: critical
 
     if (needInjectCritical && Array.isArray(entrypoints.critical)) {
-      r += entrypoints.critical.filter(file => path.extname(file) === '.js').map(file => {
+      r += filterEntrypoint(entrypoints.critical).map(file => {
         if (isDev) {
           // return `<script type="text/javascript" src="${getClientFilePath(true, file)}"></script>`;
           return combineFilePaths('critical', true, file);
@@ -8748,8 +8757,7 @@ module.exports = ({
 
     defaultEntrypoints.forEach(key => {
       if (Array.isArray(entrypoints[key])) {
-        r += entrypoints[key].filter(file => /\.(js|jsx|mjs|ejs)$/.test(file)) // 将第一次请求时产生的热更新过滤掉
-        .filter(file => !/\.hot-update\.js$/.test(file)).map(file => {
+        r += filterEntrypoint(entrypoints[key]).map(file => {
           // const isDevHot = /\.hot-update\.js$/.test(file)
           // console.log(key, file, isDevHot)
           // if (isDev)
@@ -8782,6 +8790,8 @@ module.exports = ({
 
     injectCache[scriptsInBody] = r;
   }
+
+  injected = [];
 
   if (isSPAi18nEnabled) {
     for (const [key, value] of Object.entries(localeFileMap)) {
@@ -8821,7 +8831,10 @@ const combineFilePaths = (name, ...args) => {
   // })
 
 
-  return pathnames.map(pathname => `<script type="text/javascript" src="${pathname}" defer ${scriptTagEntryAttributeName}="${name}"></script>`).join('');
+  return pathnames.filter(pathname => !injected.includes(pathname)).map(pathname => {
+    injected.push(pathname);
+    return `<script type="text/javascript" src="${pathname}" defer ${scriptTagEntryAttributeName}="${name}"></script>`;
+  }).join('');
 };
 /**
  * 返回 script 标签，标签内容为源代码字符串
@@ -11732,7 +11745,7 @@ const getChunkmap = (localeId, getFullResult = false, ignoreCache = false) => {
     if (typeof global.chunkmap === 'object') chunkmap = global.chunkmap;
 
     try {
-      chunkmap = JSON.parse("{\".zh\":{\".public\":\"public/\",\".out\":\"public/\",\".entrypoints\":{\"critical\":[\"public/includes/extract.122.b80ac4bc54fedbe741ee.css\",\"public/includes/entry.b80ac4bc54fedbe741ee.js\"],\"__KOOT__CLIENT__RUN__FIRST__\":[\"public/includes/entry.77c4c0b2fd089901ef4c.js\"],\"client\":[\"public/includes/entry.068a40cc5baffbbd97b6.js\",\"public/includes/entry.645be8b2d4cbeecb7d89.js\",\"public/includes/entry.c82108b5d8d994a64464.js\"]},\".files\":{\"critical.css\":\"public/includes/extract.122.b80ac4bc54fedbe741ee.css\",\"critical.js\":\"public/includes/entry.b80ac4bc54fedbe741ee.js\",\"__KOOT__CLIENT__RUN__FIRST__.js\":\"public/includes/entry.77c4c0b2fd089901ef4c.js\",\"client.js\":\"public/includes/entry.c82108b5d8d994a64464.js\",\"libs.js\":\"public/includes/entry.068a40cc5baffbbd97b6.js\",\"vendors.js\":\"public/includes/entry.645be8b2d4cbeecb7d89.js\",\"__KOOT__EXTRACT__CSS__.css\":\"public/includes/extract.all.14dcf092e5523a8dc68ea95608ea9f92.small.css\"},\"service-worker\":[\"public/service-worker.zh.js\"],\".htmlMetaTags__\":\"<link rel=\\\"shortcut icon\\\" href=\\\"/includes/webapp.9d69f99a/favicon.ico\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"16x16\\\" href=\\\"/includes/webapp.9d69f99a/favicon-16x16.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"32x32\\\" href=\\\"/includes/webapp.9d69f99a/favicon-32x32.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"48x48\\\" href=\\\"/includes/webapp.9d69f99a/favicon-48x48.png\\\"><link rel=\\\"manifest\\\" href=\\\"/includes/webapp.9d69f99a/manifest.json\\\"><meta name=\\\"mobile-web-app-capable\\\" content=\\\"yes\\\"><meta name=\\\"theme-color\\\" content=\\\"#0898d8\\\"><meta name=\\\"application-name\\\" content=\\\"飞行员大波胡\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"57x57\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-57x57.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"60x60\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-60x60.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"72x72\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-72x72.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"76x76\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-76x76.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"114x114\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-114x114.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"120x120\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-120x120.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"144x144\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-144x144.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"152x152\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-152x152.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"167x167\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-167x167.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"180x180\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-180x180.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"1024x1024\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-1024x1024.png\\\"><meta name=\\\"apple-mobile-web-app-capable\\\" content=\\\"yes\\\"><meta name=\\\"apple-mobile-web-app-status-bar-style\\\" content=\\\"black-translucent\\\"><meta name=\\\"apple-mobile-web-app-title\\\" content=\\\"飞行大波胡\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-640x1136.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-750x1334.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-828x1792.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1125x2436.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1242x2208.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1242x2688.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1536x2048.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1668x2224.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1668x2388.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2048x2732.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1620x2160.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1136x640.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1334x750.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1792x828.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2436x1125.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2208x1242.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2688x1242.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2048x1536.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2224x1668.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2388x1668.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2732x2048.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2160x1620.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"228x228\\\" href=\\\"/includes/webapp.9d69f99a/coast-228x228.png\\\"><meta name=\\\"msapplication-TileColor\\\" content=\\\"#212121\\\"><meta name=\\\"msapplication-TileImage\\\" content=\\\"/includes/webapp.9d69f99a/mstile-144x144.png\\\"><meta name=\\\"msapplication-config\\\" content=\\\"/includes/webapp.9d69f99a/browserconfig.xml\\\"><link rel=\\\"yandex-tableau-widget\\\" href=\\\"/includes/webapp.9d69f99a/yandex-browser-manifest.json\\\">\"}}");
+      chunkmap = JSON.parse("{\".zh\":{\".public\":\"public/\",\".out\":\"public/\",\".entrypoints\":{\"critical\":[\"public/includes/extract.122.b80ac4bc54fedbe741ee.css\",\"public/includes/entry.b80ac4bc54fedbe741ee.js\"],\"__KOOT__CLIENT__RUN__FIRST__\":[\"public/includes/entry.77c4c0b2fd089901ef4c.js\"],\"client\":[\"public/includes/entry.068a40cc5baffbbd97b6.js\",\"public/includes/entry.9babf37348844c5b42da.js\",\"public/includes/entry.c82108b5d8d994a64464.js\"]},\".files\":{\"critical.css\":\"public/includes/extract.122.b80ac4bc54fedbe741ee.css\",\"critical.js\":\"public/includes/entry.b80ac4bc54fedbe741ee.js\",\"__KOOT__CLIENT__RUN__FIRST__.js\":\"public/includes/entry.77c4c0b2fd089901ef4c.js\",\"client.js\":\"public/includes/entry.c82108b5d8d994a64464.js\",\"libs.js\":\"public/includes/entry.068a40cc5baffbbd97b6.js\",\"vendors.js\":\"public/includes/entry.9babf37348844c5b42da.js\",\"__KOOT__EXTRACT__CSS__.css\":\"public/includes/extract.all.14dcf092e5523a8dc68ea95608ea9f92.small.css\"},\"service-worker\":[\"public/service-worker.zh.js\"],\".htmlMetaTags__\":\"<link rel=\\\"shortcut icon\\\" href=\\\"/includes/webapp.9d69f99a/favicon.ico\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"16x16\\\" href=\\\"/includes/webapp.9d69f99a/favicon-16x16.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"32x32\\\" href=\\\"/includes/webapp.9d69f99a/favicon-32x32.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"48x48\\\" href=\\\"/includes/webapp.9d69f99a/favicon-48x48.png\\\"><link rel=\\\"manifest\\\" href=\\\"/includes/webapp.9d69f99a/manifest.json\\\"><meta name=\\\"mobile-web-app-capable\\\" content=\\\"yes\\\"><meta name=\\\"theme-color\\\" content=\\\"#0898d8\\\"><meta name=\\\"application-name\\\" content=\\\"飞行员大波胡\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"57x57\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-57x57.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"60x60\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-60x60.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"72x72\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-72x72.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"76x76\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-76x76.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"114x114\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-114x114.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"120x120\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-120x120.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"144x144\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-144x144.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"152x152\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-152x152.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"167x167\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-167x167.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"180x180\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-180x180.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"1024x1024\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-1024x1024.png\\\"><meta name=\\\"apple-mobile-web-app-capable\\\" content=\\\"yes\\\"><meta name=\\\"apple-mobile-web-app-status-bar-style\\\" content=\\\"black-translucent\\\"><meta name=\\\"apple-mobile-web-app-title\\\" content=\\\"飞行大波胡\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-640x1136.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-750x1334.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-828x1792.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1125x2436.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1242x2208.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1242x2688.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1536x2048.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1668x2224.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1668x2388.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2048x2732.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1620x2160.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1136x640.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1334x750.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1792x828.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2436x1125.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2208x1242.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2688x1242.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2048x1536.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2224x1668.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2388x1668.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2732x2048.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2160x1620.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"228x228\\\" href=\\\"/includes/webapp.9d69f99a/coast-228x228.png\\\"><meta name=\\\"msapplication-TileColor\\\" content=\\\"#212121\\\"><meta name=\\\"msapplication-TileImage\\\" content=\\\"/includes/webapp.9d69f99a/mstile-144x144.png\\\"><meta name=\\\"msapplication-config\\\" content=\\\"/includes/webapp.9d69f99a/browserconfig.xml\\\"><link rel=\\\"yandex-tableau-widget\\\" href=\\\"/includes/webapp.9d69f99a/yandex-browser-manifest.json\\\">\"}}");
     } catch (e) {
       chunkmap = false;
     }
@@ -59541,8 +59554,6 @@ const doPageinfo = (store, props, pageinfo) => {
 
 
     render() {
-      var _props$kootForwardedR;
-
       // console.log('styles', styles)
       // console.log('this', this)
       // console.log('this.kootClassNames', this.kootClassNames)
@@ -59565,13 +59576,14 @@ const doPageinfo = (store, props, pageinfo) => {
       // }
 
       if (typeof props.kootForwardedRef !== 'undefined') {
+        var _props$kootForwardedR;
+
         props.forwardedRef = props.kootForwardedRef;
         delete props.kootForwardedRef;
+        props.ref = (_props$kootForwardedR = props.kootForwardedRef) !== null && _props$kootForwardedR !== void 0 ? _props$kootForwardedR : props.forwardedRef;
       }
 
-      return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(WrappedComponent, {
-        ref: (_props$kootForwardedR = props.kootForwardedRef) !== null && _props$kootForwardedR !== void 0 ? _props$kootForwardedR : props.forwardedRef,
-        ...props
+      return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(WrappedComponent, { ...props
       });
     }
 
@@ -60187,6 +60199,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 const videos = [{
+  name: {
+    zh: '着陆挑战: 黄昏阵风 - 克拉根福'
+  },
+  des: {
+    zh: '克拉根福机场（Airport Klagenfurt），机场位于奥地利南部城市克拉根福，坐落于克拉根福谷地的沃尔特湖畔。由于地形原因，在黄昏时分常有阵风。'
+  },
+  thumbnail: 'thumbnails/d66265f5431536593d53171459f6b2f3.jpg',
+  link: {
+    youtube: 'https://youtu.be/pQUS63Si_5s',
+    bilibili: 'https://www.bilibili.com/video/BV1oq4y1A7Bq'
+  },
+  tag: ['landing'],
+  release: new Date('2021-09-24T11:30:00+0800').valueOf()
+}, {
   name: {
     zh: '新闻: 世界更新６热修补丁 & 后续开发计划'
   },
