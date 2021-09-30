@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '新闻: 系统更新６前瞻 & 后续计划揭秘',
+        },
+        des: {
+            zh: '在今天早些时候，《微软模拟飞行》团队进行了一期在线QA直播。都公布了哪些信息？探讨了什么内容？本期视频我们来一探究竟',
+        },
+        thumbnailOriginal: './thumbnails/20210930.jpg',
+        link: {
+            youtube: 'https://youtu.be/eXuqjRtTU-s',
+            bilibili: 'https://www.bilibili.com/video/BV15L411s79P/',
+        },
+        tag: ['news'],
+        release: new Date('2021-09-30T14:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '着陆挑战: 黄昏阵风 - 克拉根福',
         },
         des: {
