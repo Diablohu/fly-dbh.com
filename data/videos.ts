@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '次世代云层渲染',
+        },
+        des: {
+            zh: '台风圆规刚刚经过南海，在我国华南地区上空留下了层层云雾。全新《微软模拟飞行》的实时天气系统很好的还原了当时的景象。接下来请大家乘坐这架 A320 neo，从上海虹桥飞往海口美兰，一同领略云间仙境。',
+        },
+        thumbnailOriginal: './thumbnails/20211016.jpg',
+        link: {
+            youtube: 'https://youtu.be/oljBLCUkRXY',
+            bilibili: 'https://www.bilibili.com/video/BV1sh411J7bi/',
+        },
+        tag: ['flight', 'landing', 'tour'],
+        release: new Date('2021-10-15T11:30:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '新闻: 系统更新６前瞻 & 后续计划揭秘',
         },
         des: {
@@ -77,7 +93,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/-7E2qOY76nI',
             bilibili: 'https://www.bilibili.com/video/BV1Mb4y127ZZ',
         },
-        tag: ['flight', 'landing'],
+        tag: ['flight', 'landing', 'tour'],
         release: new Date('2021-09-14T13:00:00+0800').valueOf(),
     },
 
