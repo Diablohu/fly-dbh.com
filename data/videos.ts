@@ -3,7 +3,23 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
-            zh: '次世代云层渲染',
+            zh: '新闻: 系统更新６上线 & 年度版超大更新',
+        },
+        des: {
+            zh: '系统更新第六弹的现已上线，包含巨量修正和优化；下月将迎来里诺飞行竞赛DLC与年度版超大更新；在本期视频中，我们来看看新补丁的改动，以及下月更新的预告。',
+        },
+        thumbnailOriginal: './thumbnails/20211020.jpg',
+        link: {
+            youtube: 'https://youtu.be/ScWLXj_g6qc',
+            bilibili: 'https://www.bilibili.com/video/BV1Cf4y1g7nv',
+        },
+        tag: ['news'],
+        release: new Date('2021-10-20T11:30:00+0800').valueOf(),
+    },
+
+    {
+        name: {
+            zh: 'A320neo - 上海虹桥 - 海口美兰',
         },
         des: {
             zh: '台风圆规刚刚经过南海，在我国华南地区上空留下了层层云雾。全新《微软模拟飞行》的实时天气系统很好的还原了当时的景象。接下来请大家乘坐这架 A320 neo，从上海虹桥飞往海口美兰，一同领略云间仙境。',
