@@ -60205,7 +60205,7 @@ const videos = [{
   des: {
     zh: '《微软模拟飞行》即将在下个月上线一个全新游戏内容：以里诺飞行竞赛为主题的多人竞速模式。开发组在最近开始了一轮限时封闭内测，大波胡有幸获得了测试资格，本期视频就是我个人上手体验的游戏录像。'
   },
-  thumbnail: 'thumbnails/7bdee80ba2c746e71bf812058f855cec.jpg',
+  thumbnail: 'thumbnails/a64a4914cab8708cf2c4e9635fc2c815.jpg',
   link: {
     youtube: 'https://youtu.be/1bhy2E7eWdo',
     bilibili: 'https://www.bilibili.com/video/BV1GQ4y1Q71F/'
