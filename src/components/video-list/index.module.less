@@ -134,9 +134,23 @@
         }
         & > .tags {
             flex: 1;
-            margin-bottom: 0.5em;
+            margin-right: 1em;
+            white-space: nowrap;
             .tag {
-                margin-right: 0.5em;
+                margin: 0;
+                border-radius: 0;
+                &:first-child {
+                    border-top-left-radius: 1em;
+                    border-bottom-left-radius: 1em;
+                }
+                &:last-child {
+                    border-top-right-radius: 1em;
+                    border-bottom-right-radius: 1em;
+                }
+                & + .tag {
+                    margin-left: -1px;
+                    border-left: 0;
+                }
             }
         }
         & > .name {
@@ -144,6 +158,7 @@
             color: @color-accent;
             font-size: 20px;
             line-height: 1.2;
+            margin-top: 8px;
         }
         & > .date {
             flex: 0;
@@ -152,7 +167,6 @@
             font-style: italic;
             white-space: nowrap;
             margin-top: 4px;
-            margin-left: 1em;
         }
     }
 

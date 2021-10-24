@@ -92,7 +92,7 @@ const Item = memo(
                     {Array.isArray(tag) && tag.length && (
                         <span className="tags">
                             {tag.map((t) => (
-                                <Tag className="tag" tag={t} key={t} />
+                                <Tag className="tag is-on" tag={t} key={t} />
                             ))}
                         </span>
                     )}

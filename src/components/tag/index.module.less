@@ -7,9 +7,11 @@
     line-height: 1.1em;
     padding: 4px 8px;
     color: #000;
-    border: 1px solid fade(#000, 35%);
+    border: 1px solid transparent;
+    // border: 1px solid fade(#000, 35%);
     border-radius: 1em;
     cursor: default;
+    box-shadow: inset 0 0 3px fade(#000, 45%);
     &.is-on {
         color: #fff;
         background: fade(#000, 35%);
@@ -19,12 +21,16 @@
         @color: 'color-tag-@{type}';
         &[data-tag='@{type}'] {
             // color: @@color;
-            @border-color: fade(saturate(darken(@@color, 25%), 5%), 80%);
-            background: fade(desaturate(@@color, 15%), 35%);
-            border-color: fade(@border-color, 35%);
+            background: fade(saturate(@@color, 50%), 15%);
+            // border-color: fade(@@color, 75%);
+            // @border-color: fade(saturate(darken(@@color, 25%), 5%), 80%);
+            // background: fade(desaturate(@@color, 15%), 35%);
+            // border-color: fade(@border-color, 35%);
             &.is-on {
-                background-color: @border-color;
-                border-color: @border-color;
+                // background-color: @border-color;
+                // border-color: @border-color;
+                background-color: @@color;
+                border-color: @@color;
             }
         }
     }

@@ -333,7 +333,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/yJFjoVGbOJ4',
             bilibili: 'https://www.bilibili.com/video/BV18q4y1X7tb',
         },
-        tag: ['news'],
+        tag: ['training', 'news'],
         release: new Date('2021-07-30T12:30:00+0800').valueOf(),
     },
 
@@ -365,7 +365,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/vO6syWJw0Hg',
             bilibili: 'https://www.bilibili.com/video/BV1f44y1y74T',
         },
-        tag: ['device'],
+        tag: ['training', 'device'],
         release: new Date('2021-07-25T16:30:00+0800').valueOf(),
     },
 
