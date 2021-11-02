@@ -6,6 +6,22 @@ const videos: VideoItem[] = [
             zh: '多人竞速模式封测体验 (里诺飞行竞赛)',
         },
         des: {
+            zh: '享负盛名的里诺飞行竞赛即将在《微软模拟飞行》中进行，游戏中将会新增数款新飞机以及全新的多人竞速模式，在本期节目中我们就来对里诺扩展包进行全面剖析。',
+        },
+        thumbnailOriginal: './thumbnails/20211103.jpg',
+        link: {
+            youtube: 'https://youtu.be/-hPL5zR-nhc',
+            bilibili: 'https://www.bilibili.com/video/BV1qS4y1R7Ss',
+        },
+        tag: ['training', 'news'],
+        release: new Date('2021-11-03T11:10:00+0800').valueOf(),
+    },
+
+    {
+        name: {
+            zh: '多人竞速模式封测体验 (里诺飞行竞赛)',
+        },
+        des: {
             zh: '《微软模拟飞行》即将在下个月上线一个全新游戏内容：以里诺飞行竞赛为主题的多人竞速模式。开发组在最近开始了一轮限时封闭内测，大波胡有幸获得了测试资格，本期视频就是我个人上手体验的游戏录像。',
         },
         thumbnailOriginal: './thumbnails/20211023.jpg',
