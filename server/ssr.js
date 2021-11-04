@@ -60200,12 +60200,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
-    zh: '前瞻：里诺竞赛扩展包'
+    zh: '价格、飞机、游戏模式……前瞻：里诺竞赛扩展包'
   },
   des: {
     zh: '享负盛名的里诺飞行竞赛即将在《微软模拟飞行》中进行，游戏中将会新增数款新飞机以及全新的多人竞速模式，在本期节目中我们就来对里诺扩展包进行全面剖析。'
   },
-  thumbnail: 'thumbnails/01df3d6d1fc1be62f8a99f635c82996c.jpg',
+  thumbnail: 'thumbnails/3da39a721e2343e8a528682892b283ce.jpg',
   link: {
     youtube: 'https://youtu.be/-hPL5zR-nhc',
     bilibili: 'https://www.bilibili.com/video/BV1qS4y1R7Ss'
