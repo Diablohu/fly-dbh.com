@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: 'A320neo - 法兰克福 ＞ 那不勒斯',
+        },
+        des: {
+            zh: '借助全新的《微软模拟飞行》，我们可以轻松的还原现实生活中存在的航线。今天就请搭乘这架德国汉莎航空的 A320neo 客机，从法兰克福起飞，飞跃阿尔卑斯山，由地中海降至意大利那不勒斯。',
+        },
+        thumbnailOriginal: './thumbnails/20211113.jpg',
+        link: {
+            youtube: 'https://youtu.be/0PDaDzyuoHY',
+            bilibili: 'https://www.bilibili.com/video/BV1pg411T7xg',
+        },
+        tag: ['flight', 'landing', 'tour'],
+        release: new Date('2021-11-13T15:10:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '价格、飞机、游戏模式……前瞻：里诺竞赛扩展包',
         },
         des: {
@@ -51,7 +67,7 @@ const videos: VideoItem[] = [
 
     {
         name: {
-            zh: 'A320neo - 上海虹桥 - 海口美兰',
+            zh: 'A320neo - 上海虹桥 ＞ 海口美兰',
         },
         des: {
             zh: '台风圆规刚刚经过南海，在我国华南地区上空留下了层层云雾。全新《微软模拟飞行》的实时天气系统很好的还原了当时的景象。接下来请大家乘坐这架 A320 neo，从上海虹桥飞往海口美兰，一同领略云间仙境。',
