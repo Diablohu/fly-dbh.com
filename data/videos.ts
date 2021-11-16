@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '免费超级大黄蜂 & DX12、尾流更新 - 微软模拟飞行年度游戏版 & SU7',
+        },
+        des: {
+            zh: '为了表达对新老飞友的感谢，《微软模拟飞行》决定推出名为“年度游戏版”的游戏内容扩展，将会带来备受期待的 F/A-18 超级大黄蜂战机以及更多的游戏内活动。此次更新也会包含全新的系统更新第七弹，带来全新的尾流、G力昏厥等模拟更新，PC 版也会先行实装 DirectX 12 API。在本期节目中，来为大家详细介绍下年度游戏版以及全新系统更新的内容。',
+        },
+        thumbnailOriginal: './thumbnails/20211117.jpg',
+        link: {
+            youtube: 'https://youtu.be/nMHzlSeNMUU',
+            bilibili: 'https://www.bilibili.com/video/BV1VT4y1R7ra',
+        },
+        tag: ['training', 'news'],
+        release: new Date('2021-11-17T11:10:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: 'A320neo - 法兰克福 ＞ 那不勒斯',
         },
         des: {
