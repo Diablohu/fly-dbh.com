@@ -60200,6 +60200,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: 'F/A-18 超级大黄蜂如何开启后燃'
+  },
+  des: {
+    zh: '微软模拟飞行年度游戏版已正式上线，F/A-18 超级大黄蜂已经进入了所有玩家的机库，不过有的飞友反应无法开启后燃器 Afterburner'
+  },
+  thumbnail: 'thumbnails/14df4164d8950b4b17de111c6a3ec6d9.jpg',
+  link: {
+    youtube: 'https://youtu.be/f9F7yiBReqc',
+    bilibili: 'https://www.bilibili.com/video/BV1NY41147ok'
+  },
+  tag: ['news'],
+  release: new Date('2021-11-19T11:10:00+0800').valueOf()
+}, {
+  name: {
     zh: '免费超级大黄蜂 & DX12、尾流更新 - 微软模拟飞行年度游戏版 & SU7'
   },
   des: {
