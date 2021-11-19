@@ -13,7 +13,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/f9F7yiBReqc',
             bilibili: 'https://www.bilibili.com/video/BV1NY41147ok',
         },
-        tag: ['news'],
+        tag: ['tip'],
         release: new Date('2021-11-19T11:10:00+0800').valueOf(),
     },
 
@@ -381,7 +381,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/F4ajh5X7NvM',
             bilibili: 'https://www.bilibili.com/video/BV1W44y117Kx',
         },
-        tag: ['news'],
+        tag: ['tip'],
         release: new Date('2021-08-01T12:00:00+0800').valueOf(),
     },
 

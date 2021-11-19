@@ -5,6 +5,7 @@ const tags: Array<VideoTag> = [
     'airport',
     'route',
     'training',
+    'tip',
     'flight',
     'landing',
     'tour',
@@ -28,4 +29,5 @@ export const names: {
     tour: '景观',
     news: '游戏资讯',
     flight: '飞行',
+    tip: '小窍门',
 };
