@@ -7,6 +7,7 @@ const tags: Array<VideoTag> = [
     'training',
     'tip',
     'flight',
+    'test',
     'landing',
     'tour',
     'mod',
@@ -30,4 +31,5 @@ export const names: {
     news: '游戏资讯',
     flight: '飞行',
     tip: '小窍门',
+    test: '试飞',
 };

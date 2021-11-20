@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '倒数第一拿了金牌',
+        },
+        des: {
+            zh: '里诺竞赛扩展包现已正式上线开卖，空中竞速赛正在微软模拟飞行上演。本期视频是近期大波胡的直播录像剪辑，包含3段里诺竞速比赛，头两段是亮点剪辑，最后一段是竞赛全程。',
+        },
+        thumbnailOriginal: './thumbnails/20211120.jpg',
+        link: {
+            youtube: 'https://youtu.be/ScyivuWRLLY',
+            bilibili: 'https://www.bilibili.com/video/BV1yL411T7zD',
+        },
+        tag: ['test'],
+        release: new Date('2021-11-20T11:35:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: 'F/A-18 超级大黄蜂如何开启后燃',
         },
         des: {
@@ -13,7 +29,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/f9F7yiBReqc',
             bilibili: 'https://www.bilibili.com/video/BV1NY41147ok',
         },
-        tag: ['tip'],
+        tag: ['tip', 'news'],
         release: new Date('2021-11-19T11:10:00+0800').valueOf(),
     },
 
@@ -381,7 +397,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/F4ajh5X7NvM',
             bilibili: 'https://www.bilibili.com/video/BV1W44y117Kx',
         },
-        tag: ['tip'],
+        tag: ['tip', 'news'],
         release: new Date('2021-08-01T12:00:00+0800').valueOf(),
     },
 
@@ -397,7 +413,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/yJFjoVGbOJ4',
             bilibili: 'https://www.bilibili.com/video/BV18q4y1X7tb',
         },
-        tag: ['training', 'news'],
+        tag: ['tip', 'news'],
         release: new Date('2021-07-30T12:30:00+0800').valueOf(),
     },
 
