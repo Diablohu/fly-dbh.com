@@ -60200,17 +60200,31 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: '如何开启黑视红视（G力模拟）'
+  },
+  des: {
+    zh: '全新上线的微软模拟飞行年度游戏版引入了G力模拟，正确还原了在G力过大时的黑视或红视现象，以及后续的昏厥。不过该功能是默认关闭的。'
+  },
+  thumbnail: 'thumbnails/8732016fb76810e56f32b810c844c334.jpg',
+  link: {
+    youtube: 'https://youtu.be/KkNUaWuD1t0',
+    bilibili: 'https://www.bilibili.com/video/BV12Q4y1U7SH'
+  },
+  tag: ['tip', 'news'],
+  release: new Date('2021-11-22T11:10:00+0800').valueOf()
+}, {
+  name: {
     zh: 'Volocity 操作入门'
   },
   des: {
     zh: '《微软模拟飞行》年度游戏版已正式上线，为所有玩家免费送上大号无人机 Volocity。今天来为大家介绍下这架观光神器的操作方式。'
   },
-  thumbnail: 'thumbnails/aa4ae0ae569b2b457cba9bf3cbdb45df.jpg',
+  thumbnail: 'thumbnails/b253e2c53daa976d3f3420f85b1ffe1b.jpg',
   link: {
     youtube: 'https://youtu.be/dujEjyg7RZM',
     bilibili: 'https://www.bilibili.com/video/BV1FY4114726'
   },
-  tag: ['test'],
+  tag: ['training', 'test'],
   release: new Date('2021-11-21T11:35:00+0800').valueOf()
 }, {
   name: {
@@ -60228,7 +60242,7 @@ const videos = [{
   release: new Date('2021-11-20T11:35:00+0800').valueOf()
 }, {
   name: {
-    zh: 'F/A-18 超级大黄蜂如何开启后燃'
+    zh: '超级大黄蜂如何开启加力（后燃）'
   },
   des: {
     zh: '微软模拟飞行年度游戏版已正式上线，F/A-18 超级大黄蜂已经进入了所有玩家的机库，不过有的飞友反应无法开启后燃器 Afterburner'
