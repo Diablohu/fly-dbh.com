@@ -60200,12 +60200,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
-    zh: '倒数第一拿了金牌'
+    zh: 'Volocity 操作入门'
+  },
+  des: {
+    zh: '《微软模拟飞行》年度游戏版已正式上线，为所有玩家免费送上大号无人机 Volocity。今天来为大家介绍下这架观光神器的操作方式。'
+  },
+  thumbnail: 'thumbnails/a0e145c357310d316ddf20c83339a3c6.jpg',
+  link: {
+    youtube: 'https://youtu.be/dujEjyg7RZM',
+    bilibili: 'https://www.bilibili.com/video/BV1FY4114726'
+  },
+  tag: ['test'],
+  release: new Date('2021-11-21T11:35:00+0800').valueOf()
+}, {
+  name: {
+    zh: '倒数第一拿了金牌 - 里诺竞赛实况'
   },
   des: {
     zh: '里诺竞赛扩展包现已正式上线开卖，空中竞速赛正在微软模拟飞行上演。本期视频是近期大波胡的直播录像剪辑，包含3段里诺竞速比赛，头两段是亮点剪辑，最后一段是竞赛全程。'
   },
-  thumbnail: 'thumbnails/2b75c8caa4fbf1fdf24d419820c094d1.jpg',
+  thumbnail: 'thumbnails/b37e9c85516fa7d18538f0725af6073f.jpg',
   link: {
     youtube: 'https://youtu.be/ScyivuWRLLY',
     bilibili: 'https://www.bilibili.com/video/BV1yL411T7zD'
@@ -60219,7 +60233,7 @@ const videos = [{
   des: {
     zh: '微软模拟飞行年度游戏版已正式上线，F/A-18 超级大黄蜂已经进入了所有玩家的机库，不过有的飞友反应无法开启后燃器 Afterburner'
   },
-  thumbnail: 'thumbnails/14df4164d8950b4b17de111c6a3ec6d9.jpg',
+  thumbnail: 'thumbnails/282c4d3095a94a1d0ca0873ae51eb4c7.jpg',
   link: {
     youtube: 'https://youtu.be/f9F7yiBReqc',
     bilibili: 'https://www.bilibili.com/video/BV1NY41147ok'
