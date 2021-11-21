@@ -3,7 +3,23 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
-            zh: '倒数第一拿了金牌',
+            zh: 'Volocity 操作入门',
+        },
+        des: {
+            zh: '《微软模拟飞行》年度游戏版已正式上线，为所有玩家免费送上大号无人机 Volocity。今天来为大家介绍下这架观光神器的操作方式。',
+        },
+        thumbnailOriginal: './thumbnails/20211121.jpg',
+        link: {
+            youtube: 'https://youtu.be/dujEjyg7RZM',
+            bilibili: 'https://www.bilibili.com/video/BV1FY4114726',
+        },
+        tag: ['test'],
+        release: new Date('2021-11-21T11:35:00+0800').valueOf(),
+    },
+
+    {
+        name: {
+            zh: '倒数第一拿了金牌 - 里诺竞赛实况',
         },
         des: {
             zh: '里诺竞赛扩展包现已正式上线开卖，空中竞速赛正在微软模拟飞行上演。本期视频是近期大波胡的直播录像剪辑，包含3段里诺竞速比赛，头两段是亮点剪辑，最后一段是竞赛全程。',
