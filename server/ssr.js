@@ -60205,7 +60205,7 @@ const videos = [{
   des: {
     zh: '《微软模拟飞行》年度游戏版已正式上线，为所有玩家免费送上大号无人机 Volocity。今天来为大家介绍下这架观光神器的操作方式。'
   },
-  thumbnail: 'thumbnails/a0e145c357310d316ddf20c83339a3c6.jpg',
+  thumbnail: 'thumbnails/aa4ae0ae569b2b457cba9bf3cbdb45df.jpg',
   link: {
     youtube: 'https://youtu.be/dujEjyg7RZM',
     bilibili: 'https://www.bilibili.com/video/BV1FY4114726'
@@ -60219,7 +60219,7 @@ const videos = [{
   des: {
     zh: '里诺竞赛扩展包现已正式上线开卖，空中竞速赛正在微软模拟飞行上演。本期视频是近期大波胡的直播录像剪辑，包含3段里诺竞速比赛，头两段是亮点剪辑，最后一段是竞赛全程。'
   },
-  thumbnail: 'thumbnails/b37e9c85516fa7d18538f0725af6073f.jpg',
+  thumbnail: 'thumbnails/2f4157381843b9907007b4d39f8cbc0d.jpg',
   link: {
     youtube: 'https://youtu.be/ScyivuWRLLY',
     bilibili: 'https://www.bilibili.com/video/BV1yL411T7zD'
@@ -60233,7 +60233,7 @@ const videos = [{
   des: {
     zh: '微软模拟飞行年度游戏版已正式上线，F/A-18 超级大黄蜂已经进入了所有玩家的机库，不过有的飞友反应无法开启后燃器 Afterburner'
   },
-  thumbnail: 'thumbnails/282c4d3095a94a1d0ca0873ae51eb4c7.jpg',
+  thumbnail: 'thumbnails/1d1c81c02dfeef2fb260ee2f704d58c9.jpg',
   link: {
     youtube: 'https://youtu.be/f9F7yiBReqc',
     bilibili: 'https://www.bilibili.com/video/BV1NY41147ok'
@@ -60415,7 +60415,7 @@ const videos = [{
   des: {
     zh: '全新的《微软模拟飞行》登录 XBOX 平台已经有一个月了，其凭借优秀的画面以及系列长久的口碑，涌入了一大批新玩家。但新晋飞行员们很快就发现，在这所谓的游戏里基本没啥事儿干。本期视频就来为大家介绍下更多的游戏方式，丰富飞行模拟体验。'
   },
-  thumbnail: 'thumbnails/5bdfea8dbfa108ddfad1bf2c3cd89e73.jpg',
+  thumbnail: 'thumbnails/7288e88169aa36f8eb1fa6b7c9649b7f.jpg',
   link: {
     youtube: 'https://youtu.be/9A1tPdN5AUk',
     bilibili: 'https://www.bilibili.com/video/BV1Uq4y1U7Y4'
@@ -60569,7 +60569,7 @@ const videos = [{
   des: {
     zh: 'PC版《微软模拟飞行》最新的大更新后，引入了全新的舱内仪表互动方式，不过直接改变操作习惯着实令人诟病。其实游戏允许改回原来的方式。'
   },
-  thumbnail: 'thumbnails/137dd18debbab481bb11f9f1ab1a7ef5.jpg',
+  thumbnail: 'thumbnails/81e5b94acf33eb48ad6f4579f3078178.jpg',
   link: {
     youtube: 'https://youtu.be/yJFjoVGbOJ4',
     bilibili: 'https://www.bilibili.com/video/BV18q4y1X7tb'
@@ -60597,7 +60597,7 @@ const videos = [{
   des: {
     zh: '全新的《微软模拟飞行》XBOX 版本即将上线，很多玩家或许都会有一个疑问——手柄怎么开飞机？操作顺畅么？'
   },
-  thumbnail: 'thumbnails/b4d0263399c53853570e1dd7aa12b444.jpg',
+  thumbnail: 'thumbnails/31e3117ecf1c558ee4b90f8bb9fa8677.jpg',
   link: {
     youtube: 'https://youtu.be/vO6syWJw0Hg',
     bilibili: 'https://www.bilibili.com/video/BV1f44y1y74T'
