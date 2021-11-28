@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '官方本地化内容检查单',
+        },
+        des: {
+            zh: '从8月中旬确定开发官方汉化，到计划明年2月正式上线。想必很多飞友都有疑问，不就是个界面翻译么？怎么要半年这么久？',
+        },
+        thumbnailOriginal: './thumbnails/20211129.jpg',
+        link: {
+            youtube: 'https://youtu.be/r0kb6KSy0NY',
+            bilibili: 'https://www.bilibili.com/video/BV1Z3411t7Zk',
+        },
+        tag: ['news'],
+        release: new Date('2021-11-29T11:10:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '如何开启黑视红视（G力模拟）',
         },
         des: {
