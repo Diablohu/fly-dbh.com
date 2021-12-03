@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '飞行全程: 夏威夷观光',
+        },
+        des: {
+            zh: 'L-39 MS 信天翁 | 希洛国际机场 (PHTO / ITO) ＞ 丹尼尔·井上国际机场 (PHNL / HNL) | 2021年12月2日',
+        },
+        thumbnailOriginal: './thumbnails/20211203.jpg',
+        link: {
+            youtube: 'https://youtu.be/VxDIfmBGplU',
+            bilibili: 'https://www.bilibili.com/video/BV1q34y1R7uz',
+        },
+        tag: ['flight'],
+        release: new Date('2021-12-03T11:10:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '官方本地化内容检查单',
         },
         des: {
