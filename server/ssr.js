@@ -60200,10 +60200,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: '特技演练: 巴塞罗那'
+  },
+  des: {
+    zh: 'L-39 MS / L-59 超级信天翁 | 西班牙巴塞罗那 | 2021年12月7日'
+  },
+  thumbnail: 'thumbnails/2cd95befa76f423cff38f7f216afe936.jpg',
+  link: {
+    youtube: 'https://youtu.be/QONGGUr9NkU',
+    bilibili: 'https://www.bilibili.com/video/BV1Ki4y1Z7vD'
+  },
+  tag: ['flight'],
+  release: new Date('2021-12-07T11:10:00+0800').valueOf()
+}, {
+  name: {
     zh: '飞行全程: 夏威夷观光'
   },
   des: {
-    zh: 'L-39 MS 信天翁 | 希洛国际机场 (PHTO / ITO) ＞ 丹尼尔·井上国际机场 (PHNL / HNL) | 2021年12月2日'
+    zh: 'L-39 MS / L-59 超级信天翁 | 希洛国际机场 (PHTO / ITO) ＞ 丹尼尔·井上国际机场 (PHNL / HNL) | 2021年12月2日'
   },
   thumbnail: 'thumbnails/cd1a101bee24806ff566c596c7734cb4.jpg',
   link: {
