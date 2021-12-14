@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '极限飞行：地平线 VR',
+        },
+        des: {
+            zh: '戴上VR眼镜，以接近声速在国际都市飙飞机感觉会如何？',
+        },
+        thumbnailOriginal: './thumbnails/20211215.jpg',
+        link: {
+            youtube: 'https://youtu.be/57Z9TXEL9sE',
+            bilibili: 'https://www.bilibili.com/video/BV1uq4y1B7ub',
+        },
+        tag: ['flight'],
+        release: new Date('2021-12-15T11:10:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '特技演练: 巴塞罗那',
         },
         des: {
