@@ -3,7 +3,7 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
-            zh: '极限飞行：地平线 VR',
+            zh: '戴上VR眼镜，飙飞机，耍特技 | 极限飞行：地平线 (伪)',
         },
         des: {
             zh: '戴上VR眼镜，以接近声速在国际都市飙飞机感觉会如何？',
