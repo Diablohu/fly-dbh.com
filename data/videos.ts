@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '试飞: ICON A5 拟真补丁',
+        },
+        des: {
+            zh: 'ICON A5，这架单发螺旋桨的双座小型飞机可谓是当前《微软模拟飞行》中的一颗明珠。不过和许多内置的飞机一样，这架A5虽然比较精准的还原了飞行体验，但在气动等细节上还有些不足。现在有爱好者制作了一款拟真 MOD，力图完美还原真实。',
+        },
+        thumbnailOriginal: './thumbnails/20211220.jpg',
+        link: {
+            youtube: 'https://youtu.be/ZopSP0d3P18',
+            bilibili: 'https://www.bilibili.com/video/BV1vm4y1X7XK',
+        },
+        tag: ['test', 'mod'],
+        release: new Date('2021-12-20T11:10:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '戴上VR眼镜，飙飞机，耍特技 | 极限飞行：地平线 (伪)',
         },
         des: {
