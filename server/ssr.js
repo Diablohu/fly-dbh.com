@@ -60200,12 +60200,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: 'FBW A380 外观预览'
+  },
+  des: {
+    zh: 'FlyByWire 插件团队为我们献上圣诞礼物——其团队为开发 A380 插件机所开设的虚构机场。在机库里停留这一架A380的外壳，以及开发中的驾驶舱。在今天这期简短的视频中，大波胡来介绍下如何下载这一礼物，并在机场里游览一番。'
+  },
+  thumbnail: 'thumbnails/b70d2561ab2a8ea80704200c3fa82cba.jpg',
+  link: {
+    youtube: 'https://youtu.be/mdAXv6wEBYA',
+    bilibili: 'https://www.bilibili.com/video/BV1or4y1U7XT'
+  },
+  tag: ['mod'],
+  release: new Date('2021-12-22T11:10:00+0800').valueOf()
+}, {
+  name: {
     zh: '试飞: ICON A5 拟真补丁'
   },
   des: {
     zh: 'ICON A5，这架单发螺旋桨的双座小型飞机可谓是当前《微软模拟飞行》中的一颗明珠。不过和许多内置的飞机一样，这架A5虽然比较精准的还原了飞行体验，但在气动等细节上还有些不足。现在有爱好者制作了一款拟真 MOD，力图完美还原真实。'
   },
-  thumbnail: 'thumbnails/f4868af22792ec8ee92169232f610039.jpg',
+  thumbnail: 'thumbnails/3f9bcc1ea78add7487659843cb032005.jpg',
   link: {
     youtube: 'https://youtu.be/ZopSP0d3P18',
     bilibili: 'https://www.bilibili.com/video/BV1vm4y1X7XK'
