@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: 'FBW A380 外观预览',
+        },
+        des: {
+            zh: 'FlyByWire 插件团队为我们献上圣诞礼物——其团队为开发 A380 插件机所开设的虚构机场。在机库里停留这一架A380的外壳，以及开发中的驾驶舱。在今天这期简短的视频中，大波胡来介绍下如何下载这一礼物，并在机场里游览一番。',
+        },
+        thumbnailOriginal: './thumbnails/20211222.jpg',
+        link: {
+            youtube: 'https://youtu.be/mdAXv6wEBYA',
+            bilibili: 'https://www.bilibili.com/video/BV1or4y1U7XT',
+        },
+        tag: ['mod'],
+        release: new Date('2021-12-22T11:10:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '试飞: ICON A5 拟真补丁',
         },
         des: {
