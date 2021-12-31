@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '微软模拟飞行2022：官方更新展望',
+        },
+        des: {
+            zh: '《微软模拟飞行》在2021年可谓焕发了第二春，展望来年，微软与 ASOBO 将会延续之前的承诺，在2022年继续对这一平台进行持续增强。本期视频来为大家汇总介绍下模拟飞行开发团队在2022年计划更新的内容。',
+        },
+        thumbnailOriginal: './thumbnails/20211231.png',
+        link: {
+            youtube: 'https://youtu.be/SJmwyDsOZJs',
+            bilibili: 'https://www.bilibili.com/video/BV1oF411i7iR',
+        },
+        tag: ['training', 'news'],
+        release: new Date('2021-12-31T11:10:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: 'FBW A380 外观预览',
         },
         des: {
