@@ -61,7 +61,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/57Z9TXEL9sE',
             bilibili: 'https://www.bilibili.com/video/BV1uq4y1B7ub',
         },
-        tag: ['flight', 'tour'],
+        tag: ['training', 'flight', 'tour'],
         release: new Date('2021-12-15T11:10:00+0800').valueOf(),
     },
 
