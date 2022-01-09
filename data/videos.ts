@@ -3,7 +3,23 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
-            zh: '微软模拟飞行2022：官方更新展望',
+            zh: '新闻: 双水獭 VS 大棕熊',
+        },
+        des: {
+            zh: '欢迎来到2022年第一期模飞新闻节目。在此也祝各位飞友新年快乐！',
+        },
+        thumbnailOriginal: './thumbnails/20220110.png',
+        link: {
+            youtube: 'https://youtu.be/0uHMEP7VC0Q',
+            bilibili: 'https://www.bilibili.com/video/BV1zr4y1v7XA',
+        },
+        tag: ['news'],
+        release: new Date('2022-01-10T11:10:00+0800').valueOf(),
+    },
+
+    {
+        name: {
+            zh: '微软模拟飞行2022年前瞻',
         },
         des: {
             zh: '《微软模拟飞行》在2021年可谓焕发了第二春，展望来年，微软与 ASOBO 将会延续之前的承诺，在2022年继续对这一平台进行持续增强。本期视频来为大家汇总介绍下模拟飞行开发团队在2022年计划更新的内容。',
