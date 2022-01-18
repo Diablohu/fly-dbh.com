@@ -60200,12 +60200,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: '快讯: 官方汉化延期到4月'
+  },
+  des: {
+    zh: '新年第一个噩耗'
+  },
+  thumbnail: 'thumbnails/8bd4659821f731a15810b08c38eaebaf.jpg',
+  link: {
+    youtube: 'https://youtu.be/uBWPRH3jqpk',
+    bilibili: 'https://www.bilibili.com/video/BV1RR4y1M7yQ'
+  },
+  tag: ['news'],
+  release: new Date('2022-01-19T11:10:00+0800').valueOf()
+}, {
+  name: {
     zh: '新闻: 双水獭 VS 大棕熊'
   },
   des: {
     zh: '欢迎来到2022年第一期模飞新闻节目。在此也祝各位飞友新年快乐！'
   },
-  thumbnail: 'thumbnails/b4e5bbdae66818d035a32a0999521b56.jpg',
+  thumbnail: 'thumbnails/689afb00ba97c927cc1f2e52c8f800a2.jpg',
   link: {
     youtube: 'https://youtu.be/0uHMEP7VC0Q',
     bilibili: 'https://www.bilibili.com/video/BV1zr4y1v7XA'
