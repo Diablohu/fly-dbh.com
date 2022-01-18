@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '快讯: 官方汉化延期到4月',
+        },
+        des: {
+            zh: '新年第一个噩耗',
+        },
+        thumbnailOriginal: './thumbnails/20220119.png',
+        link: {
+            youtube: 'https://youtu.be/uBWPRH3jqpk',
+            bilibili: 'https://www.bilibili.com/video/BV1RR4y1M7yQ',
+        },
+        tag: ['news'],
+        release: new Date('2022-01-19T11:10:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '新闻: 双水獭 VS 大棕熊',
         },
         des: {
