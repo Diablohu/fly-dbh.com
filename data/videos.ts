@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '我的飞行外设选择',
+        },
+        des: {
+            zh: '模拟飞行是一个拥有庞大外设群的系列，而大波胡选择了哪些软硬件呢？',
+        },
+        thumbnailOriginal: './thumbnails/20220122.png',
+        link: {
+            youtube: 'https://youtu.be/tQ2oLw8Jf-0',
+            bilibili: 'https://www.bilibili.com/video/BV1b34y1i7oM',
+        },
+        tag: ['device'],
+        release: new Date('2022-01-22T11:10:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '快讯: 官方汉化延期到4月',
         },
         des: {
