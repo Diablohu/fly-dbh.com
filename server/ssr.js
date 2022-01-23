@@ -60200,12 +60200,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: '我的飞行外设选择'
+  },
+  des: {
+    zh: '模拟飞行是一个拥有庞大外设群的系列，而大波胡选择了哪些软硬件呢？'
+  },
+  thumbnail: 'thumbnails/9563e0da2c3fbb3332bd422781d12c4b.jpg',
+  link: {
+    youtube: 'https://youtu.be/tQ2oLw8Jf-0',
+    bilibili: 'https://www.bilibili.com/video/BV1b34y1i7oM'
+  },
+  tag: ['device'],
+  release: new Date('2022-01-22T11:10:00+0800').valueOf()
+}, {
+  name: {
     zh: '快讯: 官方汉化延期到4月'
   },
   des: {
     zh: '新年第一个噩耗'
   },
-  thumbnail: 'thumbnails/8bd4659821f731a15810b08c38eaebaf.jpg',
+  thumbnail: 'thumbnails/07961612d768cbdbb918c59ca194e6db.jpg',
   link: {
     youtube: 'https://youtu.be/uBWPRH3jqpk',
     bilibili: 'https://www.bilibili.com/video/BV1RR4y1M7yQ'
