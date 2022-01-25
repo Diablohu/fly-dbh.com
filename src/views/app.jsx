@@ -360,7 +360,7 @@ List.tags = [{ label: '全部', value: '' }].concat(
 const Footer = memo(() => {
     return (
         <Center className={`${classNameModule}-footer`}>
-            &#169; 2021{' '}
+            &#169; 2022{' '}
             <a href="https://diablohu.com/" target="_blank" rel="noreferrer">
                 diablohu.com
             </a>{' '}
