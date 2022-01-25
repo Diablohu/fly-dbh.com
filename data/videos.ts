@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '震惊！客机尝试着陆古斯塔夫/圣巴泰',
+        },
+        des: {
+            zh: '古斯塔夫三世机场（又名圣巴泰勒米机场）是加勒比海中圣巴泰勒米岛上的小型机场，但这架客机她是要……',
+        },
+        thumbnailOriginal: './thumbnails/20220126.png',
+        link: {
+            youtube: 'https://youtu.be/IOYv3U9rHw0',
+            bilibili: 'https://www.bilibili.com/video/BV1Dr4y1e7GV',
+        },
+        tag: ['clip'],
+        release: new Date('2022-01-26T11:10:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '我的飞行外设选择',
         },
         des: {
