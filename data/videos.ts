@@ -3,7 +3,7 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
-            zh: '震惊！客机尝试着陆古斯塔夫/圣巴泰',
+            zh: '震惊！喷气客机硬闯加勒比小岛',
         },
         des: {
             zh: '古斯塔夫三世机场（又名圣巴泰勒米机场）是加勒比海中圣巴泰勒米岛上的小型机场，但这架客机她是要……',
