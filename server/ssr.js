@@ -60203,6 +60203,20 @@ const videos = [{
     zh: '震惊！喷气客机硬闯加勒比小岛'
   },
   des: {
+    zh: '《微软模拟飞行》开发团队在近日举行了一场在线QA直播，放出了大量猛料。在本期节目中就为大家汇总播报。'
+  },
+  thumbnail: 'thumbnails/fa2b8d327c3c01d8580b1643f99f232a.jpg',
+  link: {
+    youtube: 'https://youtu.be/Ob8y-I4BILM',
+    bilibili: 'https://www.bilibili.com/video/BV1p3411E7uS'
+  },
+  tag: ['news'],
+  release: new Date('2022-01-31T17:10:00+0800').valueOf()
+}, {
+  name: {
+    zh: '震惊！喷气客机硬闯加勒比小岛'
+  },
+  des: {
     zh: '古斯塔夫三世机场（又名圣巴泰勒米机场）是加勒比海中圣巴泰勒米岛上的小型机场，但这架客机她是要……'
   },
   thumbnail: 'thumbnails/24a4fa588fe598730a3bf27edcb6d0f4.jpg',
