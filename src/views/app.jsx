@@ -366,14 +366,6 @@ const Footer = memo(() => {
             </a>{' '}
             |{' '}
             <a
-                href="https://weibo.com/u/2019430291"
-                target="_blank"
-                rel="noreferrer"
-            >
-                @diablohu (微博)
-            </a>{' '}
-            |{' '}
-            <a
                 href="https://twitter.com/Diablohu/"
                 target="_blank"
                 rel="noreferrer"

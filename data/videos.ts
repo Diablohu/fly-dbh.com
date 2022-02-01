@@ -3,7 +3,23 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
-            zh: '震惊！喷气客机硬闯加勒比小岛',
+            zh: '３人接连挑战全球最短跑道',
+        },
+        des: {
+            zh: '萨巴岛胡安乔·E·伊劳斯金机场，该机场的跑道全球最短。',
+        },
+        thumbnailOriginal: './thumbnails/20220202.png',
+        link: {
+            youtube: 'https://youtu.be/Jr28iUv1PSM',
+            bilibili: 'https://www.bilibili.com/video/BV1U34y127ts',
+        },
+        tag: ['clip'],
+        release: new Date('2022-02-02T11:10:00+0800').valueOf(),
+    },
+
+    {
+        name: {
+            zh: '新闻：MSFS将成最强气动模拟器？',
         },
         des: {
             zh: '《微软模拟飞行》开发团队在近日举行了一场在线QA直播，放出了大量猛料。在本期节目中就为大家汇总播报。',
