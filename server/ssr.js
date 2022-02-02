@@ -60195,6 +60195,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: '飞行全程: 云回家过年'
+  },
+  des: {
+    zh: '由于种种原因，Diablohu 今年无法回家过年，那么就来一次云回家吧！'
+  },
+  thumbnail: 'thumbnails/08035475286c7184c4bd62125330fe86.jpg',
+  link: {
+    youtube: 'https://youtu.be/qWG7zwXTTiM',
+    bilibili: 'https://www.bilibili.com/video/BV1zq4y1F7Rx'
+  },
+  tag: ['test'],
+  release: new Date('2022-02-03T11:10:00+0800').valueOf()
+}, {
+  name: {
     zh: '３人接连挑战全球最短跑道'
   },
   des: {
