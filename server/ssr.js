@@ -11745,7 +11745,7 @@ const getChunkmap = (localeId, getFullResult = false, ignoreCache = false) => {
     if (typeof global.chunkmap === 'object') chunkmap = global.chunkmap;
 
     try {
-      chunkmap = JSON.parse("{\".zh\":{\".public\":\"public/\",\".out\":\"public/\",\".entrypoints\":{\"critical\":[\"public/includes/extract.122.b80ac4bc54fedbe741ee.css\",\"public/includes/entry.b80ac4bc54fedbe741ee.js\"],\"__KOOT__CLIENT__RUN__FIRST__\":[\"public/includes/entry.77c4c0b2fd089901ef4c.js\"],\"client\":[\"public/includes/entry.068a40cc5baffbbd97b6.js\",\"public/includes/entry.9babf37348844c5b42da.js\",\"public/includes/entry.51da9743cc21775934d8.js\"]},\".files\":{\"critical.css\":\"public/includes/extract.122.b80ac4bc54fedbe741ee.css\",\"critical.js\":\"public/includes/entry.b80ac4bc54fedbe741ee.js\",\"__KOOT__CLIENT__RUN__FIRST__.js\":\"public/includes/entry.77c4c0b2fd089901ef4c.js\",\"client.js\":\"public/includes/entry.51da9743cc21775934d8.js\",\"libs.js\":\"public/includes/entry.068a40cc5baffbbd97b6.js\",\"vendors.js\":\"public/includes/entry.9babf37348844c5b42da.js\",\"__KOOT__EXTRACT__CSS__.css\":\"public/includes/extract.all.14dcf092e5523a8dc68ea95608ea9f92.small.css\"},\"service-worker\":[\"public/service-worker.zh.js\"],\".htmlMetaTags__\":\"<link rel=\\\"shortcut icon\\\" href=\\\"/includes/webapp.9d69f99a/favicon.ico\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"16x16\\\" href=\\\"/includes/webapp.9d69f99a/favicon-16x16.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"32x32\\\" href=\\\"/includes/webapp.9d69f99a/favicon-32x32.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"48x48\\\" href=\\\"/includes/webapp.9d69f99a/favicon-48x48.png\\\"><link rel=\\\"manifest\\\" href=\\\"/includes/webapp.9d69f99a/manifest.json\\\"><meta name=\\\"mobile-web-app-capable\\\" content=\\\"yes\\\"><meta name=\\\"theme-color\\\" content=\\\"#0898d8\\\"><meta name=\\\"application-name\\\" content=\\\"飞行员大波胡\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"57x57\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-57x57.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"60x60\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-60x60.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"72x72\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-72x72.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"76x76\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-76x76.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"114x114\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-114x114.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"120x120\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-120x120.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"144x144\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-144x144.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"152x152\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-152x152.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"167x167\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-167x167.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"180x180\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-180x180.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"1024x1024\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-1024x1024.png\\\"><meta name=\\\"apple-mobile-web-app-capable\\\" content=\\\"yes\\\"><meta name=\\\"apple-mobile-web-app-status-bar-style\\\" content=\\\"black-translucent\\\"><meta name=\\\"apple-mobile-web-app-title\\\" content=\\\"飞行大波胡\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-640x1136.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-750x1334.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-828x1792.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1125x2436.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1242x2208.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1242x2688.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1536x2048.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1668x2224.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1668x2388.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2048x2732.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1620x2160.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1136x640.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1334x750.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1792x828.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2436x1125.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2208x1242.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2688x1242.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2048x1536.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2224x1668.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2388x1668.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2732x2048.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2160x1620.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"228x228\\\" href=\\\"/includes/webapp.9d69f99a/coast-228x228.png\\\"><meta name=\\\"msapplication-TileColor\\\" content=\\\"#212121\\\"><meta name=\\\"msapplication-TileImage\\\" content=\\\"/includes/webapp.9d69f99a/mstile-144x144.png\\\"><meta name=\\\"msapplication-config\\\" content=\\\"/includes/webapp.9d69f99a/browserconfig.xml\\\"><link rel=\\\"yandex-tableau-widget\\\" href=\\\"/includes/webapp.9d69f99a/yandex-browser-manifest.json\\\">\"}}");
+      chunkmap = JSON.parse("{\".zh\":{\".public\":\"public/\",\".out\":\"public/\",\".entrypoints\":{\"critical\":[\"public/includes/extract.122.b80ac4bc54fedbe741ee.css\",\"public/includes/entry.b80ac4bc54fedbe741ee.js\"],\"__KOOT__CLIENT__RUN__FIRST__\":[\"public/includes/entry.77c4c0b2fd089901ef4c.js\"],\"client\":[\"public/includes/entry.068a40cc5baffbbd97b6.js\",\"public/includes/entry.9babf37348844c5b42da.js\",\"public/includes/entry.7fc8cd3bb28c72ba59bb.js\"]},\".files\":{\"critical.css\":\"public/includes/extract.122.b80ac4bc54fedbe741ee.css\",\"critical.js\":\"public/includes/entry.b80ac4bc54fedbe741ee.js\",\"__KOOT__CLIENT__RUN__FIRST__.js\":\"public/includes/entry.77c4c0b2fd089901ef4c.js\",\"client.js\":\"public/includes/entry.7fc8cd3bb28c72ba59bb.js\",\"libs.js\":\"public/includes/entry.068a40cc5baffbbd97b6.js\",\"vendors.js\":\"public/includes/entry.9babf37348844c5b42da.js\",\"__KOOT__EXTRACT__CSS__.css\":\"public/includes/extract.all.14dcf092e5523a8dc68ea95608ea9f92.small.css\"},\"service-worker\":[\"public/service-worker.zh.js\"],\".htmlMetaTags__\":\"<link rel=\\\"shortcut icon\\\" href=\\\"/includes/webapp.9d69f99a/favicon.ico\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"16x16\\\" href=\\\"/includes/webapp.9d69f99a/favicon-16x16.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"32x32\\\" href=\\\"/includes/webapp.9d69f99a/favicon-32x32.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"48x48\\\" href=\\\"/includes/webapp.9d69f99a/favicon-48x48.png\\\"><link rel=\\\"manifest\\\" href=\\\"/includes/webapp.9d69f99a/manifest.json\\\"><meta name=\\\"mobile-web-app-capable\\\" content=\\\"yes\\\"><meta name=\\\"theme-color\\\" content=\\\"#0898d8\\\"><meta name=\\\"application-name\\\" content=\\\"飞行员大波胡\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"57x57\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-57x57.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"60x60\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-60x60.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"72x72\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-72x72.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"76x76\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-76x76.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"114x114\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-114x114.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"120x120\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-120x120.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"144x144\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-144x144.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"152x152\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-152x152.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"167x167\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-167x167.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"180x180\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-180x180.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"1024x1024\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-1024x1024.png\\\"><meta name=\\\"apple-mobile-web-app-capable\\\" content=\\\"yes\\\"><meta name=\\\"apple-mobile-web-app-status-bar-style\\\" content=\\\"black-translucent\\\"><meta name=\\\"apple-mobile-web-app-title\\\" content=\\\"飞行大波胡\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-640x1136.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-750x1334.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-828x1792.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1125x2436.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1242x2208.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1242x2688.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1536x2048.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1668x2224.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1668x2388.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2048x2732.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1620x2160.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1136x640.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1334x750.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1792x828.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2436x1125.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2208x1242.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2688x1242.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2048x1536.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2224x1668.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2388x1668.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2732x2048.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2160x1620.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"228x228\\\" href=\\\"/includes/webapp.9d69f99a/coast-228x228.png\\\"><meta name=\\\"msapplication-TileColor\\\" content=\\\"#212121\\\"><meta name=\\\"msapplication-TileImage\\\" content=\\\"/includes/webapp.9d69f99a/mstile-144x144.png\\\"><meta name=\\\"msapplication-config\\\" content=\\\"/includes/webapp.9d69f99a/browserconfig.xml\\\"><link rel=\\\"yandex-tableau-widget\\\" href=\\\"/includes/webapp.9d69f99a/yandex-browser-manifest.json\\\">\"}}");
     } catch (e) {
       chunkmap = false;
     }
@@ -60242,12 +60242,12 @@ const videos = [{
   des: {
     zh: '模拟飞行是一个拥有庞大外设群的系列，而大波胡选择了哪些软硬件呢？'
   },
-  thumbnail: 'thumbnails/9563e0da2c3fbb3332bd422781d12c4b.jpg',
+  thumbnail: 'thumbnails/f4df354abfa0e78928d338ce9b85da07.jpg',
   link: {
     youtube: 'https://youtu.be/tQ2oLw8Jf-0',
     bilibili: 'https://www.bilibili.com/video/BV1b34y1i7oM'
   },
-  tag: ['device'],
+  tag: ['training', 'device'],
   release: new Date('2022-01-22T11:10:00+0800').valueOf()
 }, {
   name: {
@@ -60331,7 +60331,7 @@ const videos = [{
     youtube: 'https://youtu.be/57Z9TXEL9sE',
     bilibili: 'https://www.bilibili.com/video/BV1uq4y1B7ub'
   },
-  tag: ['training', 'flight', 'tour'],
+  tag: ['flight', 'tour'],
   release: new Date('2021-12-15T11:10:00+0800').valueOf()
 }, {
   name: {
@@ -60345,7 +60345,7 @@ const videos = [{
     youtube: 'https://youtu.be/QONGGUr9NkU',
     bilibili: 'https://www.bilibili.com/video/BV1Ki4y1Z7vD'
   },
-  tag: ['flight'],
+  tag: ['test'],
   release: new Date('2021-12-07T11:10:00+0800').valueOf()
 }, {
   name: {
@@ -60359,7 +60359,7 @@ const videos = [{
     youtube: 'https://youtu.be/VxDIfmBGplU',
     bilibili: 'https://www.bilibili.com/video/BV1q34y1R7uz'
   },
-  tag: ['flight'],
+  tag: ['test'],
   release: new Date('2021-12-03T11:10:00+0800').valueOf()
 }, {
   name: {
@@ -60387,7 +60387,7 @@ const videos = [{
     youtube: 'https://youtu.be/KkNUaWuD1t0',
     bilibili: 'https://www.bilibili.com/video/BV12Q4y1U7SH'
   },
-  tag: ['tip', 'news'],
+  tag: ['training', 'tip'],
   release: new Date('2021-11-22T11:10:00+0800').valueOf()
 }, {
   name: {
@@ -60429,7 +60429,7 @@ const videos = [{
     youtube: 'https://youtu.be/f9F7yiBReqc',
     bilibili: 'https://www.bilibili.com/video/BV1NY41147ok'
   },
-  tag: ['tip', 'news'],
+  tag: ['training', 'tip'],
   release: new Date('2021-11-19T11:10:00+0800').valueOf()
 }, {
   name: {
@@ -60485,7 +60485,7 @@ const videos = [{
     youtube: 'https://youtu.be/1bhy2E7eWdo',
     bilibili: 'https://www.bilibili.com/video/BV1GQ4y1Q71F/'
   },
-  tag: ['flight', 'news'],
+  tag: ['news', 'test'],
   release: new Date('2021-10-23T21:00:00+0800').valueOf()
 }, {
   name: {
@@ -60667,7 +60667,7 @@ const videos = [{
     youtube: 'https://youtu.be/L7BIV6baDDo',
     bilibili: 'https://www.bilibili.com/video/BV1f3411z7Nc'
   },
-  tag: ['tour'],
+  tag: ['flight', 'tour'],
   release: new Date('2021-08-17T12:00:00+0800').valueOf()
 }, {
   name: {
@@ -60723,7 +60723,7 @@ const videos = [{
     youtube: 'https://youtu.be/ABHk8Z1QvJw',
     bilibili: 'https://www.bilibili.com/video/BV1xq4y1p7cu'
   },
-  tag: ['flight'],
+  tag: ['test'],
   release: new Date('2021-08-05T12:00:00+0800').valueOf()
 }, {
   name: {
@@ -60737,7 +60737,7 @@ const videos = [{
     youtube: 'https://youtu.be/tcShJcXB0qA',
     bilibili: 'https://www.bilibili.com/video/BV1h64y1B7g8'
   },
-  tag: ['flight'],
+  tag: ['test'],
   release: new Date('2021-08-04T12:00:00+0800').valueOf()
 }, {
   name: {
@@ -60751,7 +60751,7 @@ const videos = [{
     youtube: 'https://youtu.be/F4ajh5X7NvM',
     bilibili: 'https://www.bilibili.com/video/BV1W44y117Kx'
   },
-  tag: ['tip', 'news'],
+  tag: ['news', 'tip'],
   release: new Date('2021-08-01T12:00:00+0800').valueOf()
 }, {
   name: {
@@ -60765,7 +60765,7 @@ const videos = [{
     youtube: 'https://youtu.be/yJFjoVGbOJ4',
     bilibili: 'https://www.bilibili.com/video/BV18q4y1X7tb'
   },
-  tag: ['tip', 'news'],
+  tag: ['training', 'tip'],
   release: new Date('2021-07-30T12:30:00+0800').valueOf()
 }, {
   name: {
@@ -61031,7 +61031,7 @@ const videos = [{
     youtube: 'https://youtu.be/Q9ygEejv0lw',
     bilibili: 'https://www.bilibili.com/video/BV1JA411p75z'
   },
-  tag: ['device'],
+  tag: ['training', 'device'],
   release: 1611462600000
 }, {
   name: {
@@ -61073,7 +61073,7 @@ const videos = [{
     youtube: 'https://youtu.be/wSOc5o-xCeQ',
     bilibili: 'https://www.bilibili.com/video/BV1YZ4y1g7sR'
   },
-  tag: ['tour'],
+  tag: ['flight', 'tour'],
   release: 1607229007000
 }, {
   name: {
@@ -61157,7 +61157,7 @@ const videos = [{
     youtube: 'https://youtu.be/XT9FdreY9ZQ',
     bilibili: 'https://www.bilibili.com/video/BV1x54y1R7nX'
   },
-  tag: ['device', 'tour'],
+  tag: ['training', 'device', 'tour'],
   release: 1603078204000
 }, {
   name: {
@@ -61171,7 +61171,7 @@ const videos = [{
     youtube: 'https://youtu.be/rndn4CINMQc',
     bilibili: 'https://www.bilibili.com/video/BV1m54y117rt'
   },
-  tag: ['tour'],
+  tag: ['flight', 'tour'],
   release: 1602127832000
 }, {
   name: {
@@ -61185,7 +61185,7 @@ const videos = [{
     youtube: 'https://youtu.be/vNcbK0hF8mg',
     bilibili: 'https://www.bilibili.com/video/BV13p4y1Y7wS'
   },
-  tag: ['tour'],
+  tag: ['flight', 'tour'],
   release: 1601546435000
 }, {
   name: {
@@ -61385,21 +61385,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
 /* harmony export */   "names": () => (/* binding */ names)
 /* harmony export */ });
-const tags = ['news', 'airport', 'route', 'training', 'tip', 'flight', 'test', 'landing', 'tour', 'mod', 'device', 'clip'];
+const tags = ['news', 'training', 'flight', 'airport', 'route', 'tip', 'test', 'clip', 'landing', 'tour', 'mod', 'device'];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (tags);
 const names = {
-  clip: '片段',
+  news: '模飞新闻',
   training: '综合/教程',
-  landing: '着陆',
+  flight: '模飞短片',
   airport: '专题：机场',
   route: '专题：航线',
+  tip: '小窍门',
+  test: '试飞',
+  clip: '片段',
+  landing: '着陆',
   device: '设备',
   mod: 'MOD/插件',
-  tour: '景观',
-  news: '游戏资讯',
-  flight: '飞行',
-  tip: '小窍门',
-  test: '试飞'
+  tour: '景观'
 };
 
 /***/ }),
