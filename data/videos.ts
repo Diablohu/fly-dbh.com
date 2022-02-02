@@ -61,7 +61,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/tQ2oLw8Jf-0',
             bilibili: 'https://www.bilibili.com/video/BV1b34y1i7oM',
         },
-        tag: ['device'],
+        tag: ['training', 'device'],
         release: new Date('2022-01-22T11:10:00+0800').valueOf(),
     },
 
@@ -157,7 +157,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/57Z9TXEL9sE',
             bilibili: 'https://www.bilibili.com/video/BV1uq4y1B7ub',
         },
-        tag: ['training', 'flight', 'tour'],
+        tag: ['flight', 'tour'],
         release: new Date('2021-12-15T11:10:00+0800').valueOf(),
     },
 
@@ -173,7 +173,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/QONGGUr9NkU',
             bilibili: 'https://www.bilibili.com/video/BV1Ki4y1Z7vD',
         },
-        tag: ['flight'],
+        tag: ['test'],
         release: new Date('2021-12-07T11:10:00+0800').valueOf(),
     },
 
@@ -189,7 +189,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/VxDIfmBGplU',
             bilibili: 'https://www.bilibili.com/video/BV1q34y1R7uz',
         },
-        tag: ['flight'],
+        tag: ['test'],
         release: new Date('2021-12-03T11:10:00+0800').valueOf(),
     },
 
@@ -221,7 +221,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/KkNUaWuD1t0',
             bilibili: 'https://www.bilibili.com/video/BV12Q4y1U7SH',
         },
-        tag: ['tip', 'news'],
+        tag: ['training', 'tip'],
         release: new Date('2021-11-22T11:10:00+0800').valueOf(),
     },
 
@@ -269,7 +269,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/f9F7yiBReqc',
             bilibili: 'https://www.bilibili.com/video/BV1NY41147ok',
         },
-        tag: ['tip', 'news'],
+        tag: ['training', 'tip'],
         release: new Date('2021-11-19T11:10:00+0800').valueOf(),
     },
 
@@ -333,7 +333,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/1bhy2E7eWdo',
             bilibili: 'https://www.bilibili.com/video/BV1GQ4y1Q71F/',
         },
-        tag: ['flight', 'news'],
+        tag: ['news', 'test'],
         release: new Date('2021-10-23T21:00:00+0800').valueOf(),
     },
 
@@ -541,7 +541,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/L7BIV6baDDo',
             bilibili: 'https://www.bilibili.com/video/BV1f3411z7Nc',
         },
-        tag: ['tour'],
+        tag: ['flight', 'tour'],
         release: new Date('2021-08-17T12:00:00+0800').valueOf(),
     },
 
@@ -605,7 +605,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/ABHk8Z1QvJw',
             bilibili: 'https://www.bilibili.com/video/BV1xq4y1p7cu',
         },
-        tag: ['flight'],
+        tag: ['test'],
         release: new Date('2021-08-05T12:00:00+0800').valueOf(),
     },
 
@@ -621,7 +621,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/tcShJcXB0qA',
             bilibili: 'https://www.bilibili.com/video/BV1h64y1B7g8',
         },
-        tag: ['flight'],
+        tag: ['test'],
         release: new Date('2021-08-04T12:00:00+0800').valueOf(),
     },
 
@@ -637,7 +637,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/F4ajh5X7NvM',
             bilibili: 'https://www.bilibili.com/video/BV1W44y117Kx',
         },
-        tag: ['tip', 'news'],
+        tag: ['news', 'tip'],
         release: new Date('2021-08-01T12:00:00+0800').valueOf(),
     },
 
@@ -653,7 +653,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/yJFjoVGbOJ4',
             bilibili: 'https://www.bilibili.com/video/BV18q4y1X7tb',
         },
-        tag: ['tip', 'news'],
+        tag: ['training', 'tip'],
         release: new Date('2021-07-30T12:30:00+0800').valueOf(),
     },
 
@@ -957,7 +957,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/Q9ygEejv0lw',
             bilibili: 'https://www.bilibili.com/video/BV1JA411p75z',
         },
-        tag: ['device'],
+        tag: ['training', 'device'],
         release: 1611462600000,
     },
 
@@ -1005,7 +1005,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/wSOc5o-xCeQ',
             bilibili: 'https://www.bilibili.com/video/BV1YZ4y1g7sR',
         },
-        tag: ['tour'],
+        tag: ['flight', 'tour'],
         release: 1607229007000,
     },
 
@@ -1101,7 +1101,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/XT9FdreY9ZQ',
             bilibili: 'https://www.bilibili.com/video/BV1x54y1R7nX',
         },
-        tag: ['device', 'tour'],
+        tag: ['training', 'device', 'tour'],
         release: 1603078204000,
     },
 
@@ -1117,7 +1117,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/rndn4CINMQc',
             bilibili: 'https://www.bilibili.com/video/BV1m54y117rt',
         },
-        tag: ['tour'],
+        tag: ['flight', 'tour'],
         release: 1602127832000,
     },
 
@@ -1133,7 +1133,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/vNcbK0hF8mg',
             bilibili: 'https://www.bilibili.com/video/BV13p4y1Y7wS',
         },
-        tag: ['tour'],
+        tag: ['flight', 'tour'],
         release: 1601546435000,
     },
 
