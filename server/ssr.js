@@ -60195,6 +60195,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: '飞行全程: 全新墨尔本'
+  },
+  des: {
+    zh: '世界更新：澳大利亚已于近日上线。今天来搭乘大波胡驾驶的这架飞机游览下全新的墨尔本！'
+  },
+  thumbnail: 'thumbnails/5d87d21e4f43ac561e016035c155714b.jpg',
+  link: {
+    youtube: 'https://youtu.be/xJzH-s6_4XI',
+    bilibili: 'https://www.bilibili.com/video/BV1nT4y1C7Nf'
+  },
+  tag: ['test', 'tour'],
+  release: new Date('2022-02-05T11:10:00+0800').valueOf()
+}, {
+  name: {
     zh: '家用空客完全体'
   },
   des: {
