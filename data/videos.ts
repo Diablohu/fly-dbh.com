@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '家用空客完全体',
+        },
+        des: {
+            zh: '大波胡又购入了一款模拟飞行外设——图马斯特出品的 TCA 空客套件的扩展包。本期节目中就来进行开箱体验。',
+        },
+        thumbnailOriginal: './thumbnails/20220204.png',
+        link: {
+            youtube: 'https://youtu.be/XVRkgtVxQvE',
+            bilibili: 'https://www.bilibili.com/video/BV1KZ4y1o7ZW',
+        },
+        tag: ['training', 'device'],
+        release: new Date('2022-02-04T11:10:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '飞行全程: 云回家过年',
         },
         des: {
