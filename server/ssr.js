@@ -60195,12 +60195,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: '着陆挑战: WU7澳大利亚篇'
+  },
+  des: {
+    zh: '世界更新：澳大利亚已于近日正式上线，依照惯例本次更新也带来了数个全新的澳大利亚着陆挑战。在本期节目中，大波胡将对其中3个挑战进行尝试，分别是史诗难度的 YKAT，YMAA，以及狂风难度的 YHOT。'
+  },
+  thumbnail: 'thumbnails/f2ba7993c1d16fa0f9b945d29a926e62.jpg',
+  link: {
+    youtube: 'https://youtu.be/lNJAQF3sbAE',
+    bilibili: 'https://www.bilibili.com/video/BV1b44y1W794'
+  },
+  tag: ['landing'],
+  release: new Date('2022-02-07T11:10:00+0800').valueOf()
+}, {
+  name: {
     zh: '飞行全程: 全新墨尔本'
   },
   des: {
     zh: '世界更新：澳大利亚已于近日上线。今天来搭乘大波胡驾驶的这架飞机游览下全新的墨尔本！'
   },
-  thumbnail: 'thumbnails/5d87d21e4f43ac561e016035c155714b.jpg',
+  thumbnail: 'thumbnails/79afa5928008eae7527633f2c396ef43.jpg',
   link: {
     youtube: 'https://youtu.be/xJzH-s6_4XI',
     bilibili: 'https://www.bilibili.com/video/BV1nT4y1C7Nf'
