@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '着陆挑战: WU7澳大利亚篇',
+        },
+        des: {
+            zh: '世界更新：澳大利亚已于近日正式上线，依照惯例本次更新也带来了数个全新的澳大利亚着陆挑战。在本期节目中，大波胡将对其中3个挑战进行尝试，分别是史诗难度的 YKAT，YMAA，以及狂风难度的 YHOT。',
+        },
+        thumbnailOriginal: './thumbnails/20220207.png',
+        link: {
+            youtube: 'https://youtu.be/lNJAQF3sbAE',
+            bilibili: 'https://www.bilibili.com/video/BV1b44y1W794',
+        },
+        tag: ['landing'],
+        release: new Date('2022-02-07T11:10:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '飞行全程: 全新墨尔本',
         },
         des: {
