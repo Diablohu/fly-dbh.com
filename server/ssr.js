@@ -60195,12 +60195,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: '新闻：“清理行动”始动'
+  },
+  des: {
+    zh: '《微软模拟飞行》系统更新第八弹现已开始公开测试，本人也在第一时间登入公测服务器进行体验，本期节目中为大家带来下次大型更新的内容总览。'
+  },
+  thumbnail: 'thumbnails/7c7ecfcccbd93acd8cd0d610341d420e.jpg',
+  link: {
+    youtube: 'https://youtu.be/A9nF8tbshAM',
+    bilibili: 'https://www.bilibili.com/video/BV1qS4y1C74f'
+  },
+  tag: ['news'],
+  release: new Date('2022-02-12T15:10:00+0800').valueOf()
+}, {
+  name: {
     zh: '着陆挑战: WU7澳大利亚篇'
   },
   des: {
     zh: '世界更新：澳大利亚已于近日正式上线，依照惯例本次更新也带来了数个全新的澳大利亚着陆挑战。在本期节目中，大波胡将对其中3个挑战进行尝试，分别是史诗难度的 YKAT，YMAA，以及狂风难度的 YHOT。'
   },
-  thumbnail: 'thumbnails/f2ba7993c1d16fa0f9b945d29a926e62.jpg',
+  thumbnail: 'thumbnails/1672455306daf989f6397c922afe050d.jpg',
   link: {
     youtube: 'https://youtu.be/lNJAQF3sbAE',
     bilibili: 'https://www.bilibili.com/video/BV1b44y1W794'
