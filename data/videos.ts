@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '新闻：“清理行动”始动',
+        },
+        des: {
+            zh: '《微软模拟飞行》系统更新第八弹现已开始公开测试，本人也在第一时间登入公测服务器进行体验，本期节目中为大家带来下次大型更新的内容总览。',
+        },
+        thumbnailOriginal: './thumbnails/20220212.png',
+        link: {
+            youtube: 'https://youtu.be/A9nF8tbshAM',
+            bilibili: 'https://www.bilibili.com/video/BV1qS4y1C74f',
+        },
+        tag: ['news'],
+        release: new Date('2022-02-12T15:10:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '着陆挑战: WU7澳大利亚篇',
         },
         des: {
