@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '着陆挑战: SU8期间限定 - 雪地里诺斯特德',
+        },
+        des: {
+            zh: '系统更新第八弹现已开始公开测试，在这即将于3月1日正是更新的补丁中，新增了一项限时着陆挑战——CJ4降落雪天的里诺斯特德机场。',
+        },
+        thumbnailOriginal: './thumbnails/20220214.png',
+        link: {
+            youtube: 'https://youtu.be/UALm4mOI-bE',
+            bilibili: 'https://www.bilibili.com/video/BV1MS4y1V7tg',
+        },
+        tag: ['landing'],
+        release: new Date('2022-02-14T11:10:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '新闻：“清理行动”始动',
         },
         des: {
