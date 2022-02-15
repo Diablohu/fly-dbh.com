@@ -60195,12 +60195,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
-    zh: '着陆挑战: SU8期间限定 - 雪地里诺斯特德'
+    zh: '你知道吗？MSFS的航电是浏览器！？'
+  },
+  des: {
+    zh: '今天为大家带来一则对飞行没什么用的冷知识——《微软模拟飞行》的航电与UI都是浏览器渲染的！'
+  },
+  thumbnail: 'thumbnails/b2552e93b7ae68ea06c7b068fdc0f052.jpg',
+  link: {
+    youtube: 'https://youtu.be/aogbFWMsnfU',
+    bilibili: 'https://www.bilibili.com/video/BV1P44y1p7GK'
+  },
+  tag: ['training'],
+  release: new Date('2022-02-16T11:10:00+0800').valueOf()
+}, {
+  name: {
+    zh: '着陆挑战: SU8限定 · 超真实阴云 · 雪地里诺斯特德'
   },
   des: {
     zh: '系统更新第八弹现已开始公开测试，在这即将于3月1日正是更新的补丁中，新增了一项限时着陆挑战——CJ4降落雪天的里诺斯特德机场。'
   },
-  thumbnail: 'thumbnails/5d71b176a78c11afd6cab785466b16a7.jpg',
+  thumbnail: 'thumbnails/aa2335e1d58f1f953d0b9cead434be9b.jpg',
   link: {
     youtube: 'https://youtu.be/UALm4mOI-bE',
     bilibili: 'https://www.bilibili.com/video/BV1MS4y1V7tg'
