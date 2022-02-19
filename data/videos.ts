@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '飞行摇杆与街机摇杆的差异',
+        },
+        des: {
+            zh: '回答观众提问：飞行摇杆外设与街机格斗游戏摇杆的区别是什么',
+        },
+        thumbnailOriginal: './thumbnails/20220220.jpg',
+        link: {
+            youtube: 'https://youtu.be/fAQHhgfGNhM',
+            bilibili: 'https://www.bilibili.com/video/BV1Sr4y167F9',
+        },
+        tag: ['training', 'tip'],
+        release: new Date('2022-02-20T11:10:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '你知道吗？MSFS的航电是浏览器！？',
         },
         des: {
@@ -13,7 +29,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/aogbFWMsnfU',
             bilibili: 'https://www.bilibili.com/video/BV1P44y1p7GK',
         },
-        tag: ['training'],
+        tag: ['training', 'tip'],
         release: new Date('2022-02-16T11:10:00+0800').valueOf(),
     },
 
