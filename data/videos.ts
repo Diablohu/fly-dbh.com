@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '快讯: 模拟飞行官方预览全新气动模型',
+        },
+        des: {
+            zh: '《微软模拟飞行》官方在近期放出了一段全新的特色探索系列视频，介绍即将于上半年实装的２个全新气动模拟方式。',
+        },
+        thumbnailOriginal: './thumbnails/20220221.png',
+        link: {
+            youtube: 'https://youtu.be/UUODnfo9au8',
+            bilibili: 'https://www.bilibili.com/video/BV17Z4y1d7rd',
+        },
+        tag: ['news'],
+        release: new Date('2022-02-21T11:10:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '飞行摇杆与街机摇杆的差异',
         },
         des: {
