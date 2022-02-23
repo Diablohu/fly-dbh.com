@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '模拟飞行着陆挑战: 印尼WX53 [超高难度]',
+        },
+        des: {
+            zh: '欢迎来到印度尼西亚巴布亚岛布加拉加，我们即将降落在当地的简易跑道。有很多飞友表示这里的着陆挑战难度相当高，甚至可以说是当前最难，那么今天大波胡就来刷个分。',
+        },
+        thumbnailOriginal: './thumbnails/20220224.png',
+        link: {
+            youtube: 'https://youtu.be/BVf9WNZlLnA',
+            bilibili: 'https://www.bilibili.com/video/BV1za41187FA',
+        },
+        tag: ['test', 'landing'],
+        release: new Date('2022-02-24T11:10:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '快讯: 模拟飞行官方预览全新气动模型',
         },
         des: {
@@ -61,7 +77,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/UALm4mOI-bE',
             bilibili: 'https://www.bilibili.com/video/BV1MS4y1V7tg',
         },
-        tag: ['landing'],
+        tag: ['test', 'landing'],
         release: new Date('2022-02-14T11:10:00+0800').valueOf(),
     },
 
@@ -93,7 +109,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/lNJAQF3sbAE',
             bilibili: 'https://www.bilibili.com/video/BV1b44y1W794',
         },
-        tag: ['landing'],
+        tag: ['test', 'landing'],
         release: new Date('2022-02-07T11:10:00+0800').valueOf(),
     },
 
@@ -397,7 +413,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/ScyivuWRLLY',
             bilibili: 'https://www.bilibili.com/video/BV1yL411T7zD',
         },
-        tag: ['test'],
+        tag: ['test', 'test'],
         release: new Date('2021-11-20T11:35:00+0800').valueOf(),
     },
 
@@ -541,7 +557,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/pQUS63Si_5s',
             bilibili: 'https://www.bilibili.com/video/BV1oq4y1A7Bq',
         },
-        tag: ['landing'],
+        tag: ['test', 'landing'],
         release: new Date('2021-09-24T11:30:00+0800').valueOf(),
     },
 
@@ -573,7 +589,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/b4rZ_IwzqME',
             bilibili: 'https://www.bilibili.com/video/BV1nL4y187JZ',
         },
-        tag: ['landing'],
+        tag: ['test', 'landing'],
         release: new Date('2021-09-16T11:30:00+0800').valueOf(),
     },
 
@@ -637,7 +653,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/tXImGxbN_ns',
             bilibili: 'https://www.bilibili.com/video/BV1Sq4y1M7rs',
         },
-        tag: ['landing'],
+        tag: ['test', 'landing'],
         release: new Date('2021-08-27T11:20:00+0800').valueOf(),
     },
 
@@ -701,7 +717,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/6vUEun4xOhc',
             bilibili: 'https://www.bilibili.com/video/BV1v3411z7kc',
         },
-        tag: ['landing'],
+        tag: ['test', 'landing'],
         release: new Date('2021-08-12T12:00:00+0800').valueOf(),
     },
 
@@ -877,7 +893,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/_Xh8r4T63mE',
             bilibili: 'https://www.bilibili.com/video/BV1Rv411n7zG',
         },
-        tag: ['landing'],
+        tag: ['test', 'landing'],
         release: new Date('2021-06-25T12:05:00+0800').valueOf(),
     },
 
@@ -893,7 +909,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/7FV0uab-wg8',
             bilibili: 'https://www.bilibili.com/video/BV1m64y197jk',
         },
-        tag: ['landing'],
+        tag: ['test', 'landing'],
         release: new Date('2021-06-24T12:05:00+0800').valueOf(),
     },
 
@@ -957,7 +973,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/yqV7oCybH-I',
             bilibili: 'https://www.bilibili.com/video/BV1iK4y1R7UU',
         },
-        tag: ['landing'],
+        tag: ['test', 'landing'],
         release: new Date('2021-06-01T17:35:00+0800').valueOf(),
     },
 
@@ -973,7 +989,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/QDDJM5V6Wsk',
             bilibili: 'https://www.bilibili.com/video/BV1A64y1i7fT',
         },
-        tag: ['landing'],
+        tag: ['test', 'landing'],
         release: new Date('2021-04-18T11:35:00+0800').valueOf(),
     },
 
@@ -1021,7 +1037,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/Um8URjl9zn4',
             bilibili: 'https://www.bilibili.com/video/BV1Hb4y1Q7UA',
         },
-        tag: ['landing'],
+        tag: ['test', 'landing'],
         release: new Date('2021-03-17T12:00:00+0800').valueOf(),
     },
 
@@ -1069,7 +1085,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/aB7Aw8-1F3Q',
             bilibili: 'https://www.bilibili.com/video/BV1kV411i7oZ',
         },
-        tag: ['landing'],
+        tag: ['test', 'landing'],
         release: 1613620800000,
     },
 
@@ -1133,7 +1149,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/lXeULVaPRLM',
             bilibili: 'https://www.bilibili.com/video/BV12f4y1e7Nt',
         },
-        tag: ['landing'],
+        tag: ['test', 'landing'],
         release: 1609210057000,
     },
 
@@ -1181,7 +1197,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/StOJ9HkXccY',
             bilibili: 'https://www.bilibili.com/video/BV1gD4y1X7Ng',
         },
-        tag: ['landing'],
+        tag: ['test', 'landing'],
         release: 1605497402000,
     },
 
@@ -1213,7 +1229,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/6qPRsCuPMUE',
             bilibili: 'https://www.bilibili.com/video/BV1KD4y1R7UT',
         },
-        tag: ['landing'],
+        tag: ['test', 'landing'],
         release: 1604201460000,
     },
 
@@ -1293,7 +1309,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/F-jVs38ab8Y',
             bilibili: 'https://www.bilibili.com/video/BV1kK4y1874X',
         },
-        tag: ['landing'],
+        tag: ['test', 'landing'],
         release: 1601092856000,
     },
 
@@ -1309,7 +1325,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/3Efm9u7TAyg',
             bilibili: 'https://www.bilibili.com/video/BV1yD4y1o7jE',
         },
-        tag: ['tour', 'landing'],
+        tag: ['test', 'tour', 'landing'],
         release: 1600659015000,
     },
 
@@ -1325,7 +1341,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/eO0Prwjklkg',
             bilibili: 'https://www.bilibili.com/video/BV17a4y1j7Qq',
         },
-        tag: ['training'],
+        tag: ['test'],
         release: 1600056009000,
     },
 ];
