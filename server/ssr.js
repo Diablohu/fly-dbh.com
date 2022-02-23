@@ -60200,7 +60200,7 @@ const videos = [{
   des: {
     zh: '欢迎来到印度尼西亚巴布亚岛布加拉加，我们即将降落在当地的简易跑道。有很多飞友表示这里的着陆挑战难度相当高，甚至可以说是当前最难，那么今天大波胡就来刷个分。'
   },
-  thumbnail: 'thumbnails/251d81c5a4c4fc101cea4906c638fd5b.jpg',
+  thumbnail: 'thumbnails/beb6cc9e13f81fbde01846518aa0a0a8.jpg',
   link: {
     youtube: 'https://youtu.be/BVf9WNZlLnA',
     bilibili: 'https://www.bilibili.com/video/BV1za41187FA'
