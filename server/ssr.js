@@ -60195,6 +60195,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: 'AI景观: 乌克兰基辅鲍里斯波尔国际机场'
+  },
+  des: {
+    zh: '欢迎来到乌克兰首都基辅，眼前的是鲍里斯波尔国际机场。在今天的节目中，我们就来看看微软的AI将基辅鲍里斯波尔国际机场还原成了啥样。'
+  },
+  thumbnail: 'thumbnails/1698784096486284d30bdb8411a0dbfc.jpg',
+  link: {
+    youtube: 'https://youtu.be/XWidDccqM88',
+    bilibili: 'https://www.bilibili.com/video/BV1U3411L7Lz'
+  },
+  tag: ['flight', 'tour'],
+  release: new Date('2022-02-25T11:10:00+0800').valueOf()
+}, {
+  name: {
     zh: '模拟飞行着陆挑战: 印尼WX53 - 超高难度'
   },
   des: {
