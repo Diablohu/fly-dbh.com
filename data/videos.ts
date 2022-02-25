@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '飞行全程: AI生成的基辅市',
+        },
+        des: {
+            zh: '今天请大家跟随大波胡驾驶的这架飞机来游览微软模拟飞行AI生成的乌克兰首都基辅市。',
+        },
+        thumbnailOriginal: './thumbnails/20220226.png',
+        link: {
+            youtube: 'https://youtu.be/1vEMH4ZQgGM',
+            bilibili: 'https://www.bilibili.com/video/BV1HL411T7LN',
+        },
+        tag: ['test', 'tour'],
+        release: new Date('2022-02-26T11:10:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: 'AI景观: 乌克兰基辅鲍里斯波尔国际机场',
         },
         des: {

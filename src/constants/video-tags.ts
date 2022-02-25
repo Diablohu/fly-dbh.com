@@ -24,7 +24,7 @@ export const names: {
 } = {
     news: '模飞新闻',
     training: '综合教程',
-    flight: '模飞短片',
+    flight: '模飞剪辑',
     airport: '专题：机场',
     route: '专题：航线',
 
