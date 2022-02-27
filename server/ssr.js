@@ -60195,6 +60195,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: '快讯: 安-2跳票 D17顶替'
+  },
+  des: {
+    zh: '著名飞行器第一弹将在3月1日开卖，但并不是原计划的运-5原型机安-2，现确认为 Carenado 工作室合作开发的比奇 D17。'
+  },
+  thumbnail: 'thumbnails/30025922428405e56e90d1f2a429e2d7.jpg',
+  link: {
+    youtube: 'https://youtu.be/oSLgIvK-BeA',
+    bilibili: 'https://www.bilibili.com/video/BV1ra411C7Us'
+  },
+  tag: ['news'],
+  release: new Date('2022-02-27T20:10:00+0800').valueOf()
+}, {
+  name: {
     zh: '飞行全程: AI生成的基辅市'
   },
   des: {
