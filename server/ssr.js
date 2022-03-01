@@ -60195,6 +60195,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: '上手体验: 云游戏版！微软模拟飞行'
+  },
+  des: {
+    zh: '最新一批XBOX云游戏更新中加入了《微软模拟飞行》！大波胡第一时间进行上手体验。'
+  },
+  thumbnail: 'thumbnails/0c1429753a5d78a97005c2c63bb2b76a.jpg',
+  link: {
+    youtube: 'https://youtu.be/AwbCLJnFrj4',
+    bilibili: 'https://www.bilibili.com/video/BV1eu411D79x'
+  },
+  tag: ['training', 'news', 'test'],
+  release: new Date('2022-03-02T10:40:00+0800').valueOf()
+}, {
+  name: {
     zh: '快讯: 安-2跳票 D17顶替'
   },
   des: {
