@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '简评: 新螺旋桨气动对帧率有多大影响？',
+        },
+        des: {
+            zh: '在《微软模拟飞行》全新版本中，有三款飞机实装了全新的螺旋桨气动模型，从物理原理上对螺旋桨产生的拉力进行模拟，有很多飞友担心全新模型会让CPU压力变大。在本期节目中，就来对更新前后的螺旋桨气动模型进行简单的对比测试，来看看CPU的压力到底有没有变化。',
+        },
+        thumbnailOriginal: './thumbnails/20220304.png',
+        link: {
+            youtube: 'https://youtu.be/lW0996W6JQw',
+            bilibili: 'https://www.bilibili.com/video/BV1aY411G7mB',
+        },
+        tag: ['news'],
+        release: new Date('2022-03-04T10:40:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '上手体验: 云游戏版！微软模拟飞行',
         },
         des: {
