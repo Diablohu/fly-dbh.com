@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '如何使用追踪视角',
+        },
+        des: {
+            zh: '全新的《微软模拟飞行》中有着非常强大的视角控制能力，但预设的视角并不多，也让很多玩家产生了游戏在这方面能力欠缺的错觉。看完本期视频，大家应该就能了解如何控制追踪视角了！',
+        },
+        thumbnailOriginal: './thumbnails/20220305.jpg',
+        link: {
+            youtube: 'https://youtu.be/28q2eQAQr2g',
+            bilibili: 'https://www.bilibili.com/video/BV1DF411x7bJ',
+        },
+        tag: ['training', 'tip'],
+        release: new Date('2022-03-05T10:50:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '简评: 新螺旋桨气动对帧率有多大影响？',
         },
         des: {
