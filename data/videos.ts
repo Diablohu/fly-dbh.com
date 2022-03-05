@@ -45,7 +45,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/AwbCLJnFrj4',
             bilibili: 'https://www.bilibili.com/video/BV1eu411D79x',
         },
-        tag: ['training', 'news', 'test'],
+        tag: ['news', 'test'],
         release: new Date('2022-03-02T10:40:00+0800').valueOf(),
     },
 
