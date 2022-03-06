@@ -8,7 +8,7 @@ const videos: VideoItem[] = [
         des: {
             zh: '全新的《微软模拟飞行》中有着非常强大的视角控制能力，但预设的视角并不多，也让很多玩家产生了游戏在这方面能力欠缺的错觉。看完本期视频，大家应该就能了解如何控制追踪视角了！',
         },
-        thumbnailOriginal: './thumbnails/20220305.jpg',
+        thumbnailOriginal: './thumbnails/20220305.png',
         link: {
             youtube: 'https://youtu.be/28q2eQAQr2g',
             bilibili: 'https://www.bilibili.com/video/BV1DF411x7bJ',
