@@ -60195,12 +60195,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: '小技巧: 视角锁定模式'
+  },
+  des: {
+    zh: '全新的《微软模拟飞行》中有着非常强大的视角控制能力，但预设的视角并不多，也让很多玩家产生了游戏在这方面能力欠缺的错觉。看完本期视频，大家应该就能了解如何控制追踪视角了！'
+  },
+  thumbnail: 'thumbnails/63b4882249bfaaf03d0aa8edfaa5bbc0.jpg',
+  link: {
+    youtube: 'https://youtu.be/28q2eQAQr2g',
+    bilibili: 'https://www.bilibili.com/video/BV1DF411x7bJ'
+  },
+  tag: ['training', 'tip'],
+  release: new Date('2022-03-05T10:50:00+0800').valueOf()
+}, {
+  name: {
     zh: '简评: 新螺旋桨气动对帧率有多大影响？'
   },
   des: {
     zh: '在《微软模拟飞行》全新版本中，有三款飞机实装了全新的螺旋桨气动模型，从物理原理上对螺旋桨产生的拉力进行模拟，有很多飞友担心全新模型会让CPU压力变大。在本期节目中，就来对更新前后的螺旋桨气动模型进行简单的对比测试，来看看CPU的压力到底有没有变化。'
   },
-  thumbnail: 'thumbnails/cbc2aefc38dd679b91005bccd93eade1.jpg',
+  thumbnail: 'thumbnails/b2f0295dcf83734e2cb45d3b6a05c351.jpg',
   link: {
     youtube: 'https://youtu.be/lW0996W6JQw',
     bilibili: 'https://www.bilibili.com/video/BV1aY411G7mB'
@@ -60214,12 +60228,12 @@ const videos = [{
   des: {
     zh: '最新一批XBOX云游戏更新中加入了《微软模拟飞行》！大波胡第一时间进行上手体验。'
   },
-  thumbnail: 'thumbnails/ba5188633a12c3811a2ac4d7edb0b1c9.jpg',
+  thumbnail: 'thumbnails/1b9b9611ea0017cabca2271d496c5341.jpg',
   link: {
     youtube: 'https://youtu.be/AwbCLJnFrj4',
     bilibili: 'https://www.bilibili.com/video/BV1eu411D79x'
   },
-  tag: ['training', 'news', 'test'],
+  tag: ['news', 'test'],
   release: new Date('2022-03-02T10:40:00+0800').valueOf()
 }, {
   name: {
