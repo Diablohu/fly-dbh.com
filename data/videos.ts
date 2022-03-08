@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '新闻：四月底更新简体中文 · 官方解答热门话题',
+        },
+        des: {
+            zh: '《微软模拟飞行》开发团队在近期举行了一场新的在线QA直播，透露了不少新消息，其他官方渠道也带来了不少新内容。在本期模飞新闻节目中就为大家汇总播报。',
+        },
+        thumbnailOriginal: './thumbnails/20220308.png',
+        link: {
+            youtube: 'https://youtu.be/1FLX1n9-PHU',
+            bilibili: 'https://www.bilibili.com/video/BV1oF411x7R4',
+        },
+        tag: ['news'],
+        release: new Date('2022-03-08T15:10:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '小技巧: 视角锁定模式',
         },
         des: {
@@ -179,7 +195,7 @@ const videos: VideoItem[] = [
 
     {
         name: {
-            zh: '新闻：“清理行动”始动',
+            zh: '新闻：“清理行动”始动 · SU8公测体验',
         },
         des: {
             zh: '《微软模拟飞行》系统更新第八弹现已开始公开测试，本人也在第一时间登入公测服务器进行体验，本期节目中为大家带来下次大型更新的内容总览。',
