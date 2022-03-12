@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '快讯：上海浦东登录游戏内市场',
+        },
+        des: {
+            zh: '《微软模拟飞行》游戏内市场迎来新一轮更新，首座中国大陆机场的地景插件终于出现在了官方卖场中。',
+        },
+        thumbnailOriginal: './thumbnails/20220313.png',
+        link: {
+            youtube: 'https://youtu.be/bzp8JhAbAfU',
+            bilibili: 'https://www.bilibili.com/video/BV1zY41137Kw',
+        },
+        tag: ['news'],
+        release: new Date('2022-03-13T11:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '新闻：四月底更新简体中文 · 官方解答热门话题',
         },
         des: {
