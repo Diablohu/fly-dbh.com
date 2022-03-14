@@ -60195,6 +60195,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: '社区调查: 长途飞行爆卡的元凶找到了？'
+  },
+  des: {
+    zh: '最近有不少飞友们反馈，在《微软模拟飞行》中进行长途飞行时，有时飞着飞着帧率骤降，严重影响飞行体验。在前两天，有两名玩家分别发现了２个可能的原因以及临时解决方案，在本期视频中来一探究竟。'
+  },
+  thumbnail: 'thumbnails/fdd2656c247a383a1a45cb9ebb2e5265.jpg',
+  link: {
+    youtube: 'https://youtu.be/vwZwC863n7M',
+    bilibili: 'https://www.bilibili.com/video/BV1RF411s788'
+  },
+  tag: ['news'],
+  release: new Date('2022-03-15T11:00:00+0800').valueOf()
+}, {
+  name: {
     zh: '快讯：上海浦东登录游戏内市场'
   },
   des: {
