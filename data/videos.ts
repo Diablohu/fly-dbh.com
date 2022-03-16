@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '无需改区域！修正航线规划和起飞后掉帧',
+        },
+        des: {
+            zh: '《微软模拟飞行》有很多系统性的问题可以通过调整系统 Unicode 区域解决，但这种方法会造成很多程序产生兼容问题。现在大波胡发现了一个新方案，无需改区域！',
+        },
+        thumbnailOriginal: './thumbnails/20220317.png',
+        link: {
+            youtube: 'https://youtu.be/sR8aLtnSbIY',
+            bilibili: 'https://www.bilibili.com/video/BV1Kq4y1q7sL',
+        },
+        tag: ['training', 'tip'],
+        release: new Date('2022-03-17T11:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '社区调查: 长途飞行爆卡的元凶找到了？',
         },
         des: {
