@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '组队飞行全程: TBM930 @ 冰岛 (凯夫拉维克 - 伊萨菲厄泽)',
+        },
+        des: {
+            zh: '起飞: 凯夫拉维克国际机场 / BIKF (Keflavíkurflugvöllur)；着陆: 伊萨菲厄泽机场 / BIIS (Ísafjarðarflugvöllur)；场景: 线上组队，当地时间下午，2022年3月18日实时天气',
+        },
+        thumbnailOriginal: './thumbnails/20220319.png',
+        link: {
+            youtube: 'https://youtu.be/J6CbiTLx3mw',
+            bilibili: 'https://www.bilibili.com/video/BV1Hu411q7q8',
+        },
+        tag: ['tour'],
+        release: new Date('2022-03-19T11:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '无需改区域！修正航线规划和起飞后掉帧',
         },
         des: {
