@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '快讯: 西班牙&葡萄牙即将翻新',
+        },
+        des: {
+            zh: '《微软模拟飞行》世界更新第八弹以及当地传奇第三弹上线时间已官方确认：北京时间3月22日下午5点',
+        },
+        thumbnailOriginal: './thumbnails/20220320.png',
+        link: {
+            youtube: 'https://youtu.be/W68lK367-io',
+            bilibili: 'https://www.bilibili.com/video/BV1BU4y1d7u5',
+        },
+        tag: ['news'],
+        release: new Date('2022-03-20T11:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '组队飞行全程: TBM930 @ 冰岛 (凯夫拉维克 - 伊萨菲厄泽)',
         },
         des: {
