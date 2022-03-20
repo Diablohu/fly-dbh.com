@@ -60195,6 +60195,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: '云游戏延迟有多少？能玩模拟飞行吗？'
+  },
+  des: {
+    zh: '最近，《微软模拟飞行》上线 XBOX 云游戏平台，对云游戏有了解的飞友们肯定会对操作延迟有疑问，在本期节目中，就来对模拟飞行云游戏版的操作延迟进行简单的对比测试。'
+  },
+  thumbnail: 'thumbnails/788cc688e803f3b2d230754770a6a76f.jpg',
+  link: {
+    youtube: 'https://youtu.be/wv-eSaOpBZI',
+    bilibili: 'https://www.bilibili.com/video/BV1vb4y1p7Hd'
+  },
+  tag: ['news'],
+  release: new Date('2022-03-21T11:00:00+0800').valueOf()
+}, {
+  name: {
     zh: '快讯: 西班牙&葡萄牙即将翻新'
   },
   des: {
