@@ -45,7 +45,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/J6CbiTLx3mw',
             bilibili: 'https://www.bilibili.com/video/BV1Hu411q7q8',
         },
-        tag: ['tour'],
+        tag: ['test', 'tour'],
         release: new Date('2022-03-19T11:00:00+0800').valueOf(),
     },
 
