@@ -60203,7 +60203,7 @@ const videos = [{
   thumbnail: 'thumbnails/444cb34f166ba83eda2435d6997029fb.jpg',
   link: {
     youtube: 'https://youtu.be/Qd3xJqaLY8w',
-    bilibili: 'https://www.bilibili.com/video/BV1Hu411q7q8'
+    bilibili: 'https://www.bilibili.com/video/BV13u411B7X9'
   },
   tag: ['test', 'tour'],
   release: new Date('2022-03-26T11:00:00+0800').valueOf()
