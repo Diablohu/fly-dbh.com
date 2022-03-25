@@ -60195,6 +60195,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: '组队飞行全程: TBM930 @ 葡萄牙 (法鲁 - 里斯本) · 手输飞行计划，遭遇客机尾流'
+  },
+  des: {
+    zh: '起飞: 法鲁机场 / LPFR (Aeroporto Internacional de Faro)；着陆: 里斯本机场 / LPPT (Aeroporto de Lisboa)；场景: 线上组队，当地时间下午，2022年3月26日实时天气'
+  },
+  thumbnail: 'thumbnails/444cb34f166ba83eda2435d6997029fb.jpg',
+  link: {
+    youtube: 'https://youtu.be/Qd3xJqaLY8w',
+    bilibili: 'https://www.bilibili.com/video/BV1Hu411q7q8'
+  },
+  tag: ['test', 'tour'],
+  release: new Date('2022-03-26T11:00:00+0800').valueOf()
+}, {
+  name: {
     zh: '云游戏延迟有多少？能玩模拟飞行吗？'
   },
   des: {
