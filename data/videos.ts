@@ -29,7 +29,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/wv-eSaOpBZI',
             bilibili: 'https://www.bilibili.com/video/BV1vb4y1p7Hd',
         },
-        tag: ['news'],
+        tag: ['news', 'benchmark'],
         release: new Date('2022-03-21T11:00:00+0800').valueOf(),
     },
 
@@ -157,7 +157,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/lW0996W6JQw',
             bilibili: 'https://www.bilibili.com/video/BV1aY411G7mB',
         },
-        tag: ['news'],
+        tag: ['news', 'benchmark'],
         release: new Date('2022-03-04T10:40:00+0800').valueOf(),
     },
 
@@ -957,7 +957,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/7NzwvnVcWLo',
             bilibili: 'https://www.bilibili.com/video/BV13h411B7u9',
         },
-        tag: ['news'],
+        tag: ['news', 'benchmark'],
         release: new Date('2021-08-08T12:00:00+0800').valueOf(),
     },
 
@@ -1053,7 +1053,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/-EDRvlOLwPs',
             bilibili: 'https://www.bilibili.com/video/BV1Bo4y1Q7mi',
         },
-        tag: ['news'],
+        tag: ['news', 'benchmark'],
         release: new Date('2021-07-28T20:30:00+0800').valueOf(),
     },
 

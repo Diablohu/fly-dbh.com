@@ -44,7 +44,8 @@ export type VideoTag =
     | 'news'
     | 'flight'
     | 'tip'
-    | 'test';
+    | 'test'
+    | 'benchmark';
 export type VideoSource = 'bilibili' | 'youtube';
 export interface VideoItem {
     name: {

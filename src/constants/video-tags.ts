@@ -8,6 +8,7 @@ const tags: Array<VideoTag> = [
     'route',
 
     'tip',
+    'benchmark',
     'test',
     'clip',
 
@@ -29,6 +30,7 @@ export const names: {
     route: '专题：航线',
 
     tip: '小窍门',
+    benchmark: '评测',
     test: '游戏实况',
     clip: '片段',
 
