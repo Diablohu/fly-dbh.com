@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '着陆挑战: WU8伊比利亚篇 · 33节侧风！',
+        },
+        des: {
+            zh: '《微软模拟飞行》的全新世界更新：伊比利亚已于近日正式上线，依照惯例本次更新也带来了数个全新的当地机场着陆挑战。在本期节目中，大波胡将对其中3个挑战进行尝试，分别是著名进近 LEGE、史诗难度 LPPM，以及狂风挑战 LPPI。',
+        },
+        thumbnailOriginal: './thumbnails/20220327.png',
+        link: {
+            youtube: 'https://youtu.be/qoGOY3ZgXvk',
+            bilibili: 'https://www.bilibili.com/video/BV1A44y1K7NX',
+        },
+        tag: ['test', 'landing'],
+        release: new Date('2022-03-27T11:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '组队飞行全程: TBM930 @ 葡萄牙 (法鲁 - 里斯本) · 手输飞行计划，遭遇客机尾流',
         },
         des: {
@@ -227,7 +243,7 @@ const videos: VideoItem[] = [
 
     {
         name: {
-            zh: '模拟飞行着陆挑战: 印尼WX53 - 超高难度',
+            zh: '着陆挑战: 印尼WX53 - 超高难度',
         },
         des: {
             zh: '欢迎来到印度尼西亚巴布亚岛布加拉加，我们即将降落在当地的简易跑道。有很多飞友表示这里的着陆挑战难度相当高，甚至可以说是当前最难，那么今天大波胡就来刷个分。',
