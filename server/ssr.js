@@ -60195,6 +60195,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: '新闻：MSFS要做更真实的气象模拟？'
+  },
+  des: {
+    zh: '《微软模拟飞行》开发团队在近期举行了一场新的在线QA直播，透露了不少新消息，其他官方渠道也带来了不少新内容。在本期模飞新闻节目中就为大家汇总播报。'
+  },
+  thumbnail: 'thumbnails/eb34a61513ba12e545c3e356a5276d6b.jpg',
+  link: {
+    youtube: 'https://youtu.be/xF_lNtBs_98',
+    bilibili: 'https://www.bilibili.com/video/BV1KF411s7eC'
+  },
+  tag: ['news'],
+  release: new Date('2022-03-29T11:00:00+0800').valueOf()
+}, {
+  name: {
     zh: '着陆挑战: WU8伊比利亚篇 · 33节侧风！'
   },
   des: {
