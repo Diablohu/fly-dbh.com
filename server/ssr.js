@@ -60195,7 +60195,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
-    zh: '新闻：MSFS要做更真实的气象模拟？'
+    zh: '快讯: 官方中文版再度延期'
+  },
+  des: {
+    zh: '哎，《微软模拟飞行》的官方汉化【又】跳票咧！但这就很怪了呀，项目负责人一个月前表示过中文版已经做完了啊！'
+  },
+  thumbnail: 'thumbnails/94f96f944cdbd8f2e7af3fe8c9b751d4.jpg',
+  link: {
+    youtube: 'https://youtu.be/QYA_CprljjA',
+    bilibili: 'https://www.bilibili.com/video/BV1X3411p7QA'
+  },
+  tag: ['news'],
+  release: new Date('2022-03-30T11:00:00+0800').valueOf()
+}, {
+  name: {
+    zh: '新闻: MSFS要做更真实的气象模拟？'
   },
   des: {
     zh: '《微软模拟飞行》开发团队在近期举行了一场新的在线QA直播，透露了不少新消息，其他官方渠道也带来了不少新内容。在本期模飞新闻节目中就为大家汇总播报。'
