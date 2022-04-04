@@ -60195,6 +60195,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: 'SU9超级大黄蜂有音爆云了？落地怎么不能转向了？'
+  },
+  des: {
+    zh: '《微软模拟飞行》的全新系统更新第九弹现已开始公开测试，在这新补丁中，开发组对 F/A-18 超级大黄蜂进行了大幅体验更新，增加“音爆云”等水汽凝结特效，对气动操控体验进行了优化。这些改动效果如何呢？那么在今天的节目中，大波胡就来对全新的超级大黄蜂进行试飞。'
+  },
+  thumbnail: 'thumbnails/273d6a1ff3fccdc201b7d442ea309ffc.jpg',
+  link: {
+    youtube: 'https://youtu.be/K6tcj13yPWQ',
+    bilibili: 'https://www.bilibili.com/video/BV18u411e7HH'
+  },
+  tag: ['news', 'test'],
+  release: new Date('2022-04-05T11:00:00+0800').valueOf()
+}, {
+  name: {
     zh: '着陆挑战: SU9天鹰篇 · 这就是最真实的塞斯纳172？'
   },
   des: {
