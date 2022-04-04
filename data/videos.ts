@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '着陆挑战: SU9天鹰篇 · 这就是最真实的塞斯纳172？',
+        },
+        des: {
+            zh: '《微软模拟飞行》的全新系统更新第九弹现已开始公开测试，开发组对史上产量最多的小型机塞斯纳172“天鹰”进行了脱胎换骨式的更新。在今天的节目中，大波胡就来通过游戏内的着陆挑战对全新的塞斯纳172进行试飞。',
+        },
+        thumbnailOriginal: './thumbnails/20220404.png',
+        link: {
+            youtube: 'https://youtu.be/PSiD7I5qwDY',
+            bilibili: 'https://www.bilibili.com/video/BV12S4y1m7hg',
+        },
+        tag: ['test', 'landing'],
+        release: new Date('2022-04-04T15:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '快讯: 官方中文版再度延期',
         },
         des: {
@@ -19,7 +35,7 @@ const videos: VideoItem[] = [
 
     {
         name: {
-            zh: '新闻: MSFS要做更真实的气象模拟？',
+            zh: '新闻: 微软要做更真实的气象模拟？',
         },
         des: {
             zh: '《微软模拟飞行》开发团队在近期举行了一场新的在线QA直播，透露了不少新消息，其他官方渠道也带来了不少新内容。在本期模飞新闻节目中就为大家汇总播报。',
