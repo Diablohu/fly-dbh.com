@@ -60195,12 +60195,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: 'ASOBO新办公楼探秘'
+  },
+  des: {
+    zh: '《微软模拟飞行》的全新系统更新第九弹现已开始公开测试，有一条改动引起了我的注意：在法国波尔多添加新的ASOBO办公室。大波胡第一时间登入公测服务器，叫了一架VOLOCITY空中出租车，前往波尔多一探究竟。'
+  },
+  thumbnail: 'thumbnails/4b547211ed0e6040115affa7773f8b8a.jpg',
+  link: {
+    youtube: 'https://youtu.be/s0TqVCjam0o',
+    bilibili: 'https://www.bilibili.com/video/BV1jZ4y1U7LG'
+  },
+  tag: ['news', 'tour'],
+  release: new Date('2022-04-06T11:00:00+0800').valueOf()
+}, {
+  name: {
     zh: 'SU9超级大黄蜂有音爆云了？落地怎么不能转向了？'
   },
   des: {
     zh: '《微软模拟飞行》的全新系统更新第九弹现已开始公开测试，在这新补丁中，开发组对 F/A-18 超级大黄蜂进行了大幅体验更新，增加“音爆云”等水汽凝结特效，对气动操控体验进行了优化。这些改动效果如何呢？那么在今天的节目中，大波胡就来对全新的超级大黄蜂进行试飞。'
   },
-  thumbnail: 'thumbnails/273d6a1ff3fccdc201b7d442ea309ffc.jpg',
+  thumbnail: 'thumbnails/597bd8a4f14c25e40ce248194eeb1713.jpg',
   link: {
     youtube: 'https://youtu.be/K6tcj13yPWQ',
     bilibili: 'https://www.bilibili.com/video/BV18u411e7HH'
@@ -60214,7 +60228,7 @@ const videos = [{
   des: {
     zh: '《微软模拟飞行》的全新系统更新第九弹现已开始公开测试，开发组对史上产量最多的小型机塞斯纳172“天鹰”进行了脱胎换骨式的更新。在今天的节目中，大波胡就来通过游戏内的着陆挑战对全新的塞斯纳172进行试飞。'
   },
-  thumbnail: 'thumbnails/8443ca0f7f8902c871c721215165b22d.jpg',
+  thumbnail: 'thumbnails/003c6902c1c68656ae69e9c7590bec32.jpg',
   link: {
     youtube: 'https://youtu.be/PSiD7I5qwDY',
     bilibili: 'https://www.bilibili.com/video/BV12S4y1m7hg'
