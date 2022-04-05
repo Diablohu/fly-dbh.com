@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: 'ASOBO新办公楼探秘',
+        },
+        des: {
+            zh: '《微软模拟飞行》的全新系统更新第九弹现已开始公开测试，有一条改动引起了我的注意：在法国波尔多添加新的ASOBO办公室。大波胡第一时间登入公测服务器，叫了一架VOLOCITY空中出租车，前往波尔多一探究竟。',
+        },
+        thumbnailOriginal: './thumbnails/20220406.png',
+        link: {
+            youtube: 'https://youtu.be/s0TqVCjam0o',
+            bilibili: 'https://www.bilibili.com/video/BV1jZ4y1U7LG',
+        },
+        tag: ['news', 'tour'],
+        release: new Date('2022-04-06T11:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: 'SU9超级大黄蜂有音爆云了？落地怎么不能转向了？',
         },
         des: {
