@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '飞行片段: SU9塞斯纳172实飞体验 - 日本西南跳岛飞行',
+        },
+        des: {
+            zh: '起飞: 诹访之濑岛机场 / RJX8 (諏訪之瀬島)；目的: 那霸机场 / ROAH (那覇空港)；场景: 线上组队，调整时间为清晨，2022年4月8日实时天气',
+        },
+        thumbnailOriginal: './thumbnails/20220410.png',
+        link: {
+            youtube: 'https://youtu.be/YXKMqSB2Ta0',
+            bilibili: 'https://www.bilibili.com/video/BV1vY4y1i78W',
+        },
+        tag: ['test'],
+        release: new Date('2022-04-10T23:30:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: 'ASOBO新办公楼探秘',
         },
         des: {
