@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '新闻: 云雾渲染再次升级 · SU9公测体验',
+        },
+        des: {
+            zh: '《微软模拟飞行》系统更新第九弹现已开始公开测试，在本期节目中为大家带来下次大型更新的内容总结，以及有关未来数个月更新计划的最新情报。',
+        },
+        thumbnailOriginal: './thumbnails/20220411.png',
+        link: {
+            youtube: 'https://youtu.be/lqczsNG6k-o',
+            bilibili: 'https://www.bilibili.com/video/BV1z94y1d78t',
+        },
+        tag: ['news'],
+        release: new Date('2022-04-11T13:30:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '飞行片段: SU9塞斯纳172实飞体验 - 日本西南跳岛飞行',
         },
         des: {
