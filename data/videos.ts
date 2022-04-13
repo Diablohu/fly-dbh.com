@@ -13,7 +13,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/YLu_776av3E',
             bilibili: 'https://www.bilibili.com/video/BV1Pa411v7u5',
         },
-        tag: ['clip', 'landing'],
+        tag: ['flight', 'clip', 'landing'],
         release: new Date('2022-04-14T11:00:00+0800').valueOf(),
     },
 
