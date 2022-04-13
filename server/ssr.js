@@ -60205,7 +60205,7 @@ const videos = [{
     youtube: 'https://youtu.be/YLu_776av3E',
     bilibili: 'https://www.bilibili.com/video/BV1Pa411v7u5'
   },
-  tag: ['clip', 'landing'],
+  tag: ['flight', 'clip', 'landing'],
   release: new Date('2022-04-14T11:00:00+0800').valueOf()
 }, {
   name: {
@@ -60667,7 +60667,7 @@ const videos = [{
     youtube: 'https://youtu.be/Jr28iUv1PSM',
     bilibili: 'https://www.bilibili.com/video/BV1U34y127ts'
   },
-  tag: ['clip'],
+  tag: ['flight', 'clip'],
   release: new Date('2022-02-02T11:10:00+0800').valueOf()
 }, {
   name: {
@@ -60695,7 +60695,7 @@ const videos = [{
     youtube: 'https://youtu.be/IOYv3U9rHw0',
     bilibili: 'https://www.bilibili.com/video/BV1Dr4y1e7GV'
   },
-  tag: ['clip'],
+  tag: ['flight', 'clip'],
   release: new Date('2022-01-26T11:10:00+0800').valueOf()
 }, {
   name: {
