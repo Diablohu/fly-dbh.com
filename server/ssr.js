@@ -60195,6 +60195,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: '小型商务机 VS 客机尾流'
+  },
+  des: {
+    zh: '《微软模拟飞行》生成的客机有尾流吗？TBM930扛得住吗？'
+  },
+  thumbnail: 'thumbnails/45913494943d83e3d3bf3424ed5497c1.jpg',
+  link: {
+    youtube: 'https://youtu.be/YLu_776av3E',
+    bilibili: 'https://www.bilibili.com/video/BV1Pa411v7u5'
+  },
+  tag: ['clip', 'landing'],
+  release: new Date('2022-04-14T11:00:00+0800').valueOf()
+}, {
+  name: {
     zh: '新闻: 云雾渲染再次升级 · SU9公测体验'
   },
   des: {
