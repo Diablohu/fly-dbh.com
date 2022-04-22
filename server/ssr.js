@@ -60200,7 +60200,7 @@ const videos = [{
   des: {
     zh: '《微软模拟飞行》生成的客机有尾流吗？TBM930扛得住吗？'
   },
-  thumbnail: 'thumbnails/45913494943d83e3d3bf3424ed5497c1.jpg',
+  thumbnail: 'thumbnails/1076abe162c90dfcc1e883f98832d0e2.jpg',
   link: {
     youtube: 'https://youtu.be/YLu_776av3E',
     bilibili: 'https://www.bilibili.com/video/BV1Pa411v7u5'
