@@ -60214,7 +60214,7 @@ const videos = [{
   des: {
     zh: '《微软模拟飞行》系统更新第九弹现已开始公开测试，在本期节目中为大家带来下次大型更新的内容总结，以及有关未来数个月更新计划的最新情报。'
   },
-  thumbnail: 'thumbnails/45913494943d83e3d3bf3424ed5497c1.jpg',
+  thumbnail: 'thumbnails/0ef5c4a86c19b60dd2e7a095fbbbcc82.jpg',
   link: {
     youtube: 'https://youtu.be/lqczsNG6k-o',
     bilibili: 'https://www.bilibili.com/video/BV1z94y1d78t'
