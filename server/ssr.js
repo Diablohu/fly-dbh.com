@@ -60331,7 +60331,7 @@ const videos = [{
     youtube: 'https://youtu.be/Qd3xJqaLY8w',
     bilibili: 'https://www.bilibili.com/video/BV13u411B7X9'
   },
-  tag: ['test', 'tour'],
+  tag: ['test'],
   release: new Date('2022-03-26T11:00:00+0800').valueOf()
 }, {
   name: {
@@ -60373,7 +60373,7 @@ const videos = [{
     youtube: 'https://youtu.be/J6CbiTLx3mw',
     bilibili: 'https://www.bilibili.com/video/BV1Hu411q7q8'
   },
-  tag: ['test', 'tour'],
+  tag: ['test'],
   release: new Date('2022-03-19T11:00:00+0800').valueOf()
 }, {
   name: {
