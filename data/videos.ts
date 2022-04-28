@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '超级大黄蜂转向轮修正',
+        },
+        des: {
+            zh: '《微软模拟飞行》系统更新第九弹已正式上线，此次更新翻新了F/A-18E/F“超级大黄蜂”，优化了气动操控，也带来了期待已久的“音爆云”特效。但很多玩法也发现，在地面时的“超级虫”无法转向了，难道又是开发组给玩儿坏了？',
+        },
+        thumbnailOriginal: './thumbnails/20220429.png',
+        link: {
+            youtube: 'https://youtu.be/P9BftCEMbJc',
+            bilibili: 'https://www.bilibili.com/video/BV1ya411Y7FG',
+        },
+        tag: ['training', 'tip'],
+        release: new Date('2022-04-29T11:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '小型商务机 VS 客机尾流',
         },
         des: {
@@ -19,7 +35,7 @@ const videos: VideoItem[] = [
 
     {
         name: {
-            zh: '新闻: 云雾渲染再次升级 · SU9公测体验',
+            zh: '新闻: C172 & F18翻新 · SU9全改动介绍',
         },
         des: {
             zh: '《微软模拟飞行》系统更新第九弹现已开始公开测试，在本期节目中为大家带来下次大型更新的内容总结，以及有关未来数个月更新计划的最新情报。',
