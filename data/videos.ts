@@ -6,6 +6,22 @@ const videos: VideoItem[] = [
             zh: '协和怎么“禁飞”了两天？',
         },
         des: {
+            zh: '《微软模拟飞行》SU9对塞斯纳172进行了翻新。那么这些改动到底是啥？对游戏以后的发展有何影响？以及增加了这么多数据演算对帧率影响有多大？在本期节目中我们就来一探究竟。',
+        },
+        thumbnailOriginal: './thumbnails/20220502.png',
+        link: {
+            youtube: 'https://youtu.be/kg24dC-9-rI',
+            bilibili: 'https://www.bilibili.com/video/BV1gT4y1k7UF',
+        },
+        tag: ['news'],
+        release: new Date('2022-05-02T11:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
+            zh: '协和怎么“禁飞”了两天？',
+        },
+        des: {
             zh: '《微软模拟飞行》本周迎来SU9大型更新，DC Designs 开发协和客机随即无法飞行，但几天之后又可以了，这其中究竟发生了什么事呢？在本期节目中，大波胡就来解释一番。',
         },
         thumbnailOriginal: './thumbnails/20220501.png',
