@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '协和怎么“禁飞”了两天？',
+        },
+        des: {
+            zh: '《微软模拟飞行》本周迎来SU9大型更新，DC Designs 开发协和客机随即无法飞行，但几天之后又可以了，这其中究竟发生了什么事呢？在本期节目中，大波胡就来解释一番。',
+        },
+        thumbnailOriginal: './thumbnails/20220501.png',
+        link: {
+            youtube: 'https://youtu.be/1DoEFletAb0',
+            bilibili: 'https://www.bilibili.com/video/BV1oY411w7NA',
+        },
+        tag: ['news'],
+        release: new Date('2022-05-01T15:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '超级大黄蜂转向轮修正',
         },
         des: {
