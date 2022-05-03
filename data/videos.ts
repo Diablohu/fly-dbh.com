@@ -3,7 +3,23 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
-            zh: '协和怎么“禁飞”了两天？',
+            zh: '新闻: DLSS+FSR · 安225 · “最美”意大利',
+        },
+        des: {
+            zh: '官方汉化已经完成，DLSS 和 FSR 携手走进模拟飞行，SM-S.55 即将重返蓝天，安225也将数码复活？在本期模飞新闻节目中来为大家汇总近期模拟飞行开发资讯。',
+        },
+        thumbnailOriginal: './thumbnails/20220504.png',
+        link: {
+            youtube: 'https://youtu.be/auiestlYdAo',
+            bilibili: 'https://www.bilibili.com/video/BV1XT4y1z7NA',
+        },
+        tag: ['news'],
+        release: new Date('2022-05-04T11:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
+            zh: '塞斯纳172究竟改了啥？对帧率有何影响？',
         },
         des: {
             zh: '《微软模拟飞行》SU9对塞斯纳172进行了翻新。那么这些改动到底是啥？对游戏以后的发展有何影响？以及增加了这么多数据演算对帧率影响有多大？在本期节目中我们就来一探究竟。',
