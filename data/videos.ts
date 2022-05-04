@@ -14,7 +14,7 @@ const videos: VideoItem[] = [
             bilibili: 'https://www.bilibili.com/video/BV1XT4y1z7NA',
         },
         tag: ['news'],
-        release: new Date('2022-05-04T11:10:00+0800').valueOf(),
+        release: new Date('2022-05-04T11:00:00+0800').valueOf(),
     },
 
     {
