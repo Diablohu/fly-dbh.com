@@ -8,7 +8,7 @@ const videos: VideoItem[] = [
         des: {
             zh: '苹果 iPad 怎么能玩上 XBOX 游戏的？家里压箱底的神舟笔记本也能玩最新的 Forza Horizon？谜底就是云游戏！在本期节目中，就来为大家介绍下 XBOX 云游戏，手把手教你如何开始。',
         },
-        thumbnailOriginal: './thumbnails/20220504.png',
+        thumbnailOriginal: './thumbnails/20220506.png',
         link: {
             youtube: 'https://youtu.be/d2g1gTe0XDg',
             bilibili: 'https://www.bilibili.com/video/BV11Z4y1h76a',
