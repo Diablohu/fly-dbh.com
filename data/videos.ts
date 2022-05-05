@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: 'iPad玩光环，神舟开飞机：XBOX云游戏入门',
+        },
+        des: {
+            zh: '苹果 iPad 怎么能玩上 XBOX 游戏的？家里压箱底的神舟笔记本也能玩最新的 Forza Horizon？谜底就是云游戏！在本期节目中，就来为大家介绍下 XBOX 云游戏，手把手教你如何开始。',
+        },
+        thumbnailOriginal: './thumbnails/20220504.png',
+        link: {
+            youtube: 'https://youtu.be/d2g1gTe0XDg',
+            bilibili: 'https://www.bilibili.com/video/BV11Z4y1h76a',
+        },
+        tag: ['training'],
+        release: new Date('2022-05-06T11:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '新闻: DLSS+FSR · 安225 · “最美”意大利',
         },
         des: {
@@ -29,7 +45,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/kg24dC-9-rI',
             bilibili: 'https://www.bilibili.com/video/BV1gT4y1k7UF',
         },
-        tag: ['news'],
+        tag: ['news', 'benchmark'],
         release: new Date('2022-05-02T11:00:00+0800').valueOf(),
     },
 
