@@ -60195,12 +60195,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: '即将更新的最美地景——那不勒斯'
+  },
+  des: {
+    zh: '《微软模拟飞行》即将在本月17日对意大利全境的地貌和景观进行强化。现在意大利有许多城市的地景已经相当精致，而官方预告的城市更新列表中，有许多已经存在照片测绘，其中就包括那不勒斯。'
+  },
+  thumbnail: 'thumbnails/d6a521291689f0b98a3f24fb4810d8ba.jpg',
+  link: {
+    youtube: 'https://youtu.be/_AyEI8h7NRY',
+    bilibili: 'https://www.bilibili.com/video/BV16r4y1t7dx'
+  },
+  tag: ['test', 'tour'],
+  release: new Date('2022-05-09T11:00:00+0800').valueOf()
+}, {
+  name: {
     zh: 'iPad玩光环，神舟开飞机：XBOX云游戏入门'
   },
   des: {
     zh: '苹果 iPad 怎么能玩上 XBOX 游戏的？家里压箱底的神舟笔记本也能玩最新的 Forza Horizon？谜底就是云游戏！在本期节目中，就来为大家介绍下 XBOX 云游戏，手把手教你如何开始。'
   },
-  thumbnail: 'thumbnails/1b187ec043854a937679c77bcb628907.jpg',
+  thumbnail: 'thumbnails/3985902a817ac32076970088d3cd4322.jpg',
   link: {
     youtube: 'https://youtu.be/d2g1gTe0XDg',
     bilibili: 'https://www.bilibili.com/video/BV11Z4y1h76a'
