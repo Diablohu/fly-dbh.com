@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '即将更新的最美地景——那不勒斯',
+        },
+        des: {
+            zh: '《微软模拟飞行》即将在本月17日对意大利全境的地貌和景观进行强化。现在意大利有许多城市的地景已经相当精致，而官方预告的城市更新列表中，有许多已经存在照片测绘，其中就包括那不勒斯。',
+        },
+        thumbnailOriginal: './thumbnails/20220509.png',
+        link: {
+            youtube: 'https://youtu.be/_AyEI8h7NRY',
+            bilibili: 'https://www.bilibili.com/video/BV16r4y1t7dx',
+        },
+        tag: ['test', 'tour'],
+        release: new Date('2022-05-09T11:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: 'iPad玩光环，神舟开飞机：XBOX云游戏入门',
         },
         des: {
