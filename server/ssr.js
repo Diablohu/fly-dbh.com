@@ -60195,6 +60195,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: '这种好功能怎么没人做过？FBW 网页版 MCDU'
+  },
+  des: {
+    zh: '《微软模拟飞行》开源免费客机模组 A32NX，在近期正式更新了 0.8 版本，带来了一个新颖的便民功能：网页版MCDU！在本期节目中，大波胡就来介绍下网页版MCDU功能如何使用。'
+  },
+  thumbnail: 'thumbnails/730ae8e2f7365ae1ef6bad6d8e77c997.jpg',
+  link: {
+    youtube: 'https://youtu.be/9Ro1deRrO6w',
+    bilibili: 'https://www.bilibili.com/video/BV1Aa411Y7i1'
+  },
+  tag: ['training', 'mod'],
+  release: new Date('2022-05-12T11:00:00+0800').valueOf()
+}, {
+  name: {
     zh: '即将更新的最美地景——那不勒斯'
   },
   des: {
