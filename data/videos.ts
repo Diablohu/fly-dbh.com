@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '简讯: PMDG-737，壮志凌云，航电开发框架',
+        },
+        des: {
+            zh: '2022年5月14日《微软模拟飞行》近期要闻简讯',
+        },
+        thumbnailOriginal: './thumbnails/20220514.png',
+        link: {
+            youtube: 'https://youtu.be/jfEwpfV3zCc',
+            bilibili: 'https://www.bilibili.com/video/BV1c34y1a7Ry',
+        },
+        tag: ['news'],
+        release: new Date('2022-05-14T11:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '这种好功能怎么没人做过？FBW 网页版 MCDU',
         },
         des: {
