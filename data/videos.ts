@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '着陆挑战: 客机末日！键盘侠 VS 不丹帕罗',
+        },
+        des: {
+            zh: '欢迎来到不丹帕罗机场，这是该坐落于喜马拉雅山脉的内陆国中唯一的国际机场。由于严峻的地理环境，在帕罗机场的起降极具挑战。',
+        },
+        thumbnailOriginal: './thumbnails/20220515.png',
+        link: {
+            youtube: 'https://youtu.be/EnLxG-CJ3zU',
+            bilibili: 'https://www.bilibili.com/video/BV1Tr4y1b7S8',
+        },
+        tag: ['landing'],
+        release: new Date('2022-05-15T11:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '简讯: PMDG-737，壮志凌云，航电开发框架',
         },
         des: {
