@@ -60195,6 +60195,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: '简讯: 超低价！Fenix A320 售价公开'
+  },
+  des: {
+    zh: '2022年5月16日《微软模拟飞行》简讯'
+  },
+  thumbnail: 'thumbnails/88790a0f03ec6bf59dcfba5b59cf05d6.jpg',
+  link: {
+    youtube: 'https://youtube.com/shorts/Ks-cwQpi6-A?feature=share',
+    bilibili: 'https://www.bilibili.com/video/BV12Y4y1r7Gj'
+  },
+  tag: ['news'],
+  release: new Date('2022-05-16T11:00:00+0800').valueOf()
+}, {
+  name: {
     zh: '着陆挑战: 客机末日！键盘侠 VS 不丹帕罗'
   },
   des: {
