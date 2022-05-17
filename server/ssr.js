@@ -60195,12 +60195,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: '着陆挑战: 小小塞斯纳扛得住20多节侧风吗'
+  },
+  des: {
+    zh: '阿拉斯加小村落南瓦勒克的机场有一个着陆挑战，场景中专门定制了……20多节侧风！'
+  },
+  thumbnail: 'thumbnails/0ff53e60303f1a2fc02d4231cfedb311.jpg',
+  link: {
+    youtube: 'https://youtu.be/EhDdYJ7SVDk',
+    bilibili: 'https://www.bilibili.com/video/BV1mZ4y1872w'
+  },
+  tag: ['landing'],
+  release: new Date('2022-05-18T11:00:00+0800').valueOf()
+}, {
+  name: {
     zh: '简讯: 超低价！Fenix A320 售价公开'
   },
   des: {
     zh: '2022年5月16日《微软模拟飞行》简讯'
   },
-  thumbnail: 'thumbnails/88790a0f03ec6bf59dcfba5b59cf05d6.jpg',
+  thumbnail: 'thumbnails/29c523143f750b7736dd31c893e2cf2d.jpg',
   link: {
     youtube: 'https://youtube.com/shorts/Ks-cwQpi6-A?feature=share',
     bilibili: 'https://www.bilibili.com/video/BV12Y4y1r7Gj'
