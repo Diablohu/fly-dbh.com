@@ -60200,7 +60200,7 @@ const videos = [{
   des: {
     zh: '阿拉斯加小村落南瓦勒克的机场有一个着陆挑战，场景中专门定制了……20多节侧风！'
   },
-  thumbnail: 'thumbnails/0ff53e60303f1a2fc02d4231cfedb311.jpg',
+  thumbnail: 'thumbnails/6e8f66dbe9c488e7548abbcdf6c34c6c.jpg',
   link: {
     youtube: 'https://youtu.be/EhDdYJ7SVDk',
     bilibili: 'https://www.bilibili.com/video/BV1mZ4y1872w'
