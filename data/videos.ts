@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '刚买完 Fenix A320 该干啥？',
+        },
+        des: {
+            zh: '刚买完 Fenix 出品的 A320-CEO，有啥必要设置？',
+        },
+        thumbnailOriginal: './thumbnails/20220522.png',
+        link: {
+            youtube: 'https://youtu.be/i-70KObql34',
+            bilibili: 'https://www.bilibili.com/video/BV16U4y117Th',
+        },
+        tag: ['training', 'mod'],
+        release: new Date('2022-05-22T12:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '不是很懂你们二次元 · 赛马娘F18',
         },
         des: {
