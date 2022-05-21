@@ -60195,6 +60195,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: '刚买完 Fenix A320 该干啥？'
+  },
+  des: {
+    zh: '刚买完 Fenix 出品的 A320-CEO，有啥必要设置？'
+  },
+  thumbnail: 'thumbnails/ada70c285adfc54ed1b877a7d8c1aac4.jpg',
+  link: {
+    youtube: 'https://youtu.be/i-70KObql34',
+    bilibili: 'https://www.bilibili.com/video/BV16U4y117Th'
+  },
+  tag: ['training', 'mod'],
+  release: new Date('2022-05-22T12:00:00+0800').valueOf()
+}, {
+  name: {
     zh: '不是很懂你们二次元 · 赛马娘F18'
   },
   des: {
