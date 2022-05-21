@@ -60195,6 +60195,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: '不是很懂你们二次元 · 赛马娘F18'
+  },
+  des: {
+    zh: '直播观众 MiraiMoon 赠与了大波胡 F/A-18E Super Hornt 的新涂装……'
+  },
+  thumbnail: 'thumbnails/3652c1c8c1066d5d89ff799f39cb81e4.jpg',
+  link: {
+    youtube: 'https://youtu.be/YdatzNK1Q3k',
+    bilibili: 'https://www.bilibili.com/video/BV1W5411X77L'
+  },
+  tag: ['mod'],
+  release: new Date('2022-05-21T11:00:00+0800').valueOf()
+}, {
+  name: {
     zh: '着陆挑战: 小小塞斯纳扛得住20多节侧风吗'
   },
   des: {
