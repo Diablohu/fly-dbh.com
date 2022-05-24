@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '需要保养的她，竟是最强通航插件机？',
+        },
+        des: {
+            zh: '《微软模拟飞行》天花板级的飞机模组近期开始涌现，通航方面也有一款精品于近期问世——来自 MILVIZ 的塞斯纳 310R。这款飞机模组一经问世便在模飞圈一炮走红，很多飞友都称其为通航飞机新标杆。售价40美元的她到底有什么不一样的地方？在本期节目中我们就来一探究竟。',
+        },
+        thumbnailOriginal: './thumbnails/20220525.png',
+        link: {
+            youtube: 'https://youtu.be/DQIGNuNk6Q8',
+            bilibili: 'https://www.bilibili.com/video/BV1GT4y1B7fU',
+        },
+        tag: ['mod'],
+        release: new Date('2022-05-25T12:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '刚买完 Fenix A320 该干啥？',
         },
         des: {
