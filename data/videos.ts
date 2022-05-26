@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '实操体验：微软模拟飞行 X 壮志凌云 · 免费DLC！',
+        },
+        des: {
+            zh: '《壮志凌云：独行侠》主题扩展包正式上线《微软模拟飞行》，扩展包带来了全新的游戏内任务、F18飞行训练，以及10马赫超科幻飞机。在本期节目中，大波胡就带大家挑战下低空机动和航母降落。',
+        },
+        thumbnailOriginal: './thumbnails/20220526.png',
+        link: {
+            youtube: 'https://youtu.be/wwBqzKncdVo',
+            bilibili: 'https://www.bilibili.com/video/BV1TB4y1X7z4',
+        },
+        tag: ['news', 'test'],
+        release: new Date('2022-05-25T12:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '需要保养的她，竟是最强通航插件机？',
         },
         des: {
