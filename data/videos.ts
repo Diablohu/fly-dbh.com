@@ -10,7 +10,7 @@ const videos: VideoItem[] = [
         },
         thumbnailOriginal: './thumbnails/20220526.png',
         link: {
-            youtube: 'https://youtu.be/wwBqzKncdVo',
+            youtube: 'https://youtu.be/Y51gt6QWxgE',
             bilibili: 'https://www.bilibili.com/video/BV1TB4y1X7z4',
         },
         tag: ['news', 'test'],
