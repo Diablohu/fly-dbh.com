@@ -60202,7 +60202,7 @@ const videos = [{
   },
   thumbnail: 'thumbnails/fe84e9a7b7cad90a914d2115299844e6.jpg',
   link: {
-    youtube: 'https://youtu.be/wwBqzKncdVo',
+    youtube: 'https://youtu.be/Y51gt6QWxgE',
     bilibili: 'https://www.bilibili.com/video/BV1TB4y1X7z4'
   },
   tag: ['news', 'test'],
