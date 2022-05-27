@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '教你飞出10马赫：黑暗之星如何正确巡航',
+        },
+        des: {
+            zh: '黑暗之星 Darkstar 现已加入《微软模拟飞行》，慕名而来的驾驶员们很快就发现，超音速都是问题，更别提达到宣传的10马赫了。本期节目就来手把手教你如何正确开启冲压引擎，不到10分钟北京飞上海！',
+        },
+        thumbnailOriginal: './thumbnails/20220527.png',
+        link: {
+            youtube: 'https://youtu.be/upO18JIu0ZY',
+            bilibili: 'https://www.bilibili.com/video/BV17B4y1R7Be',
+        },
+        tag: ['training'],
+        release: new Date('2022-05-27T16:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '实操体验：微软模拟飞行 X 壮志凌云 · 免费DLC！',
         },
         des: {
@@ -14,7 +30,7 @@ const videos: VideoItem[] = [
             bilibili: 'https://www.bilibili.com/video/BV1TB4y1X7z4',
         },
         tag: ['news', 'test'],
-        release: new Date('2022-05-25T12:00:00+0800').valueOf(),
+        release: new Date('2022-05-26T12:00:00+0800').valueOf(),
     },
 
     {
