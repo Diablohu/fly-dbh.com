@@ -60203,7 +60203,7 @@ const videos = [{
   thumbnail: 'thumbnails/0c2063649dd937c79a8bb55d0cca20c4.jpg',
   link: {
     youtube: 'https://youtu.be/upO18JIu0ZY',
-    bilibili: 'https://www.bilibili.com/video/BV17B4y1R7Be'
+    bilibili: 'https://www.bilibili.com/video/BV1Pv4y1P72f'
   },
   tag: ['training'],
   release: new Date('2022-05-27T16:00:00+0800').valueOf()
