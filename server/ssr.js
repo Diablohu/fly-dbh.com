@@ -60195,6 +60195,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: '壮志凌云低空挑战如何拿高分'
+  },
+  des: {
+    zh: '《微软模拟飞行》全新免费DLC《壮志凌云》扩展包为游戏新增了低空挑战模式，玩家将能驾驶 F/A-18E/F 超级大黄蜂还原大银幕上的惊险特技。本期节目就来介绍几个飞行技巧，帮助飞友们拿到A级评价。'
+  },
+  thumbnail: 'thumbnails/c6e07884174b7a2631438601635847a7.jpg',
+  link: {
+    youtube: 'https://youtu.be/_ZzBvWZiYks',
+    bilibili: 'https://www.bilibili.com/video/BV1QZ4y1b72v'
+  },
+  tag: ['training'],
+  release: new Date('2022-05-29T16:00:00+0800').valueOf()
+}, {
+  name: {
     zh: '教你飞出10马赫：黑暗之星如何正确巡航'
   },
   des: {
