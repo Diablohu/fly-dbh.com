@@ -60195,6 +60195,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: '航母降落操作技巧'
+  },
+  des: {
+    zh: '《微软模拟飞行》全新免费DLC为游戏新增了航母降落挑战模式。本期节目就来介绍几个飞行技巧，帮助飞友们拿到A级评价。'
+  },
+  thumbnail: 'thumbnails/f0112ce00cfb258b7a45d8abc0c57d80.jpg',
+  link: {
+    youtube: 'https://youtu.be/VBLyhJ6D8zs',
+    bilibili: 'https://www.bilibili.com/video/BV1634y177bi'
+  },
+  tag: ['training'],
+  release: new Date('2022-05-30T16:00:00+0800').valueOf()
+}, {
+  name: {
     zh: '壮志凌云低空挑战如何拿高分'
   },
   des: {
