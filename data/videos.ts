@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '新闻: 精品飞机涌现 · 汉化“又延期” · 后续开发放缓',
+        },
+        des: {
+            zh: '精品飞机模组开始涌现，10马赫虚构飞机冲出地球，长途飞行掉帧问题已有线索，官方汉化随7月超大更新一同延期，以及今后的开发进度会放缓？Hi~ 大家好，这里是 Diablohu 大波胡，《微软模拟飞行》开发团队在近期放出了大量开发新情报，在本期模飞新闻节目中就为大家汇总播报。',
+        },
+        thumbnailOriginal: './thumbnails/20220604.png',
+        link: {
+            youtube: 'https://youtu.be/QbHnTR1Ba_w',
+            bilibili: 'https://www.bilibili.com/video/BV1WA4y1o7Hy',
+        },
+        tag: ['news'],
+        release: new Date('2022-06-04T20:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '航母降落操作技巧',
         },
         des: {
