@@ -60195,6 +60195,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: '新闻: 精品飞机涌现 · 汉化“又延期” · 后续开发放缓'
+  },
+  des: {
+    zh: '精品飞机模组开始涌现，10马赫虚构飞机冲出地球，长途飞行掉帧问题已有线索，官方汉化随7月超大更新一同延期，以及今后的开发进度会放缓？Hi~ 大家好，这里是 Diablohu 大波胡，《微软模拟飞行》开发团队在近期放出了大量开发新情报，在本期模飞新闻节目中就为大家汇总播报。'
+  },
+  thumbnail: 'thumbnails/dc46e90dd546da70545e900aac5a806a.jpg',
+  link: {
+    youtube: 'https://youtu.be/QbHnTR1Ba_w',
+    bilibili: 'https://www.bilibili.com/video/BV1WA4y1o7Hy'
+  },
+  tag: ['news'],
+  release: new Date('2022-06-04T20:00:00+0800').valueOf()
+}, {
+  name: {
     zh: '航母降落操作技巧'
   },
   des: {
@@ -60214,7 +60228,7 @@ const videos = [{
   des: {
     zh: '《微软模拟飞行》全新免费DLC《壮志凌云》扩展包为游戏新增了低空挑战模式，玩家将能驾驶 F/A-18E/F 超级大黄蜂还原大银幕上的惊险特技。本期节目就来介绍几个飞行技巧，帮助飞友们拿到A级评价。'
   },
-  thumbnail: 'thumbnails/c6e07884174b7a2631438601635847a7.jpg',
+  thumbnail: 'thumbnails/0c6eed4fda71778ec99f4a56e499d777.jpg',
   link: {
     youtube: 'https://youtu.be/_ZzBvWZiYks',
     bilibili: 'https://www.bilibili.com/video/BV1QZ4y1b72v'
@@ -60228,7 +60242,7 @@ const videos = [{
   des: {
     zh: '黑暗之星 Darkstar 现已加入《微软模拟飞行》，慕名而来的驾驶员们很快就发现，超音速都是问题，更别提达到宣传的10马赫了。本期节目就来手把手教你如何正确开启冲压引擎，不到10分钟北京飞上海！'
   },
-  thumbnail: 'thumbnails/0c2063649dd937c79a8bb55d0cca20c4.jpg',
+  thumbnail: 'thumbnails/a50c704bc7c6c4346a6938bd5bb8da16.jpg',
   link: {
     youtube: 'https://youtu.be/upO18JIu0ZY',
     bilibili: 'https://www.bilibili.com/video/BV1Pv4y1P72f'
