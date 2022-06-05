@@ -92,6 +92,7 @@
         padding-top: 5vh;
         & > a {
             @size: 40px;
+            @icon-size: (@size - 7px - 7px);
             display: inline-block;
             line-height: @size;
             border-radius: 10px;
@@ -120,6 +121,23 @@
             }
             &.bilibili {
                 background: @color-bilibili;
+            }
+            &.qun {
+                background: #46a5f7;
+                &::before {
+                    content: '';
+                    position: absolute;
+                    display: block;
+                    top: 0;
+                    left: 10px;
+                    bottom: 0;
+                    height: @size;
+                    width: @size;
+                    background: url(../assets/icon-kaiheila.svg) no-repeat 50%
+                        50%;
+                    background-size: contain;
+                    fill: #fff;
+                }
             }
             .styles-hover() {
                 color: #fff;

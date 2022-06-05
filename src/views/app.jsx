@@ -178,6 +178,14 @@ const Banner = extend({
                             <Icon className="icon" icon="youtube" />
                             订阅
                         </a>
+                        <a
+                            href="https://qun.dbh.one"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="qun"
+                        >
+                            粉丝群
+                        </a>
                     </div>
                 </div>
                 <video
