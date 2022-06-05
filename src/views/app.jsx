@@ -54,7 +54,7 @@ const App = extend({
         }
     },
     styles,
-})(({ className, dispatch, params }) => {
+})(({ className, dispatch, params, router }) => {
     const [listStickyValue, setListStickyValue] = useState(false);
     const { category } = params;
     return (
@@ -67,7 +67,7 @@ const App = extend({
             >
                 <div className={className}>
                     <Banner />
-                    <List category={category} />
+                    <List category={category} router={router} />
                     <Footer />
                 </div>
             </listStickyContext.Provider>
@@ -144,7 +144,10 @@ const Banner = extend({
 
         useEffect(() => {
             if (listSticky) VideoRef.current.pause();
-            else VideoRef.current.play();
+            else
+                try {
+                    VideoRef.current.play();
+                } catch (e) {}
             // console.log({ listSticky });
         }, [listSticky]);
 
@@ -228,12 +231,12 @@ const List = extend({
         defaultSource: state.server?.cookie?.[cookieNameVideoSource],
     }),
 })(
-    memo(({ defaultSource, category = '' }) => {
+    memo(({ defaultSource, category = '', router }) => {
         const ContainerRef = useRef(null);
         const HeaderRef = useRef(null);
 
         const [source, setSource] = useState(defaultSource);
-        // const [tag, setTag] = useState('');
+        // const [tag, setTag] = useState(category);
         // const [sticky, setSticky] = useState(false);
         const { value: sticky, update: setSticky } =
             useContext(listStickyContext);
@@ -295,6 +298,16 @@ const List = extend({
             // setTag(targetTag === tag ? undefined : targetTag);
         }
 
+        const onSelect = useCallback(
+            function (e) {
+                router?.push(`/${e.target.value}`);
+                setTimeout(() => {
+                    scrollToList();
+                }, 10);
+            },
+            [router]
+        );
+
         return (
             <div className={`${classNameModule}-list`} ref={ContainerRef}>
                 <div
@@ -307,7 +320,20 @@ const List = extend({
                     ref={HeaderRef}
                 >
                     <Center className="wrapper">
-                        <h2 className="title">最新视频</h2>
+                        <h2 className="title">
+                            最新视频
+                            <span className="sm">
+                                <Icon icon="menu" className="icon" />
+                                {category ? videoTagName[category] : '最新视频'}
+                                <select onChange={onSelect} value={category}>
+                                    {List.tags.map(({ label, value }) => (
+                                        <option key={value} value={value}>
+                                            {label}
+                                        </option>
+                                    ))}
+                                </select>
+                            </span>
+                        </h2>
                         <div className="sources">
                             视频源
                             {videoSources.map((thisSource) => (

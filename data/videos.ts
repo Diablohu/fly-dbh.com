@@ -1085,7 +1085,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/ScyivuWRLLY',
             bilibili: 'https://www.bilibili.com/video/BV1yL411T7zD',
         },
-        tag: ['test', 'test'],
+        tag: ['test'],
         release: new Date('2021-11-20T11:35:00+0800').valueOf(),
     },
 

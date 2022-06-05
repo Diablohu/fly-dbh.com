@@ -140,19 +140,19 @@ const doCricital = () => {
         });
     });
 
-    document.addEventListener('click', function (evt) {
-        // console.log(evt);
-        // evt.target.focus();
-        // evt.target.blur();
-        if (Array.isArray(evt.path)) {
-            evt.path.forEach((el) => {
-                try {
-                    el.focus();
-                    el.blur();
-                } catch (e) {}
-            });
-        }
-    });
+    // document.addEventListener('click', function (evt) {
+    //     // console.log(evt);
+    //     // evt.target.focus();
+    //     // evt.target.blur();
+    //     if (Array.isArray(evt.path)) {
+    //         evt.path.forEach((el) => {
+    //             try {
+    //                 el.focus();
+    //                 el.blur();
+    //             } catch (e) {}
+    //         });
+    //     }
+    // });
 
     window.__IS_CLITICAL_INITED__ = true;
 };

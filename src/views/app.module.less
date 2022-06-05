@@ -89,7 +89,8 @@
     }
     .subscribe {
         flex: none;
-        padding-top: 5vh;
+        padding-top: calc(5vh - 1em);
+        text-align: center;
         & > a {
             @size: 40px;
             @icon-size: (@size - 7px - 7px);
@@ -101,7 +102,7 @@
             color: #fff;
             position: relative;
             text-decoration: none;
-            margin: 0 10px;
+            margin: 1em 10px 0 10px;
             transition: transform 200ms ease-out;
             & > .icon {
                 content: '';
@@ -201,6 +202,43 @@
         .title {
             flex: 1;
             margin: 0;
+            position: relative;
+            .sm {
+                display: none;
+            }
+            .styles-screen-phone() {
+                color: transparent;
+                .sm {
+                    display: block;
+                    color: var(--root-content-color);
+                    position: absolute;
+                    top: -5px;
+                    bottom: -5px;
+                    left: 0;
+                    right: 0;
+                    padding-top: 5px;
+                    padding-left: 30px;
+                    .icon {
+                        @isze: 24px;
+                        position: absolute;
+                        width: @isze;
+                        height: @isze;
+                        left: 0;
+                        top: 50%;
+                        margin-top: (0 - @isze / 2);
+                    }
+                    select {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        opacity: 0;
+                        z-index: 5;
+                    }
+                }
+            }
+            .screen-phone(.styles-screen-phone());
         }
         .sources {
             white-space: nowrap;
@@ -263,6 +301,10 @@
                     }
                 }
             }
+            .styles-screen-phone() {
+                display: none;
+            }
+            .screen-phone(.styles-screen-phone());
         }
     }
     & > .list-wrapper {
