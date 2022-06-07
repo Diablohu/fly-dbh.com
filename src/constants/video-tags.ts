@@ -32,7 +32,7 @@ export const names: {
     tip: '小窍门',
     benchmark: '评测',
     test: '游戏实况',
-    clip: '片段',
+    clip: '欢乐',
 
     landing: '着陆',
     device: '设备',
