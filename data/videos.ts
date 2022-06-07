@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '本田喷气——机模值不值？',
+        },
+        des: {
+            zh: '本田喷气 HondaJet 登陆《微软模拟飞行》，值不值25美元的标价？在精品机模云集的当下，她是否有容身之地？在本期节目中我们就来一探究竟。',
+        },
+        thumbnailOriginal: './thumbnails/20220607.png',
+        link: {
+            youtube: 'https://youtu.be/gRDuh5QKwII',
+            bilibili: 'https://www.bilibili.com/video/BV1HS4y1i71H',
+        },
+        tag: ['mod'],
+        release: new Date('2022-06-07T11:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '新闻: 精品飞机涌现 · 汉化“又延期” · 后续开发放缓',
         },
         des: {
