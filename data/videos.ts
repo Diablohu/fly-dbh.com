@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '[模拟飞行WTF] 塞斯纳对决大黄蜂',
+        },
+        des: {
+            zh: '塞斯纳310R ＶＳ F/A-18E 超级大黄蜂',
+        },
+        thumbnailOriginal: './thumbnails/20220609.png',
+        link: {
+            youtube: 'https://youtu.be/q7L3fjFCG_I',
+            bilibili: 'https://www.bilibili.com/video/BV19Y4y1x79Q',
+        },
+        tag: ['flight', 'clip'],
+        release: new Date('2022-06-09T11:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '本田喷气——机模值不值？',
         },
         des: {
