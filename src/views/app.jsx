@@ -22,7 +22,10 @@ import Tag from '@components/tag';
 import { setAppMode } from '@api/app';
 import { PWA, NORMAL } from '@constants/app-mode';
 import videoSources from '@constants/video-sources';
-import videoTags, { names as videoTagName } from '@constants/video-tags';
+import {
+    names as videoTagName,
+    listWithSeperator as videoTags,
+} from '@constants/video-tags';
 import { VIDEO_SOURCE as cookieNameVideoSource } from '@constants/cookie-name';
 
 import styles, { wrapper as classNameModule } from './app.module.less';
@@ -326,11 +329,24 @@ const List = extend({
                                 <Icon icon="menu" className="icon" />
                                 {category ? videoTagName[category] : '最新视频'}
                                 <select onChange={onSelect} value={category}>
-                                    {List.tags.map(({ label, value }) => (
-                                        <option key={value} value={value}>
-                                            {label}
-                                        </option>
-                                    ))}
+                                    {List.tags.map((tag, index) => {
+                                        if (tag === '')
+                                            return (
+                                                <option
+                                                    key={index}
+                                                    value=""
+                                                    disabled
+                                                >
+                                                    --
+                                                </option>
+                                            );
+                                        const { label, value } = tag;
+                                        return (
+                                            <option key={value} value={value}>
+                                                {label}
+                                            </option>
+                                        );
+                                    })}
                                 </select>
                             </span>
                         </h2>
@@ -353,21 +369,31 @@ const List = extend({
                             ))}
                         </div>
                         <div className="tags">
-                            {List.tags.map(({ label, value }) => (
-                                <Link key={value} to={`/${value}`}>
-                                    <Tag
-                                        onClick={selectTag}
-                                        className={classNames([
-                                            'tag',
-                                            {
-                                                'is-on': value === category,
-                                            },
-                                        ])}
-                                        tag={value}
-                                        label={label}
-                                    />
-                                </Link>
-                            ))}
+                            {List.tags.map((tag, index) => {
+                                if (tag === '')
+                                    return (
+                                        <span
+                                            className="seperator"
+                                            key={index}
+                                        ></span>
+                                    );
+                                const { label, value } = tag;
+                                return (
+                                    <Link key={value} to={`/${value}`}>
+                                        <Tag
+                                            onClick={selectTag}
+                                            className={classNames([
+                                                'tag',
+                                                {
+                                                    'is-on': value === category,
+                                                },
+                                            ])}
+                                            tag={value}
+                                            label={label}
+                                        />
+                                    </Link>
+                                );
+                            })}
                         </div>
                     </Center>
                 </div>
@@ -382,11 +408,18 @@ const List = extend({
         );
     })
 );
-List.tags = [{ label: '全部', value: '' }].concat(
-    videoTags.map((tag) => ({
-        label: videoTagName[tag],
-        value: tag,
-    }))
+List.tags = [
+    { label: '全部', value: '' },
+    // ''
+].concat(
+    videoTags.map((tag) =>
+        tag === ''
+            ? ''
+            : {
+                  label: videoTagName[tag],
+                  value: tag,
+              }
+    )
 );
 
 // ============================================================================

@@ -1,41 +1,46 @@
 import { VideoTag } from '@types';
 
-const tags: Array<VideoTag> = [
+export const listWithSeperator: Array<VideoTag | ''> = [
     'news',
     'training',
     'flight',
-    'airport',
-    'route',
+    'test',
+    'benchmark',
+    'world',
+    // 'airport',
+    // 'route',
+
+    '',
 
     'tip',
-    'benchmark',
-    'test',
     'clip',
-
+    'chat',
     'landing',
     'tour',
     'mod',
     'device',
 ];
 
+const tags = listWithSeperator.filter((t) => t !== '') as Array<VideoTag>;
 export default tags;
 
 export const names: {
     [key in VideoTag]: string;
 } = {
-    news: '模飞新闻',
+    news: '新鲜事',
     training: '教程攻略',
     flight: '模飞剪辑',
-    airport: '专题：机场',
-    route: '专题：航线',
+    test: '游戏实况',
+    benchmark: '评测',
+    world: '飞行世界',
+    // airport: '专题：机场',
+    // route: '专题：航线',
 
     tip: '小窍门',
-    benchmark: '评测',
-    test: '游戏实况',
     clip: '欢乐',
-
+    chat: '闲谈',
     landing: '着陆',
-    device: '设备',
-    mod: 'MOD/插件',
     tour: '景观',
+    mod: 'MOD/插件',
+    device: '设备',
 };

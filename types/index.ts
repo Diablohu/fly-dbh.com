@@ -36,8 +36,8 @@ export type VideoTag =
     | 'clip'
     | 'training'
     | 'landing'
-    | 'airport'
-    | 'route'
+    // | 'airport'
+    // | 'route'
     | 'device'
     | 'mod'
     | 'tour'
@@ -45,7 +45,9 @@ export type VideoTag =
     | 'flight'
     | 'tip'
     | 'test'
-    | 'benchmark';
+    | 'benchmark'
+    | 'world'
+    | 'chat';
 export type VideoSource = 'bilibili' | 'youtube';
 export interface VideoItem {
     name: {

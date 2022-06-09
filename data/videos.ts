@@ -29,7 +29,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/gRDuh5QKwII',
             bilibili: 'https://www.bilibili.com/video/BV1HS4y1i71H',
         },
-        tag: ['mod'],
+        tag: ['benchmark', 'mod'],
         release: new Date('2022-06-07T11:00:00+0800').valueOf(),
     },
 
@@ -125,7 +125,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/DQIGNuNk6Q8',
             bilibili: 'https://www.bilibili.com/video/BV1GT4y1B7fU',
         },
-        tag: ['mod'],
+        tag: ['benchmark', 'mod'],
         release: new Date('2022-05-25T12:00:00+0800').valueOf(),
     },
 
@@ -157,7 +157,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/YdatzNK1Q3k',
             bilibili: 'https://www.bilibili.com/video/BV1W5411X77L',
         },
-        tag: ['mod'],
+        tag: ['news', 'mod'],
         release: new Date('2022-05-21T11:00:00+0800').valueOf(),
     },
 
@@ -173,7 +173,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/EhDdYJ7SVDk',
             bilibili: 'https://www.bilibili.com/video/BV1mZ4y1872w',
         },
-        tag: ['landing'],
+        tag: ['test', 'landing'],
         release: new Date('2022-05-18T11:00:00+0800').valueOf(),
     },
 
@@ -205,7 +205,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/EnLxG-CJ3zU',
             bilibili: 'https://www.bilibili.com/video/BV1Tr4y1b7S8',
         },
-        tag: ['landing'],
+        tag: ['test', 'landing'],
         release: new Date('2022-05-15T11:00:00+0800').valueOf(),
     },
 
@@ -317,7 +317,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/1DoEFletAb0',
             bilibili: 'https://www.bilibili.com/video/BV1oY411w7NA',
         },
-        tag: ['news'],
+        tag: ['news', 'chat'],
         release: new Date('2022-05-01T15:00:00+0800').valueOf(),
     },
 
@@ -1645,7 +1645,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/-JQLYdvrt1A',
             bilibili: 'https://www.bilibili.com/video/BV1EU4y1G7br',
         },
-        tag: ['route'],
+        tag: ['world'],
         release: new Date('2021-06-19T12:00:00+0800').valueOf(),
     },
 
@@ -1709,7 +1709,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/1mfi-0LJjvg',
             bilibili: 'https://www.bilibili.com/video/BV1rZ4y1c79A',
         },
-        tag: ['mod'],
+        tag: ['news', 'mod'],
         release: new Date('2021-04-13T11:35:00+0800').valueOf(),
     },
 
@@ -1725,7 +1725,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/8nnNb-wHqnU',
             bilibili: 'https://www.bilibili.com/video/BV1PZ4y1c7hA',
         },
-        tag: ['mod'],
+        tag: ['news', 'mod'],
         release: new Date('2021-04-04T11:35:00+0800').valueOf(),
     },
 
@@ -1757,7 +1757,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/IW7Qnyd-6hg',
             bilibili: 'https://www.bilibili.com/video/BV1Vr4y1P72k',
         },
-        tag: ['airport'],
+        tag: ['world'],
         release: 1615694400000,
     },
 
@@ -1773,7 +1773,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/O-P03s_acKU',
             bilibili: 'https://www.bilibili.com/video/BV16V411e7qz',
         },
-        tag: ['route'],
+        tag: ['world'],
         release: 1614052800000,
     },
 
@@ -1805,7 +1805,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/8Q3lot3M9a0',
             bilibili: 'https://www.bilibili.com/video/BV1Zv411Y7Y5',
         },
-        tag: ['airport'],
+        tag: ['world'],
         release: 1612152000000,
     },
 
@@ -1837,7 +1837,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/sMlw3HfhPoA',
             bilibili: 'https://www.bilibili.com/video/BV1CU4y1x7Hm',
         },
-        tag: ['mod'],
+        tag: ['news', 'mod'],
         release: 1610249416000,
     },
 
@@ -1885,7 +1885,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/9JJhlXSBsbo',
             bilibili: 'https://www.bilibili.com/video/BV1Ey4y1S7V6',
         },
-        tag: ['clip', 'landing'],
+        tag: ['test', 'landing'],
         release: 1606188616000,
     },
 
@@ -1917,7 +1917,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/QElg8lr15tU',
             bilibili: 'https://www.bilibili.com/video/BV1ir4y1w7aj',
         },
-        tag: ['mod'],
+        tag: ['news', 'mod'],
         release: 1604808000000,
     },
 
@@ -1949,7 +1949,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/YxrXO9g-JLc',
             bilibili: 'https://www.bilibili.com/video/BV1tz4y1C78e',
         },
-        tag: ['landing', 'airport'],
+        tag: ['world', 'landing'],
         release: 1603596631000,
     },
 
