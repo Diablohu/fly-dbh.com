@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '简讯：官方汉化居然提前了？！',
+        },
+        des: {
+            zh: '塞斯纳310R ＶＳ F/A-18E 超级大黄蜂',
+        },
+        thumbnailOriginal: './thumbnails/20220611.png',
+        link: {
+            youtube: 'https://youtube.com/shorts/-mHSSrWD2ls?feature=share',
+            bilibili: 'https://www.bilibili.com/video/BV1sY4y1G7W9',
+        },
+        tag: ['news'],
+        release: new Date('2022-06-11T11:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '[模拟飞行WTF] 塞斯纳对决大黄蜂',
         },
         des: {
@@ -19,7 +35,7 @@ const videos: VideoItem[] = [
 
     {
         name: {
-            zh: '本田喷气——机模值不值？',
+            zh: '本田喷气，机模值不值？',
         },
         des: {
             zh: '本田喷气 HondaJet 登陆《微软模拟飞行》，值不值25美元的标价？在精品机模云集的当下，她是否有容身之地？在本期节目中我们就来一探究竟。',
@@ -115,7 +131,7 @@ const videos: VideoItem[] = [
 
     {
         name: {
-            zh: '需要保养的她，竟是最强通航插件机？',
+            zh: '最强通航插件机：MILVIZ塞斯纳310R',
         },
         des: {
             zh: '《微软模拟飞行》天花板级的飞机模组近期开始涌现，通航方面也有一款精品于近期问世——来自 MILVIZ 的塞斯纳 310R。这款飞机模组一经问世便在模飞圈一炮走红，很多飞友都称其为通航飞机新标杆。售价40美元的她到底有什么不一样的地方？在本期节目中我们就来一探究竟。',
