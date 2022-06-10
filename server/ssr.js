@@ -60290,6 +60290,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
+    zh: '简讯：官方汉化居然提前了？！'
+  },
+  des: {
+    zh: '塞斯纳310R ＶＳ F/A-18E 超级大黄蜂'
+  },
+  thumbnail: 'thumbnails/f25d44de696b2bcd1762a2ee082d9354.jpg',
+  link: {
+    youtube: 'https://youtube.com/shorts/-mHSSrWD2ls?feature=share',
+    bilibili: 'https://www.bilibili.com/video/BV1sY4y1G7W9'
+  },
+  tag: ['news'],
+  release: new Date('2022-06-11T11:00:00+0800').valueOf()
+}, {
+  name: {
     zh: '[模拟飞行WTF] 塞斯纳对决大黄蜂'
   },
   des: {
@@ -60304,12 +60318,12 @@ const videos = [{
   release: new Date('2022-06-09T11:00:00+0800').valueOf()
 }, {
   name: {
-    zh: '本田喷气——机模值不值？'
+    zh: '本田喷气，机模值不值？'
   },
   des: {
     zh: '本田喷气 HondaJet 登陆《微软模拟飞行》，值不值25美元的标价？在精品机模云集的当下，她是否有容身之地？在本期节目中我们就来一探究竟。'
   },
-  thumbnail: 'thumbnails/c1b9d9f1ee8038a7c4d50f8250bef98f.jpg',
+  thumbnail: 'thumbnails/c9d205d3d9c11e9368e93c3a50433e4b.jpg',
   link: {
     youtube: 'https://youtu.be/gRDuh5QKwII',
     bilibili: 'https://www.bilibili.com/video/BV1HS4y1i71H'
@@ -60323,7 +60337,7 @@ const videos = [{
   des: {
     zh: '精品飞机模组开始涌现，10马赫虚构飞机冲出地球，长途飞行掉帧问题已有线索，官方汉化随7月超大更新一同延期，以及今后的开发进度会放缓？Hi~ 大家好，这里是 Diablohu 大波胡，《微软模拟飞行》开发团队在近期放出了大量开发新情报，在本期模飞新闻节目中就为大家汇总播报。'
   },
-  thumbnail: 'thumbnails/dc46e90dd546da70545e900aac5a806a.jpg',
+  thumbnail: 'thumbnails/c4bc378a32aed7f984c85afdaf7b3280.jpg',
   link: {
     youtube: 'https://youtu.be/QbHnTR1Ba_w',
     bilibili: 'https://www.bilibili.com/video/BV1WA4y1o7Hy'
@@ -60388,12 +60402,12 @@ const videos = [{
   release: new Date('2022-05-26T12:00:00+0800').valueOf()
 }, {
   name: {
-    zh: '需要保养的她，竟是最强通航插件机？'
+    zh: '最强通航插件机：MILVIZ塞斯纳310R'
   },
   des: {
     zh: '《微软模拟飞行》天花板级的飞机模组近期开始涌现，通航方面也有一款精品于近期问世——来自 MILVIZ 的塞斯纳 310R。这款飞机模组一经问世便在模飞圈一炮走红，很多飞友都称其为通航飞机新标杆。售价40美元的她到底有什么不一样的地方？在本期节目中我们就来一探究竟。'
   },
-  thumbnail: 'thumbnails/bee94d62a16637529e1a408a1de2266d.jpg',
+  thumbnail: 'thumbnails/0f13be8de41e1f3f1742b52450135576.jpg',
   link: {
     youtube: 'https://youtu.be/DQIGNuNk6Q8',
     bilibili: 'https://www.bilibili.com/video/BV1GT4y1B7fU'
