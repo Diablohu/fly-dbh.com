@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '闲谈: MSFS要做10年？这代怎么诞生的？',
+        },
+        des: {
+            zh: '本视频是一期有关《微软模拟飞行》的闲谈节目，大波胡和观众一同讨论了本世代模拟飞行的插件飞机价格、官方所说的10年计划以及游戏诞生方面的话题。',
+        },
+        thumbnailOriginal: './thumbnails/20220612.png',
+        link: {
+            youtube: 'https://youtu.be/4pQn8QQaLGU',
+            bilibili: 'https://www.bilibili.com/video/BV1Ea411s7bH',
+        },
+        tag: ['chat'],
+        release: new Date('2022-06-12T11:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '简讯：官方汉化居然提前了？！',
         },
         des: {
@@ -19,7 +35,7 @@ const videos: VideoItem[] = [
 
     {
         name: {
-            zh: '[模拟飞行WTF] 塞斯纳对决大黄蜂',
+            zh: '模拟飞行WTF: 塞斯纳对决大黄蜂',
         },
         des: {
             zh: '塞斯纳310R ＶＳ F/A-18E 超级大黄蜂',

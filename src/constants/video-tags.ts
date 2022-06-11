@@ -7,6 +7,7 @@ export const listWithSeperator: Array<VideoTag | ''> = [
     'test',
     'benchmark',
     'world',
+    'chat',
     // 'airport',
     // 'route',
 
@@ -14,7 +15,6 @@ export const listWithSeperator: Array<VideoTag | ''> = [
 
     'tip',
     'clip',
-    'chat',
     'landing',
     'tour',
     'mod',
@@ -33,12 +33,12 @@ export const names: {
     test: '游戏实况',
     benchmark: '评测',
     world: '飞行世界',
+    chat: '闲谈',
     // airport: '专题：机场',
     // route: '专题：航线',
 
     tip: '小窍门',
     clip: '欢乐',
-    chat: '闲谈',
     landing: '着陆',
     tour: '景观',
     mod: 'MOD/插件',
