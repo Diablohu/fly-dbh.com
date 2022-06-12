@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '有钞能力加持，最强飞行模拟器有谁不服！| 40周年纪念版更新抢先看',
+        },
+        des: {
+            zh: '在刚刚举行的 XBOX 游戏介绍线上大会上，《微软模拟飞行》正式公布了40周年纪念版的更新详情，以及一架神秘新飞机……',
+        },
+        thumbnailOriginal: './thumbnails/20220613.png',
+        link: {
+            youtube: 'https://youtu.be/n_t1kY4uYsg',
+            bilibili: 'https://www.bilibili.com/video/BV1s94y127Km',
+        },
+        tag: ['news'],
+        release: new Date('2022-06-13T11:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '闲谈: MSFS要做10年？这代怎么诞生的？',
         },
         des: {
