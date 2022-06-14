@@ -60290,7 +60290,35 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const videos = [{
   name: {
-    zh: '有钞能力加持，最强飞行模拟器有谁不服！| 40周年纪念版更新抢先看'
+    zh: '新闻: 官方汉化上线 · 世界更新10内容'
+  },
+  des: {
+    zh: '《微软模拟飞行》世界更新10正式更新，官方汉化也随之上线！'
+  },
+  thumbnail: 'thumbnails/8f103c23d3b9b75e2801cca9dd184105.jpg',
+  link: {
+    youtube: 'https://youtu.be/_aB_gQJcs3Y',
+    bilibili: 'https://www.bilibili.com/video/BV1jS4y1v75e'
+  },
+  tag: ['news'],
+  release: new Date('2022-06-15T11:00:00+0800').valueOf()
+}, {
+  name: {
+    zh: '光环 × 模飞：实飞鹈鹕号 | 微软模拟飞行官方DLC'
+  },
+  des: {
+    zh: '《光环》（HALO）系列与在《微软模拟飞行》梦幻联动，在后者游戏中可亲自驾驶鹈鹕号 Pelican ！在今天的节目中，就来为大家介绍下26世纪的 UNSC 科技如何操控，以及表演一段低空狗斗。'
+  },
+  thumbnail: 'thumbnails/1bb7f9485fdfb5b56529c9f44861dc73.jpg',
+  link: {
+    youtube: 'https://youtu.be/e088SMU6ljU',
+    bilibili: 'https://www.bilibili.com/video/BV1JT411G7fA'
+  },
+  tag: ['training', 'mod'],
+  release: new Date('2022-06-15T06:00:00+0800').valueOf()
+}, {
+  name: {
+    zh: '钞能力！iniBuilds A310 免费送！微软模拟飞行40周年版更新抢先看'
   },
   des: {
     zh: '在刚刚举行的 XBOX 游戏介绍线上大会上，《微软模拟飞行》正式公布了40周年纪念版的更新详情，以及一架神秘新飞机……'
