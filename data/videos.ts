@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '模拟飞行一点都不硬核 | 微软模拟飞行萌新问答 (P1)',
+        },
+        des: {
+            zh: '《微软模拟飞行》官方汉化现已正式上线，之前被满屏英文劝退的但又想翱翔蓝天的萌新们肯定有很多问题要问吧。这是该系列视频的第一部分，剩余部分会陆续更新。',
+        },
+        thumbnailOriginal: './thumbnails/20220616.png',
+        link: {
+            youtube: 'https://youtu.be/46LsRJzDC3U',
+            bilibili: 'https://www.bilibili.com/video/BV12L4y1N7Wc',
+        },
+        tag: ['training', 'chat'],
+        release: new Date('2022-06-16T11:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '新闻: 官方汉化上线 · 下半年更新前瞻',
         },
         des: {
@@ -1805,7 +1821,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/8nnNb-wHqnU',
             bilibili: 'https://www.bilibili.com/video/BV1PZ4y1c7hA',
         },
-        tag: ['news', 'mod'],
+        tag: ['news', 'mod', 'clip'],
         release: new Date('2021-04-04T11:35:00+0800').valueOf(),
     },
 
