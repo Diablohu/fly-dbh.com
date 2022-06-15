@@ -8,7 +8,7 @@ const videos: VideoItem[] = [
         des: {
             zh: '《微软模拟飞行》世界更新10正式更新，官方汉化也随之上线！',
         },
-        thumbnailOriginal: './thumbnails/20220613.png',
+        thumbnailOriginal: './thumbnails/20220615.png',
         link: {
             youtube: 'https://youtu.be/_aB_gQJcs3Y',
             bilibili: 'https://www.bilibili.com/video/BV1jS4y1v75e',
