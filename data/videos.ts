@@ -3,7 +3,7 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
-            zh: '新闻: 官方汉化上线 · 世界更新10内容',
+            zh: '新闻: 官方汉化上线 · 下半年更新前瞻',
         },
         des: {
             zh: '《微软模拟飞行》世界更新10正式更新，官方汉化也随之上线！',
