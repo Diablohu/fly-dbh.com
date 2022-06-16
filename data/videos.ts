@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '卡蓝条！气动差！DLC地狱！ | 微软模拟飞行萌新问答 (P2)',
+        },
+        des: {
+            zh: '《微软模拟飞行》官方汉化现已正式上线，之前被满屏英文劝退的但又想翱翔蓝天的萌新们肯定有很多问题要问吧。这是该系列视频的第二部分，剩余部分会陆续更新。',
+        },
+        thumbnailOriginal: './thumbnails/20220617.png',
+        link: {
+            youtube: 'https://youtu.be/B_hVSGcGoOU',
+            bilibili: 'https://www.bilibili.com/video/BV1dL4y1N7Ln',
+        },
+        tag: ['training', 'chat'],
+        release: new Date('2022-06-17T11:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '模拟飞行一点都不硬核 | 微软模拟飞行萌新问答 (P1)',
         },
         des: {
