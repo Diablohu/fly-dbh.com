@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '第一次开喷气滑翔机',
+        },
+        des: {
+            zh: '当喷气机变成滑翔机……',
+        },
+        thumbnailOriginal: './thumbnails/20220620.png',
+        link: {
+            youtube: 'https://youtu.be/CTTzKNgx204',
+            bilibili: 'https://www.bilibili.com/video/BV1rZ4y1v7fC',
+        },
+        tag: ['test', 'clip'],
+        release: new Date('2022-06-20T11:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '起飞掉帧？入场偏移？闪退！ | 微软模拟飞行萌新问答 (P3)',
         },
         des: {
@@ -141,7 +157,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/q7L3fjFCG_I',
             bilibili: 'https://www.bilibili.com/video/BV19Y4y1x79Q',
         },
-        tag: ['flight', 'clip'],
+        tag: ['test', 'clip'],
         release: new Date('2022-06-09T11:00:00+0800').valueOf(),
     },
 
@@ -477,7 +493,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/YLu_776av3E',
             bilibili: 'https://www.bilibili.com/video/BV1Pa411v7u5',
         },
-        tag: ['flight', 'clip', 'landing'],
+        tag: ['test', 'clip', 'landing'],
         release: new Date('2022-04-14T11:00:00+0800').valueOf(),
     },
 
@@ -1005,7 +1021,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/Jr28iUv1PSM',
             bilibili: 'https://www.bilibili.com/video/BV1U34y127ts',
         },
-        tag: ['flight', 'clip'],
+        tag: ['test', 'clip'],
         release: new Date('2022-02-02T11:10:00+0800').valueOf(),
     },
 
@@ -1037,7 +1053,7 @@ const videos: VideoItem[] = [
             youtube: 'https://youtu.be/IOYv3U9rHw0',
             bilibili: 'https://www.bilibili.com/video/BV1Dr4y1e7GV',
         },
-        tag: ['flight', 'clip'],
+        tag: ['test', 'clip'],
         release: new Date('2022-01-26T11:10:00+0800').valueOf(),
     },
 
