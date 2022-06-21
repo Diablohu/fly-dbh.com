@@ -6,7 +6,7 @@ const videos: VideoItem[] = [
             zh: '闲谈: 天下苦PMDG久矣',
         },
         des: {
-            zh: '当喷气机变成滑翔机……',
+            zh: 'PMDG 可谓模拟飞行圈中波音机模的老大哥，但最近越来越不受人待见，甚至到了人见人骂的地步。在本期闲谈节目中，大波胡和其他直播观众就针对该话题进行了讨论。',
         },
         thumbnailOriginal: './thumbnails/20220621.png',
         link: {
