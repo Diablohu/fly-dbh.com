@@ -3,6 +3,22 @@ import { VideoItem } from '@types';
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '闲谈: 天下苦PMDG久矣',
+        },
+        des: {
+            zh: '当喷气机变成滑翔机……',
+        },
+        thumbnailOriginal: './thumbnails/20220621.png',
+        link: {
+            youtube: 'https://youtu.be/zTjdel0-FQs',
+            bilibili: 'https://www.bilibili.com/video/BV1ST411G7vp',
+        },
+        tag: ['chat'],
+        release: new Date('2022-06-21T11:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '第一次开喷气滑翔机',
         },
         des: {
