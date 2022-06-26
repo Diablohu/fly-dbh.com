@@ -19,6 +19,22 @@ export interface VideoItem {
 const videos: VideoItem[] = [
     {
         name: {
+            zh: '闲谈: 天下苦PMDG久矣',
+        },
+        des: {
+            zh: 'PMDG 可谓模拟飞行圈中波音机模的老大哥，但最近越来越不受人待见，甚至到了人见人骂的地步。在本期闲谈节目中，大波胡和其他直播观众就针对该话题进行了讨论。',
+        },
+        thumbnailOriginal: './thumbnails/20220621.png',
+        link: {
+            youtube: 'https://youtu.be/zTjdel0-FQs',
+            bilibili: 'https://www.bilibili.com/video/BV1ST411G7vp',
+        },
+        tag: ['chat'],
+        release: new Date('2022-06-21T11:00:00+0800').valueOf(),
+    },
+
+    {
+        name: {
             zh: '第一次开喷气滑翔机',
         },
         des: {
