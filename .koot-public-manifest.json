@@ -13,14 +13,14 @@
             "client": [
                 "public/includes/entry.0d0aafb4d95c18d79bca.js",
                 "public/includes/entry.96a2c11a7f0733b81a12.js",
-                "public/includes/entry.77f10a270185db85ecf4.js"
+                "public/includes/entry.699e2b206b53f8906323.js"
             ]
         },
         ".files": {
             "critical.css": "public/includes/extract.122.ef377a66385e1a2f6a10.css",
             "critical.js": "public/includes/entry.ef377a66385e1a2f6a10.js",
             "__KOOT__CLIENT__RUN__FIRST__.js": "public/includes/entry.76a27f8581d9b2d014da.js",
-            "client.js": "public/includes/entry.77f10a270185db85ecf4.js",
+            "client.js": "public/includes/entry.699e2b206b53f8906323.js",
             "libs.js": "public/includes/entry.0d0aafb4d95c18d79bca.js",
             "vendors.js": "public/includes/entry.96a2c11a7f0733b81a12.js",
             "__KOOT__EXTRACT__CSS__.css": "public/includes/extract.all.14dcf092e5523a8dc68ea95608ea9f92.small.css"
