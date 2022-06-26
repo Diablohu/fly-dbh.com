@@ -1,7 +1,10 @@
 import axios, { AxiosResponse } from 'axios';
 import NodeCache from 'node-cache';
 
-const SanityCache = new NodeCache({ useClones: false });
+const SanityCache = new NodeCache({
+    useClones: false,
+    checkperiod: 60 * 30, // 30 minutes
+});
 
 export default <T>(queryString: string): Promise<AxiosResponse<T>> => {
     const cachedValue = SanityCache.get(queryString);
