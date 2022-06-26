@@ -50,17 +50,15 @@ export type VideoTag =
     | 'chat';
 export type VideoSource = 'bilibili' | 'youtube';
 export interface VideoItem {
-    name: {
-        [localeId: string]: string;
-    };
-    des: {
-        [localeId: string]: string;
-    };
-    thumbnail?: string;
-    thumbnailOriginal?: string;
-    link: {
+    title: string;
+    tags: Array<{
+        value: string;
+        label: string;
+    }>;
+    description: string;
+    cover: string;
+    links: {
         [type in VideoSource]: string;
     };
-    tag: Array<VideoTag>;
-    release: number;
+    release: string;
 }

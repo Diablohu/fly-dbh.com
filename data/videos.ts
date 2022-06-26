@@ -1,4 +1,20 @@
-import { VideoItem } from '@types';
+import { VideoSource, VideoTag } from '@types';
+
+export interface VideoItem {
+    name: {
+        [localeId: string]: string;
+    };
+    des: {
+        [localeId: string]: string;
+    };
+    thumbnail?: string;
+    thumbnailOriginal?: string;
+    link: {
+        [type in VideoSource]: string;
+    };
+    tag: Array<VideoTag>;
+    release: number;
+}
 
 const videos: VideoItem[] = [
     {

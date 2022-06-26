@@ -2,7 +2,7 @@ import { memo } from 'react';
 import { extend } from 'koot';
 
 import { VideoTag } from '@types';
-import { names as tagName } from '@constants/video-tags';
+// import { names as tagName } from '@constants/video-tags';
 import styles from './index.module.less';
 
 // ============================================================================
@@ -17,15 +17,13 @@ interface ComponentProps {
 const Tag = extend<ComponentProps>({
     styles,
 })(
-    memo(
-        ({ className, tag, label, ...props }): JSX.Element => {
-            return (
-                <span className={className} data-tag={tag} {...props}>
-                    {label ?? tagName[tag as VideoTag]}
-                </span>
-            );
-        }
-    )
+    memo(({ className, tag, label, ...props }): JSX.Element => {
+        return (
+            <span className={className} data-tag={tag} {...props}>
+                {label ?? tag}
+            </span>
+        );
+    })
 );
 
 export default Tag;

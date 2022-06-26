@@ -15,9 +15,7 @@ import styles, { wrapper as classNameModule } from './index.module.less';
     connect: (state) => ({
         list: state.videos ?? [],
     }),
-
     data: (state, renderProps, dispatch) => dispatch(getVideoList()),
-
     styles,
 })
 class VideoList extends PureComponent {
@@ -32,8 +30,9 @@ class VideoList extends PureComponent {
                 {this.props.list
                     .filter(({ release }) => now > release)
                     .filter(
-                        ({ tag }) =>
-                            !this.props.tag || tag.includes(this.props.tag)
+                        ({ tags }) =>
+                            !this.props.tag ||
+                            tags.some(({ value }) => value === this.props.tag)
                     )
                     .map((item) => (
                         <Item
@@ -52,7 +51,7 @@ export default VideoList;
 // ============================================================================
 
 const Item = memo(
-    ({ video: { name, thumbnail, link, release, tag }, source }) => {
+    ({ video: { title, cover, links, release, tags }, source }) => {
         const time = new Date(release);
 
         const C = source ? 'a' : 'div';
@@ -62,7 +61,7 @@ const Item = memo(
 
         if (C === 'a') {
             P.className += ' mod-has-source';
-            P.href = link[source];
+            P.href = links[source];
             P.target = '_blank';
             P.rel = 'noreferrer';
         }
@@ -70,13 +69,13 @@ const Item = memo(
         return (
             <C {...P}>
                 <span className="thumbnail">
-                    <img src={thumbnail} alt={name} loading="lazy" />
+                    <img src={cover} alt={title} loading="lazy" />
                 </span>
                 {!source && (
                     <span className="links">
                         {sources.map((source) => (
                             <a
-                                href={link[source]}
+                                href={links[source]}
                                 target="_blank"
                                 rel="noreferrer"
                                 className={source}
@@ -89,10 +88,15 @@ const Item = memo(
                     </span>
                 )}
                 <span className="infos">
-                    {Array.isArray(tag) && tag.length && (
+                    {Array.isArray(tags) && tags.length && (
                         <span className="tags">
-                            {tag.map((t) => (
-                                <Tag className="tag is-on" tag={t} key={t} />
+                            {tags.map(({ label, value }) => (
+                                <Tag
+                                    className="tag is-on"
+                                    tag={value}
+                                    label={label}
+                                    key={value}
+                                />
                             ))}
                         </span>
                     )}
@@ -100,7 +104,7 @@ const Item = memo(
                         {time.getFullYear()} / {time.getMonth() + 1} /{' '}
                         {time.getDate()}
                     </span>
-                    <strong className="name">{name}</strong>
+                    <strong className="name">{title}</strong>
                 </span>
             </C>
         );

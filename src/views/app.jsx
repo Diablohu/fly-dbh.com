@@ -6,6 +6,7 @@ import {
     useRef,
     useCallback,
     useContext,
+    useMemo,
     createContext,
 } from 'react';
 import { Link } from 'react-router';
@@ -20,12 +21,13 @@ import Center from '@components/center';
 import Tag from '@components/tag';
 
 import { setAppMode } from '@api/app';
+import { getTagList } from '@api/tags';
 import { PWA, NORMAL } from '@constants/app-mode';
 import videoSources from '@constants/video-sources';
-import {
-    names as videoTagName,
-    listWithSeperator as videoTags,
-} from '@constants/video-tags';
+// import {
+//     names as videoTagName,
+//     listWithSeperator as videoTags,
+// } from '@constants/video-tags';
 import { VIDEO_SOURCE as cookieNameVideoSource } from '@constants/cookie-name';
 
 import styles, { wrapper as classNameModule } from './app.module.less';
@@ -47,14 +49,20 @@ const App = extend({
     },
     data: (state, renderProps, dispatch) => {
         if (__CLIENT__) return;
-        switch (
-            qs.parse(state.routing.locationBeforeTransitions.search).utm_source
-        ) {
-            case 'web_app_manifest':
-                return dispatch(setAppMode(PWA));
-            default:
-                dispatch(setAppMode(NORMAL));
-        }
+        return Promise.all([
+            (() => {
+                switch (
+                    qs.parse(state.routing.locationBeforeTransitions.search)
+                        .utm_source
+                ) {
+                    case 'web_app_manifest':
+                        return dispatch(setAppMode(PWA));
+                    default:
+                        return dispatch(setAppMode(NORMAL));
+                }
+            })(),
+            dispatch(getTagList()),
+        ]);
     },
     styles,
 })(({ className, dispatch, params, router }) => {
@@ -232,9 +240,10 @@ Banner.requestTick = () => {
 const List = extend({
     connect: (state) => ({
         defaultSource: state.server?.cookie?.[cookieNameVideoSource],
+        rawTags: state.tags,
     }),
 })(
-    memo(({ defaultSource, category = '', router }) => {
+    memo(({ defaultSource, category = '', router, rawTags }) => {
         const ContainerRef = useRef(null);
         const HeaderRef = useRef(null);
 
@@ -243,6 +252,30 @@ const List = extend({
         // const [sticky, setSticky] = useState(false);
         const { value: sticky, update: setSticky } =
             useContext(listStickyContext);
+
+        const tags = useMemo(() => {
+            const list = [
+                { label: '全部', value: '' },
+                // ''
+            ];
+            rawTags.forEach(({ name, title, type }, index) => {
+                if (index > 0 && type !== rawTags[index - 1].type) {
+                    list.push('');
+                }
+                list.push({
+                    label: title,
+                    value: name,
+                });
+            });
+            return list;
+        }, [rawTags]);
+        const currentCategory = useMemo(() => {
+            if (!category) return '最新视频';
+            return (
+                tags?.filter(({ value }) => value === category)[0]?.label ??
+                '最新视频'
+            );
+        }, [tags, category]);
 
         function scrollToList() {
             if (!ContainerRef || !ContainerRef.current) return;
@@ -327,9 +360,9 @@ const List = extend({
                             最新视频
                             <span className="sm">
                                 <Icon icon="menu" className="icon" />
-                                {category ? videoTagName[category] : '最新视频'}
+                                {currentCategory}
                                 <select onChange={onSelect} value={category}>
-                                    {List.tags.map((tag, index) => {
+                                    {tags.map((tag, index) => {
                                         if (tag === '')
                                             return (
                                                 <option
@@ -369,7 +402,7 @@ const List = extend({
                             ))}
                         </div>
                         <div className="tags">
-                            {List.tags.map((tag, index) => {
+                            {tags.map((tag, index) => {
                                 if (tag === '')
                                     return (
                                         <span
@@ -408,19 +441,19 @@ const List = extend({
         );
     })
 );
-List.tags = [
-    { label: '全部', value: '' },
-    // ''
-].concat(
-    videoTags.map((tag) =>
-        tag === ''
-            ? ''
-            : {
-                  label: videoTagName[tag],
-                  value: tag,
-              }
-    )
-);
+// List.tags = [
+//     { label: '全部', value: '' },
+//     // ''
+// ].concat(
+//     videoTags.map((tag) =>
+//         tag === ''
+//             ? ''
+//             : {
+//                   label: videoTagName[tag],
+//                   value: tag,
+//               }
+//     )
+// );
 
 // ============================================================================
 

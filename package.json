@@ -34,6 +34,7 @@
         "koa-range": "^0.3.0",
         "koot": "^0.15.0-rc.12",
         "mime": "^2.5.2",
+        "node-cache": "^5.1.2",
         "query-string": "^7.1.1"
     },
     "devDependencies": {
@@ -42,13 +43,13 @@
         "@types/classnames": "^2.3.1",
         "autoprefixer": "^10.4.7",
         "babel-eslint": "^10.1.0",
-        "cssnano": "^5.1.11",
+        "cssnano": "^5.1.12",
         "eslint": "^7.32.0",
         "eslint-config-koot": "^3.1.1",
         "husky": "^7.0.2",
         "lint-staged": "^11.1.2",
         "normalize.css": "^8.0.1",
-        "prettier": "^2.6.2",
+        "prettier": "^2.7.1",
         "prettier-eslint": "^13.0.0",
         "pretty-ms": "^7.0.1",
         "redux-logger": "^3.0.6",
