@@ -5,36 +5,6 @@ if (typeof global.KOOT_DIST_DIR === "undefined") {
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/assets/banner/30fps/low.mp4":
-/*!*****************************************!*\
-  !*** ./src/assets/banner/30fps/low.mp4 ***!
-  \*****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.3351ea8124a215427fef99a3ab805e36.mp4");
-
-/***/ }),
-
-/***/ "./src/assets/banner/30fps/medium.webm":
-/*!*********************************************!*\
-  !*** ./src/assets/banner/30fps/medium.webm ***!
-  \*********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.266a6a660ebf0880f0c2b418204caa37.webm");
-
-/***/ }),
-
 /***/ "./src/components/center/index.module.less":
 /*!*************************************************!*\
   !*** ./src/components/center/index.module.less ***!
@@ -118,38 +88,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _assets_banner_cover_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @assets/banner/cover.jpg */ "./src/assets/banner/cover.jpg");
 /* harmony import */ var _assets_sim_pilot_plate_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @assets/sim-pilot-plate.svg */ "./src/assets/sim-pilot-plate.svg");
-/* harmony import */ var C_Projects_diablohu_sp_diablohu_com_src_assets_icon_kaiheila_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./src/assets/icon-kaiheila.svg */ "./src/assets/icon-kaiheila.svg");
-const wrapper = 'd0874d';const css = '.d0874d,.d0874d-banner{position:relative}.d0874d-banner{background:no-repeat 50% 50%;background-image:url("' + _assets_banner_cover_jpg__WEBPACK_IMPORTED_MODULE_0__["default"] + '");background-size:cover;height:75vh;max-height:800px;min-height:340px;overflow:hidden;width:100%}.d0874d-banner:after,.d0874d-banner:before,.d0874d-banner>.video,.d0874d-banner>.wrapper{bottom:0;content:"";flex:none;left:0;position:absolute;right:0;top:0}.d0874d-banner:after{background:rgba(0,0,0,.15);z-index:10}.d0874d-banner:before{background-image:radial-gradient(rgba(0,0,0,.1) 66.6667%,transparent 0);background-size:4px 4px;z-index:100}.d0874d-banner>.wrapper{--scale:1;align-items:center;display:flex;flex-flow:column nowrap;justify-content:space-around;opacity:var(--scale);padding:0 30px;-webkit-transform:scale(var(--scale));transform:scale(var(--scale));-webkit-transform-origin:50% 100%;transform-origin:50% 100%;z-index:200}.d0874d-banner>.wrapper:after,.d0874d-banner>.wrapper:before{content:"";flex:1}.d0874d-banner>.video{--offsetY:0;background:no-repeat 50% 50%;background-image:url("' + _assets_banner_cover_jpg__WEBPACK_IMPORTED_MODULE_0__["default"] + '");background-size:cover;height:100%;object-fit:cover;-webkit-transform:translateY(calc(var(--offsetY)*1px));transform:translateY(calc(var(--offsetY)*1px));width:100%;z-index:1}.d0874d-banner .logo{background:url("' + _assets_sim_pilot_plate_svg__WEBPACK_IMPORTED_MODULE_1__["default"] + '") no-repeat 50% 50%;background-size:contain;color:transparent;flex:1;margin:0;min-height:200px;padding:0;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.d0874d-banner .subscribe{flex:none;padding-top:calc(5vh - 1em);text-align:center}.d0874d-banner .subscribe>a{border-radius:10px;color:#fff;display:inline-block;line-height:40px;margin:1em 10px 0;padding-left:60px;padding-right:20px;position:relative;text-decoration:none;transition:-webkit-transform .2s ease-out;transition:transform .2s ease-out;transition:transform .2s ease-out,-webkit-transform .2s ease-out}.d0874d-banner .subscribe>a>.icon{fill:#fff;background:no-repeat 50% 50%;background-size:contain;bottom:7px;content:"";display:block;height:26px;left:10px;position:absolute;top:7px;width:40px}.d0874d-banner .subscribe>a.youtube{background:red}.d0874d-banner .subscribe>a.bilibili{background:#07a3d7}.d0874d-banner .subscribe>a.qun{background:#46a5f7}.d0874d-banner .subscribe>a.qun:before{fill:#fff;background:url("' + C_Projects_diablohu_sp_diablohu_com_src_assets_icon_kaiheila_svg__WEBPACK_IMPORTED_MODULE_2__["default"] + '") no-repeat 50% 50%;background-size:contain;bottom:0;content:"";display:block;height:40px;left:10px;position:absolute;top:0;width:40px}html.is-hover .d0874d-banner .subscribe>a:hover{color:#fff;-webkit-transform:scale(1.1);transform:scale(1.1)}html.is-hover .d0874d-banner .subscribe>a:focus{outline:0}html.is-hover .d0874d-banner .subscribe>a:focus:not(:active){color:#fff;-webkit-transform:scale(1.1);transform:scale(1.1)}.d0874d-banner .subscribe>a:active,html.is-hover .d0874d-banner .subscribe>a:hover:active{color:#fff;-webkit-transform:scale(.95);transform:scale(.95)}.d0874d-banner.mod-pwa{height:50vh}.d0874d-list{padding:20px 0 60px;position:relative}.d0874d-list:after,.d0874d-list:before{bottom:0;content:"";left:0;position:absolute;right:0;top:0}.d0874d-list:before{background:radial-gradient(ellipse at bottom,#f6f8f8 25%,#d7dee2 100%);z-index:-2}.d0874d-list:after{background:linear-gradient(135deg,#708090 21px,#d9ecff 22px,#d9ecff 24px,transparent 0,transparent 67px,#d9ecff 0,#d9ecff 69px,transparent 0),linear-gradient(225deg,#708090 21px,#d9ecff 22px,#d9ecff 24px,transparent 0,transparent 67px,#d9ecff 0,#d9ecff 69px,transparent 0) 0 64px;background-color:#708090;background-size:64px 128px;opacity:.05;z-index:-1}.d0874d-list>.header{padding:20px 0 24px;position:sticky;top:-1px;transition:none .2s ease-out;transition-property:box-shadow;z-index:50}.d0874d-list>.header:after{background:hsla(0,0%,100%,.95);border-bottom:1px solid rgba(0,0,0,.15);bottom:0;content:"";left:0;opacity:0;position:absolute;right:0;top:-20px;transition:inherit;transition-property:opacity;z-index:-1}@supports ((-webkit-backdrop-filter:blur(20px) saturate(180%)) or (backdrop-filter:blur(20px) saturate(180%))){.d0874d-list>.header:after{background:hsla(0,0%,100%,.65)}}.d0874d-list>.header>.wrapper{align-items:center;display:flex;flex-flow:row wrap;justify-content:space-around}.d0874d-list>.header.is-sticky{box-shadow:0 0 10px rgba(0,0,0,.1)}.d0874d-list>.header.is-sticky:after{-webkit-backdrop-filter:blur(20px) saturate(180%);backdrop-filter:blur(20px) saturate(180%);opacity:1}.d0874d-list>.header .title{flex:1;margin:0;position:relative}.d0874d-list>.header .title .sm{display:none}@media only screen and (max-width:759px){.d0874d-list>.header .title{color:transparent}.d0874d-list>.header .title .sm{bottom:-5px;color:var(--root-content-color);display:block;left:0;padding-left:30px;padding-top:5px;position:absolute;right:0;top:-5px}.d0874d-list>.header .title .sm .icon{height:24px;left:0;margin-top:-12px;position:absolute;top:50%;width:24px}.d0874d-list>.header .title .sm select{height:100%;left:0;opacity:0;position:absolute;top:0;width:100%;z-index:5}}.d0874d-list>.header .sources{align-items:center;color:#78909b;cursor:default;display:flex;flex-flow:row nowrap;font-size:14px;text-align:right;white-space:nowrap}.d0874d-list>.header .sources .btn-source{background:none;border:0;color:inherit;cursor:pointer;display:inline-block;margin:0 0 0 .75em;padding:0;transition:-webkit-transform .2s ease-out;transition:transform .2s ease-out;transition:transform .2s ease-out,-webkit-transform .2s ease-out}html.is-hover .d0874d-list>.header .sources .btn-source:hover{-webkit-transform:scale(1.2);transform:scale(1.2)}html.is-hover .d0874d-list>.header .sources .btn-source:focus{outline:0}html.is-hover .d0874d-list>.header .sources .btn-source:focus:not(:active){-webkit-transform:scale(1.2);transform:scale(1.2)}.d0874d-list>.header .sources .btn-source:active,html.is-hover .d0874d-list>.header .sources .btn-source:hover:active{-webkit-transform:scale(.95);transform:scale(.95)}.d0874d-list>.header .sources .btn-source .icon{fill:currentColor;color:inherit;height:24px;width:24px}.d0874d-list>.header .sources .btn-source.is-on[data-source=bilibili]{color:#07a3d7}.d0874d-list>.header .sources .btn-source.is-on[data-source=youtube]{color:red}.d0874d-list>.header .tags{flex:1 0 100%;margin-top:.75em;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.d0874d-list>.header .tags .seperator{display:block}.d0874d-list>.header .tags .seperator~a .tag:not(.is-on){background:rgba(120,144,155,.05);border-color:transparent;box-shadow:inset 0 0 3px rgba(120,144,155,.85);color:#78909b}.d0874d-list>.header .tags .seperator~a .tag:not(.is-on):hover{box-shadow:inset 0 0 3px rgba(54,70,78,.85);color:#36464e}.d0874d-list>.header .tags .tag{cursor:pointer;margin:.75em .75em 0 0}.d0874d-list>.header .tags .tag.is-on{cursor:default}.d0874d-list>.header .tags .tag.is-on:after{border:6px solid transparent;border-bottom-color:inherit;content:"";left:50%;margin-left:-6px;margin-top:.5em;position:absolute;top:50%}@media only screen and (max-width:759px){.d0874d-list>.header .tags{display:none}}.d0874d-list>.list-wrapper{border-top:15px solid transparent}.d0874d-footer{cursor:default;font-size:14px;line-height:1.5;padding:26px 0;text-align:center}';/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({wrapper,css});
-
-/***/ }),
-
-/***/ "./src/assets/icon-kaiheila.svg":
-/*!**************************************!*\
-  !*** ./src/assets/icon-kaiheila.svg ***!
-  \**************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.abd61909accc04205148d79be6a55e1d.svg");
-
-/***/ }),
-
-/***/ "./src/assets/sim-pilot-plate.svg":
-/*!****************************************!*\
-  !*** ./src/assets/sim-pilot-plate.svg ***!
-  \****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.2703dbafaffc8066597114554adab17f.svg");
+/* harmony import */ var D_Projects_diablohu_sp_diablohu_com_src_assets_icon_kaiheila_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./src/assets/icon-kaiheila.svg */ "./src/assets/icon-kaiheila.svg");
+const wrapper = 'd0874d';const css = '.d0874d,.d0874d-banner{position:relative}.d0874d-banner{background:no-repeat 50% 50%;background-image:url("' + _assets_banner_cover_jpg__WEBPACK_IMPORTED_MODULE_0__ + '");background-size:cover;height:75vh;max-height:800px;min-height:340px;overflow:hidden;width:100%}.d0874d-banner:after,.d0874d-banner:before,.d0874d-banner>.video,.d0874d-banner>.wrapper{bottom:0;content:"";flex:none;left:0;position:absolute;right:0;top:0}.d0874d-banner:after{background:rgba(0,0,0,.15);z-index:10}.d0874d-banner:before{background-image:radial-gradient(rgba(0,0,0,.1) 66.6667%,transparent 0);background-size:4px 4px;z-index:100}.d0874d-banner>.wrapper{--scale:1;align-items:center;display:flex;flex-flow:column nowrap;justify-content:space-around;opacity:var(--scale);padding:0 30px;-webkit-transform:scale(var(--scale));transform:scale(var(--scale));-webkit-transform-origin:50% 100%;transform-origin:50% 100%;z-index:200}.d0874d-banner>.wrapper:after,.d0874d-banner>.wrapper:before{content:"";flex:1}.d0874d-banner>.video{--offsetY:0;background:no-repeat 50% 50%;background-image:url("' + _assets_banner_cover_jpg__WEBPACK_IMPORTED_MODULE_0__ + '");background-size:cover;height:100%;object-fit:cover;-webkit-transform:translateY(calc(var(--offsetY)*1px));transform:translateY(calc(var(--offsetY)*1px));width:100%;z-index:1}.d0874d-banner .logo{background:url("' + _assets_sim_pilot_plate_svg__WEBPACK_IMPORTED_MODULE_1__ + '") no-repeat 50% 50%;background-size:contain;color:transparent;flex:1;margin:0;min-height:200px;padding:0;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.d0874d-banner .subscribe{flex:none;padding-top:calc(5vh - 1em);text-align:center}.d0874d-banner .subscribe>a{border-radius:10px;color:#fff;display:inline-block;line-height:40px;margin:1em 10px 0;padding-left:60px;padding-right:20px;position:relative;text-decoration:none;transition:-webkit-transform .2s ease-out;transition:transform .2s ease-out;transition:transform .2s ease-out,-webkit-transform .2s ease-out}.d0874d-banner .subscribe>a>.icon{fill:#fff;background:no-repeat 50% 50%;background-size:contain;bottom:7px;content:"";display:block;height:26px;left:10px;position:absolute;top:7px;width:40px}.d0874d-banner .subscribe>a.youtube{background:red}.d0874d-banner .subscribe>a.bilibili{background:#07a3d7}.d0874d-banner .subscribe>a.qun{background:#46a5f7}.d0874d-banner .subscribe>a.qun:before{fill:#fff;background:url("' + D_Projects_diablohu_sp_diablohu_com_src_assets_icon_kaiheila_svg__WEBPACK_IMPORTED_MODULE_2__ + '") no-repeat 50% 50%;background-size:contain;bottom:0;content:"";display:block;height:40px;left:10px;position:absolute;top:0;width:40px}html.is-hover .d0874d-banner .subscribe>a:hover{color:#fff;-webkit-transform:scale(1.1);transform:scale(1.1)}html.is-hover .d0874d-banner .subscribe>a:focus{outline:0}html.is-hover .d0874d-banner .subscribe>a:focus:not(:active){color:#fff;-webkit-transform:scale(1.1);transform:scale(1.1)}.d0874d-banner .subscribe>a:active,html.is-hover .d0874d-banner .subscribe>a:hover:active{color:#fff;-webkit-transform:scale(.95);transform:scale(.95)}.d0874d-banner.mod-pwa{height:50vh}.d0874d-list{padding:20px 0 60px;position:relative}.d0874d-list:after,.d0874d-list:before{bottom:0;content:"";left:0;position:absolute;right:0;top:0}.d0874d-list:before{background:radial-gradient(ellipse at bottom,#f6f8f8 25%,#d7dee2 100%);z-index:-2}.d0874d-list:after{background:linear-gradient(135deg,#708090 21px,#d9ecff 22px,#d9ecff 24px,transparent 0,transparent 67px,#d9ecff 0,#d9ecff 69px,transparent 0),linear-gradient(225deg,#708090 21px,#d9ecff 22px,#d9ecff 24px,transparent 0,transparent 67px,#d9ecff 0,#d9ecff 69px,transparent 0) 0 64px;background-color:#708090;background-size:64px 128px;opacity:.05;z-index:-1}.d0874d-list>.header{padding:20px 0 24px;position:sticky;top:-1px;transition:none .2s ease-out;transition-property:box-shadow;z-index:50}.d0874d-list>.header:after{background:hsla(0,0%,100%,.95);border-bottom:1px solid rgba(0,0,0,.15);bottom:0;content:"";left:0;opacity:0;position:absolute;right:0;top:-20px;transition:inherit;transition-property:opacity;z-index:-1}@supports ((-webkit-backdrop-filter:blur(20px) saturate(180%)) or (backdrop-filter:blur(20px) saturate(180%))){.d0874d-list>.header:after{background:hsla(0,0%,100%,.65)}}.d0874d-list>.header>.wrapper{align-items:center;display:flex;flex-flow:row wrap;justify-content:space-around}.d0874d-list>.header.is-sticky{box-shadow:0 0 10px rgba(0,0,0,.1)}.d0874d-list>.header.is-sticky:after{-webkit-backdrop-filter:blur(20px) saturate(180%);backdrop-filter:blur(20px) saturate(180%);opacity:1}.d0874d-list>.header .title{flex:1;margin:0;position:relative}.d0874d-list>.header .title .sm{display:none}@media only screen and (max-width:759px){.d0874d-list>.header .title{color:transparent}.d0874d-list>.header .title .sm{bottom:-5px;color:var(--root-content-color);display:block;left:0;padding-left:30px;padding-top:5px;position:absolute;right:0;top:-5px}.d0874d-list>.header .title .sm .icon{height:24px;left:0;margin-top:-12px;position:absolute;top:50%;width:24px}.d0874d-list>.header .title .sm select{height:100%;left:0;opacity:0;position:absolute;top:0;width:100%;z-index:5}}.d0874d-list>.header .sources{align-items:center;color:#78909b;cursor:default;display:flex;flex-flow:row nowrap;font-size:14px;text-align:right;white-space:nowrap}.d0874d-list>.header .sources .btn-source{background:none;border:0;color:inherit;cursor:pointer;display:inline-block;margin:0 0 0 .75em;padding:0;transition:-webkit-transform .2s ease-out;transition:transform .2s ease-out;transition:transform .2s ease-out,-webkit-transform .2s ease-out}html.is-hover .d0874d-list>.header .sources .btn-source:hover{-webkit-transform:scale(1.2);transform:scale(1.2)}html.is-hover .d0874d-list>.header .sources .btn-source:focus{outline:0}html.is-hover .d0874d-list>.header .sources .btn-source:focus:not(:active){-webkit-transform:scale(1.2);transform:scale(1.2)}.d0874d-list>.header .sources .btn-source:active,html.is-hover .d0874d-list>.header .sources .btn-source:hover:active{-webkit-transform:scale(.95);transform:scale(.95)}.d0874d-list>.header .sources .btn-source .icon{fill:currentColor;color:inherit;height:24px;width:24px}.d0874d-list>.header .sources .btn-source.is-on[data-source=bilibili]{color:#07a3d7}.d0874d-list>.header .sources .btn-source.is-on[data-source=youtube]{color:red}.d0874d-list>.header .tags{flex:1 0 100%;margin-top:.75em;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.d0874d-list>.header .tags .seperator{display:block}.d0874d-list>.header .tags .seperator~a .tag:not(.is-on){background:rgba(120,144,155,.05);border-color:transparent;box-shadow:inset 0 0 3px rgba(120,144,155,.85);color:#78909b}.d0874d-list>.header .tags .seperator~a .tag:not(.is-on):hover{box-shadow:inset 0 0 3px rgba(54,70,78,.85);color:#36464e}.d0874d-list>.header .tags .tag{cursor:pointer;margin:.75em .75em 0 0}.d0874d-list>.header .tags .tag.is-on{cursor:default}.d0874d-list>.header .tags .tag.is-on:after{border:6px solid transparent;border-bottom-color:inherit;content:"";left:50%;margin-left:-6px;margin-top:.5em;position:absolute;top:50%}@media only screen and (max-width:759px){.d0874d-list>.header .tags{display:none}}.d0874d-list>.list-wrapper{border-top:15px solid transparent}.d0874d-footer{cursor:default;font-size:14px;line-height:1.5;padding:26px 0;text-align:center}';/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({wrapper,css});
 
 /***/ }),
 
@@ -16162,7 +16102,7 @@ const getChunkmap = (localeId, getFullResult = false, ignoreCache = false) => {
     if (typeof global.chunkmap === 'object') chunkmap = global.chunkmap;
 
     try {
-      chunkmap = JSON.parse("{\".zh\":{\".public\":\"public/\",\".out\":\"public/\",\".entrypoints\":{\"critical\":[\"public/includes/extract.122.c7dbbd35180b977b7536.css\",\"public/includes/entry.c7dbbd35180b977b7536.js\"],\"__KOOT__CLIENT__RUN__FIRST__\":[\"public/includes/entry.9d83f8bb816fd520461a.js\"],\"client\":[\"public/includes/entry.c42a18184d999f9ff190.js\",\"public/includes/entry.383c0e2a2478496a3390.js\",\"public/includes/entry.84068561147a5dde3802.js\"]},\".files\":{\"critical.css\":\"public/includes/extract.122.c7dbbd35180b977b7536.css\",\"critical.js\":\"public/includes/entry.c7dbbd35180b977b7536.js\",\"__KOOT__CLIENT__RUN__FIRST__.js\":\"public/includes/entry.9d83f8bb816fd520461a.js\",\"client.js\":\"public/includes/entry.84068561147a5dde3802.js\",\"libs.js\":\"public/includes/entry.c42a18184d999f9ff190.js\",\"vendors.js\":\"public/includes/entry.383c0e2a2478496a3390.js\",\"__KOOT__EXTRACT__CSS__.css\":\"public/includes/extract.all.14dcf092e5523a8dc68ea95608ea9f92.small.css\"},\"service-worker\":[\"public/service-worker.zh.js\"],\".htmlMetaTags__\":\"<link rel=\\\"shortcut icon\\\" href=\\\"/includes/webapp.d4ff8bbc/favicon.ico\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"16x16\\\" href=\\\"/includes/webapp.d4ff8bbc/favicon-16x16.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"32x32\\\" href=\\\"/includes/webapp.d4ff8bbc/favicon-32x32.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"48x48\\\" href=\\\"/includes/webapp.d4ff8bbc/favicon-48x48.png\\\"><link rel=\\\"manifest\\\" href=\\\"/includes/webapp.d4ff8bbc/manifest.json\\\"><meta name=\\\"mobile-web-app-capable\\\" content=\\\"yes\\\"><meta name=\\\"theme-color\\\" content=\\\"#0898d8\\\"><meta name=\\\"application-name\\\" content=\\\"飞行员大波胡\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"57x57\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-icon-57x57.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"60x60\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-icon-60x60.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"72x72\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-icon-72x72.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"76x76\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-icon-76x76.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"114x114\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-icon-114x114.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"120x120\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-icon-120x120.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"144x144\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-icon-144x144.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"152x152\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-icon-152x152.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"167x167\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-icon-167x167.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"180x180\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-icon-180x180.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"1024x1024\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-icon-1024x1024.png\\\"><meta name=\\\"apple-mobile-web-app-capable\\\" content=\\\"yes\\\"><meta name=\\\"apple-mobile-web-app-status-bar-style\\\" content=\\\"black-translucent\\\"><meta name=\\\"apple-mobile-web-app-title\\\" content=\\\"飞行大波胡\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-640x1136.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-750x1334.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-828x1792.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-1125x2436.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-1242x2208.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-1242x2688.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-1536x2048.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-1668x2224.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-1668x2388.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-2048x2732.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-1620x2160.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-1136x640.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-1334x750.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-1792x828.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-2436x1125.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-2208x1242.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-2688x1242.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-2048x1536.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-2224x1668.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-2388x1668.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-2732x2048.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.d4ff8bbc/apple-touch-startup-image-2160x1620.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"228x228\\\" href=\\\"/includes/webapp.d4ff8bbc/coast-228x228.png\\\"><meta name=\\\"msapplication-TileColor\\\" content=\\\"#212121\\\"><meta name=\\\"msapplication-TileImage\\\" content=\\\"/includes/webapp.d4ff8bbc/mstile-144x144.png\\\"><meta name=\\\"msapplication-config\\\" content=\\\"/includes/webapp.d4ff8bbc/browserconfig.xml\\\"><link rel=\\\"yandex-tableau-widget\\\" href=\\\"/includes/webapp.d4ff8bbc/yandex-browser-manifest.json\\\">\"}}");
+      chunkmap = JSON.parse("{\".zh\":{\".public\":\"public/\",\".out\":\"public/\",\".entrypoints\":{\"critical\":[\"public/includes/extract.122.c7dbbd35180b977b7536.css\",\"public/includes/entry.c7dbbd35180b977b7536.js\"],\"__KOOT__CLIENT__RUN__FIRST__\":[\"public/includes/entry.9d83f8bb816fd520461a.js\"],\"client\":[\"public/includes/entry.c42a18184d999f9ff190.js\",\"public/includes/entry.7ea8f9ce230dc5568286.js\",\"public/includes/entry.3b97ad5d74444c2b029e.js\"]},\".files\":{\"critical.css\":\"public/includes/extract.122.c7dbbd35180b977b7536.css\",\"critical.js\":\"public/includes/entry.c7dbbd35180b977b7536.js\",\"__KOOT__CLIENT__RUN__FIRST__.js\":\"public/includes/entry.9d83f8bb816fd520461a.js\",\"client.js\":\"public/includes/entry.3b97ad5d74444c2b029e.js\",\"libs.js\":\"public/includes/entry.c42a18184d999f9ff190.js\",\"vendors.js\":\"public/includes/entry.7ea8f9ce230dc5568286.js\",\"__KOOT__EXTRACT__CSS__.css\":\"public/includes/extract.all.14dcf092e5523a8dc68ea95608ea9f92.small.css\"},\"service-worker\":[\"public/service-worker.zh.js\"],\".htmlMetaTags__\":\"<link rel=\\\"shortcut icon\\\" href=\\\"/includes/webapp.9d69f99a/favicon.ico\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"16x16\\\" href=\\\"/includes/webapp.9d69f99a/favicon-16x16.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"32x32\\\" href=\\\"/includes/webapp.9d69f99a/favicon-32x32.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"48x48\\\" href=\\\"/includes/webapp.9d69f99a/favicon-48x48.png\\\"><link rel=\\\"manifest\\\" href=\\\"/includes/webapp.9d69f99a/manifest.json\\\"><meta name=\\\"mobile-web-app-capable\\\" content=\\\"yes\\\"><meta name=\\\"theme-color\\\" content=\\\"#0898d8\\\"><meta name=\\\"application-name\\\" content=\\\"飞行员大波胡\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"57x57\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-57x57.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"60x60\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-60x60.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"72x72\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-72x72.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"76x76\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-76x76.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"114x114\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-114x114.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"120x120\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-120x120.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"144x144\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-144x144.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"152x152\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-152x152.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"167x167\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-167x167.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"180x180\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-180x180.png\\\"><link rel=\\\"apple-touch-icon\\\" sizes=\\\"1024x1024\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-icon-1024x1024.png\\\"><meta name=\\\"apple-mobile-web-app-capable\\\" content=\\\"yes\\\"><meta name=\\\"apple-mobile-web-app-status-bar-style\\\" content=\\\"black-translucent\\\"><meta name=\\\"apple-mobile-web-app-title\\\" content=\\\"飞行大波胡\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-640x1136.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-750x1334.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-828x1792.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1125x2436.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1242x2208.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1242x2688.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1536x2048.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1668x2224.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1668x2388.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2048x2732.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1620x2160.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1136x640.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1334x750.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-1792x828.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2436x1125.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2208x1242.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2688x1242.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2048x1536.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2224x1668.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2388x1668.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2732x2048.png\\\"><link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)\\\" href=\\\"/includes/webapp.9d69f99a/apple-touch-startup-image-2160x1620.png\\\"><link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"228x228\\\" href=\\\"/includes/webapp.9d69f99a/coast-228x228.png\\\"><meta name=\\\"msapplication-TileColor\\\" content=\\\"#212121\\\"><meta name=\\\"msapplication-TileImage\\\" content=\\\"/includes/webapp.9d69f99a/mstile-144x144.png\\\"><meta name=\\\"msapplication-config\\\" content=\\\"/includes/webapp.9d69f99a/browserconfig.xml\\\"><link rel=\\\"yandex-tableau-widget\\\" href=\\\"/includes/webapp.9d69f99a/yandex-browser-manifest.json\\\">\"}}");
     } catch (e) {
       chunkmap = false;
     }
@@ -67044,10 +66984,10 @@ const Banner = (0,koot__WEBPACK_IMPORTED_MODULE_16__["default"])({
       ref: VideoRef,
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("source", {
         type: "video/webm",
-        src: (__webpack_require__(/*! @assets/banner/30fps/medium.webm */ "./src/assets/banner/30fps/medium.webm")["default"])
+        src: __webpack_require__(/*! @assets/banner/30fps/medium.webm */ "./src/assets/banner/30fps/medium.webm")
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("source", {
         type: "video/mp4",
-        src: (__webpack_require__(/*! @assets/banner/30fps/low.mp4 */ "./src/assets/banner/30fps/low.mp4")["default"])
+        src: __webpack_require__(/*! @assets/banner/30fps/low.mp4 */ "./src/assets/banner/30fps/low.mp4")
       })]
     })]
   });
@@ -67531,34 +67471,33 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var node_cache__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! node-cache */ "./node_modules/node-cache/index.js");
-/* harmony import */ var node_cache__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(node_cache__WEBPACK_IMPORTED_MODULE_1__);
+// import type { AxiosResponse } from 'axios';
+ // import NodeCache from 'node-cache';
+// const SanityCache = new NodeCache({
+//     useClones: false,
+//     checkperiod: 60 * 30, // 30 minutes
+// });
 
-
-const SanityCache = new (node_cache__WEBPACK_IMPORTED_MODULE_1___default())({
-  useClones: false,
-  checkperiod: 60 * 30 // 30 minutes
-
-});
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (router => {
   router.post('/query/:qs', async ctx => {
-    const cachedValue = SanityCache.get(ctx.params.qs);
-
-    if (cachedValue) {
-      // console.log(1111, 'cache hit');
-      return new Promise(resolve => resolve(cachedValue));
-    }
-
+    // const cachedValue = SanityCache.get(ctx.params.qs);
+    // if (cachedValue) {
+    //     // console.log(1111, 'cache hit');
+    //     return new Promise((resolve) =>
+    //         resolve(cachedValue as Promise<AxiosResponse>)
+    //     );
+    // }
     const PROJECT_ID = 'w0egla5g';
     const DATASET = 'production';
     const QUERY = encodeURIComponent(ctx.params.qs); // Compose the URL for your project's endpoint and add the query
 
-    const URL = `https://${PROJECT_ID}.apicdn.sanity.io/v2021-10-21/data/query/${DATASET}?query=${QUERY}`;
-    return axios__WEBPACK_IMPORTED_MODULE_0___default().get(URL).then(res => {
-      // console.log(1111, SanityCache, ctx.params.qs);
-      SanityCache.set(ctx.params.qs, res);
-      return res;
-    });
+    const URL = `https://${PROJECT_ID}.apicdn.sanity.io/v2021-10-21/data/query/${DATASET}?query=${QUERY}`; // return axios.get(URL).then((res) => {
+    //     // console.log(1111, SanityCache, ctx.params.qs);
+    //     SanityCache.set(ctx.params.qs, res);
+    //     return res;
+    // });
+
+    return axios__WEBPACK_IMPORTED_MODULE_0___default().get(URL);
   });
 });
 
@@ -67645,18 +67584,58 @@ const Tag = (0,koot__WEBPACK_IMPORTED_MODULE_3__["default"])({
 
 /***/ }),
 
+/***/ "./src/assets/banner/30fps/low.mp4":
+/*!*****************************************!*\
+  !*** ./src/assets/banner/30fps/low.mp4 ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "includes/asset.3351ea8124a215427fef.mp4";
+
+/***/ }),
+
+/***/ "./src/assets/banner/30fps/medium.webm":
+/*!*********************************************!*\
+  !*** ./src/assets/banner/30fps/medium.webm ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "includes/asset.266a6a660ebf0880f0c2.webm";
+
+/***/ }),
+
 /***/ "./src/assets/banner/cover.jpg":
 /*!*************************************!*\
   !*** ./src/assets/banner/cover.jpg ***!
   \*************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "includes/asset.3c37282f79b4bd73d8d49c0b030381d4.jpg");
+module.exports = __webpack_require__.p + "includes/asset.3c37282f79b4bd73d8d4.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/icon-kaiheila.svg":
+/*!**************************************!*\
+  !*** ./src/assets/icon-kaiheila.svg ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "includes/asset.789565cf3f4bf416a4d5.svg";
+
+/***/ }),
+
+/***/ "./src/assets/sim-pilot-plate.svg":
+/*!****************************************!*\
+  !*** ./src/assets/sim-pilot-plate.svg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "includes/asset.2703dbafaffc80665971.svg";
 
 /***/ }),
 
