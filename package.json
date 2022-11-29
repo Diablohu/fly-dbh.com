@@ -32,7 +32,8 @@
         "bind-event": "^1.1.2",
         "classnames": "^2.3.1",
         "koa-range": "^0.3.0",
-        "koot": "^0.15.12",
+        "koot": "^0.15.13",
+        "md5-file": "^5.0.0",
         "mime": "^2.5.2",
         "node-cache": "^5.1.2",
         "query-string": "^7.1.1"
@@ -47,6 +48,7 @@
         "cssnano": "^5.1.13",
         "eslint": "^7.32.0",
         "eslint-config-koot": "^3.1.1",
+        "glob-promise": "^5.0.0",
         "husky": "^8.0.1",
         "lint-staged": "^11.1.2",
         "normalize.css": "^8.0.1",
@@ -55,9 +57,7 @@
         "pretty-ms": "^7.0.1",
         "redux-logger": "^3.0.6",
         "simple-git": "^2.45.1",
-        "string-replace-async": "^2.0.0",
-        "svg-url-loader": "^7.1.1",
-        "url-loader": "^4.1.0"
+        "string-replace-async": "^2.0.0"
     },
     "bugs": {
         "url": "https://github.com/cmux/koot/issues"
@@ -77,6 +77,6 @@
         ]
     },
     "koot": {
-        "version": "0.15.12"
+        "version": "0.15.13"
     }
 }

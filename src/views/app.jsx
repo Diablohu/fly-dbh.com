@@ -215,13 +215,11 @@ const Banner = extend({
                 >
                     <source
                         type="video/webm"
-                        src={
-                            require('@assets/banner/30fps/medium.webm').default
-                        }
+                        src={require('@assets/banner/30fps/medium.webm')}
                     />
                     <source
                         type="video/mp4"
-                        src={require('@assets/banner/30fps/low.mp4').default}
+                        src={require('@assets/banner/30fps/low.mp4')}
                     />
                 </video>
             </div>

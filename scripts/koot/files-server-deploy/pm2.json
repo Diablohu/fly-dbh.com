@@ -1,0 +1,11 @@
+{
+    "apps": [
+        {
+            "name": "flydbh-server",
+            "script": "start.js",
+            "max_memory_restart": "100M",
+            "out_file": "logs/server.log",
+            "error_file": "logs/server-error.log"
+        }
+    ]
+}

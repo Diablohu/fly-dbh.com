@@ -5744,14 +5744,6 @@ file-entry-cache@^6.0.1:
   dependencies:
     flat-cache "^3.0.4"
 
-file-loader@~6.2.0:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/file-loader/-/file-loader-6.2.0.tgz#baef7cf8e1840df325e4390b4484879480eebe4d"
-  integrity sha512-qo3glqyTa61Ytg4u73GultjHGjdRyig3tG6lPtyX/jOEJvHif9uB0/OCI2Kif6ctF3caQTW2G5gym21oAsI4pw==
-  dependencies:
-    loader-utils "^2.0.0"
-    schema-utils "^3.0.0"
-
 file-type@^3.1.0, file-type@^3.8.0:
   version "3.9.0"
   resolved "https://registry.yarnpkg.com/file-type/-/file-type-3.9.0.tgz#257a078384d1db8087bc449d107d52a52672b9e9"
@@ -7379,10 +7371,10 @@ koot-cli-kit@^0.0.3:
   dependencies:
     ora "^5.4.1"
 
-koot-webpack@^0.15.12:
-  version "0.15.12"
-  resolved "https://registry.yarnpkg.com/koot-webpack/-/koot-webpack-0.15.12.tgz#f5c2d040b7ab437db77e07a6596af45ed5bf056f"
-  integrity sha512-uMClPYHpm85ZheQwPuJj5O8Y+JQ6h40KHUFyBBWOJ7PUxjgNNqgGxxITlHn/VGQQfO+Vg0QXX1mh1rUUH2G4aA==
+koot-webpack@^0.15.13:
+  version "0.15.13"
+  resolved "https://registry.yarnpkg.com/koot-webpack/-/koot-webpack-0.15.13.tgz#90d6d2aa204dc74c744d46d6edbfee7a21f670e3"
+  integrity sha512-Izsu12jgNZz3RpQJ/EoN8QqL4XEvGzw+1Ab5p5lpUWwOEC3Ws+VkIAiq9aTFThgk9jaEulboOeBaYqjB2Qping==
   dependencies:
     "@babel/core" "^7.18.9"
     "@babel/helper-module-imports" "^7.18.6"
@@ -7429,10 +7421,10 @@ koot-webpack@^0.15.12:
     webpack-hot-middleware "^2.25.1"
     workbox-webpack-plugin "^6.5.4"
 
-koot@^0.15.12:
-  version "0.15.12"
-  resolved "https://registry.yarnpkg.com/koot/-/koot-0.15.12.tgz#06594a34841a633112abdaa5ccf7e02bc5c203e5"
-  integrity sha512-I34/Z9ip38+z+o37mSViBpu5oFfZ1S2P+OhjhXJ1gu4zoHSqhimr3BgHUYUuvNDhEQJI95wElOByvH1GSpdFAA==
+koot@^0.15.13:
+  version "0.15.13"
+  resolved "https://registry.yarnpkg.com/koot/-/koot-0.15.13.tgz#b573d488c4ff3b5c6d9570498fe558a876873c3d"
+  integrity sha512-RDcU82At9A0kWDgCXu3muTfs5MG9qOj0d2G5xJlpZfE8L4vVdF3LiLOAFPdPomt4Up10voHymcL/zpJUArS5fA==
   dependencies:
     "@types/inquirer" "^8.2.1"
     "@types/lodash" "^4.14.182"
@@ -7472,7 +7464,7 @@ koot@^0.15.12:
     koa-router "^11.0.1"
     koa-static "^5.0.0"
     koot-cli-kit "^0.0.3"
-    koot-webpack "^0.15.12"
+    koot-webpack "^0.15.13"
     lodash "^4.17.21"
     md5 "^2.3.0"
     npm-run-script "^0.0.4"
@@ -7648,7 +7640,7 @@ loader-utils@^1.1.0:
     emojis-list "^3.0.0"
     json5 "^1.0.1"
 
-loader-utils@^2.0.0, loader-utils@~2.0.0:
+loader-utils@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-2.0.0.tgz#e4cace5b816d425a166b5f097e10cd12b36064b0"
   integrity sha512-rP4F0h2RaWSvPEkD7BLDFQnvSf+nK+wr3ESUjNTyAGobqrijmW92zc+SO6d4p4B1wh7+B/Jg1mkQe5NYUEHtHQ==
@@ -7830,6 +7822,11 @@ map-stream@~0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/map-stream/-/map-stream-0.1.0.tgz#e56aa94c4c8055a16404a0674b78f215f7c8e194"
   integrity sha1-5WqpTEyAVaFkBKBnS3jyFffI4ZQ=
+
+md5-file@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/md5-file/-/md5-file-5.0.0.tgz#e519f631feca9c39e7f9ea1780b63c4745012e20"
+  integrity sha512-xbEFXCYVWrSx/gEKS1VPlg84h/4L20znVIulKw6kMfmBUAZNAnF00eczz9ICMl+/hjQGo5KSXRxbL/47X3rmMw==
 
 md5@^2.3.0:
   version "2.3.0"
@@ -10724,14 +10721,6 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
-svg-url-loader@^7.1.1:
-  version "7.1.1"
-  resolved "https://registry.yarnpkg.com/svg-url-loader/-/svg-url-loader-7.1.1.tgz#0cbdb30beb8679cb060c12eaf30085747fa7591f"
-  integrity sha512-NlsMCePODm7FQhU9aEZyGLPx5Xe1QRI1cSEUE6vTq5LJc9l9pStagvXoEIyZ9O3r00w6G3+Wbkimb+SC3DI/Aw==
-  dependencies:
-    file-loader "~6.2.0"
-    loader-utils "~2.0.0"
-
 svgo@^2.7.0:
   version "2.8.0"
   resolved "https://registry.yarnpkg.com/svgo/-/svgo-2.8.0.tgz#4ff80cce6710dc2795f0c7c74101e6764cfccd24"
@@ -11250,15 +11239,6 @@ uri-js@^4.2.2:
   integrity sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==
   dependencies:
     punycode "^2.1.0"
-
-url-loader@^4.1.0:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/url-loader/-/url-loader-4.1.1.tgz#28505e905cae158cf07c92ca622d7f237e70a4e2"
-  integrity sha512-3BTV812+AVHHOJQO8O5MkWgZ5aosP7GnROJwvzLS9hWDj00lZ6Z0wNak423Lp9PBZN05N+Jk/N5Si8jRAlGyWA==
-  dependencies:
-    loader-utils "^2.0.0"
-    mime-types "^2.1.27"
-    schema-utils "^3.0.0"
 
 url-regex@^3.0.0:
   version "3.2.0"

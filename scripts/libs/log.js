@@ -8,7 +8,7 @@ const log = (emoji, msg, logging = true) => {
 
     const m = `${emoji === true ? chalk.green('√') : emoji}${
         emoji === '' ? '' : ' '
-    }${chalk.redBright('[sp.diablohu.com]')} ${msg}`;
+    }${chalk.redBright('[fly-dbh]')} ${msg}`;
 
     if (logging) console.log(m);
     return m;

@@ -65,6 +65,7 @@ module.exports = {
      * 打包 & Webpack
      *************************************************************************/
     beforeBuild: require('./scripts/koot/before-build'),
+    afterBuild: require('./scripts/koot/after-build'),
     // ! 请查阅文档中有关 Webpack 设定的注意事项
     // ! https://koot.js.org/#/config?id=webpackconfig
     webpackConfig: async () => ({
@@ -83,11 +84,6 @@ module.exports = {
         },
 
         module: {
-            generator: {
-                asset: {
-                    emit: process.env.WEBPACK_BUILD_STAGE !== 'server',
-                },
-            },
             rules: [
                 /**
                  * Koot.js 会为以下类型的文件自动添加 loader，无需进行配置
@@ -95,26 +91,17 @@ module.exports = {
                  * - `css` `sass` `less`
                  */
                 {
-                    test: /\.(ico|gif|jpg|jpeg|png|webp)$/,
-                    loader: 'url-loader',
-                    // type: 'asset',
-                    options: {
-                        limit: 2 * 1024,
+                    test: /\.(ico|gif|jpg|jpeg|png|webp|svg)$/,
+                    type: 'asset',
+                    parser: {
+                        dataUrlCondition: {
+                            maxSize: 5 * 1024, // 5kb
+                        },
                     },
                 },
                 {
                     test: /\.(ttf|ttc|eot|woff|woff2|mp4|webm)$/,
-                    loader: 'file-loader',
-                    // type: 'asset/resource',
-                },
-                {
-                    test: /\.svg$/,
-                    loader: 'svg-url-loader',
-                    exclude: /node_modules/,
-                    options: {
-                        noquotes: true,
-                        limit: 5 * 1024,
-                    },
+                    type: 'asset/resource',
                 },
             ],
         },
