@@ -1,18 +1,6 @@
 # Sim-Pilot Diablohu
 
-[sp.diablohu.com](https://sp.diablohu.com) 源代码
-
----
-
-## 如何更新数据
-
-> 当前，更新任何数据均需要重新构建并部署。关于构建和部署请参阅下文“开发信息”。
-
-> 所有图片在构建时会自动压缩为适合的尺寸，无需特意处理。
-
-### 语言包
-
--   语言包文件为标准的 _JSON_ 文件，均存放在 `/src/locales/` 目录下。
+[fly-dbh.com](https://fly-dbh.com) 源代码
 
 ---
 
@@ -24,6 +12,10 @@
 -   包管理器: _Yarn_
 -   代码检测: _ESLint_
 -   代码自动修正: _Prettier_
+
+### 语言包
+
+-   语言包文件为标准的 _JSON_ 文件，均存放在 `/src/locales/` 目录下。
 
 ### 开始开发
 
