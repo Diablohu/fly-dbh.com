@@ -314,23 +314,29 @@ const List = extend({
             // eslint-disable-next-line react-hooks/exhaustive-deps
         }, []);
 
-        function selectSource(evt) {
-            evt.preventDefault();
-            const targetSource = evt.currentTarget.getAttribute('data-source');
-            const newSource =
-                targetSource === source ? undefined : targetSource;
-            setSource(newSource);
-            if (newSource)
-                Cookies.set(cookieNameVideoSource, newSource, { expires: 365 });
-            else Cookies.remove(cookieNameVideoSource);
-        }
-        function selectTag(evt) {
+        const selectSource = useCallback(
+            function (evt) {
+                evt.preventDefault();
+                const targetSource =
+                    evt.currentTarget.getAttribute('data-source');
+                const newSource =
+                    targetSource === source ? undefined : targetSource;
+                setSource(newSource);
+                if (newSource)
+                    Cookies.set(cookieNameVideoSource, newSource, {
+                        expires: 365,
+                    });
+                else Cookies.remove(cookieNameVideoSource);
+            },
+            [source]
+        );
+        const selectTag = useCallback(function (evt) {
             setTimeout(() => {
                 scrollToList();
             }, 10);
             // const targetTag = evt.currentTarget.getAttribute('data-tag');
             // setTag(targetTag === tag ? undefined : targetTag);
-        }
+        }, []);
 
         const onSelect = useCallback(
             function (e) {
