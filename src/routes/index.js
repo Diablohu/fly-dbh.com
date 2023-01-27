@@ -1,4 +1,6 @@
-// import routeCheck from 'koot/React/route-check';
+/* eslint-disable import/no-anonymous-default-export */
+
+import routeCheck from 'koot/React/route-check';
 import App from '@views/app';
 
 /**
@@ -33,6 +35,18 @@ export default {
     // },
 
     childRoutes: [
+        {
+            path: '/tools/ofp-pax-calc',
+            getComponent: (nextState, cb) => {
+                import(
+                    /* webpackChunkName: "PageToolOFPPaxCalc" */
+                    '@views/tools/ofp-pax-calc'
+                ).then((module) => {
+                    if (routeCheck(nextState)) cb(null, module.default);
+                });
+            },
+        },
+
         {
             path: ':category',
         },

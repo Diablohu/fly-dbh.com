@@ -25,7 +25,7 @@
         "eslint": "eslint \"src/**/*.+(js|jsx)\"",
         "check-types": "tsc --noEmit",
         "postinstall": "husky install",
-        "up": "npx ncu -i"
+        "up": "npx npm-check-updates -i"
     },
     "dependencies": {
         "axios": "^0.27.2",
@@ -46,15 +46,16 @@
         "autoprefixer": "^10.4.13",
         "babel-eslint": "^10.1.0",
         "cssnano": "^5.1.14",
-        "eslint": "^8.30.0",
+        "eslint": "^8.32.0",
         "eslint-config-koot": "^4.0.0",
         "glob-promise": "^5.0.0",
-        "husky": "^8.0.2",
+        "husky": "^8.0.3",
         "lint-staged": "^13.1.0",
         "normalize.css": "^8.0.1",
-        "prettier": "^2.8.1",
+        "prettier": "^2.8.3",
         "prettier-eslint": "^15.0.1",
         "pretty-ms": "^7.0.1",
+        "progress": "^2.0.3",
         "redux-logger": "^3.0.6",
         "simple-git": "^2.45.1",
         "string-replace-async": "^2.0.0"

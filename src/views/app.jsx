@@ -65,7 +65,7 @@ const App = extend({
         ]);
     },
     styles,
-})(({ className, dispatch, params, router }) => {
+})(({ className, dispatch, params, router, children }) => {
     const [listStickyValue, setListStickyValue] = useState(false);
     const { category } = params;
     return (
@@ -76,11 +76,13 @@ const App = extend({
                     update: setListStickyValue,
                 }}
             >
-                <div className={className}>
-                    <Banner />
-                    <List category={category} router={router} />
-                    <Footer />
-                </div>
+                {children ?? (
+                    <div className={className}>
+                        <Banner />
+                        <List category={category} router={router} />
+                        <Footer />
+                    </div>
+                )}
             </listStickyContext.Provider>
         </StrictMode>
     );
