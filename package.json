@@ -9,7 +9,7 @@
     "dependencies": {
         "axios": "^0.27.2",
         "bind-event": "^1.1.2",
-        "classnames": "^2.3.1",
+        "classnames": "^2.3.2",
         "koa-range": "^0.3.0",
         "md5-file": "^5.0.0",
         "mime": "^2.5.2",
