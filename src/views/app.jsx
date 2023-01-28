@@ -195,7 +195,7 @@ const Banner = extend({
                             订阅
                         </a>
                         <a
-                            href="https://qun.dbh.one"
+                            href="https://qun.fly-dbh.com"
                             target="_blank"
                             rel="noreferrer"
                             className="qun"
