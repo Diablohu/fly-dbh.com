@@ -15,7 +15,6 @@ import styles from './index.module.less';
 │                                               │
 │      VIDEOS     TOOLS & RES       ABOUT       │
 ├───────────────────────────────────────────────┤
-│              (VIDEOS HOME PAGE)               │
 │  LATEST VIDEOS                                │
 │  ───────────────────────────────────────────  │
 │  MSFS NEWS                                    │
@@ -29,15 +28,12 @@ import styles from './index.module.less';
 │             COPYRIGHT & CONTACTS              │
 └───────────────────────────────────────────────┘
 
-- Videos Home Page 实为新路由 /videos
-- 首页直接加载 Videos Home Page 数据，以适应上述路由设计
-- 滚动到附近时 URL 更变但页面不变
 - 导航条吸附，UI 变化
 
 导航条
 
 ┌───────────────────────────────────────────────┐
-│  VIDEOS   TOOLS & RES   ABOUT          X X X  │
+│  HOME  VIDEOS  TOOLS & RES  ABOUT      X X X  │
 └───────────────────────────────────────────────┘
 
 */
