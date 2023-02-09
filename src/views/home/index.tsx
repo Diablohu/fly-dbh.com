@@ -33,7 +33,7 @@ import styles from './index.module.less';
 导航条
 
 ┌───────────────────────────────────────────────┐
-│  HOME  VIDEOS  TOOLS & RES  ABOUT      X X X  │
+│  HOME  All_VIDS  TOOLS&RES  ABOUT      X X X  │
 └───────────────────────────────────────────────┘
 
 */
