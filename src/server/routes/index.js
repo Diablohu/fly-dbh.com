@@ -1,5 +1,6 @@
 import koaRouter from 'koa-router';
 import sanity from './sanity';
+import addRoutesHome from './home';
 
 /** @type {Object} 服务器路由对象 (koa-router) */
 export const router = koaRouter();
@@ -15,4 +16,5 @@ router.get('/api/timestamp', async (ctx) => {
         ts: Date.now(),
     };
 });
+addRoutesHome(router);
 sanity(router);

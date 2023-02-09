@@ -13,7 +13,7 @@ import routes from './routes';
 
 const forceLength = {};
 
-export default async (app) => {
+async function kootServerBefore(app) {
     app.use(range);
 
     app.use(async (ctx, next) => {
@@ -48,4 +48,6 @@ export default async (app) => {
 
     // 挂载路由
     app.use(routes);
-};
+}
+
+export default kootServerBefore;

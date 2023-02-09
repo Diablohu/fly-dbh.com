@@ -1,0 +1,26 @@
+-   ✅ `env`
+-   🔳 Server-Side API
+    -   🔳 Videos in Home
+    -   🔳 Video List
+-   🔳 Banner & Nav bar
+    -   🔳 Normal screen
+    -   🔳 Mobile screen
+-   🔳 Dark Mode
+    -   🔳 CSS Variables
+    -   🔳 Auto switch & Manual switch
+-   🔳 Isomorphic
+    -   🔳 Empty route for `/home` & `/videos`
+    -   🔳 Loading state
+-   🔳 Dev Page
+    -   🔳 Colors
+    -   🔳 Containers
+    -   🔳 Components
+-   🔳 Home Page
+-   🔳 Videos Page
+-   🔳 About Page
+-   🔳 Tools Page
+    -   🔳 OFP Weight Calculator
+-   🔳 Redirect old tag list page
+-   🔳 merge `Master`
+-   🔳 Remove files contain Sanity `PROJECT_ID` from git history
+    -   https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository

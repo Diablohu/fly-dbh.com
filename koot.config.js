@@ -10,7 +10,9 @@ require('koot/typedef');
 
 const fs = require('fs');
 const path = require('path');
+const dotenv = require('dotenv');
 
+dotenv.config();
 const {
     videos,
     // videoThumbnail
