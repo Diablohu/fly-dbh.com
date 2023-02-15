@@ -21,18 +21,24 @@ function addRoutesVideos(router: Router): void {
             start?: number;
         };
 
-        ctx.set('Access-Control-Allow-Origin', '*');
-        ctx.body = {
-            list: await sanityClient.fetch<VideoItem>(`
-*[
-${['_type == "video"', !!tag && `"${tag}" in tags[]->name`]
-    .filter((s) => !!s)
-    .join(' && ')}
-]
+        const filter = ['_type == "video"', !!tag && `"${tag}" in tags[]->name`]
+            .filter((s) => !!s)
+            .join(' && ');
+
+        const [list, total] = await Promise.all([
+            sanityClient.fetch<VideoItem>(`
+*[${filter}]
 | order(release desc)
 ${projectionVideoListItem}
 [${start}...${start + length}]
             `),
+            sanityClient.fetch<number>(`count(*[${filter}])`),
+        ]);
+
+        ctx.set('Access-Control-Allow-Origin', '*');
+        ctx.body = {
+            list,
+            total,
         };
     });
 }

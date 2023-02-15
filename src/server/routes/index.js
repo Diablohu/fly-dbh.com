@@ -1,6 +1,6 @@
 import koaRouter from 'koa-router';
 import sanity from './sanity';
-import addRoutesHome from './home';
+
 import addRoutesVideos from './videos';
 
 /** @type {Object} 服务器路由对象 (koa-router) */
@@ -17,6 +17,6 @@ router.get('/api/timestamp', async (ctx) => {
         ts: Date.now(),
     };
 });
-addRoutesHome(router);
+
 addRoutesVideos(router);
 sanity(router);
