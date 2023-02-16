@@ -31,23 +31,34 @@ export interface RouteComponentProps {
     };
 }
 
+// API Params =================================================================
+
+export type ParamsGetVideos = {
+    tag?: VideoTag;
+    length?: number;
+    start?: number;
+};
+
 // ============================================================================
 export type VideoTag =
-    | 'clip'
-    | 'training'
-    | 'landing'
-    // | 'airport'
-    // | 'route'
-    | 'device'
-    | 'mod'
-    | 'tour'
     | 'news'
+    | 'training'
     | 'flight'
-    | 'tip'
     | 'test'
     | 'benchmark'
     | 'world'
-    | 'chat';
+    | 'chat'
+    | 'danger'
+    | 'patch'
+    | 'tip'
+    | 'clip'
+    | 'landing'
+    | 'tour'
+    | 'mod'
+    | 'device'
+    | 'vr'
+    | 'dev-qa'
+    | 'atc';
 export type VideoSource = 'bilibili' | 'youtube';
 export interface VideoItem {
     title: string;

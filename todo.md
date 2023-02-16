@@ -1,7 +1,7 @@
 -   ✅ `env`
 -   🔳 Server-Side API
-    -   🔳 Videos in Home
-    -   🔳 Video List
+    -   ✅ Video List
+    -   🔳 Tag List
 -   🔳 Banner & Nav bar
     -   🔳 Normal screen
     -   🔳 Mobile screen

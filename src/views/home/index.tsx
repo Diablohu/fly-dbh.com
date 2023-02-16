@@ -37,9 +37,9 @@ import styles from './index.module.less';
 └───────────────────────────────────────────────┘
 
 TOOLS
-- OPF Weight Calculator
+- OPF PAX Calculator
 - Home-made Simple Interactive Checklist
--
+- Liveries
 
 */
 
