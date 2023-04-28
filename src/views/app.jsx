@@ -245,7 +245,7 @@ const List = extend({
 })(
     memo(({ defaultSource, category = '', router, rawTags }) => {
         const ContainerRef = useRef(null);
-        const HeaderRef = useRef(null);
+        const HeaderObserverSpotRef = useRef(null);
 
         const [source, setSource] = useState(defaultSource);
         // const [tag, setTag] = useState(category);
@@ -288,26 +288,28 @@ const List = extend({
         }
 
         useEffect(() => {
-            if (!HeaderRef || !HeaderRef.current) return;
+            if (!HeaderObserverSpotRef || !HeaderObserverSpotRef.current)
+                return;
             if (List.observer) return;
             List.observer = new IntersectionObserver(
                 ([e]) => {
-                    // console.log(e.boundingClientRect, e.intersectionRect);
+                    // console.log(123, e.boundingClientRect, e.intersectionRect);
                     // e.target.classList.toggle(
                     //     'is-sticky',
                     //     e.boundingClientRect.top <= 0 &&
                     //         e.intersectionRatio < 1 &&
                     //         e.intersectionRatio > 0
                     // );
-                    setSticky(
-                        e.boundingClientRect.top <= 0 &&
-                            e.intersectionRatio < 1 &&
-                            e.intersectionRatio > 0
-                    );
+                    // console.log(
+                    //     123,
+                    //     e.boundingClientRect.top,
+                    //     e.intersectionRatio
+                    // );
+                    setSticky(e.intersectionRatio <= 0);
                 },
                 { threshold: [1, 0] }
             );
-            List.observer.observe(HeaderRef.current);
+            List.observer.observe(HeaderObserverSpotRef.current);
         }, [setSticky]);
 
         useEffect(() => {
@@ -359,8 +361,11 @@ const List = extend({
                             'is-sticky': sticky,
                         },
                     ])}
-                    ref={HeaderRef}
                 >
+                    <span
+                        className="observe-spot"
+                        ref={HeaderObserverSpotRef}
+                    ></span>
                     <Center className="wrapper">
                         <h2 className="title">
                             最新视频
@@ -466,7 +471,7 @@ const List = extend({
 const Footer = memo(() => {
     return (
         <Center className={`${classNameModule}-footer`}>
-            &#169; 2022{' '}
+            &#169; 2023{' '}
             <a href="https://diablohu.com/" target="_blank" rel="noreferrer">
                 diablohu.com
             </a>{' '}

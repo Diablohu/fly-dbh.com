@@ -162,9 +162,9 @@
     padding: 20px 0 60px 0;
     & > .header {
         position: sticky;
-        top: -1px;
+        top: 0;
         z-index: 50;
-        padding: 20px 0 24px 0;
+        padding: 18px 0 24px 0;
         transition: none ease-out 200ms;
         transition-property: box-shadow;
         // transition-property: border-bottom-color, background-color, box-shadow;
@@ -185,6 +185,13 @@
             @supports (backdrop-filter: blur(20px) saturate(180%)) {
                 background: fade(#fff, 65%);
             }
+        }
+        & > .observe-spot {
+            position: absolute;
+            top: -2px;
+            left: 0;
+            width: 1px;
+            height: 1px;
         }
         & > .wrapper {
             display: flex;
