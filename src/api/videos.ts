@@ -11,7 +11,13 @@ import { UPDATE_VIDEO_LIST } from '@constants/action-types';
 import query from './query';
 
 export const getVideoList =
-    (): ThunkAction<void, RootState, unknown, Action<string>> =>
+    ({
+        from = 0,
+        length = 20,
+    }: {
+        from?: number;
+        length?: number;
+    }): ThunkAction<void, RootState, unknown, Action<string>> =>
     async (dispatch) => {
         if (__SERVER__) {
             return dispatch({

@@ -2,14 +2,14 @@ import type Router from 'koa-router';
 // import type { AxiosResponse } from 'axios';
 
 import axios from 'axios';
-// import NodeCache from 'node-cache';
+import NodeCache from 'node-cache';
 
-// const SanityCache = new NodeCache({
-//     useClones: false,
-//     checkperiod: 60 * 30, // 30 minutes
-// });
+const SanityCache = new NodeCache({
+    useClones: false,
+    checkperiod: 60 * 30, // 30 minutes
+});
 
-export default (router: Router): void => {
+const addRouteSanity = (router: Router): void => {
     router.post('/query/:qs', async (ctx) => {
         // const cachedValue = SanityCache.get(ctx.params.qs);
 
@@ -20,7 +20,9 @@ export default (router: Router): void => {
         //     );
         // }
 
+        // TODO: SANITY_PROJECT_ID
         const PROJECT_ID = 'w0egla5g';
+        // TODO: SANITY_DATASET
         const DATASET = 'production';
         const QUERY = encodeURIComponent(ctx.params.qs);
         // Compose the URL for your project's endpoint and add the query
@@ -34,3 +36,5 @@ export default (router: Router): void => {
         return axios.get(URL);
     });
 };
+
+export default addRouteSanity;
