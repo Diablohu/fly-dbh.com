@@ -1,7 +1,7 @@
-import { PureComponent, memo } from 'react';
+import { memo, useState, useRef, useEffect, useCallback, useMemo } from 'react';
 import { extend } from 'koot';
 
-import { getVideoList } from '@api/videos';
+import { getVideoList, getVideoListAction } from '@api/videos';
 import Icon from '@components/icon';
 import Tag from '@components/tag';
 
@@ -11,40 +11,132 @@ import styles, { wrapper as classNameModule } from './index.module.less';
 
 // Component Class ============================================================
 
-@extend({
+const VideoList = extend({
     connect: (state) => ({
-        list: state.videos ?? [],
+        initialList:
+            state.videos.filter(({ release }) => Date.now() > release) ?? [],
     }),
-    data: (state, renderProps, dispatch) => dispatch(getVideoList()),
+    data: {
+        fetch: (state, renderProps, dispatch) => {
+            return dispatch(getVideoListAction());
+        },
+        check: (state, renderProps) => {
+            // 当满足以下条件时，表示数据已就绪，`fetch` 方法不运行
+            return (
+                Array.isArray(renderProps.initialList) &&
+                renderProps.initialList.length > 0
+            );
+        },
+    },
     styles,
-})
-class VideoList extends PureComponent {
-    state: {
-        sort: 'desc',
-    };
+})(({ className, initialList, tag, source }) => {
+    const EndBarRef = useRef(null);
 
-    render() {
-        const now = Date.now();
-        return (
-            <div className={this.props.className}>
-                {this.props.list
-                    .filter(({ release }) => now > release)
+    const [list, setList] = useState(initialList);
+    const [loading, setLoading] = useState(false);
+    const [error, setError] = useState(false);
+    const [isListEnd, setIsListEnd] = useState(false);
+    const [currentIndex, setCurrentIndex] = useState(initialList.length);
+
+    const lastItemRelease = useMemo(() => {
+        if (list.length === 0) return 0;
+        const lastItem = list[list.length - 1];
+        if (typeof lastItem.release === 'number') return lastItem.release;
+        return Date(list[list.length - 1].release).valueOf();
+    }, [list]);
+
+    const loadMore = useCallback(async () => {
+        if (loading) return;
+        setLoading(true);
+
+        // console.log(123, 'getVideoList', { from: currentIndex });
+
+        const newItems = await getVideoList({ from: currentIndex }).catch(
+            (err) => {
+                setError(err);
+                setLoading(false);
+                return [];
+            },
+        );
+
+        const availableItems = newItems.filter(({ release }) => {
+            return lastItemRelease > release;
+        });
+
+        // console.log(123, { newItems, availableItems });
+
+        if (availableItems.length === 0) {
+            setIsListEnd(true);
+            return;
+        }
+
+        const newList = [...list, ...availableItems];
+        setList(newList);
+        setCurrentIndex(list.length + newItems.length);
+
+        // loadMore();
+        // console.log(123, '~~~', newList);
+        // console.log('\n\n');
+
+        setLoading(false);
+    }, [loading, currentIndex, list, lastItemRelease]);
+
+    useEffect(() => {
+        if (!EndBarRef || !EndBarRef.current) return;
+
+        if (isListEnd) {
+            VideoList.endBarObserver?.unobserve(EndBarRef.current);
+            return;
+        }
+
+        if (VideoList.endBarObserver) {
+            VideoList.endBarObserver?.unobserve(EndBarRef.current);
+        }
+
+        if (loading) return;
+
+        VideoList.endBarObserver = new IntersectionObserver(
+            ([e]) => {
+                if (e.isIntersecting && !loading) {
+                    loadMore();
+                }
+                // console.log(
+                //     123,
+                //     e.boundingClientRect,
+                //     e.intersectionRect,
+                //     e.intersectionRatio,
+                //     e.isIntersecting,
+                // );
+                // console.log(
+                //     123,
+                //     e.boundingClientRect.top,
+                //     e.intersectionRatio
+                // );
+            },
+            { threshold: [1, 0] },
+        );
+
+        VideoList.endBarObserver.observe(EndBarRef.current);
+    }, [isListEnd, loadMore, loading]);
+
+    return (
+        <div className={className}>
+            <div className={`${classNameModule}-list`}>
+                {list
                     .filter(
                         ({ tags }) =>
-                            !this.props.tag ||
-                            tags.some(({ value }) => value === this.props.tag)
+                            !tag || tags.some(({ value }) => value === tag),
                     )
                     .map((item) => (
-                        <Item
-                            video={item}
-                            key={item.release}
-                            source={this.props.source}
-                        />
+                        <Item video={item} key={item.release} source={source} />
                     ))}
             </div>
-        );
-    }
-}
+            <div className={`${classNameModule}-list-end`} ref={EndBarRef}>
+                {error ? error : isListEnd ? '没有更多啦' : 'LOADING...'}
+            </div>
+        </div>
+    );
+});
 
 export default VideoList;
 
@@ -108,5 +200,5 @@ const Item = memo(
                 </span>
             </C>
         );
-    }
+    },
 );

@@ -10,31 +10,34 @@ const SanityCache = new NodeCache({
 export default <T>(
     queryString: string,
     settings?: {
-        useCDN?: boolean;
-    }
+        // useCDN?: boolean;
+    },
 ): Promise<AxiosResponse<T>> => {
+    // console.log('-_-_-_-_-_-_ query.ts _-_-_-_-_-_-_');
     const cachedValue = SanityCache.get(queryString);
-    const { useCDN = true } = settings ?? {};
+    // const { useCDN = true } = settings ?? {};
 
     if (cachedValue) {
         // console.log(1111, 'cache hit');
         return new Promise((resolve) =>
-            resolve(cachedValue as Promise<AxiosResponse<T>>)
+            resolve(cachedValue as Promise<AxiosResponse<T>>),
         );
     }
 
-    // TODO: SANITY_PROJECT_ID
-    const PROJECT_ID = 'w0egla5g';
-    // TODO: SANITY_DATASET
-    const DATASET = 'production';
-    const QUERY = encodeURIComponent(queryString);
+    const QUERY = encodeURIComponent(queryString.replace(/\n[ ]*/gm, ''));
     // Compose the URL for your project's endpoint and add the query
-    const URL = `https://${PROJECT_ID}.${
-        useCDN ? 'apicdn' : 'api'
-    }.sanity.io/v2021-10-21/data/query/${DATASET}?query=${QUERY}`;
+    // const URL = `https://${PROJECT_ID}.${
+    //     useCDN ? 'apicdn' : 'api'
+    // }.sanity.io/v2021-10-21/data/query/${DATASET}?query=${QUERY}`;
+    const URL =
+        (__CLIENT__ ? '' : `http://localhost:${process.env.SERVER_PORT}`) +
+        `/query/${QUERY}`;
 
-    return axios.get(URL).then((res) => {
+    // console.log(URL);
+
+    return axios.post(URL).then((res) => {
         // console.log(1111, SanityCache, queryString);
+        // console.log(res);
         SanityCache.set(queryString, res);
         return res;
     });

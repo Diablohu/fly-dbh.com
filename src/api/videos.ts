@@ -10,22 +10,17 @@ import { UPDATE_VIDEO_LIST } from '@constants/action-types';
 
 import query from './query';
 
-export const getVideoList =
-    ({
-        from = 0,
-        length = 20,
-    }: {
-        from?: number;
-        length?: number;
-    }): ThunkAction<void, RootState, unknown, Action<string>> =>
-    async (dispatch) => {
-        if (__SERVER__) {
-            return dispatch({
-                type: UPDATE_VIDEO_LIST,
-                payload: (
-                    await query<{
-                        result: VideoItem[];
-                    }>(`*[_type == "video"] | order(release desc){
+export const getVideoList = async ({
+    from = 0,
+    length = 20,
+}: {
+    from?: number;
+    length?: number;
+} = {}) =>
+    (
+        await query<{
+            result: VideoItem[];
+        }>(`*[_type == "video"] | order(release desc){
                         _id,
                         title,
                         'tags': tags[]->{
@@ -33,16 +28,33 @@ export const getVideoList =
                             "label": title
                         },
                         release,
-                        "cover": cover.asset->url + '?auto=format&w=600&q=50',
+                        "cover": cover.asset->url + '?auto=format&w=400&q=50',
                         links
-                    }`)
-                )?.data?.result?.map(({ release, ...p }) => ({
-                    release: new Date(release).valueOf(),
-                    ...p,
-                })),
-            });
-        }
-        return;
+                    }[${from}...${from + length}]`)
+    )?.data?.result?.map(({ release, ...p }) => ({
+        release: new Date(release).valueOf(),
+        ...p,
+    }));
+
+export const getVideoListAction =
+    ({
+        from = 0,
+        length = 20,
+    }: {
+        from?: number;
+        length?: number;
+    } = {}): ThunkAction<void, RootState, unknown, Action<string>> =>
+    async (dispatch) => {
+        // if (__SERVER__) {
+        return dispatch({
+            type: UPDATE_VIDEO_LIST,
+            payload: await getVideoList({
+                from,
+                length,
+            }),
+        });
+        // }
+        // return;
     };
 
 // tags[]->

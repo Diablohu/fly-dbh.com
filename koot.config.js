@@ -10,6 +10,10 @@ require('koot/typedef');
 
 const fs = require('fs');
 const path = require('path');
+const webpack = require('webpack');
+const dotenv = require('dotenv');
+
+dotenv.config();
 
 const {
     videos,
@@ -105,6 +109,10 @@ module.exports = {
                 },
             ],
         },
+
+        // plugins: [
+        //     new webpack.EnvironmentPlugin(['SANITY_PROJECT_ID', 'SANITY_DATASET'])
+        // ]
     }),
     staticCopyFrom: [
         path.resolve(__dirname, './src/assets/public'),
@@ -149,9 +157,14 @@ module.exports = {
         __SVG_ICON_PACK__: JSON.stringify(
             fs.readFileSync(
                 path.resolve(__dirname, './src/assets/symbol-defs.svg'),
-                'utf-8'
-            )
+                'utf-8',
+            ),
         ).replace(/\n/g, ''),
+        ...['SANITY_PROJECT_ID', 'SANITY_DATASET'].reduce((obj, key) => {
+            const value = process.env[key];
+            if (value) obj[`process.env.${key}`] = JSON.stringify(value);
+            return obj;
+        }, {}),
     },
     devPort: 3090,
 
