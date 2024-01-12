@@ -1,4 +1,5 @@
 import koaRouter from 'koa-router';
+
 import sanity from './sanity';
 
 /** @type {Object} 服务器路由对象 (koa-router) */

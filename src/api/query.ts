@@ -24,21 +24,23 @@ export default <T>(
         );
     }
 
-    const QUERY = encodeURIComponent(queryString.replace(/\n[ ]*/gm, ''));
+    const QUERY = queryString.replace(/\n[ ]*/gm, '');
     // Compose the URL for your project's endpoint and add the query
     // const URL = `https://${PROJECT_ID}.${
     //     useCDN ? 'apicdn' : 'api'
     // }.sanity.io/v2021-10-21/data/query/${DATASET}?query=${QUERY}`;
     const URL =
         (__CLIENT__ ? '' : `http://localhost:${process.env.SERVER_PORT}`) +
-        `/query/${QUERY}`;
+        `/query`;
 
-    // console.log(URL);
-
-    return axios.post(URL).then((res) => {
-        // console.log(1111, SanityCache, queryString);
-        // console.log(res);
-        SanityCache.set(queryString, res);
-        return res;
-    });
+    return axios
+        .post(URL, {
+            query: QUERY,
+        })
+        .then((res) => {
+            // console.log(1111, SanityCache, queryString);
+            // console.log(res);
+            SanityCache.set(queryString, res);
+            return res;
+        });
 };

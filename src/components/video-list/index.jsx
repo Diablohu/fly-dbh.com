@@ -130,8 +130,12 @@ const VideoList = extend({
                     .map((item) => (
                         <Item video={item} key={item.release} source={source} />
                     ))}
+                <div
+                    className={`${classNameModule}-list-end-item`}
+                    ref={EndBarRef}
+                ></div>
             </div>
-            <div className={`${classNameModule}-list-end`} ref={EndBarRef}>
+            <div className={`${classNameModule}-list-after`}>
                 {error ? error : isListEnd ? '没有更多啦' : 'LOADING...'}
             </div>
         </div>

@@ -8,6 +8,7 @@ import fs from 'fs';
 import path from 'path';
 import range from 'koa-range';
 import mime from 'mime/lite';
+import bodyParser from '@koa/bodyparser';
 
 import routes from './routes';
 
@@ -15,6 +16,7 @@ const forceLength = {};
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default async (app) => {
+    app.use(bodyParser());
     app.use(range);
 
     app.use(async (ctx, next) => {
@@ -27,7 +29,7 @@ export default async (app) => {
             const file = path.resolve(
                 global.KOOT_DIST_DIR,
                 'public',
-                ctx.path.replace(/^(\/|\\)/, '')
+                ctx.path.replace(/^(\/|\\)/, ''),
             );
             // console.log(
             //     ctx.path,

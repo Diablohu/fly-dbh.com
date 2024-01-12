@@ -10,7 +10,7 @@ import axios from 'axios';
 // });
 
 const addRouteSanity = (router: Router): void => {
-    router.post('/query/:qs', async (ctx) => {
+    router.post('/query', async (ctx) => {
         // const cachedValue = SanityCache.get(ctx.params.qs);
 
         // if (cachedValue) {
@@ -22,7 +22,13 @@ const addRouteSanity = (router: Router): void => {
 
         const PROJECT_ID = process.env.SANITY_PROJECT_ID;
         const DATASET = process.env.SANITY_DATASET;
-        const QUERY = encodeURIComponent(ctx.params.qs);
+        const QUERY = encodeURIComponent(
+            (
+                ctx.request.body as {
+                    query?: string;
+                }
+            )?.query || '',
+        );
         // Compose the URL for your project's endpoint and add the query
         const URL = `https://${PROJECT_ID}.apicdn.sanity.io/v2021-10-21/data/query/${DATASET}?query=${QUERY}`;
 
