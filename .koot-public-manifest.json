@@ -11,19 +11,19 @@
                 "public/includes/entry.51773d6a5e3fc3e767f8.js"
             ],
             "client": [
-                "public/includes/entry.fc2c12b23f0e9af082c7.js",
-                "public/includes/entry.742642b6539fca3d7bea.js",
-                "public/includes/entry.5512e4551a3deba40bb8.js"
+                "public/includes/entry.691284f4ab178a20988b.js",
+                "public/includes/entry.c5a8e90c5c84f458db5b.js",
+                "public/includes/entry.b6c129c90a869326e2a0.js"
             ]
         },
         ".files": {
             "critical.css": "public/includes/extract.122.083a7a5c992363ae04e6.css",
             "critical.js": "public/includes/entry.083a7a5c992363ae04e6.js",
             "__KOOT__CLIENT__RUN__FIRST__.js": "public/includes/entry.51773d6a5e3fc3e767f8.js",
-            "client.js": "public/includes/entry.5512e4551a3deba40bb8.js",
-            "PageToolOFPPaxCalc.js": "public/includes/chunk.a6968313796906c627e6.js",
-            "libs.js": "public/includes/entry.fc2c12b23f0e9af082c7.js",
-            "vendors.js": "public/includes/entry.742642b6539fca3d7bea.js",
+            "client.js": "public/includes/entry.b6c129c90a869326e2a0.js",
+            "PageToolOFPPaxCalc.js": "public/includes/chunk.23b84d9c664484b1d49c.js",
+            "libs.js": "public/includes/entry.691284f4ab178a20988b.js",
+            "vendors.js": "public/includes/entry.c5a8e90c5c84f458db5b.js",
             "__KOOT__EXTRACT__CSS__.css": "public/includes/extract.all.14dcf092e5523a8dc68ea95608ea9f92.small.css"
         },
         "service-worker": [
