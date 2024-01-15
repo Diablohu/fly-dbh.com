@@ -33,7 +33,8 @@
             "~data": ["./.data"],
             "~data/*": ["./.data/*"],
             "@types": ["./types"],
-            "@types/*": ["./types/*"]
+            "@types/*": ["./types/*"],
+            "~AppConfig": ["./app.config.js"]
         }
     },
     "exclude": [".*", "dist", "dist*", "node_modules"]

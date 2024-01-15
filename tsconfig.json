@@ -41,7 +41,8 @@
             "~data": ["./.data"],
             "~data/*": ["./.data/*"],
             "@types": ["./types"],
-            "@types/*": ["./types/*"]
+            "@types/*": ["./types/*"],
+            "~AppConfig": ["./app.config.js"]
         }
     },
     "include": ["src", "data", "types/**/*.ts", ".data/**/*.ts"]

@@ -10,7 +10,7 @@ require('koot/typedef');
 
 const fs = require('fs');
 const path = require('path');
-const webpack = require('webpack');
+// const webpack = require('webpack');
 const dotenv = require('dotenv');
 
 dotenv.config();
@@ -138,6 +138,8 @@ module.exports = {
      * 开发环境 & 开发设置
      *************************************************************************/
     aliases: {
+        '~AppConfig': path.resolve('./app.config.js'),
+        '@/': path.resolve('./src/'),
         '@src': path.resolve('./src'),
         '@api': path.resolve('./src/api'),
         '@assets': path.resolve('./src/assets'),

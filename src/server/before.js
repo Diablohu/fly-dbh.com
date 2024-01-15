@@ -11,6 +11,7 @@ import mime from 'mime/lite';
 import bodyParser from '@koa/bodyparser';
 
 import routes from './routes';
+import proxies from './proxies';
 
 const forceLength = {};
 
@@ -51,4 +52,7 @@ export default async (app) => {
 
     // 挂载路由
     app.use(routes);
+
+    // 挂载代理
+    proxies.forEach((proxy) => app.use(proxy));
 };

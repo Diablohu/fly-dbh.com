@@ -7,6 +7,7 @@ import { ThunkAction } from 'redux-thunk';
 
 import { RootState, VideoItem } from '@types';
 import { UPDATE_VIDEO_LIST } from '@constants/action-types';
+import { routeNameSanityImageCdn } from '~AppConfig';
 
 import query from './query';
 
@@ -20,19 +21,25 @@ export const getVideoList = async ({
     (
         await query<{
             result: VideoItem[];
-        }>(`*[_type == "video"] | order(release desc){
-                        _id,
-                        title,
-                        'tags': tags[]->{
-                            "value": name,
-                            "label": title
-                        },
-                        release,
-                        "cover": cover.asset->url + '?auto=format&w=400&q=50',
-                        links
-                    }[${from}...${from + length}]`)
-    )?.data?.result?.map(({ release, ...p }) => ({
+        }>(`
+*[_type == "video"] | order(release desc){
+    _id,
+    title,
+    'tags': tags[]->{
+        "value": name,
+        "label": title
+    },
+    release,
+    "cover": cover.asset->path + '?auto=format&w=400&q=50',
+    links
+}[${from}...${from + length}]
+            `)
+    )?.data?.result?.map(({ release, cover, ...p }) => ({
         release: new Date(release).valueOf(),
+        cover: `/${routeNameSanityImageCdn}${cover.replace(
+            `images/${process.env.SANITY_PROJECT_ID}/${process.env.SANITY_DATASET}`,
+            '',
+        )}`,
         ...p,
     }));
 
