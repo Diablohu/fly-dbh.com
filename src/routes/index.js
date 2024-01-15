@@ -35,6 +35,48 @@ export default {
     // },
 
     childRoutes: [
+        // TODO: Archives
+        {
+            path: '/archives',
+            getComponent: (nextState, cb) => {
+                import(
+                    /* webpackChunkName: "PageArchives" */
+                    '@views/tools/ofp-pax-calc'
+                ).then((module) => {
+                    if (routeCheck(nextState)) cb(null, module.default);
+                });
+            },
+            childRoutes: [
+                {
+                    path: 'p::page',
+                },
+                {
+                    path: ':category',
+                },
+                {
+                    path: ':category/:page',
+                },
+            ],
+        },
+
+        // TODOS: Promos
+        {
+            path: '/promos',
+            getComponent: (nextState, cb) => {
+                import(
+                    /* webpackChunkName: "PagePromos" */
+                    '@views/tools/ofp-pax-calc'
+                ).then((module) => {
+                    if (routeCheck(nextState)) cb(null, module.default);
+                });
+            },
+            childRoutes: [
+                {
+                    path: ':promoId',
+                },
+            ],
+        },
+
         {
             path: '/tools/ofp-pax-calc',
             getComponent: (nextState, cb) => {
