@@ -13,15 +13,15 @@
             "client": [
                 "public/includes/entry.691284f4ab178a20988b.js",
                 "public/includes/entry.c5a8e90c5c84f458db5b.js",
-                "public/includes/entry.029608843e7bc8d19ff0.js"
+                "public/includes/entry.ce78f3b8e6fd3575edfb.js"
             ]
         },
         ".files": {
             "critical.css": "public/includes/extract.122.083a7a5c992363ae04e6.css",
             "critical.js": "public/includes/entry.083a7a5c992363ae04e6.js",
             "__KOOT__CLIENT__RUN__FIRST__.js": "public/includes/entry.51773d6a5e3fc3e767f8.js",
-            "client.js": "public/includes/entry.029608843e7bc8d19ff0.js",
-            "PageToolOFPPaxCalc.js": "public/includes/chunk.23b84d9c664484b1d49c.js",
+            "client.js": "public/includes/entry.ce78f3b8e6fd3575edfb.js",
+            "PagePromos.js": "public/includes/chunk.df9886e7bcb6964876da.js",
             "libs.js": "public/includes/entry.691284f4ab178a20988b.js",
             "vendors.js": "public/includes/entry.c5a8e90c5c84f458db5b.js",
             "__KOOT__EXTRACT__CSS__.css": "public/includes/extract.all.14dcf092e5523a8dc68ea95608ea9f92.small.css"
